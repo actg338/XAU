@@ -140,8 +140,8 @@ function drawPriceChart() {
     }
     
     // Calculate chart bounds
-    const minPrice = Math.min.apply(null, data);
-    const maxPrice = Math.max.apply(null, data);
+    const minPrice = Math.min(...data);
+    const maxPrice = Math.max(...data);
     const priceRange = maxPrice - minPrice;
     const padding = priceRange * 0.1;
     
