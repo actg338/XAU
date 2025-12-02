@@ -1,0 +1,451 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MT5量化策略EA - 专业交易工具</title>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17759696975"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17759696975');
+</script>
+	<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script><script>LA.init({id:"3O8iyB5kEP8PRu4W",ck:"3O8iyB5kEP8PRu4W",autoTrack:true,hashMode:true,screenRecord:true})</script>
+	<style type="text/css">body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: row; /* 左右排列 */
+            gap: 20px;
+        }
+
+        .left-panel {
+            flex: 2;
+            max-width: 400px;
+            
+        }
+
+        .main-content {
+            flex: 2;
+            
+        }
+
+        h1, h2, h3 {
+            color: #4CAF50;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: white;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #4CAF50;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        .btn-container {
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        .video-container {
+            text-align: center;
+        }
+
+        .video-container video {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1000;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .modal img {
+            max-width: 200px;
+            height: auto;
+            margin-top: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .modal h3 {
+            margin: 0 0 10px 0;
+        }
+
+        .modal .close {
+            display: block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .modal .close:hover {
+            background: #45a049;
+        }
+
+        /* 响应式布局 */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column; /* 小屏幕切换为上下排列 */
+            }
+
+            .left-panel, .main-content {
+                max-width: 100%;
+            }
+        }
+	</style>
+</head>
+<body><!-- 悬浮按钮 -->
+<p><button class="floating-btn" onclick="toggleModal()">+</button><!-- 遮罩层 --></p>
+
+<div class="overlay" onclick="toggleModal()"></div>
+<!-- 悬浮窗口 -->
+
+<div class="modal">
+<h3>经纪商注册</h3>
+
+<div class="btn-container"><button class="btn" onclick="window.location.href='https://portal.tmfxdata.com/register?r_code=IB1750137154C'">注册TMGM经纪商账号</button></div>
+
+<div class="btn-container"><button class="btn" onclick="window.location.href='https://my.ausglobaldirect.com/direct/registerbroker?key=21E442CEBCA6970F44B57A5E0BB6E377A6D3EED408770755B74AB99221C1BD587F07FF42E8613EF8'">注册AUS经纪商代理</button></div>
+
+<div class="btn-container"><button class="btn" onclick="window.location.href='https://my.ausglobaldirect.com/direct/register?key=21E442CEBCA6970F44B57A5E0BB6E377BCC42D16E2ECC90A368F55734764FF2C8B294B0403FEF6880789C56167F34CF3E65510B03C6512F3'">注册AUS经纪商账号</button></div>
+
+<div class="btn-container"><button class="btn" onclick="window.location.href='https://one.justmarkets.link/a/trutub0hkx'">注册JustMarkets经纪商账号</button></div>
+<div class="btn-container"><button class="btn" onclick="window.location.href='https://www.hfm-chn.com/sv/cn/?refid=30487893'">注册HFM经纪商账号</button></div>
+</div>
+<script>
+    // 切换悬浮窗口和遮罩层的显示状态
+    function toggleModal() {
+        const modal = document.querySelector('.modal');
+        const overlay = document.querySelector('.overlay');
+        modal.classList.toggle('active');
+        overlay.classList.toggle('active');
+    }
+</script>
+
+<header>
+<style type="text/css">header {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* 居中对齐标题和描述 */
+            background-color: #4CAF50; /* 背景绿色 */
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px; /* 调整字体大小 */
+            color: white; /* 标题白色 */
+            font-weight: bold; /* 标题加粗 */
+        }
+
+        header p {
+            margin: 10px 0;
+            font-size: 16px;
+            color: white; /* 描述文字白色 */
+            text-align: center;
+        }
+
+        .btn-container-wrapper {
+            display: flex;
+            justify-content: space-between; /* 左右分布 */
+            width: 100%;
+            max-width: 800px; /* 限制宽度 */
+            margin-top: 20px;
+        }
+
+        .btn-container {
+            flex: 1;
+            display: flex;
+            justify-content: center; /* 按钮居中 */
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 25px;
+            font-size: 16px;
+            color: white; /* 按钮文字白色 */
+            background-color: #4CAF50; /* 按钮内部绿色 */
+            border: 2px solid black; /* 黑色边框 */
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background-color: #45a049; /* 按钮悬停时颜色变暗 */
+
+        }
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50; /* 按钮背景绿色 */
+    color: white; /* 按钮文字颜色 */
+    border: none;
+    border-radius: 20px; /* 调整为圆角矩形 */
+    width: auto; /* 按钮宽度自适应 */
+high: auto
+    padding: 8px 16px; /* 内边距，增加文字显示空间 */
+    font-size: 30px; /* 调整字体大小 */
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* 添加阴影效果 */
+z-index: 9999
+}
+
+.floating-btn:hover {
+    background-color: #45a049; /* 悬停时背景变暗 */
+}
+</style>
+<h1>MT5量化交易策略EA</h1>
+
+<p>专业化量化交易工具，让您的交易更加智能高效</p>
+
+<!-- Google Translate widget -->
+<div id="google_translate_element" style="position: absolute; top: 10px; right: 10px; z-index: 9999;"></div>
+
+<div class="btn-container-wrapper"><!-- 左侧按钮 -->
+<div class="btn-container"><button class="btn" onclick="showModal()">立即购买EA策略</button></div>
+<!-- 右侧按钮 --></div>
+<style type="text/css">body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 悬浮按钮样式 */
+        .floating-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            font-size: 24px;
+            text-align: center;
+            line-height: 60px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .floating-btn:hover {
+            background-color: #45a049;
+        }
+
+        /* 悬浮窗口样式 */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1000;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 400px;
+        }
+
+        .modal h3 {
+            margin-top: 0;
+            text-align: center;
+            color: #333;
+        }
+
+        .modal .btn-container {
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        .modal .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 14px;
+            color: white;
+            background-color: #4CAF50;
+            border: 1px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin: 5px 0;
+            width: auto;
+            text-align: center;
+        }
+
+        .modal .btn:hover {
+            background-color: #45a049;
+        }
+
+        /* 遮罩层样式 */
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+
+        /* 显示悬浮窗 */
+        .modal.active, .overlay.active {
+            display: block;
+        }
+</style>
+</header>
+
+<div class="container"><!-- 左侧面板：视频展示 -->
+<div class="left-panel">
+<div class="video-container">
+<h2>EA展示视频</h2>
+
+<video controls=""><source src="stg.mp4" type="video/mp4" /> 您的浏览器不支持视频播放，请更换浏览器或下载视频观看。</video>
+</div>
+</div>
+<!-- 右侧内容：功能和说明 -->
+
+<div class="main-content">
+<h2>EA功能亮点</h2>
+
+<ul>
+	<li><strong>智能开单管理：</strong>支持开单总开关、动态最大持仓计算、时间间隔控制等功能。</li>
+	<li><strong>灵活止盈止损：</strong>支持动态止损、浮亏保护止盈、移动止损等多种盈利保护机制。</li>
+	<li><strong>SAR信号过滤：</strong>基于抛物线指标（SAR）的趋势信号，提供更精准的开仓点。</li>
+	<li><strong>高级风险控制：</strong>内置账户余额、预付款比例等风险管理机制，确保交易安全。</li>
+	<li><strong>多种交易场景支持：</strong>支持多种货币对、不同账户类型以及各类交易策略需求。</li>
+</ul>
+
+<h2>新增功能</h2>
+
+<ul>
+	<li><strong>动态止损（Dynamic SL）：</strong>随价格变化自动调整止损，降低风险。</li>
+	<li><strong>高级风险管理：</strong>启用动态最大持仓计算，基于保证金比例控制风险。</li>
+	<li><strong>浮亏保护止盈：</strong>在浮亏触发后设置保护性止盈，减少损失。</li>
+	<li><strong>精准止损控制：</strong>每单支持单独止损金额与滑点设置。</li>
+</ul>
+
+<h2>EA参数概览</h2>
+
+<p>以下为EA的主要设置参数：</p>
+
+<ul>
+	<li><strong>开单参数：</strong>支持开单总开关、最小间隔时间、滑点控制等。</li>
+	<li><strong>SAR参数：</strong>灵活设置加速因子、初始值和最大值，支持信号反转开单。</li>
+	<li><strong>移动止损参数：</strong>支持盈利触发移动止损、缓冲点数补偿等。</li>
+	<li><strong>止盈止损参数：</strong>支持单仓止盈目标、动态止损比例、保护性止盈触发等。</li>
+	<li><strong>风险管理参数：</strong>最低账户余额、预付款比例、动态最大持仓数等。</li>
+</ul>
+
+<h2>使用说明</h2>
+
+<ol>
+	<li>下载EA文件并将其放置到MT5目录下的 `Experts` 文件夹中。</li>
+	<li>打开MT5平台，在导航窗口中找到EA并加载到目标图表。</li>
+	<li>根据您的交易需求，设置EA的参数（可参考参数说明）。</li>
+	<li>启用EA，开始运行。EA会根据市场状况自动进行智能交易。</li>
+</ol>
+
+<h2>适用人群</h2>
+
+<ul>
+	<li>期望实现自动化交易的投资者。</li>
+	<li>希望通过量化策略提高交易效率的外汇交易者。</li>
+	<li>关注风险管理与盈利保护的保守型投资者。</li>
+</ul>
+</div>
+</div>
+<!-- 弹窗 -->
+
+<div class="modal" id="modal">
+<h3>点击购买</h3>
+<a class="btn" href="https://www.mql5.com/zh/market/product/156992?source=Site+Market+My+Products+Page" style="margin-bottom:8px;" target="_blank">MT5中直接购买</a> <a class="close" onclick="closeModal()">关闭</a></div>
+
+<footer>
+<p>&copy; 2025 MT5量化策略开发微信：thRO03 | 版权所有</p>
+</footer>
+<script>
+    function showModal() {
+        document.getElementById('modal').style.display = 'block';
+    }
+
+    function closeModal() {
+        document.getElementById('modal').style.display = 'none';
+    }
+</script>
+
+<!-- Google Translate: 初始化 -->
+<script type="text/javascript">
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'zh-CN', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"c71a6fca8db44e87b1ad0692e77cb05f","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
