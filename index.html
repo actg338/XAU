@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="XAU策略量化交易平台 - 专业的黄金量化交易解决方案">
+    <title>XAU策略量化交易</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">📊</span>
+                <span class="logo-text">XAU量化</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#features">功能特点</a></li>
+                <li><a href="#strategies">交易策略</a></li>
+                <li><a href="#stats">数据统计</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>XAU策略量化交易</h1>
+                <p class="hero-subtitle">专业的黄金量化交易解决方案</p>
+                <p class="hero-description">利用先进的算法和数据分析，为您提供智能化的黄金交易策略</p>
+                <div class="hero-buttons">
+                    <a href="#features" class="btn btn-primary">了解更多</a>
+                    <a href="#contact" class="btn btn-secondary">立即咨询</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="chart-container">
+                    <canvas id="priceChart" aria-label="XAU/USD 黄金价格走势图表" role="img"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">功能特点</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>智能算法</h3>
+                    <p>采用先进的机器学习算法，自动识别市场趋势和交易机会</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3>实时分析</h3>
+                    <p>24/7全天候监控市场数据，提供实时的技术分析和信号</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>风险管理</h3>
+                    <p>内置智能风控系统，有效控制交易风险，保护您的资金安全</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>高速执行</h3>
+                    <p>毫秒级订单执行速度，确保在最佳价格完成交易</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>数据可视化</h3>
+                    <p>直观的图表展示，轻松掌握市场动态和账户表现</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔔</div>
+                    <h3>实时提醒</h3>
+                    <p>重要信号即时推送，不错过任何交易机会</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strategies Section -->
+    <section id="strategies" class="strategies">
+        <div class="container">
+            <h2 class="section-title">交易策略</h2>
+            <div class="strategies-grid">
+                <div class="strategy-card">
+                    <div class="strategy-header">
+                        <h3>趋势跟踪策略</h3>
+                        <span class="strategy-badge">经典</span>
+                    </div>
+                    <p>基于移动平均线和趋势指标，捕捉黄金中长期趋势</p>
+                    <ul class="strategy-features">
+                        <li>适合中长期投资者</li>
+                        <li>回撤控制优秀</li>
+                        <li>稳健收益特点</li>
+                    </ul>
+                </div>
+                <div class="strategy-card featured">
+                    <div class="strategy-header">
+                        <h3>动量突破策略</h3>
+                        <span class="strategy-badge">热门</span>
+                    </div>
+                    <p>利用价格突破和动量指标，把握短期交易机会</p>
+                    <ul class="strategy-features">
+                        <li>高频交易信号</li>
+                        <li>快速响应市场</li>
+                        <li>灵活止盈止损</li>
+                    </ul>
+                </div>
+                <div class="strategy-card">
+                    <div class="strategy-header">
+                        <h3>均值回归策略</h3>
+                        <span class="strategy-badge">稳健</span>
+                    </div>
+                    <p>在超买超卖区域寻找反转机会，追求稳定收益</p>
+                    <ul class="strategy-features">
+                        <li>低风险投资组合</li>
+                        <li>市场中性策略</li>
+                        <li>持续收益能力</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats">
+        <div class="container">
+            <h2 class="section-title">数据统计</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" data-target="98.5">0</div>
+                    <div class="stat-suffix">%</div>
+                    <div class="stat-label">系统稳定性</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-suffix">+</div>
+                    <div class="stat-label">活跃用户</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="1000000">0</div>
+                    <div class="stat-suffix">+</div>
+                    <div class="stat-label">交易信号</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="24">0</div>
+                    <div class="stat-suffix">/7</div>
+                    <div class="stat-label">全天候服务</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系我们</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>获取更多信息</h3>
+                    <p>如果您对我们的量化交易解决方案感兴趣，请随时与我们联系。</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>contact@xau-trading.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🌐</span>
+                            <span>www.xau-trading.com</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">姓名</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">邮箱</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">留言</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">发送消息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">📊</span>
+                        <span class="logo-text">XAU量化</span>
+                    </div>
+                    <p>专业的黄金量化交易解决方案</p>
+                </div>
+                <div class="footer-links">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="#home">首页</a></li>
+                        <li><a href="#features">功能特点</a></li>
+                        <li><a href="#strategies">交易策略</a></li>
+                        <li><a href="#contact">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-disclaimer">
+                    <h4>风险提示</h4>
+                    <p>投资有风险，入市需谨慎。过往表现不代表未来收益。</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 XAU量化交易. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
