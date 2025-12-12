@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      font-size: 1.8rem;
+    }
+
+    .circle-container {
+      position: relative;
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      animation: rotateCircle 20s linear infinite; /* 自动旋转 */
+    }
+
+    .circle-container:hover {
+      animation-play-state: paused; /* 鼠标悬停时暂停旋转 */
+    }
+
+    @keyframes rotateCircle {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .circle-item {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      overflow: hidden;
+      transform-origin: center;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .circle-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .circle-item:hover {
+      transform: scale(1.2) rotate(0deg);
+      z-index: 2;
+    }
+
+    .circle-center {
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      background-color: #fff;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #333;
+    }
+
+    /* 模态框 */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+    }
+
+    .modal span {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      color: white;
+      font-size: 30px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    .modal span:hover {
+      color: #f00;
+    }
+
+    /* 进度条 */
+    .progress-container {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%;
+      height: 5px;
+      background: #ddd;
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .progress-bar {
+      width: 0;
+      height: 100%;
+      background: #1e90ff;
+      transition: width 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+  <h1>图片环形展示</h1>
+
+  <!-- 工具栏 -->
+  <div class="toolbar" style="display: none;">
+    <button onclick="sortImages('random')">随机排序</button>
+    <button onclick="sortImages('name')">按名称排序</button>
+    <button onclick="toggleTheme()">切换主题</button>
+  </div>
+
+  <!-- 图片环 -->
+  <div class="circle-container" id="circleContainer">
+    <div class="circle-center">EA 回测</div>
+  </div>
+
+  <!-- 模态框 -->
+  <div class="modal" id="imageModal">
+    <span onclick="closeModal()">×</span>
+    <img id="modalImage" src="" alt="大图">
+  </div>
+
+  <!-- 进度条 -->
+  <div class="progress-container">
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+
+  <script>
+    // 图片路径
+    const images = [
+      "picture/1.jpg",
+      "picture/2.jpg",
+      "picture/3.jpg",
+      "picture/4.jpg",
+      "picture/5.jpg",
+      "picture/6.jpg",
+      "picture/7.jpg",
+      "picture/8.jpg"
+    ];
+
+    const container = document.getElementById("circleContainer");
+    const progressBar = document.getElementById("progressBar");
+    let currentIndex = 0;
+    const radius = 150; // 图片环半径
+
+    // 生成图片环
+    function generateImages() {
+      container.innerHTML = '<div class="circle-center">EA 回测</div>'; // 清空内容
+      images.forEach((src, index) => {
+        const angle = (index / images.length) * 360;
+        const x = radius * Math.cos((angle * Math.PI) / 180);
+        const y = radius * Math.sin((angle * Math.PI) / 180);
+
+        const imageDiv = document.createElement("div");
+        imageDiv.className = "circle-item";
+        imageDiv.style.transform = `translate(${x}px, ${y}px) rotate(${angle}deg)`;
+
+        const img = document.createElement("img");
+        img.src = src;
+        img.alt = `图片 ${index + 1}`;
+        img.onclick = () => showModal(src, index);
+
+        imageDiv.appendChild(img);
+        container.appendChild(imageDiv);
+      });
+    }
+
+    // 显示模态框
+    function showModal(src, index) {
+      const modal = document.getElementById("imageModal");
+      const modalImg = document.getElementById("modalImage");
+      modalImg.src = src;
+      modal.style.display = "flex";
+      currentIndex = index;
+      updateProgress();
+    }
+
+    // 关闭模态框
+    function closeModal() {
+      document.getElementById("imageModal").style.display = "none";
+    }
+
+    // 更新进度条
+    function updateProgress() {
+      progressBar.style.width = `${((currentIndex + 1) / images.length) * 100}%`;
+    }
+
+    // 随机排序
+    function sortImages(type) {
+      if (type === "random") {
+        images.sort(() => Math.random() - 0.5);
+      } else if (type === "name") {
+        images.sort((a, b) => a.localeCompare(b));
+      }
+      generateImages();
+    }
+
+    // 切换主题
+    function toggleTheme() {
+      document.body.classList.toggle("dark");
+    }
+
+    // 快捷键触发
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "r") sortImages("random"); // 按 "r" 触发随机排序
+      if (event.key === "n") sortImages("name");   // 按 "n" 触发按名称排序
+      if (event.key === "t") toggleTheme();        // 按 "t" 切换主题
+    });
+
+    // 初始化
+    generateImages();
+  </script>
+</body>
+</html>
