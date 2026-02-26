@@ -16,10 +16,11 @@ XAU策略量化交易
 - 🔔 实时提醒 - 重要信号即时主动
 
 ##经纪商推荐
-[Exness经纪商](https://one.exnessonelink.com/a/cwssuz8fj9)
 
-[TMGM经纪商](https://portal.tmfxdata.com/register?r_code=IB1750137154C)
+- [Exness经纪商](https://one.exnessonelink.com/a/cwssuz8fj9)
 
-[JustMarkets经纪商](https://one.justmarkets.link/a/trutub0hkx)
+- [TMGM经纪商](https://portal.tmfxdata.com/register?r_code=IB1750137154C)
 
-[HFM经纪商](https://www.hfm-chn.com/sv/cn/?refid=30487893)
+- [JustMarkets经纪商](https://one.justmarkets.link/a/trutub0hkx)
+
+- [HFM经纪商](https://www.hfm-chn.com/sv/cn/?refid=30487893)
