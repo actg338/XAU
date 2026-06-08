@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title></title>
+<style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
@@ -140,34 +141,46 @@
       transition: width 0.3s ease;
     }
   </style>
-</head>
+<style>
+.language-switcher{position:fixed;top:82px;right:16px;z-index:90;display:flex;
+align-items:center;gap:8px;padding:7px 9px;border:1px solid rgba(255,255,255,.13);
+border-radius:11px;background:rgba(8,11,16,.9);backdrop-filter:blur(14px);
+box-shadow:0 10px 30px rgba(0,0,0,.22)}
+.language-switcher label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+.language-switcher select{border:0;outline:0;color:#f5f1e8;background:transparent;
+font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
+.language-switcher option{color:#111;background:#fff}
+@media(max-width:580px){.language-switcher{top:70px;right:10px}}
+</style></head>
 <body>
-  <h1>图片环形展示</h1>
+<div class="language-switcher">
+<label for="siteLanguage">Language</label>
+<select aria-label="Language" id="siteLanguage" onchange="location.href=this.value">
+<option selected="" value="/">简体中文</option><option value="/zh-tw/">繁體中文</option><option value="/en/">English</option><option value="/ja/">日本語</option>
+</select>
+</div>
 
-  <!-- 工具栏 -->
-  <div class="toolbar" style="display: none;">
-    <button onclick="sortImages('random')">随机排序</button>
-    <button onclick="sortImages('name')">按名称排序</button>
-    <button onclick="toggleTheme()">切换主题</button>
-  </div>
-
-  <!-- 图片环 -->
-  <div class="circle-container" id="circleContainer">
-    <div class="circle-center">EA 回测</div>
-  </div>
-
-  <!-- 模态框 -->
-  <div class="modal" id="imageModal">
-    <span onclick="closeModal()">×</span>
-    <img id="modalImage" src="" alt="大图">
-  </div>
-
-  <!-- 进度条 -->
-  <div class="progress-container">
-    <div class="progress-bar" id="progressBar"></div>
-  </div>
-
-  <script>
+<h1>图片环形展示</h1>
+<!-- 工具栏 -->
+<div class="toolbar" style="display: none;">
+<button onclick="sortImages('random')">随机排序</button>
+<button onclick="sortImages('name')">按名称排序</button>
+<button onclick="toggleTheme()">切换主题</button>
+</div>
+<!-- 图片环 -->
+<div class="circle-container" id="circleContainer">
+<div class="circle-center">EA 回测</div>
+</div>
+<!-- 模态框 -->
+<div class="modal" id="imageModal">
+<span onclick="closeModal()">×</span>
+<img alt="大图" id="modalImage" src=""/>
+</div>
+<!-- 进度条 -->
+<div class="progress-container">
+<div class="progress-bar" id="progressBar"></div>
+</div>
+<script>
     // 图片路径
     const images = [
       "picture/1.png",
