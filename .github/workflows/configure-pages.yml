@@ -1,4 +1,4 @@
-name: Configure and deploy GitHub Pages
+name: Deploy GitHub Pages
 
 on:
   push:
@@ -12,19 +12,10 @@ permissions:
   pages: write
 
 jobs:
-  configure:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Configure Pages source
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          gh api --method PUT "repos/${GITHUB_REPOSITORY}/pages" \
-            -f build_type=legacy \
-            -f 'source[branch]=main' \
-            -f 'source[path]=/'
-
-      - name: Request Pages build
+      - name: Request Pages build from main
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"
