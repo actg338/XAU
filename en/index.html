@@ -167,6 +167,16 @@ box-shadow:0 10px 30px rgba(0,0,0,.22)}
 font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
 .language-switcher option{color:#111;background:#fff}
 @media(max-width:580px){.language-switcher{top:70px;right:10px}}
+</style><style>
+.language-switcher{position:fixed;top:82px;right:16px;z-index:90;display:flex;
+align-items:center;gap:8px;padding:7px 9px;border:1px solid rgba(255,255,255,.13);
+border-radius:11px;background:rgba(8,11,16,.9);backdrop-filter:blur(14px);
+box-shadow:0 10px 30px rgba(0,0,0,.22)}
+.language-switcher label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+.language-switcher select{border:0;outline:0;color:#f5f1e8;background:transparent;
+font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
+.language-switcher option{color:#111;background:#fff}
+@media(max-width:580px){.language-switcher{top:70px;right:10px}}
 </style></head>
 <body>
 <div class="language-switcher">
@@ -176,6 +186,12 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 </select>
 </div>
 
+<div class="language-switcher">
+<label for="siteLanguage">Language</label>
+<select aria-label="Language" id="siteLanguage" onchange="location.href=this.value">
+<option selected="" value="/">Simplified Chinese</option><option value="/zh-tw/">Traditional Chinese</option><option value="/en/">English</option><option value="/ja/">Japanese</option>
+</select>
+</div>
 <nav aria-label="Main navigation" class="nav">
 <div class="wrap nav-inner">
 <a class="brand" href="/en/"><span class="brand-mark">X</span> XAU QUANT</a>
@@ -202,7 +218,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 </div>
 <p class="hero-note">Historical performance is not indicative of future results. Please fully understand the strategy logic and use a demo account to verify it before trading.</p>
 </div>
-<div aria-label="XAU policy running status indication" class="terminal">
+<div aria-label="XAU strategy running status indication" class="terminal">
 <div class="terminal-inner">
 <div class="terminal-top"><span class="dots"><i></i><i></i><i></i></span><span>XAUUSD · Strategy Monitor</span></div>
 <div class="chart">
@@ -227,23 +243,23 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 <div class="section-head"><div class="eyebrow">Core System</div><h2>From signal to exit, full process management</h2><p>Reduce emotional interference and transform trading rules into repeatable system processes.</p></div>
 <div class="features">
 <article class="card"><span class="card-num">01 / SIGNAL</span><h3>SAR signal filtering</h3><p>Identify the trend environment based on the parabolic indicator and support parameterized settings such as signal reversal.</p></article>
-<article class="card"><span class="card-num">02 / POSITION</span><h3>Intelligent position management</h3><p>Configure the main switch for position opening, minimum time interval, maximum position and slippage control.</p></article>
+<article class="card"><span class="card-num">02 / POSITION</span><h3>Smart entry management</h3><p>Configure the master entry switch, minimum time interval, maximum position and slippage control.</p></article>
 <article class="card"><span class="card-num">03 / PROTECTION</span><h3>Dynamic stop loss protection</h3><p>Adjust protection conditions as price changes, and support setting of trailing stop loss and buffer points.</p></article>
 <article class="card"><span class="card-num">04 / RISK</span><h3>Account risk constraints</h3><p>Limit risk exposure through conditions such as balance, margin ratio, and dynamic position limit.</p></article>
-<article class="card"><span class="card-num">05 / EXIT</span><h3>Take profit exit mechanism</h3><p>Supports single position target, protective take-profit and management rules after floating loss is triggered.</p></article>
+<article class="card"><span class="card-num">05 / EXIT</span><h3>Take profit exit mechanism</h3><p>Supports single position target, protective take-profit and management rules after unrealized loss is triggered.</p></article>
 <article class="card"><span class="card-num">06 / CONFIG</span><h3>Parameterized configuration</h3><p>Adjust strategy parameters for different account environments and trading preferences to facilitate testing and iteration.</p></article>
 </div>
 </div>
 </section>
 <section id="demo">
 <div class="wrap">
-<div class="section-head"><div class="eyebrow">Product Demo</div><h2>Know first, then run</h2><p>View a demo of the policy and complete installation, configuration, and validation in a simulated environment.</p></div>
+<div class="section-head"><div class="eyebrow">Product Demo</div><h2>Understand it before you run it</h2><p>View the strategy demo and complete installation, configuration, and validation in a simulated environment.</p></div>
 <div class="showcase">
 <div class="video-shell"><video controls="" preload="metadata"><source src="stg.mp4" type="video/mp4"/>Your browser does not support video playback.</video></div>
 <div class="steps">
 <div class="step"><b>1</b><div><strong>Install EA</strong><span>Place the file into the Experts directory of MT5 and refresh the Navigator.</span></div></div>
-<div class="step"><b>2</b><div><strong>Configuration parameters</strong><span>Set parameters based on account size, product specifications and risk tolerance.</span></div></div>
-<div class="step"><b>3</b><div><strong>Simulation verification</strong><span>Perform backtesting and simulated disk observation first, and do not use it directly for unverified real disks.</span></div></div>
+<div class="step"><b>2</b><div><strong>Configuration parameters</strong><span>Set parameters based on account size, symbol specifications and risk tolerance.</span></div></div>
+<div class="step"><b>3</b><div><strong>Simulation verification</strong><span>Perform backtesting and demo account observation first, and do not use it directly for unverified live accounts.</span></div></div>
 <div class="step"><b>4</b><div><strong>Continuous review</strong><span>Regularly check execution records and review the applicability of strategies based on the market environment.</span></div></div>
 </div>
 </div>
