@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="MT5 EA 安裝、引數配置與開啟自動交易的完整教程。" name="description"/>
+<meta content="#080b10" name="theme-color"/>
+<title>新增 EA 教程 | XAU Quant</title>
+<style>
+    :root{--bg:#080b10;--panel:#111720;--line:rgba(255,255,255,.09);--text:#f5f1e8;--muted:#a3abb7;--gold:#d9ac55;--gold2:#f3d58a;--green:#56c596;--red:#e38b78;--shadow:0 24px 70px rgba(0,0,0,.32)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--text);background:radial-gradient(circle at 80% 0,rgba(217,172,85,.13),transparent 34rem),radial-gradient(circle at 0 55%,rgba(86,197,150,.06),transparent 28rem),var(--bg);font-family:Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.7}.wrap{width:min(1060px,calc(100% - 40px));margin:auto}.nav{position:sticky;top:0;z-index:20;border-bottom:1px solid var(--line);background:rgba(8,11,16,.84);backdrop-filter:blur(18px)}.nav-in{height:70px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:11px;color:var(--text);font-weight:800;letter-spacing:.08em;text-decoration:none}.mark{display:grid;place-items:center;width:38px;height:38px;border:1px solid rgba(243,213,138,.45);border-radius:12px;color:var(--gold2);background:rgba(217,172,85,.12)}.back{color:var(--muted);text-decoration:none;font-size:14px}.back:hover{color:var(--text)}header{padding:82px 0 46px}.eyebrow{color:var(--gold2);font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}h1{margin:14px 0 18px;font-size:clamp(40px,6vw,70px);line-height:1.07;letter-spacing:-.045em}header p{max-width:760px;margin:0;color:var(--muted);font-size:17px}.quick{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:30px}.quick div{padding:15px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.025)}.quick b{display:block;color:var(--gold2);font-size:13px}.quick span{color:var(--muted);font-size:12px}.layout{display:grid;grid-template-columns:220px minmax(0,1fr);gap:28px;padding-bottom:80px}.toc{position:sticky;top:94px;height:max-content;padding:18px;border:1px solid var(--line);border-radius:18px;background:rgba(17,23,32,.8)}.toc strong{display:block;margin-bottom:10px;font-size:13px}.toc a{display:block;padding:6px 0;color:var(--muted);font-size:12px;text-decoration:none}.toc a:hover{color:var(--gold2)}.content{display:grid;gap:15px}.step{padding:28px;border:1px solid var(--line);border-radius:21px;background:linear-gradient(145deg,rgba(255,255,255,.05),rgba(255,255,255,.018))}.step-head{display:flex;align-items:flex-start;gap:15px}.num{display:grid;place-items:center;flex:0 0 38px;height:38px;border-radius:11px;color:#19140a;background:linear-gradient(135deg,var(--gold2),var(--gold));font-weight:900}.step h2{margin:2px 0 8px;font-size:21px}.step p{margin:0;color:var(--muted);font-size:14px}.step ul{margin:16px 0 0;padding-left:21px;color:var(--muted);font-size:14px}.step li+li{margin-top:7px}code{padding:2px 6px;border:1px solid var(--line);border-radius:6px;color:var(--gold2);background:#090d12;font-family:Consolas,monospace;font-size:.92em}.path{display:block;margin-top:14px;padding:13px 15px;border:1px solid var(--line);border-radius:11px;color:#c8ced7;background:#090d12;overflow-wrap:anywhere}.shot{margin:18px 0 0;padding:8px;border:1px solid var(--line);border-radius:15px;background:#090d12}.shot img{display:block;width:100%;height:auto;border-radius:9px}.shot figcaption{padding:8px 5px 2px;color:var(--muted);font-size:12px}.tip,.warning{margin-top:16px;padding:13px 15px;border-radius:12px;font-size:13px}.tip{border:1px solid rgba(86,197,150,.23);color:#aad8c5;background:rgba(86,197,150,.07)}.warning{border:1px solid rgba(227,139,120,.25);color:#dfb0a5;background:rgba(227,139,120,.07)}.checklist{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:16px}.check{padding:12px;border:1px solid var(--line);border-radius:11px;color:var(--muted);font-size:13px;background:rgba(255,255,255,.02)}.check::before{content:"✓";margin-right:8px;color:var(--green);font-weight:900}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.btn{display:inline-flex;min-height:44px;padding:0 17px;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:11px;color:var(--text);background:rgba(255,255,255,.03);font-weight:750;text-decoration:none}.btn.primary{border-color:transparent;color:#19140a;background:linear-gradient(135deg,var(--gold2),var(--gold))}footer{padding:34px 0;border-top:1px solid var(--line);color:var(--muted);font-size:12px}@media(max-width:780px){.quick{grid-template-columns:1fr}.layout{grid-template-columns:1fr}.toc{position:static}.checklist{grid-template-columns:1fr}}@media(max-width:560px){.wrap{width:calc(100% - 28px)}header{padding-top:56px}.step{padding:21px}.back{font-size:0}.back::after{content:"返回首页";font-size:13px}.actions .btn{width:100%}}
+  </style>
+<style>
+.language-switcher{position:fixed;top:82px;right:16px;z-index:90;display:flex;
+align-items:center;gap:8px;padding:7px 9px;border:1px solid rgba(255,255,255,.13);
+border-radius:11px;background:rgba(8,11,16,.9);backdrop-filter:blur(14px);
+box-shadow:0 10px 30px rgba(0,0,0,.22)}
+.language-switcher label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+.language-switcher select{border:0;outline:0;color:#f5f1e8;background:transparent;
+font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
+.language-switcher option{color:#111;background:#fff}
+@media(max-width:580px){.language-switcher{top:70px;right:10px}}
+</style></head>
+<body>
+<div class="language-switcher">
+<label for="siteLanguage">Language</label>
+<select aria-label="Language" id="siteLanguage" onchange="location.href=this.value">
+<option value="/">简体中文</option><option selected="" value="/zh-tw/">繁體中文</option><option value="/en/">English</option><option value="/ja/">日本語</option>
+</select>
+</div>
+
+<nav class="nav"><div class="wrap nav-in"><a class="brand" href="/zh-tw/"><span class="mark">X</span>XAU QUANT</a><a class="back" href="/zh-tw/">← 返回策略首頁</a></div></nav>
+<header class="wrap">
+<div class="eyebrow">MetaTrader 5 Guide</div>
+<h1>如何安裝 EA<br/>並開啟自動交易</h1>
+<p>本教程適用於 MT5 編譯版 <code>.ex5</code> EA。建議先在模擬賬戶完成策略測試與前向觀察，再決定是否用於真實賬戶。</p>
+<div class="quick"><div><b>所需軟體</b><span>MetaTrader 5 桌面客戶端</span></div><div><b>檔案格式</b><span>EA 編譯檔案 .ex5</span></div><div><b>建議環境</b><span>模擬賬戶 + VPS 穩定執行</span></div></div>
+</header>
+<main class="wrap layout">
+<aside class="toc"><strong>教程目錄</strong><a href="#download">1. 下載 EA</a><a href="#folder">2. 開啟資料目錄</a><a href="#install">3. 安裝並重新整理</a><a href="#chart">4. 新增到圖表</a><a href="#auto">5. 開啟自動交易</a><a href="#check">6. 檢查執行狀態</a><a href="#test">7. 回測與模擬</a><a href="#issues">常見問題</a></aside>
+<div class="content">
+<section class="step" id="download"><div class="step-head"><span class="num">1</span><div><h2>下載 EA 檔案</h2><p>從免費 EA 頁面下載所需的 <code>.ex5</code> 檔案。請勿修改副檔名。</p></div></div><div class="actions"><a class="btn primary" href="/zh-tw/free-ea.html">前往免費 EA 下載</a></div></section>
+<section class="step" id="folder"><div class="step-head"><span class="num">2</span><div><h2>開啟 MT5 資料目錄</h2><p>啟動 MT5，在頂部選單選擇“檔案” → “開啟資料資料夾”。</p></div></div><ul><li>不要直接尋找 MT5 安裝目錄，多個終端可能使用不同的資料目錄。</li><li>進入資料資料夾後依次開啟 <code>MQL5</code> 和 <code>Experts</code>。</li></ul><span class="path">MT5 → 檔案 → 開啟資料資料夾 → MQL5 → Experts</span><figure class="shot"><img alt="MT5 檔案選單中的開啟資料資料夾選項" loading="lazy" src="/assets/tutorial/open-data-folder.png"/><figcaption>在“檔案”選單中點選“開啟資料資料夾”。</figcaption></figure></section>
+<section class="step" id="install"><div class="step-head"><span class="num">3</span><div><h2>複製 EA 並重新整理導航器</h2><p>將下載的 <code>.ex5</code> 檔案複製到 <code>MQL5/Experts</code>。</p></div></div><ul><li>返回 MT5，按 <code>Ctrl+N</code> 開啟“導航器”。</li><li>右鍵“EA 交易”或“智慧交易系統”，選擇“重新整理”。</li><li>若仍未顯示，完全關閉並重新啟動 MT5。</li></ul><figure class="shot"><img alt="MT5 導航器中的 EA 交易列表" loading="lazy" src="/assets/tutorial/navigator-ea.png"/><figcaption>按 Ctrl+N 開啟導航器，在“EA交易”中找到已安裝檔案。</figcaption></figure></section>
+<section class="step" id="chart"><div class="step-head"><span class="num">4</span><div><h2>將 EA 新增到圖表</h2><p>開啟目標交易品種和週期，再把 EA 從導航器拖到圖表。</p></div></div><ul><li>確認品種名稱，例如 <code>XAUUSD</code>、<code>XAUUSDm</code> 或其他經紀商字尾。</li><li>在“常用”選項卡勾選“允許演算法交易”。</li><li>在“輸入”選項卡檢查手數、止損、止盈、最大持倉和 Magic Number。</li><li>同一賬戶執行多個 EA 時，每個例項應使用不同的 Magic Number。</li></ul><div class="warning">不要在不瞭解引數含義時直接使用預設大手數。網格和馬丁策略尤其需要限制最大持倉、總手數和權益回撤。</div></section>
+<section class="step" id="auto"><div class="step-head"><span class="num">5</span><div><h2>開啟 MT5 自動交易</h2><p>EA 自身允許交易後，還必須開啟 MT5 的全域性演算法交易開關。</p></div></div><ul><li>點選工具欄上的“演算法交易”或“Algo Trading”按鈕，使其處於啟用狀態。</li><li>也可進入“工具” → “選項” → “EA 交易”，勾選“允許演算法交易”。</li><li>如果 EA 需要聯網授權或讀取介面，在“允許 WebRequest 訪問以下 URL”中新增開發者提供的網址。</li></ul><div class="tip">普通離線 EA 通常不需要開啟 DLL 或 WebRequest。除非你明確知道用途，否則不要允許未知 DLL。</div><figure class="shot"><img alt="MT5 EA交易選項中的允許演算法交易設定" loading="lazy" src="/assets/tutorial/algo-settings.png"/><figcaption>在“工具 → 選項 → EA交易”中勾選“允許演算法交易”。</figcaption></figure></section>
+<section class="step" id="check"><div class="step-head"><span class="num">6</span><div><h2>檢查 EA 是否正常執行</h2><p>載入完成後，不代表 EA 會立即下單。它可能正在等待訊號。</p></div></div><div class="checklist"><div class="check">EA 名稱顯示在圖表右上角</div><div class="check">全域性演算法交易按鈕已啟用</div><div class="check">“專家”日誌沒有初始化錯誤</div><div class="check">品種、週期和 Magic Number 正確</div><div class="check">賬戶允許 EA 自動交易</div><div class="check">保證金、點差和交易時間正常</div></div><p class="tip">按 <code>Ctrl+T</code> 開啟工具箱，重點檢查“專家”和“日誌”標籤中的報錯資訊。</p></section>
+<section class="step" id="test"><div class="step-head"><span class="num">7</span><div><h2>先回測，再執行模擬盤</h2><p>按 <code>Ctrl+R</code> 開啟策略測試器，選擇 EA、品種、週期和測試區間。</p></div></div><ul><li>使用儘可能接近真實環境的點差和報價資料。</li><li>檢查最大回撤、保證金佔用、連續虧損和極端行情表現。</li><li>回測透過後，至少在模擬賬戶進行一段時間的前向測試。</li><li>實盤執行需要保持 MT5、網路和電腦持續線上；長期執行建議使用 VPS。</li></ul><div class="warning">歷史表現不代表未來結果。自動交易不能消除市場風險，也不保證盈利。</div></section>
+<section class="step" id="issues"><div class="step-head"><span class="num">?</span><div><h2>常見問題排查</h2><p>EA 不顯示、不交易或執行中斷時，按以下順序檢查。</p></div></div><ul><li><b>導航器沒有 EA：</b>確認檔案位於當前終端的資料目錄，而不是軟體安裝目錄。</li><li><b>無法載入：</b>確認檔案為 MT5 的 <code>.ex5</code>，MT4 的 <code>.ex4</code> 不能在 MT5 使用。</li><li><b>不自動交易：</b>檢查全域性演算法交易開關、EA 常用設定和賬戶許可權。</li><li><b>沒有訂單：</b>可能尚未滿足策略訊號，檢視“專家”日誌而不是反覆重新載入。</li><li><b>Invalid volume：</b>手數不符合經紀商最小手數或步進。</li><li><b>Market closed：</b>當前品種休市或不在可交易時段。</li><li><b>WebRequest 錯誤：</b>在 MT5 選項中加入正確的 HTTPS 域名。</li></ul></section>
+</div>
+</main>
+<footer><div class="wrap">© 2026 XAU Quant · 自動化交易不保證盈利 · 請先使用模擬賬戶驗證</div></footer>
+</body>
+</html>
