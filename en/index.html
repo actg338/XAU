@@ -177,6 +177,16 @@ box-shadow:0 10px 30px rgba(0,0,0,.22)}
 font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
 .language-switcher option{color:#111;background:#fff}
 @media(max-width:580px){.language-switcher{top:70px;right:10px}}
+</style><style>
+.language-switcher{position:fixed;top:82px;right:16px;z-index:90;display:flex;
+align-items:center;gap:8px;padding:7px 9px;border:1px solid rgba(255,255,255,.13);
+border-radius:11px;background:rgba(8,11,16,.9);backdrop-filter:blur(14px);
+box-shadow:0 10px 30px rgba(0,0,0,.22)}
+.language-switcher label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+.language-switcher select{border:0;outline:0;color:#f5f1e8;background:transparent;
+font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
+.language-switcher option{color:#111;background:#fff}
+@media(max-width:580px){.language-switcher{top:70px;right:10px}}
 </style></head>
 <body>
 <div class="language-switcher">
@@ -186,6 +196,12 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 </select>
 </div>
 
+<div class="language-switcher">
+<label for="siteLanguage">Language</label>
+<select aria-label="Language" id="siteLanguage" onchange="location.href=this.value">
+<option selected="" value="/">Simplified Chinese</option><option value="/zh-tw/">Traditional Chinese</option><option value="/en/">English</option><option value="/ja/">Japanese</option>
+</select>
+</div>
 <div class="language-switcher">
 <label for="siteLanguage">Language</label>
 <select aria-label="Language" id="siteLanguage" onchange="location.href=this.value">
@@ -208,7 +224,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 <div class="wrap hero-grid">
 <div>
 <div class="eyebrow">MT5 Expert Advisor</div>
-<h1>Let gold trade<br/><span>more disciplined</span></h1>
+<h1>Trade gold<br/><span>with greater discipline</span></h1>
 <p class="hero-copy">The MT5 automated strategy tool for XAUUSD scenarios integrates signal filtering, position constraints, dynamic stop loss and execution management into a clear workflow.</p>
 <div class="hero-actions">
 <button class="btn btn-primary" data-open="purchaseDialog">See how to buy →</button>
@@ -280,7 +296,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 <div class="dialog-inner">
 <div class="dialog-head"><h3>Get EA strategies</h3><button aria-label="closure" class="close" data-close="">×</button></div>
 <p style="color:var(--muted)">Check the version information, applicable environments and purchase methods on the MQL5 product page.</p>
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-top:20px"><a href="https://www.mql5.com/zh/market/product/179455?source=Site+Profile+Seller" rel="noopener" style="display:flex;min-height:156px;padding:20px;flex-direction:column;justify-content:space-between;border:1px solid rgba(243,213,138,.28);border-radius:16px;text-decoration:none;background:linear-gradient(145deg,rgba(217,172,85,.14),rgba(255,255,255,.025));transition:.2s" target="_blank"><span style="color:var(--gold);font-size:11px;font-weight:800;letter-spacing:.12em">MQL5 PRODUCT · 179455</span><strong style="font-size:19px">Gold quantitative strategy EA</strong><span style="color:var(--gold-light);font-weight:700">View products →</span></a><a href="https://www.mql5.com/zh/market/product/155345?source=Site+Profile+Seller" rel="noopener" style="display:flex;min-height:156px;padding:20px;flex-direction:column;justify-content:space-between;border:1px solid var(--line);border-radius:16px;text-decoration:none;background:rgba(255,255,255,.035);transition:.2s" target="_blank"><span style="color:var(--muted);font-size:11px;font-weight:800;letter-spacing:.12em">MQL5 PRODUCT · 155345</span><strong style="font-size:19px">MT5 automatic trading EA</strong><span style="color:var(--gold-light);font-weight:700">View products →</span></a></div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-top:20px"><a href="https://www.mql5.com/zh/market/product/179455?source=Site+Profile+Seller" rel="noopener" style="display:flex;min-height:156px;padding:20px;flex-direction:column;justify-content:space-between;border:1px solid rgba(243,213,138,.28);border-radius:16px;text-decoration:none;background:linear-gradient(145deg,rgba(217,172,85,.14),rgba(255,255,255,.025));transition:.2s" target="_blank"><span style="color:var(--gold);font-size:11px;font-weight:800;letter-spacing:.12em">MQL5 PRODUCT · 179455</span><strong style="font-size:19px">Gold quantitative strategy EA</strong><span style="color:var(--gold-light);font-weight:700">View products →</span></a><a href="https://www.mql5.com/zh/market/product/155345?source=Site+Profile+Seller" rel="noopener" style="display:flex;min-height:156px;padding:20px;flex-direction:column;justify-content:space-between;border:1px solid var(--line);border-radius:16px;text-decoration:none;background:rgba(255,255,255,.035);transition:.2s" target="_blank"><span style="color:var(--muted);font-size:11px;font-weight:800;letter-spacing:.12em">MQL5 PRODUCT · 155345</span><strong style="font-size:19px">MT5 automated trading EA</strong><span style="color:var(--gold-light);font-weight:700">View products →</span></a></div>
 <p class="risk">Risk warning: Automated trading does not guarantee profitability. Market fluctuations, spreads, slippage, network and parameter settings may affect the results. Please make independent judgments and control risks.</p>
 </div>
 </dialog>
