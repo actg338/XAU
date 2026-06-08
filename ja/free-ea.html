@@ -21,6 +21,16 @@ box-shadow:0 10px 30px rgba(0,0,0,.22)}
 font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
 .language-switcher option{color:#111;background:#fff}
 @media(max-width:580px){.language-switcher{top:70px;right:10px}}
+</style><style>
+.language-switcher{position:fixed;top:82px;right:16px;z-index:90;display:flex;
+align-items:center;gap:8px;padding:7px 9px;border:1px solid rgba(255,255,255,.13);
+border-radius:11px;background:rgba(8,11,16,.9);backdrop-filter:blur(14px);
+box-shadow:0 10px 30px rgba(0,0,0,.22)}
+.language-switcher label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+.language-switcher select{border:0;outline:0;color:#f5f1e8;background:transparent;
+font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
+.language-switcher option{color:#111;background:#fff}
+@media(max-width:580px){.language-switcher{top:70px;right:10px}}
 </style></head>
 <body>
 <div class="language-switcher">
@@ -30,11 +40,17 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 </select>
 </div>
 
+<div class="language-switcher">
+<label for="siteLanguage">Language</label>
+<select aria-label="Language" id="siteLanguage" onchange="location.href=this.value">
+<option selected="" value="/">簡体字中国語</option><option value="/zh-tw/">繁体字中国語</option><option value="/en/">English</option><option value="/ja/">日本語</option>
+</select>
+</div>
 <nav class="nav"><div class="wrap nav-in"><a class="brand" href="/ja/"><span class="mark">X</span>XAU QUANT</a><a class="back" href="/ja/">← 戦略ホームページに戻る</a></div></nav>
 <header class="wrap">
 <div class="eyebrow">Free MT5 Expert Advisors</div>
 <h1>無料EA<br/>ダウンロードと使用手順</h1>
-<p>コンパイルされたバージョンを提供する <code>.ex5</code> 書類。各EAには独立した命令が実装されており、ダウンロード数はGitHub Releaseによってリアルタイムにカウントされます。</p>
+<p>コンパイルされたバージョンを提供する <code>.ex5</code> ファイル。各EAには独立した命令が実装されており、ダウンロード数はGitHub Releaseによってリアルタイムにカウントされます。</p>
 <div class="summary"><span class="pill"><b>12</b> EA</span><span class="pill">適用対象 <b>MetaTrader 5</b></span><span class="pill">バージョン <b>free-ea-v1.0</b></span></div>
 </header>
 <main class="wrap">
@@ -46,22 +62,22 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
     const releaseTag='free-ea-v1.0';
     const base='https://github.com/actg338/XAU/releases/download/'+releaseTag+'/';
     const guides={
-      'buy.md':`<h3>buy.ex5 使用説明書</h3><h4>関数</h4><p>ロング SAR の最初のポジションのフィルタリングとフィボナッチ距離の追加のみ，マージンチェックを含む、株式リトレースメントと変動利益率の出口。</p><h4>推奨設定</h4><ul><li><code>InitialLots</code> 0.01から始めることをお勧めします</li><li><code>MartingaleFactor</code> ポジション増加の倍率を制御</li><li><code>BaseAddPoints</code> 距離を制御して位置を追加する</li><li><code>MagicNumber</code> 各インスタンスは固有のままです</li></ul><h4>インストール</h4><p>入れます <code>MQL5/Experts</code>，ナビゲーターを更新して XAUUSD チャートをロードし、自動売買を可能にします。</p><p class="guide-risk">リスク: ポジション追加ロジックが含まれています，最初にバックテストと実行のシミュレーションを行って、合計ロットサイズを制限してください。</p>`,
-      'buy-3.md':`<h3>buy3.0.ex5 使用説明書</h3><h4>関数</h4><p>長い方向に進む，SAR を使用して初期位置と追加位置をフィルタリングする，動的な価格上限と変動利益エグジットの組み合わせをサポート。</p><h4>主要パラメータ</h4><ul><li><code>InitialLots</code> 0.01から始めることをお勧めします</li><li><code>UseAddSARFilter</code> 位置の追加とフィルタリングを制御する</li><li><code>BaseAddPoints</code> 位置を追加する距離</li><li><code>FloatingPercentThreshold</code> 組み合わせ終了しきい値</li></ul><h4>使用</h4><p>コピー先 <code>MQL5/Experts</code>，更新後にターゲットチャートにロード。</p><p class="guide-risk">リスク: ポジションを継続的に追加すると、ドローダウンが増大します。，確定オファーが行われる前に、ブローカーの契約仕様を一致させる必要があります。。</p>`,
+      'buy.md':`<h3>buy.ex5 使用説明書</h3><h4>関数</h4><p>ロング SAR の最初のポジションのフィルタリングとフィボナッチ距離の追加のみ，マージンチェックを含む、株式リトレースメントと変動利益率の出口。</p><h4>推奨設定</h4><ul><li><code>InitialLots</code> 0.01から始めることをお勧めします</li><li><code>MartingaleFactor</code> ポジション増加の倍率を制御</li><li><code>BaseAddPoints</code> 距離を制御してポジションを追加する</li><li><code>MagicNumber</code> 各インスタンスは固有のままです</li></ul><h4>インストール</h4><p>入れます <code>MQL5/Experts</code>，ナビゲーターを更新して XAUUSD チャートをロードし、自動売買を可能にします。</p><p class="guide-risk">リスク: ポジション追加ロジックが含まれています，最初にバックテストと実行のシミュレーションを行って、合計ロットサイズを制限してください。</p>`,
+      'buy-3.md':`<h3>buy3.0.ex5 使用説明書</h3><h4>関数</h4><p>長い方向に進む，SAR を使用して初期ポジションと追加ポジションをフィルタリングする，動的な価格上限と変動利益エグジットの組み合わせをサポート。</p><h4>主要パラメータ</h4><ul><li><code>InitialLots</code> 0.01から始めることをお勧めします</li><li><code>UseAddSARFilter</code> ポジションの追加とフィルタリングを制御する</li><li><code>BaseAddPoints</code> ポジションを追加する距離</li><li><code>FloatingPercentThreshold</code> 組み合わせ終了しきい値</li></ul><h4>使用</h4><p>コピー先 <code>MQL5/Experts</code>，更新後にターゲットチャートにロード。</p><p class="guide-risk">リスク: ポジションを継続的に追加すると、ドローダウンが増大します。，確定オファーが行われる前に、ブローカーの契約仕様を一致させる必要があります。。</p>`,
       'dual-grid.md':`<h3>DualGrid EA 使用説明書</h3><h4>関数</h4><p>双方向メッシュ、マーチンゲール フィボナッチ ディスタンスと SAR スイッチング コンボ EA，特定のパラメータはMT5入力の対象となります。</p><h4>使用</h4><ul><li>入れます <code>MQL5/Experts</code></li><li>ヘッジ口座とデモ環境の使用を優先する</li><li>ロットサイズを確認する、グリッド間隔、最大ポジションとストップロス</li><li>有効にする前にパラメータのスクリーンショットを保存する</li></ul><p class="guide-risk">リスク: グリッドとマーチンゲールの組み合わせは急速に地位を拡大する可能性がある，株式のストップロスを設定する必要があります。</p>`,
-      'h1-router.md':`<h3>H1_router.ex5 使用説明書</h3><h4>関数</h4><p>H1 SAR に基づいて 2 セットのグリッドと Martin Fibo ブランチを自動的に切り替えます，相殺口座の使用をお勧めします。</p><h4>主要パラメータ</h4><ul><li><code>EnableAutoModeSwitch</code> 自動切り替え</li><li><code>H1SAR_Step / Max</code> 信号のルーティング</li><li><code>GridStepPoints</code> グリッド間隔</li><li><code>MaxGridPositions</code> 最大グリッド位置</li><li><code>MaxSpreadPoints</code> 拡散防止</li></ul><p class="guide-risk">リスク: デュアルブランチはポジションを蓄積する可能性があります，必ずエクイティサーキットブレーカーを設定してください。</p>`,
-      'rsi-macd.md':`<h3>RSI_MACD_複合EAの使用説明書</h3><h4>関数</h4><p>RSI と MACD を使用したシグナルの結合，実際の方向、期間とパラメータはMT5入力に基づいています。</p><h4>使用</h4><ul><li>にインストールする <code>MQL5/Experts</code></li><li>ストラテジー テスターで複数の期間とスプレッドをテストする</li><li>ロットサイズを確認する、ストップロス、テイクプロフィットと最大ポジション</li><li>シミュレートされたディスクが安定したら、実際のディスクが再度評価されます。</li></ul><p class="guide-risk">リスク: 衝撃や突然の動きにより、継続的に誤った信号が生成される可能性があります。，単一トランザクションのリスクを制限してください。</p>`,
-      'shell-2.md':`<h3>shell2.0.ex5 使用説明書</h3><h4>関数</h4><p>SAR の最初の位置フィルタリングと短方向の位置追加，マージンチェックをサポート、下限価格とポートフォリオのエグジット。</p><h4>主要パラメータ</h4><ul><li><code>InitialLots</code> 初回ロットサイズ</li><li><code>MartingaleFactor</code> ポジション補充倍率</li><li><code>BaseAddPoints</code> 位置を追加する距離</li><li><code>MinMarginLevel</code> 証拠金の保護</li></ul><p class="guide-risk">リスク: 一方的な上昇中にポジションをショートして追加すると、急激なリトレースメントが発生する可能性があります。</p>`,
+      'h1-router.md':`<h3>H1_router.ex5 使用説明書</h3><h4>関数</h4><p>H1 SAR に基づいて 2 セットのグリッドと Martin Fibo ブランチを自動的に切り替えます，相殺口座の使用をお勧めします。</p><h4>主要パラメータ</h4><ul><li><code>EnableAutoModeSwitch</code> 自動切り替え</li><li><code>H1SAR_Step / Max</code> 信号のルーティング</li><li><code>GridStepPoints</code> グリッド間隔</li><li><code>MaxGridPositions</code> 最大グリッドポジション</li><li><code>MaxSpreadPoints</code> 拡散防止</li></ul><p class="guide-risk">リスク: デュアルブランチはポジションを蓄積する可能性があります，必ずエクイティサーキットブレーカーを設定してください。</p>`,
+      'rsi-macd.md':`<h3>RSI_MACD_複合EAの使用説明書</h3><h4>関数</h4><p>RSI と MACD を使用したシグナルの結合，実際の方向、時間足とパラメータはMT5入力に基づいています。</p><h4>使用</h4><ul><li>にインストールする <code>MQL5/Experts</code></li><li>ストラテジー テスターで複数の時間足とスプレッドをテストする</li><li>ロットサイズを確認する、ストップロス、テイクプロフィットと最大ポジション</li><li>シミュレートされたディスクが安定したら、実際のディスクが再度評価されます。</li></ul><p class="guide-risk">リスク: 衝撃や突然の動きにより、継続的に誤った信号が生成される可能性があります。，単一トランザクションのリスクを制限してください。</p>`,
+      'shell-2.md':`<h3>shell2.0.ex5 使用説明書</h3><h4>関数</h4><p>SAR の最初のポジションフィルタリングと短方向のポジション追加，マージンチェックをサポート、下限価格とポートフォリオのエグジット。</p><h4>主要パラメータ</h4><ul><li><code>InitialLots</code> 初回ロットサイズ</li><li><code>MartingaleFactor</code> ポジション補充倍率</li><li><code>BaseAddPoints</code> ポジションを追加する距離</li><li><code>MinMarginLevel</code> 証拠金の保護</li></ul><p class="guide-risk">リスク: 一方的な上昇中にポジションをショートして追加すると、急激なリトレースメントが発生する可能性があります。</p>`,
       'shell-time.md':`<h3>shelltime.ex5 使用説明書</h3><h4>関数</h4><p>ポジションを追加するための短方向 SAR とフィボナッチ距離，マージンフィルターあり、テイクプロフィットと価格制限の組み合わせ。</p><h4>主要パラメータ</h4><ul><li><code>InitialLots / MartingaleFactor</code> ポジションの成長</li><li><code>BaseAddPoints</code> 基本距離</li><li><code>MinMarginLevel</code> 証拠金の保護</li><li><code>EnablePriceLimit</code> 価格制限</li></ul><p class="guide-risk">リスク: ポジションを継続的に追加するとリスクが増幅します，最大合計ロットサイズを設定してください。</p>`,
-      'thro03.md':`<h3>thRO03.ex5 使用説明書</h3><h4>関数</h4><p>ロング方向のSARとFiboの増加ポジション，保証金込み、株式ドローダウンと動的な価格上限保護。</p><h4>主要パラメータ</h4><ul><li><code>MaxMartingaleSteps</code> 追加されるポジションの最大数</li><li><code>MaxAllowedOpenLot</code> ポジションリミット</li><li><code>BaseAddPoints</code> 位置を追加する距離</li><li><code>EnableEquityPullbackRule</code> 権利の保護</li></ul><p class="guide-risk">リスク: 最大ポジションと資本保護を設定せずに実行しないでください。。</p>`,
+      'thro03.md':`<h3>thRO03.ex5 使用説明書</h3><h4>関数</h4><p>ロング方向のSARとFiboの増加ポジション，保証金込み、株式ドローダウンと動的な価格上限保護。</p><h4>主要パラメータ</h4><ul><li><code>MaxMartingaleSteps</code> 追加されるポジションの最大数</li><li><code>MaxAllowedOpenLot</code> ポジションリミット</li><li><code>BaseAddPoints</code> ポジションを追加する距離</li><li><code>EnableEquityPullbackRule</code> 権利の保護</li></ul><p class="guide-risk">リスク: 最大ポジションと資本保護を設定せずに実行しないでください。。</p>`,
       'time-buy.md':`<h3>timebuy.ex5 使用説明書</h3><h4>関数</h4><p>一定の間隔でロングをする，SARとの組み合わせ、利益確定、トレーリングストップ、ダイナミックSLと最大ポジション管理。</p><h4>主要パラメータ</h4><ul><li><code>Seconds</code> 最小注文間隔</li><li><code>Lots</code> 単一ロットサイズ</li><li><code>TP_USDPer001</code> テイクプロフィット額</li><li><code>DynamicSLRatio</code> ダイナミックストップロスレシオ</li><li><code>BaseMaxOrders</code> ポジションリミット</li></ul><p class="guide-risk">リスク: トレンドに逆行するとポジションが蓄積する可能性がある，マージンを監視する必要がある。</p>`,
       'time-shell.md':`<h3>timeshell.ex5 使用説明書</h3><h4>関数</h4><p>定期的な空売り，SARとの組み合わせ、利益確定、トレーリングストップ、ダイナミックSLと最大ポジション管理。</p><h4>主要パラメータ</h4><ul><li><code>Seconds</code> 最小注文間隔</li><li><code>Lots</code> 単一ロットサイズ</li><li><code>TP_USDPer001</code> テイクプロフィット額</li><li><code>DynamicSLRatio</code> ダイナミックストップロスレシオ</li><li><code>BaseMaxOrders</code> ポジションリミット</li></ul><p class="guide-risk">リスク: 価格が上昇し続けると、空売りはすぐにリスクを蓄積する可能性があります。。</p>`,
       'zzx.md':`<h3>zzx.ex5 使用説明書</h3><h4>関数</h4><p>コンパイル済みバージョンのみが利用可能，特定のロジックは、MT5 入力と戦略テストの結果に基づいている必要があります。。</p><h4>使用</h4><ul><li>にインストールする <code>MQL5/Experts</code></li><li>ストラテジーテスターを使用したパターンの視覚化</li><li>道順を確認する、ロットサイズ、ポジションを追加して利益確定する</li><li>デモアカウントが安定していることが確認された後にのみ使用されます</li></ul><p class="guide-risk">リスク: ファイル名に基づいて実際の取引行動を推測しないでください。，最初にテストする必要があります。</p>`,
-      'zzx-2.md':`<h3>zzx2.0.ex5 使用説明書</h3><h4>関数</h4><p>長方向SAR第一位置フィルタ，一定間隔でのポジションの追加をサポート、動的な価格上限とポートフォリオのエグジット。</p><h4>主要パラメータ</h4><ul><li><code>InitialLots / MartingaleFactor</code> ポジションサイズ</li><li><code>BaseAddPoints</code> 位置を追加する距離</li><li><code>PriceUpperTimeframe</code> 動的上限</li><li><code>FloatingPercentThreshold</code> 終了しきい値</li></ul><p class="guide-risk">リスク: 下落相場でもポジションは拡大し続ける可能性がある，株式のストップロスを設定してください。</p>`
+      'zzx-2.md':`<h3>zzx2.0.ex5 使用説明書</h3><h4>関数</h4><p>長方向SAR第一ポジションフィルタ，一定間隔でのポジションの追加をサポート、動的な価格上限とポートフォリオのエグジット。</p><h4>主要パラメータ</h4><ul><li><code>InitialLots / MartingaleFactor</code> ポジションサイズ</li><li><code>BaseAddPoints</code> ポジションを追加する距離</li><li><code>PriceUpperTimeframe</code> 動的上限</li><li><code>FloatingPercentThreshold</code> 終了しきい値</li></ul><p class="guide-risk">リスク: 下落相場でもポジションは拡大し続ける可能性がある，株式のストップロスを設定してください。</p>`
     };
     const eas=[
       {file:'buy.ex5',guide:'buy.md',type:'SAR · ロングする・ポジションを追加する',desc:'SAR 最初のポジションフィルター、ポジションと権利保護を追加するフィボ ディスタンス。',size:'47.7 KB'},
-      {file:'buy3.0.ex5',guide:'buy-3.md',type:'SAR · ゴーロング・V3',desc:'最初の位置と追加位置の SAR フィルタリング，動的な価格上限をサポート。',size:'40.6 KB'},
+      {file:'buy3.0.ex5',guide:'buy-3.md',type:'SAR · ゴーロング・V3',desc:'最初のポジションと追加ポジションの SAR フィルタリング，動的な価格上限をサポート。',size:'40.6 KB'},
       {file:'DualGrid_MartinFib_SAR_Switch_EA.ex5',guide:'dual-grid.md',type:'デュアルグリッド・マーチンゲール・SAR',desc:'グリッド、Fibo アドオンと SAR モード切り替えの組み合わせ。',size:'82.3 KB'},
       {file:'H1_router.ex5',guide:'h1-router.md',type:'H1 SAR · ルートの組み合わせ',desc:'H1 SAR に基づく Martin Fibo ブランチによるグリッドの切り替え。',size:'79.3 KB'},
       {file:'RSI_MACD_複合EA.ex5',asset:'RSI_MACD_Composite_EA.ex5',guide:'rsi-macd.md',type:'RSI · MACD · 複雑な',desc:'RSIとMACDに基づく複合指標戦略。',size:'116.9 KB'},
