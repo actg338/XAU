@@ -187,15 +187,31 @@ box-shadow:0 10px 30px rgba(0,0,0,.22)}
 font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
 .language-switcher option{color:#111;background:#fff}
 @media(max-width:580px){.language-switcher{top:70px;right:10px}}
+</style><style>
+.language-switcher{position:fixed;top:82px;right:16px;z-index:90;display:flex;
+align-items:center;gap:8px;padding:7px 9px;border:1px solid rgba(255,255,255,.13);
+border-radius:11px;background:rgba(8,11,16,.9);backdrop-filter:blur(14px);
+box-shadow:0 10px 30px rgba(0,0,0,.22)}
+.language-switcher label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+.language-switcher select{border:0;outline:0;color:#f5f1e8;background:transparent;
+font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
+.language-switcher option{color:#111;background:#fff}
+@media(max-width:580px){.language-switcher{top:70px;right:10px}}
 </style></head>
 <body>
 <div class="language-switcher">
 <label for="siteLanguage">Language</label>
-<select aria-label="Language" id="siteLanguage" onchange="location.href=this.value">
-<option value="/">简体中文</option><option value="/zh-tw/">繁體中文</option><option selected="" value="/en/">English</option><option value="/ja/">日本語</option>
+<select aria-label="Language" id="siteLanguage" onchange="localStorage.setItem('siteLanguage',this.options[this.selectedIndex].dataset.lang);location.href=this.value">
+<option data-lang="zh-CN" value="/">简体中文</option><option data-lang="zh-tw" value="/zh-tw/">繁體中文</option><option data-lang="en" selected="" value="/en/">English</option><option data-lang="ja" value="/ja/">日本語</option>
 </select>
 </div>
 
+<div class="language-switcher">
+<label for="siteLanguage">Language</label>
+<select aria-label="Language" id="siteLanguage" onchange="location.href=this.value">
+<option selected="" value="/">Simplified Chinese</option><option value="/zh-tw/">Traditional Chinese</option><option value="/en/">English</option><option value="/ja/">Japanese</option>
+</select>
+</div>
 <div class="language-switcher">
 <label for="siteLanguage">Language</label>
 <select aria-label="Language" id="siteLanguage" onchange="location.href=this.value">
