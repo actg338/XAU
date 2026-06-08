@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="XAU MT5量化交易策略EA，提供策略展示、回測入口、引數說明與風險管理功能介紹。" name="description"/>
+<meta content="XAU MT5量化交易策略EA，提供策略展示、回測入口、參數說明與風險管理功能介紹。" name="description"/>
 <meta content="#080b10" name="theme-color"/>
 <title>XAU Quant | MT5黃金量化策略EA</title>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-17759696975"></script>
@@ -167,6 +167,16 @@ box-shadow:0 10px 30px rgba(0,0,0,.22)}
 font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
 .language-switcher option{color:#111;background:#fff}
 @media(max-width:580px){.language-switcher{top:70px;right:10px}}
+</style><style>
+.language-switcher{position:fixed;top:82px;right:16px;z-index:90;display:flex;
+align-items:center;gap:8px;padding:7px 9px;border:1px solid rgba(255,255,255,.13);
+border-radius:11px;background:rgba(8,11,16,.9);backdrop-filter:blur(14px);
+box-shadow:0 10px 30px rgba(0,0,0,.22)}
+.language-switcher label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+.language-switcher select{border:0;outline:0;color:#f5f1e8;background:transparent;
+font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
+.language-switcher option{color:#111;background:#fff}
+@media(max-width:580px){.language-switcher{top:70px;right:10px}}
 </style></head>
 <body>
 <div class="language-switcher">
@@ -176,6 +186,12 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 </select>
 </div>
 
+<div class="language-switcher">
+<label for="siteLanguage">Language</label>
+<select aria-label="Language" id="siteLanguage" onchange="location.href=this.value">
+<option selected="" value="/">簡體中文</option><option value="/zh-tw/">繁體中文</option><option value="/en/">English</option><option value="/ja/">日本語</option>
+</select>
+</div>
 <nav aria-label="主導航" class="nav">
 <div class="wrap nav-inner">
 <a class="brand" href="/zh-tw/"><span class="brand-mark">X</span> XAU QUANT</a>
@@ -200,7 +216,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 <a class="btn btn-secondary" href="/zh-tw/free-ea.html">免費 EA 下載</a>
 <a class="btn btn-secondary" href="/zh-tw/ea-install.html">新增EA教程</a>
 </div>
-<p class="hero-note">歷史表現不代表未來結果。交易前請充分理解策略邏輯並使用模擬賬戶驗證。</p>
+<p class="hero-note">歷史表現不代表未來結果。交易前請充分理解策略邏輯並使用模擬帳戶驗證。</p>
 </div>
 <div aria-label="XAU策略執行狀態示意" class="terminal">
 <div class="terminal-inner">
@@ -226,23 +242,23 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 <div class="wrap">
 <div class="section-head"><div class="eyebrow">Core System</div><h2>從訊號到退出，全流程管理</h2><p>減少情緒干擾，把交易規則轉化為可重複執行的系統流程。</p></div>
 <div class="features">
-<article class="card"><span class="card-num">01 / SIGNAL</span><h3>SAR 訊號過濾</h3><p>基於拋物線指標識別趨勢環境，並支援訊號反轉等引數化設定。</p></article>
-<article class="card"><span class="card-num">02 / POSITION</span><h3>智慧開倉管理</h3><p>配置開倉總開關、最小時間間隔、最大持倉及滑點控制。</p></article>
+<article class="card"><span class="card-num">01 / SIGNAL</span><h3>SAR 訊號過濾</h3><p>基於拋物線指標識別趨勢環境，並支援訊號反轉等參數化設定。</p></article>
+<article class="card"><span class="card-num">02 / POSITION</span><h3>智慧開倉管理</h3><p>設定開倉總開關、最小時間間隔、最大持倉及滑點控制。</p></article>
 <article class="card"><span class="card-num">03 / PROTECTION</span><h3>動態止損保護</h3><p>隨價格變化調整保護條件，支援移動止損與緩衝點數設定。</p></article>
-<article class="card"><span class="card-num">04 / RISK</span><h3>賬戶風險約束</h3><p>透過餘額、保證金比例和動態持倉上限等條件約束風險暴露。</p></article>
+<article class="card"><span class="card-num">04 / RISK</span><h3>帳戶風險約束</h3><p>透過餘額、保證金比例和動態持倉上限等條件約束風險暴露。</p></article>
 <article class="card"><span class="card-num">05 / EXIT</span><h3>止盈退出機制</h3><p>支援單倉目標、保護性止盈和浮虧觸發後的管理規則。</p></article>
-<article class="card"><span class="card-num">06 / CONFIG</span><h3>引數化配置</h3><p>針對不同賬戶環境與交易偏好調整策略引數，便於測試與迭代。</p></article>
+<article class="card"><span class="card-num">06 / CONFIG</span><h3>參數化設定</h3><p>針對不同帳戶環境與交易偏好調整策略參數，便於測試與迭代。</p></article>
 </div>
 </div>
 </section>
 <section id="demo">
 <div class="wrap">
-<div class="section-head"><div class="eyebrow">Product Demo</div><h2>先了解，再執行</h2><p>檢視策略演示，並在模擬環境中完成安裝、配置和驗證。</p></div>
+<div class="section-head"><div class="eyebrow">Product Demo</div><h2>先了解，再執行</h2><p>檢視策略演示，並在模擬環境中完成安裝、設定和驗證。</p></div>
 <div class="showcase">
-<div class="video-shell"><video controls="" preload="metadata"><source src="stg.mp4" type="video/mp4"/>您的瀏覽器不支援影片播放。</video></div>
+<div class="video-shell"><video controls="" preload="metadata"><source src="stg.mp4" type="video/mp4"/>您的瀏覽器不支援影片。</video></div>
 <div class="steps">
 <div class="step"><b>1</b><div><strong>安裝 EA</strong><span>將檔案放入 MT5 的 Experts 目錄並重新整理導航器。</span></div></div>
-<div class="step"><b>2</b><div><strong>配置引數</strong><span>根據賬戶規模、品種規格和風險承受能力設定引數。</span></div></div>
+<div class="step"><b>2</b><div><strong>設定參數</strong><span>根據帳戶規模、品種規格和風險承受能力設定參數。</span></div></div>
 <div class="step"><b>3</b><div><strong>模擬驗證</strong><span>先執行回測和模擬盤觀察，不要直接用於未經驗證的實盤。</span></div></div>
 <div class="step"><b>4</b><div><strong>持續覆盤</strong><span>定期檢查執行記錄，根據市場環境審視策略適用性。</span></div></div>
 </div>
@@ -251,7 +267,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 </section>
 <section>
 <div class="wrap cta">
-<div><h2>準備瞭解 XAU 策略？</h2><p>透過 MQL5 檢視產品，或聯絡開發者獲取引數與使用說明。</p></div>
+<div><h2>準備瞭解 XAU 策略？</h2><p>透過 MQL5 檢視產品，或聯絡開發者獲取參數與使用說明。</p></div>
 <div class="hero-actions" style="margin:0"><button class="btn btn-primary" data-open="purchaseDialog">獲取策略</button><button class="btn btn-secondary" data-open="brokerDialog">經紀商入口</button></div>
 </div>
 </section>
@@ -265,7 +281,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 <div class="dialog-head"><h3>獲取 EA 策略</h3><button aria-label="關閉" class="close" data-close="">×</button></div>
 <p style="color:var(--muted)">在 MQL5 產品頁面檢視版本資訊、適用環境與購買方式。</p>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-top:20px"><a href="https://www.mql5.com/zh/market/product/179455?source=Site+Profile+Seller" rel="noopener" style="display:flex;min-height:156px;padding:20px;flex-direction:column;justify-content:space-between;border:1px solid rgba(243,213,138,.28);border-radius:16px;text-decoration:none;background:linear-gradient(145deg,rgba(217,172,85,.14),rgba(255,255,255,.025));transition:.2s" target="_blank"><span style="color:var(--gold);font-size:11px;font-weight:800;letter-spacing:.12em">MQL5 PRODUCT · 179455</span><strong style="font-size:19px">黃金量化策略 EA</strong><span style="color:var(--gold-light);font-weight:700">檢視產品 →</span></a><a href="https://www.mql5.com/zh/market/product/155345?source=Site+Profile+Seller" rel="noopener" style="display:flex;min-height:156px;padding:20px;flex-direction:column;justify-content:space-between;border:1px solid var(--line);border-radius:16px;text-decoration:none;background:rgba(255,255,255,.035);transition:.2s" target="_blank"><span style="color:var(--muted);font-size:11px;font-weight:800;letter-spacing:.12em">MQL5 PRODUCT · 155345</span><strong style="font-size:19px">MT5 自動交易 EA</strong><span style="color:var(--gold-light);font-weight:700">檢視產品 →</span></a></div>
-<p class="risk">風險提示：自動化交易不保證盈利。市場波動、點差、滑點、網路與引數設定均可能影響結果，請獨立判斷並控制風險。</p>
+<p class="risk">風險提示：自動化交易不保證盈利。市場波動、點差、滑點、網路與參數設定均可能影響結果，請獨立判斷並控制風險。</p>
 </div>
 </dialog>
 <dialog id="brokerDialog">
