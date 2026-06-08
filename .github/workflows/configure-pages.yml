@@ -1,0 +1,30 @@
+name: Configure and deploy GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/configure-pages.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+
+jobs:
+  configure:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Configure Pages source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api --method PUT "repos/${GITHUB_REPOSITORY}/pages" \
+            -f build_type=legacy \
+            -f 'source[branch]=main' \
+            -f 'source[path]=/'
+
+      - name: Request Pages build
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"
