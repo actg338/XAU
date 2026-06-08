@@ -51,6 +51,16 @@ box-shadow:0 10px 30px rgba(0,0,0,.22)}
 font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
 .language-switcher option{color:#111;background:#fff}
 @media(max-width:580px){.language-switcher{top:70px;right:10px}}
+</style><style>
+.language-switcher{position:fixed;top:82px;right:16px;z-index:90;display:flex;
+align-items:center;gap:8px;padding:7px 9px;border:1px solid rgba(255,255,255,.13);
+border-radius:11px;background:rgba(8,11,16,.9);backdrop-filter:blur(14px);
+box-shadow:0 10px 30px rgba(0,0,0,.22)}
+.language-switcher label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+.language-switcher select{border:0;outline:0;color:#f5f1e8;background:transparent;
+font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
+.language-switcher option{color:#111;background:#fff}
+@media(max-width:580px){.language-switcher{top:70px;right:10px}}
 </style></head>
 <body>
 <div class="language-switcher">
@@ -60,6 +70,12 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 </select>
 </div>
 
+<div class="language-switcher">
+<label for="siteLanguage">Language</label>
+<select aria-label="Language" id="siteLanguage" onchange="localStorage.setItem('siteLanguage',this.options[this.selectedIndex].dataset.lang);location.href=this.value">
+<option data-lang="zh-CN" selected="" value="/free-ea.html">Simplified Chinese</option><option data-lang="zh-tw" value="/zh-tw/free-ea.html">Traditional Chinese</option><option data-lang="en" value="/en/free-ea.html">English</option><option data-lang="ja" value="/ja/free-ea.html">Japanese</option>
+</select>
+</div>
 <div class="language-switcher">
 <label for="siteLanguage">Language</label>
 <select aria-label="Language" id="siteLanguage" onchange="location.href=this.value">
@@ -81,12 +97,12 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 <nav class="nav"><div class="wrap nav-in"><a class="brand" href="/en/"><span class="mark">X</span>XAU QUANT</a><a class="back" href="/en/">← Return to strategy home page</a></div></nav>
 <header class="wrap">
 <div class="eyebrow">Free MT5 Expert Advisors</div>
-<h1>Free EA<br/>Download and usage instructions</h1>
-<p>Provide compiled version <code>.ex5</code> document. Each EA is equipped with independent instructions, and the number of downloads is counted in real time by GitHub Release.</p>
+<h1>Free EAs: downloads and user guides</h1>
+<p>Download compiled .ex5 files for MetaTrader 5. Every EA includes an on-page guide, while download totals are read directly from GitHub Releases.</p>
 <div class="summary"><span class="pill"><b>12</b> EA</span><span class="pill">Applicable to <b>MetaTrader 5</b></span><span class="pill">Version <b>free-ea-v1.0</b></span></div>
 </header>
 <main class="wrap">
-<div class="notice">Important: Free does not mean low risk. Grid, martin, and timed replenishment strategies may produce larger retracements. Please read the instructions first and complete the backtest and forward test on the demo account.</div>
+<div class="notice">Important: free does not mean low risk. Grid, Martingale, and timed scaling strategies can produce substantial drawdowns. Read the guide and complete both backtesting and forward testing on a demo account first.</div>
 <div class="grid" id="eaGrid"></div>
 </main>
 <footer><div class="wrap">© 2026 XAU Quant · Historical results are not indicative of future performance · Automated trading does not guarantee profitability</div></footer>
