@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="免费下载 MT5 EA 编译文件，查看独立使用说明和真实下载次数。">
+  <meta name="theme-color" content="#080b10">
+  <title>免费 EA 下载 | XAU Quant</title>
+  <style>
+    :root{--bg:#080b10;--panel:#111720;--line:rgba(255,255,255,.09);--text:#f5f1e8;--muted:#9ba4b2;--gold:#d9ac55;--gold2:#f3d58a;--green:#56c596;--shadow:0 24px 70px rgba(0,0,0,.32)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--text);background:radial-gradient(circle at 78% 0,rgba(217,172,85,.13),transparent 34rem),radial-gradient(circle at 0 55%,rgba(86,197,150,.06),transparent 26rem),var(--bg);font-family:Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}.nav{position:sticky;top:0;z-index:10;border-bottom:1px solid var(--line);background:rgba(8,11,16,.82);backdrop-filter:blur(18px)}.nav-in{height:70px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:11px;color:var(--text);font-weight:800;letter-spacing:.08em;text-decoration:none}.mark{display:grid;place-items:center;width:38px;height:38px;border:1px solid rgba(243,213,138,.45);border-radius:12px;color:var(--gold2);background:rgba(217,172,85,.12)}.back{color:var(--muted);text-decoration:none;font-size:14px}.back:hover{color:var(--text)}header{padding:82px 0 42px}.eyebrow{color:var(--gold2);font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}h1{max-width:780px;margin:14px 0 18px;font-size:clamp(40px,6vw,72px);line-height:1.06;letter-spacing:-.045em}header p{max-width:720px;margin:0;color:var(--muted);font-size:17px}.summary{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}.pill{padding:8px 12px;border:1px solid var(--line);border-radius:999px;color:var(--muted);font-size:12px;background:rgba(255,255,255,.025)}.pill b{color:var(--text)}.notice{margin:20px 0 32px;padding:16px 18px;border:1px solid rgba(217,172,85,.25);border-radius:14px;color:#c7b98f;background:rgba(217,172,85,.07);font-size:13px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;padding-bottom:80px}.card{display:flex;min-height:285px;padding:24px;flex-direction:column;border:1px solid var(--line);border-radius:20px;background:linear-gradient(145deg,rgba(255,255,255,.052),rgba(255,255,255,.018));transition:.2s}.card:hover{transform:translateY(-3px);border-color:rgba(217,172,85,.35);box-shadow:var(--shadow)}.top{display:flex;justify-content:space-between;align-items:center;gap:10px}.tag{color:var(--gold);font-size:11px;font-weight:800;letter-spacing:.1em}.size{color:#717b89;font-size:11px}.card h2{margin:24px 0 8px;font-size:20px;line-height:1.3}.card p{margin:0;color:var(--muted);font-size:13px}.meta{display:flex;align-items:center;gap:7px;margin-top:14px;color:#7e8896;font-size:12px}.dot{width:6px;height:6px;border-radius:50%;background:var(--green)}.actions{display:grid;grid-template-columns:1fr auto;gap:9px;margin-top:auto;padding-top:22px}.btn{display:flex;min-height:44px;padding:0 15px;align-items:center;justify-content:center;border:1px solid transparent;border-radius:11px;font:inherit;font-size:13px;font-weight:750;text-decoration:none;cursor:pointer}.download{color:#19140a;background:linear-gradient(135deg,var(--gold2),var(--gold))}.guide{color:var(--text);border-color:var(--line);background:rgba(255,255,255,.03)}footer{padding:34px 0;border-top:1px solid var(--line);color:var(--muted);font-size:12px}.loading{color:var(--gold2)}@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:590px){.wrap{width:calc(100% - 28px)}header{padding-top:56px}.grid{grid-template-columns:1fr}.card{min-height:260px}.back{font-size:0}.back::after{content:"返回首页";font-size:13px}}
+  </style>
+</head>
+<body>
+  <nav class="nav"><div class="wrap nav-in"><a class="brand" href="/"><span class="mark">X</span>XAU QUANT</a><a class="back" href="/">← 返回策略首页</a></div></nav>
+  <header class="wrap">
+    <div class="eyebrow">Free MT5 Expert Advisors</div>
+    <h1>免费 EA<br>下载与使用说明</h1>
+    <p>提供编译版 <code>.ex5</code> 文件。每个 EA 都配有独立说明，下载次数由 GitHub Release 实时统计。</p>
+    <div class="summary"><span class="pill"><b>12</b> 个 EA</span><span class="pill">适用于 <b>MetaTrader 5</b></span><span class="pill">版本 <b>free-ea-v1.0</b></span></div>
+  </header>
+  <main class="wrap">
+    <div class="notice">重要：免费不代表低风险。网格、马丁和定时加仓策略可能产生较大回撤。请先阅读说明，并在模拟账户完成回测与前向测试。</div>
+    <div class="grid" id="eaGrid"></div>
+  </main>
+  <footer><div class="wrap">© 2026 XAU Quant · 历史结果不代表未来表现 · 自动化交易不保证盈利</div></footer>
+  <script>
+    const releaseTag='free-ea-v1.0';
+    const base='https://github.com/actg338/XAU/releases/download/'+releaseTag+'/';
+    const guideBase='https://github.com/actg338/XAU/blob/main/docs/free-ea/';
+    const eas=[
+      {file:'buy.ex5',guide:'buy.md',type:'SAR · 做多 · 加仓',desc:'SAR 首仓过滤、斐波间距加仓与权益保护。',size:'47.7 KB'},
+      {file:'buy3.0.ex5',guide:'buy-3.md',type:'SAR · 做多 · V3',desc:'首仓与加仓 SAR 过滤，支持动态价格上限。',size:'40.6 KB'},
+      {file:'DualGrid_MartinFib_SAR_Switch_EA.ex5',guide:'dual-grid.md',type:'双网格 · 马丁 · SAR',desc:'网格、斐波加仓与 SAR 模式切换组合。',size:'82.3 KB'},
+      {file:'H1_router.ex5',guide:'h1-router.md',type:'H1 SAR · 路由组合',desc:'根据 H1 SAR 切换网格与马丁斐波分支。',size:'79.3 KB'},
+      {file:'RSI_MACD_复合EA.ex5',guide:'rsi-macd.md',type:'RSI · MACD · 复合',desc:'基于 RSI 与 MACD 的复合指标策略。',size:'116.9 KB'},
+      {file:'shell2.0.ex5',guide:'shell-2.md',type:'SAR · 做空 · 加仓',desc:'做空方向 SAR 过滤、加仓与组合浮盈退出。',size:'36.2 KB'},
+      {file:'shelltime.ex5',guide:'shell-time.md',type:'SAR · 做空 · 斐波',desc:'做空方向 SAR 与斐波间距加仓策略。',size:'38.6 KB'},
+      {file:'thRO03.ex5',guide:'thro03.md',type:'SAR · 做多 · 风控',desc:'做多加仓、动态价格上限与账户保护。',size:'46.2 KB'},
+      {file:'timebuy.ex5',guide:'time-buy.md',type:'定时 · 做多 · 动态 SL',desc:'定时做多、移动止损与动态持仓管理。',size:'73.2 KB'},
+      {file:'timeshell.ex5',guide:'time-shell.md',type:'定时 · 做空 · 动态 SL',desc:'定时做空、移动止损与动态持仓管理。',size:'60.7 KB'},
+      {file:'zzx.ex5',guide:'zzx.md',type:'编译版 · 需先测试',desc:'仅提供编译文件，请按说明先验证实际行为。',size:'38.3 KB'},
+      {file:'zzx2.0.ex5',guide:'zzx-2.md',type:'SAR · 做多 · V2',desc:'做多 SAR 过滤、固定间距加仓和组合退出。',size:'41.0 KB'}
+    ];
+    const grid=document.getElementById('eaGrid');
+    function render(counts={}){
+      grid.innerHTML=eas.map(e=>`<article class="card"><div class="top"><span class="tag">${e.type}</span><span class="size">${e.size}</span></div><h2>${e.file}</h2><p>${e.desc}</p><div class="meta"><span class="dot"></span><span data-count="${e.file}">${counts[e.file]===undefined?'<span class="loading">读取下载次数…</span>':counts[e.file]+' 次下载'}</span></div><div class="actions"><a class="btn download" href="${base+encodeURIComponent(e.file)}" download>免费下载</a><a class="btn guide" href="${guideBase+encodeURIComponent(e.guide)}" target="_blank" rel="noopener">说明</a></div></article>`).join('');
+    }
+    render();
+    fetch('https://api.github.com/repos/actg338/XAU/releases/tags/'+releaseTag,{headers:{Accept:'application/vnd.github+json'}})
+      .then(r=>{if(!r.ok)throw new Error('release unavailable');return r.json()})
+      .then(data=>{const counts={};data.assets.forEach(a=>counts[a.name]=a.download_count);render(counts)})
+      .catch(()=>document.querySelectorAll('[data-count]').forEach(el=>el.textContent='统计发布后显示'));
+  </script>
+</body>
+</html>
