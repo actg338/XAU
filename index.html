@@ -207,7 +207,7 @@ box-shadow:0 10px 30px rgba(0,0,0,.22)}
 font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
 .language-switcher option{color:#111;background:#fff}
 @media(max-width:580px){.language-switcher{top:70px;right:10px}}
-</style></head>
+</style><style>.donate-nav{min-height:40px;padding:0 14px;border:1px solid rgba(86,197,150,.42);border-radius:11px;color:#07120d;background:linear-gradient(135deg,#8ce0b7,#56c596);font:inherit;font-size:13px;font-weight:800;cursor:pointer}.donate-dialog{width:min(520px,calc(100% - 28px));padding:0;border:1px solid rgba(86,197,150,.32);border-radius:22px;color:var(--text);background:#111720;box-shadow:0 24px 70px rgba(0,0,0,.55)}.donate-dialog::backdrop{background:rgba(2,4,7,.8);backdrop-filter:blur(6px)}.donate-box{padding:28px}.donate-head{display:flex;align-items:center;justify-content:space-between;gap:20px}.donate-head h2{margin:0;font-size:23px}.donate-close{width:38px;height:38px;border:1px solid var(--line);border-radius:10px;color:var(--text);background:transparent;cursor:pointer}.donate-network{display:inline-flex;margin:18px 0 0;padding:6px 10px;border-radius:999px;color:#8ce0b7;background:rgba(86,197,150,.11);font-size:12px;font-weight:800}.donate-qr{display:block;width:220px;max-width:100%;margin:16px auto;padding:10px;border-radius:16px;background:#fff}.donate-address{padding:14px;border:1px solid var(--line);border-radius:13px;color:#f3d58a;background:#090d12;font-family:Consolas,monospace;font-size:13px;line-height:1.55;overflow-wrap:anywhere}.donate-copy{width:100%;margin-top:12px;min-height:44px;border:0;border-radius:11px;color:#07120d;background:#56c596;font:inherit;font-weight:800;cursor:pointer}.donate-note{margin:14px 0 0;color:var(--muted);font-size:12px}@media(max-width:580px){.donate-nav{padding:0 10px;font-size:12px}.donate-box{padding:22px}}</style></head>
 <body>
 <div class="language-switcher">
 <label for="siteLanguage">Language</label>
@@ -243,7 +243,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 <nav aria-label="主导航" class="nav">
 <div class="wrap nav-inner">
 <a class="brand" href="/"><span class="brand-mark">X</span> XAU QUANT</a>
-<div class="nav-links">
+<div class="nav-links"><button class="donate-nav" id="donateOpen" type="button">打赏 USDT</button>
 <a href="#features">核心能力</a>
 <a href="#demo">策略展示</a>
 <a href="/huice.html">EA回测</a>
@@ -324,7 +324,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 <div class="wrap footer-grid"><div><strong style="color:var(--text)">XAU QUANT</strong><br/>MT5 量化策略工具</div><div>微信：thRO03 · Telegram：aws2333<br/>© 2026 XAU Quant. All rights reserved.</div></div>
 </footer>
 <button aria-label="打开经纪商入口" class="btn btn-primary" data-open="brokerDialog" style="position:fixed;right:18px;bottom:18px;z-index:35;box-shadow:0 14px 35px rgba(0,0,0,.35)">经纪商</button>
-<dialog id="purchaseDialog">
+<dialog class="donate-dialog" id="donateDialog"><div class="donate-box"><div class="donate-head"><h2>支持网站与 EA 开发</h2><button class="donate-close" id="donateClose" type="button" aria-label="关闭">×</button></div><div class="donate-network">USDT · TRC-20</div><img class="donate-qr" src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=TP9pbuDMhPjWk8otoZniN3WLAR7rijQUos" alt="USDT TRC-20 收款地址二维码" width="220" height="220"/><div class="donate-address">TP9pbuDMhPjWk8otoZniN3WLAR7rijQUos</div><button class="donate-copy" id="donateCopy" type="button">复制收款地址</button><p class="donate-note">请务必选择 TRC-20 网络。转账前请仔细核对地址，区块链交易无法撤销。</p></div></dialog><dialog id="purchaseDialog">
 <div class="dialog-inner">
 <div class="dialog-head"><h3>获取 EA 策略</h3><button aria-label="关闭" class="close" data-close="">×</button></div>
 <p style="color:var(--muted)">在 MQL5 产品页面查看版本信息、适用环境与购买方式。</p>
@@ -365,5 +365,5 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
   </script>
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <script crossorigin="anonymous" data-cf-beacon='{"version":"2024.11.0","token":"c71a6fca8db44e87b1ad0692e77cb05f","r":1}' defer="" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"></script>
-</body>
+<script>(function(){const d=document.getElementById('donateDialog'),c=document.getElementById('donateCopy'),a='TP9pbuDMhPjWk8otoZniN3WLAR7rijQUos';document.getElementById('donateOpen').onclick=()=>d.showModal();document.getElementById('donateClose').onclick=()=>d.close();d.onclick=e=>{if(e.target===d)d.close()};c.onclick=async()=>{try{await navigator.clipboard.writeText(a)}catch(e){const t=document.createElement('textarea');t.value=a;document.body.appendChild(t);t.select();document.execCommand('copy');t.remove()}c.textContent='已复制';setTimeout(()=>c.textContent='复制收款地址',1600)}})();</script></body>
 </html>
