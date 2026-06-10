@@ -99,7 +99,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 <div class="eyebrow">Free MT5 Expert Advisors</div>
 <h1>免费 EA<br/>下载与使用说明</h1>
 <p>提供编译版 <code>.ex5</code> 文件。每个 EA 都配有独立说明，下载次数由 GitHub Release 实时统计。</p>
-<div class="summary"><span class="pill"><b>12</b> 个 EA</span><span class="pill">适用于 <b>MetaTrader 5</b></span><span class="pill">版本 <b>free-ea-v1.0</b></span></div>
+<div class="summary"><span class="pill"><b>13</b> 个 EA</span><span class="pill">适用于 <b>MetaTrader 5</b></span><span class="pill">版本 <b>free-ea-v1.0</b></span></div>
 </header>
 <main class="wrap">
 <div class="notice">重要：免费不代表低风险。网格、马丁和定时加仓策略可能产生较大回撤。请先阅读说明，并在模拟账户完成回测与前向测试。</div>
@@ -110,6 +110,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
     const releaseTag='free-ea-v1.0';
     const base='https://github.com/actg338/XAU/releases/download/'+releaseTag+'/';
     const guides={
+      'resonance.md':`<h3>XAUUSD_M1_Resonance_EA.ex5 使用说明</h3><h4>功能</h4><p>面向 XAUUSD M1 的 Ichimoku 与 SAR 双指标共振策略，使用 ATR 动态止损、时段过滤和亏损惩罚冷却机制。</p><h4>使用</h4><ul><li>复制到 <code>MQL5/Experts</code></li><li>加载至 XAUUSD 的 M1 图表</li><li>先在策略测试器和模拟账户验证参数</li><li>确认经纪商点差与交易时段设置</li></ul><p class="guide-risk">风险：自动交易不保证盈利，极端波动、滑点和点差扩大可能影响实际结果。</p>`,
       'buy.md':`<h3>buy.ex5 使用说明</h3><h4>功能</h4><p>仅做多的 SAR 首仓过滤与斐波间距加仓，包含保证金检查、权益回撤和浮盈比例退出。</p><h4>建议设置</h4><ul><li><code>InitialLots</code> 建议从 0.01 开始</li><li><code>MartingaleFactor</code> 控制加仓倍数</li><li><code>BaseAddPoints</code> 控制加仓距离</li><li><code>MagicNumber</code> 每个实例保持唯一</li></ul><h4>安装</h4><p>放入 <code>MQL5/Experts</code>，刷新导航器后加载到 XAUUSD 图表并允许算法交易。</p><p class="guide-risk">风险：包含加仓逻辑，请先回测和模拟运行并限制总手数。</p>`,
       'buy-3.md':`<h3>buy3.0.ex5 使用说明</h3><h4>功能</h4><p>做多方向，使用 SAR 过滤首仓和加仓，支持动态价格上限及组合浮盈退出。</p><h4>关键参数</h4><ul><li><code>InitialLots</code> 建议从 0.01 开始</li><li><code>UseAddSARFilter</code> 控制加仓过滤</li><li><code>BaseAddPoints</code> 加仓距离</li><li><code>FloatingPercentThreshold</code> 组合退出阈值</li></ul><h4>使用</h4><p>复制到 <code>MQL5/Experts</code>，刷新后加载至目标图表。</p><p class="guide-risk">风险：连续加仓会放大回撤，实盘前需匹配经纪商合约规格。</p>`,
       'dual-grid.md':`<h3>DualGrid EA 使用说明</h3><h4>功能</h4><p>双向网格、马丁斐波间距与 SAR 切换组合 EA，具体参数以 MT5 Inputs 为准。</p><h4>使用</h4><ul><li>放入 <code>MQL5/Experts</code></li><li>优先使用对冲账户和模拟环境</li><li>检查手数、网格间距、最大持仓和止损</li><li>启用前保存参数截图</li></ul><p class="guide-risk">风险：网格和马丁组合可能快速扩大持仓，必须设置权益止损。</p>`,
@@ -124,6 +125,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
       'zzx-2.md':`<h3>zzx2.0.ex5 使用说明</h3><h4>功能</h4><p>做多方向 SAR 首仓过滤，支持固定间距加仓、动态价格上限与组合退出。</p><h4>关键参数</h4><ul><li><code>InitialLots / MartingaleFactor</code> 仓位规模</li><li><code>BaseAddPoints</code> 加仓距离</li><li><code>PriceUpperTimeframe</code> 动态上限</li><li><code>FloatingPercentThreshold</code> 退出阈值</li></ul><p class="guide-risk">风险：下跌行情中可能持续扩大仓位，请配置权益止损。</p>`
     };
     const eas=[
+      {file:'XAUUSD_M1_Resonance_EA.ex5',guide:'resonance.md',type:'Ichimoku · SAR · M1 共振',desc:'黄金 M1 双指标共振、ATR 动态止损与亏损惩罚冷却策略。',size:'60.7 KB'},
       {file:'buy.ex5',guide:'buy.md',type:'SAR · 做多 · 加仓',desc:'SAR 首仓过滤、斐波间距加仓与权益保护。',size:'47.7 KB'},
       {file:'buy3.0.ex5',guide:'buy-3.md',type:'SAR · 做多 · V3',desc:'首仓与加仓 SAR 过滤，支持动态价格上限。',size:'40.6 KB'},
       {file:'DualGrid_MartinFib_SAR_Switch_EA.ex5',guide:'dual-grid.md',type:'双网格 · 马丁 · SAR',desc:'网格、斐波加仓与 SAR 模式切换组合。',size:'82.3 KB'},
