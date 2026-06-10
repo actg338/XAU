@@ -207,43 +207,18 @@ box-shadow:0 10px 30px rgba(0,0,0,.22)}
 font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
 .language-switcher option{color:#111;background:#fff}
 @media(max-width:580px){.language-switcher{top:70px;right:10px}}
-</style></head>
-<body>
-<div class="language-switcher">
-<label for="siteLanguage">Language</label>
-<select aria-label="Language" id="siteLanguage" onchange="localStorage.setItem('siteLanguage',this.options[this.selectedIndex].dataset.lang);location.href=this.value">
-<option data-lang="zh-CN" value="/">简体中文</option><option data-lang="zh-tw" value="/zh-tw/">繁體中文</option><option data-lang="en" value="/en/">English</option><option data-lang="ja" selected="" value="/ja/">日本語</option>
-</select>
-</div>
+</style><style>.donate-nav{order:99;min-height:40px;padding:0 14px;border:1px solid rgba(86,197,150,.42);border-radius:11px;color:#07120d;background:#56c596;font:inherit;font-size:13px;font-weight:800;cursor:pointer}.donate-dialog{width:min(520px,calc(100% - 28px));padding:0;border:1px solid rgba(86,197,150,.32);border-radius:22px;color:var(--text);background:#111720}.donate-dialog::backdrop{background:rgba(2,4,7,.8)}.donate-box{padding:28px}.donate-head{display:flex;justify-content:space-between;align-items:center}.donate-head h2{margin:0;font-size:23px}.donate-close{width:38px;height:38px;color:var(--text);background:transparent;border:1px solid var(--line);border-radius:10px}.donate-network{display:inline-flex;margin-top:18px;padding:6px 10px;color:#8ce0b7;background:rgba(86,197,150,.11);border-radius:999px}.donate-qr{display:block;width:220px;max-width:100%;margin:16px auto;padding:10px;background:#fff;border-radius:16px}.donate-address{padding:14px;color:#f3d58a;background:#090d12;border-radius:13px;font-family:Consolas,monospace;overflow-wrap:anywhere}.donate-copy{width:100%;min-height:44px;margin-top:12px;border:0;border-radius:11px;background:#56c596;font-weight:800}.donate-note{color:var(--muted);font-size:12px}</style></head>
+<body><div class="language-switcher"><label for="siteLanguage">Language</label><select aria-label="Language" id="siteLanguage" onchange="location.href=this.value"><option value="/">简体中文</option><option value="/zh-tw/">繁體中文</option><option value="/en/">English</option><option selected value="/ja/">日本語</option></select></div>
 
-<div class="language-switcher">
-<label for="siteLanguage">Language</label>
-<select aria-label="Language" id="siteLanguage" onchange="localStorage.setItem('siteLanguage',this.options[this.selectedIndex].dataset.lang);location.href=this.value">
-<option data-lang="zh-CN" selected="" value="/">簡体字中国語</option><option data-lang="zh-tw" value="/zh-tw/">繁体字中国語</option><option data-lang="en" value="/en/">English</option><option data-lang="ja" value="/ja/">日本語</option>
-</select>
-</div>
-<div class="language-switcher">
-<label for="siteLanguage">Language</label>
-<select aria-label="Language" id="siteLanguage" onchange="location.href=this.value">
-<option selected="" value="/">簡体字中国語</option><option value="/zh-tw/">繁体字中国語</option><option value="/en/">English</option><option value="/ja/">日本語</option>
-</select>
-</div>
-<div class="language-switcher">
-<label for="siteLanguage">Language</label>
-<select aria-label="Language" id="siteLanguage" onchange="location.href=this.value">
-<option selected="" value="/">簡体字中国語</option><option value="/zh-tw/">繁体字中国語</option><option value="/en/">English</option><option value="/ja/">日本語</option>
-</select>
-</div>
-<div class="language-switcher">
-<label for="siteLanguage">Language</label>
-<select aria-label="Language" id="siteLanguage" onchange="location.href=this.value">
-<option selected="" value="/">簡体字中国語</option><option value="/zh-tw/">繁体字中国語</option><option value="/en/">English</option><option value="/ja/">日本語</option>
-</select>
-</div>
+
+
+
+
+
 <nav aria-label="メインナビゲーション" class="nav">
 <div class="wrap nav-inner">
 <a class="brand" href="/ja/"><span class="brand-mark">X</span> XAU QUANT</a>
-<div class="nav-links">
+<div class="nav-links"><button class="donate-nav" id="donateOpen">USDT寄付</button>
 <a href="#features">コアコンピテンシー</a>
 <a href="#demo">戦略表示</a>
 <a href="/ja/huice.html">EA バックテスト</a>
@@ -324,7 +299,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 <div class="wrap footer-grid"><div><strong style="color:var(--text)">XAU QUANT</strong><br/>MT5定量戦略ツール</div><div>WeChat: thRO03 · 電報: aws2333<br/>© 2026 XAU Quant. All rights reserved.</div></div>
 </footer>
 <button aria-label="ブローカーポータルを開く" class="btn btn-primary" data-open="brokerDialog" style="position:fixed;right:18px;bottom:18px;z-index:35;box-shadow:0 14px 35px rgba(0,0,0,.35)">ブローカ</button>
-<dialog id="purchaseDialog">
+<dialog class="donate-dialog" id="donateDialog"><div class="donate-box"><div class="donate-head"><h2>サイトとEA開発を支援</h2><button class="donate-close" id="donateClose">×</button></div><div class="donate-network">USDT · TRC-20</div><img class="donate-qr" src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=TP9pbuDMhPjWk8otoZniN3WLAR7rijQUos" alt="USDT TRC-20 QRコード"/><div class="donate-address">TP9pbuDMhPjWk8otoZniN3WLAR7rijQUos</div><button class="donate-copy" id="donateCopy">アドレスをコピー</button><p class="donate-note">TRC-20ネットワークのみを使用し、送金前にアドレスを確認してください。</p></div></dialog><dialog id="purchaseDialog">
 <div class="dialog-inner">
 <div class="dialog-head"><h3>EA 戦略を取得する</h3><button aria-label="閉鎖" class="close" data-close="">×</button></div>
 <p style="color:var(--muted)">バージョン情報、適用環境、購入方法はMQL5の製品ページでご確認ください。</p>
@@ -365,5 +340,5 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
   </script>
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <script crossorigin="anonymous" data-cf-beacon='{"version":"2024.11.0","token":"c71a6fca8db44e87b1ad0692e77cb05f","r":1}' defer="" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"></script>
-</body>
+<script>(function(){const d=document.getElementById('donateDialog'),c=document.getElementById('donateCopy'),a='TP9pbuDMhPjWk8otoZniN3WLAR7rijQUos';document.getElementById('donateOpen').onclick=()=>d.showModal();document.getElementById('donateClose').onclick=()=>d.close();c.onclick=()=>navigator.clipboard.writeText(a)})();</script></body>
 </html>
