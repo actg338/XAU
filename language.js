@@ -8,7 +8,7 @@
     ja:{button:'USDT寄付',title:'サイトとEA開発を支援',copy:'アドレスをコピー',copied:'コピーしました',note:'TRC-20ネットワークのみを使用し、送金前にアドレスを確認してください。',close:'閉じる'},
     ko:{button:'USDT 후원',title:'웹사이트와 EA 개발 후원',copy:'지갑 주소 복사',copied:'복사됨',note:'TRC-20 네트워크만 사용하세요. 전송 전에 주소를 확인하십시오. 블록체인 전송은 취소할 수 없습니다.',close:'닫기'},
     de:{button:'USDT spenden',title:'Website und EA-Entwicklung unterstützen',copy:'Wallet-Adresse kopieren',copied:'Kopiert',note:'Verwenden Sie ausschließlich das TRC-20-Netzwerk. Prüfen Sie die Adresse vor der Überweisung; Blockchain-Transaktionen sind nicht rückgängig zu machen.',close:'Schließen'},
-    fr:{button:'Don USDT',title:'Soutenir le site et le développement des EA',copy:"Copier l’adresse",copied:'Copié',note:"Utilisez uniquement le réseau TRC-20. Vérifiez l’adresse avant l’envoi; les transactions blockchain sont irréversibles.",close:'Fermer'}
+    fr:{button:'Don USDT',title:'Soutenir le site et le développement des EA',copy:'Copier l’adresse',copied:'Copié',note:'Utilisez uniquement le réseau TRC-20. Vérifiez l’adresse avant l’envoi; les transactions blockchain sont irréversibles.',close:'Fermer'}
   };
   const path=location.pathname;
   const isFree=path.endsWith('/free-ea.html')||path==='/free-ea.html';
@@ -16,10 +16,7 @@
     const lang=(document.documentElement.lang||'').toLowerCase();
     if(lang.startsWith('zh-tw')||lang.startsWith('zh-hant'))return 'zh-TW';
     if(lang.startsWith('zh'))return 'zh-CN';
-    if(lang.startsWith('ja'))return 'ja';
-    if(lang.startsWith('ko'))return 'ko';
-    if(lang.startsWith('de'))return 'de';
-    if(lang.startsWith('fr'))return 'fr';
+    for(const code of ['ja','ko','de','fr'])if(lang.startsWith(code))return code;
     return 'en';
   }
   function browserLanguage(){
@@ -46,10 +43,35 @@
       select.onchange=function(){localStorage.setItem('siteLanguage',this.selectedOptions[0].dataset.lang);location.href=this.value;};
     }
     const text=locale[active]||locale.en;
-    const open=document.getElementById('donateOpen'),dialog=document.getElementById('donateDialog'),copy=document.getElementById('donateCopy'),close=document.getElementById('donateClose');
+    const open=document.getElementById('donateOpen');
+    const dialog=document.getElementById('donateDialog');
+    const close=document.getElementById('donateClose');
     if(open)open.textContent=text.button;
-    if(dialog){const title=dialog.querySelector('.donate-head h2'),note=dialog.querySelector('.donate-note');if(title)title.textContent=text.title;if(note)note.textContent=text.note;}
-    if(copy){copy.textContent=text.copy;copy.addEventListener('click',function(){copy.textContent=text.copied;setTimeout(()=>copy.textContent=text.copy,1600);});}
+    if(dialog){
+      const title=dialog.querySelector('.donate-head h2');
+      const note=dialog.querySelector('.donate-note');
+      if(title)title.textContent=text.title;
+      if(note)note.textContent=text.note;
+    }
+    const oldCopy=document.getElementById('donateCopy');
+    if(oldCopy){
+      const copy=oldCopy.cloneNode(true);
+      oldCopy.replaceWith(copy);
+      copy.textContent=text.copy;
+      copy.addEventListener('click',async function(){
+        const address='TP9pbuDMhPjWk8otoZniN3WLAR7rijQUos';
+        try{await navigator.clipboard.writeText(address);}catch(error){
+          const area=document.createElement('textarea');
+          area.value=address;
+          document.body.appendChild(area);
+          area.select();
+          document.execCommand('copy');
+          area.remove();
+        }
+        copy.textContent=text.copied;
+        setTimeout(()=>copy.textContent=text.copy,1600);
+      });
+    }
     if(close)close.setAttribute('aria-label',text.close);
   });
 })();
