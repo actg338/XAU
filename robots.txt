@@ -1,4 +1,48 @@
+# XAU Quant crawler policy
+# Search engines and AI assistants may crawl pages for indexing, retrieval, summaries and answer grounding.
+# Model training is not explicitly granted by this file.
+
 User-agent: *
+Content-Signal: search=yes,ai-input=yes,ai-train=no
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: CCBot
 Allow: /
 
 Sitemap: https://03xau.com/sitemap.xml
