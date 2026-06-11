@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 
-<html lang="zh-tw">
+<html lang="zh-TW">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="MT5 EA 安裝、參數設定與開啟自動交易的完整教程。" name="description"/>
 <meta content="#080b10" name="theme-color"/>
-<title>新增 EA 教程 | XAU Quant</title>
+<title>MT5 EA 安裝教程 | 添加 Expert Advisor 並開啟自動交易</title>
+<!-- SEO-BEGIN -->
+<meta name="description" content="完整說明如何在 MetaTrader 5 中安裝 .ex5 EA、複製到 MQL5/Experts、刷新導航器、添加到圖表並開啟算法交易。"/>
+<meta name="keywords" content="MT5 EA安裝,Expert Advisor教程,MQL5 Experts,自動交易教程"/>
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
+<meta name="author" content="XAU Quant"/>
+<link rel="canonical" href="https://03xau.com/zh-tw/ea-install.html"/>
+<link rel="alternate" hreflang="zh-CN" href="https://03xau.com/ea-install.html"/>
+<link rel="alternate" hreflang="zh-TW" href="https://03xau.com/zh-tw/ea-install.html"/>
+<link rel="alternate" hreflang="en" href="https://03xau.com/en/ea-install.html"/>
+<link rel="alternate" hreflang="ja" href="https://03xau.com/ja/ea-install.html"/>
+<link rel="alternate" hreflang="ko" href="https://03xau.com/ko/ea-install.html"/>
+<link rel="alternate" hreflang="de" href="https://03xau.com/de/ea-install.html"/>
+<link rel="alternate" hreflang="fr" href="https://03xau.com/fr/ea-install.html"/>
+<link rel="alternate" hreflang="x-default" href="https://03xau.com/en/ea-install.html"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="XAU Quant"/>
+<meta property="og:locale" content="zh_TW"/>
+<meta property="og:title" content="MT5 EA 安裝教程 | 添加 Expert Advisor 並開啟自動交易"/>
+<meta property="og:description" content="完整說明如何在 MetaTrader 5 中安裝 .ex5 EA、複製到 MQL5/Experts、刷新導航器、添加到圖表並開啟算法交易。"/>
+<meta property="og:url" content="https://03xau.com/zh-tw/ea-install.html"/>
+<meta property="og:image" content="https://03xau.com/picture/1.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="MT5 EA 安裝教程 | 添加 Expert Advisor 並開啟自動交易"/>
+<meta name="twitter:description" content="完整說明如何在 MetaTrader 5 中安裝 .ex5 EA、複製到 MQL5/Experts、刷新導航器、添加到圖表並開啟算法交易。"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://03xau.com/#organization","name":"XAU Quant","url":"https://03xau.com/"},{"@type":"WebSite","@id":"https://03xau.com/#website","name":"XAU Quant","url":"https://03xau.com/","inLanguage":"zh-TW","publisher":{"@id":"https://03xau.com/#organization"}},{"@type":"WebPage","@id":"https://03xau.com/zh-tw/ea-install.html#webpage","url":"https://03xau.com/zh-tw/ea-install.html","name":"MT5 EA 安裝教程 | 添加 Expert Advisor 並開啟自動交易","description":"完整說明如何在 MetaTrader 5 中安裝 .ex5 EA、複製到 MQL5/Experts、刷新導航器、添加到圖表並開啟算法交易。","inLanguage":"zh-TW","isPartOf":{"@id":"https://03xau.com/#website"},"about":["MT5 Expert Advisor","XAUUSD gold trading","automated trading","backtest","risk management"]}]}</script>
+<!-- SEO-END -->
 <style>
     :root{--bg:#080b10;--panel:#111720;--line:rgba(255,255,255,.09);--text:#f5f1e8;--muted:#a3abb7;--gold:#d9ac55;--gold2:#f3d58a;--green:#56c596;--red:#e38b78;--shadow:0 24px 70px rgba(0,0,0,.32)}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--text);background:radial-gradient(circle at 80% 0,rgba(217,172,85,.13),transparent 34rem),radial-gradient(circle at 0 55%,rgba(86,197,150,.06),transparent 28rem),var(--bg);font-family:Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.7}.wrap{width:min(1060px,calc(100% - 40px));margin:auto}.nav{position:sticky;top:0;z-index:20;border-bottom:1px solid var(--line);background:rgba(8,11,16,.84);backdrop-filter:blur(18px)}.nav-in{height:70px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:11px;color:var(--text);font-weight:800;letter-spacing:.08em;text-decoration:none}.mark{display:grid;place-items:center;width:38px;height:38px;border:1px solid rgba(243,213,138,.45);border-radius:12px;color:var(--gold2);background:rgba(217,172,85,.12)}.back{color:var(--muted);text-decoration:none;font-size:14px}.back:hover{color:var(--text)}header{padding:82px 0 46px}.eyebrow{color:var(--gold2);font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}h1{margin:14px 0 18px;font-size:clamp(40px,6vw,70px);line-height:1.07;letter-spacing:-.045em}header p{max-width:760px;margin:0;color:var(--muted);font-size:17px}.quick{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:30px}.quick div{padding:15px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.025)}.quick b{display:block;color:var(--gold2);font-size:13px}.quick span{color:var(--muted);font-size:12px}.layout{display:grid;grid-template-columns:220px minmax(0,1fr);gap:28px;padding-bottom:80px}.toc{position:sticky;top:94px;height:max-content;padding:18px;border:1px solid var(--line);border-radius:18px;background:rgba(17,23,32,.8)}.toc strong{display:block;margin-bottom:10px;font-size:13px}.toc a{display:block;padding:6px 0;color:var(--muted);font-size:12px;text-decoration:none}.toc a:hover{color:var(--gold2)}.content{display:grid;gap:15px}.step{padding:28px;border:1px solid var(--line);border-radius:21px;background:linear-gradient(145deg,rgba(255,255,255,.05),rgba(255,255,255,.018))}.step-head{display:flex;align-items:flex-start;gap:15px}.num{display:grid;place-items:center;flex:0 0 38px;height:38px;border-radius:11px;color:#19140a;background:linear-gradient(135deg,var(--gold2),var(--gold));font-weight:900}.step h2{margin:2px 0 8px;font-size:21px}.step p{margin:0;color:var(--muted);font-size:14px}.step ul{margin:16px 0 0;padding-left:21px;color:var(--muted);font-size:14px}.step li+li{margin-top:7px}code{padding:2px 6px;border:1px solid var(--line);border-radius:6px;color:var(--gold2);background:#090d12;font-family:Consolas,monospace;font-size:.92em}.path{display:block;margin-top:14px;padding:13px 15px;border:1px solid var(--line);border-radius:11px;color:#c8ced7;background:#090d12;overflow-wrap:anywhere}.shot{margin:18px 0 0;padding:8px;border:1px solid var(--line);border-radius:15px;background:#090d12}.shot img{display:block;width:100%;height:auto;border-radius:9px}.shot figcaption{padding:8px 5px 2px;color:var(--muted);font-size:12px}.tip,.warning{margin-top:16px;padding:13px 15px;border-radius:12px;font-size:13px}.tip{border:1px solid rgba(86,197,150,.23);color:#aad8c5;background:rgba(86,197,150,.07)}.warning{border:1px solid rgba(227,139,120,.25);color:#dfb0a5;background:rgba(227,139,120,.07)}.checklist{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:16px}.check{padding:12px;border:1px solid var(--line);border-radius:11px;color:var(--muted);font-size:13px;background:rgba(255,255,255,.02)}.check::before{content:"✓";margin-right:8px;color:var(--green);font-weight:900}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.btn{display:inline-flex;min-height:44px;padding:0 17px;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:11px;color:var(--text);background:rgba(255,255,255,.03);font-weight:750;text-decoration:none}.btn.primary{border-color:transparent;color:#19140a;background:linear-gradient(135deg,var(--gold2),var(--gold))}footer{padding:34px 0;border-top:1px solid var(--line);color:var(--muted);font-size:12px}@media(max-width:780px){.quick{grid-template-columns:1fr}.layout{grid-template-columns:1fr}.toc{position:static}.checklist{grid-template-columns:1fr}}@media(max-width:560px){.wrap{width:calc(100% - 28px)}header{padding-top:56px}.step{padding:21px}.back{font-size:0}.back::after{content:"返回首页";font-size:13px}.actions .btn{width:100%}}
@@ -88,6 +113,17 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 <section class="step" id="test"><div class="step-head"><span class="num">7</span><div><h2>先回測，再執行模擬盤</h2><p>按 <code>Ctrl+R</code> 開啟策略測試器，選擇 EA、品種、週期和測試區間。</p></div></div><ul><li>使用儘可能接近真實環境的點差和報價資料。</li><li>檢查最大回撤、保證金佔用、連續虧損和極端行情表現。</li><li>回測透過後，至少在模擬帳戶進行一段時間的前向測試。</li><li>實盤執行需要保持 MT5、網路和電腦持續線上；長期執行建議使用 VPS。</li></ul><div class="warning">歷史表現不代表未來結果。自動交易不能消除市場風險，也不保證盈利。</div></section>
 <section class="step" id="issues"><div class="step-head"><span class="num">?</span><div><h2>常見問題排查</h2><p>EA 不顯示、不交易或執行中斷時，按以下順序檢查。</p></div></div><ul><li><b>導航器沒有 EA：</b>確認檔案位於當前終端的資料目錄，而不是軟體安裝目錄。</li><li><b>無法載入：</b>確認檔案為 MT5 的 <code>.ex5</code>，MT4 的 <code>.ex4</code> 不能在 MT5 使用。</li><li><b>不自動交易：</b>檢查全域自動交易開關、EA 常用設定和帳戶許可權。</li><li><b>沒有訂單：</b>可能尚未滿足策略訊號，檢視“專家”日誌而不是反覆重新載入。</li><li><b>Invalid volume：</b>手數不符合經紀商最小手數或步進。</li><li><b>Market closed：</b>當前品種休市或不在可交易時段。</li><li><b>WebRequest 錯誤：</b>在 MT5 選項中加入正確的 HTTPS 域名。</li></ul></section>
 </div>
+<!-- SEO-CONTENT-BEGIN -->
+<section class="seo-content" aria-label="SEO summary" style="max-width:1160px;margin:0 auto 42px;padding:24px;border:1px solid rgba(255,255,255,.09);border-radius:18px;background:rgba(255,255,255,.025);color:inherit;line-height:1.7">
+  <h2 style="margin:0 0 10px;font-size:clamp(22px,3vw,32px)">MT5 EA 安裝、配置與自動交易教程</h2>
+  <p style="margin:0 0 12px;color:var(--muted,#667085)">本教程覆蓋下載、複製文件、刷新導航器、添加到圖表、允許算法交易、回測與模擬驗證等步驟。</p>
+  <ul style="margin:0;padding-left:20px;color:var(--muted,#667085)">
+    <li>適用於 MetaTrader 5 的 .ex5 EA 文件</li>
+    <li>說明 MQL5/Experts 目錄與導航器刷新</li>
+    <li>建議先回測和模擬運行</li>
+  </ul>
+</section>
+<!-- SEO-CONTENT-END -->
 </main>
 <footer><div class="wrap">© 2026 XAU Quant · 自動化交易不保證盈利 · 請先使用模擬帳戶驗證</div></footer>
 <script src="/language.js?v=20260611"></script></body>
