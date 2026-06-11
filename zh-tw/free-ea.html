@@ -152,11 +152,14 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
     function render(counts={}){
       grid.innerHTML=eas.map(e=>`<article class="card"><div class="top"><span class="tag">${e.type}</span><span class="size">${e.size}</span></div><h2>${e.file}</h2><p>${e.desc}</p><div class="meta"><span class="dot"></span><span data-count="${e.asset||e.file}">${counts[e.asset||e.file]===undefined?'<span class="loading">讀取下載次數…</span>':counts[e.asset||e.file]+' 次下載'}</span></div><div class="actions"><a class="btn download" href="${base+encodeURIComponent(e.asset||e.file)}" download>免費下載</a><span class="guide-wrap"><button class="btn guide" type="button" aria-expanded="false">說明</button><span class="guide-pop" role="tooltip">${guides[e.guide]}</span></span></div></article>`).join('');
     }
-    render();
+    const countCacheKey='xauReleaseCounts:'+releaseTag;
+    let cachedCounts=null;
+    try{cachedCounts=JSON.parse(localStorage.getItem(countCacheKey)||'null')}catch(error){cachedCounts=null}
+    if(cachedCounts&&typeof cachedCounts==='object')render(cachedCounts);else render();
     fetch('https://api.github.com/repos/actg338/XAU/releases/tags/'+releaseTag,{headers:{Accept:'application/vnd.github+json'}})
       .then(r=>{if(!r.ok)throw new Error('release unavailable');return r.json()})
-      .then(data=>{const counts={};data.assets.forEach(a=>counts[a.name]=a.download_count);render(counts)})
-      .catch(()=>document.querySelectorAll('[data-count]').forEach(el=>el.textContent='統計釋出後顯示'));
+      .then(data=>{const counts={};data.assets.forEach(a=>counts[a.name]=a.download_count);try{localStorage.setItem(countCacheKey,JSON.stringify(counts))}catch(error){}render(counts)})
+      .catch(()=>{if(!cachedCounts)document.querySelectorAll('[data-count]').forEach(el=>el.textContent='暫時無法取得下載次數')});
     document.addEventListener('click',function(event){
       const button=event.target.closest('.guide');
       document.querySelectorAll('.guide-wrap.open').forEach(function(wrap){
