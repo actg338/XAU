@@ -192,38 +192,13 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 .language-switcher option{color:#111;background:#fff}
 @media(max-width:580px){.language-switcher{top:70px;right:10px}}
 </style></head>
-<body>
-<div class="language-switcher">
-<label for="siteLanguage">Language</label>
-<select aria-label="Language" id="siteLanguage" onchange="localStorage.setItem('siteLanguage',this.options[this.selectedIndex].dataset.lang);location.href=this.value">
-<option data-lang="zh-CN" value="/huice.html">简体中文</option><option data-lang="zh-tw" value="/zh-tw/huice.html">繁體中文</option><option data-lang="ko" selected="" value="/ko/huice.html">English</option><option data-lang="ja" value="/ja/huice.html">日本語</option>
-</select>
-</div>
+<body><div class="language-switcher"><label for="siteLanguage">Language</label><select aria-label="Language" id="siteLanguage" onchange="localStorage.setItem('siteLanguage',this.options[this.selectedIndex].dataset.lang);location.href=this.value"><option data-lang="zh-CN" value="/huice.html">简体中文</option><option data-lang="zh-TW" value="/zh-tw/huice.html">繁體中文</option><option data-lang="en" value="/en/huice.html">English</option><option data-lang="ja" value="/ja/huice.html">日本語</option><option data-lang="ko" value="/ko/huice.html" selected>한국어</option><option data-lang="de" value="/de/huice.html">Deutsch</option><option data-lang="fr" value="/fr/huice.html">Français</option></select></div>
 
-<div class="language-switcher">
-<label for="siteLanguage">Language</label>
-<select aria-label="Language" id="siteLanguage" onchange="localStorage.setItem('siteLanguage',this.options[this.selectedIndex].dataset.lang);location.href=this.value">
-<option data-lang="zh-CN" selected="" value="/huice.html">Simplified Chinese</option><option data-lang="zh-tw" value="/zh-tw/huice.html">Traditional Chinese</option><option data-lang="en" value="/ko/huice.html">English</option><option data-lang="ja" value="/ja/huice.html">Japanese</option>
-</select>
-</div>
-<div class="language-switcher">
-<label for="siteLanguage">Language</label>
-<select aria-label="Language" id="siteLanguage" onchange="location.href=this.value">
-<option selected="" value="/">Simplified Chinese</option><option value="/zh-tw/">Traditional Chinese</option><option value="/ko/">English</option><option value="/ja/">Japanese</option>
-</select>
-</div>
-<div class="language-switcher">
-<label for="siteLanguage">Language</label>
-<select aria-label="Language" id="siteLanguage" onchange="location.href=this.value">
-<option selected="" value="/">Simplified Chinese</option><option value="/zh-tw/">Traditional Chinese</option><option value="/ko/">English</option><option value="/ja/">Japanese</option>
-</select>
-</div>
-<div class="language-switcher">
-<label for="siteLanguage">Language</label>
-<select aria-label="Language" id="siteLanguage" onchange="location.href=this.value">
-<option selected="" value="/">Simplified Chinese</option><option value="/zh-tw/">Traditional Chinese</option><option value="/ko/">English</option><option value="/ja/">Japanese</option>
-</select>
-</div>
+
+
+
+
+
 <h1>Picture circular display</h1>
 <!-- 工具栏 -->
 <div class="toolbar" style="display: none;">
