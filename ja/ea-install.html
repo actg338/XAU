@@ -4,9 +4,34 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="MT5 EAのインストール、パラメータ設定、自動売買の開始までの完全チュートリアル。" name="description"/>
 <meta content="#080b10" name="theme-color"/>
-<title>EA チュートリアルを追加 | XAUクォント</title>
+<title>MT5 EA インストール手順 | Expert Advisor の追加と自動売買設定</title>
+<!-- SEO-BEGIN -->
+<meta name="description" content="MetaTrader 5 に .ex5 EA を導入し、MQL5/Experts にコピー、ナビゲータ更新、チャート追加、自動売買許可まで説明します。"/>
+<meta name="keywords" content="MT5 EAインストール,Expert Advisor,MQL5 Experts,自動売買手順"/>
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
+<meta name="author" content="XAU Quant"/>
+<link rel="canonical" href="https://03xau.com/ja/ea-install.html"/>
+<link rel="alternate" hreflang="zh-CN" href="https://03xau.com/ea-install.html"/>
+<link rel="alternate" hreflang="zh-TW" href="https://03xau.com/zh-tw/ea-install.html"/>
+<link rel="alternate" hreflang="en" href="https://03xau.com/en/ea-install.html"/>
+<link rel="alternate" hreflang="ja" href="https://03xau.com/ja/ea-install.html"/>
+<link rel="alternate" hreflang="ko" href="https://03xau.com/ko/ea-install.html"/>
+<link rel="alternate" hreflang="de" href="https://03xau.com/de/ea-install.html"/>
+<link rel="alternate" hreflang="fr" href="https://03xau.com/fr/ea-install.html"/>
+<link rel="alternate" hreflang="x-default" href="https://03xau.com/en/ea-install.html"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="XAU Quant"/>
+<meta property="og:locale" content="ja_JP"/>
+<meta property="og:title" content="MT5 EA インストール手順 | Expert Advisor の追加と自動売買設定"/>
+<meta property="og:description" content="MetaTrader 5 に .ex5 EA を導入し、MQL5/Experts にコピー、ナビゲータ更新、チャート追加、自動売買許可まで説明します。"/>
+<meta property="og:url" content="https://03xau.com/ja/ea-install.html"/>
+<meta property="og:image" content="https://03xau.com/picture/1.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="MT5 EA インストール手順 | Expert Advisor の追加と自動売買設定"/>
+<meta name="twitter:description" content="MetaTrader 5 に .ex5 EA を導入し、MQL5/Experts にコピー、ナビゲータ更新、チャート追加、自動売買許可まで説明します。"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://03xau.com/#organization","name":"XAU Quant","url":"https://03xau.com/"},{"@type":"WebSite","@id":"https://03xau.com/#website","name":"XAU Quant","url":"https://03xau.com/","inLanguage":"ja","publisher":{"@id":"https://03xau.com/#organization"}},{"@type":"WebPage","@id":"https://03xau.com/ja/ea-install.html#webpage","url":"https://03xau.com/ja/ea-install.html","name":"MT5 EA インストール手順 | Expert Advisor の追加と自動売買設定","description":"MetaTrader 5 に .ex5 EA を導入し、MQL5/Experts にコピー、ナビゲータ更新、チャート追加、自動売買許可まで説明します。","inLanguage":"ja","isPartOf":{"@id":"https://03xau.com/#website"},"about":["MT5 Expert Advisor","XAUUSD gold trading","automated trading","backtest","risk management"]}]}</script>
+<!-- SEO-END -->
 <style>
     :root{--bg:#080b10;--panel:#111720;--line:rgba(255,255,255,.09);--text:#f5f1e8;--muted:#a3abb7;--gold:#d9ac55;--gold2:#f3d58a;--green:#56c596;--red:#e38b78;--shadow:0 24px 70px rgba(0,0,0,.32)}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--text);background:radial-gradient(circle at 80% 0,rgba(217,172,85,.13),transparent 34rem),radial-gradient(circle at 0 55%,rgba(86,197,150,.06),transparent 28rem),var(--bg);font-family:Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.7}.wrap{width:min(1060px,calc(100% - 40px));margin:auto}.nav{position:sticky;top:0;z-index:20;border-bottom:1px solid var(--line);background:rgba(8,11,16,.84);backdrop-filter:blur(18px)}.nav-in{height:70px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:11px;color:var(--text);font-weight:800;letter-spacing:.08em;text-decoration:none}.mark{display:grid;place-items:center;width:38px;height:38px;border:1px solid rgba(243,213,138,.45);border-radius:12px;color:var(--gold2);background:rgba(217,172,85,.12)}.back{color:var(--muted);text-decoration:none;font-size:14px}.back:hover{color:var(--text)}header{padding:82px 0 46px}.eyebrow{color:var(--gold2);font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}h1{margin:14px 0 18px;font-size:clamp(40px,6vw,70px);line-height:1.07;letter-spacing:-.045em}header p{max-width:760px;margin:0;color:var(--muted);font-size:17px}.quick{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:30px}.quick div{padding:15px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.025)}.quick b{display:block;color:var(--gold2);font-size:13px}.quick span{color:var(--muted);font-size:12px}.layout{display:grid;grid-template-columns:220px minmax(0,1fr);gap:28px;padding-bottom:80px}.toc{position:sticky;top:94px;height:max-content;padding:18px;border:1px solid var(--line);border-radius:18px;background:rgba(17,23,32,.8)}.toc strong{display:block;margin-bottom:10px;font-size:13px}.toc a{display:block;padding:6px 0;color:var(--muted);font-size:12px;text-decoration:none}.toc a:hover{color:var(--gold2)}.content{display:grid;gap:15px}.step{padding:28px;border:1px solid var(--line);border-radius:21px;background:linear-gradient(145deg,rgba(255,255,255,.05),rgba(255,255,255,.018))}.step-head{display:flex;align-items:flex-start;gap:15px}.num{display:grid;place-items:center;flex:0 0 38px;height:38px;border-radius:11px;color:#19140a;background:linear-gradient(135deg,var(--gold2),var(--gold));font-weight:900}.step h2{margin:2px 0 8px;font-size:21px}.step p{margin:0;color:var(--muted);font-size:14px}.step ul{margin:16px 0 0;padding-left:21px;color:var(--muted);font-size:14px}.step li+li{margin-top:7px}code{padding:2px 6px;border:1px solid var(--line);border-radius:6px;color:var(--gold2);background:#090d12;font-family:Consolas,monospace;font-size:.92em}.path{display:block;margin-top:14px;padding:13px 15px;border:1px solid var(--line);border-radius:11px;color:#c8ced7;background:#090d12;overflow-wrap:anywhere}.shot{margin:18px 0 0;padding:8px;border:1px solid var(--line);border-radius:15px;background:#090d12}.shot img{display:block;width:100%;height:auto;border-radius:9px}.shot figcaption{padding:8px 5px 2px;color:var(--muted);font-size:12px}.tip,.warning{margin-top:16px;padding:13px 15px;border-radius:12px;font-size:13px}.tip{border:1px solid rgba(86,197,150,.23);color:#aad8c5;background:rgba(86,197,150,.07)}.warning{border:1px solid rgba(227,139,120,.25);color:#dfb0a5;background:rgba(227,139,120,.07)}.checklist{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:16px}.check{padding:12px;border:1px solid var(--line);border-radius:11px;color:var(--muted);font-size:13px;background:rgba(255,255,255,.02)}.check::before{content:"✓";margin-right:8px;color:var(--green);font-weight:900}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.btn{display:inline-flex;min-height:44px;padding:0 17px;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:11px;color:var(--text);background:rgba(255,255,255,.03);font-weight:750;text-decoration:none}.btn.primary{border-color:transparent;color:#19140a;background:linear-gradient(135deg,var(--gold2),var(--gold))}footer{padding:34px 0;border-top:1px solid var(--line);color:var(--muted);font-size:12px}@media(max-width:780px){.quick{grid-template-columns:1fr}.layout{grid-template-columns:1fr}.toc{position:static}.checklist{grid-template-columns:1fr}}@media(max-width:560px){.wrap{width:calc(100% - 28px)}header{padding-top:56px}.step{padding:21px}.back{font-size:0}.back::after{content:"返回首页";font-size:13px}.actions .btn{width:100%}}
@@ -88,6 +113,17 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 <section class="step" id="test"><div class="step-head"><span class="num">7</span><div><h2>バックテスト後にデモ口座で検証する</h2><p>Ctrl+Rでストラテジーテスターを開き、EA、銘柄、時間足、テスト期間を選択します。</p></div></div><ul><li>可能な限り実際の環境に近いスプレッドおよび引用データを使用します。</li><li>最大ドローダウン、証拠金の使用状況、連続損失、極端な市場パフォーマンスを確認してください。</li><li>バックテストに合格したら、デモ口座で少なくとも一定時間足フォワードテストを実施します。</li><li>実際の操作では、MT5、ネットワーク、コンピューターをオンラインに保つ必要があります。長期運用にはVPSのご利用をおすすめします。</li></ul><div class="warning">過去のパフォーマンスは将来の結果を示すものではありません。自動取引は市場リスクを排除するものではなく、収益性を保証するものではありません。</div></section>
 <section class="step" id="issues"><div class="step-head"><span class="num">?</span><div><h2>よくある問題</h2><p>EAが表示されない、取引しない、または停止する場合は、次の項目を順番に確認してください。</p></div></div><ul><li><b>EA なしのナビゲーター:</b>ファイルがソフトウェアのインストール ディレクトリではなく、現在の端末のデータ ディレクトリにあることを確認します。</li><li><b>ロードできません:</b>ファイルがMT5用であることを確認してください <code>.ex5</code>、MT4 <code>.ex4</code> MT5では利用できません。</li><li><b>自動取引なし:</b>グローバルな自動売買スイッチ、EA の共通設定、アカウントの権限を確認します。</li><li><b>注文なし:</b>戦略シグナルがまだ満たされていない可能性があります。リロードを繰り返す代わりに「エキスパート」ログを確認してください。</li><li><b>Invalid volume：</b>ロット サイズがブローカーの最小ロット サイズまたはステップ サイズを満たしていません。</li><li><b>Market closed：</b>現在の商品は販売終了しているか、取引できません。</li><li><b>Webリクエストエラー:</b>MT5 オプションに正しい HTTPS ドメイン名を含めます。</li></ul></section>
 </div>
+<!-- SEO-CONTENT-BEGIN -->
+<section class="seo-content" aria-label="SEO summary" style="max-width:1160px;margin:0 auto 42px;padding:24px;border:1px solid rgba(255,255,255,.09);border-radius:18px;background:rgba(255,255,255,.025);color:inherit;line-height:1.7">
+  <h2 style="margin:0 0 10px;font-size:clamp(22px,3vw,32px)">MT5 EA の導入、設定、自動売買ガイド</h2>
+  <p style="margin:0 0 12px;color:var(--muted,#667085)">ダウンロード、ファイル配置、ナビゲータ更新、チャート追加、自動売買許可、バックテストとデモ検証を説明します。</p>
+  <ul style="margin:0;padding-left:20px;color:var(--muted,#667085)">
+    <li>MetaTrader 5 の .ex5 EA に対応</li>
+    <li>MQL5/Experts フォルダを説明</li>
+    <li>まずバックテストとデモ運用を推奨</li>
+  </ul>
+</section>
+<!-- SEO-CONTENT-END -->
 </main>
 <footer><div class="wrap">© 2026 XAU Quant · 自動取引は収益性を保証するものではありません · 最初にデモ口座を使用して確認してください</div></footer>
 <script src="/language.js?v=20260611"></script></body>
