@@ -11,7 +11,12 @@
     fr:{button:'Don USDT',title:'Soutenir le site et le développement des EA',copy:'Copier l’adresse',copied:'Copié',note:'Utilisez uniquement le réseau TRC-20. Vérifiez l’adresse avant l’envoi; les transactions blockchain sont irréversibles.',close:'Fermer'}
   };
   const path=location.pathname;
-  const isFree=path.endsWith('/free-ea.html')||path==='/free-ea.html';
+  function pageSuffix(){
+    if(path.endsWith('/free-ea.html')||path==='/free-ea.html')return '/free-ea.html';
+    if(path.endsWith('/ea-install.html')||path==='/ea-install.html')return '/ea-install.html';
+    if(path.endsWith('/huice.html')||path==='/huice.html')return '/huice.html';
+    return '/';
+  }
   function current(){
     const lang=(document.documentElement.lang||'').toLowerCase();
     if(lang.startsWith('zh-tw')||lang.startsWith('zh-hant'))return 'zh-TW';
@@ -28,7 +33,7 @@
   }
   function target(code){
     const base={'zh-CN':'','zh-TW':'/zh-tw',en:'/en',ja:'/ja',ko:'/ko',de:'/de',fr:'/fr'}[code];
-    return base+(isFree?'/free-ea.html':'/');
+    return base+pageSuffix();
   }
   const active=current();
   if(!sessionStorage.getItem('languageChecked')&&!localStorage.getItem('siteLanguage')){
