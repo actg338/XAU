@@ -99,7 +99,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 <div class="eyebrow">Free MT5 Expert Advisors</div>
 <div class="header-title-row"><h1>無料EAのダウンロードと取扱説明</h1><button class="donate-fab" id="donateOpen">USDT寄付</button></div>
 <p>MetaTrader 5用のコンパイル済み .ex5 ファイルを配布しています。各EAの説明はページ内で確認でき、ダウンロード数はGitHub Releasesから取得します。</p>
-<div class="summary"><span class="pill"><b>12</b> EA</span><span class="pill">適用対象 <b>MetaTrader 5</b></span><span class="pill">バージョン <b>free-ea-v1.0</b></span></div>
+<div class="summary"><span class="pill"><b>13</b> EA</span><span class="pill">適用対象 <b>MetaTrader 5</b></span><span class="pill">バージョン <b>free-ea-v1.0</b></span></div>
 </header>
 <main class="wrap">
 <div class="notice">重要：無料であっても低リスクとは限りません。グリッド、マーチンゲール、時間指定の追加エントリーは大きなドローダウンにつながる場合があります。必ず説明を読み、デモ口座でバックテストとフォワードテストを行ってください。</div>
@@ -121,6 +121,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
     const releaseTag='free-ea-v1.0';
     const base='https://github.com/actg338/XAU/releases/download/'+releaseTag+'/';
     const guides={
+      'commercial-m1.md':`<h3>XAUUSD_M1_Commercial_EA.ex5 使用説明</h3><h4>機能</h4><p>XAUUSD M1 向けの Bollinger 中央線 + SAR 真反転 EA です。ATR ハードストップ、段階式トレーリングストップ、クールダウン、損失ペナルティ、買い/売り Magic 分離、左下コントロールパネルを備えています。</p><h4>使用</h4><ul><li><code>MQL5/Experts</code> にコピー</li><li>XAUUSD またはゴールド接尾辞銘柄の M1 チャートに適用</li><li>標準スプレッド上限は <code>360 points</code>、Broker に合わせて調整</li><li>実運用前に Strategy Tester とデモ口座で確認</li></ul><p class="guide-risk">リスク：ゴールド M1 は変動、スリッページ、スプレッド拡大が大きくなる場合があります。自動売買は利益を保証しません。</p>`,
       'buy.md':`<h3>buy.ex5 使用説明書</h3><h4>関数</h4><p>ロング SAR の最初のポジションのフィルタリングとフィボナッチ距離の追加のみ，マージンチェックを含む、株式リトレースメントと変動利益率の出口。</p><h4>推奨設定</h4><ul><li><code>InitialLots</code> 0.01から始めることをお勧めします</li><li><code>MartingaleFactor</code> ポジション増加の倍率を制御</li><li><code>BaseAddPoints</code> 距離を制御してポジションを追加する</li><li><code>MagicNumber</code> 各インスタンスは固有のままです</li></ul><h4>インストール</h4><p>入れます <code>MQL5/Experts</code>，ナビゲーターを更新して XAUUSD チャートをロードし、自動売買を可能にします。</p><p class="guide-risk">リスク: ポジション追加ロジックが含まれています，最初にバックテストと実行のシミュレーションを行って、合計ロットサイズを制限してください。</p>`,
       'buy-3.md':`<h3>buy3.0.ex5 使用説明書</h3><h4>関数</h4><p>長い方向に進む，SAR を使用して初期ポジションと追加ポジションをフィルタリングする，動的な価格上限と変動利益エグジットの組み合わせをサポート。</p><h4>主要パラメータ</h4><ul><li><code>InitialLots</code> 0.01から始めることをお勧めします</li><li><code>UseAddSARFilter</code> ポジションの追加とフィルタリングを制御する</li><li><code>BaseAddPoints</code> ポジションを追加する距離</li><li><code>FloatingPercentThreshold</code> 組み合わせ終了しきい値</li></ul><h4>使用</h4><p>コピー先 <code>MQL5/Experts</code>，更新後にターゲットチャートにロード。</p><p class="guide-risk">リスク: ポジションを継続的に追加すると、ドローダウンが増大します。，確定オファーが行われる前に、ブローカーの契約仕様を一致させる必要があります。。</p>`,
       'dual-grid.md':`<h3>DualGrid EA 使用説明書</h3><h4>関数</h4><p>双方向メッシュ、マーチンゲール フィボナッチ ディスタンスと SAR スイッチング コンボ EA，特定のパラメータはMT5入力の対象となります。</p><h4>使用</h4><ul><li>入れます <code>MQL5/Experts</code></li><li>ヘッジ口座とデモ環境の使用を優先する</li><li>ロットサイズを確認する、グリッド間隔、最大ポジションとストップロス</li><li>有効にする前にパラメータのスクリーンショットを保存する</li></ul><p class="guide-risk">リスク: グリッドとマーチンゲールの組み合わせは急速に地位を拡大する可能性がある，株式のストップロスを設定する必要があります。</p>`,
@@ -135,6 +136,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
       'zzx-2.md':`<h3>zzx2.0.ex5 使用説明書</h3><h4>関数</h4><p>長方向SAR第一ポジションフィルタ，一定間隔でのポジションの追加をサポート、動的な価格上限とポートフォリオのエグジット。</p><h4>主要パラメータ</h4><ul><li><code>InitialLots / MartingaleFactor</code> ポジションサイズ</li><li><code>BaseAddPoints</code> ポジションを追加する距離</li><li><code>PriceUpperTimeframe</code> 動的上限</li><li><code>FloatingPercentThreshold</code> 終了しきい値</li></ul><p class="guide-risk">リスク: 下落相場でもポジションは拡大し続ける可能性がある，株式のストップロスを設定してください。</p>`
     };
     const eas=[
+      {file:'XAUUSD_M1_Commercial_EA.ex5',guide:'commercial-m1.md',type:'BB MID · SAR · Panel',desc:'ゴールド M1 の Bollinger 中央線と SAR 真反転戦略。ATR Stop、段階式 Trailing Stop、買い/売り Magic 分離付き。',size:'173.2 KB'},
       {file:'buy.ex5',guide:'buy.md',type:'SAR · ロングする・ポジションを追加する',desc:'SAR 最初のポジションフィルター、ポジションと権利保護を追加するフィボ ディスタンス。',size:'47.7 KB'},
       {file:'buy3.0.ex5',guide:'buy-3.md',type:'SAR · ゴーロング・V3',desc:'最初のポジションと追加ポジションの SAR フィルタリング，動的な価格上限をサポート。',size:'40.6 KB'},
       {file:'DualGrid_MartinFib_SAR_Switch_EA.ex5',guide:'dual-grid.md',type:'デュアルグリッド・マーチンゲール・SAR',desc:'グリッド、Fibo アドオンと SAR モード切り替えの組み合わせ。',size:'82.3 KB'},

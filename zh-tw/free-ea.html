@@ -99,7 +99,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 <div class="eyebrow">Free MT5 Expert Advisors</div>
 <div class="header-title-row"><h1>免費 EA<br/>下載與使用說明</h1><button class="donate-fab" id="donateOpen">打賞 USDT</button></div>
 <p>提供編譯版 <code>.ex5</code> 檔案。每個 EA 都配有獨立說明，下載次數由 GitHub Release 實時統計。</p>
-<div class="summary"><span class="pill"><b>12</b> 個 EA</span><span class="pill">適用於 <b>MetaTrader 5</b></span><span class="pill">版本 <b>free-ea-v1.0</b></span></div>
+<div class="summary"><span class="pill"><b>13</b> 個 EA</span><span class="pill">適用於 <b>MetaTrader 5</b></span><span class="pill">版本 <b>free-ea-v1.0</b></span></div>
 </header>
 <main class="wrap">
 <div class="notice">重要：免費不代表低風險。網格、馬丁和定時加倉策略可能產生較大回撤。請先閱讀說明，並在模擬帳戶完成回測與前向測試。</div>
@@ -121,6 +121,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
     const releaseTag='free-ea-v1.0';
     const base='https://github.com/actg338/XAU/releases/download/'+releaseTag+'/';
     const guides={
+      'commercial-m1.md':`<h3>XAUUSD_M1_Commercial_EA.ex5 使用說明</h3><h4>功能</h4><p>面向 XAUUSD / 黃金後綴品種 M1 的布林中軌 + SAR 真翻轉策略，內建 ATR 動態硬止損、階梯移動止損、冷卻、虧損懲罰、多空 Magic 分離和左下角商業面板。</p><h4>使用</h4><ul><li>複製到 <code>MQL5/Experts</code></li><li>載入到 XAUUSD 或黃金後綴品種的 M1 圖表</li><li>標準點差閾值為 <code>360 points</code>，實盤前按 Broker 點差調整</li><li>先在策略測試器和模擬帳戶驗證</li></ul><p class="guide-risk">風險：黃金 M1 波動和滑點較大，自動交易不保證盈利，請嚴格控制手數和最大回撤。</p>`,
       'buy.md':`<h3>buy.ex5 使用說明</h3><h4>功能</h4><p>僅做多的 SAR 首倉過濾與斐波間距加倉，包含保證金檢查、權益回撤和浮盈比例退出。</p><h4>建議設定</h4><ul><li><code>InitialLots</code> 建議從 0.01 開始</li><li><code>MartingaleFactor</code> 控制加倉倍數</li><li><code>BaseAddPoints</code> 控制加倉距離</li><li><code>MagicNumber</code> 每個例項保持唯一</li></ul><h4>安裝</h4><p>放入 <code>MQL5/Experts</code>，重新整理導航器後載入到 XAUUSD 圖表並允許自動交易。</p><p class="guide-risk">風險：包含加倉邏輯，請先回測和模擬執行並限制總手數。</p>`,
       'buy-3.md':`<h3>buy3.0.ex5 使用說明</h3><h4>功能</h4><p>做多方向，使用 SAR 過濾首倉和加倉，支援動態價格上限及組合浮盈退出。</p><h4>關鍵參數</h4><ul><li><code>InitialLots</code> 建議從 0.01 開始</li><li><code>UseAddSARFilter</code> 控制加倉過濾</li><li><code>BaseAddPoints</code> 加倉距離</li><li><code>FloatingPercentThreshold</code> 組合退出閾值</li></ul><h4>使用</h4><p>複製到 <code>MQL5/Experts</code>，重新整理後載入至目標圖表。</p><p class="guide-risk">風險：連續加倉會放大回撤，實盤前需匹配經紀商合約規格。</p>`,
       'dual-grid.md':`<h3>DualGrid EA 使用說明</h3><h4>功能</h4><p>雙向網格、馬丁斐波間距與 SAR 切換組合 EA，具體參數以 MT5 Inputs 為準。</p><h4>使用</h4><ul><li>放入 <code>MQL5/Experts</code></li><li>優先使用對沖帳戶和模擬環境</li><li>檢查手數、網格間距、最大持倉和止損</li><li>啟用前儲存參數截圖</li></ul><p class="guide-risk">風險：網格和馬丁組合可能快速擴大持倉，必須設定權益止損。</p>`,
@@ -135,6 +136,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
       'zzx-2.md':`<h3>zzx2.0.ex5 使用說明</h3><h4>功能</h4><p>做多方向 SAR 首倉過濾，支援固定間距加倉、動態價格上限與組合退出。</p><h4>關鍵參數</h4><ul><li><code>InitialLots / MartingaleFactor</code> 倉位規模</li><li><code>BaseAddPoints</code> 加倉距離</li><li><code>PriceUpperTimeframe</code> 動態上限</li><li><code>FloatingPercentThreshold</code> 退出閾值</li></ul><p class="guide-risk">風險：下跌行情中可能持續擴大倉位，請設定權益止損。</p>`
     };
     const eas=[
+      {file:'XAUUSD_M1_Commercial_EA.ex5',guide:'commercial-m1.md',type:'BB MID · SAR · 商業面板',desc:'黃金 M1 布林中軌與 SAR 真翻轉策略，帶 ATR 止損、階梯移動止損和多空 Magic 分離。',size:'173.2 KB'},
       {file:'buy.ex5',guide:'buy.md',type:'SAR · 做多 · 加倉',desc:'SAR 首倉過濾、斐波間距加倉與權益保護。',size:'47.7 KB'},
       {file:'buy3.0.ex5',guide:'buy-3.md',type:'SAR · 做多 · V3',desc:'首倉與加倉 SAR 過濾，支援動態價格上限。',size:'40.6 KB'},
       {file:'DualGrid_MartinFib_SAR_Switch_EA.ex5',guide:'dual-grid.md',type:'雙網格 · 馬丁 · SAR',desc:'網格、斐波加倉與 SAR 模式切換組合。',size:'82.3 KB'},
