@@ -99,7 +99,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 <div class="eyebrow">Free MT5 Expert Advisors</div>
 <div class="header-title-row"><h1>免費 EA<br/>下載與使用說明</h1><button class="donate-fab" id="donateOpen">打賞 USDT</button></div>
 <p>提供編譯版 <code>.ex5</code> 檔案。每個 EA 都配有獨立說明，下載次數由 GitHub Release 實時統計。</p>
-<div class="summary"><span class="pill"><b>22</b> 個 EA</span><span class="pill">適用於 <b>MetaTrader 5</b></span><span class="pill">版本 <b>free-ea-v1.0</b></span></div>
+<div class="summary"><span class="pill"><b>23</b> 個 EA</span><span class="pill">適用於 <b>MetaTrader 5</b></span><span class="pill">版本 <b>free-ea-v1.0</b></span></div>
 </header>
 <main class="wrap">
 <div class="notice">重要：免費不代表低風險。網格、馬丁和定時加倉策略可能產生較大回撤。請先閱讀說明，並在模擬帳戶完成回測與前向測試。</div>
@@ -121,6 +121,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
     const releaseTag='free-ea-v1.0';
     const base='https://github.com/actg338/XAU/releases/download/'+releaseTag+'/';
     const guides={
+      'model-04-cci-wpr.md':`<h3>XAU_M1_Model_04_CCI_WPR_EA.ex5 使用說明</h3><h4>功能</h4><p>黃金 M1 多場景指標 EA，使用 CCI + Williams %R 過濾趨勢、震盪和突破環境。</p><h4>入場</h4><p>基於已收盤 K 線確認方向，風控、點差、時段、冷卻和信號復位全部通過後才進場。</p><h4>出場</h4><p>不使用 ATR 止盈和固定止盈，預設採用階梯移動止盈、反向信號平倉、結構保護、最大浮虧保護和持倉時間保護。</p><h4>回測</h4><p>XAUUSDm M1，2026.05.26-2026.06.25，點差 360。淨利潤 34.34，最大淨值回撤 0.15%，勝率 64.52%，Sharpe 38.13。預設參數 p875。</p><p class="guide-risk">風險：歷史回測不代表未來結果，實盤前請按自己的經紀商點差、報價和滑點重新測試。</p>`,
       'commercial-m1.md':`<h3>XAUUSD_M1_Commercial_EA.ex5 使用說明</h3><h4>功能</h4><p>面向 XAUUSD / 黃金後綴品種 M1 的布林中軌 + SAR 真翻轉策略，內建 ATR 動態硬止損、階梯移動止損、冷卻、虧損懲罰、多空 Magic 分離和左下角商業面板。</p><h4>使用</h4><ul><li>複製到 <code>MQL5/Experts</code></li><li>載入到 XAUUSD 或黃金後綴品種的 M1 圖表</li><li>標準點差閾值為 <code>360 points</code>，實盤前按 Broker 點差調整</li><li>先在策略測試器和模擬帳戶驗證</li></ul><p class="guide-risk">風險：黃金 M1 波動和滑點較大，自動交易不保證盈利，請嚴格控制手數和最大回撤。</p>`,
       'resonance.md':`<h3>XAUUSD_M1_Resonance_EA.ex5 使用說明</h3><h4>功能</h4><p>面向 XAUUSD M1 的 Ichimoku 與 SAR 雙指標共振策略，使用 ATR 動態止損、時段過濾和虧損懲罰冷卻機制。</p><h4>使用</h4><ul><li>複製到 <code>MQL5/Experts</code></li><li>載入至 XAUUSD 的 M1 圖表</li><li>先在策略測試器和模擬帳戶驗證參數</li><li>確認經紀商點差與交易時段設定</li></ul><p class="guide-risk">風險：自動交易不保證盈利，極端波動、滑點和點差擴大可能影響實際結果。</p>`,
       'model-10-bulls-bears-force.md':`<h3>XAU_M1_Model_10_BullsBears_Force_EA.ex5 使用說明</h3><h4>功能</h4><p>黃金 M1 多場景指標 EA，使用Bulls/Bears Power + Force Index過濾趨勢、震盪和突破環境。</p><h4>出場</h4><p>不使用 ATR 和固定止盈，預設採用階梯移動止盈、反向信號平倉、結構保護、最大浮虧保護和持倉時間保護。</p><h4>回測</h4><p>XAUUSDm M1，2026.05.26-2026.06.25，點差 360。淨利潤 48.11，最大淨值回撤 0.14%，勝率 78.85%，Sharpe 75.70。</p><p class="guide-risk">風險：歷史回測不代表未來結果，實盤前請按自己的經紀商點差、報價和滑點重新測試。</p>`,
@@ -164,6 +165,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
       {file:'XAU_M1_Model_02_Donchian_Momentum_EA.ex5',guide:'model-02-donchian-momentum.md',type:'Donchian - Momentum - M1',desc:'黃金 M1 Donchian 動量模型，優先捕捉通道突破和順勢延續。',size:'99.2 KB'},
       {file:'XAU_M1_Model_08_Envelopes_Momentum_RSI_EA.ex5',guide:'model-08-envelopes-momentum-rsi.md',type:'Envelopes - Momentum - RSI',desc:'黃金 M1 Envelopes 複合模型，用包絡線、動量和 RSI 過濾多場景信號。',size:'100.3 KB'},
       {file:'XAU_M1_Model_03_BB_Stochastic_EA.ex5',guide:'model-03-bb-stochastic.md',type:'BB Width - Stochastic - M1',desc:'黃金 M1 布林帶寬與隨機指標模型，結合突破、中軌方向和動量。',size:'99.8 KB'},
+      {file:'XAU_M1_Model_04_CCI_WPR_EA.ex5',guide:'model-04-cci-wpr.md',type:'CCI - Williams %R - M1',desc:'黃金 M1 CCI/WPR 模型，使用動量偏離和超買超賣位置過濾進場。',size:'99.1 KB'},
       {file:'XAU_M1_Model_01_ADX_DI_EMA_EA.ex5',guide:'model-01-adx-di-ema.md',type:'ADX - DI - EMA - M1',desc:'黃金 M1 ADX/DI/EMA 模型，使用趨勢強度和均線方向過濾進場。',size:'98.4 KB'},
       {file:'XAU_M1_Model_06_Ichimoku_RVI_DeMarker_EA.ex5',guide:'model-06-ichimoku-rvi-demarker.md',type:'Ichimoku - RVI - DeMarker',desc:'黃金 M1 Ichimoku/RVI/DeMarker 模型，結合雲層方向、動量和超買超賣過濾。',size:'99.8 KB'},
       {file:'XAU_M1_Model_07_MFI_OBV_Volume_EA.ex5',guide:'model-07-mfi-obv-volume.md',type:'MFI - OBV - Volume',desc:'黃金 M1 資金流與成交量模型，用 MFI、OBV 和成交量確認趨勢品質。',size:'100.3 KB'}
