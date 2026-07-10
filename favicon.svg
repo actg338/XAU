@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="XAU Quant">
+  <defs>
+    <linearGradient id="bg" x1="8" x2="56" y1="8" y2="56">
+      <stop offset="0" stop-color="#0b1017"/>
+      <stop offset="0.44" stop-color="#172232"/>
+      <stop offset="1" stop-color="#05070a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="16" x2="52" y1="12" y2="52">
+      <stop offset="0" stop-color="#fff0a8"/>
+      <stop offset="0.48" stop-color="#d9ac55"/>
+      <stop offset="1" stop-color="#6dd6ff"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#bg)"/>
+  <path d="M10 47 L22 34 L30 40 L44 20 L54 16" fill="none" stroke="#56c596" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+  <path d="M16 16 L31 32 L16 48 M48 16 L33 32 L48 48" fill="none" stroke="url(#gold)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <path d="M15 50 H51" stroke="#f3d58a" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+  <circle cx="51" cy="15" r="4" fill="#ff5b7b"/>
+</svg>
