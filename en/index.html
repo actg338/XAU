@@ -158,7 +158,8 @@
     .risk { margin-top: 16px; color: #7f8896; font-size: 11px; }
     #google_translate_element { position: fixed; left: 16px; bottom: 16px; z-index: 40; opacity: .72; }
     @media (max-width: 880px) {
-      .nav-links a:not(.nav-cta) { display: none; }
+      .nav-links { gap: 12px; }
+      .nav-links a:not(.nav-cta):not(.bug-nav) { display: none; }
       .hero { padding-top: 68px; }
       .hero-grid, .showcase { grid-template-columns: 1fr; }
       .hero-grid { gap: 48px; }
@@ -170,6 +171,7 @@
       .wrap { width: min(100% - 28px, 1160px); }
       .nav-inner { height: 64px; }
       .brand { font-size: 14px; }
+      .nav-links { gap: 8px; }
       .nav-cta { min-height: 40px; padding: 0 13px; font-size: 13px; }
       .hero { padding: 54px 0 38px; }
       h1 { font-size: 46px; }
@@ -233,7 +235,10 @@ box-shadow:0 10px 30px rgba(0,0,0,.22)}
 font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
 .language-switcher option{color:#111;background:#fff}
 @media(max-width:580px){.language-switcher{top:70px;right:10px}}
-</style><style>.donate-nav{order:99;min-height:40px;padding:0 14px;border:1px solid rgba(86,197,150,.42);border-radius:11px;color:#07120d;background:linear-gradient(135deg,#8ce0b7,#56c596);font:inherit;font-size:13px;font-weight:800;cursor:pointer}.donate-dialog{width:min(520px,calc(100% - 28px));padding:0;border:1px solid rgba(86,197,150,.32);border-radius:22px;color:var(--text);background:#111720;box-shadow:0 24px 70px rgba(0,0,0,.55)}.donate-dialog::backdrop{background:rgba(2,4,7,.8);backdrop-filter:blur(6px)}.donate-box{padding:28px}.donate-head{display:flex;align-items:center;justify-content:space-between;gap:20px}.donate-head h2{margin:0;font-size:23px}.donate-close{width:38px;height:38px;border:1px solid var(--line);border-radius:10px;color:var(--text);background:transparent;cursor:pointer}.donate-network{display:inline-flex;margin:18px 0 0;padding:6px 10px;border-radius:999px;color:#8ce0b7;background:rgba(86,197,150,.11);font-size:12px;font-weight:800}.donate-qr{display:block;width:220px;max-width:100%;margin:16px auto;padding:10px;border-radius:16px;background:#fff}.donate-address{padding:14px;border:1px solid var(--line);border-radius:13px;color:#f3d58a;background:#090d12;font-family:Consolas,monospace;font-size:13px;line-height:1.55;overflow-wrap:anywhere}.donate-copy{width:100%;margin-top:12px;min-height:44px;border:0;border-radius:11px;color:#07120d;background:#56c596;font:inherit;font-weight:800;cursor:pointer}.donate-note{margin:14px 0 0;color:var(--muted);font-size:12px}@media(max-width:580px){.donate-nav{padding:0 10px;font-size:12px}.donate-box{padding:22px}}</style></head>
+</style><style>
+.floating-broker{position:fixed;right:18px;bottom:18px;z-index:35;box-shadow:0 14px 35px rgba(0,0,0,.35)}@media(max-width:580px){.floating-broker{display:none}}
+</style><style>
+.bug-nav{order:100;display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:0 15px;border:1px solid rgba(255,91,123,.48);border-radius:11px;text-decoration:none;background:linear-gradient(135deg,#ff5b7b,#6dd6ff 58%,#f3d58a);box-shadow:0 10px 24px rgba(255,91,123,.16);font-size:13px;font-weight:900;white-space:nowrap}.nav-links .bug-nav,.nav-links .bug-nav:hover{color:#061019}.bug-nav:hover{transform:translateY(-2px)}.bug-nav-short{display:none}.bug-board{position:relative;overflow:hidden;border-top:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(255,255,255,.08);background:linear-gradient(180deg,rgba(255,91,123,.055),rgba(109,214,255,.045) 48%,rgba(217,172,85,.04))}.bug-shell{display:grid;grid-template-columns:.82fr 1.18fr;gap:22px;align-items:start}.bug-copy{padding:30px;border:1px solid rgba(255,255,255,.1);border-radius:22px;background:linear-gradient(145deg,rgba(255,255,255,.06),rgba(255,255,255,.018))}.bug-copy h2{margin:10px 0 12px;font-size:clamp(30px,3.8vw,46px);line-height:1.16;letter-spacing:-.03em}.bug-copy p{margin:0;color:var(--muted)}.bug-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.bug-tags span{padding:6px 10px;border:1px solid rgba(109,214,255,.25);border-radius:999px;color:#b8ecff;background:rgba(109,214,255,.08);font-size:12px;font-weight:800}.bug-panel{min-height:420px;padding:18px;border:1px solid rgba(109,214,255,.22);border-radius:22px;background:#0b1017;box-shadow:var(--shadow)}.bug-panel-top{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:14px;color:var(--muted);font-size:12px}.bug-pulse{display:inline-flex;align-items:center;gap:7px;color:#6dd6ff;font-weight:800}.bug-pulse::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor;box-shadow:0 0 14px currentColor}.giscus-status{margin:0 0 14px;padding:13px 14px;border:1px solid rgba(243,213,138,.28);border-radius:14px;color:#f3d58a;background:rgba(217,172,85,.09);font-size:13px}.giscus-status a{color:#b8ecff;font-weight:800}.giscus-status.is-hidden{display:none}.giscus-status.is-warning{border-color:rgba(255,91,123,.34);color:#ffd6df;background:rgba(255,91,123,.09)}#giscusThread{min-height:300px}.giscus-frame{width:100% !important}.bug-fallback{margin:12px 0 0;color:var(--muted);font-size:12px}@media(max-width:880px){.bug-shell{grid-template-columns:1fr}.bug-copy{padding:24px}.bug-panel{min-height:360px}.bug-nav{min-height:40px;padding:0 13px}}@media(max-width:580px){.bug-nav{padding:0 10px;font-size:12px}.bug-nav-full{display:none}.bug-nav-short{display:inline}.bug-copy{padding:22px}.bug-panel{padding:14px;border-radius:18px}.bug-panel-top{align-items:flex-start;flex-direction:column;gap:6px}.bug-tags span{font-size:11px}}</style><style>.donate-nav{order:99;min-height:40px;padding:0 14px;border:1px solid rgba(86,197,150,.42);border-radius:11px;color:#07120d;background:linear-gradient(135deg,#8ce0b7,#56c596);font:inherit;font-size:13px;font-weight:800;cursor:pointer}.donate-dialog{width:min(520px,calc(100% - 28px));padding:0;border:1px solid rgba(86,197,150,.32);border-radius:22px;color:var(--text);background:#111720;box-shadow:0 24px 70px rgba(0,0,0,.55)}.donate-dialog::backdrop{background:rgba(2,4,7,.8);backdrop-filter:blur(6px)}.donate-box{padding:28px}.donate-head{display:flex;align-items:center;justify-content:space-between;gap:20px}.donate-head h2{margin:0;font-size:23px}.donate-close{width:38px;height:38px;border:1px solid var(--line);border-radius:10px;color:var(--text);background:transparent;cursor:pointer}.donate-network{display:inline-flex;margin:18px 0 0;padding:6px 10px;border-radius:999px;color:#8ce0b7;background:rgba(86,197,150,.11);font-size:12px;font-weight:800}.donate-qr{display:block;width:220px;max-width:100%;margin:16px auto;padding:10px;border-radius:16px;background:#fff}.donate-address{padding:14px;border:1px solid var(--line);border-radius:13px;color:#f3d58a;background:#090d12;font-family:Consolas,monospace;font-size:13px;line-height:1.55;overflow-wrap:anywhere}.donate-copy{width:100%;margin-top:12px;min-height:44px;border:0;border-radius:11px;color:#07120d;background:#56c596;font:inherit;font-weight:800;cursor:pointer}.donate-note{margin:14px 0 0;color:var(--muted);font-size:12px}@media(max-width:580px){.donate-nav{padding:0 10px;font-size:12px}.donate-box{padding:22px}}</style></head>
 <body><div class="language-switcher"><label for="siteLanguage">Language</label><select aria-label="Language" id="siteLanguage" onchange="localStorage.setItem('siteLanguage',this.options[this.selectedIndex].dataset.lang);location.href=this.value"><option data-lang="zh-CN" value="/">简体中文</option><option data-lang="zh-TW" value="/zh-tw/">繁體中文</option><option data-lang="en" value="/en/" selected>English</option><option data-lang="ja" value="/ja/">日本語</option><option data-lang="ko" value="/ko/">한국어</option><option data-lang="de" value="/de/">Deutsch</option><option data-lang="fr" value="/fr/">Français</option></select></div>
 
 
@@ -249,6 +254,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 <a href="#demo">Strategy display</a>
 <a href="/en/huice.html">EA backtest</a>
 <button class="btn btn-primary nav-cta" data-open="purchaseDialog">Get strategy</button>
+<a class="bug-nav" href="#bug-board"><span class="bug-nav-full">Bug Board</span><span class="bug-nav-short">Bug</span></a>
 </div>
 </div>
 </nav>
@@ -328,7 +334,22 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 <div class="hero-actions" style="margin:0"><button class="btn btn-primary" data-open="purchaseDialog">Get strategy</button><button class="btn btn-secondary" data-open="brokerDialog">Broker Portal</button></div>
 </div>
 </section>
-<!-- SEO-CONTENT-BEGIN -->
+<section class="bug-board" id="bug-board">
+<div class="wrap bug-shell">
+<div class="bug-copy">
+<div class="eyebrow">Bug Board</div>
+<h2>Bug Board</h2>
+<p>If you run into EA download, installation, backtest, page access, or strategy-documentation issues, leave a message here. Feedback is stored in GitHub Discussions for public tracking and replies.</p>
+<div class="bug-tags"><span>GitHub login required</span><span>Trackable issues</span><span>Desktop and mobile ready</span></div>
+</div>
+<div class="bug-panel">
+<div class="bug-panel-top"><span class="bug-pulse">Giscus Discussions</span><span>actg338/XAU · General</span></div>
+<p class="giscus-status" id="giscusStatus">Connecting to the GitHub Discussions board...</p>
+<div id="giscusThread"></div>
+<p class="bug-fallback">If the comment area does not load, check GitHub network access or leave a message directly in <a href="https://github.com/actg338/XAU/discussions" rel="noopener" target="_blank">GitHub Discussions</a>.</p>
+</div>
+</div>
+</section><!-- SEO-CONTENT-BEGIN -->
 <section class="seo-content" aria-label="SEO summary" style="max-width:1160px;margin:0 auto 42px;padding:24px;border:1px solid rgba(255,255,255,.09);border-radius:18px;background:rgba(255,255,255,.025);color:inherit;line-height:1.7">
   <h2 style="margin:0 0 10px;font-size:clamp(22px,3vw,32px)">MT5 Gold Trading EA and XAUUSD Automation Resources</h2>
   <p style="margin:0 0 12px;color:var(--muted,#667085)">This page summarizes XAU Quant features, strategy demos, risk notes, installation links and backtest resources for search engines, AI assistants and traders.</p>
@@ -343,7 +364,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 <footer>
 <div class="wrap footer-grid"><div><strong style="color:var(--text)">XAU QUANT</strong><br/>MT5 Quantitative Strategy Tools</div><div>WeChat: thRO03 · Telegram: aws2333<br/>© 2026 XAU Quant. All rights reserved.</div></div>
 </footer>
-<button aria-label="Open Broker links" class="btn btn-primary" data-open="brokerDialog" style="position:fixed;right:18px;bottom:18px;z-index:35;box-shadow:0 14px 35px rgba(0,0,0,.35)">Broker</button>
+<button aria-label="Open Broker links" class="btn btn-primary floating-broker" data-open="brokerDialog">Broker</button>
 <dialog class="donate-dialog" id="donateDialog"><div class="donate-box"><div class="donate-head"><h2>Support the website and EA development</h2><button class="donate-close" id="donateClose" type="button" aria-label="Close">×</button></div><div class="donate-network">USDT · TRC-20</div><img class="donate-qr" src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=TP9pbuDMhPjWk8otoZniN3WLAR7rijQUos" alt="USDT TRC-20 wallet QR code" width="220" height="220"/><div class="donate-address">TP9pbuDMhPjWk8otoZniN3WLAR7rijQUos</div><button class="donate-copy" id="donateCopy" type="button">Copy wallet address</button><p class="donate-note">Use the TRC-20 network only. Verify the address before sending; blockchain transfers cannot be reversed.</p></div></dialog><dialog id="purchaseDialog">
 <div class="dialog-inner">
 <div class="dialog-head"><h3>Get EA strategies</h3><button aria-label="closure" class="close" data-close="">×</button></div>
@@ -385,5 +406,47 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
   </script>
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <script crossorigin="anonymous" data-cf-beacon='{"version":"2024.11.0","token":"c71a6fca8db44e87b1ad0692e77cb05f","r":1}' defer="" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"></script>
-<script>(function(){const d=document.getElementById('donateDialog'),c=document.getElementById('donateCopy'),a='TP9pbuDMhPjWk8otoZniN3WLAR7rijQUos';document.getElementById('donateOpen').onclick=()=>d.showModal();document.getElementById('donateClose').onclick=()=>d.close();d.onclick=e=>{if(e.target===d)d.close()};c.onclick=async()=>{try{await navigator.clipboard.writeText(a)}catch(e){const t=document.createElement('textarea');t.value=a;document.body.appendChild(t);t.select();document.execCommand('copy');t.remove()}c.textContent='Copied';setTimeout(()=>c.textContent='Copy wallet address',1600)}})();</script><script src="/language.js?v=20260611"></script></body>
+<script>
+    (function() {
+      const holder = document.getElementById('giscusThread');
+      const status = document.getElementById('giscusStatus');
+      if (!holder || !status) return;
+      const config = {
+        repo: 'actg338/XAU',
+        repoId: 'R_kgDOQg9vzA',
+        category: 'General',
+        categoryId: 'DIC_kwDOQg9vzM4CzsTs',
+        mapping: 'specific',
+        term: 'XAU Quant BUG 留言板',
+        reactionsEnabled: '1',
+        emitMetadata: '0',
+        inputPosition: 'top',
+        theme: 'transparent_dark',
+        lang: 'en',
+        loading: 'lazy'
+      };
+      const script = document.createElement('script');
+      script.src = 'https://giscus.app/client.js';
+      script.async = true;
+      script.crossOrigin = 'anonymous';
+      script.setAttribute('data-repo', config.repo);
+      script.setAttribute('data-repo-id', config.repoId);
+      script.setAttribute('data-category', config.category);
+      script.setAttribute('data-category-id', config.categoryId);
+      script.setAttribute('data-mapping', config.mapping);
+      script.setAttribute('data-term', config.term);
+      script.setAttribute('data-reactions-enabled', config.reactionsEnabled);
+      script.setAttribute('data-emit-metadata', config.emitMetadata);
+      script.setAttribute('data-input-position', config.inputPosition);
+      script.setAttribute('data-theme', config.theme);
+      script.setAttribute('data-lang', config.lang);
+      script.setAttribute('data-loading', config.loading);
+      script.onload = function() { status.classList.add('is-hidden'); };
+      script.onerror = function() {
+        status.classList.add('is-warning');
+        status.textContent = 'Giscus failed to load. Refresh later or leave a message directly in GitHub Discussions.';
+      };
+      holder.appendChild(script);
+    })();
+  </script><script>(function(){const d=document.getElementById('donateDialog'),c=document.getElementById('donateCopy'),a='TP9pbuDMhPjWk8otoZniN3WLAR7rijQUos';document.getElementById('donateOpen').onclick=()=>d.showModal();document.getElementById('donateClose').onclick=()=>d.close();d.onclick=e=>{if(e.target===d)d.close()};c.onclick=async()=>{try{await navigator.clipboard.writeText(a)}catch(e){const t=document.createElement('textarea');t.value=a;document.body.appendChild(t);t.select();document.execCommand('copy');t.remove()}c.textContent='Copied';setTimeout(()=>c.textContent='Copy wallet address',1600)}})();</script><script src="/language.js?v=20260611"></script></body>
 </html>
