@@ -100,7 +100,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 <div class="eyebrow">Free MT5 Expert Advisors</div>
 <div class="header-title-row"><h1>免費 EA<br/>下載與使用說明</h1><button class="donate-fab" id="donateOpen">打賞 USDT</button></div>
 <p>提供編譯版 <code>.ex5</code> 檔案。每個 EA 都配有獨立說明，下載次數由 GitHub Release 實時統計。</p>
-<div class="summary"><span class="pill"><b>23</b> 個 EA</span><span class="pill">適用於 <b>MetaTrader 5</b></span><span class="pill">版本 <b>free-ea-v1.0</b></span></div>
+<div class="summary"><span class="pill"><b>24</b> 個 EA</span><span class="pill">適用於 <b>MetaTrader 5</b></span><span class="pill">版本 <b>free-ea-v1.0</b></span></div>
 </header>
 <main class="wrap">
 <div class="notice">重要：免費不代表低風險。網格、馬丁和定時加倉策略可能產生較大回撤。請先閱讀說明，並在模擬帳戶完成回測與前向測試。</div>
@@ -143,6 +143,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
       'thro03.md':`<h3>thRO03.ex5 使用說明</h3><h4>功能</h4><p>做多方向 SAR 與斐波加倉，包含保證金、權益回撤及動態價格上限保護。</p><h4>關鍵參數</h4><ul><li><code>MaxMartingaleSteps</code> 最大加倉次數</li><li><code>MaxAllowedOpenLot</code> 持倉上限</li><li><code>BaseAddPoints</code> 加倉距離</li><li><code>EnableEquityPullbackRule</code> 權益保護</li></ul><p class="guide-risk">風險：請勿在未設定最大倉位和權益保護時執行。</p>`,
       'time-buy.md':`<h3>timebuy.ex5 使用說明</h3><h4>功能</h4><p>定時間隔做多，結合 SAR、止盈、跟蹤回撤止盈、動態 SL、浮虧保護、自動填充模式識別和商業化彩色面板。</p><h4>關鍵參數</h4><ul><li><code>Seconds</code> 最小下單間隔，面板顯示倒數</li><li><code>Lots</code> 單次手數</li><li><code>TP_USDPer001</code> 止盈金額</li><li><code>DynamicSLRatio</code> 動態止損比例</li><li><code>BaseMaxOrders</code> 持倉限制</li><li><code>InpEnableCommercialPanel</code> 商業面板開關</li></ul><h4>品牌</h4><p>編譯人：微信：thRO03<br/>官網：https://03xau.com</p><p class="guide-risk">風險：持續下跌時做多可能快速累積風險。</p>`,
       'time-shell.md':`<h3>timeshell.ex5 使用說明</h3><h4>功能</h4><p>定時間隔做空，結合 SAR、止盈、跟蹤回撤止盈、動態 SL、浮虧保護、自動填充模式識別和商業化彩色面板。</p><h4>關鍵參數</h4><ul><li><code>Seconds</code> 最小下單間隔，面板顯示倒數</li><li><code>Lots</code> 單次手數</li><li><code>TP_USDPer001</code> 止盈金額</li><li><code>DynamicSLRatio</code> 動態止損比例</li><li><code>BaseMaxOrders</code> 持倉限制</li><li><code>InpEnableCommercialPanel</code> 商業面板開關</li></ul><h4>品牌</h4><p>編譯人：微信：thRO03<br/>官網：https://03xau.com</p><p class="guide-risk">風險：持續上漲時做空可能快速累積風險。</p>`,
+      'basket-trend-martingale.md':`<h3>XAU_BasketTrendMartingale_EA.ex5 使用說明</h3><h4>功能</h4><p>趨勢方向馬丁 EA，上漲只做多方向加倉，下跌只做空方向加倉，使用籃子淨浮盈跟蹤全平與單方向獨立跟蹤回撤保護。</p><h4>關鍵參數</h4><ul><li><code>InpEnableBasketTrailing</code> 籃子淨浮盈跟蹤全平</li><li><code>InpEnableDirectionalTrailing</code> 多空方向獨立跟蹤回撤止盈</li><li><code>InpBaseLot / InpLotMultiplier</code> 首單手數與加倉倍率</li><li><code>InpMaxTotalLots</code> 本 EA 最大總手數</li><li><code>InpAddSarStep / InpAddAdxLowMax</code> 專用 SAR 與 ADX 加倉限制</li></ul><h4>回測</h4><p>MT5-4，ICMarketsSC-Demo，XAUUSD M1，2026.06.01-2026.07.09，歷史品質 100%。淨利潤 119.50，最大淨值回撤 3.27%，交易 1088，勝率 40.90%，Profit Factor 1.02，Sharpe 1.19。</p><h4>品牌</h4><p>編譯人：微信：thRO03<br/>官網：https://03xau.com</p><p class="guide-risk">風險：包含馬丁和加倉邏輯，預設參數為初版驗證參數，PF 邊際較薄，實盤前必須重新回測和模擬前向測試。</p>`,
       'zzx.md':`<h3>zzx.ex5 使用說明</h3><h4>功能</h4><p>僅提供編譯版本，具體邏輯必須以 MT5 Inputs 和策略測試結果為準。</p><h4>使用</h4><ul><li>安裝到 <code>MQL5/Experts</code></li><li>使用策略測試器視覺化模式</li><li>核對方向、手數、加倉和止盈</li><li>僅在模擬帳戶驗證穩定後使用</li></ul><p class="guide-risk">風險：不要依據檔名推斷實盤行為，必須先測試。</p>`,
       'zzx-2.md':`<h3>zzx2.0.ex5 使用說明</h3><h4>功能</h4><p>做多方向 SAR 首倉過濾，支援固定間距加倉、動態價格上限與組合退出。</p><h4>關鍵參數</h4><ul><li><code>InitialLots / MartingaleFactor</code> 倉位規模</li><li><code>BaseAddPoints</code> 加倉距離</li><li><code>PriceUpperTimeframe</code> 動態上限</li><li><code>FloatingPercentThreshold</code> 退出閾值</li></ul><p class="guide-risk">風險：下跌行情中可能持續擴大倉位，請設定權益止損。</p>`
     };
@@ -159,6 +160,7 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
       {file:'thRO03.ex5',guide:'thro03.md',type:'SAR · 做多 · 風控',desc:'做多加倉、動態價格上限與帳戶保護。',size:'46.2 KB'},
       {file:'timebuy.ex5',guide:'time-buy.md',type:'定時 · 做多 · 動態 SL',desc:'定時做多、自動填充模式、倒數面板與動態持倉管理。',size:'99.2 KB'},
       {file:'timeshell.ex5',guide:'time-shell.md',type:'定時 · 做空 · 動態 SL',desc:'定時做空、自動填充模式、倒數面板與動態持倉管理。',size:'99.7 KB'},
+      {file:'XAU_BasketTrendMartingale_EA.ex5',guide:'basket-trend-martingale.md',type:'趨勢馬丁 · 籃子止盈 · 面板',desc:'漲勢做多、跌勢做空，帶籃子淨值跟蹤全平、方向回撤保護和商業面板。',size:'104.6 KB'},
       {file:'zzx.ex5',guide:'zzx.md',type:'編譯版 · 需先測試',desc:'僅提供編譯檔案，請按說明先驗證實際行為。',size:'38.3 KB'},
       {file:'zzx2.0.ex5',guide:'zzx-2.md',type:'SAR · 做多 · V2',desc:'做多 SAR 過濾、固定間距加倉和組合退出。',size:'41.0 KB'},
       {file:'XAU_M1_Model_10_BullsBears_Force_EA.ex5',guide:'model-10-bulls-bears-force.md',type:'Bulls/Bears - Force - M1',desc:'黃金 M1 多場景模型，使用 Bulls/Bears Power 與 Force Index 過濾趨勢和突破。',size:'99.2 KB'},
