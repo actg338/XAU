@@ -1,16 +1,13 @@
 <!DOCTYPE html>
-
 <html lang="zh-TW">
 <head>
 <meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
-<title>EA 回測展示 | XAU Quant 黃金策略歷史測試圖片</title>
-<!-- SEO-BEGIN -->
-<meta name="description" content="查看 XAU Quant 黃金 EA 的回測圖片展示，了解策略歷史測試結果。歷史表現僅供研究，不代表未來收益。"/>
+<title>EA 回測與面板截圖 | XAU Quant 黃金策略展示</title>
+<meta name="description" content="查看 XAU Quant 黃金 EA 的回測截圖、MT5 圖表面板和風險提示。歷史表現僅供研究，不代表未來收益。"/>
 <meta name="keywords" content="EA回測,MT5回測,XAUUSD回測,黃金EA測試,策略測試報告"/>
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
-<meta name="author" content="XAU Quant"/>
 <link rel="canonical" href="https://03xau.com/zh-tw/huice.html"/>
 <link rel="alternate" hreflang="zh-CN" href="https://03xau.com/huice.html"/>
 <link rel="alternate" hreflang="zh-TW" href="https://03xau.com/zh-tw/huice.html"/>
@@ -23,307 +20,40 @@
 <meta property="og:type" content="website"/>
 <meta property="og:site_name" content="XAU Quant"/>
 <meta property="og:locale" content="zh_TW"/>
-<meta property="og:title" content="EA 回測展示 | XAU Quant 黃金策略歷史測試圖片"/>
-<meta property="og:description" content="查看 XAU Quant 黃金 EA 的回測圖片展示，了解策略歷史測試結果。歷史表現僅供研究，不代表未來收益。"/>
+<meta property="og:title" content="EA 回測與面板截圖 | XAU Quant 黃金策略展示"/>
+<meta property="og:description" content="查看 XAU Quant 黃金 EA 的回測截圖、MT5 圖表面板和風險提示。"/>
 <meta property="og:url" content="https://03xau.com/zh-tw/huice.html"/>
-<meta property="og:image" content="https://03xau.com/picture/1.png"/>
+<meta property="og:image" content="https://03xau.com/picture/timebuy-buy-ea-live-panel-20260713.png"/>
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="EA 回測展示 | XAU Quant 黃金策略歷史測試圖片"/>
-<meta name="twitter:description" content="查看 XAU Quant 黃金 EA 的回測圖片展示，了解策略歷史測試結果。歷史表現僅供研究，不代表未來收益。"/>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://03xau.com/#organization","name":"XAU Quant","url":"https://03xau.com/"},{"@type":"WebSite","@id":"https://03xau.com/#website","name":"XAU Quant","url":"https://03xau.com/","inLanguage":"zh-TW","publisher":{"@id":"https://03xau.com/#organization"}},{"@type":"WebPage","@id":"https://03xau.com/zh-tw/huice.html#webpage","url":"https://03xau.com/zh-tw/huice.html","name":"EA 回測展示 | XAU Quant 黃金策略歷史測試圖片","description":"查看 XAU Quant 黃金 EA 的回測圖片展示，了解策略歷史測試結果。歷史表現僅供研究，不代表未來收益。","inLanguage":"zh-TW","isPartOf":{"@id":"https://03xau.com/#website"},"about":["MT5 Expert Advisor","XAUUSD gold trading","automated trading","backtest","risk management"]}]}</script>
-<!-- SEO-END -->
-<style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      overflow: hidden;
-    }
-
-    h1 {
-      margin-bottom: 10px;
-      font-size: 1.8rem;
-    }
-
-    .circle-container {
-      position: relative;
-      width: 400px;
-      height: 400px;
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      animation: rotateCircle 20s linear infinite; /* 自动旋转 */
-    }
-
-    .circle-container:hover {
-      animation-play-state: paused; /* 鼠标悬停时暂停旋转 */
-    }
-
-    @keyframes rotateCircle {
-      from {
-        transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(360deg);
-      }
-    }
-
-    .circle-item {
-      position: absolute;
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      overflow: hidden;
-      transform-origin: center;
-      cursor: pointer;
-      transition: transform 0.3s ease;
-    }
-
-    .circle-item img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .circle-item:hover {
-      transform: scale(1.2) rotate(0deg);
-      z-index: 2;
-    }
-
-    .circle-center {
-      position: absolute;
-      width: 120px;
-      height: 120px;
-      background-color: #fff;
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      font-size: 1.2rem;
-      font-weight: bold;
-      color: #333;
-    }
-
-    /* 模态框 */
-    .modal {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.8);
-      z-index: 1000;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .modal img {
-      max-width: 90%;
-      max-height: 90%;
-      border-radius: 10px;
-      box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
-    }
-
-    .modal span {
-      position: absolute;
-      top: 20px;
-      right: 30px;
-      color: white;
-      font-size: 30px;
-      cursor: pointer;
-      font-weight: bold;
-      transition: color 0.3s ease;
-    }
-
-    .modal span:hover {
-      color: #f00;
-    }
-
-    /* 进度条 */
-    .progress-container {
-      position: fixed;
-      bottom: 20px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 80%;
-      height: 5px;
-      background: #ddd;
-      border-radius: 3px;
-      overflow: hidden;
-    }
-
-    .progress-bar {
-      width: 0;
-      height: 100%;
-      background: #1e90ff;
-      transition: width 0.3s ease;
-    }
-  </style>
-<style>
-.language-switcher{position:fixed;top:82px;right:16px;z-index:90;display:flex;
-align-items:center;gap:8px;padding:7px 9px;border:1px solid rgba(255,255,255,.13);
-border-radius:11px;background:rgba(8,11,16,.9);backdrop-filter:blur(14px);
-box-shadow:0 10px 30px rgba(0,0,0,.22)}
-.language-switcher label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
-.language-switcher select{border:0;outline:0;color:#f5f1e8;background:transparent;
-font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
-.language-switcher option{color:#111;background:#fff}
-@media(max-width:580px){.language-switcher{top:70px;right:10px}}
-</style><style>
-.language-switcher{position:fixed;top:82px;right:16px;z-index:90;display:flex;
-align-items:center;gap:8px;padding:7px 9px;border:1px solid rgba(255,255,255,.13);
-border-radius:11px;background:rgba(8,11,16,.9);backdrop-filter:blur(14px);
-box-shadow:0 10px 30px rgba(0,0,0,.22)}
-.language-switcher label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
-.language-switcher select{border:0;outline:0;color:#f5f1e8;background:transparent;
-font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
-.language-switcher option{color:#111;background:#fff}
-@media(max-width:580px){.language-switcher{top:70px;right:10px}}
-</style><style>
-.language-switcher{position:fixed;top:82px;right:16px;z-index:90;display:flex;
-align-items:center;gap:8px;padding:7px 9px;border:1px solid rgba(255,255,255,.13);
-border-radius:11px;background:rgba(8,11,16,.9);backdrop-filter:blur(14px);
-box-shadow:0 10px 30px rgba(0,0,0,.22)}
-.language-switcher label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
-.language-switcher select{border:0;outline:0;color:#f5f1e8;background:transparent;
-font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
-.language-switcher option{color:#111;background:#fff}
-@media(max-width:580px){.language-switcher{top:70px;right:10px}}
-</style><style>
-.language-switcher{position:fixed;top:82px;right:16px;z-index:90;display:flex;
-align-items:center;gap:8px;padding:7px 9px;border:1px solid rgba(255,255,255,.13);
-border-radius:11px;background:rgba(8,11,16,.9);backdrop-filter:blur(14px);
-box-shadow:0 10px 30px rgba(0,0,0,.22)}
-.language-switcher label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
-.language-switcher select{border:0;outline:0;color:#f5f1e8;background:transparent;
-font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
-.language-switcher option{color:#111;background:#fff}
-@media(max-width:580px){.language-switcher{top:70px;right:10px}}
-</style><style>
-.language-switcher{position:fixed;top:82px;right:16px;z-index:90;display:flex;
-align-items:center;gap:8px;padding:7px 9px;border:1px solid rgba(255,255,255,.13);
-border-radius:11px;background:rgba(8,11,16,.9);backdrop-filter:blur(14px);
-box-shadow:0 10px 30px rgba(0,0,0,.22)}
-.language-switcher label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
-.language-switcher select{border:0;outline:0;color:#f5f1e8;background:transparent;
-font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
-.language-switcher option{color:#111;background:#fff}
-@media(max-width:580px){.language-switcher{top:70px;right:10px}}
-</style></head>
-<body><div class="language-switcher"><label for="siteLanguage">Language</label><select aria-label="Language" id="siteLanguage" onchange="localStorage.setItem('siteLanguage',this.options[this.selectedIndex].dataset.lang);location.href=this.value"><option data-lang="zh-CN" value="/huice.html">简体中文</option><option data-lang="zh-TW" value="/zh-tw/huice.html" selected>繁體中文</option><option data-lang="en" value="/en/huice.html">English</option><option data-lang="ja" value="/ja/huice.html">日本語</option><option data-lang="ko" value="/ko/huice.html">한국어</option><option data-lang="de" value="/de/huice.html">Deutsch</option><option data-lang="fr" value="/fr/huice.html">Français</option></select></div>
-
-
-
-
-
-
-<h1>圖片環形展示</h1>
-<!-- 工具栏 -->
-<div class="toolbar" style="display: none;">
-<button onclick="sortImages('random')">隨機排序</button>
-<button onclick="sortImages('name')">按名稱排序</button>
-<button onclick="toggleTheme()">切換主題</button>
-</div>
-<!-- 图片环 -->
-<div class="circle-container" id="circleContainer">
-<div class="circle-center">EA 回測</div>
-</div>
-<!-- 模态框 -->
-<div class="modal" id="imageModal">
-<span onclick="closeModal()">×</span>
-<img alt="大圖" id="modalImage" src=""/>
-</div>
-<!-- 进度条 -->
-<div class="progress-container">
-<div class="progress-bar" id="progressBar"></div>
-</div>
-<script>
-    // 圖片路徑
-    const images = [
-      "/picture/1.png",
-      "/picture/2.png"
-    ];
-
-    const container = document.getElementById("circleContainer");
-    const progressBar = document.getElementById("progressBar");
-    let currentIndex = 0;
-    const radius = 150; // 圖片環半徑
-
-    // 生成圖片環
-    function generateImages() {
-      container.innerHTML = '<div class="circle-center">EA 回測</div>'; // 清空內容
-      images.forEach((src, index) => {
-        const angle = (index / images.length) * 360;
-        const x = radius * Math.cos((angle * Math.PI) / 180);
-        const y = radius * Math.sin((angle * Math.PI) / 180);
-
-        const imageDiv = document.createElement("div");
-        imageDiv.className = "circle-item";
-        imageDiv.style.transform = `translate(${x}px, ${y}px) rotate(${angle}deg)`;
-
-        const img = document.createElement("img");
-        img.src = src;
-        img.alt = `圖片 ${index + 1}`;
-        img.onclick = () => showModal(src, index);
-
-        imageDiv.appendChild(img);
-        container.appendChild(imageDiv);
-      });
-    }
-
-    // 顯示模態框
-    function showModal(src, index) {
-      const modal = document.getElementById("imageModal");
-      const modalImg = document.getElementById("modalImage");
-      modalImg.src = src;
-      modal.style.display = "flex";
-      currentIndex = index;
-      updateProgress();
-    }
-
-    // 關閉模態框
-    function closeModal() {
-      document.getElementById("imageModal").style.display = "none";
-    }
-
-    // 更新進度條
-    function updateProgress() {
-      progressBar.style.width = `${((currentIndex + 1) / images.length) * 100}%`;
-    }
-
-    // 隨機排序
-    function sortImages(type) {
-      if (type === "random") {
-        images.sort(() => Math.random() - 0.5);
-      } else if (type === "name") {
-        images.sort((a, b) => a.localeCompare(b));
-      }
-      generateImages();
-    }
-
-    // 切換主題
-    function toggleTheme() {
-      document.body.classList.toggle("dark");
-    }
-
-    // 快捷鍵觸發
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "r") sortImages("random"); // 按 "r" 觸發隨機排序
-      if (event.key === "n") sortImages("name");   // 按 "n" 觸發按名稱排序
-      if (event.key === "t") toggleTheme();        // 按 "t" 切換主題
-    });
-
-    // 初始化
-    generateImages();
-  </script>
-<script src="/language.js?v=20260611"></script></body>
+<meta name="twitter:title" content="EA 回測與面板截圖 | XAU Quant 黃金策略展示"/>
+<meta name="twitter:description" content="查看 XAU Quant 黃金 EA 的回測截圖、MT5 圖表面板和風險提示。"/>
+<link rel="stylesheet" href="/assets/backtest-gallery.css"/>
+</head>
+<body>
+<div class="language-switcher"><label for="siteLanguage">語言</label><select id="siteLanguage" aria-label="語言" onchange="location.href=this.value"><option value="/huice.html">简体中文</option><option value="/zh-tw/huice.html" selected>繁體中文</option><option value="/en/huice.html">English</option><option value="/ja/huice.html">日本語</option><option value="/ko/huice.html">한국어</option><option value="/de/huice.html">Deutsch</option><option value="/fr/huice.html">Français</option></select></div>
+<main class="backtest-page">
+  <nav class="top-links" aria-label="頁面導覽"><a href="/zh-tw/">首頁</a><a href="/zh-tw/free-ea.html">免費 EA</a><a href="/zh-tw/ea-install.html">安裝教程</a></nav>
+  <section class="hero">
+    <div><span class="eyebrow">EA 回測與圖表面板</span><h1>XAUUSD M1 策略截圖展示</h1><p>集中展示黃金 EA 的回測圖、MT5 圖表面板和運行診斷介面，便於快速查看策略狀態、風控資訊和可視化效果。</p><div class="hero-actions"><a href="#featured">查看主圖</a><a href="#gallery">全部截圖</a></div></div>
+    <div class="metric-grid"><div class="metric-card"><b>3</b><span>張站內展示圖片</span></div><div class="metric-card"><b>M1</b><span>XAUUSD 黃金週期</span></div><div class="metric-card"><b>MT5</b><span>圖表面板與訂單診斷</span></div><div class="metric-card"><b>風險提示</b><span>歷史結果不保證未來表現</span></div></div>
+  </section>
+  <section id="featured">
+    <div class="section-head"><div><h2>最新面板截圖</h2><p>2026-07-13 添加，用於展示商業版 BUY EA 在 MT5 圖表上的面板、訂單和診斷資訊。</p></div></div>
+    <figure class="featured-card"><img src="/picture/timebuy-buy-ea-live-panel-20260713.png" alt="TimeBuy 商業版 BUY EA 在 XAUUSD M1 圖表上的面板截圖" loading="eager"/><figcaption class="featured-body"><div><strong>TimeBuy 商業版 BUY EA v3.57</strong><p class="shot-copy">截圖包含帳戶資金、點差、下單間隔、多週期 ADX、拒絕開倉原因、持倉列表和 MT5 圖表狀態。</p><div class="tag-row"><span class="tag">XAUUSD M1</span><span class="tag blue">MT5 面板</span><span class="tag green">風控診斷</span></div></div><button class="open-image" type="button" data-full-image="/picture/timebuy-buy-ea-live-panel-20260713.png" data-image-alt="TimeBuy 商業版 BUY EA 面板大圖">查看大圖</button></figcaption></figure>
+  </section>
+  <section id="gallery">
+    <div class="section-head"><div><h2>回測圖片庫</h2><p>所有語言頁面使用同一套圖片和同一套版式，方便跨語言使用者對照查看。</p></div></div>
+    <div class="gallery-grid">
+      <figure class="shot-card"><button class="image-button" type="button" data-full-image="/picture/timebuy-buy-ea-live-panel-20260713.png" data-image-alt="TimeBuy 商業版 BUY EA 面板截圖"><img src="/picture/timebuy-buy-ea-live-panel-20260713.png" alt="TimeBuy 商業版 BUY EA 面板截圖" loading="lazy"/></button><figcaption><h3>商業面板與訂單診斷</h3><p>展示 EA 面板、交易列表、圖表訊號和運行狀態。</p></figcaption></figure>
+      <figure class="shot-card"><button class="image-button" type="button" data-full-image="/picture/1.png" data-image-alt="EA 回測截圖 1"><img src="/picture/1.png" alt="EA 回測截圖 1" loading="lazy"/></button><figcaption><h3>回測截圖 1</h3><p>用於觀察策略測試結果和歷史表現樣例。</p></figcaption></figure>
+      <figure class="shot-card"><button class="image-button" type="button" data-full-image="/picture/2.png" data-image-alt="EA 回測截圖 2"><img src="/picture/2.png" alt="EA 回測截圖 2" loading="lazy"/></button><figcaption><h3>回測截圖 2</h3><p>補充展示不同測試視圖和圖表細節。</p></figcaption></figure>
+    </div>
+  </section>
+  <section><div class="section-head"><div><h2>閱讀重點</h2><p>截圖展示的是策略運行介面和歷史測試材料，實盤前仍需按自己的經紀商環境重新驗證。</p></div></div><div class="read-grid"><div class="read-card"><strong>回測條件</strong><p>重點核對品種、週期、點差、時間範圍、帳戶類型和歷史資料品質。</p></div><div class="read-card"><strong>面板狀態</strong><p>關注授權、點差、ADX、拒絕開倉原因、加倉狀態和最近事件。</p></div><div class="read-card"><strong>風控邊界</strong><p>關注最大回撤、浮虧保護、冷卻狀態和異常行情下的停止交易邏輯。</p></div></div></section>
+  <div class="risk-band"><b>風險提示：</b><span class="risk-note">歷史回測和截圖只用於說明策略行為，不代表未來收益。黃金 M1 波動、滑點、點差擴大和網路延遲都可能影響真實交易結果。</span></div>
+  <footer class="site-footer">© 2026 XAU Quant · 自動化交易不保證盈利 · 請先回測和模擬驗證</footer>
+</main>
+<div class="image-modal" data-image-modal><div class="modal-frame"><button class="modal-close" type="button" data-modal-close aria-label="關閉">×</button><img data-modal-image alt=""/></div></div>
+<script src="/assets/backtest-gallery.js"></script>
+</body>
 </html>
