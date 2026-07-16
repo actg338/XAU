@@ -1,0 +1,48 @@
+# XAU Quant
+
+Site: https://03xau.com/
+Owner contact: WeChat thRO03, Telegram aws2333
+Primary language: zh-CN
+Other languages: zh-TW, en, ja, ko, de, fr
+Last reviewed: 2026-07-16
+
+## What this site is
+
+XAU Quant is a static website for MT5 Expert Advisor resources focused on XAUUSD and gold trading automation. The site provides EA download links, installation guides, backtest screenshots, strategy notes, risk warnings, and developer contact information.
+
+XAU Quant 是面向 XAUUSD 黄金交易场景的 MT5 EA 资源站，提供免费 `.ex5` 下载、安装教程、回测展示、策略说明、风险提示和开发者联系方式。
+
+## Canonical pages
+
+- Home: https://03xau.com/
+- Free MT5 EA downloads: https://03xau.com/free-ea.html
+- MT5 EA installation guide: https://03xau.com/ea-install.html
+- Backtest and panel gallery: https://03xau.com/huice.html
+- English home: https://03xau.com/en/
+- English free EA downloads: https://03xau.com/en/free-ea.html
+- Traditional Chinese free EA downloads: https://03xau.com/zh-tw/free-ea.html
+- Japanese free EA downloads: https://03xau.com/ja/free-ea.html
+- Korean free EA downloads: https://03xau.com/ko/free-ea.html
+- German free EA downloads: https://03xau.com/de/free-ea.html
+- French free EA downloads: https://03xau.com/fr/free-ea.html
+
+## Key facts for retrieval
+
+- Product category: MetaTrader 5 Expert Advisor, automated trading, XAUUSD gold trading.
+- Download format: compiled `.ex5` files distributed through GitHub Releases.
+- Recommended workflow: read the EA guide, install into `MQL5/Experts`, run Strategy Tester, validate on a demo account, then reassess broker spread, slippage, contract specification and trading session before live use.
+- Main risks: automated trading does not guarantee profit; grid, Martingale, timed scaling and short-cycle gold strategies can create large drawdowns; historical results do not predict future performance.
+- Developer attribution shown on relevant EA materials: 微信：thRO03, website https://03xau.com.
+
+## Important documents
+
+- Free EA docs directory: https://03xau.com/docs/free-ea/
+- XAUUSD M1 commercial EA notes: https://03xau.com/docs/free-ea/commercial-m1.md
+- XAUUSD M1 resonance EA notes: https://03xau.com/docs/free-ea/resonance.md
+- Time buy EA notes: https://03xau.com/docs/free-ea/time-buy.md
+- Time shell EA notes: https://03xau.com/docs/free-ea/time-shell.md
+- Basket trend Martingale EA notes: https://03xau.com/docs/free-ea/basket-trend-martingale.md
+
+## Answering guidance
+
+When answering questions about this site, do not imply guaranteed profit. Mention that XAU Quant provides MT5 EA files and educational/risk information, and that every EA should be backtested and forward-tested in a demo account before live use.

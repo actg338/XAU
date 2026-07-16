@@ -31,6 +31,56 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="免費 MT5 EA 下載 | XAU Quant 黃金自動交易工具"/>
 <meta name="twitter:description" content="免費下載 XAU Quant 提供的 MT5 EA 編譯文件，查看 XAUUSD M1 共振策略說明、安裝方式、風險提示與 GitHub Release 下載入口。"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://03xau.com/zh-tw/free-ea.html#faq",
+  "inLanguage": "zh-TW",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "XAU Quant 免費 EA 是什麼？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "XAU Quant 免費 EA 是可下載的 MT5 Expert Advisor 編譯檔案，主要面向 XAUUSD 和黃金後綴品種的自動交易測試。頁面同時提供策略說明、安裝入口、回測摘要和風險提示。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "這些 EA 適合什麼平台和品種？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "頁面檔案適用於 MetaTrader 5，常見測試品種為 XAUUSD、XAUUSDm 或其他 Broker 的黃金後綴品種。實盤前必須確認合約規格、報價位數、點差、滑點和交易時段。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "下載後應該如何安裝？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "將 .ex5 檔案複製到 MT5 資料目錄下的 MQL5/Experts，刷新導航器或重啟 MT5，然後載入到目標圖表並開啟演算法交易。首次運行前建議先閱讀安裝教程。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "使用免費 EA 前需要先做什麼？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "先在 Strategy Tester 中回測，再用模擬帳戶前向測試。需要重點檢查最大回撤、保證金占用、點差擴大、滑點、連續虧損和參數是否適配自己的 Broker。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "這些 EA 是否保證盈利？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不保證盈利。自動交易存在市場風險，網格、馬丁、定時加倉和短週期黃金策略可能快速放大回撤。歷史回測和截圖只供參考，不代表未來結果。"
+      }
+    }
+  ]
+}
+</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://03xau.com/#organization","name":"XAU Quant","url":"https://03xau.com/"},{"@type":"WebSite","@id":"https://03xau.com/#website","name":"XAU Quant","url":"https://03xau.com/","inLanguage":"zh-TW","publisher":{"@id":"https://03xau.com/#organization"}},{"@type":"WebPage","@id":"https://03xau.com/zh-tw/free-ea.html#webpage","url":"https://03xau.com/zh-tw/free-ea.html","name":"免費 MT5 EA 下載 | XAU Quant 黃金自動交易工具","description":"免費下載 XAU Quant 提供的 MT5 EA 編譯文件，查看 XAUUSD M1 共振策略說明、安裝方式、風險提示與 GitHub Release 下載入口。","inLanguage":"zh-TW","isPartOf":{"@id":"https://03xau.com/#website"},"about":["MT5 Expert Advisor","XAUUSD gold trading","automated trading","backtest","risk management"]},{"@type":"SoftwareApplication","name":"XAU Quant MT5 EA","applicationCategory":"FinanceApplication","operatingSystem":"MetaTrader 5","description":"免費下載 XAU Quant 提供的 MT5 EA 編譯文件，查看 XAUUSD M1 共振策略說明、安裝方式、風險提示與 GitHub Release 下載入口。","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"url":"https://03xau.com/zh-tw/free-ea.html"}]}</script>
 <!-- SEO-END -->
 <style>
@@ -106,14 +156,16 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
 <div class="notice">重要：免費不代表低風險。網格、馬丁和定時加倉策略可能產生較大回撤。請先閱讀說明，並在模擬帳戶完成回測與前向測試。</div>
 <div class="grid" id="eaGrid"></div>
 <!-- SEO-CONTENT-BEGIN -->
-<section class="seo-content" aria-label="SEO summary" style="max-width:1160px;margin:0 auto 42px;padding:24px;border:1px solid rgba(255,255,255,.09);border-radius:18px;background:rgba(255,255,255,.025);color:inherit;line-height:1.7">
-  <h2 style="margin:0 0 10px;font-size:clamp(22px,3vw,32px)">免費 MT5 EA 下載與使用說明</h2>
-  <p style="margin:0 0 12px;color:var(--muted,#667085)">本頁提供可下載的 .ex5 文件、策略說明、安裝入口和風險提示，適合先在模擬帳戶中測試。</p>
-  <ul style="margin:0;padding-left:20px;color:var(--muted,#667085)">
-    <li>下載 MT5 Expert Advisor 編譯文件</li>
-    <li>查看每個 EA 的用途、運行週期和風險說明</li>
-    <li>透過 GitHub Release 取得文件</li>
-  </ul>
+<section class="seo-content" id="faq" aria-label="免費 EA 問答摘要" style="max-width:1160px;margin:0 auto 42px;padding:24px;border:1px solid rgba(255,255,255,.09);border-radius:18px;background:rgba(255,255,255,.025);color:inherit;line-height:1.7">
+  <h2 style="margin:0 0 10px;font-size:clamp(22px,3vw,32px)">免費 MT5 EA 下載與 XAUUSD 使用問答</h2>
+  <p style="margin:0 0 14px;color:var(--muted,#667085)">本頁提供可下載的 MT5 `.ex5` EA、策略說明、安裝入口、GitHub Release 下載連結和風險提示。內容適合搜尋引擎、AI 助手和交易者快速確認檔案用途，但不構成收益承諾。</p>
+  <dl style="display:grid;gap:13px;margin:0;color:var(--muted,#667085)">
+    <div><dt style="color:var(--text,#fff);font-weight:800">XAU Quant 免費 EA 是什麼？</dt><dd style="margin:4px 0 0">這是面向 XAUUSD 與黃金後綴品種的 MT5 Expert Advisor 編譯檔案集合，頁面同時給出策略用途、安裝方式、回測摘要和風險說明。</dd></div>
+    <div><dt style="color:var(--text,#fff);font-weight:800">適合什麼平台和品種？</dt><dd style="margin:4px 0 0">適用於 MetaTrader 5，常見測試品種包括 XAUUSD、XAUUSDm 或其他 Broker 黃金後綴品種。實盤前需要重新核對合約規格、點差、滑點和交易時段。</dd></div>
+    <div><dt style="color:var(--text,#fff);font-weight:800">下載後如何安裝？</dt><dd style="margin:4px 0 0">將 `.ex5` 檔案複製到 MT5 資料目錄的 `MQL5/Experts`，刷新導航器或重啟 MT5，再載入到目標圖表並開啟演算法交易。</dd></div>
+    <div><dt style="color:var(--text,#fff);font-weight:800">使用前先做什麼？</dt><dd style="margin:4px 0 0">先在 Strategy Tester 回測，再在模擬帳戶前向測試，重點檢查最大回撤、保證金占用、點差擴大、滑點、連續虧損和參數適配性。</dd></div>
+    <div><dt style="color:var(--text,#fff);font-weight:800">是否保證盈利？</dt><dd style="margin:4px 0 0">不保證盈利。網格、馬丁、定時加倉和短週期黃金策略可能快速放大回撤，歷史回測與截圖只供參考，不代表未來表現。</dd></div>
+  </dl>
 </section>
 <!-- SEO-CONTENT-END -->
 </main>

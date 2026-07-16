@@ -1,6 +1,7 @@
 # XAU Quant crawler policy
 # Search engines and AI assistants may crawl pages for indexing, retrieval, summaries and answer grounding.
 # Model training is not explicitly granted by this file.
+# AI/LLM site summary: https://03xau.com/llms.txt
 
 User-agent: *
 Content-Signal: search=yes,ai-input=yes,ai-train=no

@@ -100,7 +100,7 @@
   </url>
   <url>
     <loc>https://03xau.com/free-ea.html</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://03xau.com/free-ea.html"/>
@@ -114,7 +114,7 @@
   </url>
   <url>
     <loc>https://03xau.com/zh-tw/free-ea.html</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://03xau.com/free-ea.html"/>
@@ -128,7 +128,7 @@
   </url>
   <url>
     <loc>https://03xau.com/en/free-ea.html</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://03xau.com/free-ea.html"/>
@@ -142,7 +142,7 @@
   </url>
   <url>
     <loc>https://03xau.com/ja/free-ea.html</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://03xau.com/free-ea.html"/>
@@ -156,7 +156,7 @@
   </url>
   <url>
     <loc>https://03xau.com/ko/free-ea.html</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://03xau.com/free-ea.html"/>
@@ -170,7 +170,7 @@
   </url>
   <url>
     <loc>https://03xau.com/de/free-ea.html</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://03xau.com/free-ea.html"/>
@@ -184,7 +184,7 @@
   </url>
   <url>
     <loc>https://03xau.com/fr/free-ea.html</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://03xau.com/free-ea.html"/>
@@ -391,5 +391,11 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://03xau.com/de/huice.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://03xau.com/fr/huice.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://03xau.com/en/huice.html"/>
+  </url>
+  <url>
+    <loc>https://03xau.com/llms.txt</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>

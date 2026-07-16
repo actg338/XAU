@@ -1,40 +1,42 @@
-# XAU
-XAU策略量化交易
-# XAU量化策略交易
+# XAU Quant
 
+XAU Quant 是面向黄金交易者的 MT5 自动交易 EA 与 XAUUSD 策略资料站，主站地址为 <https://03xau.com>。
 
+本仓库主要托管 03xau.com 的静态页面、多语言入口、免费 EA 下载页、安装教程、回测截图页、策略说明文档和搜索引擎抓取配置。网站内容用于说明 MT5 Expert Advisor 的功能、安装方式、回测材料、风险边界和开发者联系方式。
 
-这是一个XAU（黄金）量化交易网站.
+## 主要入口
 
-##功能特点
+- 官网首页：<https://03xau.com/>
+- 免费 EA 下载：<https://03xau.com/free-ea.html>
+- EA 安装教程：<https://03xau.com/ea-install.html>
+- 回测与面板截图：<https://03xau.com/huice.html>
+- AI/LLM 摘要入口：<https://03xau.com/llms.txt>
 
-- 🤖 智能算法 - 采用先进的机器学习算法
-- 📈 实时分析 - 24/7 监控市场数据
-- 🛡️风险管理 - 内置智能风控系统
-- ⚡高速执行 - 数十级订单执行速度
-- 📊 数据可视化 - 绘图的图表展示
-- 🔔 实时提醒 - 重要信号即时主动
+## 内容范围
 
-##量化策略购买方式
+- MT5 `.ex5` EA 下载入口与 GitHub Release 链接。
+- XAUUSD / 黄金后缀品种的 M1 策略说明。
+- 安装、回测、模拟盘验证和风险提示。
+- 多语言页面：简体中文、繁体中文、英文、日文、韩文、德文、法文。
+- `robots.txt`、`sitemap.xml`、canonical、hreflang、Open Graph、Twitter Card 和 JSON-LD 结构化数据。
 
-- 微信  thRO03
-- TG   aws2333
+## 免费 EA 说明
 
-##经纪商推荐
+免费 EA 页面提供多个编译版 MT5 Expert Advisor 文件。每个 EA 应先在 Strategy Tester 和模拟账户验证，再考虑实盘环境。不同 Broker 的黄金报价后缀、点差、滑点、合约规格和交易时段可能导致实际结果与回测不同。
 
-- [Exness经纪商](https://one.exnessonelink.com/a/cwssuz8fj9)
+## 风险声明
 
-- [TMGM经纪商](https://portal.tmfxdata.com/register?r_code=IB1750137154C)
+自动交易不保证盈利。网格、马丁、定时间隔加仓和高频短周期策略可能快速放大持仓、保证金占用和账户回撤。历史回测、截图和下载量只用于参考，不构成投资建议、收益承诺或代客交易服务。
 
-- [JustMarkets经纪商](https://one.justmarkets.link/a/trutub0hkx)
+## 联系方式
 
-- [HFM经纪商](https://www.hfm-chn.com/sv/cn/?refid=30487893)
+- 微信：thRO03
+- Telegram：aws2333
+- 官网：<https://03xau.com>
 
-##战绩展示
-<img width="1541" height="316" alt="截屏2026-01-29 10 11 20" src="https://github.com/user-attachments/assets/a13b34c9-ad2e-49fc-817e-6f3a0df35ce9" />
-<img width="950" height="535" alt="截屏2026-02-06 10 14 52" src="https://github.com/user-attachments/assets/710a74d2-f992-43cf-b87b-aaa5a0634a9c" />
-<img width="1652" height="582" alt="截屏2026-01-08 17 22 06" src="https://github.com/user-attachments/assets/b3b81e48-3e05-494e-80ed-7b00d4c5c2c6" />
-<img width="1424" height="658" alt="截屏2026-01-08 11 02 17" src="https://github.com/user-attachments/assets/5801b342-416e-4bf7-8a09-798daac25870" />
-<img width="960" height="540" alt="截屏2025-11-17 13 50 53" src="https://github.com/user-attachments/assets/6fabacff-f5a1-4e8d-96f0-bbf81900d1dc" />
+## 维护提示
 
-
+- 修改页面后同步检查 `sitemap.xml` 的 `lastmod`。
+- 新增语言页面时同步维护 canonical、hreflang 和语言切换器。
+- 新增下载项时保持页面卡片、说明弹窗、风险提示和 Release 资产名称一致。
+- 新增 EA 说明时优先提供功能、关键参数、入场、出场、回测条件和风险说明。
