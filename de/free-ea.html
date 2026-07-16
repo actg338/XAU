@@ -174,17 +174,41 @@ font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:
       {file:'XAU_M1_Model_07_MFI_OBV_Volume_EA.ex5',guide:'model-07-mfi-obv-volume.md',type:'MFI - OBV - Volume',desc:'XAUUSD M1 Geldfluss- und Volumenmodell mit MFI, OBV und Volumenbestätigung.',size:'100.3 KB'}
     ];
     const grid=document.getElementById('eaGrid');
-    function render(counts={}){
-      grid.innerHTML=eas.map(e=>`<article class="card"><div class="top"><span class="tag">${e.type}</span><span class="size">${e.size}</span></div><h2>${e.file}</h2><p>${e.desc}</p><div class="meta"><span class="dot"></span><span data-count="${e.asset||e.file}">${counts[e.asset||e.file]===undefined?'<span class="loading">Read download times…</span>':counts[e.asset||e.file]+' downloads'}</span></div><div class="actions"><a class="btn download" href="${base+encodeURIComponent(e.asset||e.file)}" download>free download</a><span class="guide-wrap"><button class="btn guide" type="button" aria-expanded="false">illustrate</button><span class="guide-pop" role="tooltip">${guides[e.guide]}</span></span></div></article>`).join('');
+    const text = {
+      loadingDownloads:'Downloads werden gelesen...',
+      downloads:' Downloads',
+      countUnavailable:'Downloadzahl vorübergehend nicht verfügbar',
+      uploadLabel:'Hochgeladen: ',
+      uploadUnavailable:'Upload-Zeit vorübergehend nicht verfügbar'
+    };
+    function assetKey(e){return e.asset||e.file}
+    function downloadText(meta,key){
+      const item=meta[key];
+      const value=(item&&typeof item==='object')?item.downloads:item;
+      return value===undefined?'<span class="loading">'+text.loadingDownloads+'</span>':value+text.downloads;
     }
-    const countCacheKey='xauReleaseCounts:'+releaseTag;
-    let cachedCounts=null;
-    try{cachedCounts=JSON.parse(localStorage.getItem(countCacheKey)||'null')}catch(error){cachedCounts=null}
-    if(cachedCounts&&typeof cachedCounts==='object')render(cachedCounts);else render();
+    function formatUploadTime(value){
+      if(!value)return text.uploadUnavailable;
+      const d=new Date(value);
+      if(Number.isNaN(d.getTime()))return text.uploadUnavailable;
+      return d.toISOString().slice(0,16).replace('T',' ')+' UTC';
+    }
+    function uploadText(meta,key){
+      const item=meta[key];
+      const uploaded=(item&&typeof item==='object')?item.uploaded:null;
+      return uploaded?text.uploadLabel+formatUploadTime(uploaded):text.uploadUnavailable;
+    }
+    function render(assetMeta={}){
+      grid.innerHTML=eas.map(e=>`<article class="card"><div class="top"><span class="tag">${e.type}</span><span class="size">${e.size}</span></div><h2>${e.file}</h2><p>${e.desc}</p><div class="meta"><span class="dot"></span><span data-count="${assetKey(e)}">${downloadText(assetMeta,assetKey(e))}</span></div><div class="meta"><span class="dot"></span><span data-upload="${assetKey(e)}">${uploadText(assetMeta,assetKey(e))}</span></div><div class="actions"><a class="btn download" href="${base+encodeURIComponent(assetKey(e))}" download>kostenlos herunterladen</a><span class="guide-wrap"><button class="btn guide" type="button" aria-expanded="false">Details</button><span class="guide-pop" role="tooltip">${guides[e.guide]}</span></span></div></article>`).join('');
+    }
+    const assetMetaCacheKey='xauReleaseAssetMeta:'+releaseTag;
+    let cachedAssetMeta=null;
+    try{cachedAssetMeta=JSON.parse(localStorage.getItem(assetMetaCacheKey)||'null')}catch(error){cachedAssetMeta=null}
+    if(cachedAssetMeta&&typeof cachedAssetMeta==='object')render(cachedAssetMeta);else render();
     fetch('https://api.github.com/repos/actg338/XAU/releases/tags/'+releaseTag,{headers:{Accept:'application/vnd.github+json'}})
       .then(r=>{if(!r.ok)throw new Error('release unavailable');return r.json()})
-      .then(data=>{const counts={};data.assets.forEach(a=>counts[a.name]=a.download_count);try{localStorage.setItem(countCacheKey,JSON.stringify(counts))}catch(error){}render(counts)})
-      .catch(()=>{if(!cachedCounts)document.querySelectorAll('[data-count]').forEach(el=>el.textContent='Downloadzahl vorübergehend nicht verfügbar')});
+      .then(data=>{const assetMeta={};data.assets.forEach(a=>assetMeta[a.name]={downloads:a.download_count,uploaded:a.updated_at});try{localStorage.setItem(assetMetaCacheKey,JSON.stringify(assetMeta))}catch(error){}render(assetMeta)})
+      .catch(()=>{if(!cachedAssetMeta){document.querySelectorAll('[data-count]').forEach(el=>el.textContent=text.countUnavailable);document.querySelectorAll('[data-upload]').forEach(el=>el.textContent=text.uploadUnavailable)}});
     document.addEventListener('click',function(event){
       const button=event.target.closest('.guide');
       document.querySelectorAll('.guide-wrap.open').forEach(function(wrap){
