@@ -54,6 +54,22 @@ body {
   color: #b9c0cb;
 }
 
+.data-time-row.is-live span::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background: #56c596;
+  box-shadow: 0 0 8px rgba(86, 197, 150, .8);
+  vertical-align: 1px;
+}
+
+.data-time-row.is-live time {
+  color: #d7f8e7;
+}
+
 .language-switcher {
   position: fixed;
   top: 82px;

@@ -22,13 +22,13 @@
     fr: 'fr'
   }[PAGE_LANGUAGE] || 'en';
   const TIME_LABELS = {
-    'zh-CN': ['UTC 时间', '北京时间 (UTC+8)', '参考汇率日期'],
-    'zh-TW': ['UTC 時間', '北京時間 (UTC+8)', '參考匯率日期'],
-    en: ['UTC', 'Beijing (UTC+8)', 'Reference-rate date'],
-    ja: ['UTC 時刻', '北京時間 (UTC+8)', '参照レート日'],
-    ko: ['UTC 시간', '베이징 시간 (UTC+8)', '기준 환율 날짜'],
-    de: ['UTC-Zeit', 'Peking-Zeit (UTC+8)', 'Referenzkursdatum'],
-    fr: ['Heure UTC', 'Heure de Pékin (UTC+8)', 'Date du taux de référence']
+    'zh-CN': ['实时 UTC 时间', '实时北京时间 (UTC+8)', '参考汇率日期', '行情数据更新'],
+    'zh-TW': ['即時 UTC 時間', '即時北京時間 (UTC+8)', '參考匯率日期', '行情資料更新'],
+    en: ['Live UTC time', 'Live Beijing time (UTC+8)', 'Reference-rate date', 'Market data updated'],
+    ja: ['リアルタイム UTC', 'リアルタイム北京時間 (UTC+8)', '参照レート日', '市場データ更新'],
+    ko: ['실시간 UTC', '실시간 베이징 시간 (UTC+8)', '기준 환율 날짜', '시장 데이터 업데이트'],
+    de: ['UTC-Echtzeit', 'Peking-Echtzeit (UTC+8)', 'Referenzkursdatum', 'Marktdaten aktualisiert'],
+    fr: ['Heure UTC en direct', 'Heure de Pékin en direct (UTC+8)', 'Date du taux de référence', 'Données de marché actualisées']
   };
 
   // 沃什立场分析器(本地 fallback,无服务器依赖)
@@ -106,22 +106,34 @@
   function renderDataTime(elementId, iso, referenceDate) {
     const element = $(elementId);
     if (!element) return;
-    const date = new Date(iso);
-    if (!iso || Number.isNaN(date.getTime())) {
-      element.textContent = IS_ENGLISH ? 'Data time unavailable' : '数据时间暂不可用';
-      return;
-    }
-    const utc = formatZonedTime(date, 'UTC');
-    const beijing = formatZonedTime(date, 'Asia/Shanghai');
+    const fetchedAt = new Date(iso);
+    const hasFetchedAt = iso && !Number.isNaN(fetchedAt.getTime());
     const labels = TIME_LABELS[TRANSLATION_LANGUAGE] || TIME_LABELS.en;
+    const updated = hasFetchedAt
+      ? formatZonedTime(fetchedAt, 'UTC')
+      : (IS_ENGLISH ? 'Unavailable' : '暂不可用');
     const reference = referenceDate
       ? `<div class="data-time-row"><span>${labels[2]}</span><time>${escapeHtml(referenceDate)}</time></div>`
       : '';
     element.innerHTML = `
-      <div class="data-time-row"><span>${labels[0]}</span><time>${escapeHtml(utc)}</time></div>
-      <div class="data-time-row"><span>${labels[1]}</span><time>${escapeHtml(beijing)}</time></div>
+      <div class="data-time-row is-live"><span>${labels[0]}</span><time class="live-utc">—</time></div>
+      <div class="data-time-row is-live"><span>${labels[1]}</span><time class="live-beijing">—</time></div>
+      <div class="data-time-row"><span>${labels[3]} (UTC)</span><time>${escapeHtml(updated)}</time></div>
       ${reference}
     `;
+    updateMarketClocks();
+  }
+
+  function updateMarketClocks() {
+    const now = new Date();
+    const utc = formatZonedTime(now, 'UTC');
+    const beijing = formatZonedTime(now, 'Asia/Shanghai');
+    document.querySelectorAll('.live-utc').forEach(element => {
+      element.textContent = utc;
+    });
+    document.querySelectorAll('.live-beijing').forEach(element => {
+      element.textContent = beijing;
+    });
   }
 
   function relativeTime(iso) {
@@ -459,6 +471,7 @@
     refresh();
     renderCountdown();
     setInterval(renderCountdown, COUNTDOWN_INTERVAL);
+    setInterval(updateMarketClocks, COUNTDOWN_INTERVAL);
     setInterval(refresh, REFRESH_INTERVAL);
   });
 })();
