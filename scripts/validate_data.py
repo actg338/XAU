@@ -31,8 +31,13 @@ def main() -> None:
     if not isinstance(meetings, list) or not meetings:
         raise ValueError("fedwatch.json: meetings must not be empty")
 
-    require_mapping("xauusd.json")
-    require_mapping("dxy.json")
+    xauusd = require_mapping("xauusd.json")
+    if not isinstance(xauusd.get("price"), (int, float)) or float(xauusd["price"]) <= 0:
+        raise ValueError("xauusd.json: price must be a positive number")
+
+    dxy = require_mapping("dxy.json")
+    if not isinstance(dxy.get("value"), (int, float)) or float(dxy["value"]) <= 0:
+        raise ValueError("dxy.json: value must be a positive number")
     require_mapping("warsh.json")
     require_mapping("signal.json")
 

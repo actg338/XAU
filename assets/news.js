@@ -8,6 +8,7 @@
 
   const DATA_BASE = '/data';
   const REFRESH_INTERVAL = 5 * 60 * 1000; // 5 分钟
+  const COUNTDOWN_INTERVAL = 1000;
 
   // 沃什立场分析器(本地 fallback,无服务器依赖)
   const WARSH_KEYWORDS = {
@@ -26,10 +27,18 @@
   };
 
   const FOMC_DATES = [
-    { date: '2026-07-29', label: '7月' },
-    { date: '2026-09-16', label: '9月' },
-    { date: '2026-11-04', label: '11月' },
-    { date: '2026-12-16', label: '12月' }
+    { date: '2026-07-29T14:00:00-04:00', label: '2026-07-29' },
+    { date: '2026-09-16T14:00:00-04:00', label: '2026-09-16' },
+    { date: '2026-10-28T14:00:00-04:00', label: '2026-10-28' },
+    { date: '2026-12-09T14:00:00-05:00', label: '2026-12-09' },
+    { date: '2027-01-27T14:00:00-05:00', label: '2027-01-27' },
+    { date: '2027-03-17T14:00:00-04:00', label: '2027-03-17' },
+    { date: '2027-04-28T14:00:00-04:00', label: '2027-04-28' },
+    { date: '2027-06-09T14:00:00-04:00', label: '2027-06-09' },
+    { date: '2027-07-28T14:00:00-04:00', label: '2027-07-28' },
+    { date: '2027-09-15T14:00:00-04:00', label: '2027-09-15' },
+    { date: '2027-10-27T14:00:00-04:00', label: '2027-10-27' },
+    { date: '2027-12-08T14:00:00-05:00', label: '2027-12-08' }
   ];
 
   function $(id) { return document.getElementById(id); }
@@ -78,19 +87,20 @@
     const d = new Date(target);
     if (isNaN(d.getTime())) return { text: '—', date: '—' };
     const diff = d.getTime() - Date.now();
-    if (diff < 0) return { text: '已结束', date: target };
+    if (diff <= 0) return { text: '00天 00:00:00', date: target };
     const days = Math.floor(diff / 86400000);
     const hours = Math.floor((diff % 86400000) / 3600000);
     const mins = Math.floor((diff % 3600000) / 60000);
+    const seconds = Math.floor((diff % 60000) / 1000);
     return {
-      text: `${days}天 ${hours.toString().padStart(2, '0')}:${mins.toString().padStart(2, '0')}`,
+      text: `${days}天 ${hours.toString().padStart(2, '0')}:${mins.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`,
       date: target
     };
   }
 
   function nextFomc() {
     const now = Date.now();
-    return FOMC_DATES.find(f => new Date(f.date).getTime() > now) || FOMC_DATES[0];
+    return FOMC_DATES.find(f => new Date(f.date).getTime() > now) || null;
   }
 
   function renderPrice(d) {
@@ -117,9 +127,14 @@
 
   function renderCountdown() {
     const next = nextFomc();
+    if (!next) {
+      $('fomc-countdown').textContent = '待公布';
+      $('fomc-date').textContent = '等待美联储更新会议日程';
+      return;
+    }
     const c = countdownTo(next.date);
     $('fomc-countdown').textContent = c.text;
-    $('fomc-date').textContent = `下次 FOMC · ${next.date}`;
+    $('fomc-date').textContent = `下次 FOMC 决议 · ${next.label} 14:00 ET`;
   }
 
   function analyzeWarshStance(text) {
@@ -301,6 +316,8 @@
 
   document.addEventListener('DOMContentLoaded', () => {
     refresh();
+    renderCountdown();
+    setInterval(renderCountdown, COUNTDOWN_INTERVAL);
     setInterval(refresh, REFRESH_INTERVAL);
   });
 })();
