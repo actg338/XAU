@@ -1,72 +1,38 @@
 {
-  "fetched_at": "2026-07-23T12:53:24.020015+00:00",
-  "total": 56,
+  "fetched_at": "2026-07-23T15:07:42.043226+00:00",
+  "total": 55,
   "items": [
     {
-      "title": "10-year Treasury yield tops 4.7%, highest since January 2025",
+      "title": "10-year Treasury yield rises to highest since January 2025 as surging oil rekindles inflation fear",
       "link": "https://www.cnbc.com/2026/07/23/treasury-yields-oil-prices-jobless-claims.html",
-      "summary": "U.S. Treasury yields advanced on Wednesday, following oil prices higher, as traders reacted to a slump in weekly claims for unemployment insurance.",
-      "published_at": "Thu, 23 Jul 2026 12:51:58 GMT",
+      "summary": "U.S. Treasury yields climbed on Wednesday, following oil prices higher, as traders also reacted to a slump in weekly claims for unemployment insurance.",
+      "published_at": "Thu, 23 Jul 2026 14:15:30 GMT",
       "source": "cnbc",
-      "_translation_hash": "283de4c343277c6bfae12410d4322943225d395bfffc066f5cec54df705df7b2",
+      "_translation_hash": "e012ec10a1b2a5866cb1c1977d71a18675396c82481e3ed310779a9409f23217",
       "translations": {
-        "zh-CN": {
-          "title": "10年期国债收益率突破4.7%，创2025年1月以来最高",
-          "summary": "由于交易员对每周失业保险申请人数下降做出反应，油价走高，美国国债收益率周三上涨。"
+        "ja": {
+          "title": "原油高騰でインフレ懸念が再燃、10年米国債利回りが2025年1月以来の高水準に上昇",
+          "summary": "原油価格の上昇を受けて水曜日の米国債利回りは上昇し、トレーダーらは毎週の失業保険申請件数の低迷にも反応した。"
         },
         "zh-TW": {
-          "title": "10年期公債殖利率突破4.7%，創2025年1月以來最高",
-          "summary": "由於交易員對每週失業保險申請人數下降做出反應，油價走高，美國公債殖利率週三上漲。"
+          "title": "油價飆升重燃通膨擔憂 10年期公債殖利率升至2025年1月以來最高",
+          "summary": "隨著油價走高，美國公債殖利率週三攀升，交易員也對每週失業保險申請人數下降做出反應。"
         },
-        "ja": {
-          "title": "10年米国債利回りが4.7％を超え、2025年1月以来の高水準となる",
-          "summary": "週間の失業保険申請件数の低迷にトレーダーらが反応し、原油価格の上昇を受けて水曜日の米国債利回りは上昇した。"
-        },
-        "ko": {
-          "title": "10년 만기 국채수익률은 4.7%를 넘어 2025년 1월 이후 최고치를 기록했다.",
-          "summary": "미국 국채 수익률은 유가 상승에 따라 주간 실업보험 청구 건수 부진에 트레이더들이 반응하면서 상승했습니다."
-        },
-        "de": {
-          "title": "Die Rendite 10-jähriger Staatsanleihen übersteigt 4,7 %, den höchsten Stand seit Januar 2025",
-          "summary": "Die Renditen von US-Staatsanleihen stiegen am Mittwoch, nachdem die Ölpreise gestiegen waren, da Händler auf einen Einbruch der wöchentlichen Anträge auf Arbeitslosenversicherung reagierten."
-        },
-        "fr": {
-          "title": "Le rendement du Trésor à 10 ans dépasse 4,7%, son plus haut depuis janvier 2025",
-          "summary": "Les rendements du Trésor américain ont progressé mercredi, suite à la hausse des prix du pétrole, alors que les traders réagissaient à une baisse des demandes hebdomadaires d'assurance-chômage."
-        }
-      }
-    },
-    {
-      "title": "Silver and gold prices stage a cautious rebound — but analysts see slim hopes for a sustained rally",
-      "link": "https://www.cnbc.com/2026/07/23/silver-gold-prices-rebound-rally-correction.html",
-      "summary": "Precious metals have rallied in recent days, but analysts say prices could face a difficult path back to all-time highs achieved earlier this year.",
-      "published_at": "Thu, 23 Jul 2026 05:00:01 GMT",
-      "source": "cnbc",
-      "_translation_hash": "ea15ee1761f50a0e3390cfdc8df1ff9291e17c751dbbd8b2895676d494585617",
-      "translations": {
         "zh-CN": {
-          "title": "白银和黄金价格谨慎反弹，但分析师认为持续反弹的希望渺茫",
-          "summary": "贵金属最近几天有所上涨，但分析师表示，价格可能面临重返今年早些时候创下的历史高点的艰难道路。"
-        },
-        "zh-TW": {
-          "title": "白銀和黃金價格謹慎反彈，但分析師認為持續反彈的希望渺茫",
-          "summary": "貴金屬最近幾天有所上漲，但分析師表示，價格可能面臨重返今年稍早創下的歷史高點的艱難道路。"
-        },
-        "ja": {
-          "title": "銀と金の価格は慎重な反発を示すが、アナリストらは持続的な上昇への期待は薄いとみている",
-          "summary": "貴金属価格はここ数日上昇しているが、アナリストらは、価格が今年初めに達成した史上最高値に戻るのは困難な道に直面する可能性があると述べている。"
+          "title": "油价飙升重燃通胀担忧 10年期国债收益率升至2025年1月以来最高",
+          "summary": "随着油价走高，美国国债收益率周三攀升，交易员也对每周失业保险申请人数下降做出反应。"
         },
         "ko": {
-          "title": "은과 금 가격은 조심스러운 반등을 보였지만 분석가들은 지속적인 상승세에 대한 희망은 희박하다고 보고 있습니다.",
-          "summary": "최근 며칠 동안 귀금속 가격이 상승했지만 분석가들은 가격이 올해 초 달성한 사상 최고치로 돌아가는 어려운 길에 직면할 수 있다고 말합니다."
-        },
-        "de": {
-          "title": "Die Silber- und Goldpreise erholen sich vorsichtig – Analysten sehen jedoch nur geringe Hoffnungen auf eine nachhaltige Erholung",
-          "summary": "Edelmetalle haben sich in den letzten Tagen erholt, aber Analysten gehen davon aus, dass den Preisen ein schwieriger Weg zurück zu den Anfang des Jahres erreichten Allzeithochs bevorstehen könnte."
+          "title": "유가 급등으로 인플레이션 우려가 다시 불붙으면서 10년 만기 국채 수익률은 2025년 1월 이후 최고치로 상승",
+          "summary": "미국 국채 수익률은 유가 상승에 따라 수요일 실업보험 주간 청구 부진에 트레이더들이 반응하면서 상승했습니다."
         },
         "fr": {
-          "title": "Les prix de l’argent et de l’or connaissent un rebond prudent – mais les analystes voient peu d’espoir d’un rebond durable",
-          "summary": "Les métaux précieux se sont redressés ces derniers jours, mais les analystes estiment que les prix pourraient avoir du mal à revenir aux sommets historiques atteints plus tôt cette année."
+          "title": "Le rendement du Trésor à 10 ans atteint son plus haut niveau depuis janvier 2025 alors que la hausse du pétrole ravive la peur de l'inflation",
+          "summary": "Les rendements du Trésor américain ont grimpé mercredi, suite à la hausse des prix du pétrole, les traders ayant également réagi à une baisse des demandes hebdomadaires d'assurance-chômage."
+        },
+        "de": {
+          "title": "Die Rendite 10-jähriger Staatsanleihen steigt auf den höchsten Stand seit Januar 2025, da der steigende Ölpreis die Angst vor Inflation neu entfacht",
+          "summary": "Die Renditen von US-Staatsanleihen stiegen am Mittwoch, nachdem die Ölpreise gestiegen waren, da Händler auch auf einen Rückgang der wöchentlichen Anträge auf Arbeitslosenversicherung reagierten."
         }
       }
     },
