@@ -30,6 +30,15 @@
     de: ['UTC-Echtzeit', 'Peking-Echtzeit (UTC+8)', 'Referenzkursdatum', 'Marktdaten aktualisiert'],
     fr: ['Heure UTC en direct', 'Heure de Pékin en direct (UTC+8)', 'Date du taux de référence', 'Données de marché actualisées']
   };
+  const STANCE_UI = {
+    'zh-CN': { empty: '暂无数据', waiting: '等待沃什最新公开发言…', summary: '基于最近一次发言的关键词权重分析', fed: '美联储', labels: ['强鹰派', '鹰派', '中立', '鸽派', '强鸽派'] },
+    'zh-TW': { empty: '暫無資料', waiting: '等待沃什最新公開發言…', summary: '根據最近一次發言進行關鍵詞權重分析', fed: '聯準會', labels: ['強鷹派', '鷹派', '中立', '鴿派', '強鴿派'] },
+    en: { empty: 'No data', waiting: 'Waiting for Warsh’s latest public remarks…', summary: 'Keyword-weight analysis of the latest remarks', fed: 'Federal Reserve', labels: ['Strong hawk', 'Hawkish', 'Neutral', 'Dovish', 'Strong dove'] },
+    ja: { empty: 'データなし', waiting: 'ウォーシュ議長の最新発言を待っています…', summary: '最新発言のキーワード加重分析', fed: '連邦準備制度', labels: ['強いタカ派', 'タカ派', '中立', 'ハト派', '強いハト派'] },
+    ko: { empty: '데이터 없음', waiting: '워시 의장의 최신 공개 발언을 기다리는 중…', summary: '최근 발언의 키워드 가중치 분석', fed: '연방준비제도', labels: ['강한 매파', '매파', '중립', '비둘기파', '강한 비둘기파'] },
+    de: { empty: 'Keine Daten', waiting: 'Warte auf Warshs jüngste öffentliche Äußerung…', summary: 'Schlüsselwortanalyse der jüngsten Äußerung', fed: 'Federal Reserve', labels: ['Stark restriktiv', 'Restriktiv', 'Neutral', 'Expansiv', 'Stark expansiv'] },
+    fr: { empty: 'Aucune donnée', waiting: 'En attente de la dernière déclaration publique de Warsh…', summary: 'Analyse pondérée des mots-clés de la dernière déclaration', fed: 'Réserve fédérale', labels: ['Très restrictif', 'Restrictif', 'Neutre', 'Accommodant', 'Très accommodant'] }
+  };
 
   // 沃什立场分析器(本地 fallback,无服务器依赖)
   const WARSH_KEYWORDS = {
@@ -142,12 +151,13 @@
     if (isNaN(d.getTime())) return '—';
     const diff = Date.now() - d.getTime();
     const m = Math.floor(diff / 60000);
-    if (m < 1) return '刚刚';
-    if (m < 60) return `${m} 分钟前`;
+    const formatter = new Intl.RelativeTimeFormat(TRANSLATION_LANGUAGE, { numeric: 'auto' });
+    if (m < 1) return formatter.format(0, 'minute');
+    if (m < 60) return formatter.format(-m, 'minute');
     const h = Math.floor(m / 60);
-    if (h < 24) return `${h} 小时前`;
+    if (h < 24) return formatter.format(-h, 'hour');
     const day = Math.floor(h / 24);
-    return `${day} 天前`;
+    return formatter.format(-day, 'day');
   }
 
   function countdownTo(target) {
@@ -240,22 +250,23 @@
   }
 
   function renderWarsh(d) {
+    const ui = STANCE_UI[TRANSLATION_LANGUAGE] || STANCE_UI.en;
     if (!d) {
-      $('stance-badge').textContent = '暂无数据';
+      $('stance-badge').textContent = ui.empty;
       $('stance-badge').className = 'stance-badge neutral';
-      $('stance-summary').textContent = '等待沃什最新公开发言...';
+      $('stance-summary').textContent = ui.waiting;
       return;
     }
     const a = d.stance || analyzeWarshStance(d.text || '');
     const badge = $('stance-badge');
     const labelMap = {
-      'STRONG_HAWK': ['强鹰派', 'strong-hawk'],
-      'HAWK': ['鹰派', 'hawk'],
-      'NEUTRAL': ['中立', 'neutral'],
-      'DOVE': ['鸽派', 'dove'],
-      'STRONG_DOVE': ['强鸽派', 'strong-dove']
+      'STRONG_HAWK': [ui.labels[0], 'strong-hawk'],
+      'HAWK': [ui.labels[1], 'hawk'],
+      'NEUTRAL': [ui.labels[2], 'neutral'],
+      'DOVE': [ui.labels[3], 'dove'],
+      'STRONG_DOVE': [ui.labels[4], 'strong-dove']
     };
-    const [text, cls] = labelMap[a.label] || ['中立', 'neutral'];
+    const [text, cls] = labelMap[a.label] || [ui.labels[2], 'neutral'];
     badge.textContent = text;
     badge.className = `stance-badge ${cls}`;
 
@@ -266,19 +277,24 @@
     $('dove-bar').style.width = `${Math.min(100, parseFloat(a.dove) / maxScore * 100)}%`;
 
     if (d.text) {
+      const source = String(d.source || '').includes('Federal Reserve') ? ui.fed : (d.source || ui.fed);
       $('stance-quote').style.display = 'block';
       $('stance-quote-text').textContent = `“${d.text.slice(0, 280)}${d.text.length > 280 ? '…' : ''}”`;
-      $('stance-quote-source').textContent = `— ${d.source || '美联储'} · ${relativeTime(d.published_at)}`;
+      $('stance-quote-source').textContent = `— ${source} · ${relativeTime(d.published_at)}`;
     }
 
+    let sorted = [];
     if (a.keywords && a.keywords.length) {
-      const sorted = a.keywords.sort((x, y) => y.count - x.count).slice(0, 10);
+      sorted = [...a.keywords].sort((x, y) => y.count - x.count).slice(0, 10);
       $('stance-keywords').innerHTML = sorted.map(k =>
         `<span class="kw ${k.type === 'dove' ? 'dove' : 'hawk'}">${escapeHtml(k.word)} ×${Number(k.count) || 0}</span>`
       ).join('');
     }
 
-    $('stance-summary').textContent = d.summary || `基于最近一次发言的关键词权重分析`;
+    $('stance-summary').textContent = d.summary || ui.summary;
+    if (TRANSLATION_LANGUAGE !== 'en') {
+      translateWarshContent(d, sorted);
+    }
   }
 
   function renderFedwatch(d) {
@@ -350,6 +366,27 @@
       return translated || text;
     } catch {
       return text;
+    }
+  }
+
+  async function translateWarshContent(data, keywords) {
+    const excerpt = String(data.text || '').slice(0, 280);
+    const summary = String(data.summary || '');
+    const [translatedExcerpt, translatedSummary, translatedKeywords] = await Promise.all([
+      translateText(excerpt),
+      translateText(summary),
+      Promise.all(keywords.map(keyword => translateText(keyword.word)))
+    ]);
+    if (excerpt) {
+      $('stance-quote-text').textContent = `“${translatedExcerpt}${String(data.text).length > 280 ? '…' : ''}”`;
+    }
+    if (summary && translatedSummary) {
+      $('stance-summary').textContent = translatedSummary;
+    }
+    if (translatedKeywords.length === keywords.length) {
+      $('stance-keywords').innerHTML = keywords.map((keyword, index) =>
+        `<span class="kw ${keyword.type === 'dove' ? 'dove' : 'hawk'}">${escapeHtml(translatedKeywords[index].trim())} ×${Number(keyword.count) || 0}</span>`
+      ).join('');
     }
   }
 
