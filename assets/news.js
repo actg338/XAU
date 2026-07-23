@@ -338,8 +338,8 @@
   function newsMarkup(items) {
     return items.map((item, index) => {
       const source = String(item.source || 'unknown').toLowerCase();
-      const sourceKey = ['fed', 'bls', 'treasury', 'cnbc', 'reuters', 'kitco'].find(s => source.includes(s)) || 'fed';
-      const sourceLabels = { fed: 'FED', bls: 'BLS', treasury: 'TREASURY', cnbc: 'CNBC', reuters: 'REUTERS', kitco: 'KITCO' };
+      const sourceKey = ['fed', 'bls', 'bea', 'cnbc'].find(s => source.includes(s)) || 'fed';
+      const sourceLabels = { fed: 'FED', bls: 'BLS', bea: 'BEA', cnbc: 'CNBC' };
       return `
         <article class="news-item" data-news-index="${index}">
           <div class="meta">
@@ -372,7 +372,7 @@
       list.innerHTML = `<div class="empty-state"><strong>暂无新闻</strong>等待数据更新...</div>`;
       return;
     }
-    const items = localizedNewsItems(d.items.slice(0, 30));
+    const items = localizedNewsItems(d.items);
     list.innerHTML = newsMarkup(items);
   }
 
