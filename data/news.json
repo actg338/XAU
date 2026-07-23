@@ -1,7 +1,41 @@
 {
-  "fetched_at": "2026-07-23T16:45:15.677858+00:00",
-  "total": 55,
+  "fetched_at": "2026-07-23T18:02:54.425408+00:00",
+  "total": 56,
   "items": [
+    {
+      "title": "Odds of Federal Reserve rate hike surge as oil prices rip higher",
+      "link": "https://www.cnbc.com/2026/07/23/fed-interest-rate-odds-oil-jobless-claims.html",
+      "summary": "Investors are increasingly readying for the Federal Reserve to hike interest rates in September.",
+      "published_at": "Thu, 23 Jul 2026 17:41:22 GMT",
+      "source": "cnbc",
+      "_translation_hash": "a989a508589604e706e57f215fde7589f856e235bc932b5708cbf659a80f131c",
+      "translations": {
+        "ja": {
+          "title": "原油価格の高騰でFRBの利上げ確率が上昇",
+          "summary": "投資家は米連邦準備理事会（ＦＲＢ）が９月に利上げに踏み切ることへの備えを強めている。"
+        },
+        "zh-CN": {
+          "title": "随着油价上涨，美联储加息的可能性激增",
+          "summary": "投资者越来越多地为美联储在九月加息做好准备。"
+        },
+        "ko": {
+          "title": "유가 급등으로 연준 금리 인상 가능성 커져",
+          "summary": "투자자들은 연준이 9월에 금리를 인상할 것을 점점 더 준비하고 있습니다."
+        },
+        "zh-TW": {
+          "title": "隨著油價上漲，聯準會升息的可能性激增",
+          "summary": "投資者越來越多地為聯準會在九月升息做好準備。"
+        },
+        "fr": {
+          "title": "Les chances d’une hausse des taux de la Réserve fédérale augmentent à mesure que les prix du pétrole augmentent",
+          "summary": "Les investisseurs se préparent de plus en plus à une hausse des taux d’intérêt par la Réserve fédérale en septembre."
+        },
+        "de": {
+          "title": "Die Wahrscheinlichkeit einer Zinserhöhung durch die Federal Reserve steigt, da die Ölpreise steigen",
+          "summary": "Die Anleger bereiten sich zunehmend darauf vor, dass die Federal Reserve im September die Zinsen anheben wird."
+        }
+      }
+    },
     {
       "title": "10-year Treasury yield rises to highest since January 2025 as surging oil rekindles inflation fear",
       "link": "https://www.cnbc.com/2026/07/23/treasury-yields-oil-prices-jobless-claims.html",
