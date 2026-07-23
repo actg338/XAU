@@ -9,6 +9,8 @@
   const DATA_BASE = '/data';
   const REFRESH_INTERVAL = 5 * 60 * 1000; // 5 分钟
   const COUNTDOWN_INTERVAL = 1000;
+  const PAGE_LANGUAGE = document.documentElement.lang.toLowerCase();
+  const IS_ENGLISH = PAGE_LANGUAGE.startsWith('en');
 
   // 沃什立场分析器(本地 fallback,无服务器依赖)
   const WARSH_KEYWORDS = {
@@ -69,6 +71,39 @@
     return d.toLocaleString('zh-CN', { hour12: false });
   }
 
+  function formatZonedTime(date, timeZone) {
+    return new Intl.DateTimeFormat('sv-SE', {
+      timeZone,
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+      second: '2-digit',
+      hour12: false
+    }).format(date);
+  }
+
+  function renderDataTime(elementId, iso, referenceDate) {
+    const element = $(elementId);
+    if (!element) return;
+    const date = new Date(iso);
+    if (!iso || Number.isNaN(date.getTime())) {
+      element.textContent = IS_ENGLISH ? 'Data time unavailable' : '数据时间暂不可用';
+      return;
+    }
+    const utc = formatZonedTime(date, 'UTC');
+    const beijing = formatZonedTime(date, 'Asia/Shanghai');
+    const reference = referenceDate
+      ? `<span>${IS_ENGLISH ? 'Reference-rate date' : '参考汇率日期'}: ${escapeHtml(referenceDate)}</span>`
+      : '';
+    element.innerHTML = `
+      <span>${IS_ENGLISH ? 'UTC' : 'UTC 时间'}: ${escapeHtml(utc)}</span>
+      <span>${IS_ENGLISH ? 'Beijing (UTC+8)' : '北京时间 (UTC+8)'}: ${escapeHtml(beijing)}</span>
+      ${reference}
+    `;
+  }
+
   function relativeTime(iso) {
     if (!iso) return '—';
     const d = new Date(iso);
@@ -106,6 +141,7 @@
   function renderPrice(d) {
     if (!d) return;
     if (d.price) $('xau-price').textContent = Number(d.price).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    renderDataTime('xau-time', d.fetched_at);
     if (d.change_pct != null) {
       const el = $('xau-delta');
       const v = Number(d.change_pct);
@@ -117,6 +153,7 @@
   function renderDxy(d) {
     if (!d) return;
     if (d.value) $('dxy-value').textContent = Number(d.value).toFixed(2);
+    renderDataTime('dxy-time', d.fetched_at, d.source_date);
     if (d.change_pct != null) {
       const el = $('dxy-delta');
       const v = Number(d.change_pct);

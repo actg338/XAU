@@ -22,6 +22,22 @@ body {
   overflow-wrap: anywhere;
 }
 
+.data-time {
+  display: grid;
+  gap: 2px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, .07);
+  color: #9ba4b2;
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.5;
+}
+
+.data-time span {
+  display: block;
+}
+
 .language-switcher {
   position: fixed;
   top: 82px;
