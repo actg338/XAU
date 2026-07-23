@@ -11,6 +11,7 @@ import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+from html.parser import HTMLParser
 from pathlib import Path
 
 DATA_DIR = Path(__file__).parent.parent / "data"
@@ -32,6 +33,53 @@ WARSH_KEYWORDS = {
         "dovish": 2, "transitory": 2, "cooling": 1, "softening": 1
     }
 }
+
+
+class ArticleTextParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.article_depth = 0
+        self.in_paragraph = False
+        self.paragraphs: list[str] = []
+        self.current: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        attributes = dict(attrs)
+        if tag == "div" and attributes.get("id") == "article":
+            self.article_depth = 1
+        elif self.article_depth and tag == "div":
+            self.article_depth += 1
+        if self.article_depth and tag == "p":
+            self.in_paragraph = True
+            self.current = []
+
+    def handle_endtag(self, tag: str) -> None:
+        if self.article_depth and tag == "p" and self.in_paragraph:
+            text = re.sub(r"\s+", " ", "".join(self.current)).strip()
+            if text:
+                self.paragraphs.append(text)
+            self.in_paragraph = False
+        if self.article_depth and tag == "div":
+            self.article_depth -= 1
+
+    def handle_data(self, data: str) -> None:
+        if self.article_depth and self.in_paragraph:
+            self.current.append(data)
+
+
+def fetch_article_text(url: str) -> str:
+    if not url.startswith("https://www.federalreserve.gov/"):
+        return ""
+    request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    try:
+        with urllib.request.urlopen(request, timeout=15) as response:
+            content = response.read().decode("utf-8", errors="replace")
+        parser = ArticleTextParser()
+        parser.feed(content)
+        return "\n".join(parser.paragraphs)
+    except (urllib.error.URLError, TimeoutError, ValueError) as error:
+        print(f"Fed article fetch failed: {error}", file=sys.stderr)
+        return ""
 
 
 def analyze_stance(text: str) -> dict:
@@ -77,8 +125,8 @@ def analyze_stance(text: str) -> dict:
 
 
 def fetch_fed_speeches():
-    """美联储官员讲话 RSS"""
-    url = "https://www.federalreserve.gov/feeds/Speeches.xml"
+    """美联储讲话与国会证词 RSS"""
+    url = "https://www.federalreserve.gov/feeds/speeches_and_testimony.xml"
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     try:
         with urllib.request.urlopen(req, timeout=10) as r:
@@ -93,53 +141,24 @@ def fetch_fed_speeches():
         print(f"XML parse failed: {e}", file=sys.stderr)
         return None
 
-    ns = {"atom": "http://www.w3.org/2005/Atom"}
-    # 优先找 Warsh 讲话,否则找最近一次 Chair 讲话
-    warsh_candidate = None
-    chair_candidate = None
-    for entry in root.findall("atom:entry", ns):
-        title_el = entry.find("atom:title", ns)
-        link = entry.find("atom:link", ns)
-        updated = entry.find("atom:updated", ns)
-        summary = entry.find("atom:summary", ns)
-        content = entry.find("atom:content", ns)
-        title_text = (title_el.text or "") if title_el is not None else ""
-
-        if "warsh" in title_text.lower():
-            body_text = ""
-            if content is not None and content.text:
-                body_text = content.text
-            elif summary is not None and summary.text:
-                body_text = summary.text
-            warsh_candidate = {
-                "title": title_text,
-                "text": body_text[:5000],
-                "link": link.attrib.get("href", "") if link is not None else "",
-                "source": "Federal Reserve",
-                "published_at": updated.text if updated is not None else None,
-                "stance": analyze_stance(body_text)
-            }
-            break
-        elif "chair" in title_text.lower() and chair_candidate is None:
-            body_text = ""
-            if content is not None and content.text:
-                body_text = content.text
-            elif summary is not None and summary.text:
-                body_text = summary.text
-            chair_candidate = {
-                "title": title_text,
-                "text": body_text[:5000],
-                "link": link.attrib.get("href", "") if link is not None else "",
-                "source": "Federal Reserve",
-                "published_at": updated.text if updated is not None else None,
-                "stance": analyze_stance(body_text)
-            }
-
-    if warsh_candidate:
-        return warsh_candidate
-    if chair_candidate:
-        chair_candidate["note"] = "Warsh 没有新发言,使用最近一次 Chair 发言作为代理"
-        return chair_candidate
+    channel = root.find("channel")
+    if channel is None:
+        return None
+    for item in channel.findall("item"):
+        title = (item.findtext("title") or "").strip()
+        if "warsh" not in title.lower():
+            continue
+        link = (item.findtext("link") or "").strip()
+        description = (item.findtext("description") or "").strip()
+        body_text = fetch_article_text(link) or description
+        return {
+            "title": title,
+            "text": body_text[:5000],
+            "link": link,
+            "source": "Federal Reserve",
+            "published_at": (item.findtext("pubDate") or "").strip() or None,
+            "stance": analyze_stance(body_text)
+        }
     return None
 
 

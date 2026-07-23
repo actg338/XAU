@@ -1,15 +1,45 @@
 {
-  "title": null,
-  "text": null,
-  "link": null,
-  "source": "unavailable",
-  "published_at": null,
+  "title": "Warsh, Semiannual Monetary Policy Report to the Congress",
+  "text": "July 14, 2026\nChairman Kevin Warsh\nBefore the Committee on Financial Services, U.S. House of Representatives\nWatch Live\nChairman Warsh submitted identical remarks to the Committee on Banking, Housing, and Urban Affairs, U.S. Senate, on July 15, 2026.\nChairman Hill, Ranking Member Waters, and other members of the Committee—good morning.\nIt's a privilege to join you. At my first appearance before this panel, I am particularly honored to represent my superb colleagues throughout the Federal Reserve System.\nIn submitting the Board's Monetary Policy Report, I think of a long line of central bank chiefs who came before Congress in keeping with the Federal Reserve Act. I think also of earlier efforts, going back to the time of the Framers, to create a central bank that would endure and serve the nation's founding principles.\nOne of the large figures in the Federal Reserve's history is Alan Greenspan, who passed away last month after a century of life. By my count, my friend appeared before Congress more than two hundred times, displaying his agile mind and his distinctive way with words. We at the Fed recall the Chairman's strong and steady hand in a period of rapid economic change. And we honor his memory.\nAs a country, we just marked our 250th year. And when Americans count our blessings, we can include an economy predicated on the brilliance of our constitutional design and system of ordered liberty—an economy without equal in all it's done for human flourishing.\nSome forms of Fed communications are discretionary, but not this one—and for good reason. It is a prudent and wisely conceived obligation, designed to keep the Fed accountable, responsible, and faithful to its congressional mandate of full employment and price stability. These obligations are of a piece with the Fed's rightful independence in the conduct of monetary policy.\nToday we are at a hinge point in history. It's up to all of us to meet this moment. The task of this generation of policymakers—and of individuals throughout the private sector—is to ensure the American economy excels far into the future.\n* * * *\nThe Fed's number one objective is to get monetary policy right—or as near to it as we possibly can. That is our clear and constant aim, the star we steer by. And if we get policy right—and we will—the inflation surge of the last five years will be a thing of the past.\nA month ago, I chaired my first meeting of the Federal Open Market Committee. My colleagues and I recognize that high inflation has been an undue burden on American households and businesses. While monthly price fluctuations are inevitable—especially in an unsettled world—underlying inflation over longer time horizons is determined largely by monetary policy.\nThe members of our Committee have no tolerance for persistently elevated inflation. And we share a resolute commitment to restoring price stability. This was the focus of our June meeting, at which we decided to hold the target range for the federal funds rate at 3-1/2 to 3-3/4 percent.\nNaturally, our work at the Fed demands a proper reading on economic conditions. As you see in our Monetary Policy Report, economic activity is expanding at a solid pace, showing resilience in the face of recent developments. Household consumption growth is moderate. Manufacturing output has moved up steadily this year. The housing sector, however, gives a different picture and continues to lag.\nThe most striking feature of the economy right now is business investment. The rapid pace—which appears to be accelerating—reflects, in large part, the construction of data centers and the immense demand for the AI-related equipment and software that fill them. Investment in equipment overall increased about 8 percent for the year ending in the first quarter. Within that category, high-tech spending logged an especially impressive growth rate of nearly 25 percent on a four-quarter basis. We don't know the extent to which the economy will benefit from the AI buildout. Yet it seems inevitable that what is now called \"AI investment\" will soon be called just \"investment.\" Even so, new opportunities for the economy introduce new challenges for policymakers. We at the Fed are monitoring the implications for inflation and the labor market.\nThat brings me to the supply side, where productivity growth has been strong, predating gains from AI adoption. America's labor market appears broadly stable. Job creation has kept pace with the workforce. The unemployment rate is low and has changed little over the past year. We're seeing relatively few layoffs, only slight variance in the rate of job vacancies, and solid growth in nominal wages.\n* * * *\nI came to my new position as a believer in the best traditions of the Federal Reserve. The performance of our nation's central bank depends on a commitment to excellence, professionalism, and integrity. Humility about what we know—and the courage to revisit our prior views—are also hallmarks of a great institution like ",
+  "link": "https://www.federalreserve.gov/newsevents/testimony/warsh20260714a.htm",
+  "source": "Federal Reserve",
+  "published_at": "Tue, 14 Jul 2026 12:30:00 GMT",
   "stance": {
-    "hawk": 0,
+    "hawk": 14,
     "dove": 0,
-    "label": "NEUTRAL",
-    "keywords": []
+    "label": "STRONG_HAWK",
+    "keywords": [
+      {
+        "word": "price stability",
+        "type": "hawk",
+        "count": 3
+      },
+      {
+        "word": "commitment",
+        "type": "hawk",
+        "count": 2
+      },
+      {
+        "word": "strong",
+        "type": "hawk",
+        "count": 2
+      },
+      {
+        "word": "persistent",
+        "type": "hawk",
+        "count": 1
+      },
+      {
+        "word": "elevated",
+        "type": "hawk",
+        "count": 1
+      },
+      {
+        "word": "robust",
+        "type": "hawk",
+        "count": 1
+      }
+    ]
   },
-  "fetched_at": "2026-07-23T06:19:49.370767+00:00",
-  "note": "No Warsh speech found in latest Fed feeds"
+  "fetched_at": "2026-07-23T06:25:56.968667+00:00"
 }
