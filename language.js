@@ -15,6 +15,7 @@
     if(path.endsWith('/free-ea.html')||path==='/free-ea.html')return '/free-ea.html';
     if(path.endsWith('/ea-install.html')||path==='/ea-install.html')return '/ea-install.html';
     if(path.endsWith('/huice.html')||path==='/huice.html')return '/huice.html';
+    if(path.endsWith('/news.html')||path==='/news.html')return '/news.html';
     return '/';
   }
   function current(){
