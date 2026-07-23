@@ -10,22 +10,39 @@ svg {
   max-width: 100%;
 }
 
+.mobile-menu-toggle {
+  display: none;
+}
+
 @media (max-width: 880px) {
   .nav-inner {
-    height: auto !important;
+    position: relative;
+    height: 64px !important;
     min-height: 64px;
     padding: 10px 0;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 8px !important;
   }
 
   .nav-links {
-    display: grid !important;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    width: 100%;
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    display: none !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: min(360px, calc(100vw - 24px));
     gap: 8px !important;
-    padding: 2px 0 4px;
+    padding: 12px;
     overflow: visible;
+    border: 1px solid rgba(255, 255, 255, .13);
+    border-radius: 16px;
+    background: rgba(8, 11, 16, .98);
+    box-shadow: 0 18px 44px rgba(0, 0, 0, .42);
+    backdrop-filter: blur(18px);
+  }
+
+  .nav-inner.is-menu-open .nav-links {
+    display: grid !important;
   }
 
   .nav-links > a,
@@ -41,6 +58,32 @@ svg {
     white-space: normal;
     line-height: 1.25;
     order: initial !important;
+  }
+
+  .mobile-menu-toggle {
+    display: inline-flex;
+    width: 44px;
+    height: 44px;
+    margin-left: auto;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, .16);
+    border-radius: 12px;
+    color: #f5f1e8;
+    background: rgba(255, 255, 255, .06);
+    cursor: pointer;
+  }
+
+  .mobile-menu-toggle::before {
+    content: "☰";
+    font-size: 22px;
+    line-height: 1;
+  }
+
+  .nav-inner.is-menu-open .mobile-menu-toggle::before {
+    content: "×";
+    font-size: 28px;
   }
 
   .nav-links .nav-cta {
@@ -65,13 +108,7 @@ svg {
 
   .language-switcher {
     top: 10px !important;
-    right: 12px !important;
-  }
-}
-
-@media (max-width: 520px) {
-  .nav-links {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    right: 66px !important;
   }
 }
 
@@ -92,7 +129,7 @@ svg {
   }
 
   .language-switcher {
-    right: 8px !important;
+    right: 60px !important;
     max-width: calc(100% - 16px);
   }
 }
@@ -109,6 +146,6 @@ svg {
   }
 
   .nav-links {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: calc(100vw - 16px);
   }
 }
