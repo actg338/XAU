@@ -4,11 +4,69 @@ import json
 import sys
 import urllib.request
 import urllib.error
+import math
 from datetime import datetime, timezone
 from pathlib import Path
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
+FRANKFURTER_URL = (
+    "https://api.frankfurter.app/latest"
+    "?from=USD&to=EUR,JPY,GBP,CAD,SEK,CHF"
+)
+
+
+def calculate_dxy(rates: object) -> float | None:
+    if not isinstance(rates, dict):
+        return None
+    required = ("EUR", "JPY", "GBP", "CAD", "SEK", "CHF")
+    if any(not isinstance(rates.get(code), (int, float)) for code in required):
+        return None
+    usd_eur = float(rates["EUR"])
+    usd_jpy = float(rates["JPY"])
+    usd_gbp = float(rates["GBP"])
+    usd_cad = float(rates["CAD"])
+    usd_sek = float(rates["SEK"])
+    usd_chf = float(rates["CHF"])
+    value = (
+        50.14348112
+        * math.pow(1 / usd_eur, -0.576)
+        * math.pow(usd_jpy, 0.136)
+        * math.pow(1 / usd_gbp, -0.119)
+        * math.pow(usd_cad, 0.091)
+        * math.pow(usd_sek, 0.042)
+        * math.pow(usd_chf, 0.036)
+    )
+    return round(value, 2)
+
+
+def fetch_dxy_from_fx() -> dict[str, object] | None:
+    """Calculate the DXY basket from keyless ECB reference FX rates."""
+    request = urllib.request.Request(
+        FRANKFURTER_URL,
+        headers={
+            "User-Agent": "XAUQuant/1.0 (+https://03xau.com/news.html)",
+            "Accept": "application/json",
+        },
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=12) as response:
+            data = json.loads(response.read())
+        if not isinstance(data, dict):
+            return None
+        value = calculate_dxy(data.get("rates"))
+        if value is None:
+            return None
+        return {
+            "value": value,
+            "change_pct": None,
+            "source": "ECB FX reference rates via Frankfurter",
+            "source_date": data.get("date"),
+            "fetched_at": datetime.now(timezone.utc).isoformat(),
+        }
+    except (urllib.error.URLError, TimeoutError, ValueError, json.JSONDecodeError) as error:
+        print(f"dxy FX basket failed: {error}", file=sys.stderr)
+        return None
 
 
 def fetch_dxy():
@@ -68,15 +126,14 @@ def fetch_dxy_stooq():
 
 
 def main():
-    d = fetch_dxy() or fetch_dxy_stooq()
+    d = fetch_dxy_from_fx() or fetch_dxy() or fetch_dxy_stooq()
+    out = DATA_DIR / "dxy.json"
     if not d:
-        d = {
-            "value": None,
-            "change_pct": None,
-            "source": "unavailable",
-            "fetched_at": datetime.now(timezone.utc).isoformat()
-        }
-    (DATA_DIR / "dxy.json").write_text(json.dumps(d, ensure_ascii=False, indent=2))
+        if out.exists():
+            print("WARN: no DXY source available; preserving previous dxy.json", file=sys.stderr)
+            return
+        raise SystemExit("no DXY source available and no previous data exists")
+    out.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"dxy.json: {d}")
 
 

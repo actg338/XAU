@@ -9,11 +9,76 @@ from pathlib import Path
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
+REQUEST_HEADERS = {
+    "User-Agent": "XAUQuant/1.0 (+https://03xau.com/news.html)",
+    "Accept": "application/json",
+}
 
 
-def fetch_goldapi():
-    """尝试 GoldAPI.io 公开端点(无 key 不可访问,fallback 到其他源)"""
-    return None
+def fetch_json(url: str) -> object:
+    request = urllib.request.Request(url, headers=REQUEST_HEADERS)
+    with urllib.request.urlopen(request, timeout=12) as response:
+        return json.loads(response.read())
+
+
+def build_price(price: object, source: str, fetched_at: object = None) -> dict[str, object] | None:
+    if not isinstance(price, (int, float)) or float(price) <= 0:
+        return None
+    return {
+        "price": round(float(price), 2),
+        "change_pct": None,
+        "source": source,
+        "fetched_at": fetched_at if isinstance(fetched_at, str) else datetime.now(timezone.utc).isoformat(),
+    }
+
+
+def fetch_xaus() -> dict[str, object] | None:
+    """Keyless XAU/USD spot endpoint, cached upstream for 30 seconds."""
+    try:
+        data = fetch_json("https://xaus.com/api/v1/spot")
+        if not isinstance(data, dict):
+            return None
+        return build_price(data.get("spot_usd_oz"), "xaus.com", data.get("updated_at"))
+    except (urllib.error.URLError, TimeoutError, ValueError, json.JSONDecodeError) as error:
+        print(f"xaus.com failed: {error}", file=sys.stderr)
+        return None
+
+
+def fetch_gold_api() -> dict[str, object] | None:
+    """Independent keyless gold price fallback."""
+    try:
+        data = fetch_json("https://api.gold-api.com/price/XAU")
+        if not isinstance(data, dict):
+            return None
+        return build_price(data.get("price"), "gold-api.com", data.get("updatedAt"))
+    except (urllib.error.URLError, TimeoutError, ValueError, json.JSONDecodeError) as error:
+        print(f"gold-api.com failed: {error}", file=sys.stderr)
+        return None
+
+
+def fetch_swissquote() -> dict[str, object] | None:
+    """Swissquote public XAU/USD bid/ask midpoint fallback."""
+    try:
+        data = fetch_json(
+            "https://forex-data-feed.swissquote.com/public-quotes/"
+            "bboquotes/instrument/XAU/USD"
+        )
+        if not isinstance(data, list) or not data:
+            return None
+        prices = data[0].get("spreadProfilePrices")
+        if not isinstance(prices, list) or not prices:
+            return None
+        quote = prices[0]
+        if not isinstance(quote, dict):
+            return None
+        bid = quote.get("bid")
+        ask = quote.get("ask")
+        if not isinstance(bid, (int, float)) or not isinstance(ask, (int, float)):
+            return None
+        return build_price((float(bid) + float(ask)) / 2, "Swissquote")
+    except (urllib.error.URLError, TimeoutError, ValueError, json.JSONDecodeError) as error:
+        print(f"Swissquote failed: {error}", file=sys.stderr)
+        return None
 
 
 def fetch_yahoo():
@@ -104,19 +169,21 @@ def fetch_metals_dev():
 
 
 def main():
-    price = fetch_yahoo() or fetch_stooq() or fetch_metals_dev() or fetch_goldapi()
-    if not price:
-        # 失败时返回 placeholder,GitHub Actions 会保留上一次成功的数据
-        print("WARN: no price source available, writing placeholder", file=sys.stderr)
-        price = {
-            "price": None,
-            "change_pct": None,
-            "source": "unavailable",
-            "fetched_at": datetime.now(timezone.utc).isoformat(),
-            "error": "all upstream sources failed"
-        }
+    price = (
+        fetch_xaus()
+        or fetch_gold_api()
+        or fetch_swissquote()
+        or fetch_yahoo()
+        or fetch_stooq()
+        or fetch_metals_dev()
+    )
     out = DATA_DIR / "xauusd.json"
-    out.write_text(json.dumps(price, ensure_ascii=False, indent=2))
+    if not price:
+        if out.exists():
+            print("WARN: no price source available; preserving previous xauusd.json", file=sys.stderr)
+            return
+        raise SystemExit("no XAUUSD source available and no previous data exists")
+    out.write_text(json.dumps(price, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"xauusd.json: {price}")
 
 

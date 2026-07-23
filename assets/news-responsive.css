@@ -1,0 +1,139 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+.nav-inner,
+.nav-links,
+.news-ticker,
+.stat-card,
+.stance-panel,
+.card,
+.signal-card,
+.news-item {
+  min-width: 0;
+}
+
+.news-item h3,
+.news-item p,
+.stance-quote,
+.signal-reason {
+  overflow-wrap: anywhere;
+}
+
+.language-switcher {
+  position: fixed;
+  top: 82px;
+  right: 16px;
+  z-index: 90;
+  padding: 7px 9px;
+  border: 1px solid rgba(255, 255, 255, .13);
+  border-radius: 11px;
+  background: rgba(8, 11, 16, .92);
+  backdrop-filter: blur(14px);
+}
+
+.language-switcher label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+.language-switcher select {
+  max-width: 140px;
+  border: 0;
+  outline: 0;
+  color: #f5f1e8;
+  background: transparent;
+  font: 600 12px Inter, system-ui, sans-serif;
+}
+
+.language-switcher option {
+  color: #111;
+  background: #fff;
+}
+
+@media (max-width: 580px) {
+  .nav-inner {
+    gap: 10px;
+  }
+
+  .brand-mark {
+    width: 34px;
+    height: 34px;
+  }
+
+  .brand {
+    gap: 8px;
+    white-space: nowrap;
+  }
+
+  .nav-links .nav-cta {
+    display: none;
+  }
+
+  .language-switcher {
+    position: absolute;
+    top: 70px;
+    max-width: calc(100% - 20px);
+  }
+
+  .hero {
+    padding-top: 76px !important;
+  }
+
+  h1 {
+    font-size: clamp(38px, 12vw, 52px);
+    overflow-wrap: anywhere;
+  }
+
+  .news-ticker {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .news-ticker .updated {
+    margin-left: 0;
+  }
+
+  .refresh-btn {
+    min-height: 44px;
+    width: 100%;
+  }
+
+  .stance-panel,
+  .card,
+  .signal-card,
+  .news-item {
+    padding: 20px;
+    border-radius: 16px;
+  }
+
+  .meter-row {
+    grid-template-columns: 76px minmax(0, 1fr) 44px;
+    gap: 8px;
+  }
+
+  .fedwatch-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .fedwatch-bar {
+    grid-template-columns: 82px minmax(0, 1fr) 44px;
+    gap: 8px;
+    font-size: 12px;
+  }
+
+  .signal-card .signal-action {
+    width: 100%;
+  }
+
+  .signal-card .btn {
+    width: 100%;
+  }
+}

@@ -73,8 +73,10 @@ def add_news_css(path: Path) -> bool:
     # 在 </style> 之后但还在 <body> 之前注入
     # 最安全:在 <body> 前注入一个新的 <style> 块
     pattern = re.compile(r'(<body[^>]*>)')
-    inject = f'<style>{css}</style>\n{path.name and ""}\1'
-    new_text, n = pattern.subn(inject, text, count=1)
+    def inject_style(match: re.Match[str]) -> str:
+        return f"<style>{css}</style>\n{match.group(1)}"
+
+    new_text, n = pattern.subn(inject_style, text, count=1)
     if n == 0:
         print(f"  [{path}] no <body> found, FAIL CSS")
         return False

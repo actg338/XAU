@@ -5,6 +5,7 @@
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <meta content="#080b10" name="theme-color"/>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<link rel="stylesheet" href="/assets/news-responsive.css"/>
 <title>XAUUSD ポリシーシグナル & ニュースセンター | XAU Quant</title>
 <meta name="description" content="XAUUSD 金スポット価格、FRBウォシュ議長スタンス分析、CME FedWatch 金利確率、連邦準備制度・BLS 公式ニュースを5分ごとに自動更新。"/>
 <meta name="robots" content="index, follow"/>
@@ -37,8 +38,10 @@ section{padding:60px 0}
 .note{padding:18px 22px;border-left:3px solid var(--gold-light);background:rgba(217,172,85,.06);border-radius:0 14px 14px 0;color:var(--muted);margin-top:24px}
 footer{padding:38px 0;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
 </style>
+<link rel="stylesheet" href="/assets/mobile.css"/>
 </head>
 <body>
+<div class="language-switcher"><label for="siteLanguage">言語</label><select id="siteLanguage" aria-label="言語"></select></div>
 <nav class="nav">
   <div class="wrap nav-inner">
     <a class="brand" href="/ja/"><span class="brand-mark">X</span> XAU QUANT</a>
@@ -56,7 +59,7 @@ footer{padding:38px 0;border-top:1px solid var(--line);color:var(--muted);font-s
       <h1>ゴールド ポリシー<br/><span>シグナルセンター</span></h1>
       <p style="max-width:680px;color:var(--muted);font-size:18px">XAUUSD 金スポット価格、FRBウォシュ議長のスタンス、CME FedWatch 金利確率、FRB・BLS 公式ニュースを 5 分ごとに自動更新します。</p>
       <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:28px">
-        <a class="btn btn-primary" href="/en/news.html">View English version →</a>
+        <a class="btn btn-primary" href="/en/news.html">英語の完全版を見る →</a>
         <a class="btn btn-secondary" href="/ja/">ホームに戻る</a>
       </div>
       <div class="note">
@@ -72,11 +75,12 @@ footer{padding:38px 0;border-top:1px solid var(--line);color:var(--muted);font-s
     <div><strong style="color:var(--text)">XAU Quant</strong> · ゴールドクオント戦略リソース</div>
     <div style="display:flex;gap:20px;flex-wrap:wrap">
       <a href="/ja/" style="color:inherit;text-decoration:none">ホーム</a>
-      <a href="/en/huice.html" style="color:inherit;text-decoration:none">EAバックテスト</a>
-      <a href="/free-ea.html" style="color:inherit;text-decoration:none">無料EA</a>
+      <a href="/ja/huice.html" style="color:inherit;text-decoration:none">EAバックテスト</a>
+      <a href="/ja/free-ea.html" style="color:inherit;text-decoration:none">無料EA</a>
       <a href="/ja/news.html" style="color:inherit;text-decoration:none">ニュース</a>
     </div>
   </div>
 </footer>
+<script src="/language.js" defer></script>
 </body>
 </html>
