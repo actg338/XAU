@@ -94,33 +94,52 @@ def fetch_fed_speeches():
         return None
 
     ns = {"atom": "http://www.w3.org/2005/Atom"}
+    # 优先找 Warsh 讲话,否则找最近一次 Chair 讲话
+    warsh_candidate = None
+    chair_candidate = None
     for entry in root.findall("atom:entry", ns):
-        title = entry.find("atom:title", ns)
+        title_el = entry.find("atom:title", ns)
         link = entry.find("atom:link", ns)
         updated = entry.find("atom:updated", ns)
         summary = entry.find("atom:summary", ns)
         content = entry.find("atom:content", ns)
+        title_text = (title_el.text or "") if title_el is not None else ""
 
-        title_text = title.text if title is not None else ""
-        if "warsh" not in title_text.lower() and "chair" not in title_text.lower():
-            continue
+        if "warsh" in title_text.lower():
+            body_text = ""
+            if content is not None and content.text:
+                body_text = content.text
+            elif summary is not None and summary.text:
+                body_text = summary.text
+            warsh_candidate = {
+                "title": title_text,
+                "text": body_text[:5000],
+                "link": link.attrib.get("href", "") if link is not None else "",
+                "source": "Federal Reserve",
+                "published_at": updated.text if updated is not None else None,
+                "stance": analyze_stance(body_text)
+            }
+            break
+        elif "chair" in title_text.lower() and chair_candidate is None:
+            body_text = ""
+            if content is not None and content.text:
+                body_text = content.text
+            elif summary is not None and summary.text:
+                body_text = summary.text
+            chair_candidate = {
+                "title": title_text,
+                "text": body_text[:5000],
+                "link": link.attrib.get("href", "") if link is not None else "",
+                "source": "Federal Reserve",
+                "published_at": updated.text if updated is not None else None,
+                "stance": analyze_stance(body_text)
+            }
 
-        body_text = ""
-        if content is not None and content.text:
-            body_text = content.text
-        elif summary is not None and summary.text:
-            body_text = summary.text
-
-        link_href = link.attrib.get("href", "") if link is not None else ""
-
-        return {
-            "title": title_text,
-            "text": body_text[:5000],
-            "link": link_href,
-            "source": "Federal Reserve",
-            "published_at": updated.text if updated is not None else None,
-            "stance": analyze_stance(body_text)
-        }
+    if warsh_candidate:
+        return warsh_candidate
+    if chair_candidate:
+        chair_candidate["note"] = "Warsh 没有新发言,使用最近一次 Chair 发言作为代理"
+        return chair_candidate
     return None
 
 
