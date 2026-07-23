@@ -1,7 +1,41 @@
 {
-  "fetched_at": "2026-07-23T20:44:16.963367+00:00",
-  "total": 55,
+  "fetched_at": "2026-07-23T21:47:22.033180+00:00",
+  "total": 56,
   "items": [
+    {
+      "title": "10-year Treasury yield rises to highest since January 2025 as surging oil rekindles inflation fear",
+      "link": "https://www.cnbc.com/2026/07/23/treasury-yields-oil-prices-jobless-claims.html",
+      "summary": "U.S. Treasury yields climbed on Wednesday, following oil prices higher, as traders also reacted to a slump in weekly claims for unemployment insurance.",
+      "published_at": "Thu, 23 Jul 2026 20:30:50 GMT",
+      "source": "cnbc",
+      "_translation_hash": "e012ec10a1b2a5866cb1c1977d71a18675396c82481e3ed310779a9409f23217",
+      "translations": {
+        "zh-CN": {
+          "title": "油价飙升重燃通胀担忧 10年期国债收益率升至2025年1月以来最高",
+          "summary": "随着油价走高，美国国债收益率周三攀升，交易员也对每周失业保险申请人数下降做出反应。"
+        },
+        "ko": {
+          "title": "유가 급등으로 인플레이션 우려가 다시 불붙으면서 10년 만기 국채 수익률은 2025년 1월 이후 최고치로 상승",
+          "summary": "미 국채 수익률은 유가 상승에 따라 수요일 실업보험 주간 청구 부진에 트레이더들이 반응하면서 상승했습니다."
+        },
+        "ja": {
+          "title": "原油高騰でインフレ懸念が再燃、10年米国債利回りが2025年1月以来の高水準に上昇",
+          "summary": "原油価格の上昇を受けて水曜日の米国債利回りは上昇し、トレーダーらは毎週の失業保険申請件数の低迷にも反応した。"
+        },
+        "zh-TW": {
+          "title": "油價飆升重燃通膨擔憂 10年期公債殖利率升至2025年1月以來最高",
+          "summary": "隨著油價走高，美國公債殖利率週三攀升，交易員也對每週失業保險申請人數下降做出反應。"
+        },
+        "fr": {
+          "title": "Le rendement du Trésor à 10 ans atteint son plus haut niveau depuis janvier 2025 alors que la hausse du pétrole ravive la peur de l'inflation",
+          "summary": "Les rendements du Trésor américain ont grimpé mercredi, suite à la hausse des prix du pétrole, les traders ayant également réagi à une baisse des demandes hebdomadaires d'assurance-chômage."
+        },
+        "de": {
+          "title": "Die Rendite 10-jähriger Staatsanleihen steigt auf den höchsten Stand seit Januar 2025, da der steigende Ölpreis die Angst vor Inflation neu entfacht",
+          "summary": "Die Renditen von US-Staatsanleihen stiegen am Mittwoch, nachdem die Ölpreise gestiegen waren, da Händler auch auf einen Rückgang der wöchentlichen Anträge auf Arbeitslosenversicherung reagierten."
+        }
+      }
+    },
     {
       "title": "Odds of Federal Reserve rate hike surge as oil prices rip higher",
       "link": "https://www.cnbc.com/2026/07/23/fed-interest-rate-odds-oil-jobless-claims.html",
