@@ -34,8 +34,24 @@ body {
   line-height: 1.5;
 }
 
-.data-time span {
+.data-time-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1px;
+}
+
+.data-time-row span,
+.data-time-row time {
   display: block;
+  white-space: normal;
+}
+
+.data-time-row span {
+  color: #7f8998;
+}
+
+.data-time-row time {
+  color: #b9c0cb;
 }
 
 .language-switcher {

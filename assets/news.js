@@ -9,8 +9,27 @@
   const DATA_BASE = '/data';
   const REFRESH_INTERVAL = 5 * 60 * 1000; // 5 分钟
   const COUNTDOWN_INTERVAL = 1000;
-  const PAGE_LANGUAGE = document.documentElement.lang.toLowerCase();
+  const REQUESTED_LANGUAGE = new URLSearchParams(window.location.search).get('newsLang');
+  const PAGE_LANGUAGE = (REQUESTED_LANGUAGE || document.documentElement.lang).toLowerCase();
   const IS_ENGLISH = PAGE_LANGUAGE.startsWith('en');
+  const TRANSLATION_LANGUAGE = {
+    'zh-cn': 'zh-CN',
+    'zh-tw': 'zh-TW',
+    en: 'en',
+    ja: 'ja',
+    ko: 'ko',
+    de: 'de',
+    fr: 'fr'
+  }[PAGE_LANGUAGE] || 'en';
+  const TIME_LABELS = {
+    'zh-CN': ['UTC 时间', '北京时间 (UTC+8)', '参考汇率日期'],
+    'zh-TW': ['UTC 時間', '北京時間 (UTC+8)', '參考匯率日期'],
+    en: ['UTC', 'Beijing (UTC+8)', 'Reference-rate date'],
+    ja: ['UTC 時刻', '北京時間 (UTC+8)', '参照レート日'],
+    ko: ['UTC 시간', '베이징 시간 (UTC+8)', '기준 환율 날짜'],
+    de: ['UTC-Zeit', 'Peking-Zeit (UTC+8)', 'Referenzkursdatum'],
+    fr: ['Heure UTC', 'Heure de Pékin (UTC+8)', 'Date du taux de référence']
+  };
 
   // 沃什立场分析器(本地 fallback,无服务器依赖)
   const WARSH_KEYWORDS = {
@@ -94,12 +113,13 @@
     }
     const utc = formatZonedTime(date, 'UTC');
     const beijing = formatZonedTime(date, 'Asia/Shanghai');
+    const labels = TIME_LABELS[TRANSLATION_LANGUAGE] || TIME_LABELS.en;
     const reference = referenceDate
-      ? `<span>${IS_ENGLISH ? 'Reference-rate date' : '参考汇率日期'}: ${escapeHtml(referenceDate)}</span>`
+      ? `<div class="data-time-row"><span>${labels[2]}</span><time>${escapeHtml(referenceDate)}</time></div>`
       : '';
     element.innerHTML = `
-      <span>${IS_ENGLISH ? 'UTC' : 'UTC 时间'}: ${escapeHtml(utc)}</span>
-      <span>${IS_ENGLISH ? 'Beijing (UTC+8)' : '北京时间 (UTC+8)'}: ${escapeHtml(beijing)}</span>
+      <div class="data-time-row"><span>${labels[0]}</span><time>${escapeHtml(utc)}</time></div>
+      <div class="data-time-row"><span>${labels[1]}</span><time>${escapeHtml(beijing)}</time></div>
       ${reference}
     `;
   }
@@ -285,18 +305,74 @@
     }).join('');
   }
 
-  function renderNews(d) {
-    const list = $('news-list');
-    if (!d || !d.items || d.items.length === 0) {
-      list.innerHTML = `<div class="empty-state"><strong>暂无新闻</strong>等待数据更新...</div>`;
-      return;
+  function translationCacheKey(text) {
+    let hash = 5381;
+    for (let index = 0; index < text.length; index += 1) {
+      hash = ((hash << 5) + hash) ^ text.charCodeAt(index);
     }
-    list.innerHTML = d.items.slice(0, 30).map(item => {
+    return `newsTranslation:${TRANSLATION_LANGUAGE}:${hash >>> 0}`;
+  }
+
+  async function translateText(text) {
+    if (!text || TRANSLATION_LANGUAGE === 'en') return text;
+    const key = translationCacheKey(text);
+    const cached = sessionStorage.getItem(key);
+    if (cached) return cached;
+    try {
+      const query = new URLSearchParams({
+        client: 'gtx',
+        sl: 'en',
+        tl: TRANSLATION_LANGUAGE,
+        dt: 't',
+        q: text
+      });
+      const response = await fetch(`https://translate.googleapis.com/translate_a/single?${query}`, {
+        referrerPolicy: 'no-referrer'
+      });
+      if (!response.ok) return text;
+      const payload = await response.json();
+      const translated = Array.isArray(payload?.[0])
+        ? payload[0].map(part => part?.[0] || '').join('')
+        : text;
+      if (translated) sessionStorage.setItem(key, translated);
+      return translated || text;
+    } catch {
+      return text;
+    }
+  }
+
+  async function translateNewsBatch(items) {
+    const fieldSeparator = '\n__XAU_FIELD__\n';
+    const itemSeparator = '\n__XAU_ITEM__\n';
+    const combined = items.map(item =>
+      `${String(item.title || '—')}${fieldSeparator}${String(item.summary || '')}`
+    ).join(itemSeparator);
+    const translated = await translateText(combined);
+    const parts = translated.split(itemSeparator);
+    if (parts.length !== items.length) return items;
+    return items.map((item, index) => {
+      const [title, summary = ''] = parts[index].split(fieldSeparator);
+      return { ...item, title: title.trim(), summary: summary.trim() };
+    });
+  }
+
+  async function translateNewsItems(items) {
+    const batchSize = 5;
+    const batches = [];
+    for (let index = 0; index < items.length; index += batchSize) {
+      batches.push(items.slice(index, index + batchSize));
+    }
+    const translated = await Promise.all(batches.map(translateNewsBatch));
+    return translated.flat();
+  }
+
+  function newsMarkup(items) {
+    return items.map((item, index) => {
       const source = String(item.source || 'unknown').toLowerCase();
       const sourceKey = ['fed', 'bls', 'treasury', 'cnbc', 'reuters', 'kitco'].find(s => source.includes(s)) || 'fed';
       const sourceLabels = { fed: 'FED', bls: 'BLS', treasury: 'TREASURY', cnbc: 'CNBC', reuters: 'REUTERS', kitco: 'KITCO' };
       return `
-        <article class="news-item">
+        <article class="news-item" data-news-index="${index}">
           <div class="meta">
             <span class="source-badge ${sourceKey}">${sourceLabels[sourceKey] || source.toUpperCase()}</span>
             <span>${escapeHtml(relativeTime(item.published_at))}</span>
@@ -306,6 +382,29 @@
         </article>
       `;
     }).join('');
+  }
+
+  function applyTranslatedNews(items) {
+    items.forEach((item, index) => {
+      const article = document.querySelector(`[data-news-index="${index}"]`);
+      const title = article?.querySelector('h3 a');
+      const summary = article?.querySelector('p');
+      if (title) title.textContent = item.title || '—';
+      if (summary) summary.textContent = item.summary || '';
+    });
+  }
+
+  function renderNews(d) {
+    const list = $('news-list');
+    if (!d || !d.items || d.items.length === 0) {
+      list.innerHTML = `<div class="empty-state"><strong>暂无新闻</strong>等待数据更新...</div>`;
+      return;
+    }
+    const items = d.items.slice(0, 30);
+    list.innerHTML = newsMarkup(items);
+    if (TRANSLATION_LANGUAGE !== 'en') {
+      translateNewsItems(items).then(applyTranslatedNews);
+    }
   }
 
   function renderSignal(s) {
@@ -352,6 +451,11 @@
   window.newsApp = { refresh };
 
   document.addEventListener('DOMContentLoaded', () => {
+    const languageSelect = $('siteLanguage');
+    const activeOption = languageSelect?.querySelector(`[data-lang="${TRANSLATION_LANGUAGE}"]`);
+    if (activeOption instanceof HTMLOptionElement) {
+      languageSelect.value = activeOption.value;
+    }
     refresh();
     renderCountdown();
     setInterval(renderCountdown, COUNTDOWN_INTERVAL);

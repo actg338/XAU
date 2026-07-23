@@ -5,7 +5,7 @@
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <meta content="#080b10" name="theme-color"/>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
-<link rel="stylesheet" href="/assets/news-responsive.css"/>
+<link rel="stylesheet" href="/assets/news-responsive.css?v=20260723-2"/>
 <title>XAUUSD 政策信号与新闻监控中心 | XAU Quant</title>
 <meta name="description" content="XAUUSD 黄金实时价格、美联储沃什立场分析、CME FedWatch 降息概率、联邦储备与 BLS 权威新闻流。每 5 分钟自动更新。"/>
 <meta name="keywords" content="XAUUSD,黄金,美联储,FOMC,沃什,FedWatch,黄金价格,政策信号,实时监控,MT5"/>
@@ -222,12 +222,12 @@
   <label for="siteLanguage">Language</label>
   <select aria-label="Language" id="siteLanguage" onchange="localStorage.setItem('siteLanguage',this.options[this.selectedIndex].dataset.lang);location.href=this.value">
     <option data-lang="zh-CN" value="/news.html" selected>简体中文</option>
-    <option data-lang="zh-TW" value="/zh-tw/news.html">繁體中文</option>
+    <option data-lang="zh-TW" value="/news.html?newsLang=zh-TW">繁體中文</option>
     <option data-lang="en" value="/en/news.html">English</option>
-    <option data-lang="ja" value="/ja/news.html">日本語</option>
-    <option data-lang="ko" value="/ko/news.html">한국어</option>
-    <option data-lang="de" value="/de/news.html">Deutsch</option>
-    <option data-lang="fr" value="/fr/news.html">Français</option>
+    <option data-lang="ja" value="/en/news.html?newsLang=ja">日本語</option>
+    <option data-lang="ko" value="/en/news.html?newsLang=ko">한국어</option>
+    <option data-lang="de" value="/en/news.html?newsLang=de">Deutsch</option>
+    <option data-lang="fr" value="/en/news.html?newsLang=fr">Français</option>
   </select>
 </div>
 
@@ -405,6 +405,6 @@
   </div>
 </footer>
 
-<script src="/assets/news.js?v=20260723-3" defer></script>
+<script src="/assets/news.js?v=20260723-5" defer></script>
 <script src="/assets/mobile.js?v=20260723-1" defer></script></body>
 </html>
