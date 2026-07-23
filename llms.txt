@@ -18,7 +18,14 @@ XAU Quant 是面向 XAUUSD 黄金交易场景的 MT5 EA 资源站，提供免费
 - Free MT5 EA downloads: https://03xau.com/free-ea.html
 - MT5 EA installation guide: https://03xau.com/ea-install.html
 - Backtest and panel gallery: https://03xau.com/huice.html
+- News & signal center (live policy monitor): https://03xau.com/news.html
 - English home: https://03xau.com/en/
+- English news & signal center: https://03xau.com/en/news.html
+- Traditional Chinese news center: https://03xau.com/zh-tw/news.html
+- Japanese news center: https://03xau.com/ja/news.html
+- Korean news center: https://03xau.com/ko/news.html
+- German news center: https://03xau.com/de/news.html
+- French news center: https://03xau.com/fr/news.html
 - English free EA downloads: https://03xau.com/en/free-ea.html
 - Traditional Chinese free EA downloads: https://03xau.com/zh-tw/free-ea.html
 - Japanese free EA downloads: https://03xau.com/ja/free-ea.html
@@ -33,6 +40,18 @@ XAU Quant 是面向 XAUUSD 黄金交易场景的 MT5 EA 资源站，提供免费
 - Recommended workflow: read the EA guide, install into `MQL5/Experts`, run Strategy Tester, validate on a demo account, then reassess broker spread, slippage, contract specification and trading session before live use.
 - Main risks: automated trading does not guarantee profit; grid, Martingale, timed scaling and short-cycle gold strategies can create large drawdowns; historical results do not predict future performance.
 - Developer attribution shown on relevant EA materials: 微信：thRO03, website https://03xau.com.
+
+## News & Signal Center
+
+The site hosts a live XAUUSD policy and news monitor at /news.html (and localized variants). It aggregates:
+- XAUUSD spot price and 24h change
+- U.S. Dollar Index (DXY)
+- Real-time Federal Reserve Chair Warsh stance analysis (keyword-weighted, updated every 5 minutes)
+- CME FedWatch rate-path probabilities for upcoming FOMC meetings
+- Authoritative news from the Federal Reserve, BLS, U.S. Treasury, CNBC, Reuters, and Kitco
+- Aggregated strategy signal combining all of the above
+
+Data is refreshed automatically by a GitHub Actions workflow every 5 minutes. Sources are exclusively primary institutions and professional media. The news center is informational only and does not constitute investment advice.
 
 ## Important documents
 

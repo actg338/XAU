@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#080b10" name="theme-color"/>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<title>XAUUSD Policy Signal & News Center | XAU Quant</title>
+<meta name="description" content="Live XAUUSD gold price, Federal Reserve Chair Warsh stance analysis, CME FedWatch rate probabilities, and authoritative news from the Fed, BLS, and U.S. Treasury. Auto-refreshed every 5 minutes."/>
+<meta name="keywords" content="XAUUSD,gold,Federal Reserve,FOMC,Warsh,FedWatch,gold price,policy signal,live monitor,MT5"/>
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
+<meta name="author" content="XAU Quant"/>
+<link rel="canonical" href="https://03xau.com/en/news.html"/>
+<link rel="alternate" hreflang="zh-CN" href="https://03xau.com/news.html"/>
+<link rel="alternate" hreflang="zh-TW" href="https://03xau.com/zh-tw/news.html"/>
+<link rel="alternate" hreflang="en" href="https://03xau.com/en/news.html"/>
+<link rel="alternate" hreflang="ja" href="https://03xau.com/ja/news.html"/>
+<link rel="alternate" hreflang="ko" href="https://03xau.com/ko/news.html"/>
+<link rel="alternate" hreflang="de" href="https://03xau.com/de/news.html"/>
+<link rel="alternate" hreflang="fr" href="https://03xau.com/fr/news.html"/>
+<link rel="alternate" hreflang="x-default" href="https://03xau.com/en/news.html"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="XAU Quant"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:title" content="XAUUSD Policy Signal & News Center | XAU Quant"/>
+<meta property="og:description" content="Live XAUUSD price, Warsh stance, FedWatch, authoritative news. Auto-refreshed every 5 minutes."/>
+<meta property="og:url" content="https://03xau.com/en/news.html"/>
+<meta property="og:image" content="https://03xau.com/picture/1.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="XAUUSD Policy Signal & News Center | XAU Quant"/>
+<meta name="twitter:description" content="Live XAUUSD price, Warsh stance, FedWatch, authoritative news. Auto-refreshed every 5 minutes."/>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://03xau.com/en/news.html","url":"https://03xau.com/en/news.html","name":"XAUUSD Policy Signal & News Center","inLanguage":"en","isPartOf":{"@id":"https://03xau.com/#website"},"about":["XAUUSD","Federal Reserve","FOMC","monetary policy"]}]}</script>
+<style>
+    :root {
+      --bg: #080b10;
+      --surface: #10151d;
+      --surface-2: #171d27;
+      --line: rgba(255,255,255,.09);
+      --text: #f5f1e8;
+      --muted: #9ba4b2;
+      --gold: #d9ac55;
+      --gold-light: #f3d58a;
+      --green: #56c596;
+      --red: #ff7a8a;
+      --blue: #6d6bff;
+      --purple: #b8a3ff;
+      --shadow: 0 24px 70px rgba(0,0,0,.32);
+      --radius: 22px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0; color: var(--text);
+      background:
+        radial-gradient(circle at 75% 0%, rgba(217,172,85,.12), transparent 34rem),
+        radial-gradient(circle at 0% 35%, rgba(86,197,150,.07), transparent 28rem),
+        radial-gradient(circle at 50% 100%, rgba(109,107,255,.08), transparent 30rem),
+        var(--bg);
+      font-family: Inter, "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+      line-height: 1.7;
+    }
+    a { color: inherit; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+    .wrap { width: min(1160px, calc(100% - 40px)); margin: 0 auto; }
+    .nav {
+      position: sticky; top: 0; z-index: 50;
+      border-bottom: 1px solid var(--line);
+      background: rgba(8,11,16,.8);
+      backdrop-filter: blur(18px);
+    }
+    .nav-inner { height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; font-weight: 800; letter-spacing: .08em; }
+    .brand-mark {
+      display: grid; place-items: center; width: 38px; height: 38px;
+      border: 1px solid rgba(243,213,138,.45); border-radius: 12px;
+      color: var(--gold-light); background: linear-gradient(145deg, rgba(217,172,85,.2), rgba(217,172,85,.04));
+    }
+    .nav-links { display: flex; align-items: center; gap: 26px; }
+    .nav-links a { color: var(--muted); text-decoration: none; font-size: 14px; transition: .2s; }
+    .nav-links a:hover { color: var(--text); }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      min-height: 46px; padding: 0 20px; border: 1px solid transparent; border-radius: 12px;
+      font: inherit; font-weight: 700; text-decoration: none; cursor: pointer; transition: transform .2s, background .2s, border-color .2s;
+    }
+    .btn:hover { transform: translateY(-2px); }
+    .btn-primary { color: #19140a; background: linear-gradient(135deg, var(--gold-light), var(--gold)); box-shadow: 0 12px 30px rgba(217,172,85,.18); }
+    .btn-secondary { color: var(--text); border-color: var(--line); background: rgba(255,255,255,.035); }
+    .news-nav{order:99;display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:0 15px;border:1px solid rgba(184,163,255,.48);border-radius:11px;text-decoration:none;background:linear-gradient(135deg,#6d6bff,#b8a3ff 58%,#f3d58a);box-shadow:0 10px 24px rgba(109,107,255,.18);font-size:13px;font-weight:900;white-space:nowrap;color:#061019}.news-nav:hover{transform:translateY(-2px)}.news-nav-short{display:none}
+    @media (max-width: 880px) {
+      .nav-links { gap: 12px; }
+      .nav-links a:not(.nav-cta):not(.news-nav) { display: none; }
+    }
+    @media (max-width: 580px) {
+      .wrap { width: min(100% - 28px, 1160px); }
+      .nav-inner { height: 64px; }
+      .brand { font-size: 14px; }
+      .nav-links { gap: 8px; }
+      .news-nav { min-height: 40px; padding: 0 13px; font-size: 13px; }
+      .news-nav-full { display: none; }
+      .news-nav-short { display: inline; }
+    }
+    .eyebrow { display: inline-flex; align-items: center; gap: 9px; color: var(--gold-light); font-size: 13px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+    .eyebrow::before { content: ""; width: 28px; height: 1px; background: var(--gold); }
+    h1 { margin: 18px 0 22px; font-size: clamp(44px, 6.4vw, 82px); line-height: 1.03; letter-spacing: -.045em; }
+    h1 span { color: var(--gold-light); }
+    section { padding: 78px 0; }
+    .section-head { max-width: 680px; margin-bottom: 34px; }
+    .section-head h2 { margin: 10px 0 12px; font-size: clamp(32px, 4vw, 48px); line-height: 1.18; letter-spacing: -.03em; }
+    .section-head p { margin: 0; color: var(--muted); }
+    .card { padding: 28px; border: 1px solid var(--line); border-radius: var(--radius); background: linear-gradient(145deg, rgba(255,255,255,.052), rgba(255,255,255,.018)); }
+    footer { padding: 38px 0; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+    .footer-grid { display: flex; justify-content: space-between; gap: 30px; flex-wrap: wrap; }
+    .footer-grid a { color: inherit; text-decoration: none; }
+    .footer-grid a:hover { color: var(--text); }
+    .news-ticker {
+      position: relative; padding: 18px 24px; border: 1px solid var(--line); border-radius: 16px;
+      background: linear-gradient(120deg, rgba(109,107,255,.08), rgba(255,255,255,.02));
+      display: flex; align-items: center; gap: 18px; flex-wrap: wrap; margin-bottom: 32px;
+    }
+    .news-ticker .pulse { display: inline-flex; align-items: center; gap: 8px; color: var(--purple); font-weight: 800; font-size: 13px; }
+    .news-ticker .pulse::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: currentColor; box-shadow: 0 0 14px currentColor; }
+    .news-ticker .updated { color: var(--muted); font-size: 12px; margin-left: auto; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .stat-card { padding: 24px; border: 1px solid var(--line); border-radius: var(--radius); background: linear-gradient(145deg, rgba(255,255,255,.05), rgba(255,255,255,.015)); position: relative; overflow: hidden; }
+    .stat-card::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--gold), transparent); }
+    .stat-card .label { color: var(--muted); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; }
+    .stat-card .value { font-size: clamp(34px, 4vw, 48px); font-weight: 800; letter-spacing: -.03em; margin-top: 10px; }
+    .stat-card .delta { margin-top: 6px; font-size: 14px; font-weight: 700; }
+    .delta.up { color: var(--green); }
+    .delta.down { color: var(--red); }
+    .stance-panel { padding: 32px; border: 1px solid rgba(184,163,255,.32); border-radius: var(--radius); background: linear-gradient(145deg, rgba(109,107,255,.08), rgba(184,163,255,.04)); position: relative; }
+    .stance-badge {
+      display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px;
+      border-radius: 999px; font-size: 14px; font-weight: 800; letter-spacing: .12em;
+    }
+    .stance-badge.strong-hawk { color: #061019; background: linear-gradient(135deg, #ff5b7b, #ff7a8a); }
+    .stance-badge.hawk { color: #061019; background: linear-gradient(135deg, #ff8e5b, #ffb87a); }
+    .stance-badge.neutral { color: #061019; background: linear-gradient(135deg, #d9ac55, #f3d58a); }
+    .stance-badge.dove { color: #061019; background: linear-gradient(135deg, #8ce0b7, #56c596); }
+    .stance-badge.strong-dove { color: #061019; background: linear-gradient(135deg, #6dd6ff, #8ce0b7); }
+    .stance-meter { margin-top: 22px; }
+    .meter-row { display: grid; grid-template-columns: 90px 1fr 60px; align-items: center; gap: 12px; margin-bottom: 10px; font-size: 13px; }
+    .meter-row .name { color: var(--muted); }
+    .meter-row .score { color: var(--text); text-align: right; font-weight: 700; }
+    .bar { height: 8px; border-radius: 999px; background: rgba(255,255,255,.06); overflow: hidden; position: relative; }
+    .bar > span { display: block; height: 100%; border-radius: 999px; transition: width .6s ease; }
+    .bar.hawk > span { background: linear-gradient(90deg, #ff5b7b, #ff8e5b); }
+    .bar.dove > span { background: linear-gradient(90deg, #6dd6ff, #8ce0b7); }
+    .stance-quote { margin-top: 22px; padding: 18px 22px; border-left: 3px solid var(--purple); background: rgba(0,0,0,.28); border-radius: 0 14px 14px 0; font-style: italic; color: var(--text); }
+    .stance-quote .source { display: block; margin-top: 10px; font-style: normal; color: var(--muted); font-size: 12px; }
+    .stance-keywords { margin-top: 18px; display: flex; flex-wrap: wrap; gap: 8px; }
+    .stance-keywords .kw { padding: 5px 10px; border-radius: 999px; font-size: 12px; font-weight: 700; }
+    .stance-keywords .kw.hawk { color: #ffd6df; background: rgba(255,91,123,.16); border: 1px solid rgba(255,91,123,.36); }
+    .stance-keywords .kw.dove { color: #b8ecff; background: rgba(109,214,255,.16); border: 1px solid rgba(109,214,255,.36); }
+    .fedwatch-row { display: grid; grid-template-columns: 100px 1fr; gap: 18px; align-items: center; margin-bottom: 18px; }
+    .fedwatch-row .date { color: var(--gold-light); font-weight: 800; font-size: 14px; }
+    .fedwatch-bars { display: grid; grid-template-columns: 1fr; gap: 6px; }
+    .fedwatch-bar { display: grid; grid-template-columns: 110px 1fr 50px; gap: 12px; align-items: center; font-size: 13px; }
+    .fedwatch-bar .pct { color: var(--text); text-align: right; font-weight: 700; }
+    .fedwatch-bar .label { color: var(--muted); }
+    .fedwatch-track { height: 10px; border-radius: 999px; background: rgba(255,255,255,.06); overflow: hidden; }
+    .fedwatch-track > span { display: block; height: 100%; transition: width .6s ease; }
+    .fedwatch-track.hold > span { background: linear-gradient(90deg, #d9ac55, #f3d58a); }
+    .fedwatch-track.hike > span { background: linear-gradient(90deg, #ff5b7b, #ff8e5b); }
+    .fedwatch-track.cut > span { background: linear-gradient(90deg, #6dd6ff, #8ce0b7); }
+    .news-list { display: grid; gap: 14px; }
+    .news-item { padding: 22px 24px; border: 1px solid var(--line); border-radius: 18px; background: linear-gradient(145deg, rgba(255,255,255,.045), rgba(255,255,255,.012)); transition: border-color .2s, transform .2s; }
+    .news-item:hover { border-color: rgba(184,163,255,.42); transform: translateY(-2px); }
+    .news-item .meta { display: flex; align-items: center; gap: 12px; color: var(--muted); font-size: 12px; margin-bottom: 10px; }
+    .news-item .source-badge { padding: 3px 8px; border-radius: 6px; font-weight: 800; font-size: 11px; }
+    .news-item .source-badge.fed { color: #b8ecff; background: rgba(109,214,255,.16); }
+    .news-item .source-badge.bls { color: #f3d58a; background: rgba(217,172,85,.16); }
+    .news-item .source-badge.treasury { color: #8ce0b7; background: rgba(86,197,150,.16); }
+    .news-item .source-badge.cnbc { color: #ffd6df; background: rgba(255,91,123,.16); }
+    .news-item .source-badge.kitco { color: var(--gold-light); background: rgba(217,172,85,.16); }
+    .news-item .source-badge.reuters { color: #ffb87a; background: rgba(255,142,91,.16); }
+    .news-item h3 { margin: 0 0 8px; font-size: 17px; line-height: 1.4; }
+    .news-item h3 a { color: var(--text); text-decoration: none; }
+    .news-item h3 a:hover { color: var(--gold-light); }
+    .news-item p { margin: 0; color: var(--muted); font-size: 14px; }
+    .signal-card { padding: 36px; border: 1px solid var(--line); border-radius: var(--radius); background: linear-gradient(120deg, rgba(217,172,85,.1), rgba(255,255,255,.02)); display: grid; grid-template-columns: 1fr auto; gap: 30px; align-items: center; }
+    .signal-card .signal-label { color: var(--muted); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; }
+    .signal-card .signal-text { margin-top: 10px; font-size: clamp(24px, 3vw, 34px); font-weight: 800; letter-spacing: -.02em; }
+    .signal-card .signal-reason { margin-top: 12px; color: var(--muted); font-size: 14px; }
+    .signal-card .signal-action { display: flex; flex-direction: column; gap: 10px; }
+    .countdown { font-size: clamp(28px, 4vw, 42px); font-weight: 800; letter-spacing: -.02em; color: var(--gold-light); }
+    .countdown small { display: block; font-size: 12px; font-weight: 600; color: var(--muted); letter-spacing: .14em; text-transform: uppercase; margin-top: 4px; }
+    .empty-state { padding: 60px 20px; text-align: center; color: var(--muted); border: 1px dashed var(--line); border-radius: 18px; }
+    .empty-state strong { display: block; color: var(--text); font-size: 18px; margin-bottom: 8px; }
+    .loading-dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--gold); margin: 0 2px; animation: blink 1.2s infinite; }
+    .loading-dot:nth-child(2) { animation-delay: .2s; }
+    .loading-dot:nth-child(3) { animation-delay: .4s; }
+    @keyframes blink { 0%, 60%, 100% { opacity: .3; } 30% { opacity: 1; } }
+    .refresh-btn { background: transparent; border: 1px solid var(--line); color: var(--muted); padding: 6px 12px; border-radius: 8px; font-size: 12px; cursor: pointer; }
+    .refresh-btn:hover { color: var(--text); border-color: var(--gold); }
+    @media (max-width: 880px) {
+      .grid-3 { grid-template-columns: 1fr; }
+      .grid-2 { grid-template-columns: 1fr; }
+      .signal-card { grid-template-columns: 1fr; }
+      .hero { padding-top: 60px; }
+      section { padding: 56px 0; }
+    }
+    @media (max-width: 580px) {
+      .stat-card .value { font-size: 32px; }
+      .news-ticker { padding: 14px 16px; }
+    }
+    .language-switcher{position:fixed;top:82px;right:16px;z-index:90;display:flex;align-items:center;gap:8px;padding:7px 9px;border:1px solid rgba(255,255,255,.13);border-radius:11px;background:rgba(8,11,16,.9);backdrop-filter:blur(14px);box-shadow:0 10px 30px rgba(0,0,0,.22)}
+    .language-switcher label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+    .language-switcher select{border:0;outline:0;color:#f5f1e8;background:transparent;font:600 12px Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;cursor:pointer}
+    .language-switcher option{color:#111;background:#fff}
+    @media(max-width:580px){.language-switcher{top:70px;right:10px}}
+</style>
+</head>
+<body>
+<div class="language-switcher">
+  <label for="siteLanguage">Language</label>
+  <select aria-label="Language" id="siteLanguage" onchange="localStorage.setItem('siteLanguage',this.options[this.selectedIndex].dataset.lang);location.href=this.value">
+    <option data-lang="zh-CN" value="/news.html">简体中文</option>
+    <option data-lang="zh-TW" value="/zh-tw/news.html">繁體中文</option>
+    <option data-lang="en" value="/en/news.html" selected>English</option>
+    <option data-lang="ja" value="/ja/news.html">日本語</option>
+    <option data-lang="ko" value="/ko/news.html">한국어</option>
+    <option data-lang="de" value="/de/news.html">Deutsch</option>
+    <option data-lang="fr" value="/fr/news.html">Français</option>
+  </select>
+</div>
+
+<nav aria-label="Main navigation" class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="/en/"><span class="brand-mark">X</span> XAU QUANT</a>
+    <div class="nav-links">
+      <a class="news-nav" href="/en/news.html"><span class="news-nav-full">News & Signals</span><span class="news-nav-short">News</span></a>
+      <a href="/en/#features">core competencies</a>
+      <a href="/en/#demo">Strategy display</a>
+      <a href="/en/huice.html">EA backtest</a>
+      <a class="btn btn-primary nav-cta" href="/en/#purchase">Get strategy</a>
+    </div>
+  </div>
+</nav>
+
+<main id="top">
+  <section class="hero" style="padding: 96px 0 36px;">
+    <div class="wrap">
+      <div class="eyebrow">XAUUSD · Live Signal</div>
+      <h1>Gold Policy Signal<br/><span>Monitor Center</span></h1>
+      <p style="max-width: 650px; color: var(--muted); font-size: 18px;">Real-time XAUUSD price, Federal Reserve Chair Warsh stance, CME FedWatch rate probabilities, and authoritative news from the Fed, BLS, and U.S. Treasury. Auto-refreshed every 5 minutes.</p>
+    </div>
+  </section>
+
+  <section style="padding: 0 0 36px;">
+    <div class="wrap">
+      <div class="news-ticker">
+        <span class="pulse">Live Data Stream</span>
+        <span>Sources:<strong style="color: var(--text); margin-left: 6px;">Federal Reserve · BLS · U.S. Treasury · CME FedWatch · Kitco</strong></span>
+        <span class="updated" id="last-updated">Loading<span class="loading-dot"></span><span class="loading-dot"></span><span class="loading-dot"></span></span>
+        <button class="refresh-btn" onclick="window.newsApp && newsApp.refresh()">Refresh</button>
+      </div>
+
+      <div class="grid-3">
+        <div class="stat-card">
+          <div class="label">XAUUSD Spot</div>
+          <div class="value" id="xau-price">—</div>
+          <div class="delta" id="xau-delta">—</div>
+        </div>
+        <div class="stat-card">
+          <div class="label">Next FOMC In</div>
+          <div class="value countdown" id="fomc-countdown">—</div>
+          <small style="color: var(--muted); font-size: 12px; margin-top: 6px; display: block;" id="fomc-date">—</small>
+        </div>
+        <div class="stat-card">
+          <div class="label">U.S. Dollar Index DXY</div>
+          <div class="value" id="dxy-value">—</div>
+          <div class="delta" id="dxy-delta">—</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Fed Policy · Warsh Stance</div>
+        <h2>Fed Chair Warsh Stance · Real-Time</h2>
+        <p>Aggregated from Chair Warsh's public statements, press conferences, and Congressional testimony using keyword weighting, negation detection, and context analysis.</p>
+      </div>
+
+      <div class="stance-panel">
+        <div style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap;">
+          <span class="stance-badge" id="stance-badge">Loading</span>
+          <span style="color: var(--muted); font-size: 13px;" id="stance-summary">Analyzing Warsh's latest statement...</span>
+        </div>
+
+        <div class="stance-meter">
+          <div class="meter-row">
+            <span class="name">Hawk score</span>
+            <div class="bar hawk"><span id="hawk-bar" style="width: 0%"></span></div>
+            <span class="score" id="hawk-score">—</span>
+          </div>
+          <div class="meter-row">
+            <span class="name">Dove score</span>
+            <div class="bar dove"><span id="dove-bar" style="width: 0%"></span></div>
+            <span class="score" id="dove-score">—</span>
+          </div>
+        </div>
+
+        <div class="stance-quote" id="stance-quote" style="display: none;">
+          <span id="stance-quote-text"></span>
+          <span class="source" id="stance-quote-source"></span>
+        </div>
+
+        <div class="stance-keywords" id="stance-keywords"></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">CME FedWatch · Rate Path</div>
+        <h2>Rate Path Probabilities</h2>
+        <p>CME Group FedWatch tool implied federal funds futures pricing, reflecting market expectations for upcoming FOMC rate decisions.</p>
+      </div>
+
+      <div class="card" id="fedwatch-panel">
+        <div class="empty-state">
+          <strong>Loading<span class="loading-dot"></span><span class="loading-dot"></span><span class="loading-dot"></span></strong>
+          Pulling CME FedWatch data...
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Authoritative News · Verified Sources</div>
+        <h2>Authoritative News Stream</h2>
+        <p>Sourced exclusively from primary institutions and professional media. Sorted by time, with key events highlighted.</p>
+      </div>
+
+      <div class="news-list" id="news-list">
+        <div class="empty-state">
+          <strong>Loading<span class="loading-dot"></span><span class="loading-dot"></span><span class="loading-dot"></span></strong>
+          Pulling Fed / BLS / Treasury / CNBC / Reuters / Kitco news...
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Strategy Signal · Aggregated</div>
+        <h2>Aggregated Strategy Signal</h2>
+        <p>Combines Warsh stance, FedWatch probabilities, gold price, and DXY into a current gold market assessment and recommended action.</p>
+      </div>
+
+      <div class="signal-card">
+        <div>
+          <div class="signal-label">Current aggregated signal</div>
+          <div class="signal-text" id="signal-text">—</div>
+          <div class="signal-reason" id="signal-reason">Aggregating indicators...</div>
+        </div>
+        <div class="signal-action">
+          <a class="btn btn-primary" href="/en/huice.html">View EA backtest</a>
+          <a class="btn btn-secondary" href="/free-ea.html">Free EA download</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding: 40px 0 60px;">
+    <div class="wrap">
+      <div class="card" style="background: linear-gradient(120deg, rgba(255,91,123,.06), rgba(255,255,255,.02)); border-color: rgba(255,91,123,.18);">
+        <strong style="display: block; margin-bottom: 8px; color: var(--red);">Risk Disclaimer</strong>
+        <p style="margin: 0; color: var(--muted); font-size: 14px;">The policy signals, market data, and news summaries on this site are for reference only and do not constitute investment advice. Trading high-volatility instruments like XAUUSD carries substantial risk. Past performance does not guarantee future results. Any trading decision should be based on your own risk tolerance and independent judgment. The site developer assumes no responsibility for any loss resulting from the use of this information.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div>
+      <strong style="color: var(--text);">XAU Quant</strong> · Gold Quant Strategy Resources
+    </div>
+    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+      <a href="/en/">Home</a>
+      <a href="/free-ea.html">Free EA</a>
+      <a href="/ea-install.html">Install guide</a>
+      <a href="/en/huice.html">EA backtest</a>
+      <a href="/en/news.html">News</a>
+    </div>
+  </div>
+  <div class="wrap" style="margin-top: 16px; color: #747e8c; font-size: 12px;">
+    Sources: Federal Reserve · U.S. Bureau of Labor Statistics · U.S. Department of the Treasury · CME Group · Reuters · CNBC · Kitco
+  </div>
+</footer>
+
+<script src="/assets/news.js" defer></script>
+</body>
+</html>

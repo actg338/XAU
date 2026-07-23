@@ -398,4 +398,102 @@
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
+  <url>
+    <loc>https://03xau.com/news.html</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="('https://03xau.com/news.html', 'zh-CN')"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="('https://03xau.com/zh-tw/news.html', 'zh-TW')"/>
+    <xhtml:link rel="alternate" hreflang="en" href="('https://03xau.com/en/news.html', 'en')"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="('https://03xau.com/ja/news.html', 'ja')"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="('https://03xau.com/ko/news.html', 'ko')"/>
+    <xhtml:link rel="alternate" hreflang="de" href="('https://03xau.com/de/news.html', 'de')"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="('https://03xau.com/fr/news.html', 'fr')"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://03xau.com/en/news.html"/>
+  </url>
+  <url>
+    <loc>https://03xau.com/zh-tw/news.html</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="('https://03xau.com/news.html', 'zh-CN')"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="('https://03xau.com/zh-tw/news.html', 'zh-TW')"/>
+    <xhtml:link rel="alternate" hreflang="en" href="('https://03xau.com/en/news.html', 'en')"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="('https://03xau.com/ja/news.html', 'ja')"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="('https://03xau.com/ko/news.html', 'ko')"/>
+    <xhtml:link rel="alternate" hreflang="de" href="('https://03xau.com/de/news.html', 'de')"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="('https://03xau.com/fr/news.html', 'fr')"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://03xau.com/en/news.html"/>
+  </url>
+  <url>
+    <loc>https://03xau.com/en/news.html</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="('https://03xau.com/news.html', 'zh-CN')"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="('https://03xau.com/zh-tw/news.html', 'zh-TW')"/>
+    <xhtml:link rel="alternate" hreflang="en" href="('https://03xau.com/en/news.html', 'en')"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="('https://03xau.com/ja/news.html', 'ja')"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="('https://03xau.com/ko/news.html', 'ko')"/>
+    <xhtml:link rel="alternate" hreflang="de" href="('https://03xau.com/de/news.html', 'de')"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="('https://03xau.com/fr/news.html', 'fr')"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://03xau.com/en/news.html"/>
+  </url>
+  <url>
+    <loc>https://03xau.com/ja/news.html</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="('https://03xau.com/news.html', 'zh-CN')"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="('https://03xau.com/zh-tw/news.html', 'zh-TW')"/>
+    <xhtml:link rel="alternate" hreflang="en" href="('https://03xau.com/en/news.html', 'en')"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="('https://03xau.com/ja/news.html', 'ja')"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="('https://03xau.com/ko/news.html', 'ko')"/>
+    <xhtml:link rel="alternate" hreflang="de" href="('https://03xau.com/de/news.html', 'de')"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="('https://03xau.com/fr/news.html', 'fr')"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://03xau.com/en/news.html"/>
+  </url>
+  <url>
+    <loc>https://03xau.com/ko/news.html</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="('https://03xau.com/news.html', 'zh-CN')"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="('https://03xau.com/zh-tw/news.html', 'zh-TW')"/>
+    <xhtml:link rel="alternate" hreflang="en" href="('https://03xau.com/en/news.html', 'en')"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="('https://03xau.com/ja/news.html', 'ja')"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="('https://03xau.com/ko/news.html', 'ko')"/>
+    <xhtml:link rel="alternate" hreflang="de" href="('https://03xau.com/de/news.html', 'de')"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="('https://03xau.com/fr/news.html', 'fr')"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://03xau.com/en/news.html"/>
+  </url>
+  <url>
+    <loc>https://03xau.com/de/news.html</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="('https://03xau.com/news.html', 'zh-CN')"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="('https://03xau.com/zh-tw/news.html', 'zh-TW')"/>
+    <xhtml:link rel="alternate" hreflang="en" href="('https://03xau.com/en/news.html', 'en')"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="('https://03xau.com/ja/news.html', 'ja')"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="('https://03xau.com/ko/news.html', 'ko')"/>
+    <xhtml:link rel="alternate" hreflang="de" href="('https://03xau.com/de/news.html', 'de')"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="('https://03xau.com/fr/news.html', 'fr')"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://03xau.com/en/news.html"/>
+  </url>
+  <url>
+    <loc>https://03xau.com/fr/news.html</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="('https://03xau.com/news.html', 'zh-CN')"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="('https://03xau.com/zh-tw/news.html', 'zh-TW')"/>
+    <xhtml:link rel="alternate" hreflang="en" href="('https://03xau.com/en/news.html', 'en')"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="('https://03xau.com/ja/news.html', 'ja')"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="('https://03xau.com/ko/news.html', 'ko')"/>
+    <xhtml:link rel="alternate" hreflang="de" href="('https://03xau.com/de/news.html', 'de')"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="('https://03xau.com/fr/news.html', 'fr')"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://03xau.com/en/news.html"/>
+  </url>
 </urlset>

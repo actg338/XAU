@@ -1,0 +1,78 @@
+name: Update News Data
+
+on:
+  schedule:
+    # 每 5 分钟跑一次(GitHub Actions 最短间隔)
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/update.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('scripts/requirements.txt') }}
+          restore-keys: ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Ensure data directory
+        run: mkdir -p data
+
+      - name: Fetch XAUUSD price
+        run: python scripts/fetch_xauusd.py
+
+      - name: Fetch DXY
+        run: python scripts/fetch_dxy.py
+
+      - name: Fetch Warsh stance
+        run: python scripts/fetch_warsh.py
+
+      - name: Fetch FedWatch
+        run: python scripts/fetch_fedwatch.py
+
+      - name: Fetch authoritative news
+        run: python scripts/fetch_news.py
+
+      - name: Generate aggregated signal
+        run: python scripts/build_signal.py
+
+      - name: Validate JSON files
+        run: |
+          for f in data/*.json; do
+            python -c "import json; json.load(open('$f'))" && echo "OK: $f" || echo "BAD: $f"
+          done
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ || true
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "data: auto-update news center $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
