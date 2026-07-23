@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-23T19:41:33.946454+00:00",
+  "as_of": "2026-07-23T20:44:16.220180+00:00",
   "source": "CME FedWatch (snapshot)",
   "current_rate": "3.50-3.75%",
   "meetings": [
@@ -33,5 +33,5 @@
     }
   ],
   "note": "Snapshot from CME FedWatch 2026-07-23; live data requires CME commercial API",
-  "fetched_at": "2026-07-23T19:41:33.946467+00:00"
+  "fetched_at": "2026-07-23T20:44:16.220192+00:00"
 }
