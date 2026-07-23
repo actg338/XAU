@@ -1,7 +1,41 @@
 {
-  "fetched_at": "2026-07-23T11:18:41.800267+00:00",
-  "total": 55,
+  "fetched_at": "2026-07-23T12:53:24.020015+00:00",
+  "total": 56,
   "items": [
+    {
+      "title": "10-year Treasury yield tops 4.7%, highest since January 2025",
+      "link": "https://www.cnbc.com/2026/07/23/treasury-yields-oil-prices-jobless-claims.html",
+      "summary": "U.S. Treasury yields advanced on Wednesday, following oil prices higher, as traders reacted to a slump in weekly claims for unemployment insurance.",
+      "published_at": "Thu, 23 Jul 2026 12:51:58 GMT",
+      "source": "cnbc",
+      "_translation_hash": "283de4c343277c6bfae12410d4322943225d395bfffc066f5cec54df705df7b2",
+      "translations": {
+        "zh-CN": {
+          "title": "10年期国债收益率突破4.7%，创2025年1月以来最高",
+          "summary": "由于交易员对每周失业保险申请人数下降做出反应，油价走高，美国国债收益率周三上涨。"
+        },
+        "zh-TW": {
+          "title": "10年期公債殖利率突破4.7%，創2025年1月以來最高",
+          "summary": "由於交易員對每週失業保險申請人數下降做出反應，油價走高，美國公債殖利率週三上漲。"
+        },
+        "ja": {
+          "title": "10年米国債利回りが4.7％を超え、2025年1月以来の高水準となる",
+          "summary": "週間の失業保険申請件数の低迷にトレーダーらが反応し、原油価格の上昇を受けて水曜日の米国債利回りは上昇した。"
+        },
+        "ko": {
+          "title": "10년 만기 국채수익률은 4.7%를 넘어 2025년 1월 이후 최고치를 기록했다.",
+          "summary": "미국 국채 수익률은 유가 상승에 따라 주간 실업보험 청구 건수 부진에 트레이더들이 반응하면서 상승했습니다."
+        },
+        "de": {
+          "title": "Die Rendite 10-jähriger Staatsanleihen übersteigt 4,7 %, den höchsten Stand seit Januar 2025",
+          "summary": "Die Renditen von US-Staatsanleihen stiegen am Mittwoch, nachdem die Ölpreise gestiegen waren, da Händler auf einen Einbruch der wöchentlichen Anträge auf Arbeitslosenversicherung reagierten."
+        },
+        "fr": {
+          "title": "Le rendement du Trésor à 10 ans dépasse 4,7%, son plus haut depuis janvier 2025",
+          "summary": "Les rendements du Trésor américain ont progressé mercredi, suite à la hausse des prix du pétrole, alors que les traders réagissaient à une baisse des demandes hebdomadaires d'assurance-chômage."
+        }
+      }
+    },
     {
       "title": "Silver and gold prices stage a cautious rebound — but analysts see slim hopes for a sustained rally",
       "link": "https://www.cnbc.com/2026/07/23/silver-gold-prices-rebound-rally-correction.html",
