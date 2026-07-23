@@ -2,8 +2,8 @@ name: Update News Data
 
 on:
   schedule:
-    # 每 5 分钟跑一次(GitHub Actions 最短间隔)
-    - cron: '*/5 * * * *'
+    # GitHub Actions 最短为 5 分钟；错开整点高峰以降低排队和漏跑概率。
+    - cron: '2-57/5 * * * *'
   workflow_dispatch:
   push:
     paths:
@@ -24,23 +24,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Cache pip
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('scripts/requirements.txt') }}
-          restore-keys: ${{ runner.os }}-pip-
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r scripts/requirements.txt
 
       - name: Ensure data directory
         run: mkdir -p data

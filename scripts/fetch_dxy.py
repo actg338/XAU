@@ -14,6 +14,39 @@ FRANKFURTER_URL = (
     "https://api.frankfurter.app/latest"
     "?from=USD&to=EUR,JPY,GBP,CAD,SEK,CHF"
 )
+TRADINGVIEW_URL = (
+    "https://scanner.tradingview.com/symbol"
+    "?symbol=TVC%3ADXY&fields=close%2Cchange%2Cupdate_mode"
+)
+
+
+def fetch_dxy_tradingview() -> dict[str, object] | None:
+    """Fetch TradingView's streaming TVC:DXY quote."""
+    request = urllib.request.Request(
+        TRADINGVIEW_URL,
+        headers={
+            "User-Agent": "XAUQuant/1.0 (+https://03xau.com/news.html)",
+            "Accept": "application/json",
+        },
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=12) as response:
+            data = json.loads(response.read())
+        if not isinstance(data, dict):
+            return None
+        value = data.get("close")
+        change = data.get("change")
+        if not isinstance(value, (int, float)) or float(value) <= 0:
+            return None
+        return {
+            "value": round(float(value), 2),
+            "change_pct": round(float(change), 2) if isinstance(change, (int, float)) else None,
+            "source": "TradingView TVC:DXY",
+            "fetched_at": datetime.now(timezone.utc).isoformat(),
+        }
+    except (urllib.error.URLError, TimeoutError, ValueError, json.JSONDecodeError) as error:
+        print(f"dxy TradingView failed: {error}", file=sys.stderr)
+        return None
 
 
 def calculate_dxy(rates: object) -> float | None:
@@ -126,7 +159,9 @@ def fetch_dxy_stooq():
 
 
 def main():
-    d = fetch_dxy_from_fx() or fetch_dxy() or fetch_dxy_stooq()
+    # Prefer intraday market quotes. The ECB basket is a daily reference-rate
+    # fallback and must not mask a fresher DXY quote.
+    d = fetch_dxy_tradingview() or fetch_dxy() or fetch_dxy_stooq() or fetch_dxy_from_fx()
     out = DATA_DIR / "dxy.json"
     if not d:
         if out.exists():
