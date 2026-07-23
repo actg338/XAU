@@ -3,12 +3,10 @@
 抓取权威新闻流
 来源:
 - Federal Reserve Press Releases
-- Federal Reserve Speeches
+- Federal Reserve Speeches and Testimony
 - BLS News Releases
-- U.S. Treasury Press Releases
+- BEA Economic Releases
 - CNBC Top News (RSS)
-- Reuters Top News (RSS)
-- Kitco Gold News (RSS)
 """
 import json
 import hashlib
@@ -26,9 +24,9 @@ DATA_DIR.mkdir(exist_ok=True)
 
 SOURCES = [
     {
-        "name": "Federal Reserve Speeches",
-        "url": "https://www.federalreserve.gov/feeds/Speeches.xml",
-        "source": "fed_speeches",
+        "name": "Federal Reserve Speeches and Testimony",
+        "url": "https://www.federalreserve.gov/feeds/speeches_and_testimony.xml",
+        "source": "fed_remarks",
         "key_filter": None
     },
     {
@@ -44,28 +42,16 @@ SOURCES = [
         "key_filter": None
     },
     {
-        "name": "U.S. Treasury Press",
-        "url": "https://home.treasury.gov/news/press-releases/feed",
-        "source": "treasury",
-        "key_filter": None
+        "name": "BEA Economic Releases",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "source": "bea",
+        "key_filter": r"inflation|price|GDP|personal income|outlays|trade|international transactions"
     },
     {
         "name": "CNBC Top News",
         "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
         "source": "cnbc",
         "key_filter": r"gold|federal reserve|fomc|inflation|warsh|treasury|ecb"
-    },
-    {
-        "name": "Reuters Business",
-        "url": "https://feeds.reuters.com/reuters/businessNews",
-        "source": "reuters",
-        "key_filter": r"gold|federal reserve|fomc|inflation|warsh|treasury|ecb"
-    },
-    {
-        "name": "Kitco Gold News",
-        "url": "https://www.kitco.com/rss/gold.xml",
-        "source": "kitco",
-        "key_filter": None
     }
 ]
 
@@ -184,6 +170,15 @@ def main() -> None:
             it["source"] = src["source"]
         all_items.extend(items)
         print(f"  → {len(items)} items")
+
+    unique_items: dict[str, dict[str, str | None]] = {}
+    for item in all_items:
+        link = str(item.get("link") or "").strip()
+        title = str(item.get("title") or "").strip()
+        identity = link or title
+        if identity and identity not in unique_items:
+            unique_items[identity] = item
+    all_items = list(unique_items.values())
 
     # 按时间倒序
     def parse_dt(s: str | None) -> datetime:

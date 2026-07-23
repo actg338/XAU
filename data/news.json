@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-07-23T09:59:20.658832+00:00",
-  "total": 39,
+  "fetched_at": "2026-07-23T10:09:36.065539+00:00",
+  "total": 57,
   "items": [
     {
       "title": "Silver and gold prices stage a cautious rebound — but analysts see slim hopes for a sustained rally",
@@ -143,7 +143,7 @@
       "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260716a.htm",
       "summary": "Speech At the Stanford Institute for Economic Policy Research, Stanford University, Stanford, California",
       "published_at": "Thu, 16 Jul 2026 23:00:00 GMT",
-      "source": "fed_speeches",
+      "source": "fed_remarks",
       "_translation_hash": "6d29eb2f0ab1b25137c61233ab111f88fcd283769ced4a9f3a5a6eedf2a51bdf",
       "translations": {
         "zh-CN": {
@@ -245,7 +245,7 @@
       "link": "https://www.federalreserve.gov/newsevents/speech/cook20260715a.htm",
       "summary": "Speech At The Exchequer Club of Washington D.C., Washington, D.C.",
       "published_at": "Wed, 15 Jul 2026 17:00:00 GMT",
-      "source": "fed_speeches",
+      "source": "fed_remarks",
       "_translation_hash": "fe80970e60f60f449a9fb936200c1686d54bb4e04279621c532e6830839a1e41",
       "translations": {
         "zh-CN": {
@@ -279,7 +279,7 @@
       "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260714a.htm",
       "summary": "Speech At “Next-Gen Financial Inclusion,” the third annual Financial Inclusion Conference hosted by the Federal Reserve Board, Washington, D.C. (via pre-recorded video)",
       "published_at": "Tue, 14 Jul 2026 18:55:00 GMT",
-      "source": "fed_speeches",
+      "source": "fed_remarks",
       "_translation_hash": "c4c1a3d12f6985dd4d0cfb380179af5fc9a01b9a71b08d6df226bc561c7507a6",
       "translations": {
         "zh-CN": {
@@ -347,7 +347,7 @@
       "link": "https://www.federalreserve.gov/newsevents/speech/barr20260714a.htm",
       "summary": "Speech At “Next-Gen Financial Inclusion,” the third annual Financial Inclusion Conference hosted by the Federal Reserve Board",
       "published_at": "Tue, 14 Jul 2026 16:40:00 GMT",
-      "source": "fed_speeches",
+      "source": "fed_remarks",
       "_translation_hash": "4e45fae278ef0bb5d7b4496612864fa8443a8796916e14adfc7e6b05cbaacd2e",
       "translations": {
         "zh-CN": {
@@ -377,11 +377,45 @@
       }
     },
     {
+      "title": "Warsh, Semiannual Monetary Policy Report to the Congress",
+      "link": "https://www.federalreserve.gov/newsevents/testimony/warsh20260714a.htm",
+      "summary": "Testimony Before the Committee on Financial Services, U.S. House of Representatives",
+      "published_at": "Tue, 14 Jul 2026 12:30:00 GMT",
+      "source": "fed_remarks",
+      "_translation_hash": "47784f805710e9c2864bda600ce891c68e264b7f3c1e32b82d167cf56cc5e952",
+      "translations": {
+        "zh-CN": {
+          "title": "Warsh，向国会提交的半年度货币政策报告",
+          "summary": "在美国众议院金融服务委员会作证"
+        },
+        "zh-TW": {
+          "title": "Warsh，向國會提交的半年度貨幣政策報告",
+          "summary": "在美國眾議院金融服務委員會作證"
+        },
+        "ja": {
+          "title": "ウォーシュ氏、議会への半期金融政策報告書",
+          "summary": "米国下院金融サービス委員会での証言"
+        },
+        "ko": {
+          "title": "Warsh, 의회에 반기 통화 정책 보고서",
+          "summary": "미국 하원 금융서비스위원회 증언"
+        },
+        "fr": {
+          "title": "Warsh, Rapport semestriel sur la politique monétaire au Congrès",
+          "summary": "Témoignage devant le Comité des services financiers de la Chambre des représentants des États-Unis"
+        },
+        "de": {
+          "title": "Warsh, halbjährlicher geldpolitischer Bericht an den Kongress",
+          "summary": "Aussage vor dem Ausschuss für Finanzdienstleistungen des US-Repräsentantenhauses"
+        }
+      }
+    },
+    {
       "title": "Waller, Monetary Policy at a Crossroads",
       "link": "https://www.federalreserve.gov/newsevents/speech/waller20260713a.htm",
       "summary": "Speech At the New York Association for Business Economics, New York, New York",
       "published_at": "Mon, 13 Jul 2026 16:30:00 GMT",
-      "source": "fed_speeches",
+      "source": "fed_remarks",
       "_translation_hash": "69f1b86d0a3edeb5410849d51dd428bc534cbc3d32391dc4a389942a3e2c146b",
       "translations": {
         "zh-CN": {
@@ -415,7 +449,7 @@
       "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260713a.htm",
       "summary": "Speech At a Bank Policy Institute London Conference, London, United Kingdom",
       "published_at": "Mon, 13 Jul 2026 09:25:00 GMT",
-      "source": "fed_speeches",
+      "source": "fed_remarks",
       "_translation_hash": "cb066f2074ca98535faafc584220193f5ded7ff689c112d7c9bea00776eafd67",
       "translations": {
         "zh-CN": {
@@ -585,7 +619,7 @@
       "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260707a.htm",
       "summary": "Speech At the Financial Stability Board Virtual Outreach Event",
       "published_at": "Tue, 7 Jul 2026 11:00:00 GMT",
-      "source": "fed_speeches",
+      "source": "fed_remarks",
       "_translation_hash": "e1014e8f851be1f201d1eda37a228c0c2a0415978b02832f6ff3135a945e5580",
       "translations": {
         "zh-CN": {
@@ -619,7 +653,7 @@
       "link": "https://www.federalreserve.gov/newsevents/speech/waller20260706a.htm",
       "summary": "Speech At \"Challenges for Monetary Policy Transmission in a Changing World,\" a conference sponsored by the Bank of Italy for the research network initiated by the European System of Central Banks, Rome, Italy",
       "published_at": "Mon, 6 Jul 2026 15:00:00 GMT",
-      "source": "fed_speeches",
+      "source": "fed_remarks",
       "_translation_hash": "366cfae5bbe7173ddebd5f02b00179a2d25e76432f50efd1a9c5c0fd87df49d1",
       "translations": {
         "ja": {
@@ -857,7 +891,7 @@
       "link": "https://www.federalreserve.gov/newsevents/speech/cook20260624a.htm",
       "summary": "Speech At the State of Small Business Symposium hosted by the Federal Reserve Bank of Cleveland (via pre-recorded video)",
       "published_at": "Wed, 24 Jun 2026 18:00:00 GMT",
-      "source": "fed_speeches",
+      "source": "fed_remarks",
       "_translation_hash": "1a752e0402ca3bfccc4df12f3f771296d0fe171988eca50bb601202ed2a5a78f",
       "translations": {
         "zh-CN": {
@@ -891,7 +925,7 @@
       "link": "https://www.federalreserve.gov/newsevents/speech/waller20260622a.htm",
       "summary": "Speech At the Fifth Conference on the International Roles of the Dollar, Board of Governors of the Federal Reserve System, Washington, D.C.",
       "published_at": "Mon, 22 Jun 2026 13:00:00 GMT",
-      "source": "fed_speeches",
+      "source": "fed_remarks",
       "_translation_hash": "9b5526dd0b68ece33cd0e66ad7016bc1eef51be6d1304103e67a64bc1446e344",
       "translations": {
         "zh-CN": {
@@ -1059,15 +1093,23 @@
       "link": "https://www.federalreserve.gov/newsevents/speech/barr20260606a.htm",
       "summary": "Speech At American University, Washington, D.C.",
       "published_at": "Sat, 6 Jun 2026 16:00:00 GMT",
-      "source": "fed_speeches",
+      "source": "fed_remarks",
       "_translation_hash": "823fb7975446cd576cdaa0f0a531521de74ad2e840a455dc14c6b9c7026fe7fb"
+    },
+    {
+      "title": "Bowman, Supervision and Regulation",
+      "link": "https://www.federalreserve.gov/newsevents/testimony/bowman20260604a.htm",
+      "summary": "Testimony Before the Committee on Financial Services, U.S. House of Representatives, Washington, D.C.",
+      "published_at": "Wed, 3 Jun 2026 20:30:00 GMT",
+      "source": "fed_remarks",
+      "_translation_hash": "a403da507735cf1e0ae296e2c34e281fda019db5bc19786d95b825c171a696db"
     },
     {
       "title": "Powell, Acceptance Remarks",
       "link": "https://www.federalreserve.gov/newsevents/speech/powell20260531a.htm",
       "summary": "Speech For the 2026 John F. Kennedy Profile in Courage Award, John F. Kennedy Library Foundation, Boston, Massachusetts",
       "published_at": "Mon, 1 Jun 2026 00:30:00 GMT",
-      "source": "fed_speeches",
+      "source": "fed_remarks",
       "_translation_hash": "e7d1981efc8b79d1f8cff9584b7280fe21caeef53a618739fd4a01b1d5392c0c"
     },
     {
@@ -1075,24 +1117,152 @@
       "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260529a.htm",
       "summary": "Speech At the Reykjavík Economic Conference 2026, Central Bank of Iceland, Reykjavík, Iceland",
       "published_at": "Fri, 29 May 2026 13:10:00 GMT",
-      "source": "fed_speeches",
+      "source": "fed_remarks",
       "_translation_hash": "0e38c9ef350694511a63a5b5603042def2fa86614aa940111b2b454f52cb7841"
     },
     {
-      "title": "Jefferson, Global Economic Developments and the U.S. Economy",
-      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260527a.htm",
-      "summary": "Speech At the 2026 Bank of Japan-Institute for Monetary and Economic Studies Conference, Tokyo, Japan",
-      "published_at": "Thu, 28 May 2026 00:00:00 GMT",
-      "source": "fed_speeches",
-      "_translation_hash": "989568c0eb4ae403f00a122b09186ad2122ba462a32f13fd1c8c1d94ebbfe656"
+      "title": "U.S. International Trade in Goods and Services, May 2026",
+      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-may-2026",
+      "summary": "The U.S. goods and services trade deficit increased in May 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $54.6 billion in April (revised) to $77.6 billion in May, as exports decreased and imports increased. The goods deficit increased $23.6 billion in May to $106.5 billion. The services surplus increased $0.6 billion in May to $28.9 billion. Full Text",
+      "published_at": "Tue, 07 Jul 2026 08:30:00 EDT",
+      "source": "bea",
+      "_translation_hash": "092b7eeb37022256a3c6a05256e93aba4109ed9d940447378b7da3f5715a61ef"
     },
     {
-      "title": "Cook, The Opportunities and Risks AI Presents for the Economy and Financial System",
-      "link": "https://www.federalreserve.gov/newsevents/speech/cook20260527a.htm",
-      "summary": "Speech At the Stanford Institute for Economic Policy Research, Stanford University, Stanford, California",
-      "published_at": "Wed, 27 May 2026 19:55:00 GMT",
-      "source": "fed_speeches",
-      "_translation_hash": "d8becfadb71bbe9595e314814664b2c622adb732417f694a197101bdc699d8c5"
+      "title": "Personal Income and Outlays, May 2026",
+      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026",
+      "summary": "Personal income increased $181.6 billion (0.7 percent at a monthly rate) in May, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal current taxes-increased $164.9 billion (0.7 percent), and personal consumption expenditures (PCE) increased $156.1 billion (0.7 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $159.9 billion in May. ",
+      "published_at": "Thu, 25 Jun 2026 08:30:00 EDT",
+      "source": "bea",
+      "_translation_hash": "f9d6d0b4dc9c8f3a5a3cc235f8394d0518269c4693867059dd36c988d311a202"
+    },
+    {
+      "title": "GDP, (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 1st Quarter 2026",
+      "link": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-1st",
+      "summary": "Real gross domestic product (GDP) increased at an annual rate of 2.1 percent in the first quarter of 2026 (January, February, and March), according to the third estimate released today by the U.S. Bureau of Economic Analysis. In the fourth quarter of 2025, real GDP increased 0.5 percent. The contributors to the increase in real GDP in the first quarter were increases in investment, exports, government spending, and consumer spending. Imports, which are a subtraction in the calculation of GDP, in",
+      "published_at": "Thu, 25 Jun 2026 08:30:00 EDT",
+      "source": "bea",
+      "_translation_hash": "4df5fb36f19865313ff0ea9b2a2d2d56dc9564079edf310489407197d047d433"
+    },
+    {
+      "title": "U.S. International Transactions and Investment Position, 1st Quarter 2026 and Annual Update",
+      "link": "https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-1st-quarter-2026-and-annual-update",
+      "summary": "Full Text ]]>",
+      "published_at": "Wed, 24 Jun 2026 08:30:00 EDT",
+      "source": "bea",
+      "_translation_hash": "ff3aaefaa068799f4095b53fe41f8b1097d38455fd2a1361f2933ba996fef542"
+    },
+    {
+      "title": "Personal Income and Outlays, April 2026",
+      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026",
+      "summary": "Personal income decreased less than $0.1 billion (less than 0.1 percent at a monthly rate) in April, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal current taxes-decreased $19.9 billion (0.1 percent), and personal consumption expenditures (PCE) increased $111.1 billion (0.5 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $114",
+      "published_at": "Thu, 28 May 2026 08:30:00 EDT",
+      "source": "bea",
+      "_translation_hash": "6d452340be20f43639d914304cea55d7744e63fd3b111e57884f4df16758cacc"
+    },
+    {
+      "title": "Personal Income and Outlays, January 2026",
+      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-january-2026",
+      "summary": "Personal income increased $113.8 billion (0.4 percent at a monthly rate) in January, according to estimates released today by the U.S. Bureau of Economic Analysis. Disposable personal income (DPI)-personal income less personal current taxes-increased $219.9 billion (0.9 percent), and personal consumption expenditures (PCE) increased $81.1 billion (0.4 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $85.8 billion in January. ",
+      "published_at": "Fri, 13 Mar 2026 08:31:00 EDT",
+      "source": "bea",
+      "_translation_hash": "cf65299b9c6af74dd1294d96373153543c37fa3804c4be506bc3dc36c64234f2"
+    },
+    {
+      "title": "Personal Income and Outlays, December 2025",
+      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-december-2025",
+      "summary": "Personal income increased $86.2 billion (0.3 percent at a monthly rate) in December, according to estimates released today by the U.S. Bureau of Economic Analysis. Disposable personal income (DPI)-personal income less personal current taxes-increased $75.7 billion (0.3 percent), and personal consumption expenditures (PCE) increased $91.0 billion (0.4 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $90.2 billion in December. ",
+      "published_at": "Fri, 20 Feb 2026 08:30:00 EST",
+      "source": "bea",
+      "_translation_hash": "0050dca4e1ef60962f14586bd1c1b67fa7e4199964f6d69d1198d1e52e558547"
+    },
+    {
+      "title": "GDP (Advance Estimate), 4th Quarter and Year 2025",
+      "link": "www.bea.gov/news/2026/gdp-advance-estimate-4th-quarter-and-year-2025",
+      "summary": "Real gross domestic product (GDP) increased at an annual rate of 1.4 percent in the fourth quarter of 2025 (October, November, and December), according to the advance estimate released today by the U.S. Bureau of Economic Analysis. In the third quarter, real GDP increased 4.4 percent. The contributors to the increase in real GDP in the fourth quarter were increases in consumer spending and investment. These movements were partly offset by decreases in government spending and exports. Imports, wh",
+      "published_at": "Fri, 20 Feb 2026 08:30:00 EST",
+      "source": "bea",
+      "_translation_hash": "dd64376c74bf076fa5ef16f81f6dc039bc2000e1824a3c9d52f6733428d88d31"
+    },
+    {
+      "title": "Real Personal Consumption Expenditures by State and Real Personal Income by State, 2024",
+      "link": "https://www.bea.gov/news/2026/real-personal-consumption-expenditures-state-and-real-personal-income-state-2024",
+      "summary": "Real personal consumption expenditures (PCE) by state increased in 48 states and the District of Columbia in 2024, with the percent change ranging from 5.3 percent in Massachusetts to -0.2 percent in Montana. Real PCE for the nation increased 2.9 percent in 2024. Real personal income increased in 46 states and the District of Columbia in 2024, with the percent change ranging from 5.5 percent in California to -2.2 percent in North Dakota. Real personal income for the nation increased 2.9 percent ",
+      "published_at": "Thu, 19 Feb 2026 08:30:00 EST",
+      "source": "bea",
+      "_translation_hash": "39b0ac629cae3fd33a6816278e930dc1fee85fe39bf7f4973a8a9a667bafafae"
+    },
+    {
+      "title": "Gross Domestic Product by County and Personal Income by County, 2024",
+      "link": "https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-county-2024",
+      "summary": "Real gross domestic product (GDP) increased in 2,273 counties, decreased in 809 counties, and was unchanged in 24 counties in 2024. County-level changes ranged from a 76.6 percent increase in Carter County, MT, to a 46.3 percent decline in Baca County, CO. Personal income, in current dollars, increased in 2,768 counties, decreased in 331, and was unchanged in 7 counties in 2024. County-level changes ranged from a 22.6 percent increase in Harding County, SD, to a 23.3 percent decline in Issaquena",
+      "published_at": "Thu, 05 Feb 2026 08:30:00 EST",
+      "source": "bea",
+      "_translation_hash": "06f5801f52dea236e73e88a4bb079301603f66ab9a37d38e9039e1498a3c46b4"
+    },
+    {
+      "title": "Gross Domestic Product by State and Personal Income by State, 3rd Quarter 2025",
+      "link": "https://www.bea.gov/news/2026/gross-domestic-product-state-and-personal-income-state-3rd-quarter-2025",
+      "summary": "Real gross domestic product (GDP) increased in all 50 states and the District of Columbia in the third quarter of 2025. State-level changes ranged from a 6.5 percent increase in Kansas to a 0.4 percent increase in North Dakota. Personal income increased in all 50 states and the District of Columbia in the third quarter of 2025. State-level changes ranged from a 6.3 percent increase in Kansas to a 0.1 percent increase in Louisiana. Full Text",
+      "published_at": "Fri, 23 Jan 2026 08:30:00 EST",
+      "source": "bea",
+      "_translation_hash": "6a8e45a27be627a71dc8f2b92183df62ea253d3f40031796399db82bc2251410"
+    },
+    {
+      "title": "U.S. International Transactions, 3rd Quarter 2025",
+      "link": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025",
+      "summary": "The U.S. current-account deficit narrowed by $22.8 billion, or 9.2 percent, to $226.4 billion in the third quarter of 2025, according to statistics released today by BEA. The revised second-quarter deficit was $249.2 billion. The third-quarter deficit was 2.9 percent of current-dollar gross domestic product, down from 3.3 percent in the second quarter. Full Text",
+      "published_at": "Wed, 14 Jan 2026 08:30:00 EST",
+      "source": "bea",
+      "_translation_hash": "c8f9890aca2c0a715991fe2923bc04314966b4e77b5d3fdef0aebed92a6cc667"
+    },
+    {
+      "title": "Real Personal Consumption Expenditures by State and Real Personal Income by State and Metropolitan Area, 2023",
+      "link": "https://www.bea.gov/news/2024/real-personal-consumption-expenditures-state-and-real-personal-income-state-and",
+      "summary": "Real personal consumption expenditures (PCE) by state increased in 48 states and the District of Columbia in 2023, with the percent change ranging from 7.3 percent in Maine to -0.6 percent in Alabama. Real PCE for the nation increased 2.5 percent in 2023. Full Text",
+      "published_at": "Thu, 12 Dec 2024 08:30:00 EST",
+      "source": "bea",
+      "_translation_hash": "3f55c9ece458c77c08b198048d0426433b6e4540ae67104e33979e07a02fcbb6"
+    },
+    {
+      "title": "Personal Income by County and Metropolitan Area, 2023",
+      "link": "https://www.bea.gov/news/2024/personal-income-county-and-metropolitan-area-2023",
+      "summary": "In 2023, personal income, in current dollars, increased in 2,814 counties, decreased in 295, and was unchanged in five counties in 2023. Personal income increased 6.0 percent in the metropolitan portion of the United States and 4.7 percent in the nonmetropolitan portion. Full Text",
+      "published_at": "Thu, 14 Nov 2024 08:30:00 EST",
+      "source": "bea",
+      "_translation_hash": "5bf4f06a4bef66902cde82b5f7a87a037c3af7d1c371e2c70c822c033e5a9ae9"
+    },
+    {
+      "title": "Personal Income by State, 2nd Quarter 2023",
+      "link": "https://www.bea.gov/news/2023/personal-income-state-2nd-quarter-2023",
+      "summary": "Personal income, in current dollars, increased in 49 states and the District of Columbia in the second quarter of 2023, with the percent change ranging from 6.1 percent in New York and the District of Columbia to -2.7 percent in Maine. Full Text",
+      "published_at": "Fri, 29 Sep 2023 10:00:00 EDT",
+      "source": "bea",
+      "_translation_hash": "2d3e47f2aa239d9e358ef58cdb2e2a68e7f13d4c25f7146f4ff1962e56dd4a01"
+    },
+    {
+      "title": "Real Personal Consumption Expenditures and Personal Income by State, 2020",
+      "link": "https://www.bea.gov/news/2021/real-personal-consumption-expenditures-state-and-real-personal-income-state-and",
+      "summary": "Today, the U.S Bureau of Economic Analysis (BEA) released official statistics of real state personal consumption expenditures (PCE) for the first time. Real PCE decreased 3.8 percent in 2020 for the nation. Across states, the percent change ranged from 2.2 percent in Utah to -7.0 percent in Hawaii, Maryland, and New York; the percent change was -8.9 percent in the District of Columbia. Real state PCE is a state's current-dollar PCE adjusted by the state's regional price parity and the national P",
+      "published_at": "Tue, 14 Dec 2021 08:30:00 EST",
+      "source": "bea",
+      "_translation_hash": "9000d931925c58f6b9081a06ab8b0e3d8562d65eb6c0a3db310c7d3f149a21ff"
+    },
+    {
+      "title": "Real Personal Income by State and Metropolitan Area, 2019",
+      "link": "https://www.bea.gov/news/2020/real-personal-income-state-and-metropolitan-area-2019",
+      "summary": "Real state personal income grew 2.4 percent in 2019 after increasing 3.1 percent in 2018, according to estimates released today by the Bureau of Economic Analysis (BEA). Real state personal income is a state's current-dollar personal income adjusted by the state's regional price parity and the national personal consumption expenditures price index. The percent change in real state personal income ranged from 4.1 percent in Maine to 0.7 percent in Hawaii, Wyoming, and Rhode Island. Across metropo",
+      "published_at": "Tue, 15 Dec 2020 08:30:00 EST",
+      "source": "bea",
+      "_translation_hash": "a1ceb1bd3f472df0487c12d987eff29621ea45f1bde01b5dbc12226f4485b678"
+    },
+    {
+      "title": "State Quarterly Personal Income, 3rd quarter 2019",
+      "link": "https://www.bea.gov/news/2019/state-personal-income-third-quarter-2019",
+      "summary": "State personal income increased 3.8 percent at an annual rate in the third quarter of 2019, a deceleration from the 4.4 percent increase in the second quarter. The percent change in personal income across all states ranged from 15.2 percent in South Dakota to 1.9 percent in West Virginia and Wyoming. Full Text",
+      "published_at": "Wed, 18 Dec 2019 08:30:00 EST",
+      "source": "bea",
+      "_translation_hash": "8c9aa49a9d1131cbd36feddcd18a363fb62f8b240738f57ffd2dfed0edc3a8ed"
     }
   ]
 }
