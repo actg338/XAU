@@ -74,5 +74,7 @@ jobs:
             echo "No data changes"
           else
             git commit -m "data: auto-update news center $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push
+            # Pull with rebase first to avoid race condition with concurrent commits
+            git pull --rebase --autostash origin main || true
+            git push origin main
           fi
