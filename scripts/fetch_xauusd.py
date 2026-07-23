@@ -13,6 +13,10 @@ REQUEST_HEADERS = {
     "User-Agent": "XAUQuant/1.0 (+https://03xau.com/news.html)",
     "Accept": "application/json",
 }
+TRADINGVIEW_URL = (
+    "https://scanner.tradingview.com/symbol"
+    "?symbol=OANDA%3AXAUUSD&fields=close%2Cchange%2Cupdate_mode"
+)
 
 
 def fetch_json(url: str) -> object:
@@ -30,6 +34,29 @@ def build_price(price: object, source: str, fetched_at: object = None) -> dict[s
         "source": source,
         "fetched_at": fetched_at if isinstance(fetched_at, str) else datetime.now(timezone.utc).isoformat(),
     }
+
+
+def fetch_tradingview() -> dict[str, object] | None:
+    """Fetch a consistent XAUUSD close and daily percentage change."""
+    try:
+        data = fetch_json(TRADINGVIEW_URL)
+        if not isinstance(data, dict):
+            return None
+        price = data.get("close")
+        change = data.get("change")
+        if not isinstance(price, (int, float)) or float(price) <= 0:
+            return None
+        if not isinstance(change, (int, float)):
+            return None
+        return {
+            "price": round(float(price), 2),
+            "change_pct": round(float(change), 2),
+            "source": "TradingView OANDA:XAUUSD",
+            "fetched_at": datetime.now(timezone.utc).isoformat(),
+        }
+    except (urllib.error.URLError, TimeoutError, ValueError, json.JSONDecodeError) as error:
+        print(f"TradingView XAUUSD failed: {error}", file=sys.stderr)
+        return None
 
 
 def fetch_xaus() -> dict[str, object] | None:
@@ -170,7 +197,8 @@ def fetch_metals_dev():
 
 def main():
     price = (
-        fetch_xaus()
+        fetch_tradingview()
+        or fetch_xaus()
         or fetch_gold_api()
         or fetch_swissquote()
         or fetch_yahoo()
