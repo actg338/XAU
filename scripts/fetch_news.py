@@ -18,6 +18,7 @@ import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+from html import unescape
 from pathlib import Path
 
 DATA_DIR = Path(__file__).parent.parent / "data"
@@ -104,6 +105,15 @@ def restore_translations(
             item["translations"] = translations
 
 
+def clean_summary(value: str | None) -> str:
+    if not value:
+        return ""
+    decoded = unescape(value)
+    without_tags = re.sub(r"<[^>]*>", " ", decoded)
+    normalized = re.sub(r"\s+", " ", without_tags).strip()
+    return normalized[:500]
+
+
 def fetch_rss(url: str, key_filter: str | None = None) -> list[dict[str, str | None]]:
     req = urllib.request.Request(
         url,
@@ -136,7 +146,7 @@ def fetch_rss(url: str, key_filter: str | None = None) -> list[dict[str, str | N
                 items.append({
                     "title": re.sub(r"\s+", " ", title_text),
                     "link": (link.text or "").strip() if link is not None else "",
-                    "summary": re.sub(r"<[^>]+>", "", (desc.text or "")[:500]) if desc is not None else "",
+                    "summary": clean_summary(desc.text if desc is not None else None),
                     "published_at": (pub.text or "").strip() if pub is not None else None,
                 })
             return items
@@ -154,7 +164,7 @@ def fetch_rss(url: str, key_filter: str | None = None) -> list[dict[str, str | N
             items.append({
                 "title": re.sub(r"\s+", " ", title_text),
                 "link": link_href,
-                "summary": re.sub(r"<[^>]+>", "", (summary.text or "")[:500]) if summary is not None else "",
+                "summary": clean_summary(summary.text if summary is not None else None),
                 "published_at": (updated.text or "").strip() if updated is not None else None,
             })
         return items

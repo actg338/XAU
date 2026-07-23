@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-23T06:50:28.321427+00:00",
+  "fetched_at": "2026-07-23T07:18:08.903684+00:00",
   "total": 39,
   "items": [
     {
@@ -107,34 +107,34 @@
     {
       "title": "Major Economic Indicators Latest Numbers",
       "link": "https://www.bls.gov/bls/",
-      "summary": "\t\t\t\t\t\t\t\t\t\t\t\t\tConsumer Price Index (CPI):\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t-0.4%  in Jun 2026\t\t\t\t\t\t\t\t\t\t\t\t\tNews Release\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://data.bls.gov/pdq/SurveyOutputServlet?data_tool=latest_numbers&amp;series_id=CUSR0000SA0&amp;output_view=pct_",
+      "summary": "Consumer Price Index (CPI): -0.4% in Jun 2026 News Release Historical Data Unemployment Rate: 4.2% in Jun 2026 News Release Historical Data Payroll Employment: +57,000(p) in Jun 2026 News Release Historical Data Average Hourly Earnings: +$0.13(p) in Jun 2026 News Release Historical Data Producer Price Index - Final Demand: -0.3%(p) in Jun 2026 News Release Historical Data Employment Cost Index (ECI): +0.9% in 1st Qtr of 2026 News Release Historical Data Productivity: +0.3%(r) in 1st Qtr of 2026 ",
       "published_at": "Wed, 22 Jul 2026 12:12:18 -0400",
       "source": "bls",
-      "_translation_hash": "6923d1edd501230f570784369182374d69b4e2d3d3906ac93187d27e8d21a107",
+      "_translation_hash": "a6acddb659356ea85d54af05a9d9538e3229fa311e2381f04309c12369f0b15f",
       "translations": {
+        "ja": {
+          "title": "主要経済指標の最新数値",
+          "summary": "消費者物価指数 (CPI): -0.4% (2026 年 6 月) ニュース リリースの履歴データ 失業率: 4.2% (2026 年 6 月) ニュース リリースの履歴データ 給与雇用: +57,000(p) (2026 年 6 月) ニュース リリースの履歴データ 平均時給: +$0.13(p) (2026 年 6 月) ニュース リリースの履歴データ 生産者物価指数 - 最終需要: 2026 年 6 月に -0.3%(p) ニュース リリース履歴データ 雇用コスト指数 (ECI): 2026 年第 1 四半期に +0.9% ニュース リリース履歴データ 生産性: 2026 年第 1 四半期に +0.3%(r)"
+        },
         "zh-CN": {
           "title": "主要经济指标最新数据",
-          "summary": "消费者价格指数（CPI）：\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2026 年 6 月新闻稿 -0.4%\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://data.bls.gov/pdq/SurveyOutputServlet?data_tool=latest_numbers&series_id=CUSR0000SA0&output_view=pct_"
+          "summary": "消费者价格指数 (CPI)：2026 年 6 月 -0.4% 新闻发布历史数据 失业率：2026 年 6 月 4.2% 新闻发布历史数据 薪资就业：2026 年 6 月 +57,000(p) 新闻发布历史数据 平均每小时收入：2026 年 6 月 +0.13 美元 新闻发布历史数据 生产者价格指数 - 最终需求：6 月 -0.3%(p) 2026 年新闻发布历史数据 就业成本指数 (ECI)：2026 年第一季度 +0.9% 新闻发布历史数据 生产力：2026 年第一季度 +0.3%(r)"
         },
         "zh-TW": {
           "title": "主要經濟指標最新數據",
-          "summary": "消費者物價指數（CPI）：\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2026 年 6 月新聞稿 -0.4%\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://data.bls.gov/pdq/SurveyOutputServlet?data_tool=latest_numbers&series_id=CUSR0000SA0&output_view=pct_"
-        },
-        "ja": {
-          "title": "主要経済指標の最新数値",
-          "summary": "消費者物価指数 (CPI):\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2026 年 6 月は -0.4% ニュースリリース\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://data.bls.gov/pdq/SurveyOutputServlet?data_tool=latest_numbers&series_id=CUSR0000SA0&output_view=pct_"
-        },
-        "ko": {
-          "title": "주요 경제 지표 최신 수치",
-          "summary": "소비자물가지수(CPI):\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t-0.4%(2026년 6월 보도 자료)\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://data.bls.gov/pdq/SurveyOutputServlet?data_tool=latest_numbers&series_id=CUSR0000SA0&output_view=pct_"
-        },
-        "de": {
-          "title": "Wichtige Wirtschaftsindikatoren Neueste Zahlen",
-          "summary": "Verbraucherpreisindex (VPI):\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t-0,4 % in der Pressemitteilung vom Juni 2026\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://data.bls.gov/pdq/SurveyOutputServlet?data_tool=latest_numbers&series_id=CUSR0000SA0&output_view=pct_"
+          "summary": "消費者物價指數 (CPI)：2026 年 6 月 -0.4% 新聞發布歷史數據 失業率：2026 年 6 月 4.2% 新聞發布歷史數據 薪資就業：2026 年 6 月 +57,000(p) 新聞發布歷史數據 平均收入：2026 年 6 月 16 月 6 月發布歷史數據 平均收入：2026 年 6 月-0.3%(p) 2026 年新聞發布歷史資料 就業成本指數 (ECI)：2026 年第一季 +0.9% 新聞發布歷史資料 生產力：2026 年第一季 +0.3%(r)"
         },
         "fr": {
           "title": "Principaux indicateurs économiques Derniers chiffres",
-          "summary": "Indice des prix à la consommation (IPC) :\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t-0,4% dans le communiqué de presse de juin 2026\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://data.bls.gov/pdq/SurveyOutputServlet?data_tool=latest_numbers&series_id=CUSR0000SA0&output_view=pct_"
+          "summary": "Indice des prix à la consommation (IPC) : -0,4 % en juin 2026 Communiqué de presse Données historiques Taux de chômage : 4,2 % en juin 2026 Communiqué de presse Données historiques Emploi : +57 000(p) en juin 2026 Communiqué de presse Données historiques Gain horaire moyen : +0,13 $(p) en juin 2026 Communiqué de presse Données historiques Indice des prix à la production - Demande finale : -0,3 %(p) en juin Communiqué de presse 2026 Données historiques Indice du coût de l'emploi (ECI) : +0,9 % au 1er trimestre 2026 Communiqué de presse Données historiques Productivité : +0,3 %(r) au 1er trimestre 2026"
+        },
+        "ko": {
+          "title": "주요 경제 지표 최신 수치",
+          "summary": "소비자 물가 지수(CPI): 2026년 6월 -0.4% 보도 자료 과거 데이터 실업률: 2026년 6월 4.2% 보도 자료 과거 데이터 급여 고용: 2026년 6월 +57,000(p) 보도 자료 과거 데이터 평균 시간당 소득: 2026년 6월 +$0.13(p) 보도 자료 과거 데이터 생산자 물가 지수 - 최종 수요: -0.3%(p) 2026년 6월 보도 자료 과거 데이터 고용 비용 지수(ECI): 2026년 1분기에 +0.9% 보도 자료 과거 데이터 생산성: 2026년 1분기에 +0.3%(r)"
+        },
+        "de": {
+          "title": "Wichtige Wirtschaftsindikatoren Neueste Zahlen",
+          "summary": "Verbraucherpreisindex (VPI): -0,4 % im Juni 2026 Pressemitteilung Historische Daten Arbeitslosenquote: 4,2 % im Juni 2026 Pressemitteilung Historische Daten Lohn- und Gehaltsabrechnung: +57.000(p) im Juni 2026 Pressemitteilung Historische Daten Durchschnittlicher Stundenverdienst: +$0,13(p) im Juni 2026 Pressemitteilung Historische Daten Erzeugerpreisindex – Endnachfrage: -0,3 %(p) im Juni 2026 Pressemitteilung Historische Daten Beschäftigungskostenindex (ECI): +0,9 % im 1. Quartal 2026 Pressemitteilung Historische Daten Produktivität: +0,3 %(r) im 1. Quartal 2026"
         }
       }
     },
@@ -311,11 +311,15 @@
     {
       "title": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
-      "summary": "Minutes of the Board&#39;s discount rate meetings on June 8 and June 17, 2026",
+      "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
       "source": "fed_press",
-      "_translation_hash": "c0bba99d779a76730fedc1717a39d5f217845672d1c7d9c20e1ee2f8376fdbbb",
+      "_translation_hash": "c09a26cb3c65f8400f15c7e89dcc1a09c734bb0be0d32fb4ab108c5d9d6e34a1",
       "translations": {
+        "ja": {
+          "title": "2026年6月8日と6月17日の取締役会の割引率会議の議事録",
+          "summary": "2026年6月8日と6月17日の取締役会の割引率会議の議事録"
+        },
         "zh-CN": {
           "title": "2026年6月8日和2026年6月17日董事会贴现率会议纪要",
           "summary": "2026年6月8日和2026年6月17日董事会贴现率会议纪要"
@@ -324,9 +328,9 @@
           "title": "2026年6月8日及2026年6月17日董事會貼現率會議紀錄",
           "summary": "2026年6月8日及2026年6月17日董事會貼現率會議紀錄"
         },
-        "ja": {
-          "title": "2026年6月8日と6月17日の取締役会の割引率会議の議事録",
-          "summary": "2026年6月8日と6月17日の取締役会の割引率会議の議事録"
+        "fr": {
+          "title": "Procès-verbaux des séances d'actualisation du Conseil des 8 et 17 juin 2026",
+          "summary": "Procès-verbaux des séances d'actualisation du Conseil des 8 et 17 juin 2026"
         },
         "ko": {
           "title": "2026년 6월 8일 및 6월 17일 이사회 할인율 회의 회의록",
@@ -335,10 +339,6 @@
         "de": {
           "title": "Protokolle der Diskontsatzsitzungen des Vorstands am 8. und 17. Juni 2026",
           "summary": "Protokolle der Diskontsatzsitzungen des Vorstands am 8. und 17. Juni 2026"
-        },
-        "fr": {
-          "title": "Procès-verbaux des séances d'actualisation du Conseil des 8 et 17 juin 2026",
-          "summary": "Procès-verbaux des séances d'actualisation du Conseil des 8 et 17 juin 2026"
         }
       }
     },
@@ -617,11 +617,15 @@
     {
       "title": "Waller, Two Thoughts on the Transmission of Monetary Policy",
       "link": "https://www.federalreserve.gov/newsevents/speech/waller20260706a.htm",
-      "summary": "Speech At &quot;Challenges for Monetary Policy Transmission in a Changing World,&quot; a conference sponsored by the Bank of Italy for the research network initiated by the European System of Central Banks, Rome, Italy",
+      "summary": "Speech At \"Challenges for Monetary Policy Transmission in a Changing World,\" a conference sponsored by the Bank of Italy for the research network initiated by the European System of Central Banks, Rome, Italy",
       "published_at": "Mon, 6 Jul 2026 15:00:00 GMT",
       "source": "fed_speeches",
-      "_translation_hash": "5d54c0b0767994f20047071fbf6f1b0868f6bbc9edc40557cd47b37acbc6cb4d",
+      "_translation_hash": "366cfae5bbe7173ddebd5f02b00179a2d25e76432f50efd1a9c5c0fd87df49d1",
       "translations": {
+        "ja": {
+          "title": "ウォーラー、金融政策の伝達に関する2つの考え",
+          "summary": "欧州中央銀行システムが開始した研究ネットワークのためにイタリア銀行が主催する会議「変化する世界における金融政策の伝達への挑戦」（イタリア、ローマ）での講演"
+        },
         "zh-CN": {
           "title": "沃勒，关于货币政策传导的两种想法",
           "summary": "在“变化世界中货币政策传导的挑战”会议上的演讲，该会议由意大利银行为欧洲中央银行系统发起的研究网络主办，意大利罗马"
@@ -630,9 +634,9 @@
           "title": "沃勒，關於貨幣政策傳導的兩個想法",
           "summary": "在「變化世界中貨幣政策傳導的挑戰」會議上的演講，該會議由義大利銀行為歐洲中央銀行系統發起的研究網絡主辦，義大利羅馬"
         },
-        "ja": {
-          "title": "ウォーラー、金融政策の伝達に関する2つの考え",
-          "summary": "欧州中央銀行システムが開始した研究ネットワークのためにイタリア銀行が主催する会議「変化する世界における金融政策の伝達への挑戦」（イタリア、ローマ）での講演"
+        "fr": {
+          "title": "Waller, Deux réflexions sur la transmission de la politique monétaire",
+          "summary": "Discours prononcé lors de « Les défis de la transmission de la politique monétaire dans un monde en mutation », une conférence parrainée par la Banque d'Italie pour le réseau de recherche initié par le Système européen de banques centrales, Rome, Italie"
         },
         "ko": {
           "title": "월러, 통화정책 전달에 대한 두 가지 생각",
@@ -641,10 +645,6 @@
         "de": {
           "title": "Waller, Zwei Gedanken zur Transmission der Geldpolitik",
           "summary": "Rede auf der Konferenz „Challenges for Monetary Policy Transmission in a Changing World“, einer von der Bank von Italien gesponserten Konferenz für das vom Europäischen System der Zentralbanken initiierte Forschungsnetzwerk, Rom, Italien"
-        },
-        "fr": {
-          "title": "Waller, Deux réflexions sur la transmission de la politique monétaire",
-          "summary": "Discours prononcé lors de « Les défis de la transmission de la politique monétaire dans un monde en mutation », une conférence parrainée par la Banque d'Italie pour le réseau de recherche initié par le Système européen de banques centrales, Rome, Italie"
         }
       }
     },
@@ -719,11 +719,15 @@
     {
       "title": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm",
-      "summary": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies ",
+      "summary": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
       "published_at": "Tue, 30 Jun 2026 14:00:00 GMT",
       "source": "fed_press",
-      "_translation_hash": "3a846675249d7fd9a8eaf855543461c6676d9dc74fa4392d5b4492a4c3f39427",
+      "_translation_hash": "dbe3a4bbb4a4a6837c35c31177a140e9443e3402bc3b4d9da92f8f5e723199c9",
       "translations": {
+        "ja": {
+          "title": "政府機関は、困窮している、または十分なサービスを受けられていない非大都市の中所得地域のリストを発表",
+          "summary": "政府機関は、困窮している、または十分なサービスを受けられていない非大都市の中所得地域のリストを発表"
+        },
         "zh-CN": {
           "title": "各机构发布陷入困境或服务不足的非大都市中等收入地区名单",
           "summary": "各机构发布陷入困境或服务不足的非大都市中等收入地区名单"
@@ -732,9 +736,9 @@
           "title": "各機構發布陷入困境或服務不足的非大都會中等收入地區名單",
           "summary": "各機構發布陷入困境或服務不足的非大都會中等收入地區名單"
         },
-        "ja": {
-          "title": "政府機関は、困窮している、または十分なサービスを受けられていない非大都市の中所得地域のリストを発表",
-          "summary": "政府機関は、困窮している、または十分なサービスを受けられていない非大都市の中所得地域のリストを発表"
+        "fr": {
+          "title": "Les agences publient une liste des zones géographiques non métropolitaines à revenu intermédiaire en difficulté ou mal desservies",
+          "summary": "Les agences publient une liste des zones géographiques non métropolitaines à revenu intermédiaire en difficulté ou mal desservies"
         },
         "ko": {
           "title": "기관들은 어려움을 겪고 있거나 서비스가 부족한 비수도권 중소득 지역 목록을 공개합니다.",
@@ -743,10 +747,6 @@
         "de": {
           "title": "Agenturen veröffentlichen Liste notleidender oder unterversorgter nicht-städtischer Regionen mit mittlerem Einkommen",
           "summary": "Agenturen veröffentlichen Liste notleidender oder unterversorgter nicht-städtischer Regionen mit mittlerem Einkommen"
-        },
-        "fr": {
-          "title": "Les agences publient une liste des zones géographiques non métropolitaines à revenu intermédiaire en difficulté ou mal desservies",
-          "summary": "Les agences publient une liste des zones géographiques non métropolitaines à revenu intermédiaire en difficulté ou mal desservies"
         }
       }
     },
@@ -821,11 +821,15 @@
     {
       "title": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm",
-      "summary": "Federal Reserve Board&#39;s annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
+      "summary": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
       "published_at": "Wed, 24 Jun 2026 20:00:00 GMT",
       "source": "fed_press",
-      "_translation_hash": "98e7e47ef5fa1c4eb28a13764d415015b511376bbdf0839a9397b6dd60475a98",
+      "_translation_hash": "481f73328cdca7e0a685b0b8bea2f907d79b8e583f34107d14df6df0246ec76e",
       "translations": {
+        "ja": {
+          "title": "連邦準備理事会の年次銀行ストレステストでは、大手銀行が深刻な不況を乗り切るのに有利な立場にあり、家計や企業への融資を継続できることが確認された",
+          "summary": "連邦準備理事会の年次銀行ストレステストでは、大手銀行が深刻な不況を乗り切るのに有利な立場にあり、家計や企業への融資を継続できることが確認された"
+        },
         "zh-CN": {
           "title": "美联储年度银行压力测试证实，大型银行有能力抵御严重衰退，并能够继续向家庭和企业放贷",
           "summary": "美联储年度银行压力测试证实，大型银行有能力抵御严重衰退，并能够继续向家庭和企业放贷"
@@ -834,9 +838,9 @@
           "title": "聯準會年度銀行壓力測試證實，大型銀行有能力抵禦嚴重衰退，並且能夠繼續向家庭和企業放貸",
           "summary": "聯準會年度銀行壓力測試證實，大型銀行有能力抵禦嚴重衰退，並且能夠繼續向家庭和企業放貸"
         },
-        "ja": {
-          "title": "連邦準備理事会の年次銀行ストレステストでは、大手銀行が深刻な不況を乗り切るのに有利な立場にあり、家計や企業への融資を継続できることが確認された",
-          "summary": "連邦準備理事会の年次銀行ストレステストでは、大手銀行が深刻な不況を乗り切るのに有利な立場にあり、家計や企業への融資を継続できることが確認された"
+        "fr": {
+          "title": "Le test de résistance bancaire annuel de la Réserve fédérale confirme que les grandes banques sont bien placées pour résister à une grave récession et capables de continuer à prêter aux ménages et aux entreprises.",
+          "summary": "Le test de résistance bancaire annuel de la Réserve fédérale confirme que les grandes banques sont bien placées pour résister à une grave récession et capables de continuer à prêter aux ménages et aux entreprises."
         },
         "ko": {
           "title": "연방준비제도이사회(FRB)의 연례 은행 스트레스 테스트는 대형 은행들이 심각한 경기 침체를 극복할 수 있는 좋은 위치에 있고 가계와 기업에 계속 대출할 수 있음을 확인시켜 줍니다.",
@@ -845,10 +849,6 @@
         "de": {
           "title": "Der jährliche Bankenstresstest des Federal Reserve Board bestätigt, dass große Banken gut aufgestellt sind, um eine schwere Rezession zu überstehen und weiterhin Kredite an Haushalte und Unternehmen zu vergeben",
           "summary": "Der jährliche Bankenstresstest des Federal Reserve Board bestätigt, dass große Banken gut aufgestellt sind, um eine schwere Rezession zu überstehen und weiterhin Kredite an Haushalte und Unternehmen zu vergeben"
-        },
-        "fr": {
-          "title": "Le test de résistance bancaire annuel de la Réserve fédérale confirme que les grandes banques sont bien placées pour résister à une grave récession et capables de continuer à prêter aux ménages et aux entreprises.",
-          "summary": "Le test de résistance bancaire annuel de la Réserve fédérale confirme que les grandes banques sont bien placées pour résister à une grave récession et capables de continuer à prêter aux ménages et aux entreprises."
         }
       }
     },
@@ -1073,10 +1073,10 @@
     {
       "title": "Bowman, A Framework for Practical Monetary Policy Decision Making",
       "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260529a.htm",
-      "summary": "Speech At the Reykjav&iacute;k Economic Conference 2026, Central Bank of Iceland, Reykjav&iacute;k, Iceland",
+      "summary": "Speech At the Reykjavík Economic Conference 2026, Central Bank of Iceland, Reykjavík, Iceland",
       "published_at": "Fri, 29 May 2026 13:10:00 GMT",
       "source": "fed_speeches",
-      "_translation_hash": "b98d264e35b1c907c8edd753ab5d0c1aae537461a28465da9dca87867ac7623b"
+      "_translation_hash": "0e38c9ef350694511a63a5b5603042def2fa86614aa940111b2b454f52cb7841"
     },
     {
       "title": "Jefferson, Global Economic Developments and the U.S. Economy",
