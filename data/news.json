@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-23T06:27:25.440242+00:00",
+  "fetched_at": "2026-07-23T06:45:58.280214+00:00",
   "total": 39,
   "items": [
     {
@@ -7,273 +7,1092 @@
       "link": "https://www.cnbc.com/2026/07/23/silver-gold-prices-rebound-rally-correction.html",
       "summary": "Precious metals have rallied in recent days, but analysts say prices could face a difficult path back to all-time highs achieved earlier this year.",
       "published_at": "Thu, 23 Jul 2026 05:00:01 GMT",
-      "source": "cnbc"
+      "source": "cnbc",
+      "_translation_hash": "ea15ee1761f50a0e3390cfdc8df1ff9291e17c751dbbd8b2895676d494585617",
+      "translations": {
+        "zh-CN": {
+          "title": "白银和黄金价格谨慎反弹，但分析师认为持续反弹的希望渺茫",
+          "summary": "贵金属最近几天有所上涨，但分析师表示，价格可能面临重返今年早些时候创下的历史高点的艰难道路。"
+        },
+        "zh-TW": {
+          "title": "白銀和黃金價格謹慎反彈，但分析師認為持續反彈的希望渺茫",
+          "summary": "貴金屬最近幾天有所上漲，但分析師表示，價格可能面臨重返今年稍早創下的歷史高點的艱難道路。"
+        },
+        "ja": {
+          "title": "銀と金の価格は慎重な反発を示すが、アナリストらは持続的な上昇への期待は薄いとみている",
+          "summary": "貴金属価格はここ数日上昇しているが、アナリストらは、価格が今年初めに達成した史上最高値に戻るのは困難な道に直面する可能性があると述べている。"
+        },
+        "ko": {
+          "title": "은과 금 가격은 조심스러운 반등을 보였지만 분석가들은 지속적인 상승세에 대한 희망은 희박하다고 보고 있습니다.",
+          "summary": "최근 며칠 동안 귀금속 가격이 상승했지만 분석가들은 가격이 올해 초 달성한 사상 최고치로 돌아가는 어려운 길에 직면할 수 있다고 말합니다."
+        },
+        "de": {
+          "title": "Die Silber- und Goldpreise erholen sich vorsichtig – Analysten sehen jedoch nur geringe Hoffnungen auf eine nachhaltige Erholung",
+          "summary": "Edelmetalle haben sich in den letzten Tagen erholt, aber Analysten gehen davon aus, dass den Preisen ein schwieriger Weg zurück zu den Anfang des Jahres erreichten Allzeithochs bevorstehen könnte."
+        },
+        "fr": {
+          "title": "Les prix de l’argent et de l’or connaissent un rebond prudent – mais les analystes voient peu d’espoir d’un rebond durable",
+          "summary": "Les métaux précieux se sont redressés ces derniers jours, mais les analystes estiment que les prix pourraient avoir du mal à revenir aux sommets historiques atteints plus tôt cette année."
+        }
+      }
     },
     {
       "title": "John Paulson says we are in the early stages of a long-term bull market for gold",
       "link": "https://www.cnbc.com/2026/07/22/john-paulson-says-we-are-in-early-stages-of-a-long-term-bull-market-for-gold.html",
       "summary": "He said demand for bullion continues to broaden, led by central banks that have been adding to their reserves alongside growing private-sector interest.",
       "published_at": "Wed, 22 Jul 2026 22:06:49 GMT",
-      "source": "cnbc"
+      "source": "cnbc",
+      "_translation_hash": "b588a1574f5044cee1333e6ee4defe66f68b0c26115a8250f07ed86ed069408b",
+      "translations": {
+        "zh-CN": {
+          "title": "约翰·保尔森表示，我们正处于黄金长期牛市的早期阶段",
+          "summary": "他表示，在各国央行不断增加储备以及私营部门兴趣不断增长的带动下，对金条的需求持续扩大。"
+        },
+        "zh-TW": {
+          "title": "約翰·保爾森表示，我們正處於黃金長期牛市的早期階段",
+          "summary": "他表示，在各國央行不斷增加儲備以及私部門興趣不斷增長的帶動下，對金條的需求持續擴大。"
+        },
+        "ja": {
+          "title": "ジョン・ポールソン氏、現在は金の長期強気相場の初期段階にあると語る",
+          "summary": "同氏は、民間セクターの関心の高まりとともに準備金を積み増している中央銀行を中心に、地金の需要は拡大し続けていると述べた。"
+        },
+        "ko": {
+          "title": "존 폴슨은 우리가 금의 장기 강세장의 초기 단계에 있다고 말합니다.",
+          "summary": "그는 민간 부문의 관심이 높아지면서 중앙은행들이 보유고를 늘리면서 금괴에 대한 수요가 계속 확대되고 있다고 말했습니다."
+        },
+        "de": {
+          "title": "John Paulson sagt, wir befinden uns im Anfangsstadium eines langfristigen Bullenmarktes für Gold",
+          "summary": "Er sagte, die Nachfrage nach Goldbarren nehme weiter zu, angeführt von den Zentralbanken, die neben dem wachsenden Interesse des privaten Sektors ihre Reserven aufgestockt hätten."
+        },
+        "fr": {
+          "title": "John Paulson dit que nous sommes aux premiers stades d'un marché haussier à long terme pour l'or",
+          "summary": "Il a déclaré que la demande de lingots continue de s'élargir, sous l'impulsion des banques centrales qui ont augmenté leurs réserves parallèlement à l'intérêt croissant du secteur privé."
+        }
+      }
     },
     {
       "title": "Kevin Warsh has homed in on three key phrases. How Fed watchers interpret them",
       "link": "https://www.cnbc.com/2026/07/22/kevin-warsh-has-homed-in-on-three-key-phrases-how-fed-watchers-interpret-them.html",
       "summary": "In five public appearances, Warsh has used the phrase \"family fight\" 13 times, returning to \"first principles\" 11 times and \"inflation is a choice\" for the Fed six times.",
       "published_at": "Wed, 22 Jul 2026 16:57:55 GMT",
-      "source": "cnbc"
+      "source": "cnbc",
+      "_translation_hash": "720ca057d079735b2d192169a1e137ecd55b360c53c498afb6ad4830e6273676",
+      "translations": {
+        "zh-CN": {
+          "title": "凯文·沃什 (Kevin Warsh) 重点关注了三个关键短语。美联储观察人士如何解读它们",
+          "summary": "在五次公开露面中，沃什13次使用“家庭斗争”一词，11次回归“第一原则”，6次“通胀是美联储的选择”。"
+        },
+        "zh-TW": {
+          "title": "凱文沃什 (Kevin Warsh) 重點關注了三個關鍵短語。聯準會觀察家如何解讀它們",
+          "summary": "在五次公開露面中，沃什13次使用“家庭鬥爭”一詞，11次回歸“第一原則”，6次“通膨是美聯儲的選擇”。"
+        },
+        "ja": {
+          "title": "ケビン・ウォーシュは 3 つの重要なフレーズに焦点を当てました。 FRBウォッチャーはそれをどう解釈するか",
+          "summary": "ウォーシュ氏は5回の公の場で「家族の争い」という言葉を13回使用し、「第一原則」に立ち返った回数が11回、FRBにとって「インフレは選択だ」が6回だった。"
+        },
+        "ko": {
+          "title": "Kevin Warsh는 세 가지 핵심 문구를 강조했습니다. 연준 감시자들이 이를 해석하는 방법",
+          "summary": "5번의 공개 석상에서 워시는 \"가족 싸움\"이라는 표현을 13번 사용했고, \"첫 번째 원칙\"으로 11번, 연준이 \"인플레이션은 선택이다\"로 6번이나 사용했습니다."
+        },
+        "de": {
+          "title": "Kevin Warsh hat sich auf drei Schlüsselbegriffe konzentriert. Wie Fed-Beobachter sie interpretieren",
+          "summary": "Bei fünf öffentlichen Auftritten hat Warsh 13 Mal den Ausdruck „Familienstreit“ verwendet, 11 Mal auf „erste Prinzipien“ zurückgegriffen und sechs Mal „Inflation ist eine Wahl“ für die Fed."
+        },
+        "fr": {
+          "title": "Kevin Warsh s'est concentré sur trois phrases clés. Comment les observateurs de la Fed les interprètent",
+          "summary": "Lors de cinq apparitions publiques, Warsh a utilisé l'expression « combat familial » à 13 reprises, revenant aux « premiers principes » à 11 reprises et « l'inflation est un choix » pour la Fed à six reprises."
+        }
+      }
     },
     {
       "title": "Major Economic Indicators Latest Numbers",
       "link": "https://www.bls.gov/bls/",
       "summary": "\t\t\t\t\t\t\t\t\t\t\t\t\tConsumer Price Index (CPI):\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t-0.4%  in Jun 2026\t\t\t\t\t\t\t\t\t\t\t\t\tNews Release\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://data.bls.gov/pdq/SurveyOutputServlet?data_tool=latest_numbers&amp;series_id=CUSR0000SA0&amp;output_view=pct_",
       "published_at": "Wed, 22 Jul 2026 12:12:18 -0400",
-      "source": "bls"
+      "source": "bls",
+      "_translation_hash": "6923d1edd501230f570784369182374d69b4e2d3d3906ac93187d27e8d21a107",
+      "translations": {
+        "zh-CN": {
+          "title": "主要经济指标最新数据",
+          "summary": "消费者价格指数（CPI）：\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2026 年 6 月新闻稿 -0.4%\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://data.bls.gov/pdq/SurveyOutputServlet?data_tool=latest_numbers&series_id=CUSR0000SA0&output_view=pct_"
+        },
+        "zh-TW": {
+          "title": "主要經濟指標最新數據",
+          "summary": "消費者物價指數（CPI）：\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2026 年 6 月新聞稿 -0.4%\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://data.bls.gov/pdq/SurveyOutputServlet?data_tool=latest_numbers&series_id=CUSR0000SA0&output_view=pct_"
+        },
+        "ja": {
+          "title": "主要経済指標の最新数値",
+          "summary": "消費者物価指数 (CPI):\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t2026 年 6 月は -0.4% ニュースリリース\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://data.bls.gov/pdq/SurveyOutputServlet?data_tool=latest_numbers&series_id=CUSR0000SA0&output_view=pct_"
+        },
+        "ko": {
+          "title": "주요 경제 지표 최신 수치",
+          "summary": "소비자물가지수(CPI):\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t-0.4%(2026년 6월 보도 자료)\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://data.bls.gov/pdq/SurveyOutputServlet?data_tool=latest_numbers&series_id=CUSR0000SA0&output_view=pct_"
+        },
+        "de": {
+          "title": "Wichtige Wirtschaftsindikatoren Neueste Zahlen",
+          "summary": "Verbraucherpreisindex (VPI):\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t-0,4 % in der Pressemitteilung vom Juni 2026\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://data.bls.gov/pdq/SurveyOutputServlet?data_tool=latest_numbers&series_id=CUSR0000SA0&output_view=pct_"
+        },
+        "fr": {
+          "title": "Principaux indicateurs économiques Derniers chiffres",
+          "summary": "Indice des prix à la consommation (IPC) :\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t-0,4% dans le communiqué de presse de juin 2026\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https://data.bls.gov/pdq/SurveyOutputServlet?data_tool=latest_numbers&series_id=CUSR0000SA0&output_view=pct_"
+        }
+      }
     },
     {
       "title": "Jefferson, Navigating Economic Shocks: A Monetary Policymaker’s Perspective",
       "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260716a.htm",
       "summary": "Speech At the Stanford Institute for Economic Policy Research, Stanford University, Stanford, California",
       "published_at": "Thu, 16 Jul 2026 23:00:00 GMT",
-      "source": "fed_speeches"
+      "source": "fed_speeches",
+      "_translation_hash": "6d29eb2f0ab1b25137c61233ab111f88fcd283769ced4a9f3a5a6eedf2a51bdf",
+      "translations": {
+        "zh-CN": {
+          "title": "杰斐逊，应对经济冲击：货币政策制定者的视角",
+          "summary": "在加利福尼亚州斯坦福大学斯坦福经济政策研究所的演讲"
+        },
+        "zh-TW": {
+          "title": "傑佛遜，應對經濟衝擊：貨幣政策制定者的視角",
+          "summary": "在加州史丹佛大學史丹佛經濟政策研究所的演講"
+        },
+        "ja": {
+          "title": "ジェファーソン、経済ショックを乗り越える：金融政策立案者の視点",
+          "summary": "カリフォルニア州スタンフォードのスタンフォード大学スタンフォード経済政策研究所での講演"
+        },
+        "ko": {
+          "title": "제퍼슨, 경제적 충격 탐색: 통화 정책 입안자의 관점",
+          "summary": "캘리포니아주 스탠포드 소재 스탠포드대학교 경제정책연구소 스탠포드 연설"
+        },
+        "de": {
+          "title": "Jefferson, Navigating Economic Shocks: Die Perspektive eines geldpolitischen Entscheidungsträgers",
+          "summary": "Rede am Stanford Institute for Economic Policy Research, Stanford University, Stanford, Kalifornien"
+        },
+        "fr": {
+          "title": "Jefferson, Faire face aux chocs économiques : le point de vue d’un décideur monétaire",
+          "summary": "Discours prononcé au Stanford Institute for Economic Policy Research, Stanford University, Stanford, Californie"
+        }
+      }
     },
     {
       "title": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
       "summary": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
       "published_at": "Thu, 16 Jul 2026 18:00:00 GMT",
-      "source": "fed_press"
+      "source": "fed_press",
+      "_translation_hash": "53431b1a020819bc01ff005be04a33cb1d208b9b3e5bcb4e9025a7e83b87ffc5",
+      "translations": {
+        "zh-CN": {
+          "title": "各机构就银行检查期间高度敏感信息的处理发表联合声明",
+          "summary": "各机构就银行检查期间高度敏感信息的处理发表联合声明"
+        },
+        "zh-TW": {
+          "title": "各機構就銀行檢查期間高度敏感資訊的處理發表聯合聲明",
+          "summary": "各機構就銀行檢查期間高度敏感資訊的處理發表聯合聲明"
+        },
+        "ja": {
+          "title": "銀行審査における機密性の高い情報の取り扱いに関する政府機関が共同声明を発表",
+          "summary": "銀行審査における機密性の高い情報の取り扱いに関する政府機関が共同声明を発表"
+        },
+        "ko": {
+          "title": "금융기관, 은행 조사 중 매우 민감한 정보 처리에 관한 공동성명 발표",
+          "summary": "금융기관, 은행 조사 중 매우 민감한 정보 처리에 관한 공동성명 발표"
+        },
+        "de": {
+          "title": "Behörden geben gemeinsame Stellungnahme zum Umgang mit hochsensiblen Informationen bei Bankprüfungen ab",
+          "summary": "Behörden geben gemeinsame Stellungnahme zum Umgang mit hochsensiblen Informationen bei Bankprüfungen ab"
+        },
+        "fr": {
+          "title": "Les agences publient une déclaration commune sur le traitement des informations hautement sensibles lors des examens bancaires",
+          "summary": "Les agences publient une déclaration commune sur le traitement des informations hautement sensibles lors des examens bancaires"
+        }
+      }
     },
     {
       "title": "Federal Reserve Board issues enforcement action with former chief lending officer of Heritage State Bank",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260716a.htm",
       "summary": "Federal Reserve Board issues enforcement action with former chief lending officer of Heritage State Bank",
       "published_at": "Thu, 16 Jul 2026 15:00:00 GMT",
-      "source": "fed_press"
+      "source": "fed_press",
+      "_translation_hash": "c52d4d945f99e553fb61773fa451484abb62c3809883e0cf6360fcc05cfc928c",
+      "translations": {
+        "zh-CN": {
+          "title": "美联储对传统州立银行前首席贷款官采取执法行动",
+          "summary": "美联储对传统州立银行前首席贷款官采取执法行动"
+        },
+        "zh-TW": {
+          "title": "聯準會對傳統州立銀行前首席貸款官採取執法行動",
+          "summary": "聯準會對傳統州立銀行前首席貸款官採取執法行動"
+        },
+        "ja": {
+          "title": "連邦準備理事会、ヘリテージ州立銀行の元最高融資責任者に執行措置を発動",
+          "summary": "連邦準備理事会、ヘリテージ州立銀行の元最高融資責任者に執行措置を発動"
+        },
+        "ko": {
+          "title": "연방준비제도이사회(Federal Reserve Board)는 헤리티지 주립은행(Heritage State Bank)의 전 최고 대출 책임자에게 집행 조치를 취했습니다.",
+          "summary": "연방준비제도이사회(Federal Reserve Board)는 헤리티지 주립은행(Heritage State Bank)의 전 최고 대출 책임자에게 집행 조치를 취했습니다."
+        },
+        "de": {
+          "title": "Das Federal Reserve Board erlässt eine Durchsetzungsklage gegen den ehemaligen Chief Lending Officer der Heritage State Bank",
+          "summary": "Das Federal Reserve Board erlässt eine Durchsetzungsklage gegen den ehemaligen Chief Lending Officer der Heritage State Bank"
+        },
+        "fr": {
+          "title": "La Réserve fédérale prend des mesures coercitives contre l'ancien directeur des prêts de la Heritage State Bank",
+          "summary": "La Réserve fédérale prend des mesures coercitives contre l'ancien directeur des prêts de la Heritage State Bank"
+        }
+      }
     },
     {
       "title": "Cook, Economic Outlook",
       "link": "https://www.federalreserve.gov/newsevents/speech/cook20260715a.htm",
       "summary": "Speech At The Exchequer Club of Washington D.C., Washington, D.C.",
       "published_at": "Wed, 15 Jul 2026 17:00:00 GMT",
-      "source": "fed_speeches"
+      "source": "fed_speeches",
+      "_translation_hash": "fe80970e60f60f449a9fb936200c1686d54bb4e04279621c532e6830839a1e41",
+      "translations": {
+        "zh-CN": {
+          "title": "库克，《经济展望》",
+          "summary": "在华盛顿特区财政俱乐部的演讲，华盛顿特区"
+        },
+        "zh-TW": {
+          "title": "庫克，《經濟展望》",
+          "summary": "在華盛頓特區財政俱樂部的演講，華盛頓特區"
+        },
+        "ja": {
+          "title": "クック氏、経済見通し",
+          "summary": "ワシントンD.C.の財務省ワシントンD.C.クラブでのスピーチ"
+        },
+        "ko": {
+          "title": "쿡, 경제전망",
+          "summary": "워싱턴 D.C.의 재무 클럽(Exchequer Club)에서의 연설, 워싱턴 D.C."
+        },
+        "de": {
+          "title": "Cook, Wirtschaftsausblick",
+          "summary": "Rede im Exchequer Club of Washington D.C., Washington, D.C."
+        },
+        "fr": {
+          "title": "Cook, Perspectives économiques",
+          "summary": "Discours prononcé à l'Exchequer Club de Washington D.C., Washington, D.C."
+        }
+      }
     },
     {
       "title": "Bowman, Responsible Innovation and Financial Inclusion",
       "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260714a.htm",
       "summary": "Speech At “Next-Gen Financial Inclusion,” the third annual Financial Inclusion Conference hosted by the Federal Reserve Board, Washington, D.C. (via pre-recorded video)",
       "published_at": "Tue, 14 Jul 2026 18:55:00 GMT",
-      "source": "fed_speeches"
+      "source": "fed_speeches",
+      "_translation_hash": "c4c1a3d12f6985dd4d0cfb380179af5fc9a01b9a71b08d6df226bc561c7507a6",
+      "translations": {
+        "zh-CN": {
+          "title": "鲍曼，负责任的创新和金融包容性",
+          "summary": "在华盛顿特区联邦储备委员会主办的第三届年度金融普惠大会“下一代金融普惠”上的演讲（通过预先录制的视频）"
+        },
+        "zh-TW": {
+          "title": "鮑曼，負責任的創新和金融包容性",
+          "summary": "在華盛頓特區聯邦儲備委員會主辦的第三屆年度金融普惠大會「下一代金融普惠」上的演講（透過預先錄製的影片）"
+        },
+        "ja": {
+          "title": "ボーマン氏、責任あるイノベーションと金融包摂",
+          "summary": "ワシントンD.C.の連邦準備理事会が主催する第3回年次金融包摂会議「次世代金融包摂」でのスピーチ（事前録画ビデオによる）"
+        },
+        "ko": {
+          "title": "Bowman, 책임 있는 혁신 및 금융 포용",
+          "summary": "워싱턴 D.C.에서 열린 연방준비제도이사회(Federal Reserve Board)가 주최한 제3차 연례 금융포용 컨퍼런스인 “차세대 금융포용(Next-Gen Financial Inclusion)”에서 연설(사전 녹화된 영상을 통해)"
+        },
+        "de": {
+          "title": "Bowman, Verantwortungsvolle Innovation und finanzielle Inklusion",
+          "summary": "Rede bei „Next-Gen Financial Inclusion“, der dritten jährlichen Financial Inclusion Conference, veranstaltet vom Federal Reserve Board, Washington, D.C. (über vorab aufgezeichnetes Video)"
+        },
+        "fr": {
+          "title": "Bowman, Innovation responsable et inclusion financière",
+          "summary": "Discours lors de « Next-Gen Financial Inclusion », la troisième conférence annuelle sur l'inclusion financière organisée par la Réserve fédérale, Washington, D.C. (via vidéo préenregistrée)"
+        }
+      }
     },
     {
       "title": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board&#39;s discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_press"
+      "source": "fed_press",
+      "_translation_hash": "c0bba99d779a76730fedc1717a39d5f217845672d1c7d9c20e1ee2f8376fdbbb",
+      "translations": {
+        "zh-CN": {
+          "title": "2026年6月8日和2026年6月17日董事会贴现率会议纪要",
+          "summary": "2026年6月8日和2026年6月17日董事会贴现率会议纪要"
+        },
+        "zh-TW": {
+          "title": "2026年6月8日及2026年6月17日董事會貼現率會議紀錄",
+          "summary": "2026年6月8日及2026年6月17日董事會貼現率會議紀錄"
+        },
+        "ja": {
+          "title": "2026年6月8日と6月17日の取締役会の割引率会議の議事録",
+          "summary": "2026年6月8日と6月17日の取締役会の割引率会議の議事録"
+        },
+        "ko": {
+          "title": "2026년 6월 8일 및 6월 17일 이사회 할인율 회의 회의록",
+          "summary": "2026년 6월 8일 및 6월 17일 이사회 할인율 회의 회의록"
+        },
+        "de": {
+          "title": "Protokolle der Diskontsatzsitzungen des Vorstands am 8. und 17. Juni 2026",
+          "summary": "Protokolle der Diskontsatzsitzungen des Vorstands am 8. und 17. Juni 2026"
+        },
+        "fr": {
+          "title": "Procès-verbaux des séances d'actualisation du Conseil des 8 et 17 juin 2026",
+          "summary": "Procès-verbaux des séances d'actualisation du Conseil des 8 et 17 juin 2026"
+        }
+      }
     },
     {
       "title": "Barr, Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?",
       "link": "https://www.federalreserve.gov/newsevents/speech/barr20260714a.htm",
       "summary": "Speech At “Next-Gen Financial Inclusion,” the third annual Financial Inclusion Conference hosted by the Federal Reserve Board",
       "published_at": "Tue, 14 Jul 2026 16:40:00 GMT",
-      "source": "fed_speeches"
+      "source": "fed_speeches",
+      "_translation_hash": "4e45fae278ef0bb5d7b4496612864fa8443a8796916e14adfc7e6b05cbaacd2e",
+      "translations": {
+        "zh-CN": {
+          "title": "巴尔，人工智能会广泛提高生活水平或推动收入和财富不平等吗？",
+          "summary": "在美联储主办的第三届普惠金融年度会议“下一代普惠金融”上的演讲"
+        },
+        "zh-TW": {
+          "title": "巴爾，人工智慧會廣泛提高生活水平或推動收入和財富不平等嗎？",
+          "summary": "在聯準會主辦的第三屆普惠金融年度會議「下一代普惠金融」上的演講"
+        },
+        "ja": {
+          "title": "バー氏、人工知能は生活水準を広範囲に引き上げるのか、それとも所得や富の不平等を促進するのか?",
+          "summary": "連邦準備制度理事会主催の第3回金融包摂年次会議「次世代金融包摂」での講演"
+        },
+        "ko": {
+          "title": "Barr, 인공 지능이 생활 수준을 광범위하게 향상시킬 것인가, 아니면 소득과 부의 불평등을 촉진할 것인가?",
+          "summary": "연방준비제도이사회(FRB)가 주최한 제3차 연례 금융포용 컨퍼런스 “차세대 금융포용”에서 연설"
+        },
+        "de": {
+          "title": "Barr, wird künstliche Intelligenz den Lebensstandard allgemein erhöhen oder die Einkommens- und Vermögensungleichheit verstärken?",
+          "summary": "Rede bei „Next-Gen Financial Inclusion“, der dritten jährlichen Konferenz zur finanziellen Integration, die vom Federal Reserve Board veranstaltet wird"
+        },
+        "fr": {
+          "title": "Barr, L'intelligence artificielle augmentera-t-elle largement le niveau de vie ou entraînera-t-elle des inégalités de revenus et de richesse ?",
+          "summary": "Discours lors de « Next-Gen Financial Inclusion », la troisième conférence annuelle sur l'inclusion financière organisée par la Réserve fédérale"
+        }
+      }
     },
     {
       "title": "Waller, Monetary Policy at a Crossroads",
       "link": "https://www.federalreserve.gov/newsevents/speech/waller20260713a.htm",
       "summary": "Speech At the New York Association for Business Economics, New York, New York",
       "published_at": "Mon, 13 Jul 2026 16:30:00 GMT",
-      "source": "fed_speeches"
+      "source": "fed_speeches",
+      "_translation_hash": "69f1b86d0a3edeb5410849d51dd428bc534cbc3d32391dc4a389942a3e2c146b",
+      "translations": {
+        "zh-CN": {
+          "title": "沃勒，货币政策处于十字路口",
+          "summary": "在纽约商业经济协会的演讲，纽约，纽约"
+        },
+        "zh-TW": {
+          "title": "沃勒，貨幣政策處於十字路口",
+          "summary": "在紐約商業經濟協會的演講，紐約，紐約"
+        },
+        "ja": {
+          "title": "ウォーラー氏、岐路に立つ金融政策",
+          "summary": "ニューヨーク州ニューヨークのニューヨーク経営経済協会での講演"
+        },
+        "ko": {
+          "title": "월러, 기로에 선 통화정책",
+          "summary": "뉴욕 비즈니스 경제 협회(New York Association for Business Economics)에서 연설(뉴욕, 뉴욕)"
+        },
+        "de": {
+          "title": "Waller, Geldpolitik am Scheideweg",
+          "summary": "Rede bei der New York Association for Business Economics, New York, New York"
+        },
+        "fr": {
+          "title": "Waller, La politique monétaire à la croisée des chemins",
+          "summary": "Discours à la New York Association for Business Economics, New York, New York"
+        }
+      }
     },
     {
       "title": "Bowman, Modernizing Financial Regulation",
       "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260713a.htm",
       "summary": "Speech At a Bank Policy Institute London Conference, London, United Kingdom",
       "published_at": "Mon, 13 Jul 2026 09:25:00 GMT",
-      "source": "fed_speeches"
+      "source": "fed_speeches",
+      "_translation_hash": "cb066f2074ca98535faafc584220193f5ded7ff689c112d7c9bea00776eafd67",
+      "translations": {
+        "zh-CN": {
+          "title": "鲍曼，《金融监管现代化》",
+          "summary": "在英国伦敦银行政策研究所伦敦会议上的演讲"
+        },
+        "zh-TW": {
+          "title": "鮑曼，《金融監理現代化》",
+          "summary": "在英國倫敦銀行政策研究所倫敦會議的演講"
+        },
+        "ja": {
+          "title": "ボウマン氏、金融規制の近代化",
+          "summary": "英国ロンドンの銀行政策研究所ロンドン会議での講演"
+        },
+        "ko": {
+          "title": "Bowman, 금융 규제 현대화",
+          "summary": "영국 런던 은행정책연구소 런던 컨퍼런스에서의 연설"
+        },
+        "de": {
+          "title": "Bowman, Modernisierung der Finanzregulierung",
+          "summary": "Rede auf einer Konferenz des Bank Policy Institute London, London, Vereinigtes Königreich"
+        },
+        "fr": {
+          "title": "Bowman, Moderniser la réglementation financière",
+          "summary": "Discours prononcé lors d'une conférence du Bank Policy Institute à Londres, Londres, Royaume-Uni"
+        }
+      }
     },
     {
       "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_press"
+      "source": "fed_press",
+      "_translation_hash": "db09f66de63cb0b059d2c8f1e934f2297fdcf0cfb98f4d5c3f3ebd31c649b786",
+      "translations": {
+        "zh-CN": {
+          "title": "美联储宣布其工作组的领导和目标，以推进货币政策的实施",
+          "summary": "美联储宣布其工作组的领导和目标，以推进货币政策的实施"
+        },
+        "zh-TW": {
+          "title": "聯準會宣布其工作小組的領導和目標，以推動貨幣政策的實施",
+          "summary": "聯準會宣布其工作小組的領導和目標，以推動貨幣政策的實施"
+        },
+        "ja": {
+          "title": "FRB、金融政策運営を推進するためのタスクフォースのリーダーシップと目標を発表",
+          "summary": "FRB、金融政策運営を推進するためのタスクフォースのリーダーシップと目標を発表"
+        },
+        "ko": {
+          "title": "연준은 통화 정책 수행을 진전시키기 위한 태스크 포스의 리더십과 목표를 발표합니다.",
+          "summary": "연준은 통화 정책 수행을 진전시키기 위한 태스크 포스의 리더십과 목표를 발표합니다."
+        },
+        "de": {
+          "title": "Die Federal Reserve gibt die Führung und Ziele ihrer Task Forces bekannt, um die Durchführung der Geldpolitik voranzutreiben",
+          "summary": "Die Federal Reserve gibt die Führung und Ziele ihrer Task Forces bekannt, um die Durchführung der Geldpolitik voranzutreiben"
+        },
+        "fr": {
+          "title": "La Réserve fédérale annonce le leadership et les objectifs de ses groupes de travail pour faire progresser la conduite de la politique monétaire",
+          "summary": "La Réserve fédérale annonce le leadership et les objectifs de ses groupes de travail pour faire progresser la conduite de la politique monétaire"
+        }
+      }
     },
     {
       "title": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm",
       "summary": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
       "published_at": "Thu, 9 Jul 2026 15:00:00 GMT",
-      "source": "fed_press"
+      "source": "fed_press",
+      "_translation_hash": "5bfa0821e784db8886216ac21f878a76852e711d32b3e1b4f5a651e43d40d658",
+      "translations": {
+        "zh-CN": {
+          "title": "美联储对 TS Banking Group, Inc. 和 TS Contrarian Bancshares, Inc. 采取强制执行行动",
+          "summary": "美联储对 TS Banking Group, Inc. 和 TS Contrarian Bancshares, Inc. 采取强制执行行动"
+        },
+        "zh-TW": {
+          "title": "聯準會對 TS Banking Group, Inc. 和 TS Contrarian Bancshares, Inc. 採取強制執行行動",
+          "summary": "聯準會對 TS Banking Group, Inc. 和 TS Contrarian Bancshares, Inc. 採取強制執行行動"
+        },
+        "ja": {
+          "title": "連邦準備制度理事会は、TS Banking Group, Inc. および TS Contrarian Bancshares, Inc. に対して執行措置を発動しました。",
+          "summary": "連邦準備制度理事会は、TS Banking Group, Inc. および TS Contrarian Bancshares, Inc. に対して執行措置を発動しました。"
+        },
+        "ko": {
+          "title": "연방준비제도이사회(Federal Reserve Board)는 TS Banking Group, Inc. 및 TS Contrarian Bancshares, Inc.와 함께 집행 조치를 취합니다.",
+          "summary": "연방준비제도이사회(Federal Reserve Board)는 TS Banking Group, Inc. 및 TS Contrarian Bancshares, Inc.와 함께 집행 조치를 취합니다."
+        },
+        "de": {
+          "title": "Federal Reserve Board erlässt Durchsetzungsmaßnahmen gegen TS Banking Group, Inc. und TS Contrarian Bancshares, Inc.",
+          "summary": "Federal Reserve Board erlässt Durchsetzungsmaßnahmen gegen TS Banking Group, Inc. und TS Contrarian Bancshares, Inc."
+        },
+        "fr": {
+          "title": "La Réserve fédérale prend des mesures coercitives contre TS Banking Group, Inc. et TS Contrarian Bancshares, Inc.",
+          "summary": "La Réserve fédérale prend des mesures coercitives contre TS Banking Group, Inc. et TS Contrarian Bancshares, Inc."
+        }
+      }
     },
     {
       "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
       "summary": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
       "published_at": "Wed, 8 Jul 2026 18:00:00 GMT",
-      "source": "fed_press"
+      "source": "fed_press",
+      "_translation_hash": "34ec650653fe32efaea5d06c1c55c3a9cd6e9e7e5fb94d61d1fe47ddcc221da6",
+      "translations": {
+        "zh-CN": {
+          "title": "联邦公开市场委员会会议纪要，2026 年 6 月 16 日至 17 日",
+          "summary": "联邦公开市场委员会会议纪要，2026 年 6 月 16 日至 17 日"
+        },
+        "zh-TW": {
+          "title": "聯邦公開市場委員會會議紀要，2026 年 6 月 16 日至 17 日",
+          "summary": "聯邦公開市場委員會會議紀要，2026 年 6 月 16 日至 17 日"
+        },
+        "ja": {
+          "title": "連邦公開市場委員会の議事録、2026 年 6 月 16 ～ 17 日",
+          "summary": "連邦公開市場委員会の議事録、2026 年 6 月 16 ～ 17 日"
+        },
+        "ko": {
+          "title": "연방공개시장위원회 회의록, 2026년 6월 16~17일",
+          "summary": "연방공개시장위원회 회의록, 2026년 6월 16~17일"
+        },
+        "de": {
+          "title": "Protokoll des Federal Open Market Committee, 16.-17. Juni 2026",
+          "summary": "Protokoll des Federal Open Market Committee, 16.-17. Juni 2026"
+        },
+        "fr": {
+          "title": "Procès-verbal du Comité fédéral de l'open market, 16-17 juin 2026",
+          "summary": "Procès-verbal du Comité fédéral de l'open market, 16-17 juin 2026"
+        }
+      }
     },
     {
       "title": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260707a.htm",
       "summary": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs",
       "published_at": "Tue, 7 Jul 2026 19:00:00 GMT",
-      "source": "fed_press"
+      "source": "fed_press",
+      "_translation_hash": "5386e59d3eca1b3f2513896184b3ef95a0210bb0a63d704c331808bf7e9ed9e3",
+      "translations": {
+        "zh-CN": {
+          "title": "美联储要求就修改银行维持反洗钱计划要求的提案发表评论",
+          "summary": "美联储要求就修改银行维持反洗钱计划要求的提案发表评论"
+        },
+        "zh-TW": {
+          "title": "聯準會要求就修改銀行維持反洗錢計畫要求的提案發表評論",
+          "summary": "聯準會要求就修改銀行維持反洗錢計畫要求的提案發表評論"
+        },
+        "ja": {
+          "title": "連邦準備制度理事会、銀行に対するマネーロンダリング対策プログラム維持の要件を修正する提案についてコメントを求める",
+          "summary": "連邦準備制度理事会、銀行に対するマネーロンダリング対策プログラム維持の要件を修正する提案についてコメントを求める"
+        },
+        "ko": {
+          "title": "연방준비제도이사회(Federal Reserve Board)는 은행이 자금세탁 방지 프로그램을 유지하도록 요구 사항을 개정하는 제안에 대한 의견을 요청합니다.",
+          "summary": "연방준비제도이사회(Federal Reserve Board)는 은행이 자금세탁 방지 프로그램을 유지하도록 요구 사항을 개정하는 제안에 대한 의견을 요청합니다."
+        },
+        "de": {
+          "title": "Das Federal Reserve Board bittet um Stellungnahme zu einem Vorschlag zur Änderung seiner Anforderungen an Banken zur Aufrechterhaltung von Anti-Geldwäsche-Programmen",
+          "summary": "Das Federal Reserve Board bittet um Stellungnahme zu einem Vorschlag zur Änderung seiner Anforderungen an Banken zur Aufrechterhaltung von Anti-Geldwäsche-Programmen"
+        },
+        "fr": {
+          "title": "La Réserve fédérale sollicite des commentaires sur une proposition visant à modifier ses exigences obligeant les banques à maintenir des programmes de lutte contre le blanchiment d'argent",
+          "summary": "La Réserve fédérale sollicite des commentaires sur une proposition visant à modifier ses exigences obligeant les banques à maintenir des programmes de lutte contre le blanchiment d'argent"
+        }
+      }
     },
     {
       "title": "Bowman, Opening Remarks on Sound Practices for Artificial Intelligence",
       "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260707a.htm",
       "summary": "Speech At the Financial Stability Board Virtual Outreach Event",
       "published_at": "Tue, 7 Jul 2026 11:00:00 GMT",
-      "source": "fed_speeches"
+      "source": "fed_speeches",
+      "_translation_hash": "e1014e8f851be1f201d1eda37a228c0c2a0415978b02832f6ff3135a945e5580",
+      "translations": {
+        "zh-CN": {
+          "title": "鲍曼，关于人工智能良好实践的开场白",
+          "summary": "在金融稳定委员会虚拟外展活动上的讲话"
+        },
+        "zh-TW": {
+          "title": "鮑曼，關於人工智慧良好實踐的開場白",
+          "summary": "在金融穩定委員會虛擬外展活動的講話"
+        },
+        "ja": {
+          "title": "ボウマン氏、人工知能の健全な実践に関する冒頭の挨拶",
+          "summary": "金融安定理事会のバーチャルアウトリーチイベントでのスピーチ"
+        },
+        "ko": {
+          "title": "Bowman, 인공 지능의 건전한 관행에 대한 개회사",
+          "summary": "금융안정위원회 가상 지원 행사에서의 연설"
+        },
+        "de": {
+          "title": "Bowman, Eröffnungsrede zu soliden Praktiken für künstliche Intelligenz",
+          "summary": "Rede bei der virtuellen Outreach-Veranstaltung des Financial Stability Board"
+        },
+        "fr": {
+          "title": "Bowman, discours d'ouverture sur les bonnes pratiques en matière d'intelligence artificielle",
+          "summary": "Discours lors de l'événement de sensibilisation virtuel du Conseil de stabilité financière"
+        }
+      }
     },
     {
       "title": "Waller, Two Thoughts on the Transmission of Monetary Policy",
       "link": "https://www.federalreserve.gov/newsevents/speech/waller20260706a.htm",
       "summary": "Speech At &quot;Challenges for Monetary Policy Transmission in a Changing World,&quot; a conference sponsored by the Bank of Italy for the research network initiated by the European System of Central Banks, Rome, Italy",
       "published_at": "Mon, 6 Jul 2026 15:00:00 GMT",
-      "source": "fed_speeches"
+      "source": "fed_speeches",
+      "_translation_hash": "5d54c0b0767994f20047071fbf6f1b0868f6bbc9edc40557cd47b37acbc6cb4d",
+      "translations": {
+        "zh-CN": {
+          "title": "沃勒，关于货币政策传导的两种想法",
+          "summary": "在“变化世界中货币政策传导的挑战”会议上的演讲，该会议由意大利银行为欧洲中央银行系统发起的研究网络主办，意大利罗马"
+        },
+        "zh-TW": {
+          "title": "沃勒，關於貨幣政策傳導的兩個想法",
+          "summary": "在「變化世界中貨幣政策傳導的挑戰」會議上的演講，該會議由義大利銀行為歐洲中央銀行系統發起的研究網絡主辦，義大利羅馬"
+        },
+        "ja": {
+          "title": "ウォーラー、金融政策の伝達に関する2つの考え",
+          "summary": "欧州中央銀行システムが開始した研究ネットワークのためにイタリア銀行が主催する会議「変化する世界における金融政策の伝達への挑戦」（イタリア、ローマ）での講演"
+        },
+        "ko": {
+          "title": "월러, 통화정책 전달에 대한 두 가지 생각",
+          "summary": "이탈리아 로마에서 유럽 중앙은행 시스템이 시작한 연구 네트워크를 위해 이탈리아 은행이 후원하는 컨퍼런스인 \"변화하는 세계에서 통화 정책 전달을 위한 도전\"에서 연설"
+        },
+        "de": {
+          "title": "Waller, Zwei Gedanken zur Transmission der Geldpolitik",
+          "summary": "Rede auf der Konferenz „Challenges for Monetary Policy Transmission in a Changing World“, einer von der Bank von Italien gesponserten Konferenz für das vom Europäischen System der Zentralbanken initiierte Forschungsnetzwerk, Rom, Italien"
+        },
+        "fr": {
+          "title": "Waller, Deux réflexions sur la transmission de la politique monétaire",
+          "summary": "Discours prononcé lors de « Les défis de la transmission de la politique monétaire dans un monde en mutation », une conférence parrainée par la Banque d'Italie pour le réseau de recherche initié par le Système européen de banques centrales, Rome, Italie"
+        }
+      }
     },
     {
       "title": "Federal Reserve Board issues enforcement action with Small Business Bank and announces termination enforcement actions with BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp., and Community Bankshares, Inc.",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260702a.htm",
       "summary": "Federal Reserve Board issues enforcement action with Small Business Bank and announces termination enforcement actions with BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp., and Community Bankshares, Inc.",
       "published_at": "Thu, 2 Jul 2026 15:00:00 GMT",
-      "source": "fed_press"
+      "source": "fed_press",
+      "_translation_hash": "a38badbb717e83030f1c5fd9e76e2ed25396073f5ca75d317c82e273437660e3",
+      "translations": {
+        "zh-CN": {
+          "title": "美联储向小型企业银行采取强制执行行动，并宣布与法国巴黎银行 (BNP Paribas S.A.)、法国巴黎银行美国公司 (BNP Paribas USA, Inc.)、法国巴黎银行证券公司 (BNP Paribas Securities Corp.) 和 Community Bankshares, Inc. 采取终止强制执行行动。",
+          "summary": "美联储向小型企业银行采取强制执行行动，并宣布与法国巴黎银行 (BNP Paribas S.A.)、法国巴黎银行美国公司 (BNP Paribas USA, Inc.)、法国巴黎银行证券公司 (BNP Paribas Securities Corp.) 和 Community Bankshares, Inc. 采取终止强制执行行动。"
+        },
+        "zh-TW": {
+          "title": "聯準會向小型企業銀行採取強制執行行動，並宣布與法國巴黎銀行 (BNP Paribas S.A.)、法國巴黎銀行美國公司 (BNP Paribas USA, Inc.)、法國巴黎銀行證券公司 (BNP Paribas Securities Corp.) 和 Community Bankshares, Inc. 採取終止強制執行行動。",
+          "summary": "聯準會向小型企業銀行採取強制執行行動，並宣布與法國巴黎銀行 (BNP Paribas S.A.)、法國巴黎銀行美國公司 (BNP Paribas USA, Inc.)、法國巴黎銀行證券公司 (BNP Paribas Securities Corp.) 和 Community Bankshares, Inc. 採取終止強制執行行動。"
+        },
+        "ja": {
+          "title": "連邦準備理事会は中小企業銀行に対して執行措置を発行し、BNP パリバ S.A.、BNP パリバ USA, Inc.、BNP パリバ証券株式会社、およびコミュニティ バンクシェアズに対して終了執行措置を発表しました。",
+          "summary": "連邦準備理事会は中小企業銀行に対して執行措置を発行し、BNP パリバ S.A.、BNP パリバ USA, Inc.、BNP パリバ証券株式会社、およびコミュニティ バンクシェアズに対して終了執行措置を発表しました。"
+        },
+        "ko": {
+          "title": "연방준비은행은 중소기업은행에 집행 조치를 취하고 BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp. 및 Community Bankshares, Inc.에 대해 종료 집행 조치를 발표합니다.",
+          "summary": "연방준비은행은 중소기업은행에 집행 조치를 취하고 BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp. 및 Community Bankshares, Inc.에 대해 종료 집행 조치를 발표합니다."
+        },
+        "de": {
+          "title": "Das Federal Reserve Board erlässt Durchsetzungsmaßnahmen gegen die Small Business Bank und kündigt Durchsetzungsmaßnahmen gegen Kündigung bei BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp. und Community Bankshares, Inc. an.",
+          "summary": "Das Federal Reserve Board erlässt Durchsetzungsmaßnahmen gegen die Small Business Bank und kündigt Durchsetzungsmaßnahmen gegen Kündigung bei BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp. und Community Bankshares, Inc. an."
+        },
+        "fr": {
+          "title": "La Réserve fédérale prend des mesures coercitives auprès de Small Business Bank et annonce des mesures coercitives en matière de résiliation auprès de BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp. et Community Bankshares, Inc.",
+          "summary": "La Réserve fédérale prend des mesures coercitives auprès de Small Business Bank et annonce des mesures coercitives en matière de résiliation auprès de BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp. et Community Bankshares, Inc."
+        }
+      }
     },
     {
       "title": "Federal Reserve issues initial findings from its 2025 triennial payments study",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20260701a.htm",
       "summary": "Federal Reserve issues initial findings from its 2025 triennial payments study",
       "published_at": "Wed, 1 Jul 2026 18:30:00 GMT",
-      "source": "fed_press"
+      "source": "fed_press",
+      "_translation_hash": "6acc6494f5b4790dd3e894269f60377e0cc4ff7cb160bd804eaa03bac40c5b29",
+      "translations": {
+        "zh-CN": {
+          "title": "美联储发布 2025 年三年期支付研究的初步结果",
+          "summary": "美联储发布 2025 年三年期支付研究的初步结果"
+        },
+        "zh-TW": {
+          "title": "聯準會發布 2025 年三年支付研究的初步結果",
+          "summary": "聯準會發布 2025 年三年支付研究的初步結果"
+        },
+        "ja": {
+          "title": "FRB、2025年の3年ごとの支払い調査の初期結果を発表",
+          "summary": "FRB、2025年の3年ごとの支払い調査の初期結果を発表"
+        },
+        "ko": {
+          "title": "연준은 2025년 3년마다 지불 연구에서 초기 결과를 발표합니다.",
+          "summary": "연준은 2025년 3년마다 지불 연구에서 초기 결과를 발표합니다."
+        },
+        "de": {
+          "title": "Die Federal Reserve veröffentlicht erste Ergebnisse ihrer alle drei Jahre stattfindenden Zahlungsstudie 2025",
+          "summary": "Die Federal Reserve veröffentlicht erste Ergebnisse ihrer alle drei Jahre stattfindenden Zahlungsstudie 2025"
+        },
+        "fr": {
+          "title": "La Réserve fédérale publie les premiers résultats de son étude triennale sur les paiements de 2025",
+          "summary": "La Réserve fédérale publie les premiers résultats de son étude triennale sur les paiements de 2025"
+        }
+      }
     },
     {
       "title": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm",
       "summary": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies ",
       "published_at": "Tue, 30 Jun 2026 14:00:00 GMT",
-      "source": "fed_press"
+      "source": "fed_press",
+      "_translation_hash": "3a846675249d7fd9a8eaf855543461c6676d9dc74fa4392d5b4492a4c3f39427",
+      "translations": {
+        "zh-CN": {
+          "title": "各机构发布陷入困境或服务不足的非大都市中等收入地区名单",
+          "summary": "各机构发布陷入困境或服务不足的非大都市中等收入地区名单"
+        },
+        "zh-TW": {
+          "title": "各機構發布陷入困境或服務不足的非大都會中等收入地區名單",
+          "summary": "各機構發布陷入困境或服務不足的非大都會中等收入地區名單"
+        },
+        "ja": {
+          "title": "政府機関は、困窮している、または十分なサービスを受けられていない非大都市の中所得地域のリストを発表",
+          "summary": "政府機関は、困窮している、または十分なサービスを受けられていない非大都市の中所得地域のリストを発表"
+        },
+        "ko": {
+          "title": "기관들은 어려움을 겪고 있거나 서비스가 부족한 비수도권 중소득 지역 목록을 공개합니다.",
+          "summary": "기관들은 어려움을 겪고 있거나 서비스가 부족한 비수도권 중소득 지역 목록을 공개합니다."
+        },
+        "de": {
+          "title": "Agenturen veröffentlichen Liste notleidender oder unterversorgter nicht-städtischer Regionen mit mittlerem Einkommen",
+          "summary": "Agenturen veröffentlichen Liste notleidender oder unterversorgter nicht-städtischer Regionen mit mittlerem Einkommen"
+        },
+        "fr": {
+          "title": "Les agences publient une liste des zones géographiques non métropolitaines à revenu intermédiaire en difficulté ou mal desservies",
+          "summary": "Les agences publient une liste des zones géographiques non métropolitaines à revenu intermédiaire en difficulté ou mal desservies"
+        }
+      }
     },
     {
       "title": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625b.htm",
       "summary": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
       "published_at": "Thu, 25 Jun 2026 15:00:00 GMT",
-      "source": "fed_press"
+      "source": "fed_press",
+      "_translation_hash": "c6b82dc086c9cd4e6ea631ee43f24a47b31bfcd84c556f70c1685cd0d44d4dcd",
+      "translations": {
+        "zh-CN": {
+          "title": "美联储对尤福拉银行 (Bank of Eufaula) 和 SNB Bancshares, Inc. 的员工采取强制执行行动。",
+          "summary": "美联储对尤福拉银行 (Bank of Eufaula) 和 SNB Bancshares, Inc. 的员工采取强制执行行动。"
+        },
+        "zh-TW": {
+          "title": "聯準會對尤福拉銀行 (Bank of Eufaula) 和 SNB Bancshares, Inc. 的員工採取強制執行行動。",
+          "summary": "聯準會對尤福拉銀行 (Bank of Eufaula) 和 SNB Bancshares, Inc. 的員工採取強制執行行動。"
+        },
+        "ja": {
+          "title": "連邦準備理事会はユフォーラ銀行とSNBバンクシェアーズ社の従業員に対して執行措置を発動。",
+          "summary": "連邦準備理事会はユフォーラ銀行とSNBバンクシェアーズ社の従業員に対して執行措置を発動。"
+        },
+        "ko": {
+          "title": "연방준비제도이사회(Federal Reserve Board)는 Bank of Eufaula 및 SNB Bancshares, Inc.의 직원과 함께 집행 조치를 취합니다.",
+          "summary": "연방준비제도이사회(Federal Reserve Board)는 Bank of Eufaula 및 SNB Bancshares, Inc.의 직원과 함께 집행 조치를 취합니다."
+        },
+        "de": {
+          "title": "Federal Reserve Board erlässt Durchsetzungsklage gegen Mitarbeiter der Bank of Eufaula und SNB Bancshares, Inc.",
+          "summary": "Federal Reserve Board erlässt Durchsetzungsklage gegen Mitarbeiter der Bank of Eufaula und SNB Bancshares, Inc."
+        },
+        "fr": {
+          "title": "La Réserve fédérale prend des mesures coercitives contre les employés de la Bank of Eufaula et de S N B Bancshares, Inc.",
+          "summary": "La Réserve fédérale prend des mesures coercitives contre les employés de la Bank of Eufaula et de S N B Bancshares, Inc."
+        }
+      }
     },
     {
       "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625a.htm",
       "summary": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
       "published_at": "Thu, 25 Jun 2026 15:00:00 GMT",
-      "source": "fed_press"
+      "source": "fed_press",
+      "_translation_hash": "47c4a0862730f4f6662cc9268aa52934cf5615caff7102d14ddb0588899f723b",
+      "translations": {
+        "zh-CN": {
+          "title": "美联储宣布终止与 Jiko Group, Inc. 的执法行动",
+          "summary": "美联储宣布终止与 Jiko Group, Inc. 的执法行动"
+        },
+        "zh-TW": {
+          "title": "聯準會宣布終止與 Jiko Group, Inc. 的執法行動",
+          "summary": "聯準會宣布終止與 Jiko Group, Inc. 的執法行動"
+        },
+        "ja": {
+          "title": "連邦準備制度理事会、Jiko Group, Inc.に対する執行措置の終了を発表。",
+          "summary": "連邦準備制度理事会、Jiko Group, Inc.に対する執行措置の終了を発表。"
+        },
+        "ko": {
+          "title": "연방준비제도이사회(Federal Reserve Board)는 Jiko Group, Inc.에 대한 집행 조치 종료를 발표했습니다.",
+          "summary": "연방준비제도이사회(Federal Reserve Board)는 Jiko Group, Inc.에 대한 집행 조치 종료를 발표했습니다."
+        },
+        "de": {
+          "title": "Das Federal Reserve Board gibt die Beendigung der Durchsetzungsmaßnahmen gegen Jiko Group, Inc. bekannt.",
+          "summary": "Das Federal Reserve Board gibt die Beendigung der Durchsetzungsmaßnahmen gegen Jiko Group, Inc. bekannt."
+        },
+        "fr": {
+          "title": "La Réserve fédérale annonce la fin des mesures coercitives avec Jiko Group, Inc.",
+          "summary": "La Réserve fédérale annonce la fin des mesures coercitives avec Jiko Group, Inc."
+        }
+      }
     },
     {
       "title": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm",
       "summary": "Federal Reserve Board&#39;s annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
       "published_at": "Wed, 24 Jun 2026 20:00:00 GMT",
-      "source": "fed_press"
+      "source": "fed_press",
+      "_translation_hash": "98e7e47ef5fa1c4eb28a13764d415015b511376bbdf0839a9397b6dd60475a98",
+      "translations": {
+        "zh-CN": {
+          "title": "美联储年度银行压力测试证实，大型银行有能力抵御严重衰退，并能够继续向家庭和企业放贷",
+          "summary": "美联储年度银行压力测试证实，大型银行有能力抵御严重衰退，并能够继续向家庭和企业放贷"
+        },
+        "zh-TW": {
+          "title": "聯準會年度銀行壓力測試證實，大型銀行有能力抵禦嚴重衰退，並且能夠繼續向家庭和企業放貸",
+          "summary": "聯準會年度銀行壓力測試證實，大型銀行有能力抵禦嚴重衰退，並且能夠繼續向家庭和企業放貸"
+        },
+        "ja": {
+          "title": "連邦準備理事会の年次銀行ストレステストでは、大手銀行が深刻な不況を乗り切るのに有利な立場にあり、家計や企業への融資を継続できることが確認された",
+          "summary": "連邦準備理事会の年次銀行ストレステストでは、大手銀行が深刻な不況を乗り切るのに有利な立場にあり、家計や企業への融資を継続できることが確認された"
+        },
+        "ko": {
+          "title": "연방준비제도이사회(FRB)의 연례 은행 스트레스 테스트는 대형 은행들이 심각한 경기 침체를 극복할 수 있는 좋은 위치에 있고 가계와 기업에 계속 대출할 수 있음을 확인시켜 줍니다.",
+          "summary": "연방준비제도이사회(FRB)의 연례 은행 스트레스 테스트는 대형 은행들이 심각한 경기 침체를 극복할 수 있는 좋은 위치에 있고 가계와 기업에 계속 대출할 수 있음을 확인시켜 줍니다."
+        },
+        "de": {
+          "title": "Der jährliche Bankenstresstest des Federal Reserve Board bestätigt, dass große Banken gut aufgestellt sind, um eine schwere Rezession zu überstehen und weiterhin Kredite an Haushalte und Unternehmen zu vergeben",
+          "summary": "Der jährliche Bankenstresstest des Federal Reserve Board bestätigt, dass große Banken gut aufgestellt sind, um eine schwere Rezession zu überstehen und weiterhin Kredite an Haushalte und Unternehmen zu vergeben"
+        },
+        "fr": {
+          "title": "Le test de résistance bancaire annuel de la Réserve fédérale confirme que les grandes banques sont bien placées pour résister à une grave récession et capables de continuer à prêter aux ménages et aux entreprises.",
+          "summary": "Le test de résistance bancaire annuel de la Réserve fédérale confirme que les grandes banques sont bien placées pour résister à une grave récession et capables de continuer à prêter aux ménages et aux entreprises."
+        }
+      }
     },
     {
       "title": "Cook, Welcome Remarks",
       "link": "https://www.federalreserve.gov/newsevents/speech/cook20260624a.htm",
       "summary": "Speech At the State of Small Business Symposium hosted by the Federal Reserve Bank of Cleveland (via pre-recorded video)",
       "published_at": "Wed, 24 Jun 2026 18:00:00 GMT",
-      "source": "fed_speeches"
+      "source": "fed_speeches",
+      "_translation_hash": "1a752e0402ca3bfccc4df12f3f771296d0fe171988eca50bb601202ed2a5a78f",
+      "translations": {
+        "zh-CN": {
+          "title": "库克，欢迎致辞",
+          "summary": "在克利夫兰联邦储备银行主办的小企业状况研讨会上的讲话（通过预先录制的视频）"
+        },
+        "zh-TW": {
+          "title": "庫克，歡迎致辭",
+          "summary": "在克利夫蘭聯邦儲備銀行主辦的小型企業狀況研討會上的演講（透過預先錄製的影片）"
+        },
+        "ja": {
+          "title": "クック氏、歓迎の挨拶",
+          "summary": "クリーブランド連邦準備銀行主催の中小企業情勢シンポジウムでの講演（録画済みビデオによる）"
+        },
+        "ko": {
+          "title": "쿡, 환영사",
+          "summary": "클리블랜드 연방준비은행 주최 중소기업 현황 심포지엄 연설(사전 녹화된 영상을 통해)"
+        },
+        "de": {
+          "title": "Cook, Begrüßungsworte",
+          "summary": "Rede beim State of Small Business Symposium, veranstaltet von der Federal Reserve Bank of Cleveland (über aufgezeichnetes Video)"
+        },
+        "fr": {
+          "title": "Cuisinier, mot de bienvenue",
+          "summary": "Discours lors du symposium sur l'état des petites entreprises organisé par la Banque de réserve fédérale de Cleveland (via vidéo préenregistrée)"
+        }
+      }
     },
     {
       "title": "Waller, Welcoming Remarks on the International Role of the U.S. Dollar",
       "link": "https://www.federalreserve.gov/newsevents/speech/waller20260622a.htm",
       "summary": "Speech At the Fifth Conference on the International Roles of the Dollar, Board of Governors of the Federal Reserve System, Washington, D.C.",
       "published_at": "Mon, 22 Jun 2026 13:00:00 GMT",
-      "source": "fed_speeches"
+      "source": "fed_speeches",
+      "_translation_hash": "9b5526dd0b68ece33cd0e66ad7016bc1eef51be6d1304103e67a64bc1446e344",
+      "translations": {
+        "zh-CN": {
+          "title": "沃勒，关于美元国际角色的欢迎辞",
+          "summary": "在第五届美元国际作用会议上的讲话，美联储理事会，华盛顿特区"
+        },
+        "zh-TW": {
+          "title": "沃勒，關於美元國際角色的歡迎辭",
+          "summary": "在第五屆美元國際作用會議上的講話，美聯儲理事會，華盛頓特區"
+        },
+        "ja": {
+          "title": "ウォーラー氏、米ドルの国際的役割について歓迎の発言",
+          "summary": "ワシントンD.C.の連邦準備制度理事会、ドルの国際的役割に関する第5回会議でのスピーチ"
+        },
+        "ko": {
+          "title": "월러, 미국 달러의 국제적 역할에 대한 환영사",
+          "summary": "워싱턴 D.C.에서 열린 미국 연방준비은행 이사회에서 열린 달러의 국제적 역할에 관한 제5차 회의에서 연설합니다."
+        },
+        "de": {
+          "title": "Waller, Begrüßende Bemerkungen zur internationalen Rolle des US-Dollars",
+          "summary": "Rede auf der Fünften Konferenz über die internationalen Rollen des Dollars, Gouverneursrat des Federal Reserve Systems, Washington, D.C."
+        },
+        "fr": {
+          "title": "Waller, discours de bienvenue sur le rôle international du dollar américain",
+          "summary": "Discours prononcé lors de la cinquième conférence sur les rôles internationaux du dollar, Conseil des gouverneurs de la Réserve fédérale, Washington, D.C."
+        }
+      }
     },
     {
       "title": "Federal Reserve notes with deep sadness the passing of Alan Greenspan",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20260622a.htm",
       "summary": "Federal Reserve notes with deep sadness the passing of Alan Greenspan",
       "published_at": "Mon, 22 Jun 2026 12:45:00 GMT",
-      "source": "fed_press"
+      "source": "fed_press",
+      "_translation_hash": "8728e9686e29771336eb1eaffb02e0b264555d68b577928dc9fea6cf1b91c73a",
+      "translations": {
+        "zh-CN": {
+          "title": "美联储深感悲痛地注意到艾伦·格林斯潘的去世",
+          "summary": "美联储深感悲痛地注意到艾伦·格林斯潘的去世"
+        },
+        "zh-TW": {
+          "title": "聯準會深感悲痛地註意到艾倫‧葛林斯潘的去世",
+          "summary": "聯準會深感悲痛地註意到艾倫‧葛林斯潘的去世"
+        },
+        "ja": {
+          "title": "FRB、アラン・グリーンスパン氏の逝去を深い悲しみとともに追悼",
+          "summary": "FRB、アラン・グリーンスパン氏の逝去を深い悲しみとともに追悼"
+        },
+        "ko": {
+          "title": "연준은 앨런 그린스펀의 사망을 깊은 슬픔으로 기록합니다.",
+          "summary": "연준은 앨런 그린스펀의 사망을 깊은 슬픔으로 기록합니다."
+        },
+        "de": {
+          "title": "Die Federal Reserve nimmt mit tiefer Trauer den Tod von Alan Greenspan zur Kenntnis",
+          "summary": "Die Federal Reserve nimmt mit tiefer Trauer den Tod von Alan Greenspan zur Kenntnis"
+        },
+        "fr": {
+          "title": "La Réserve fédérale note avec une profonde tristesse le décès d'Alan Greenspan",
+          "summary": "La Réserve fédérale note avec une profonde tristesse le décès d'Alan Greenspan"
+        }
+      }
     },
     {
       "title": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm",
       "summary": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
       "published_at": "Thu, 18 Jun 2026 19:00:00 GMT",
-      "source": "fed_press"
+      "source": "fed_press",
+      "_translation_hash": "b777f4865ac54621f6b6e4820ae71b85d5364f3793ff208c7f3ac8a6b910637d",
+      "translations": {
+        "zh-CN": {
+          "title": "美联储对尤福拉银行 (Bank of Eufaula) 和 SNB Bancshares, Inc. 的前雇员采取执法行动。",
+          "summary": "美联储对尤福拉银行 (Bank of Eufaula) 和 SNB Bancshares, Inc. 的前雇员采取执法行动。"
+        },
+        "zh-TW": {
+          "title": "聯準會對尤福拉銀行 (Bank of Eufaula) 和 SNB Bancshares, Inc. 的前員工採取執法行動。",
+          "summary": "聯準會對尤福拉銀行 (Bank of Eufaula) 和 SNB Bancshares, Inc. 的前員工採取執法行動。"
+        },
+        "ja": {
+          "title": "連邦準備制度理事会、ユフォーラ銀行とSNBバンクシェアーズ社の元従業員に対して強制執行措置を発動",
+          "summary": "連邦準備制度理事会、ユフォーラ銀行とSNBバンクシェアーズ社の元従業員に対して強制執行措置を発動"
+        },
+        "ko": {
+          "title": "연방준비제도이사회(Federal Reserve Board)는 Bank of Eufaula 및 SNB Bancshares, Inc.의 전직 직원에게 집행 조치를 발부합니다.",
+          "summary": "연방준비제도이사회(Federal Reserve Board)는 Bank of Eufaula 및 SNB Bancshares, Inc.의 전직 직원에게 집행 조치를 발부합니다."
+        },
+        "de": {
+          "title": "Federal Reserve Board erlässt Durchsetzungsklage gegen ehemaligen Mitarbeiter der Bank of Eufaula und SNB Bancshares, Inc.",
+          "summary": "Federal Reserve Board erlässt Durchsetzungsklage gegen ehemaligen Mitarbeiter der Bank of Eufaula und SNB Bancshares, Inc."
+        },
+        "fr": {
+          "title": "La Réserve fédérale prend des mesures coercitives contre un ancien employé de Bank of Eufaula et de S N B Bancshares, Inc.",
+          "summary": "La Réserve fédérale prend des mesures coercitives contre un ancien employé de Bank of Eufaula et de S N B Bancshares, Inc."
+        }
+      }
     },
     {
       "title": "Federal Reserve Board issues enforcement action with former employee of Manufacturers and Traders Trust Company",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618a.htm",
       "summary": "Federal Reserve Board issues enforcement action with former employee of Manufacturers and Traders Trust Company",
       "published_at": "Thu, 18 Jun 2026 15:00:00 GMT",
-      "source": "fed_press"
+      "source": "fed_press",
+      "_translation_hash": "55594baf4831e66f5595adefd1495ba04674b25fbcfcbd5f3a7797cad247083b",
+      "translations": {
+        "zh-CN": {
+          "title": "美联储对制造商和贸易商信托公司前雇员采取执法行动",
+          "summary": "美联储对制造商和贸易商信托公司前雇员采取执法行动"
+        },
+        "zh-TW": {
+          "title": "聯準會對製造商和貿易商信託公司前員工採取執法行動",
+          "summary": "聯準會對製造商和貿易商信託公司前員工採取執法行動"
+        },
+        "ja": {
+          "title": "連邦準備理事会、マニュファクチャラー・アンド・トレーダーズ・トラスト・カンパニーの元従業員に対して執行措置を発動",
+          "summary": "連邦準備理事会、マニュファクチャラー・アンド・トレーダーズ・トラスト・カンパニーの元従業員に対して執行措置を発動"
+        },
+        "ko": {
+          "title": "연방준비제도이사회(Federal Reserve Board)는 Manufacturer and Traders Trust Company의 전 직원에게 집행 조치를 취합니다.",
+          "summary": "연방준비제도이사회(Federal Reserve Board)는 Manufacturer and Traders Trust Company의 전 직원에게 집행 조치를 취합니다."
+        },
+        "de": {
+          "title": "Das Federal Reserve Board erlässt eine Durchsetzungsmaßnahme gegen einen ehemaligen Mitarbeiter der Manufacturers and Traders Trust Company",
+          "summary": "Das Federal Reserve Board erlässt eine Durchsetzungsmaßnahme gegen einen ehemaligen Mitarbeiter der Manufacturers and Traders Trust Company"
+        },
+        "fr": {
+          "title": "La Réserve fédérale prend des mesures coercitives contre un ancien employé de Manufacturers and Traders Trust Company",
+          "summary": "La Réserve fédérale prend des mesures coercitives contre un ancien employé de Manufacturers and Traders Trust Company"
+        }
+      }
     },
     {
       "title": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260618a.htm",
       "summary": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
       "published_at": "Thu, 18 Jun 2026 13:00:00 GMT",
-      "source": "fed_press"
+      "source": "fed_press",
+      "_translation_hash": "c8d05173c02ef0fa8c82b98f6bc95e06ccb849994427fa67d70a9c8bf5effc02"
     },
     {
       "title": "Federal Reserve issues FOMC statement",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 17 Jun 2026 18:00:00 GMT",
-      "source": "fed_press"
+      "source": "fed_press",
+      "_translation_hash": "290e75caada0bd9ff13e5e910adcf7e75770b6638cd0e4e72f478e4de342e680"
     },
     {
       "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
       "published_at": "Wed, 17 Jun 2026 18:00:00 GMT",
-      "source": "fed_press"
+      "source": "fed_press",
+      "_translation_hash": "1a1af3cea5eec364078d94a6fb136d13d02892ad03abbb74de6098e21d26bb32"
     },
     {
       "title": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260611a.htm",
       "summary": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
       "published_at": "Thu, 11 Jun 2026 15:00:00 GMT",
-      "source": "fed_press"
+      "source": "fed_press",
+      "_translation_hash": "0a223a25415881bca372621dece88c86dc9176399b8b1dad1f8273193c22e3cc"
     },
     {
       "title": "Barr, Deregulating in a Financial Boom: What Could Go Wrong?",
       "link": "https://www.federalreserve.gov/newsevents/speech/barr20260606a.htm",
       "summary": "Speech At American University, Washington, D.C.",
       "published_at": "Sat, 6 Jun 2026 16:00:00 GMT",
-      "source": "fed_speeches"
+      "source": "fed_speeches",
+      "_translation_hash": "823fb7975446cd576cdaa0f0a531521de74ad2e840a455dc14c6b9c7026fe7fb"
     },
     {
       "title": "Powell, Acceptance Remarks",
       "link": "https://www.federalreserve.gov/newsevents/speech/powell20260531a.htm",
       "summary": "Speech For the 2026 John F. Kennedy Profile in Courage Award, John F. Kennedy Library Foundation, Boston, Massachusetts",
       "published_at": "Mon, 1 Jun 2026 00:30:00 GMT",
-      "source": "fed_speeches"
+      "source": "fed_speeches",
+      "_translation_hash": "e7d1981efc8b79d1f8cff9584b7280fe21caeef53a618739fd4a01b1d5392c0c"
     },
     {
       "title": "Bowman, A Framework for Practical Monetary Policy Decision Making",
       "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260529a.htm",
       "summary": "Speech At the Reykjav&iacute;k Economic Conference 2026, Central Bank of Iceland, Reykjav&iacute;k, Iceland",
       "published_at": "Fri, 29 May 2026 13:10:00 GMT",
-      "source": "fed_speeches"
+      "source": "fed_speeches",
+      "_translation_hash": "b98d264e35b1c907c8edd753ab5d0c1aae537461a28465da9dca87867ac7623b"
     },
     {
       "title": "Jefferson, Global Economic Developments and the U.S. Economy",
       "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260527a.htm",
       "summary": "Speech At the 2026 Bank of Japan-Institute for Monetary and Economic Studies Conference, Tokyo, Japan",
       "published_at": "Thu, 28 May 2026 00:00:00 GMT",
-      "source": "fed_speeches"
+      "source": "fed_speeches",
+      "_translation_hash": "989568c0eb4ae403f00a122b09186ad2122ba462a32f13fd1c8c1d94ebbfe656"
     },
     {
       "title": "Cook, The Opportunities and Risks AI Presents for the Economy and Financial System",
       "link": "https://www.federalreserve.gov/newsevents/speech/cook20260527a.htm",
       "summary": "Speech At the Stanford Institute for Economic Policy Research, Stanford University, Stanford, California",
       "published_at": "Wed, 27 May 2026 19:55:00 GMT",
-      "source": "fed_speeches"
+      "source": "fed_speeches",
+      "_translation_hash": "d8becfadb71bbe9595e314814664b2c622adb732417f694a197101bdc699d8c5"
     }
   ]
 }

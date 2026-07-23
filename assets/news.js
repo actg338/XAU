@@ -278,23 +278,25 @@
 
     if (d.text) {
       const source = String(d.source || '').includes('Federal Reserve') ? ui.fed : (d.source || ui.fed);
+      const pretranslated = d.translations?.[TRANSLATION_LANGUAGE];
+      const excerpt = TRANSLATION_LANGUAGE !== 'en' && typeof pretranslated?.excerpt === 'string'
+        ? pretranslated.excerpt
+        : d.text.slice(0, 280);
       $('stance-quote').style.display = 'block';
-      $('stance-quote-text').textContent = `“${d.text.slice(0, 280)}${d.text.length > 280 ? '…' : ''}”`;
+      $('stance-quote-text').textContent = `“${excerpt}${d.text.length > 280 ? '…' : ''}”`;
       $('stance-quote-source').textContent = `— ${source} · ${relativeTime(d.published_at)}`;
     }
 
     let sorted = [];
     if (a.keywords && a.keywords.length) {
       sorted = [...a.keywords].sort((x, y) => y.count - x.count).slice(0, 10);
-      $('stance-keywords').innerHTML = sorted.map(k =>
-        `<span class="kw ${k.type === 'dove' ? 'dove' : 'hawk'}">${escapeHtml(k.word)} ×${Number(k.count) || 0}</span>`
+      const translatedKeywords = d.translations?.[TRANSLATION_LANGUAGE]?.keywords;
+      $('stance-keywords').innerHTML = sorted.map((keyword, index) =>
+        `<span class="kw ${keyword.type === 'dove' ? 'dove' : 'hawk'}">${escapeHtml(translatedKeywords?.[index] || keyword.word)} ×${Number(keyword.count) || 0}</span>`
       ).join('');
     }
 
     $('stance-summary').textContent = d.summary || ui.summary;
-    if (TRANSLATION_LANGUAGE !== 'en') {
-      translateWarshContent(d, sorted);
-    }
   }
 
   function renderFedwatch(d) {
@@ -333,88 +335,6 @@
     }).join('');
   }
 
-  function translationCacheKey(text) {
-    let hash = 5381;
-    for (let index = 0; index < text.length; index += 1) {
-      hash = ((hash << 5) + hash) ^ text.charCodeAt(index);
-    }
-    return `newsTranslation:${TRANSLATION_LANGUAGE}:${hash >>> 0}`;
-  }
-
-  async function translateText(text) {
-    if (!text || TRANSLATION_LANGUAGE === 'en') return text;
-    const key = translationCacheKey(text);
-    const cached = sessionStorage.getItem(key);
-    if (cached) return cached;
-    try {
-      const query = new URLSearchParams({
-        client: 'gtx',
-        sl: 'en',
-        tl: TRANSLATION_LANGUAGE,
-        dt: 't',
-        q: text
-      });
-      const response = await fetch(`https://translate.googleapis.com/translate_a/single?${query}`, {
-        referrerPolicy: 'no-referrer'
-      });
-      if (!response.ok) return text;
-      const payload = await response.json();
-      const translated = Array.isArray(payload?.[0])
-        ? payload[0].map(part => part?.[0] || '').join('')
-        : text;
-      if (translated) sessionStorage.setItem(key, translated);
-      return translated || text;
-    } catch {
-      return text;
-    }
-  }
-
-  async function translateWarshContent(data, keywords) {
-    const excerpt = String(data.text || '').slice(0, 280);
-    const summary = String(data.summary || '');
-    const [translatedExcerpt, translatedSummary, translatedKeywords] = await Promise.all([
-      translateText(excerpt),
-      translateText(summary),
-      Promise.all(keywords.map(keyword => translateText(keyword.word)))
-    ]);
-    if (excerpt) {
-      $('stance-quote-text').textContent = `“${translatedExcerpt}${String(data.text).length > 280 ? '…' : ''}”`;
-    }
-    if (summary && translatedSummary) {
-      $('stance-summary').textContent = translatedSummary;
-    }
-    if (translatedKeywords.length === keywords.length) {
-      $('stance-keywords').innerHTML = keywords.map((keyword, index) =>
-        `<span class="kw ${keyword.type === 'dove' ? 'dove' : 'hawk'}">${escapeHtml(translatedKeywords[index].trim())} ×${Number(keyword.count) || 0}</span>`
-      ).join('');
-    }
-  }
-
-  async function translateNewsBatch(items) {
-    const fieldSeparator = '\n__XAU_FIELD__\n';
-    const itemSeparator = '\n__XAU_ITEM__\n';
-    const combined = items.map(item =>
-      `${String(item.title || '—')}${fieldSeparator}${String(item.summary || '')}`
-    ).join(itemSeparator);
-    const translated = await translateText(combined);
-    const parts = translated.split(itemSeparator);
-    if (parts.length !== items.length) return items;
-    return items.map((item, index) => {
-      const [title, summary = ''] = parts[index].split(fieldSeparator);
-      return { ...item, title: title.trim(), summary: summary.trim() };
-    });
-  }
-
-  async function translateNewsItems(items) {
-    const batchSize = 5;
-    const batches = [];
-    for (let index = 0; index < items.length; index += batchSize) {
-      batches.push(items.slice(index, index + batchSize));
-    }
-    const translated = await Promise.all(batches.map(translateNewsBatch));
-    return translated.flat();
-  }
-
   function newsMarkup(items) {
     return items.map((item, index) => {
       const source = String(item.source || 'unknown').toLowerCase();
@@ -433,13 +353,16 @@
     }).join('');
   }
 
-  function applyTranslatedNews(items) {
-    items.forEach((item, index) => {
-      const article = document.querySelector(`[data-news-index="${index}"]`);
-      const title = article?.querySelector('h3 a');
-      const summary = article?.querySelector('p');
-      if (title) title.textContent = item.title || '—';
-      if (summary) summary.textContent = item.summary || '';
+  function localizedNewsItems(items) {
+    if (TRANSLATION_LANGUAGE === 'en') return items;
+    return items.map(item => {
+      const translation = item.translations?.[TRANSLATION_LANGUAGE];
+      if (!translation) return item;
+      return {
+        ...item,
+        title: translation.title || item.title,
+        summary: translation.summary || item.summary
+      };
     });
   }
 
@@ -449,11 +372,8 @@
       list.innerHTML = `<div class="empty-state"><strong>暂无新闻</strong>等待数据更新...</div>`;
       return;
     }
-    const items = d.items.slice(0, 30);
+    const items = localizedNewsItems(d.items.slice(0, 30));
     list.innerHTML = newsMarkup(items);
-    if (TRANSLATION_LANGUAGE !== 'en') {
-      translateNewsItems(items).then(applyTranslatedNews);
-    }
   }
 
   function renderSignal(s) {

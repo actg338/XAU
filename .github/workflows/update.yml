@@ -43,6 +43,9 @@ jobs:
       - name: Fetch authoritative news
         run: python scripts/fetch_news.py
 
+      - name: Pre-translate dynamic content
+        run: python scripts/pretranslate.py
+
       - name: Generate aggregated signal
         run: python scripts/build_signal.py
 

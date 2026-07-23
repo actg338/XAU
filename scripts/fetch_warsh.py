@@ -5,6 +5,7 @@
 分析立场(关键词权重 + 否定句检测 + 上下文)
 """
 import json
+import hashlib
 import re
 import sys
 import urllib.request
@@ -80,6 +81,23 @@ def fetch_article_text(url: str) -> str:
     except (urllib.error.URLError, TimeoutError, ValueError) as error:
         print(f"Fed article fetch failed: {error}", file=sys.stderr)
         return ""
+
+
+def restore_translations(result: dict[str, object], output_path: Path) -> None:
+    source = f"{result.get('link') or ''}\0{result.get('text') or ''}"
+    source_hash = hashlib.sha256(source.encode("utf-8")).hexdigest()
+    result["_translation_hash"] = source_hash
+    if not output_path.exists():
+        return
+    try:
+        previous = json.loads(output_path.read_text(encoding="utf-8"))
+    except (OSError, ValueError, json.JSONDecodeError):
+        return
+    if not isinstance(previous, dict) or previous.get("_translation_hash") != source_hash:
+        return
+    translations = previous.get("translations")
+    if isinstance(translations, dict):
+        result["translations"] = translations
 
 
 def analyze_stance(text: str) -> dict:
@@ -212,7 +230,9 @@ def main():
             "note": "No Warsh speech found in latest Fed feeds"
         }
     result["fetched_at"] = datetime.now(timezone.utc).isoformat()
-    (DATA_DIR / "warsh.json").write_text(json.dumps(result, ensure_ascii=False, indent=2))
+    output_path = DATA_DIR / "warsh.json"
+    restore_translations(result, output_path)
+    output_path.write_text(json.dumps(result, ensure_ascii=False, indent=2))
     print(f"warsh.json: stance={result['stance']['label']} hawk={result['stance']['hawk']} dove={result['stance']['dove']}")
 
 

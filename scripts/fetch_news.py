@@ -11,6 +11,7 @@
 - Kitco Gold News (RSS)
 """
 import json
+import hashlib
 import re
 import sys
 import urllib.request
@@ -66,6 +67,41 @@ SOURCES = [
         "key_filter": None
     }
 ]
+
+
+def translation_hash(item: dict[str, str | None]) -> str:
+    source = f"{item.get('title') or ''}\0{item.get('summary') or ''}"
+    return hashlib.sha256(source.encode("utf-8")).hexdigest()
+
+
+def load_translation_cache(path: Path) -> dict[str, dict[str, object]]:
+    if not path.exists():
+        return {}
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        items = data.get("items", []) if isinstance(data, dict) else []
+        return {
+            str(item.get("link")): item
+            for item in items
+            if isinstance(item, dict) and item.get("link")
+        }
+    except (OSError, ValueError, json.JSONDecodeError):
+        return {}
+
+
+def restore_translations(
+    items: list[dict[str, str | None]],
+    cached: dict[str, dict[str, object]]
+) -> None:
+    for item in items:
+        item_hash = translation_hash(item)
+        previous = cached.get(str(item.get("link") or ""))
+        item["_translation_hash"] = item_hash
+        if not previous or previous.get("_translation_hash") != item_hash:
+            continue
+        translations = previous.get("translations")
+        if isinstance(translations, dict):
+            item["translations"] = translations
 
 
 def fetch_rss(url: str, key_filter: str | None = None) -> list[dict[str, str | None]]:
@@ -128,6 +164,8 @@ def fetch_rss(url: str, key_filter: str | None = None) -> list[dict[str, str | N
 
 
 def main() -> None:
+    output_path = DATA_DIR / "news.json"
+    cached_translations = load_translation_cache(output_path)
     all_items: list[dict[str, str | None]] = []
     for src in SOURCES:
         print(f"Fetching {src['name']}...")
@@ -155,13 +193,13 @@ def main() -> None:
         return datetime.min.replace(tzinfo=timezone.utc)
 
     all_items.sort(key=lambda x: parse_dt(x.get("published_at", "")), reverse=True)
+    restore_translations(all_items, cached_translations)
 
     out = {
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "total": len(all_items),
         "items": all_items[:80]
     }
-    output_path = DATA_DIR / "news.json"
     if not all_items and output_path.exists():
         print("ERROR: every news source failed; preserving previous news.json", file=sys.stderr)
         raise SystemExit(1)
