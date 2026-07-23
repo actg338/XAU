@@ -34,6 +34,25 @@
 
   function $(id) { return document.getElementById(id); }
 
+  function escapeHtml(value) {
+    return String(value ?? '').replace(/[&<>"']/g, character => ({
+      '&': '&amp;',
+      '<': '&lt;',
+      '>': '&gt;',
+      '"': '&quot;',
+      "'": '&#39;'
+    })[character]);
+  }
+
+  function safeExternalUrl(value) {
+    try {
+      const url = new URL(String(value), window.location.origin);
+      return ['http:', 'https:'].includes(url.protocol) ? url.href : '#';
+    } catch {
+      return '#';
+    }
+  }
+
   function formatTime(iso) {
     if (!iso) return '—';
     const d = new Date(iso);
@@ -171,7 +190,7 @@
     if (a.keywords && a.keywords.length) {
       const sorted = a.keywords.sort((x, y) => y.count - x.count).slice(0, 10);
       $('stance-keywords').innerHTML = sorted.map(k =>
-        `<span class="kw ${k.type}">${k.word} ×${k.count}</span>`
+        `<span class="kw ${k.type === 'dove' ? 'dove' : 'hawk'}">${escapeHtml(k.word)} ×${Number(k.count) || 0}</span>`
       ).join('');
     }
 
@@ -191,7 +210,7 @@
       const cutPct = (m.cut / total * 100).toFixed(1);
       return `
         <div class="fedwatch-row">
-          <div class="date">${m.date || m.label || '—'}</div>
+          <div class="date">${escapeHtml(m.date || m.label || '—')}</div>
           <div class="fedwatch-bars">
             <div class="fedwatch-bar">
               <span class="label">维持</span>
@@ -221,17 +240,17 @@
       return;
     }
     list.innerHTML = d.items.slice(0, 30).map(item => {
-      const source = (item.source || 'unknown').toLowerCase();
+      const source = String(item.source || 'unknown').toLowerCase();
       const sourceKey = ['fed', 'bls', 'treasury', 'cnbc', 'reuters', 'kitco'].find(s => source.includes(s)) || 'fed';
       const sourceLabels = { fed: 'FED', bls: 'BLS', treasury: 'TREASURY', cnbc: 'CNBC', reuters: 'REUTERS', kitco: 'KITCO' };
       return `
         <article class="news-item">
           <div class="meta">
             <span class="source-badge ${sourceKey}">${sourceLabels[sourceKey] || source.toUpperCase()}</span>
-            <span>${relativeTime(item.published_at)}</span>
+            <span>${escapeHtml(relativeTime(item.published_at))}</span>
           </div>
-          <h3><a href="${item.link || '#'}" target="_blank" rel="noopener">${item.title || '—'}</a></h3>
-          <p>${item.summary || ''}</p>
+          <h3><a href="${safeExternalUrl(item.link)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title || '—')}</a></h3>
+          <p>${escapeHtml(item.summary || '')}</p>
         </article>
       `;
     }).join('');

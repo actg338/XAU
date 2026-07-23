@@ -105,18 +105,13 @@ def fetch_metals_dev():
 
 def main():
     price = fetch_yahoo() or fetch_stooq() or fetch_metals_dev() or fetch_goldapi()
-    if not price:
-        # 失败时返回 placeholder,GitHub Actions 会保留上一次成功的数据
-        print("WARN: no price source available, writing placeholder", file=sys.stderr)
-        price = {
-            "price": None,
-            "change_pct": None,
-            "source": "unavailable",
-            "fetched_at": datetime.now(timezone.utc).isoformat(),
-            "error": "all upstream sources failed"
-        }
     out = DATA_DIR / "xauusd.json"
-    out.write_text(json.dumps(price, ensure_ascii=False, indent=2))
+    if not price:
+        if out.exists():
+            print("WARN: no price source available; preserving previous xauusd.json", file=sys.stderr)
+            return
+        raise SystemExit("no XAUUSD source available and no previous data exists")
+    out.write_text(json.dumps(price, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"xauusd.json: {price}")
 
 

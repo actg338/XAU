@@ -69,14 +69,13 @@ def fetch_dxy_stooq():
 
 def main():
     d = fetch_dxy() or fetch_dxy_stooq()
+    out = DATA_DIR / "dxy.json"
     if not d:
-        d = {
-            "value": None,
-            "change_pct": None,
-            "source": "unavailable",
-            "fetched_at": datetime.now(timezone.utc).isoformat()
-        }
-    (DATA_DIR / "dxy.json").write_text(json.dumps(d, ensure_ascii=False, indent=2))
+        if out.exists():
+            print("WARN: no DXY source available; preserving previous dxy.json", file=sys.stderr)
+            return
+        raise SystemExit("no DXY source available and no previous data exists")
+    out.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"dxy.json: {d}")
 
 

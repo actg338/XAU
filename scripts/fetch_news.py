@@ -37,7 +37,7 @@ SOURCES = [
     },
     {
         "name": "BLS News Releases",
-        "url": "https://www.bls.gov/feed/news_release/",
+        "url": "https://www.bls.gov/feed/bls_latest.rss",
         "source": "bls",
         "key_filter": None
     },
@@ -68,8 +68,14 @@ SOURCES = [
 ]
 
 
-def fetch_rss(url: str, key_filter=None) -> list:
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; NewsBot)"})
+def fetch_rss(url: str, key_filter: str | None = None) -> list[dict[str, str | None]]:
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "XAUQuantNewsBot/1.0 (+https://03xau.com/news.html)",
+            "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml",
+        },
+    )
     try:
         with urllib.request.urlopen(req, timeout=10) as r:
             xml_data = r.read()
@@ -121,8 +127,8 @@ def fetch_rss(url: str, key_filter=None) -> list:
         return []
 
 
-def main():
-    all_items = []
+def main() -> None:
+    all_items: list[dict[str, str | None]] = []
     for src in SOURCES:
         print(f"Fetching {src['name']}...")
         items = fetch_rss(src["url"], src.get("key_filter"))
@@ -132,7 +138,7 @@ def main():
         print(f"  → {len(items)} items")
 
     # 按时间倒序
-    def parse_dt(s):
+    def parse_dt(s: str | None) -> datetime:
         if not s:
             return datetime.min.replace(tzinfo=timezone.utc)
         for fmt in (
@@ -142,7 +148,8 @@ def main():
             "%Y-%m-%dT%H:%M:%S%z"
         ):
             try:
-                return datetime.strptime(s.strip(), fmt)
+                parsed = datetime.strptime(s.strip(), fmt)
+                return parsed if parsed.tzinfo else parsed.replace(tzinfo=timezone.utc)
             except ValueError:
                 continue
         return datetime.min.replace(tzinfo=timezone.utc)
@@ -154,7 +161,11 @@ def main():
         "total": len(all_items),
         "items": all_items[:80]
     }
-    (DATA_DIR / "news.json").write_text(json.dumps(out, ensure_ascii=False, indent=2))
+    output_path = DATA_DIR / "news.json"
+    if not all_items and output_path.exists():
+        print("ERROR: every news source failed; preserving previous news.json", file=sys.stderr)
+        raise SystemExit(1)
+    output_path.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"news.json: {len(all_items)} total, kept top {len(out['items'])}")
 
 

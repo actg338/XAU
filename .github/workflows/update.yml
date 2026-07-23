@@ -12,6 +12,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-news-data
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -61,9 +65,12 @@ jobs:
 
       - name: Validate JSON files
         run: |
+          set -euo pipefail
           for f in data/*.json; do
-            python -c "import json; json.load(open('$f'))" && echo "OK: $f" || echo "BAD: $f"
+            python -m json.tool "$f" >/dev/null
+            echo "OK: $f"
           done
+          python scripts/validate_data.py
 
       - name: Commit and push
         run: |
@@ -74,7 +81,14 @@ jobs:
             echo "No data changes"
           else
             git commit -m "data: auto-update news center $(date -u +'%Y-%m-%d %H:%M UTC')"
-            # Pull with rebase first to avoid race condition with concurrent commits
-            git pull --rebase --autostash origin main || true
-            git push origin main
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then
+                exit 0
+              fi
+              if [ "$attempt" -eq 3 ]; then
+                exit 1
+              fi
+              sleep $((attempt * 2))
+            done
           fi
