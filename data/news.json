@@ -1,7 +1,41 @@
 {
-  "fetched_at": "2026-07-23T23:42:47.272713+00:00",
-  "total": 56,
+  "fetched_at": "2026-07-24T01:12:15.142144+00:00",
+  "total": 57,
   "items": [
+    {
+      "title": "Japan core inflation rate in June creeps up from 4-year low as higher oil prices bite",
+      "link": "https://www.cnbc.com/2026/07/24/japan-cpi-june-inflation-oil-prices-yen.html",
+      "summary": "This is the first rise in core inflation since March, and was in line with the1.6% growth expected by economists polled by Reuters.",
+      "published_at": "Fri, 24 Jul 2026 00:23:08 GMT",
+      "source": "cnbc",
+      "_translation_hash": "303caed8dd0a54a7c2297a8220aa44fc913dcc4fc2f15a424496f043ef5f3a6d",
+      "translations": {
+        "zh-CN": {
+          "title": "由于油价上涨，日本 6 月份核心通胀率从 4 年低点攀升",
+          "summary": "这是核心通胀自3月份以来首次上升，与路透社调查的经济学家预期的1.6%的增长相符。"
+        },
+        "ja": {
+          "title": "原油価格高騰を受け、6月の日本のコアインフレ率は4年ぶりの低水準から徐々に上昇",
+          "summary": "これは３月以来初めてのコアインフレ率の上昇で、ロイターがまとめたエコノミスト予想の１．６％成長と一致した。"
+        },
+        "zh-TW": {
+          "title": "由於油價上漲，日本 6 月核心通膨率從 4 年低點攀升",
+          "summary": "這是核心通膨自3月以來首次上升，與路透社調查的經濟學家預期的1.6%的成長相符。"
+        },
+        "ko": {
+          "title": "일본 6월 근원 인플레이션율은 유가 상승으로 인해 4년 만에 최저치에서 소폭 상승",
+          "summary": "이는 3월 이후 처음으로 근원 인플레이션이 상승한 것이며, 로이터가 조사한 경제학자들의 예상 성장률인 1.6%와 일치하는 수치입니다."
+        },
+        "de": {
+          "title": "Die japanische Kerninflationsrate steigt im Juni aufgrund höherer Ölpreise vom 4-Jahres-Tief an",
+          "summary": "Dies ist der erste Anstieg der Kerninflation seit März und entsprach dem von Reuters befragten Ökonomen erwarteten Wachstum von 1,6 %."
+        },
+        "fr": {
+          "title": "Le taux d'inflation sous-jacente du Japon en juin augmente par rapport à son plus bas niveau depuis 4 ans alors que la hausse des prix du pétrole se fait sentir",
+          "summary": "Il s'agit de la première hausse de l'inflation sous-jacente depuis mars, et elle est conforme à la croissance de 1,6% attendue par les économistes interrogés par Reuters."
+        }
+      }
+    },
     {
       "title": "10-year Treasury yield rises to highest since January 2025 as surging oil rekindles inflation fear",
       "link": "https://www.cnbc.com/2026/07/23/treasury-yields-oil-prices-jobless-claims.html",
