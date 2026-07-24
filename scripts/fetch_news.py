@@ -1,58 +1,132 @@
 #!/usr/bin/env python3
-"""
-抓取权威新闻流
-来源:
-- Federal Reserve Press Releases
-- Federal Reserve Speeches and Testimony
-- BLS News Releases
-- BEA Economic Releases
-- CNBC Top News (RSS)
-"""
+"""Fetch first-party monetary-policy and macroeconomic news."""
 import json
 import hashlib
+import logging
 import re
 import sys
 import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from html import unescape
 from pathlib import Path
+from typing import TypedDict
+from urllib.parse import urljoin
+
+from bs4 import BeautifulSoup
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
 
-SOURCES = [
+LOGGER = logging.getLogger("fetch_news")
+
+
+class Source(TypedDict):
+    name: str
+    url: str
+    source: str
+    key_filter: str | None
+    kind: str
+
+
+MARKET_POLICY_FILTER = (
+    r"federal reserve|fomc|interest rate|monetary polic|inflation|price|"
+    r"employment|payroll|job opening|GDP|personal income|outlays|trade|"
+    r"tariff|sanction|foreign exchange|currency|dollar|treasury|debt|"
+    r"China|Russia|Iran|war|energy|oil"
+)
+FED_PRESS_FILTER = (
+    r"FOMC|monetary polic|interest rate|discount rate|economic projection|"
+    r"financial stability|liquidity|balance sheet|Beige Book"
+)
+
+SOURCES: list[Source] = [
     {
         "name": "Federal Reserve Speeches and Testimony",
         "url": "https://www.federalreserve.gov/feeds/speeches_and_testimony.xml",
         "source": "fed_remarks",
-        "key_filter": None
+        "key_filter": None,
+        "kind": "rss",
+    },
+    {
+        "name": "Federal Reserve Monetary Policy",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "source": "fed_policy",
+        "key_filter": None,
+        "kind": "rss",
     },
     {
         "name": "Federal Reserve Press",
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "source": "fed_press",
-        "key_filter": None
+        "key_filter": FED_PRESS_FILTER,
+        "kind": "rss",
     },
     {
-        "name": "BLS News Releases",
-        "url": "https://www.bls.gov/feed/bls_latest.rss",
-        "source": "bls",
-        "key_filter": None
+        "name": "BLS Consumer Price Index",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "source": "bls_cpi",
+        "key_filter": None,
+        "kind": "rss",
+    },
+    {
+        "name": "BLS Employment Situation",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "source": "bls_jobs",
+        "key_filter": None,
+        "kind": "rss",
+    },
+    {
+        "name": "BLS Job Openings",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "source": "bls_jolts",
+        "key_filter": None,
+        "kind": "rss",
+    },
+    {
+        "name": "BLS Producer Price Index",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "source": "bls_ppi",
+        "key_filter": None,
+        "kind": "rss",
     },
     {
         "name": "BEA Economic Releases",
         "url": "https://apps.bea.gov/rss/rss.xml",
         "source": "bea",
-        "key_filter": r"inflation|price|GDP|personal income|outlays|trade|international transactions"
+        "key_filter": MARKET_POLICY_FILTER,
+        "kind": "rss",
     },
     {
-        "name": "CNBC Top News",
-        "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-        "source": "cnbc",
-        "key_filter": r"gold|federal reserve|fomc|inflation|warsh|treasury|ecb"
-    }
+        "name": "U.S. Census Economic Indicators",
+        "url": "https://www.census.gov/economic-indicators/indicator.xml",
+        "source": "census",
+        "key_filter": None,
+        "kind": "rss",
+    },
+    {
+        "name": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "source": "ecb",
+        "key_filter": MARKET_POLICY_FILTER,
+        "kind": "rss",
+    },
+    {
+        "name": "White House",
+        "url": "https://www.whitehouse.gov/news/feed/",
+        "source": "white_house",
+        "key_filter": MARKET_POLICY_FILTER,
+        "kind": "rss",
+    },
+    {
+        "name": "U.S. Treasury",
+        "url": "https://home.treasury.gov/news/press-releases",
+        "source": "treasury",
+        "key_filter": MARKET_POLICY_FILTER,
+        "kind": "treasury_html",
+    },
 ]
 
 
@@ -159,17 +233,57 @@ def fetch_rss(url: str, key_filter: str | None = None) -> list[dict[str, str | N
         return []
 
 
+def fetch_treasury(
+    url: str, key_filter: str | None = None
+) -> list[dict[str, str | None]]:
+    request = urllib.request.Request(
+        url,
+        headers={"User-Agent": "XAUQuantNewsBot/1.0 (+https://03xau.com/news.html)"},
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=15) as response:
+            page = BeautifulSoup(response.read(), "html.parser")
+    except (urllib.error.URLError, TimeoutError) as error:
+        LOGGER.warning("%s: %s", url, error)
+        return []
+    items: list[dict[str, str | None]] = []
+    for row in page.select(".mm-news-row"):
+        link = row.select_one(".news-title a[href]")
+        published = row.select_one("time[datetime]")
+        if link is None or published is None:
+            continue
+        title = re.sub(r"\s+", " ", link.get_text(" ", strip=True))
+        if key_filter and not re.search(key_filter, title, re.IGNORECASE):
+            continue
+        items.append({
+            "title": title,
+            "link": urljoin(url, str(link.get("href") or "")),
+            "summary": title,
+            "published_at": str(published.get("datetime") or ""),
+        })
+    return items
+
+
+def fetch_source(source: Source) -> tuple[Source, list[dict[str, str | None]]]:
+    if source["kind"] == "treasury_html":
+        items = fetch_treasury(source["url"], source["key_filter"])
+    else:
+        items = fetch_rss(source["url"], source["key_filter"])
+    for item in items:
+        item["source"] = source["source"]
+    return source, items
+
+
 def main() -> None:
     output_path = DATA_DIR / "news.json"
     cached_translations = load_translation_cache(output_path)
     all_items: list[dict[str, str | None]] = []
-    for src in SOURCES:
-        print(f"Fetching {src['name']}...")
-        items = fetch_rss(src["url"], src.get("key_filter"))
-        for it in items:
-            it["source"] = src["source"]
-        all_items.extend(items)
-        print(f"  → {len(items)} items")
+    with ThreadPoolExecutor(max_workers=6) as executor:
+        tasks = [executor.submit(fetch_source, source) for source in SOURCES]
+        for task in as_completed(tasks):
+            source, items = task.result()
+            all_items.extend(items)
+            LOGGER.info("%s: %d items", source["name"], len(items))
 
     unique_items: dict[str, dict[str, str | None]] = {}
     for item in all_items:
@@ -213,4 +327,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s %(message)s")
     main()

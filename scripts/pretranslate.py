@@ -77,14 +77,26 @@ def translate_news_batch(
     translated = translate_text(combined, language)
     translated_items = translated.split(ITEM_SEPARATOR)
     if len(translated_items) != len(batch):
-        raise RuntimeError(f"news batch split failed for {language}")
+        return language, translate_news_items_individually(batch, language)
     result = []
     for (index, _), content in zip(batch, translated_items):
         title, separator, summary = content.partition(FIELD_SEPARATOR)
         if not separator:
-            raise RuntimeError(f"news field split failed for {language}")
+            return language, translate_news_items_individually(batch, language)
         result.append((index, title.strip(), summary.strip()))
     return language, result
+
+
+def translate_news_items_individually(
+    batch: list[tuple[int, dict[str, object]]],
+    language: str
+) -> list[tuple[int, str, str]]:
+    result: list[tuple[int, str, str]] = []
+    for index, item in batch:
+        title = translate_text(str(item.get("title") or "—"), language)
+        summary = translate_text(str(item.get("summary") or ""), language)
+        result.append((index, title.strip(), summary.strip()))
+    return result
 
 
 def translate_news(data: dict[str, object]) -> bool:

@@ -338,8 +338,18 @@
   function newsMarkup(items) {
     return items.map((item, index) => {
       const source = String(item.source || 'unknown').toLowerCase();
-      const sourceKey = ['fed', 'bls', 'bea', 'cnbc'].find(s => source.includes(s)) || 'fed';
-      const sourceLabels = { fed: 'FED', bls: 'BLS', bea: 'BEA', cnbc: 'CNBC' };
+      const sourceKey = ['treasury', 'census', 'white_house', 'ecb', 'fed', 'bls', 'bea']
+        .find(s => source.includes(s)) || 'official';
+      const sourceLabels = {
+        treasury: 'TREASURY',
+        census: 'CENSUS',
+        white_house: 'WHITE HOUSE',
+        ecb: 'ECB',
+        fed: 'FED',
+        bls: 'BLS',
+        bea: 'BEA',
+        official: 'OFFICIAL'
+      };
       return `
         <article class="news-item" data-news-index="${index}">
           <div class="meta">
