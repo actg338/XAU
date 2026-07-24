@@ -1,140 +1,344 @@
 {
-  "fetched_at": "2026-07-24T07:15:57.931986+00:00",
-  "total": 57,
+  "fetched_at": "2026-07-24T08:35:33.014366+00:00",
+  "total": 117,
   "items": [
     {
-      "title": "Japan core inflation rate in June creeps up from 4-year low as higher oil prices bite",
-      "link": "https://www.cnbc.com/2026/07/24/japan-cpi-june-inflation-oil-prices-yen.html",
-      "summary": "This is the first rise in core inflation since March, and was in line with the1.6% growth expected by economists polled by Reuters.",
-      "published_at": "Fri, 24 Jul 2026 02:24:48 GMT",
-      "source": "cnbc",
-      "_translation_hash": "303caed8dd0a54a7c2297a8220aa44fc913dcc4fc2f15a424496f043ef5f3a6d",
+      "title": "Actions by the United States in the Investigations under Section 301 of the Trade Act of 1974 of the Acts, Policies, and Practices of 60 Economies Related to the Failure of Each Economy to Impose and Effectively Enforce a Prohibition on the Importation of Goods Produced with Forced Labor",
+      "link": "https://www.whitehouse.gov/presidential-actions/2026/07/actions-by-the-united-states-in-the-investigations-under-section-301-of-the-trade-act-of-1974-of-the-acts-policies-and-practices-of-60-economies-related-to-the-failure-of-each-economy-to-impose-and/",
+      "summary": "MEMORANDUM FOR THE UNITED STATES TRADE REPRESENTATIVE Subject: Actions by the United States in the Investigations under Section 301 of the Trade Act of 1974 of the Acts, Policies, and Practices of 60 Economies Related to the Failure of Each Economy to Impose and Effectively Enforce a Prohibition on the Importation of Goods Produced with […] The post Actions by the United States in the Investigations under Section 301 of the Trade Act of 1974 of the Acts, Policies, and Practices of 60 Economies R",
+      "published_at": "Thu, 23 Jul 2026 22:48:44 +0000",
+      "source": "white_house",
+      "_translation_hash": "cb874d7629438fa897824e315c297d8de1b4b3e75d939a8d07f0aa29ad30b93f",
       "translations": {
         "zh-CN": {
-          "title": "由于油价上涨，日本 6 月份核心通胀率从 4 年低点攀升",
-          "summary": "这是核心通胀自3月份以来首次上升，与路透社调查的经济学家预期的1.6%的增长相符。"
-        },
-        "ja": {
-          "title": "原油価格高騰を受け、6月の日本のコアインフレ率は4年ぶりの低水準から徐々に上昇",
-          "summary": "これは３月以来初めてのコアインフレ率の上昇で、ロイターがまとめたエコノミスト予想の１．６％成長と一致した。"
+          "title": "美国根据 1974 年贸易法第 301 条对 60 个经济体的法案、政策和实践进行调查时采取的行动，涉及每个经济体未能实施和有效执行禁止进口强迫劳动生产的商品",
+          "summary": "给美国贸易代表的备忘录 主题：美国根据 1974 年《贸易法》第 301 条对 60 个经济体的行为、政策和做法进行调查，涉及每个经济体未能实施和有效执行禁止进口由 [...] 生产的商品。 1974 年贸易法第 301 条，60 个经济体的法案、政策和实践 R"
         },
         "zh-TW": {
-          "title": "由於油價上漲，日本 6 月核心通膨率從 4 年低點攀升",
-          "summary": "這是核心通膨自3月以來首次上升，與路透社調查的經濟學家預期的1.6%的成長相符。"
+          "title": "美國根據 1974 年貿易法第 301 條對 60 個經濟體的法案、政策和實踐進行調查時採取的行動，涉及每個經濟體未能實施和有效執行禁止進口強迫勞動生產的商品",
+          "summary": "給美國貿易代表的備忘錄 主題：美國根據 1974 年《貿易法》第 301 條對 60 個經濟體的行為、政策和做法進行調查，涉及每個經濟體未能實施和有效執行禁止進口由 [...] 生產的商品。 1974 年貿易法第 301 條，60 個經濟體的法案、政策與實踐 R"
+        },
+        "ja": {
+          "title": "強制労働で生産された商品の輸入禁止を各国経済が課し、効果的に執行できなかったことに関連する60カ国の法律、政策、慣行に関する1974年通商法第301条に基づく調査における米国の措置",
+          "summary": "米国通商代表部向けの覚書 件名: 1974 年の通商法第 301 条に基づく、各国経済が以下の方法で生産された商品の輸入禁止を課し、効果的に執行できないことに関連する 60 か国の法律、政策、慣行に関する調査における米国の措置 […] 60 か国の法律、政策、および慣行に関する 1974 年の通商法第 301 条 R"
         },
         "ko": {
-          "title": "일본 6월 근원 인플레이션율은 유가 상승으로 인해 4년 만에 최저치에서 소폭 상승",
-          "summary": "이는 3월 이후 처음으로 근원 인플레이션이 상승한 것이며, 로이터가 조사한 경제학자들의 예상 성장률인 1.6%와 일치하는 수치입니다."
+          "title": "강제 노동으로 생산된 상품의 수입 금지를 부과하고 효과적으로 집행하지 못한 각 국가의 실패와 관련된 60개 국가의 법률, 정책 및 관행에 대한 1974년 무역법 섹션 301에 따른 조사에 대한 미국의 조치",
+          "summary": "미국 무역 대표를 위한 각서 주제: 1974년 무역법 제301조에 따라 각 국가가 다음 제품으로 생산된 상품의 수입 금지를 부과하고 효과적으로 집행하지 못한 것과 관련된 60개 경제국의 법률, 정책 및 관행에 대한 조사에서 미국이 취한 조치 60개 경제권의 법률, 정책 및 관행에 관한 1974년 무역법 섹션 301 R"
         },
         "de": {
-          "title": "Die japanische Kerninflationsrate steigt im Juni aufgrund höherer Ölpreise vom 4-Jahres-Tief an",
-          "summary": "Dies ist der erste Anstieg der Kerninflation seit März und entsprach dem von Reuters befragten Ökonomen erwarteten Wachstum von 1,6 %."
+          "title": "Maßnahmen der Vereinigten Staaten bei den Untersuchungen gemäß Abschnitt 301 des Handelsgesetzes von 1974 zu den Gesetzen, Richtlinien und Praktiken von 60 Volkswirtschaften im Zusammenhang mit dem Versäumnis jeder Volkswirtschaft, ein Verbot der Einfuhr von mit Zwangsarbeit hergestellten Waren zu verhängen und wirksam durchzusetzen",
+          "summary": "MEMORANDUM FÜR DEN HANDELSVERTRETER DER VEREINIGTEN STAATEN Betreff: Maßnahmen der Vereinigten Staaten in den Untersuchungen gemäß Abschnitt 301 des Handelsgesetzes von 1974 über die Gesetze, Richtlinien und Praktiken von 60 Volkswirtschaften im Zusammenhang mit dem Versäumnis jeder Volkswirtschaft, ein Verbot der Einfuhr von Waren zu verhängen und wirksam durchzusetzen, die mit […] hergestellt wurden. Die nachträglichen Maßnahmen der Vereinigten Staaten in den Untersuchungen gemäß Abschnitt 301 des Handelsgesetzes von 1974 über die Gesetze, Richtlinien und Praktiken von 60 Volkswirtschaften R"
         },
         "fr": {
-          "title": "Le taux d'inflation sous-jacente du Japon en juin augmente par rapport à son plus bas niveau depuis 4 ans alors que la hausse des prix du pétrole se fait sentir",
-          "summary": "Il s'agit de la première hausse de l'inflation sous-jacente depuis mars, et elle est conforme à la croissance de 1,6% attendue par les économistes interrogés par Reuters."
+          "title": "Actions des États-Unis dans le cadre des enquêtes menées en vertu de l'article 301 de la Loi sur le commerce de 1974 sur les lois, politiques et pratiques de 60 économies liées à l'échec de chaque économie à imposer et à faire appliquer efficacement une interdiction d'importation de marchandises produites au moyen de travail forcé",
+          "summary": "MÉMORANDUM À L'INTENTION DU REPRÉSENTANT COMMERCIAL DES ÉTATS-UNIS Objet : Actions des États-Unis dans le cadre des enquêtes menées en vertu de l'article 301 du Trade Act de 1974 sur les lois, politiques et pratiques de 60 économies liées à l'échec de chaque économie à imposer et à faire appliquer efficacement une interdiction sur l'importation de marchandises produites avec […]. 1974 des lois, politiques et pratiques de 60 économies R"
         }
       }
     },
     {
-      "title": "10-year Treasury yield rises to highest since January 2025 as surging oil rekindles inflation fear",
-      "link": "https://www.cnbc.com/2026/07/23/treasury-yields-oil-prices-jobless-claims.html",
-      "summary": "U.S. Treasury yields climbed on Wednesday, following oil prices higher, as traders also reacted to a slump in weekly claims for unemployment insurance.",
-      "published_at": "Thu, 23 Jul 2026 20:30:50 GMT",
-      "source": "cnbc",
-      "_translation_hash": "e012ec10a1b2a5866cb1c1977d71a18675396c82481e3ed310779a9409f23217",
+      "title": "Treasury Releases Report on Macroeconomic and Foreign Exchange Policies of Major Trading Partners of the United States",
+      "link": "https://home.treasury.gov/news/press-releases/sb0574",
+      "summary": "Treasury Releases Report on Macroeconomic and Foreign Exchange Policies of Major Trading Partners of the United States",
+      "published_at": "2026-07-23T20:00:00Z",
+      "source": "treasury",
+      "_translation_hash": "321d67888b48ee018ef41e05dd6db15e54be52169d19bc759302318bddfc3ca2",
       "translations": {
         "zh-CN": {
-          "title": "油价飙升重燃通胀担忧 10年期国债收益率升至2025年1月以来最高",
-          "summary": "随着油价走高，美国国债收益率周三攀升，交易员也对每周失业保险申请人数下降做出反应。"
-        },
-        "ko": {
-          "title": "유가 급등으로 인플레이션 우려가 다시 불붙으면서 10년 만기 국채 수익률은 2025년 1월 이후 최고치로 상승",
-          "summary": "미 국채 수익률은 유가 상승에 따라 수요일 실업보험 주간 청구 부진에 트레이더들이 반응하면서 상승했습니다."
-        },
-        "ja": {
-          "title": "原油高騰でインフレ懸念が再燃、10年米国債利回りが2025年1月以来の高水準に上昇",
-          "summary": "原油価格の上昇を受けて水曜日の米国債利回りは上昇し、トレーダーらは毎週の失業保険申請件数の低迷にも反応した。"
+          "title": "美国财政部发布美国主要贸易伙伴宏观经济和外汇政策报告",
+          "summary": "美国财政部发布美国主要贸易伙伴宏观经济和外汇政策报告"
         },
         "zh-TW": {
-          "title": "油價飆升重燃通膨擔憂 10年期公債殖利率升至2025年1月以來最高",
-          "summary": "隨著油價走高，美國公債殖利率週三攀升，交易員也對每週失業保險申請人數下降做出反應。"
+          "title": "美國財政部發布美國主要貿易夥伴宏觀經濟與外匯政策報告",
+          "summary": "美國財政部發布美國主要貿易夥伴宏觀經濟與外匯政策報告"
         },
-        "fr": {
-          "title": "Le rendement du Trésor à 10 ans atteint son plus haut niveau depuis janvier 2025 alors que la hausse du pétrole ravive la peur de l'inflation",
-          "summary": "Les rendements du Trésor américain ont grimpé mercredi, suite à la hausse des prix du pétrole, les traders ayant également réagi à une baisse des demandes hebdomadaires d'assurance-chômage."
+        "ja": {
+          "title": "財務省、米国の主要貿易相手国のマクロ経済・外国為替政策に関する報告書を発表",
+          "summary": "財務省、米国の主要貿易相手国のマクロ経済・外国為替政策に関する報告書を発表"
+        },
+        "ko": {
+          "title": "재무부, 미국 주요 무역 상대국의 거시경제 및 외환 정책에 관한 보고서 발표",
+          "summary": "재무부, 미국 주요 무역 상대국의 거시경제 및 외환 정책에 관한 보고서 발표"
         },
         "de": {
-          "title": "Die Rendite 10-jähriger Staatsanleihen steigt auf den höchsten Stand seit Januar 2025, da der steigende Ölpreis die Angst vor Inflation neu entfacht",
-          "summary": "Die Renditen von US-Staatsanleihen stiegen am Mittwoch, nachdem die Ölpreise gestiegen waren, da Händler auch auf einen Rückgang der wöchentlichen Anträge auf Arbeitslosenversicherung reagierten."
+          "title": "Das Finanzministerium veröffentlicht einen Bericht über die makroökonomische Politik und die Devisenpolitik wichtiger Handelspartner der Vereinigten Staaten",
+          "summary": "Das Finanzministerium veröffentlicht einen Bericht über die makroökonomische Politik und die Devisenpolitik wichtiger Handelspartner der Vereinigten Staaten"
+        },
+        "fr": {
+          "title": "Le Trésor publie un rapport sur les politiques macroéconomiques et de change des principaux partenaires commerciaux des États-Unis",
+          "summary": "Le Trésor publie un rapport sur les politiques macroéconomiques et de change des principaux partenaires commerciaux des États-Unis"
         }
       }
     },
     {
-      "title": "Odds of Federal Reserve rate hike surge as oil prices rip higher",
-      "link": "https://www.cnbc.com/2026/07/23/fed-interest-rate-odds-oil-jobless-claims.html",
-      "summary": "Investors are increasingly readying for the Federal Reserve to hike interest rates in September.",
-      "published_at": "Thu, 23 Jul 2026 20:25:28 GMT",
-      "source": "cnbc",
-      "_translation_hash": "a989a508589604e706e57f215fde7589f856e235bc932b5708cbf659a80f131c",
+      "title": "Treasury Disrupts Muslim Brotherhood and Hamas Financial Networks",
+      "link": "https://home.treasury.gov/news/press-releases/sb0572",
+      "summary": "Treasury Disrupts Muslim Brotherhood and Hamas Financial Networks",
+      "published_at": "2026-07-23T18:30:00Z",
+      "source": "treasury",
+      "_translation_hash": "9062b015ddd735e09880e6690fd09a65a3c62121a6b95f421fecba4720813c05",
       "translations": {
-        "ja": {
-          "title": "原油価格の高騰でFRBの利上げ確率が上昇",
-          "summary": "投資家は米連邦準備理事会（ＦＲＢ）が９月に利上げに踏み切ることへの備えを強めている。"
-        },
         "zh-CN": {
-          "title": "随着油价上涨，美联储加息的可能性激增",
-          "summary": "投资者越来越多地为美联储在九月加息做好准备。"
-        },
-        "ko": {
-          "title": "유가 급등으로 연준 금리 인상 가능성 커져",
-          "summary": "투자자들은 연준이 9월에 금리를 인상할 것을 점점 더 준비하고 있습니다."
+          "title": "财政部扰乱穆斯林兄弟会和哈马斯金融网络",
+          "summary": "财政部扰乱穆斯林兄弟会和哈马斯金融网络"
         },
         "zh-TW": {
-          "title": "隨著油價上漲，聯準會升息的可能性激增",
-          "summary": "投資者越來越多地為聯準會在九月升息做好準備。"
+          "title": "財政部擾亂穆斯林兄弟會和哈馬斯金融網絡",
+          "summary": "財政部擾亂穆斯林兄弟會和哈馬斯金融網絡"
         },
-        "fr": {
-          "title": "Les chances d’une hausse des taux de la Réserve fédérale augmentent à mesure que les prix du pétrole augmentent",
-          "summary": "Les investisseurs se préparent de plus en plus à une hausse des taux d’intérêt par la Réserve fédérale en septembre."
+        "ja": {
+          "title": "財務省がムスリム同胞団とハマスの金融ネットワークを混乱させる",
+          "summary": "財務省がムスリム同胞団とハマスの金融ネットワークを混乱させる"
+        },
+        "ko": {
+          "title": "재무부는 무슬림 형제단과 하마스 금융 네트워크를 혼란에 빠뜨렸습니다.",
+          "summary": "재무부는 무슬림 형제단과 하마스 금융 네트워크를 혼란에 빠뜨렸습니다."
         },
         "de": {
-          "title": "Die Wahrscheinlichkeit einer Zinserhöhung durch die Federal Reserve steigt, da die Ölpreise steigen",
-          "summary": "Die Anleger bereiten sich zunehmend darauf vor, dass die Federal Reserve im September die Zinsen anheben wird."
+          "title": "Das Finanzministerium stört die Finanznetzwerke der Muslimbruderschaft und der Hamas",
+          "summary": "Das Finanzministerium stört die Finanznetzwerke der Muslimbruderschaft und der Hamas"
+        },
+        "fr": {
+          "title": "Le Trésor perturbe les réseaux financiers des Frères musulmans et du Hamas",
+          "summary": "Le Trésor perturbe les réseaux financiers des Frères musulmans et du Hamas"
         }
       }
     },
     {
-      "title": "Major Economic Indicators Latest Numbers",
-      "link": "https://www.bls.gov/bls/",
-      "summary": "Consumer Price Index (CPI): -0.4% in Jun 2026 News Release Historical Data Unemployment Rate: 4.2% in Jun 2026 News Release Historical Data Payroll Employment: +57,000(p) in Jun 2026 News Release Historical Data Average Hourly Earnings: +$0.13(p) in Jun 2026 News Release Historical Data Producer Price Index - Final Demand: -0.3%(p) in Jun 2026 News Release Historical Data Employment Cost Index (ECI): +0.9% in 1st Qtr of 2026 News Release Historical Data Productivity: +0.3%(r) in 1st Qtr of 2026 ",
-      "published_at": "Wed, 22 Jul 2026 12:12:18 -0400",
-      "source": "bls",
-      "_translation_hash": "a6acddb659356ea85d54af05a9d9538e3229fa311e2381f04309c12369f0b15f",
+      "title": "Treasury Takes Largest Action Ever Targeting Cartel de Jalisco Nueva Generacion",
+      "link": "https://home.treasury.gov/news/press-releases/sb0573",
+      "summary": "Treasury Takes Largest Action Ever Targeting Cartel de Jalisco Nueva Generacion",
+      "published_at": "2026-07-23T18:30:00Z",
+      "source": "treasury",
+      "_translation_hash": "b599b12489dc315c74a6802dbdd50f218ae99f703cf5a36e10a4f69de1ad49b0",
       "translations": {
-        "ja": {
-          "title": "主要経済指標の最新数値",
-          "summary": "消費者物価指数 (CPI): -0.4% (2026 年 6 月) ニュース リリースの履歴データ 失業率: 4.2% (2026 年 6 月) ニュース リリースの履歴データ 給与雇用: +57,000(p) (2026 年 6 月) ニュース リリースの履歴データ 平均時給: +$0.13(p) (2026 年 6 月) ニュース リリースの履歴データ 生産者物価指数 - 最終需要: 2026 年 6 月に -0.3%(p) ニュース リリース履歴データ 雇用コスト指数 (ECI): 2026 年第 1 四半期に +0.9% ニュース リリース履歴データ 生産性: 2026 年第 1 四半期に +0.3%(r)"
-        },
         "zh-CN": {
-          "title": "主要经济指标最新数据",
-          "summary": "消费者价格指数 (CPI)：2026 年 6 月 -0.4% 新闻发布历史数据 失业率：2026 年 6 月 4.2% 新闻发布历史数据 薪资就业：2026 年 6 月 +57,000(p) 新闻发布历史数据 平均每小时收入：2026 年 6 月 +0.13 美元 新闻发布历史数据 生产者价格指数 - 最终需求：6 月 -0.3%(p) 2026 年新闻发布历史数据 就业成本指数 (ECI)：2026 年第一季度 +0.9% 新闻发布历史数据 生产力：2026 年第一季度 +0.3%(r)"
+          "title": "财政部针对哈利斯科新世代卡特尔采取有史以来最大规模的行动",
+          "summary": "财政部针对哈利斯科新世代卡特尔采取有史以来最大规模的行动"
         },
         "zh-TW": {
-          "title": "主要經濟指標最新數據",
-          "summary": "消費者物價指數 (CPI)：2026 年 6 月 -0.4% 新聞發布歷史數據 失業率：2026 年 6 月 4.2% 新聞發布歷史數據 薪資就業：2026 年 6 月 +57,000(p) 新聞發布歷史數據 平均收入：2026 年 6 月 16 月 6 月發布歷史數據 平均收入：2026 年 6 月-0.3%(p) 2026 年新聞發布歷史資料 就業成本指數 (ECI)：2026 年第一季 +0.9% 新聞發布歷史資料 生產力：2026 年第一季 +0.3%(r)"
+          "title": "財政部針對哈利斯科新世代卡特爾採取有史以來最大規模的行動",
+          "summary": "財政部針對哈利斯科新世代卡特爾採取有史以來最大規模的行動"
         },
-        "fr": {
-          "title": "Principaux indicateurs économiques Derniers chiffres",
-          "summary": "Indice des prix à la consommation (IPC) : -0,4 % en juin 2026 Communiqué de presse Données historiques Taux de chômage : 4,2 % en juin 2026 Communiqué de presse Données historiques Emploi : +57 000(p) en juin 2026 Communiqué de presse Données historiques Gain horaire moyen : +0,13 $(p) en juin 2026 Communiqué de presse Données historiques Indice des prix à la production - Demande finale : -0,3 %(p) en juin Communiqué de presse 2026 Données historiques Indice du coût de l'emploi (ECI) : +0,9 % au 1er trimestre 2026 Communiqué de presse Données historiques Productivité : +0,3 %(r) au 1er trimestre 2026"
+        "ja": {
+          "title": "財務省、ハリスコ・ヌエバ・ヘネラシオンのカルテルを標的に史上最大規模の行動に出る",
+          "summary": "財務省、ハリスコ・ヌエバ・ヘネラシオンのカルテルを標的に史上最大規模の行動に出る"
         },
         "ko": {
-          "title": "주요 경제 지표 최신 수치",
-          "summary": "소비자 물가 지수(CPI): 2026년 6월 -0.4% 보도 자료 과거 데이터 실업률: 2026년 6월 4.2% 보도 자료 과거 데이터 급여 고용: 2026년 6월 +57,000(p) 보도 자료 과거 데이터 평균 시간당 소득: 2026년 6월 +$0.13(p) 보도 자료 과거 데이터 생산자 물가 지수 - 최종 수요: -0.3%(p) 2026년 6월 보도 자료 과거 데이터 고용 비용 지수(ECI): 2026년 1분기에 +0.9% 보도 자료 과거 데이터 생산성: 2026년 1분기에 +0.3%(r)"
+          "title": "재무부는 Cartel de Jalisco Nueva Generacion을 표적으로 삼아 역대 최대 규모의 조치를 취했습니다.",
+          "summary": "재무부는 Cartel de Jalisco Nueva Generacion을 표적으로 삼아 역대 최대 규모의 조치를 취했습니다."
         },
         "de": {
-          "title": "Wichtige Wirtschaftsindikatoren Neueste Zahlen",
-          "summary": "Verbraucherpreisindex (VPI): -0,4 % im Juni 2026 Pressemitteilung Historische Daten Arbeitslosenquote: 4,2 % im Juni 2026 Pressemitteilung Historische Daten Lohn- und Gehaltsabrechnung: +57.000(p) im Juni 2026 Pressemitteilung Historische Daten Durchschnittlicher Stundenverdienst: +$0,13(p) im Juni 2026 Pressemitteilung Historische Daten Erzeugerpreisindex – Endnachfrage: -0,3 %(p) im Juni 2026 Pressemitteilung Historische Daten Beschäftigungskostenindex (ECI): +0,9 % im 1. Quartal 2026 Pressemitteilung Historische Daten Produktivität: +0,3 %(r) im 1. Quartal 2026"
+          "title": "Das Finanzministerium ergreift die größte Maßnahme aller Zeiten gegen das Cartel de Jalisco Nueva Generacion",
+          "summary": "Das Finanzministerium ergreift die größte Maßnahme aller Zeiten gegen das Cartel de Jalisco Nueva Generacion"
+        },
+        "fr": {
+          "title": "Le Trésor prend la plus grande mesure jamais prise contre le cartel de Jalisco Nueva Generacion",
+          "summary": "Le Trésor prend la plus grande mesure jamais prise contre le cartel de Jalisco Nueva Generacion"
+        }
+      }
+    },
+    {
+      "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
+      "link": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
+      "summary": "",
+      "published_at": "Thu, 23 Jul 2026 15:00:00 +0200",
+      "source": "ecb",
+      "_translation_hash": "f069dc1250bc05bc9b9015550638a08d93cef1efb3a0d3e8b2df31b2288f5a5f",
+      "translations": {
+        "zh-CN": {
+          "title": "克里斯蒂娜·拉加德 (Christine Lagarde)、鲍里斯·武伊契奇 (Boris Vujčić)：货币政策声明（含问答）",
+          "summary": ""
+        },
+        "zh-TW": {
+          "title": "克里斯蒂娜‧拉加德 (Christine Lagarde)、鮑里斯‧武伊契奇 (Boris Vujčić)：貨幣政策聲明（含問答）",
+          "summary": ""
+        },
+        "ja": {
+          "title": "クリスティーヌ・ラガルド氏、ボリス・ヴァイチッチ氏：金融政策声明（質疑応答付き）",
+          "summary": ""
+        },
+        "ko": {
+          "title": "Christine Lagarde, Boris Vujčić: 통화 정책 성명(Q&A 포함)",
+          "summary": ""
+        },
+        "de": {
+          "title": "Christine Lagarde, Boris Vujčić: Erklärung zur Geldpolitik (mit Fragen und Antworten)",
+          "summary": ""
+        },
+        "fr": {
+          "title": "Christine Lagarde, Boris Vujčić : Déclaration de politique monétaire (avec questions-réponses)",
+          "summary": ""
+        }
+      }
+    },
+    {
+      "title": "Monetary policy decisions",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html",
+      "summary": "",
+      "published_at": "Thu, 23 Jul 2026 14:15:00 +0200",
+      "source": "ecb",
+      "_translation_hash": "d6c8601c58efe148c5d3e41e8bf36e6b8e9e50bba576b3fdb43527c824f612d0",
+      "translations": {
+        "zh-CN": {
+          "title": "货币政策决策",
+          "summary": ""
+        },
+        "zh-TW": {
+          "title": "貨幣政策決策",
+          "summary": ""
+        },
+        "ja": {
+          "title": "金融政策決定",
+          "summary": ""
+        },
+        "ko": {
+          "title": "통화 정책 결정",
+          "summary": ""
+        },
+        "de": {
+          "title": "Geldpolitische Entscheidungen",
+          "summary": ""
+        },
+        "fr": {
+          "title": "Décisions de politique monétaire",
+          "summary": ""
+        }
+      }
+    },
+    {
+      "title": "Fact Sheet: President Donald J. Trump Announces Trade Deal with Jordan",
+      "link": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-announces-trade-deal-with-jordan/",
+      "summary": "DELIVERING ON RECIPROCAL TRADE: Today, President Donald J. Trump announced a landmark trade deal with Jordan. Key terms of the Agreement with Jordan include: THE PROSPEROUS PATH FORWARD: Today’s announcement reinforces America’s strategic partnership with one of America’s most valued partners in the Middle East while fostering reciprocal conditions that prioritize American workers and industries, protect U.S. […] The post Fact Sheet: President Donald J. Trump Announces Trade Deal with Jordan app",
+      "published_at": "Tue, 21 Jul 2026 15:56:03 +0000",
+      "source": "white_house",
+      "_translation_hash": "a948082b51eac9236d12d9046d5b417bfc280c67e52569fd70b18e756b45eadd",
+      "translations": {
+        "zh-CN": {
+          "title": "情况说明书：唐纳德·J·特朗普总统宣布与约旦达成贸易协议",
+          "summary": "实现互惠贸易：今天，唐纳德·J·特朗普总统宣布与约旦达成一项具有里程碑意义的贸易协议。与约旦达成的协议的关键条款包括： 繁荣的道路：今天的声明加强了美国与美国在中东最有价值的合作伙伴之一的战略伙伴关系，同时创造了优先考虑美国工人和工业、保护美国的互惠条件 […] 后情况说明书：唐纳德·J·特朗普总统宣布与约旦的贸易协议"
+        },
+        "zh-TW": {
+          "title": "情況說明書：唐納德·J·特朗普總統宣布與約旦達成貿易協議",
+          "summary": "實現互惠貿易：今天，唐納德·J·特朗普總統宣布與約旦達成一項具有里程碑意義的貿易協議。與約旦達成的協議的關鍵條款包括： 繁榮的道路：今天的聲明加強了美國與美國在中東最有價值的合作夥伴之一的戰略夥伴關係，同時創造了優先考慮美國工人和工業、保護美國的互惠條件 […] 後情況說明書：唐納德·J·特朗普總統宣布與約旦的貿易協議"
+        },
+        "ja": {
+          "title": "ファクトシート: ドナルド・J・トランプ大統領、ヨルダンとの貿易協定を発表",
+          "summary": "相互貿易の実現：本日、ドナルド・J・トランプ大統領はヨルダンとの画期的な貿易協定を発表した。ヨルダンとの協定の主な条項は次のとおりです: 前進する繁栄の道: 今日の発表は、中東における米国の最も価値あるパートナーの1つとの米国の戦略的パートナーシップを強化すると同時に、米国の労働者と産業を優先し、米国を守る相互条件を促進します。 […] ポストファクトシート: ドナルド・J・トランプ大統領、ヨルダンとの通商協定を発表"
+        },
+        "ko": {
+          "title": "팩트 시트: 도널드 J. 트럼프 대통령, 요르단과의 무역 협정 발표",
+          "summary": "상호 무역 제공: 오늘 도널드 J. 트럼프 대통령은 요르단과의 획기적인 무역 협정을 발표했습니다. 요르단과의 협정의 주요 조건은 다음과 같습니다: 번영하는 길: 오늘의 발표는 미국의 노동자와 산업을 우선시하고 미국을 보호하는 상호 조건을 조성하는 동시에 중동에서 미국의 가장 가치 있는 파트너 중 하나와 미국의 전략적 파트너십을 강화합니다. [...] 포스트 팩트 시트: 도널드 J. 트럼프 대통령, 요르단 앱과의 무역 협정 발표"
+        },
+        "de": {
+          "title": "Faktenblatt: Präsident Donald J. Trump kündigt Handelsabkommen mit Jordanien an",
+          "summary": "UMSETZUNG DES GEGENSEITIGEN HANDELS: Heute kündigte Präsident Donald J. Trump ein bahnbrechendes Handelsabkommen mit Jordanien an. Zu den wichtigsten Bedingungen des Abkommens mit Jordanien gehören: DER PROSPERIGE WEG NACH VORN: Die heutige Ankündigung stärkt Amerikas strategische Partnerschaft mit einem der am meisten geschätzten Partner Amerikas im Nahen Osten und fördert gleichzeitig gegenseitige Bedingungen, die amerikanische Arbeitnehmer und Industrien in den Vordergrund stellen und die USA schützen"
+        },
+        "fr": {
+          "title": "Fiche d'information : Le président Donald J. Trump annonce un accord commercial avec la Jordanie",
+          "summary": "RÉALISER LE COMMERCE RÉCIPROQUE : Aujourd'hui, le président Donald J. Trump a annoncé un accord commercial historique avec la Jordanie. Les principaux termes de l'accord avec la Jordanie comprennent : LA VOIE PROSPÉRÉE : L'annonce d'aujourd'hui renforce le partenariat stratégique de l'Amérique avec l'un des partenaires les plus précieux des États-Unis au Moyen-Orient tout en favorisant des conditions réciproques qui donnent la priorité aux travailleurs et aux industries américaines, protègent les États-Unis."
+        }
+      }
+    },
+    {
+      "title": "AGREEMENT BETWEEN THE UNITED STATES OF AMERICA AND THE HASHEMITE KINGDOM OF JORDAN ON RECIPROCAL TRADE",
+      "link": "https://www.whitehouse.gov/briefings-statements/2026/07/agreement-between-the-united-states-of-america-and-the-hashemite-kingdom-of-jordan-on-reciprocal-trade/",
+      "summary": "AGREEMENT BETWEEN THE UNITED STATES OF AMERICA AND THE HASHEMITE KINGDOM OF JORDAN ON RECIPROCAL TRADE Preamble The United States of America (“United States”) and the Hashemite Kingdom of Jordan (“Jordan”) (individually a “Party” and collectively “the Parties”), EMPHASIZING their shared values, including democracy, economic freedom, and the rule of law; RECOGNIZING the special bonds […] The post AGREEMENT BETWEEN THE UNITED STATES OF AMERICA AND THE HASHEMITE KINGDOM OF JORDAN ON RECIPROCAL TRAD",
+      "published_at": "Tue, 21 Jul 2026 15:55:51 +0000",
+      "source": "white_house",
+      "_translation_hash": "e6b82a17d13a36f607986cbdf329c37e0fa38bbeb75b7da815eb4039bac26761",
+      "translations": {
+        "zh-CN": {
+          "title": "美利坚合众国与约旦哈希姆王国互惠贸易协定",
+          "summary": "美利坚合众国和约旦哈希姆王国互惠贸易协定 序言 美利坚合众国（“美利坚合众国”）和约旦哈希姆王国（“约旦”）（单独称为“一方”，统称为“双方”），强调两国共同的价值观，包括民主、经济自由和法治；承认特殊纽带[...]美利坚合众国与约旦哈希姆王国之间的互惠贸易协议"
+        },
+        "zh-TW": {
+          "title": "美利堅合眾國與約旦哈希姆王國互惠貿易協定",
+          "summary": "美利堅合眾國與約旦哈希姆王國互惠貿易協定 序言 美利堅合眾國（“美利堅合眾國和約旦哈希姆王國互惠貿易協定 序言 美利堅合眾國（“美利堅合眾國和約旦哈希姆王國互惠貿易協定 序言 美利堅合眾國（“美利堅合眾國”）和約旦哈希姆王國（“約旦”）（單獨稱為“一方”，統稱為“雙方”），強調兩國共同的價值觀，包括民主、經濟自由和法治；承認特殊紐帶[...]與約"
+        },
+        "ja": {
+          "title": "アメリカ合衆国とヨルダン・ハシミテ王国間の相互貿易に関する協定",
+          "summary": "相互貿易に関するアメリカ合衆国とヨルダン・ハシミテ王国との間の協定 前文 アメリカ合衆国（以下「米国」）とヨルダン・ハシミテ王国（以下「ヨルダン」）（個別に「締約国」、総称して「締約国」）は、民主主義、経済的自由、法の支配を含む共通の価値観を強調し、特別債券の認識 […] The post 相互貿易に関するアメリカ合衆国とヨルダン・ハシミテ王国間の協定"
+        },
+        "ko": {
+          "title": "미합중국과 요르단 하셰미트 왕국 간의 상호 무역에 관한 협정",
+          "summary": "상호 무역에 관한 미국과 요르단 하시미트 왕국 간의 협정 서문 미국(“미국”)과 요르단 하심 왕국(“요르단”)(개별적으로 “당사국”, 집합적으로 “당사국”)은 민주주의, 경제적 자유, 법치를 포함한 공유 가치를 강조합니다. 특수 채권 인정 […] 미국과 요르단 하쉬미트 왕국 간의 상호 무역에 관한 협정 이후"
+        },
+        "de": {
+          "title": "Abkommen zwischen den Vereinigten Staaten von Amerika und dem Haschemitischen Königreich Jordanien über den gegenseitigen Handel",
+          "summary": "ABKOMMEN ZWISCHEN DEN VEREINIGTEN STAATEN VON AMERIKA UND DEM HASCHEMITENKÖNIGREICH JORDANIEN ÜBER GEGENSEITIGEN HANDEL Präambel Die Vereinigten Staaten von Amerika („Vereinigte Staaten“) und das Haschemitische Königreich Jordanien („Jordanien“) (einzeln eine „Partei“ und zusammen „die Parteien“), UNTER HERVORHEBUNG ihrer gemeinsamen Werte, einschließlich Demokratie, Wirtschaftsfreiheit und Rechtsstaatlichkeit; IN ANERKENNUNG der besonderen Bindungen […] Das Postabkommen zwischen den Vereinigten Staaten von Amerika und dem Haschemitischen Königreich Jordanien über den gegenseitigen Handel"
+        },
+        "fr": {
+          "title": "ACCORD COMMERCIAL RÉCIPROQUE ENTRE LES ÉTATS-UNIS D'AMÉRIQUE ET LE ROYAUME HACHÉMITE DE JORDANIE",
+          "summary": "ACCORD ENTRE LES ÉTATS-UNIS D'AMÉRIQUE ET LE ROYAUME HACHÉMITE DE JORDANIE SUR LE COMMERCE RÉCIPROQUE Préambule Les États-Unis d'Amérique (« États-Unis ») et le Royaume hachémite de Jordanie (« Jordanie ») (individuellement une « Partie » et collectivement « les Parties »), SOULIGNANT leurs valeurs communes, notamment la démocratie, la liberté économique et l'État de droit ; RECONNAISSANT les obligations spéciales […] The post ACCORD ENTRE LES ÉTATS-UNIS D'AMÉRIQUE ET LE ROYAUME HACHÉMITE DE JORDANIE SUR LE COMMERCE RÉCIPROQUE"
+        }
+      }
+    },
+    {
+      "title": "Fact Sheet: President Donald J. Trump Imposes Additional Tariffs on Canada",
+      "link": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-imposes-additional-tariffs-on-canada/",
+      "summary": "DEFENDING AMERICAN WORKERS AND ENSURING FAIR TRADE: Today, President Donald J. Trump signed three Proclamations pursuant to Section 338 of the Tariff Act of 1930 to impose additional 50% tariffs on certain goods of Canada in response to Canada’s discriminatory treatment of American products. By doing so, President Trump is offsetting the burden and disadvantage on […] The post Fact Sheet: President Donald J. Trump Imposes Additional Tariffs on Canada appeared first on The White House .",
+      "published_at": "Mon, 20 Jul 2026 21:00:00 +0000",
+      "source": "white_house",
+      "_translation_hash": "62670b654d89075ca4b37b18a2e68d27b0d45663651469b4d60028d7b573e200",
+      "translations": {
+        "zh-CN": {
+          "title": "情况说明书：唐纳德·J·特朗普总统对加拿大征收额外关税",
+          "summary": "保护美国工人并确保公平贸易：今天，唐纳德·J·特朗普总统根据 1930 年关税法第 338 条签署了三项公告，对加拿大某些商品征收额外 50% 的关税，以回应加拿大对美国产品的歧视性待遇。通过这样做，特朗普总统正在抵消[...]后情况说明书：唐纳德·J·特朗普总统对加拿大征收额外关税首先出现在白宫。"
+        },
+        "zh-TW": {
+          "title": "情況說明書：唐納德·J·特朗普總統對加拿大徵收額外關稅",
+          "summary": "保護美國工人並確保公平貿易：今天，唐納德·J·特朗普總統根據 1930 年關稅法第 338 條簽署了三項公告，對加拿大某些商品徵收額外 50% 的關稅，以回應加拿大對美國產品的歧視性待遇。透過這樣做，川普總統正在抵消[...]後情況說明書：唐納德·J·特朗普總統對加拿大徵收額外關稅首先出現在白宮。"
+        },
+        "ja": {
+          "title": "ファクトシート: ドナルド・J・トランプ大統領、カナダに追加関税を課す",
+          "summary": "アメリカ人労働者の擁護と公正貿易の確保：本日、ドナルド・J・トランプ大統領は、カナダによるアメリカ製品に対する差別的扱いに対抗し、カナダの特定製品に50％の追加関税を課す1930年関税法第338条に基づく3つの宣言に署名した。そうすることで、トランプ大統領はカナダに対する負担と不利益を相殺している […] The post Fact Sheet: President Donald J. Trump Imposes Additional Tariffs on Canada appeared first on The White House ."
+        },
+        "ko": {
+          "title": "팩트 시트: 도널드 J. 트럼프 대통령, 캐나다에 추가 관세 부과",
+          "summary": "미국 근로자 보호 및 공정 무역 보장: 오늘 도널드 J. 트럼프 대통령은 미국 제품에 대한 캐나다의 차별적 대우에 대응하여 캐나다 특정 상품에 대해 추가 50% 관세를 부과하는 1930년 관세법 제338조에 따라 세 가지 선언문에 서명했습니다. 그렇게 함으로써 트럼프 대통령은 […"
+        },
+        "de": {
+          "title": "Faktenblatt: Präsident Donald J. Trump erhebt zusätzliche Zölle gegen Kanada",
+          "summary": "AMERIKANISCHE ARBEITNEHMER VERTEIDIGEN UND FAIREN HANDEL GEWÄHRLEISTEN: Heute unterzeichnete Präsident Donald J. Trump drei Proklamationen gemäß Abschnitt 338 des Zollgesetzes von 1930, um als Reaktion auf die diskriminierende Behandlung amerikanischer Produkte durch Kanada zusätzliche Zölle in Höhe von 50 % auf bestimmte Waren Kanadas zu erheben. Auf diese Weise gleicht Präsident Trump die Belastung und den Nachteil auf […] aus. Der Beitrag Fact Sheet: Präsident Donald J. Trump verhängt zusätzliche Zölle gegen Kanada erschien zuerst im Weißen Haus."
+        },
+        "fr": {
+          "title": "Fiche d'information : Le président Donald J. Trump impose des tarifs supplémentaires au Canada",
+          "summary": "DÉFENDRE LES TRAVAILLEURS AMÉRICAINS ET GARANTIR UN COMMERCE ÉQUITABLE : Aujourd'hui, le président Donald J. Trump a signé trois proclamations en vertu de l'article 338 de la Loi douanière de 1930 pour imposer des droits de douane supplémentaires de 50 % sur certains produits du Canada en réponse au traitement discriminatoire des produits américains par le Canada. Ce faisant, le président Trump compense le fardeau et le désavantage de […] L'article Fiche d'information : Le président Donald J. Trump impose des tarifs supplémentaires au Canada est apparu en premier sur La Maison Blanche."
+        }
+      }
+    },
+    {
+      "title": "New Residential Construction",
+      "link": "https://www.census.gov/construction/nrc/index.html",
+      "summary": "Privately-owned housing starts in June 2026 were at a seasonally adjusted annual rate of 1,427,000. This is 19.0 percent (+/- 15.9%) above the revised May 2026 estimate of 1,199,000. June 2026: +19.0 % Change May 2026 (r): -15.2 % Change",
+      "published_at": "Fri, 17 Jul 2026 08:30:00 -0400",
+      "source": "census",
+      "_translation_hash": "4a8f488225f104ff1c0d44a00308613c42d6778ecc09a4870df52716f56b5cfc",
+      "translations": {
+        "zh-CN": {
+          "title": "新住宅建设",
+          "summary": "2026 年 6 月，经季节调整后的私人住房开工量年率为 1,427,000 套。这比 2026 年 5 月修订后的估计数 1,199,000 人高出 19.0% (+/- 15.9%)。 2026 年 6 月：+19.0% 变化 2026 年 5 月 (r)：-15.2% 变化"
+        },
+        "zh-TW": {
+          "title": "新住宅建設",
+          "summary": "2026 年 6 月，經季節調整後的私人住宅開工量年率為 1,427,000 套。這比 2026 年 5 月修訂後的估計數 1,199,000 人高出 19.0% (+/- 15.9%)。 2026 年 6 月：+19.0% 變化 2026 年 5 月 (r)：-15.2% 變化"
+        },
+        "ja": {
+          "title": "新築住宅建設",
+          "summary": "2026年6月の民間住宅着工戸数（季節調整済み年率換算）は142万7000戸だった。これは、2026 年 5 月の改訂予測値 1,199,000 を 19.0 パーセント (+/- 15.9 %) 上回っています。 2026年6月: +19.0 %変化 2026年5月(r): -15.2 %変化"
+        },
+        "ko": {
+          "title": "새로운 주거 건설",
+          "summary": "2026년 6월 개인 소유 주택 착공은 계절 조정 연율 1,427,000건이었습니다. 이는 2026년 5월 수정된 추정치인 1,199,000보다 19.0%(+/- 15.9%) 높은 수치입니다. 2026년 6월: +19.0% 변동 2026년 5월(r): -15.2% 변동"
+        },
+        "de": {
+          "title": "Neubau von Wohngebäuden",
+          "summary": "Im Juni 2026 wurden saisonbereinigt 1.427.000 Wohnungen im Privatbesitz neu gebaut. Das sind 19,0 Prozent (+/- 15,9 %) mehr als die revidierte Schätzung vom Mai 2026 von 1.199.000. Juni 2026: +19,0 % Veränderung Mai 2026 (r): -15,2 % Veränderung"
+        },
+        "fr": {
+          "title": "Nouvelle construction résidentielle",
+          "summary": "En juin 2026, les mises en chantier de logements privés se sont établies à un taux annuel désaisonnalisé de 1 427 000. Cela représente 19,0 pour cent (+/- 15,9%) au-dessus de l'estimation révisée de mai 2026 de 1 199 000. Juin 2026 : +19,0 % Variation Mai 2026 (r) : -15,2 % Variation"
         }
       }
     },
@@ -173,70 +377,70 @@
       }
     },
     {
-      "title": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
-      "summary": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
-      "published_at": "Thu, 16 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
-      "_translation_hash": "53431b1a020819bc01ff005be04a33cb1d208b9b3e5bcb4e9025a7e83b87ffc5",
+      "title": "Manufacturing and Trade Inventories and Sales",
+      "link": "https://www.census.gov/mtis/index.html",
+      "summary": "U.S. total business end-of-month inventories for May 2026 were $2,736.2 billion, up 0.3 percent (+/- 0.1 percent) from last month. U.S. total business sales were $2,135.0 billion, up 2.1 percent (+/- 0.2 percent) from last month. May 2026: +0.3 % Change in Inventories April 2026 (r): +0.6 % Change in Inventories",
+      "published_at": "Thu, 16 Jul 2026 10:00:00 -0400",
+      "source": "census",
+      "_translation_hash": "1c929bfecd9b3469156504b12a1389962f78f8e32eea80485f621a9a989b2b38",
       "translations": {
         "zh-CN": {
-          "title": "各机构就银行检查期间高度敏感信息的处理发表联合声明",
-          "summary": "各机构就银行检查期间高度敏感信息的处理发表联合声明"
+          "title": "制造和贸易库存和销售",
+          "summary": "2026 年 5 月美国企业月末库存总额为 27,362 亿美元，较上月增长 0.3%（+/- 0.1%）。美国企业总销售额为 21,350 亿美元，较上月增长 2.1%（+/- 0.2%）。 2026 年 5 月：库存变化 +0.3% 2026 年 4 月 (r)：库存变化 +0.6%"
         },
         "zh-TW": {
-          "title": "各機構就銀行檢查期間高度敏感資訊的處理發表聯合聲明",
-          "summary": "各機構就銀行檢查期間高度敏感資訊的處理發表聯合聲明"
+          "title": "製造和貿易庫存和銷售",
+          "summary": "2026 年 5 月美國企業月末庫存總額為 27,362 億美元，較上月成長 0.3%（+/- 0.1%）。美國企業總銷售額為 21,350 億美元，較上月成長 2.1%（+/- 0.2%）。 2026 年 5 月：庫存變化 +0.3% 2026 年 4 月 (r)：庫存變化 +0.6%"
         },
         "ja": {
-          "title": "銀行審査における機密性の高い情報の取り扱いに関する政府機関が共同声明を発表",
-          "summary": "銀行審査における機密性の高い情報の取り扱いに関する政府機関が共同声明を発表"
+          "title": "製造および貿易の在庫および販売",
+          "summary": "2026年5月の米国企業の月末在庫総額は2兆7,362億ドルで、前月比0.3パーセント（±0.1パーセント）増加しました。米国の総事業売上高は 2 兆 1,350 億ドルで、前月比 2.1% (+/- 0.2%) 増加しました。 2026年5月: +0.3 % 在庫変動 2026年4月(r): +0.6 % 在庫変動"
         },
         "ko": {
-          "title": "금융기관, 은행 조사 중 매우 민감한 정보 처리에 관한 공동성명 발표",
-          "summary": "금융기관, 은행 조사 중 매우 민감한 정보 처리에 관한 공동성명 발표"
+          "title": "제조 및 무역 재고 및 판매",
+          "summary": "2026년 5월 미국의 총 기업 월말 재고는 2조 7,362억 달러로 지난달보다 0.3%(+/- 0.1%) 증가했습니다. 미국 전체 기업 매출은 2조1350억 달러로 전월보다 2.1%(+/-0.2%) 증가했다. 2026년 5월: 재고 변동 +0.3% 2026년 4월(r): 재고 변동 +0.6%"
         },
         "de": {
-          "title": "Behörden geben gemeinsame Stellungnahme zum Umgang mit hochsensiblen Informationen bei Bankprüfungen ab",
-          "summary": "Behörden geben gemeinsame Stellungnahme zum Umgang mit hochsensiblen Informationen bei Bankprüfungen ab"
+          "title": "Produktions- und Handelsbestände und -verkäufe",
+          "summary": "Die Gesamtlagerbestände der US-Unternehmen zum Monatsende beliefen sich im Mai 2026 auf 2.736,2 Milliarden US-Dollar, ein Anstieg von 0,3 Prozent (+/- 0,1 Prozent) gegenüber dem Vormonat. Der Gesamtumsatz der US-Unternehmen belief sich auf 2.135,0 Milliarden US-Dollar, ein Plus von 2,1 Prozent (+/- 0,2 Prozent) gegenüber dem Vormonat. Mai 2026: +0,3 % Bestandsveränderung April 2026 (r): +0,6 % Bestandsveränderung"
         },
         "fr": {
-          "title": "Les agences publient une déclaration commune sur le traitement des informations hautement sensibles lors des examens bancaires",
-          "summary": "Les agences publient une déclaration commune sur le traitement des informations hautement sensibles lors des examens bancaires"
+          "title": "Stocks et ventes de fabrication et commerciaux",
+          "summary": "Les stocks totaux des entreprises américaines de fin de mois pour mai 2026 s'élevaient à 2 736,2 milliards de dollars, en hausse de 0,3 % (+/- 0,1 %) par rapport au mois dernier. Le chiffre d'affaires total des entreprises aux États-Unis s'est élevé à 2 135,0 milliards de dollars, en hausse de 2,1 % (+/- 0,2 %) par rapport au mois dernier. Mai 2026 : +0,3 % variation des stocks Avril 2026 (r) : +0,6 % variation des stocks"
         }
       }
     },
     {
-      "title": "Federal Reserve Board issues enforcement action with former chief lending officer of Heritage State Bank",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260716a.htm",
-      "summary": "Federal Reserve Board issues enforcement action with former chief lending officer of Heritage State Bank",
-      "published_at": "Thu, 16 Jul 2026 15:00:00 GMT",
-      "source": "fed_press",
-      "_translation_hash": "c52d4d945f99e553fb61773fa451484abb62c3809883e0cf6360fcc05cfc928c",
+      "title": "Advance Monthly Sales for Retail and Food Services",
+      "link": "https://www.census.gov/retail/index.html",
+      "summary": "U.S. retail and food services sales for June 2026 were $768.6 billion, up 0.2 percent (+/-0.4 percent)* from the previous month. June 2026: +0.2* % Change May 2026 (r): +1.0 % Change",
+      "published_at": "Thu, 16 Jul 2026 08:30:00 -0400",
+      "source": "census",
+      "_translation_hash": "84c6b12350918c3c78a024c965cff4a24ab306f473b84342d731cce3f574f9bb",
       "translations": {
         "zh-CN": {
-          "title": "美联储对传统州立银行前首席贷款官采取执法行动",
-          "summary": "美联储对传统州立银行前首席贷款官采取执法行动"
+          "title": "零售和食品服务的月销售额预付款",
+          "summary": "2026 年 6 月美国零售和食品服务销售额为 7,686 亿美元，环比增长 0.2% (+/-0.4%)*。 2026 年 6 月：+0.2* 变化百分比 2026 年 5 月 (r)：+1.0 变化百分比"
         },
         "zh-TW": {
-          "title": "聯準會對傳統州立銀行前首席貸款官採取執法行動",
-          "summary": "聯準會對傳統州立銀行前首席貸款官採取執法行動"
+          "title": "零售和食品服務的月銷售額預付款",
+          "summary": "2026 年 6 月美國零售與食品服務銷售額為 7,686 億美元，較上季成長 0.2% (+/-0.4%)*。 2026 年 6 月：+0.2* 變化百分比 2026 年 5 月 (r)：+1.0 變化百分比"
         },
         "ja": {
-          "title": "連邦準備理事会、ヘリテージ州立銀行の元最高融資責任者に執行措置を発動",
-          "summary": "連邦準備理事会、ヘリテージ州立銀行の元最高融資責任者に執行措置を発動"
+          "title": "小売および食品サービスの前月次売上高",
+          "summary": "2026 年 6 月の米国の小売および食品サービス売上高は 7,686 億ドルで、前月比 0.2% (+/-0.4%)* 増加しました。 2026 年 6 月: +0.2* % 変化 2026 年 5 月 (r): +1.0 % 変化"
         },
         "ko": {
-          "title": "연방준비제도이사회(Federal Reserve Board)는 헤리티지 주립은행(Heritage State Bank)의 전 최고 대출 책임자에게 집행 조치를 취했습니다.",
-          "summary": "연방준비제도이사회(Federal Reserve Board)는 헤리티지 주립은행(Heritage State Bank)의 전 최고 대출 책임자에게 집행 조치를 취했습니다."
+          "title": "소매 및 식품 서비스에 대한 월별 사전 판매",
+          "summary": "2026년 6월 미국 소매 및 식품 서비스 매출은 7,686억 달러로 전월 대비 0.2%(+/-0.4%)* 증가했습니다. 2026년 6월: +0.2* % 변동 2026년 5월(r): +1.0 % 변동"
         },
         "de": {
-          "title": "Das Federal Reserve Board erlässt eine Durchsetzungsklage gegen den ehemaligen Chief Lending Officer der Heritage State Bank",
-          "summary": "Das Federal Reserve Board erlässt eine Durchsetzungsklage gegen den ehemaligen Chief Lending Officer der Heritage State Bank"
+          "title": "Monatliche Vorverkäufe für Einzelhandel und Lebensmitteldienstleistungen",
+          "summary": "Der Einzelhandels- und Lebensmitteldienstleistungsumsatz in den USA belief sich im Juni 2026 auf 768,6 Milliarden US-Dollar, ein Plus von 0,2 Prozent (+/-0,4 Prozent)* gegenüber dem Vormonat. Juni 2026: +0,2* % Veränderung Mai 2026 (r): +1,0 % Veränderung"
         },
         "fr": {
-          "title": "La Réserve fédérale prend des mesures coercitives contre l'ancien directeur des prêts de la Heritage State Bank",
-          "summary": "La Réserve fédérale prend des mesures coercitives contre l'ancien directeur des prêts de la Heritage State Bank"
+          "title": "Avancer les ventes mensuelles pour le commerce de détail et les services alimentaires",
+          "summary": "Les ventes du commerce de détail et des services alimentaires aux États-Unis pour juin 2026 se sont élevées à 768,6 milliards de dollars, en hausse de 0,2 % (+/-0,4 %)* par rapport au mois précédent. Juin 2026 : +0,2* % Variation Mai 2026 (r) : +1,0 % Variation"
         }
       }
     },
@@ -313,7 +517,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "_translation_hash": "c09a26cb3c65f8400f15c7e89dcc1a09c734bb0be0d32fb4ab108c5d9d6e34a1",
       "translations": {
         "ja": {
@@ -483,7 +687,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "_translation_hash": "db09f66de63cb0b059d2c8f1e934f2297fdcf0cfb98f4d5c3f3ebd31c649b786",
       "translations": {
         "zh-CN": {
@@ -513,36 +717,36 @@
       }
     },
     {
-      "title": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm",
-      "summary": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
-      "published_at": "Thu, 9 Jul 2026 15:00:00 GMT",
-      "source": "fed_press",
-      "_translation_hash": "5bfa0821e784db8886216ac21f878a76852e711d32b3e1b4f5a651e43d40d658",
+      "title": "Business Formation Statistics",
+      "link": "https://www.census.gov/econ/bfs/",
+      "summary": "Total U.S. Business Applications were 531,423 in June 2026, up 1.1% from May 2026. June 2026: +1.1° % Change May 2026 (r): +3.7° % Change",
+      "published_at": "Thu, 09 Jul 2026 10:00:00 -0400",
+      "source": "census",
+      "_translation_hash": "ed746e2f8947c1c1ecba17acc31b7be50b2cf35e829f88ad3ca9f12bf7bc71ce",
       "translations": {
         "zh-CN": {
-          "title": "美联储对 TS Banking Group, Inc. 和 TS Contrarian Bancshares, Inc. 采取强制执行行动",
-          "summary": "美联储对 TS Banking Group, Inc. 和 TS Contrarian Bancshares, Inc. 采取强制执行行动"
+          "title": "企业组建统计",
+          "summary": "2026 年 6 月美国商业申请总数为 531,423 件，较 2026 年 5 月增长 1.1%。 2026 年 6 月：+1.1° % 变化 2026 年 5 月 (r)：+3.7° % 变化"
         },
         "zh-TW": {
-          "title": "聯準會對 TS Banking Group, Inc. 和 TS Contrarian Bancshares, Inc. 採取強制執行行動",
-          "summary": "聯準會對 TS Banking Group, Inc. 和 TS Contrarian Bancshares, Inc. 採取強制執行行動"
+          "title": "企業組成統計",
+          "summary": "2026 年 6 月美國商業申請總數為 531,423 件，較 2026 年 5 月成長 1.1%。 2026 年 6 月：+1.1° % 變化 2026 年 5 月 (r)：+3.7° % 變化"
         },
         "ja": {
-          "title": "連邦準備制度理事会は、TS Banking Group, Inc. および TS Contrarian Bancshares, Inc. に対して執行措置を発動しました。",
-          "summary": "連邦準備制度理事会は、TS Banking Group, Inc. および TS Contrarian Bancshares, Inc. に対して執行措置を発動しました。"
+          "title": "企業形成統計",
+          "summary": "2026 年 6 月の米国ビジネスアプリケーションの合計は 531,423 件で、2026 年 5 月から 1.1% 増加しました。 2026 年 6 月: +1.1° % 変化 2026 年 5 月 (r): +3.7° % 変化"
         },
         "ko": {
-          "title": "연방준비제도이사회(Federal Reserve Board)는 TS Banking Group, Inc. 및 TS Contrarian Bancshares, Inc.와 함께 집행 조치를 취합니다.",
-          "summary": "연방준비제도이사회(Federal Reserve Board)는 TS Banking Group, Inc. 및 TS Contrarian Bancshares, Inc.와 함께 집행 조치를 취합니다."
+          "title": "사업형성통계",
+          "summary": "2026년 6월 미국 비즈니스 신청 건수는 531,423건으로 2026년 5월보다 1.1% 증가했습니다. 2026년 6월: +1.1° % 변화 2026년 5월(r): +3.7° % 변화"
         },
         "de": {
-          "title": "Federal Reserve Board erlässt Durchsetzungsmaßnahmen gegen TS Banking Group, Inc. und TS Contrarian Bancshares, Inc.",
-          "summary": "Federal Reserve Board erlässt Durchsetzungsmaßnahmen gegen TS Banking Group, Inc. und TS Contrarian Bancshares, Inc."
+          "title": "Statistik der Unternehmensgründung",
+          "summary": "Die Gesamtzahl der Geschäftsanträge in den USA betrug im Juni 2026 531.423, ein Anstieg von 1,1 % gegenüber Mai 2026. Juni 2026: +1,1° % Veränderung. Mai 2026 (r): +3,7° % Veränderung"
         },
         "fr": {
-          "title": "La Réserve fédérale prend des mesures coercitives contre TS Banking Group, Inc. et TS Contrarian Bancshares, Inc.",
-          "summary": "La Réserve fédérale prend des mesures coercitives contre TS Banking Group, Inc. et TS Contrarian Bancshares, Inc."
+          "title": "Statistiques sur la création d'entreprises",
+          "summary": "Le nombre total d'applications commerciales aux États-Unis s'élevait à 531 423 en juin 2026, en hausse de 1,1 % par rapport à mai 2026. Juin 2026 : +1,1° % de variation Mai 2026 (d) : +3,7° % de variation"
         }
       }
     },
@@ -551,7 +755,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
       "summary": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
       "published_at": "Wed, 8 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "_translation_hash": "34ec650653fe32efaea5d06c1c55c3a9cd6e9e7e5fb94d61d1fe47ddcc221da6",
       "translations": {
         "zh-CN": {
@@ -581,36 +785,70 @@
       }
     },
     {
-      "title": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260707a.htm",
-      "summary": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs",
-      "published_at": "Tue, 7 Jul 2026 19:00:00 GMT",
-      "source": "fed_press",
-      "_translation_hash": "5386e59d3eca1b3f2513896184b3ef95a0210bb0a63d704c331808bf7e9ed9e3",
+      "title": "Monthly Wholesale Trade: Sales and Inventories",
+      "link": "https://www.census.gov/wholesale/index.html",
+      "summary": "May 2026 sales of merchant wholesalers were $817.4 billion, up 3.4 percent (+/- 0.5 percent) from last month. End-of-month inventories were $941.8 billion, up 0.1 percent (+/- 0.2 percent)* from last month. May 2026: +0.1* % Change in Inventories April 2026 (r): +0.7 % Change in Inventories",
+      "published_at": "Wed, 08 Jul 2026 10:00:00 -0400",
+      "source": "census",
+      "_translation_hash": "beb6fbe5353935b16f1f63ef3f2c10d9968f0ff94acd237cca4563f90752e755",
       "translations": {
         "zh-CN": {
-          "title": "美联储要求就修改银行维持反洗钱计划要求的提案发表评论",
-          "summary": "美联储要求就修改银行维持反洗钱计划要求的提案发表评论"
+          "title": "月度批发贸易：销售和库存",
+          "summary": "2026 年 5 月，商业批发商的销售额为 8,174 亿美元，比上个月增长 3.4%（+/- 0.5%）。月末库存为 9,418 亿美元，较上月增长 0.1%（+/- 0.2%）*。 2026 年 5 月：+0.1* 库存变化百分比 2026 年 4 月 (r)：+0.7% 库存变化"
         },
         "zh-TW": {
-          "title": "聯準會要求就修改銀行維持反洗錢計畫要求的提案發表評論",
-          "summary": "聯準會要求就修改銀行維持反洗錢計畫要求的提案發表評論"
+          "title": "月度批發貿易：銷售和庫存",
+          "summary": "2026 年 5 月，商業批發商的銷售額為 8,174 億美元，比上個月成長 3.4%（+/- 0.5%）。月末庫存為 9,418 億美元，較上月增長 0.1%（+/- 0.2%）*。 2026 年 5 月：+0.1* 庫存變化百分比 2026 年 4 月 (r)：+0.7% 庫存變化"
         },
         "ja": {
-          "title": "連邦準備制度理事会、銀行に対するマネーロンダリング対策プログラム維持の要件を修正する提案についてコメントを求める",
-          "summary": "連邦準備制度理事会、銀行に対するマネーロンダリング対策プログラム維持の要件を修正する提案についてコメントを求める"
+          "title": "月次卸売業の売上高と在庫状況",
+          "summary": "2026 年 5 月の小売卸売業者の売上高は 8,174 億ドルで、前月比 3.4% (+/- 0.5%) 増加しました。月末の在庫は 9,418 億ドルで、前月比 0.1% (+/- 0.2%)* 増加しました。 2026 年 5 月: +0.1* % 在庫変動率 2026 年 4 月 (r): +0.7 % 在庫変動率"
         },
         "ko": {
-          "title": "연방준비제도이사회(Federal Reserve Board)는 은행이 자금세탁 방지 프로그램을 유지하도록 요구 사항을 개정하는 제안에 대한 의견을 요청합니다.",
-          "summary": "연방준비제도이사회(Federal Reserve Board)는 은행이 자금세탁 방지 프로그램을 유지하도록 요구 사항을 개정하는 제안에 대한 의견을 요청합니다."
+          "title": "월별 도매 거래: 판매 및 재고",
+          "summary": "2026년 5월 도매상 매출은 8,174억 달러로 전월 대비 3.4%(+/- 0.5%) 증가했습니다. 월말 재고는 9,418억 달러로 전월 대비 0.1%(+/- 0.2%)* 증가했습니다. 2026년 5월: +0.1* 재고 변동률 2026년 4월(r): 재고 변동률 +0.7%"
         },
         "de": {
-          "title": "Das Federal Reserve Board bittet um Stellungnahme zu einem Vorschlag zur Änderung seiner Anforderungen an Banken zur Aufrechterhaltung von Anti-Geldwäsche-Programmen",
-          "summary": "Das Federal Reserve Board bittet um Stellungnahme zu einem Vorschlag zur Änderung seiner Anforderungen an Banken zur Aufrechterhaltung von Anti-Geldwäsche-Programmen"
+          "title": "Monatlicher Großhandel: Verkäufe und Lagerbestände",
+          "summary": "Der Umsatz der Großhändler belief sich im Mai 2026 auf 817,4 Milliarden US-Dollar, ein Plus von 3,4 Prozent (+/- 0,5 Prozent) gegenüber dem Vormonat. Die Lagerbestände zum Monatsende beliefen sich auf 941,8 Milliarden US-Dollar, ein Plus von 0,1 Prozent (+/- 0,2 Prozent)* gegenüber dem Vormonat. Mai 2026: +0,1* % Bestandsveränderung April 2026 (r): +0,7 % Bestandsveränderung"
         },
         "fr": {
-          "title": "La Réserve fédérale sollicite des commentaires sur une proposition visant à modifier ses exigences obligeant les banques à maintenir des programmes de lutte contre le blanchiment d'argent",
-          "summary": "La Réserve fédérale sollicite des commentaires sur une proposition visant à modifier ses exigences obligeant les banques à maintenir des programmes de lutte contre le blanchiment d'argent"
+          "title": "Commerce de gros mensuel : ventes et stocks",
+          "summary": "En mai 2026, les ventes des grossistes marchands s'élevaient à 817,4 milliards de dollars, en hausse de 3,4 % (+/- 0,5 %) par rapport au mois dernier. Les stocks de fin de mois s'élevaient à 941,8 milliards de dollars, en hausse de 0,1 pour cent (+/- 0,2 pour cent)* par rapport au mois dernier. Mai 2026 : +0,1* % de variation des stocks Avril 2026 (r) : +0,7 % de variation des stocks"
+        }
+      }
+    },
+    {
+      "title": "U.S. International Trade in Goods and Services",
+      "link": "https://www.census.gov/foreign-trade/index.html",
+      "summary": "The nation's international trade deficit in goods and services increased to $77.6 billion in May from $54.6 billion in April (revised), as exports decreased and imports increased. May 2026: 42.2° % Change April 2026 (r): -3.6° % Change",
+      "published_at": "Tue, 07 Jul 2026 08:30:00 -0400",
+      "source": "census",
+      "_translation_hash": "098058665af2f2247adc622ca2eefe4af9dd502f224aece6858c6e65227ee620",
+      "translations": {
+        "zh-CN": {
+          "title": "美国国际商品和服务贸易",
+          "summary": "由于出口减少和进口增加，5 月份美国商品和服务国际贸易逆差从 4 月份的 546 亿美元（修正后）增至 776 亿美元。 2026 年 5 月：42.2° 变化百分比 2026 年 4 月 (r)：-3.6° 变化百分比"
+        },
+        "zh-TW": {
+          "title": "美國國際商品與服務貿易",
+          "summary": "由於出口減少和進口增加，5 月美國商品和服務國際貿易逆差從 4 月的 546 億美元（修正後）增加到 776 億美元。 2026 年 5 月：42.2° 變化百分比 2026 年 4 月 (r)：-3.6° 變化百分比"
+        },
+        "ja": {
+          "title": "米国の商品とサービスの国際貿易",
+          "summary": "輸出が減少し輸入が増加したことにより、同国の財とサービスの国際貿易赤字は4月の546億ドル（改定値）から5月には776億ドルに増加した。 2026年5月: 42.2° %変化 2026年4月(r): -3.6° %変化"
+        },
+        "ko": {
+          "title": "미국의 상품 및 서비스 국제 무역",
+          "summary": "수출이 감소하고 수입이 증가함에 따라 상품 및 서비스 분야의 국가 국제 무역 적자는 4월(개정)의 546억 달러에서 5월 776억 달러로 증가했습니다. 2026년 5월: 42.2° % 변화 2026년 4월(r): -3.6° % 변화"
+        },
+        "de": {
+          "title": "Internationaler Handel der USA mit Waren und Dienstleistungen",
+          "summary": "Das internationale Handelsdefizit des Landes bei Waren und Dienstleistungen stieg im Mai von 54,6 Milliarden US-Dollar im April (revidiert) auf 77,6 Milliarden US-Dollar, da die Exporte zurückgingen und die Importe zunahmen. Mai 2026: 42,2° % Veränderung April 2026 (r): -3,6° % Veränderung"
+        },
+        "fr": {
+          "title": "Commerce international des biens et services des États-Unis",
+          "summary": "Le déficit du commerce international des biens et services du pays a augmenté pour atteindre 77,6 milliards de dollars en mai, contre 54,6 milliards de dollars en avril (révisé), alors que les exportations ont diminué et que les importations ont augmenté. Mai 2026 : 42,2° % Variation Avril 2026 (r) : -3,6° % Variation"
         }
       }
     },
@@ -683,206 +921,104 @@
       }
     },
     {
-      "title": "Federal Reserve Board issues enforcement action with Small Business Bank and announces termination enforcement actions with BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp., and Community Bankshares, Inc.",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260702a.htm",
-      "summary": "Federal Reserve Board issues enforcement action with Small Business Bank and announces termination enforcement actions with BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp., and Community Bankshares, Inc.",
-      "published_at": "Thu, 2 Jul 2026 15:00:00 GMT",
-      "source": "fed_press",
-      "_translation_hash": "a38badbb717e83030f1c5fd9e76e2ed25396073f5ca75d317c82e273437660e3",
+      "title": "Manufacturers' Shipments, Inventories, and Orders",
+      "link": "https://www.census.gov/manufacturing/m3/",
+      "summary": "New orders for manufactured goods in May, down following four consecutive monthly increases, decreased $8.5 billion or 1.3 percent to $657.4 billion. May 2026: -1.3° % Change April 2026 (r): +5.3° % Change",
+      "published_at": "Thu, 02 Jul 2026 10:00:00 -0400",
+      "source": "census",
+      "_translation_hash": "b6c2c09ca0158dee2e1ba794b739beaa855fb72c8ebaf7e9e79a4e894a48436f",
       "translations": {
         "zh-CN": {
-          "title": "美联储向小型企业银行采取强制执行行动，并宣布与法国巴黎银行 (BNP Paribas S.A.)、法国巴黎银行美国公司 (BNP Paribas USA, Inc.)、法国巴黎银行证券公司 (BNP Paribas Securities Corp.) 和 Community Bankshares, Inc. 采取终止强制执行行动。",
-          "summary": "美联储向小型企业银行采取强制执行行动，并宣布与法国巴黎银行 (BNP Paribas S.A.)、法国巴黎银行美国公司 (BNP Paribas USA, Inc.)、法国巴黎银行证券公司 (BNP Paribas Securities Corp.) 和 Community Bankshares, Inc. 采取终止强制执行行动。"
+          "title": "制造商的出货量、库存和订单",
+          "summary": "5 月份制成品新订单继连续四个月增长后下降，减少 85 亿美元或 1.3%，至 6,574 亿美元。 2026 年 5 月：-1.3° 变化百分比 2026 年 4 月 (r)：+5.3° 变化百分比"
         },
         "zh-TW": {
-          "title": "聯準會向小型企業銀行採取強制執行行動，並宣布與法國巴黎銀行 (BNP Paribas S.A.)、法國巴黎銀行美國公司 (BNP Paribas USA, Inc.)、法國巴黎銀行證券公司 (BNP Paribas Securities Corp.) 和 Community Bankshares, Inc. 採取終止強制執行行動。",
-          "summary": "聯準會向小型企業銀行採取強制執行行動，並宣布與法國巴黎銀行 (BNP Paribas S.A.)、法國巴黎銀行美國公司 (BNP Paribas USA, Inc.)、法國巴黎銀行證券公司 (BNP Paribas Securities Corp.) 和 Community Bankshares, Inc. 採取終止強制執行行動。"
+          "title": "製造商的出貨量、庫存和訂單",
+          "summary": "5 月製成品新訂單繼連續四個月成長後下降，減少 85 億美元或 1.3%，至 6,574 億美元。 2026 年 5 月：-1.3° 變化百分比 2026 年 4 月 (r)：+5.3° 變化百分比"
         },
         "ja": {
-          "title": "連邦準備理事会は中小企業銀行に対して執行措置を発行し、BNP パリバ S.A.、BNP パリバ USA, Inc.、BNP パリバ証券株式会社、およびコミュニティ バンクシェアズに対して終了執行措置を発表しました。",
-          "summary": "連邦準備理事会は中小企業銀行に対して執行措置を発行し、BNP パリバ S.A.、BNP パリバ USA, Inc.、BNP パリバ証券株式会社、およびコミュニティ バンクシェアズに対して終了執行措置を発表しました。"
+          "title": "メーカー出荷・在庫・受注状況",
+          "summary": "５月の工業製品の新規受注は４カ月連続の増加から減少し、８５億ドル（１．３％）減の６５７４億ドルとなった。 2026年5月: -1.3° %変化 2026年4月(r): +5.3° %変化"
         },
         "ko": {
-          "title": "연방준비은행은 중소기업은행에 집행 조치를 취하고 BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp. 및 Community Bankshares, Inc.에 대해 종료 집행 조치를 발표합니다.",
-          "summary": "연방준비은행은 중소기업은행에 집행 조치를 취하고 BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp. 및 Community Bankshares, Inc.에 대해 종료 집행 조치를 발표합니다."
+          "title": "제조업체의 배송, 재고 및 주문",
+          "summary": "5월 공산품 신규 주문은 4개월 연속 증가 이후 감소하여 85억 달러(1.3%) 감소한 6,574억 달러를 기록했습니다. 2026년 5월: -1.3° % 변동 2026년 4월(r): +5.3° % 변동"
         },
         "de": {
-          "title": "Das Federal Reserve Board erlässt Durchsetzungsmaßnahmen gegen die Small Business Bank und kündigt Durchsetzungsmaßnahmen gegen Kündigung bei BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp. und Community Bankshares, Inc. an.",
-          "summary": "Das Federal Reserve Board erlässt Durchsetzungsmaßnahmen gegen die Small Business Bank und kündigt Durchsetzungsmaßnahmen gegen Kündigung bei BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp. und Community Bankshares, Inc. an."
+          "title": "Lieferungen, Bestände und Bestellungen der Hersteller",
+          "summary": "Die Auftragseingänge für Industriegüter sanken im Mai nach vier aufeinanderfolgenden monatlichen Zuwächsen um 8,5 Milliarden US-Dollar oder 1,3 Prozent auf 657,4 Milliarden US-Dollar. Mai 2026: -1,3° % Veränderung April 2026 (r): +5,3° % Veränderung"
         },
         "fr": {
-          "title": "La Réserve fédérale prend des mesures coercitives auprès de Small Business Bank et annonce des mesures coercitives en matière de résiliation auprès de BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp. et Community Bankshares, Inc.",
-          "summary": "La Réserve fédérale prend des mesures coercitives auprès de Small Business Bank et annonce des mesures coercitives en matière de résiliation auprès de BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp. et Community Bankshares, Inc."
+          "title": "Expéditions, stocks et commandes des fabricants",
+          "summary": "Les nouvelles commandes de produits manufacturés en mai, en baisse après quatre augmentations mensuelles consécutives, ont diminué de 8,5 milliards de dollars, ou 1,3 pour cent, à 657,4 milliards de dollars. Mai 2026 : -1,3° % Variation Avril 2026 (r) : +5,3° % Variation"
         }
       }
     },
     {
-      "title": "Federal Reserve issues initial findings from its 2025 triennial payments study",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20260701a.htm",
-      "summary": "Federal Reserve issues initial findings from its 2025 triennial payments study",
-      "published_at": "Wed, 1 Jul 2026 18:30:00 GMT",
-      "source": "fed_press",
-      "_translation_hash": "6acc6494f5b4790dd3e894269f60377e0cc4ff7cb160bd804eaa03bac40c5b29",
+      "title": "Construction Spending",
+      "link": "https://www.census.gov/construction/c30/c30index.html",
+      "summary": "Total construction activity for May 2026 ($2,210.2 billion) was 0.1 percent (+/-0.7 percent)* above the revised April 2026 ($2,207.1 billion). May 2026: +0.1* % Change April 2026 (r): +0.3* % Change",
+      "published_at": "Wed, 01 Jul 2026 10:00:00 -0400",
+      "source": "census",
+      "_translation_hash": "ba2b426cca71bd61b03cf009fc5d8e33121fd5efd2785345d7367b497526ca9f",
       "translations": {
         "zh-CN": {
-          "title": "美联储发布 2025 年三年期支付研究的初步结果",
-          "summary": "美联储发布 2025 年三年期支付研究的初步结果"
+          "title": "建筑开支",
+          "summary": "2026 年 5 月的建筑活动总额（22,102 亿美元）比修订后的 2026 年 4 月（22,071 亿美元）高出 0.1% (+/-0.7%)*。 2026 年 5 月：+0.1* 变化百分比 2026 年 4 月 (r)：+0.3* 变化百分比"
         },
         "zh-TW": {
-          "title": "聯準會發布 2025 年三年支付研究的初步結果",
-          "summary": "聯準會發布 2025 年三年支付研究的初步結果"
+          "title": "建築開支",
+          "summary": "2026 年 5 月的建築活動總額（22,102 億美元）比修訂後的 2026 年 4 月（22,071 億美元）高出 0.1% (+/-0.7%)*。 2026 年 5 月：+0.1* 變化百分比 2026 年 4 月 (r)：+0.3* 變化百分比"
         },
         "ja": {
-          "title": "FRB、2025年の3年ごとの支払い調査の初期結果を発表",
-          "summary": "FRB、2025年の3年ごとの支払い調査の初期結果を発表"
+          "title": "建設支出",
+          "summary": "2026年5月の建設活動総額（2兆2,102億ドル）は、2026年4月改定値（2兆2,071億ドル）を0.1パーセント（+/-0.7パーセント）*上回りました。 2026 年 5 月: +0.1* % 変化 2026 年 4 月 (r): +0.3* % 変化"
         },
         "ko": {
-          "title": "연준은 2025년 3년마다 지불 연구에서 초기 결과를 발표합니다.",
-          "summary": "연준은 2025년 3년마다 지불 연구에서 초기 결과를 발표합니다."
+          "title": "건설비",
+          "summary": "2026년 5월 총 건설 활동(2조 2,102억 달러)은 수정된 2026년 4월(2조 2,071억 달러)보다 0.1%(+/-0.7%)* 증가했습니다. 2026년 5월: +0.1* % 변화 2026년 4월(r): +0.3* % 변화"
         },
         "de": {
-          "title": "Die Federal Reserve veröffentlicht erste Ergebnisse ihrer alle drei Jahre stattfindenden Zahlungsstudie 2025",
-          "summary": "Die Federal Reserve veröffentlicht erste Ergebnisse ihrer alle drei Jahre stattfindenden Zahlungsstudie 2025"
+          "title": "Bauausgaben",
+          "summary": "Die gesamte Bautätigkeit im Mai 2026 (2.210,2 Milliarden US-Dollar) lag 0,1 Prozent (+/-0,7 Prozent)* über dem revidierten April 2026 (2.207,1 Milliarden US-Dollar). Mai 2026: +0,1* % Veränderung April 2026 (r): +0,3* % Veränderung"
         },
         "fr": {
-          "title": "La Réserve fédérale publie les premiers résultats de son étude triennale sur les paiements de 2025",
-          "summary": "La Réserve fédérale publie les premiers résultats de son étude triennale sur les paiements de 2025"
+          "title": "Dépenses de construction",
+          "summary": "L'activité totale de construction pour mai 2026 (2 210,2 milliards de dollars) était de 0,1 % (+/-0,7 %)* supérieure à celle d'avril 2026 révisée (2 207,1 milliards de dollars). Mai 2026 : +0,1* % Variation Avril 2026 (r) : +0,3* % Variation"
         }
       }
     },
     {
-      "title": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm",
-      "summary": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
-      "published_at": "Tue, 30 Jun 2026 14:00:00 GMT",
-      "source": "fed_press",
-      "_translation_hash": "dbe3a4bbb4a4a6837c35c31177a140e9443e3402bc3b4d9da92f8f5e723199c9",
-      "translations": {
-        "ja": {
-          "title": "政府機関は、困窮している、または十分なサービスを受けられていない非大都市の中所得地域のリストを発表",
-          "summary": "政府機関は、困窮している、または十分なサービスを受けられていない非大都市の中所得地域のリストを発表"
-        },
-        "zh-CN": {
-          "title": "各机构发布陷入困境或服务不足的非大都市中等收入地区名单",
-          "summary": "各机构发布陷入困境或服务不足的非大都市中等收入地区名单"
-        },
-        "zh-TW": {
-          "title": "各機構發布陷入困境或服務不足的非大都會中等收入地區名單",
-          "summary": "各機構發布陷入困境或服務不足的非大都會中等收入地區名單"
-        },
-        "fr": {
-          "title": "Les agences publient une liste des zones géographiques non métropolitaines à revenu intermédiaire en difficulté ou mal desservies",
-          "summary": "Les agences publient une liste des zones géographiques non métropolitaines à revenu intermédiaire en difficulté ou mal desservies"
-        },
-        "ko": {
-          "title": "기관들은 어려움을 겪고 있거나 서비스가 부족한 비수도권 중소득 지역 목록을 공개합니다.",
-          "summary": "기관들은 어려움을 겪고 있거나 서비스가 부족한 비수도권 중소득 지역 목록을 공개합니다."
-        },
-        "de": {
-          "title": "Agenturen veröffentlichen Liste notleidender oder unterversorgter nicht-städtischer Regionen mit mittlerem Einkommen",
-          "summary": "Agenturen veröffentlichen Liste notleidender oder unterversorgter nicht-städtischer Regionen mit mittlerem Einkommen"
-        }
-      }
-    },
-    {
-      "title": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625b.htm",
-      "summary": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
-      "published_at": "Thu, 25 Jun 2026 15:00:00 GMT",
-      "source": "fed_press",
-      "_translation_hash": "c6b82dc086c9cd4e6ea631ee43f24a47b31bfcd84c556f70c1685cd0d44d4dcd",
+      "title": "Advance U.S. International Trade in Goods",
+      "link": "https://www.census.gov/econ/indicators/index.html",
+      "summary": "The advance international trade deficit in goods increased to $105.8 billion in May from $83.0 billion in April as exports decreased and imports increased. May 2026: 27.4° % Change April 2026: -2.5° % Change",
+      "published_at": "Fri, 26 Jun 2026 08:30:00 -0400",
+      "source": "census",
+      "_translation_hash": "8755086213c17dd6b07bb8e2099729ceec871af20ff19c223f714ce6f9d02280",
       "translations": {
         "zh-CN": {
-          "title": "美联储对尤福拉银行 (Bank of Eufaula) 和 SNB Bancshares, Inc. 的员工采取强制执行行动。",
-          "summary": "美联储对尤福拉银行 (Bank of Eufaula) 和 SNB Bancshares, Inc. 的员工采取强制执行行动。"
+          "title": "推进美国国际货物贸易",
+          "summary": "由于出口减少和进口增加，5 月份预付国际货物贸易逆差从 4 月份的 830 亿美元增至 1058 亿美元。 2026 年 5 月：27.4° 变化百分比 2026 年 4 月：-2.5° 变化百分比"
         },
         "zh-TW": {
-          "title": "聯準會對尤福拉銀行 (Bank of Eufaula) 和 SNB Bancshares, Inc. 的員工採取強制執行行動。",
-          "summary": "聯準會對尤福拉銀行 (Bank of Eufaula) 和 SNB Bancshares, Inc. 的員工採取強制執行行動。"
+          "title": "推動美國國際貨物貿易",
+          "summary": "由於出口減少和進口增加，5 月預付國際貨物貿易逆差從 4 月的 830 億美元增加到 1,058 億美元。 2026 年 5 月：27.4° 變化百分比 2026 年 4 月：-2.5° 變化百分比"
         },
         "ja": {
-          "title": "連邦準備理事会はユフォーラ銀行とSNBバンクシェアーズ社の従業員に対して執行措置を発動。",
-          "summary": "連邦準備理事会はユフォーラ銀行とSNBバンクシェアーズ社の従業員に対して執行措置を発動。"
+          "title": "米国の国際商品貿易を前進させる",
+          "summary": "輸出が減少し輸入が増加したため、モノの事前国際貿易赤字は4月の830億ドルから5月には1,058億ドルに増加した。 2026年5月: 27.4° %変化 2026年4月: -2.5° %変化"
         },
         "ko": {
-          "title": "연방준비제도이사회(Federal Reserve Board)는 Bank of Eufaula 및 SNB Bancshares, Inc.의 직원과 함께 집행 조치를 취합니다.",
-          "summary": "연방준비제도이사회(Federal Reserve Board)는 Bank of Eufaula 및 SNB Bancshares, Inc.의 직원과 함께 집행 조치를 취합니다."
+          "title": "미국의 국제 상품 무역 증진",
+          "summary": "수출이 감소하고 수입이 증가함에 따라 상품 부문의 국제 무역 적자는 4월의 830억 달러에서 5월 1,058억 달러로 증가했습니다. 2026년 5월: 27.4° % 변화 2026년 4월: -2.5° % 변화"
         },
         "de": {
-          "title": "Federal Reserve Board erlässt Durchsetzungsklage gegen Mitarbeiter der Bank of Eufaula und SNB Bancshares, Inc.",
-          "summary": "Federal Reserve Board erlässt Durchsetzungsklage gegen Mitarbeiter der Bank of Eufaula und SNB Bancshares, Inc."
+          "title": "Förderung des internationalen Warenhandels der USA",
+          "summary": "Das vorläufige Defizit im internationalen Warenhandel stieg im Mai von 83,0 Milliarden US-Dollar im April auf 105,8 Milliarden US-Dollar, da die Exporte zurückgingen und die Importe zunahmen. Mai 2026: 27,4° % Veränderung April 2026: -2,5° % Veränderung"
         },
         "fr": {
-          "title": "La Réserve fédérale prend des mesures coercitives contre les employés de la Bank of Eufaula et de S N B Bancshares, Inc.",
-          "summary": "La Réserve fédérale prend des mesures coercitives contre les employés de la Bank of Eufaula et de S N B Bancshares, Inc."
-        }
-      }
-    },
-    {
-      "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625a.htm",
-      "summary": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
-      "published_at": "Thu, 25 Jun 2026 15:00:00 GMT",
-      "source": "fed_press",
-      "_translation_hash": "47c4a0862730f4f6662cc9268aa52934cf5615caff7102d14ddb0588899f723b",
-      "translations": {
-        "zh-CN": {
-          "title": "美联储宣布终止与 Jiko Group, Inc. 的执法行动",
-          "summary": "美联储宣布终止与 Jiko Group, Inc. 的执法行动"
-        },
-        "zh-TW": {
-          "title": "聯準會宣布終止與 Jiko Group, Inc. 的執法行動",
-          "summary": "聯準會宣布終止與 Jiko Group, Inc. 的執法行動"
-        },
-        "ja": {
-          "title": "連邦準備制度理事会、Jiko Group, Inc.に対する執行措置の終了を発表。",
-          "summary": "連邦準備制度理事会、Jiko Group, Inc.に対する執行措置の終了を発表。"
-        },
-        "ko": {
-          "title": "연방준비제도이사회(Federal Reserve Board)는 Jiko Group, Inc.에 대한 집행 조치 종료를 발표했습니다.",
-          "summary": "연방준비제도이사회(Federal Reserve Board)는 Jiko Group, Inc.에 대한 집행 조치 종료를 발표했습니다."
-        },
-        "de": {
-          "title": "Das Federal Reserve Board gibt die Beendigung der Durchsetzungsmaßnahmen gegen Jiko Group, Inc. bekannt.",
-          "summary": "Das Federal Reserve Board gibt die Beendigung der Durchsetzungsmaßnahmen gegen Jiko Group, Inc. bekannt."
-        },
-        "fr": {
-          "title": "La Réserve fédérale annonce la fin des mesures coercitives avec Jiko Group, Inc.",
-          "summary": "La Réserve fédérale annonce la fin des mesures coercitives avec Jiko Group, Inc."
-        }
-      }
-    },
-    {
-      "title": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm",
-      "summary": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
-      "published_at": "Wed, 24 Jun 2026 20:00:00 GMT",
-      "source": "fed_press",
-      "_translation_hash": "481f73328cdca7e0a685b0b8bea2f907d79b8e583f34107d14df6df0246ec76e",
-      "translations": {
-        "ja": {
-          "title": "連邦準備理事会の年次銀行ストレステストでは、大手銀行が深刻な不況を乗り切るのに有利な立場にあり、家計や企業への融資を継続できることが確認された",
-          "summary": "連邦準備理事会の年次銀行ストレステストでは、大手銀行が深刻な不況を乗り切るのに有利な立場にあり、家計や企業への融資を継続できることが確認された"
-        },
-        "zh-CN": {
-          "title": "美联储年度银行压力测试证实，大型银行有能力抵御严重衰退，并能够继续向家庭和企业放贷",
-          "summary": "美联储年度银行压力测试证实，大型银行有能力抵御严重衰退，并能够继续向家庭和企业放贷"
-        },
-        "zh-TW": {
-          "title": "聯準會年度銀行壓力測試證實，大型銀行有能力抵禦嚴重衰退，並且能夠繼續向家庭和企業放貸",
-          "summary": "聯準會年度銀行壓力測試證實，大型銀行有能力抵禦嚴重衰退，並且能夠繼續向家庭和企業放貸"
-        },
-        "fr": {
-          "title": "Le test de résistance bancaire annuel de la Réserve fédérale confirme que les grandes banques sont bien placées pour résister à une grave récession et capables de continuer à prêter aux ménages et aux entreprises.",
-          "summary": "Le test de résistance bancaire annuel de la Réserve fédérale confirme que les grandes banques sont bien placées pour résister à une grave récession et capables de continuer à prêter aux ménages et aux entreprises."
-        },
-        "ko": {
-          "title": "연방준비제도이사회(FRB)의 연례 은행 스트레스 테스트는 대형 은행들이 심각한 경기 침체를 극복할 수 있는 좋은 위치에 있고 가계와 기업에 계속 대출할 수 있음을 확인시켜 줍니다.",
-          "summary": "연방준비제도이사회(FRB)의 연례 은행 스트레스 테스트는 대형 은행들이 심각한 경기 침체를 극복할 수 있는 좋은 위치에 있고 가계와 기업에 계속 대출할 수 있음을 확인시켜 줍니다."
-        },
-        "de": {
-          "title": "Der jährliche Bankenstresstest des Federal Reserve Board bestätigt, dass große Banken gut aufgestellt sind, um eine schwere Rezession zu überstehen und weiterhin Kredite an Haushalte und Unternehmen zu vergeben",
-          "summary": "Der jährliche Bankenstresstest des Federal Reserve Board bestätigt, dass große Banken gut aufgestellt sind, um eine schwere Rezession zu überstehen und weiterhin Kredite an Haushalte und Unternehmen zu vergeben"
+          "title": "Faire progresser le commerce international des marchandises aux États-Unis",
+          "summary": "Le déficit anticipé du commerce international de biens a augmenté pour atteindre 105,8 milliards de dollars en mai, contre 83,0 milliards de dollars en avril, alors que les exportations ont diminué et que les importations ont augmenté. Mai 2026 : 27,4° % Variation Avril 2026 : -2,5° % Variation"
         }
       }
     },
@@ -921,6 +1057,14 @@
       }
     },
     {
+      "title": "New Home Sales",
+      "link": "https://www.census.gov/construction/nrs/",
+      "summary": "Sales of new single-family houses in May 2026 were at a seasonally adjusted annual rate of 580,000. This is 7.3 percent (+/- 13.3%)* below the revised April 2026 estimate of 626,000. May 2026: -7.3* % Change April 2026 (r): -5.7* % Change",
+      "published_at": "Wed, 24 Jun 2026 10:00:00 -0400",
+      "source": "census",
+      "_translation_hash": "e58c09513fed3b390039bac8e82e92abfd650bca66116e3cdf2eb76a2179e406"
+    },
+    {
       "title": "Waller, Welcoming Remarks on the International Role of the U.S. Dollar",
       "link": "https://www.federalreserve.gov/newsevents/speech/waller20260622a.htm",
       "summary": "Speech At the Fifth Conference on the International Roles of the Dollar, Board of Governors of the Federal Reserve System, Washington, D.C.",
@@ -955,147 +1099,11 @@
       }
     },
     {
-      "title": "Federal Reserve notes with deep sadness the passing of Alan Greenspan",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20260622a.htm",
-      "summary": "Federal Reserve notes with deep sadness the passing of Alan Greenspan",
-      "published_at": "Mon, 22 Jun 2026 12:45:00 GMT",
-      "source": "fed_press",
-      "_translation_hash": "8728e9686e29771336eb1eaffb02e0b264555d68b577928dc9fea6cf1b91c73a",
-      "translations": {
-        "zh-CN": {
-          "title": "美联储深感悲痛地注意到艾伦·格林斯潘的去世",
-          "summary": "美联储深感悲痛地注意到艾伦·格林斯潘的去世"
-        },
-        "zh-TW": {
-          "title": "聯準會深感悲痛地註意到艾倫‧葛林斯潘的去世",
-          "summary": "聯準會深感悲痛地註意到艾倫‧葛林斯潘的去世"
-        },
-        "ja": {
-          "title": "FRB、アラン・グリーンスパン氏の逝去を深い悲しみとともに追悼",
-          "summary": "FRB、アラン・グリーンスパン氏の逝去を深い悲しみとともに追悼"
-        },
-        "ko": {
-          "title": "연준은 앨런 그린스펀의 사망을 깊은 슬픔으로 기록합니다.",
-          "summary": "연준은 앨런 그린스펀의 사망을 깊은 슬픔으로 기록합니다."
-        },
-        "de": {
-          "title": "Die Federal Reserve nimmt mit tiefer Trauer den Tod von Alan Greenspan zur Kenntnis",
-          "summary": "Die Federal Reserve nimmt mit tiefer Trauer den Tod von Alan Greenspan zur Kenntnis"
-        },
-        "fr": {
-          "title": "La Réserve fédérale note avec une profonde tristesse le décès d'Alan Greenspan",
-          "summary": "La Réserve fédérale note avec une profonde tristesse le décès d'Alan Greenspan"
-        }
-      }
-    },
-    {
-      "title": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
-      "published_at": "Thu, 18 Jun 2026 19:00:00 GMT",
-      "source": "fed_press",
-      "_translation_hash": "b777f4865ac54621f6b6e4820ae71b85d5364f3793ff208c7f3ac8a6b910637d",
-      "translations": {
-        "zh-CN": {
-          "title": "美联储对尤福拉银行 (Bank of Eufaula) 和 SNB Bancshares, Inc. 的前雇员采取执法行动。",
-          "summary": "美联储对尤福拉银行 (Bank of Eufaula) 和 SNB Bancshares, Inc. 的前雇员采取执法行动。"
-        },
-        "zh-TW": {
-          "title": "聯準會對尤福拉銀行 (Bank of Eufaula) 和 SNB Bancshares, Inc. 的前員工採取執法行動。",
-          "summary": "聯準會對尤福拉銀行 (Bank of Eufaula) 和 SNB Bancshares, Inc. 的前員工採取執法行動。"
-        },
-        "ja": {
-          "title": "連邦準備制度理事会、ユフォーラ銀行とSNBバンクシェアーズ社の元従業員に対して強制執行措置を発動",
-          "summary": "連邦準備制度理事会、ユフォーラ銀行とSNBバンクシェアーズ社の元従業員に対して強制執行措置を発動"
-        },
-        "ko": {
-          "title": "연방준비제도이사회(Federal Reserve Board)는 Bank of Eufaula 및 SNB Bancshares, Inc.의 전직 직원에게 집행 조치를 발부합니다.",
-          "summary": "연방준비제도이사회(Federal Reserve Board)는 Bank of Eufaula 및 SNB Bancshares, Inc.의 전직 직원에게 집행 조치를 발부합니다."
-        },
-        "de": {
-          "title": "Federal Reserve Board erlässt Durchsetzungsklage gegen ehemaligen Mitarbeiter der Bank of Eufaula und SNB Bancshares, Inc.",
-          "summary": "Federal Reserve Board erlässt Durchsetzungsklage gegen ehemaligen Mitarbeiter der Bank of Eufaula und SNB Bancshares, Inc."
-        },
-        "fr": {
-          "title": "La Réserve fédérale prend des mesures coercitives contre un ancien employé de Bank of Eufaula et de S N B Bancshares, Inc.",
-          "summary": "La Réserve fédérale prend des mesures coercitives contre un ancien employé de Bank of Eufaula et de S N B Bancshares, Inc."
-        }
-      }
-    },
-    {
-      "title": "Federal Reserve Board issues enforcement action with former employee of Manufacturers and Traders Trust Company",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618a.htm",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of Manufacturers and Traders Trust Company",
-      "published_at": "Thu, 18 Jun 2026 15:00:00 GMT",
-      "source": "fed_press",
-      "_translation_hash": "55594baf4831e66f5595adefd1495ba04674b25fbcfcbd5f3a7797cad247083b",
-      "translations": {
-        "zh-CN": {
-          "title": "美联储对制造商和贸易商信托公司前雇员采取执法行动",
-          "summary": "美联储对制造商和贸易商信托公司前雇员采取执法行动"
-        },
-        "zh-TW": {
-          "title": "聯準會對製造商和貿易商信託公司前員工採取執法行動",
-          "summary": "聯準會對製造商和貿易商信託公司前員工採取執法行動"
-        },
-        "ja": {
-          "title": "連邦準備理事会、マニュファクチャラー・アンド・トレーダーズ・トラスト・カンパニーの元従業員に対して執行措置を発動",
-          "summary": "連邦準備理事会、マニュファクチャラー・アンド・トレーダーズ・トラスト・カンパニーの元従業員に対して執行措置を発動"
-        },
-        "ko": {
-          "title": "연방준비제도이사회(Federal Reserve Board)는 Manufacturer and Traders Trust Company의 전 직원에게 집행 조치를 취합니다.",
-          "summary": "연방준비제도이사회(Federal Reserve Board)는 Manufacturer and Traders Trust Company의 전 직원에게 집행 조치를 취합니다."
-        },
-        "de": {
-          "title": "Das Federal Reserve Board erlässt eine Durchsetzungsmaßnahme gegen einen ehemaligen Mitarbeiter der Manufacturers and Traders Trust Company",
-          "summary": "Das Federal Reserve Board erlässt eine Durchsetzungsmaßnahme gegen einen ehemaligen Mitarbeiter der Manufacturers and Traders Trust Company"
-        },
-        "fr": {
-          "title": "La Réserve fédérale prend des mesures coercitives contre un ancien employé de Manufacturers and Traders Trust Company",
-          "summary": "La Réserve fédérale prend des mesures coercitives contre un ancien employé de Manufacturers and Traders Trust Company"
-        }
-      }
-    },
-    {
-      "title": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260618a.htm",
-      "summary": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
-      "published_at": "Thu, 18 Jun 2026 13:00:00 GMT",
-      "source": "fed_press",
-      "_translation_hash": "c8d05173c02ef0fa8c82b98f6bc95e06ccb849994427fa67d70a9c8bf5effc02",
-      "translations": {
-        "zh-CN": {
-          "title": "美联储要求对要求某些支付稳定币发行人维持有效的客户识别计划的提案发表评论",
-          "summary": "美联储要求对要求某些支付稳定币发行人维持有效的客户识别计划的提案发表评论"
-        },
-        "ja": {
-          "title": "連邦準備制度理事会、特定の決済ステーブルコイン発行会社に効果的な顧客識別プログラムの維持を義務付ける提案についてコメントを求める",
-          "summary": "連邦準備制度理事会、特定の決済ステーブルコイン発行会社に効果的な顧客識別プログラムの維持を義務付ける提案についてコメントを求める"
-        },
-        "zh-TW": {
-          "title": "聯準會要求對要求某些支付穩定幣發行人維持有效的客戶識別計畫的提案發表評論",
-          "summary": "聯準會要求對要求某些支付穩定幣發行人維持有效的客戶識別計畫的提案發表評論"
-        },
-        "ko": {
-          "title": "연방준비제도이사회(Federal Reserve Board)는 특정 결제 스테이블코인 발행자에게 효과적인 고객 식별 프로그램을 유지하도록 요구하는 제안에 대한 의견을 요청합니다.",
-          "summary": "연방준비제도이사회(Federal Reserve Board)는 특정 결제 스테이블코인 발행자에게 효과적인 고객 식별 프로그램을 유지하도록 요구하는 제안에 대한 의견을 요청합니다."
-        },
-        "de": {
-          "title": "Das Federal Reserve Board bittet um eine Stellungnahme zum Vorschlag, bestimmte Zahlungs-Stablecoin-Emittenten zur Aufrechterhaltung eines wirksamen Kundenidentifizierungsprogramms zu verpflichten",
-          "summary": "Das Federal Reserve Board bittet um eine Stellungnahme zum Vorschlag, bestimmte Zahlungs-Stablecoin-Emittenten zur Aufrechterhaltung eines wirksamen Kundenidentifizierungsprogramms zu verpflichten"
-        },
-        "fr": {
-          "title": "La Réserve fédérale demande des commentaires sur la proposition visant à exiger que certains émetteurs de pièces stables de paiement maintiennent un programme efficace d'identification des clients",
-          "summary": "La Réserve fédérale demande des commentaires sur la proposition visant à exiger que certains émetteurs de pièces stables de paiement maintiennent un programme efficace d'identification des clients"
-        }
-      }
-    },
-    {
       "title": "Federal Reserve issues FOMC statement",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 17 Jun 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "_translation_hash": "290e75caada0bd9ff13e5e910adcf7e75770b6638cd0e4e72f478e4de342e680"
     },
     {
@@ -1103,16 +1111,40 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
       "published_at": "Wed, 17 Jun 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "_translation_hash": "1a1af3cea5eec364078d94a6fb136d13d02892ad03abbb74de6098e21d26bb32"
     },
     {
-      "title": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260611a.htm",
-      "summary": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
-      "published_at": "Thu, 11 Jun 2026 15:00:00 GMT",
-      "source": "fed_press",
-      "_translation_hash": "0a223a25415881bca372621dece88c86dc9176399b8b1dad1f8273193c22e3cc"
+      "title": "Quarterly Services Survey",
+      "link": "https://www.census.gov/services/index.html",
+      "summary": "U.S. selected services total revenue for the first quarter of 2026, adjusted for seasonal variation but not for price changes, was $6,223.1 billion, an increase of 1.1 percent (+/- 0.4 percent) from the fourth quarter of 2025 and up 6.5 percent (+/- 0.4 percent) from the first quarter of 2025. The fourth quarter of 2025 to first quarter of 2026 percentage change was revised from the advance estimate of 0.9 percent (+/- 0.4 percent). 1st Qtr 2026: +1.1 % Change 4th Qtr 2025 (r): +0.8 % Change",
+      "published_at": "Thu, 11 Jun 2026 10:00:00 -0400",
+      "source": "census",
+      "_translation_hash": "79b6d2773102419dff83b48579837e7219b71d9ac1bbce0ca96aa4a6814b58b7"
+    },
+    {
+      "title": "PPI for final demand advances 1.1% in May; goods rise 2.8%, services increase 0.3%",
+      "link": "https://www.bls.gov/news.release/archives/ppi_06112026.htm",
+      "summary": "",
+      "published_at": "2026-06-11T08:30:00-04:00",
+      "source": "bls_ppi",
+      "_translation_hash": "67dd1b2f180ac51cf342cb8207e6763f85f038eb0243e344e752be36fcdaafb2"
+    },
+    {
+      "title": "CPI for all items rises 0.5% in May; gasoline and shelter up",
+      "link": "https://www.bls.gov/news.release/archives/cpi_06102026.htm",
+      "summary": "",
+      "published_at": "2026-06-10T08:30:00-04:00",
+      "source": "bls_cpi",
+      "_translation_hash": "d917f648bbf1a2e8e83bb8b39d2b15adc9637314fb0f4a894223b884a93ce823"
+    },
+    {
+      "title": "Quarterly Financial Report - Retail",
+      "link": "https://www.census.gov/econ/qfr/",
+      "summary": "Not seasonally adjusted after-tax profits for retail corporations with assets of $50 million and over were $62.6 billion for the first quarter 2026 (the 3 months ending April 30, 2026), down $0.3 (+/- 0.1) billion from fourth quarter 2025 (the 3 months ending January 31, 2026). 1st Qtr 2026: -0.3 Billions of Dollars 4th Qtr 2025 (r): +9.5 Billions of Dollars",
+      "published_at": "Mon, 08 Jun 2026 10:00:00 -0400",
+      "source": "census",
+      "_translation_hash": "ee61db96eb5c2dee68b4eeced8f9eab8b1df483649e92778230f340872611d20"
     },
     {
       "title": "Barr, Deregulating in a Financial Boom: What Could Go Wrong?",
@@ -1123,12 +1155,28 @@
       "_translation_hash": "823fb7975446cd576cdaa0f0a531521de74ad2e840a455dc14c6b9c7026fe7fb"
     },
     {
+      "title": "Payroll employment increases by 172,000 in May; unemployment rate unchanged at 4.3%",
+      "link": "https://www.bls.gov/news.release/archives/empsit_06052026.htm",
+      "summary": "",
+      "published_at": "2026-06-05T08:30:00-04:00",
+      "source": "bls_jobs",
+      "_translation_hash": "d66b80ff9775cd4f6da2b00c122e3b5db0e0bd87605a5ec45086cf5966d79be3"
+    },
+    {
       "title": "Bowman, Supervision and Regulation",
       "link": "https://www.federalreserve.gov/newsevents/testimony/bowman20260604a.htm",
       "summary": "Testimony Before the Committee on Financial Services, U.S. House of Representatives, Washington, D.C.",
       "published_at": "Wed, 3 Jun 2026 20:30:00 GMT",
       "source": "fed_remarks",
       "_translation_hash": "a403da507735cf1e0ae296e2c34e281fda019db5bc19786d95b825c171a696db"
+    },
+    {
+      "title": "April job openings increase; hires and total separations decrease",
+      "link": "https://www.bls.gov/news.release/archives/jolts_06022026.htm",
+      "summary": "",
+      "published_at": "2026-06-02T10:00:00-04:00",
+      "source": "bls_jolts",
+      "_translation_hash": "20c37231c35bc7e3940be60567449c01417d74bd5e9d44060deda52ce576aaf2"
     },
     {
       "title": "Powell, Acceptance Remarks",
@@ -1147,148 +1195,284 @@
       "_translation_hash": "0e38c9ef350694511a63a5b5603042def2fa86614aa940111b2b454f52cb7841"
     },
     {
-      "title": "U.S. International Trade in Goods and Services, May 2026",
-      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-may-2026",
-      "summary": "The U.S. goods and services trade deficit increased in May 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $54.6 billion in April (revised) to $77.6 billion in May, as exports decreased and imports increased. The goods deficit increased $23.6 billion in May to $106.5 billion. The services surplus increased $0.6 billion in May to $28.9 billion. Full Text",
-      "published_at": "Tue, 07 Jul 2026 08:30:00 EDT",
-      "source": "bea",
-      "_translation_hash": "092b7eeb37022256a3c6a05256e93aba4109ed9d940447378b7da3f5715a61ef"
+      "title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
+      "summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "published_at": "Tue, 26 May 2026 18:00:00 GMT",
+      "source": "fed_policy",
+      "_translation_hash": "953ce2f85e7e22e5145ee5f0a369f0a64e872032ed2097c7bb516b88df8bfea8"
     },
     {
-      "title": "Personal Income and Outlays, May 2026",
-      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026",
-      "summary": "Personal income increased $181.6 billion (0.7 percent at a monthly rate) in May, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal current taxes-increased $164.9 billion (0.7 percent), and personal consumption expenditures (PCE) increased $156.1 billion (0.7 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $159.9 billion in May. ",
-      "published_at": "Thu, 25 Jun 2026 08:30:00 EDT",
-      "source": "bea",
-      "_translation_hash": "f9d6d0b4dc9c8f3a5a3cc235f8394d0518269c4693867059dd36c988d311a202"
+      "title": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm",
+      "summary": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
+      "published_at": "Wed, 20 May 2026 18:00:00 GMT",
+      "source": "fed_policy",
+      "_translation_hash": "ac291f216ef11ec1f9ecada800c0419de25074e2812ac17517e3fe4c2b7d40b3"
     },
     {
-      "title": "GDP, (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 1st Quarter 2026",
-      "link": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-1st",
-      "summary": "Real gross domestic product (GDP) increased at an annual rate of 2.1 percent in the first quarter of 2026 (January, February, and March), according to the third estimate released today by the U.S. Bureau of Economic Analysis. In the fourth quarter of 2025, real GDP increased 0.5 percent. The contributors to the increase in real GDP in the first quarter were increases in investment, exports, government spending, and consumer spending. Imports, which are a subtraction in the calculation of GDP, in",
-      "published_at": "Thu, 25 Jun 2026 08:30:00 EDT",
-      "source": "bea",
-      "_translation_hash": "4df5fb36f19865313ff0ea9b2a2d2d56dc9564079edf310489407197d047d433"
+      "title": "PPI for final demand advances 1.4% in April; services rise 1.2%, goods increase 2.0%",
+      "link": "https://www.bls.gov/news.release/archives/ppi_05132026.htm",
+      "summary": "",
+      "published_at": "2026-05-13T08:30:00-04:00",
+      "source": "bls_ppi",
+      "_translation_hash": "9b4c41c13c668f7c899e780108dc4e21bd7b3a718a25b19c3e5c7421749be384"
     },
     {
-      "title": "U.S. International Transactions and Investment Position, 1st Quarter 2026 and Annual Update",
-      "link": "https://www.bea.gov/news/2026/us-international-transactions-and-investment-position-1st-quarter-2026-and-annual-update",
-      "summary": "Full Text ]]>",
-      "published_at": "Wed, 24 Jun 2026 08:30:00 EDT",
-      "source": "bea",
-      "_translation_hash": "ff3aaefaa068799f4095b53fe41f8b1097d38455fd2a1361f2933ba996fef542"
+      "title": "CPI for all items rises 0.6% in April; shelter and gasoline up",
+      "link": "https://www.bls.gov/news.release/archives/cpi_05122026.htm",
+      "summary": "",
+      "published_at": "2026-05-12T08:30:00-04:00",
+      "source": "bls_cpi",
+      "_translation_hash": "a3d376f436657a3e6c36ff8f2cf3c2dca7cf359b6a0c0fbbee4630f2002d057e"
     },
     {
-      "title": "Personal Income and Outlays, April 2026",
-      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026",
-      "summary": "Personal income decreased less than $0.1 billion (less than 0.1 percent at a monthly rate) in April, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal current taxes-decreased $19.9 billion (0.1 percent), and personal consumption expenditures (PCE) increased $111.1 billion (0.5 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $114",
-      "published_at": "Thu, 28 May 2026 08:30:00 EDT",
-      "source": "bea",
-      "_translation_hash": "6d452340be20f43639d914304cea55d7744e63fd3b111e57884f4df16758cacc"
+      "title": "Payroll employment edges up by 115,000 in April; unemployment rate unchanged at 4.3%",
+      "link": "https://www.bls.gov/news.release/archives/empsit_05082026.htm",
+      "summary": "",
+      "published_at": "2026-05-08T08:30:00-04:00",
+      "source": "bls_jobs",
+      "_translation_hash": "86c178771ce88ece70aa6f1b96b769a3732f03806aff9e1a6458b47a05762e68"
     },
     {
-      "title": "Personal Income and Outlays, January 2026",
-      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-january-2026",
-      "summary": "Personal income increased $113.8 billion (0.4 percent at a monthly rate) in January, according to estimates released today by the U.S. Bureau of Economic Analysis. Disposable personal income (DPI)-personal income less personal current taxes-increased $219.9 billion (0.9 percent), and personal consumption expenditures (PCE) increased $81.1 billion (0.4 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $85.8 billion in January. ",
-      "published_at": "Fri, 13 Mar 2026 08:31:00 EDT",
-      "source": "bea",
-      "_translation_hash": "cf65299b9c6af74dd1294d96373153543c37fa3804c4be506bc3dc36c64234f2"
+      "title": "March hires increase; job openings unchanged and total separations change little",
+      "link": "https://www.bls.gov/news.release/archives/jolts_05052026.htm",
+      "summary": "",
+      "published_at": "2026-05-05T10:00:00-04:00",
+      "source": "bls_jolts",
+      "_translation_hash": "1cf6bdb4bb971357be9f90acc87e66f55be11e59371c9663e862bba7c00fcb1b"
     },
     {
-      "title": "Personal Income and Outlays, December 2025",
-      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-december-2025",
-      "summary": "Personal income increased $86.2 billion (0.3 percent at a monthly rate) in December, according to estimates released today by the U.S. Bureau of Economic Analysis. Disposable personal income (DPI)-personal income less personal current taxes-increased $75.7 billion (0.3 percent), and personal consumption expenditures (PCE) increased $91.0 billion (0.4 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $90.2 billion in December. ",
-      "published_at": "Fri, 20 Feb 2026 08:30:00 EST",
-      "source": "bea",
-      "_translation_hash": "0050dca4e1ef60962f14586bd1c1b67fa7e4199964f6d69d1198d1e52e558547"
+      "title": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+      "summary": "Federal Reserve issues FOMC statement",
+      "published_at": "Wed, 29 Apr 2026 18:00:00 GMT",
+      "source": "fed_policy",
+      "_translation_hash": "290e75caada0bd9ff13e5e910adcf7e75770b6638cd0e4e72f478e4de342e680"
     },
     {
-      "title": "GDP (Advance Estimate), 4th Quarter and Year 2025",
-      "link": "www.bea.gov/news/2026/gdp-advance-estimate-4th-quarter-and-year-2025",
-      "summary": "Real gross domestic product (GDP) increased at an annual rate of 1.4 percent in the fourth quarter of 2025 (October, November, and December), according to the advance estimate released today by the U.S. Bureau of Economic Analysis. In the third quarter, real GDP increased 4.4 percent. The contributors to the increase in real GDP in the fourth quarter were increases in consumer spending and investment. These movements were partly offset by decreases in government spending and exports. Imports, wh",
-      "published_at": "Fri, 20 Feb 2026 08:30:00 EST",
-      "source": "bea",
-      "_translation_hash": "dd64376c74bf076fa5ef16f81f6dc039bc2000e1824a3c9d52f6733428d88d31"
+      "title": "Rental Vacancy Rate",
+      "link": "https://www.census.gov/housing/hvs/",
+      "summary": "The rental vacancy rate of 7.3 percent was not statistically different from the rate in the first quarter 2025. Compared to the first quarter 2025, rental vacancy rate was higher in the Northeast and South, lower in the Midwest, and not statistically different in the West.. 1st Qtr 2026: +0.2* Percentage Points 1st Qtr 2025: +0.5 Percentage Points",
+      "published_at": "Tue, 28 Apr 2026 10:00:00 -0400",
+      "source": "census",
+      "_translation_hash": "0ef31e87957175fe329b5478646bc9c24afa822cfc896fee2303730dd9b91d7d"
     },
     {
-      "title": "Real Personal Consumption Expenditures by State and Real Personal Income by State, 2024",
-      "link": "https://www.bea.gov/news/2026/real-personal-consumption-expenditures-state-and-real-personal-income-state-2024",
-      "summary": "Real personal consumption expenditures (PCE) by state increased in 48 states and the District of Columbia in 2024, with the percent change ranging from 5.3 percent in Massachusetts to -0.2 percent in Montana. Real PCE for the nation increased 2.9 percent in 2024. Real personal income increased in 46 states and the District of Columbia in 2024, with the percent change ranging from 5.5 percent in California to -2.2 percent in North Dakota. Real personal income for the nation increased 2.9 percent ",
-      "published_at": "Thu, 19 Feb 2026 08:30:00 EST",
-      "source": "bea",
-      "_translation_hash": "39b0ac629cae3fd33a6816278e930dc1fee85fe39bf7f4973a8a9a667bafafae"
+      "title": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260414a.htm",
+      "summary": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026",
+      "published_at": "Tue, 14 Apr 2026 18:00:00 GMT",
+      "source": "fed_policy",
+      "_translation_hash": "0f7b85d5c40d1900508eeccd2cc0e99e773f106dc14f13c1768c5a4f36509498"
     },
     {
-      "title": "Gross Domestic Product by County and Personal Income by County, 2024",
-      "link": "https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-county-2024",
-      "summary": "Real gross domestic product (GDP) increased in 2,273 counties, decreased in 809 counties, and was unchanged in 24 counties in 2024. County-level changes ranged from a 76.6 percent increase in Carter County, MT, to a 46.3 percent decline in Baca County, CO. Personal income, in current dollars, increased in 2,768 counties, decreased in 331, and was unchanged in 7 counties in 2024. County-level changes ranged from a 22.6 percent increase in Harding County, SD, to a 23.3 percent decline in Issaquena",
-      "published_at": "Thu, 05 Feb 2026 08:30:00 EST",
-      "source": "bea",
-      "_translation_hash": "06f5801f52dea236e73e88a4bb079301603f66ab9a37d38e9039e1498a3c46b4"
+      "title": "PPI for final demand advances 0.5% in March; goods rise 1.6%, services unchanged",
+      "link": "https://www.bls.gov/news.release/archives/ppi_04142026.htm",
+      "summary": "",
+      "published_at": "2026-04-14T08:30:00-04:00",
+      "source": "bls_ppi",
+      "_translation_hash": "be2b9f220e69a817f008c06cc75b9f1c0110eaa74cf8be8eed43b43253c07b27"
     },
     {
-      "title": "Gross Domestic Product by State and Personal Income by State, 3rd Quarter 2025",
-      "link": "https://www.bea.gov/news/2026/gross-domestic-product-state-and-personal-income-state-3rd-quarter-2025",
-      "summary": "Real gross domestic product (GDP) increased in all 50 states and the District of Columbia in the third quarter of 2025. State-level changes ranged from a 6.5 percent increase in Kansas to a 0.4 percent increase in North Dakota. Personal income increased in all 50 states and the District of Columbia in the third quarter of 2025. State-level changes ranged from a 6.3 percent increase in Kansas to a 0.1 percent increase in Louisiana. Full Text",
-      "published_at": "Fri, 23 Jan 2026 08:30:00 EST",
-      "source": "bea",
-      "_translation_hash": "6a8e45a27be627a71dc8f2b92183df62ea253d3f40031796399db82bc2251410"
+      "title": "CPI for all items rises 0.9% in March; gasoline up",
+      "link": "https://www.bls.gov/news.release/archives/cpi_04102026.htm",
+      "summary": "",
+      "published_at": "2026-04-10T08:30:00-04:00",
+      "source": "bls_cpi",
+      "_translation_hash": "fc4f5f95b252fcdfbe5bf99014f8e166acae76a60954c923faaa06e3ba82ad29"
     },
     {
-      "title": "U.S. International Transactions, 3rd Quarter 2025",
-      "link": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025",
-      "summary": "The U.S. current-account deficit narrowed by $22.8 billion, or 9.2 percent, to $226.4 billion in the third quarter of 2025, according to statistics released today by BEA. The revised second-quarter deficit was $249.2 billion. The third-quarter deficit was 2.9 percent of current-dollar gross domestic product, down from 3.3 percent in the second quarter. Full Text",
-      "published_at": "Wed, 14 Jan 2026 08:30:00 EST",
-      "source": "bea",
-      "_translation_hash": "c8f9890aca2c0a715991fe2923bc04314966b4e77b5d3fdef0aebed92a6cc667"
+      "title": "Minutes of the Federal Open Market Committee, March 17–18, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260408a.htm",
+      "summary": "Minutes of the Federal Open Market Committee, March 17–18, 2026",
+      "published_at": "Wed, 8 Apr 2026 18:00:00 GMT",
+      "source": "fed_policy",
+      "_translation_hash": "efb617292e669e49e8313fdad791dfc871482bec6092eb3b8e4444ae64167806"
     },
     {
-      "title": "Real Personal Consumption Expenditures by State and Real Personal Income by State and Metropolitan Area, 2023",
-      "link": "https://www.bea.gov/news/2024/real-personal-consumption-expenditures-state-and-real-personal-income-state-and",
-      "summary": "Real personal consumption expenditures (PCE) by state increased in 48 states and the District of Columbia in 2023, with the percent change ranging from 7.3 percent in Maine to -0.6 percent in Alabama. Real PCE for the nation increased 2.5 percent in 2023. Full Text",
-      "published_at": "Thu, 12 Dec 2024 08:30:00 EST",
-      "source": "bea",
-      "_translation_hash": "3f55c9ece458c77c08b198048d0426433b6e4540ae67104e33979e07a02fcbb6"
+      "title": "Payroll employment increases by 178,000 in March; unemployment rate changes little at 4.3%",
+      "link": "https://www.bls.gov/news.release/archives/empsit_04032026.htm",
+      "summary": "",
+      "published_at": "2026-04-03T08:30:00-04:00",
+      "source": "bls_jobs",
+      "_translation_hash": "96956f8e200b64dc19908bb07b6fae2652aaf4f12c4b2bb79d9c59d650b27655"
     },
     {
-      "title": "Personal Income by County and Metropolitan Area, 2023",
-      "link": "https://www.bea.gov/news/2024/personal-income-county-and-metropolitan-area-2023",
-      "summary": "In 2023, personal income, in current dollars, increased in 2,814 counties, decreased in 295, and was unchanged in five counties in 2023. Personal income increased 6.0 percent in the metropolitan portion of the United States and 4.7 percent in the nonmetropolitan portion. Full Text",
-      "published_at": "Thu, 14 Nov 2024 08:30:00 EST",
-      "source": "bea",
-      "_translation_hash": "5bf4f06a4bef66902cde82b5f7a87a037c3af7d1c371e2c70c822c033e5a9ae9"
+      "title": "February hires decrease; job openings and total separations change little",
+      "link": "https://www.bls.gov/news.release/archives/jolts_03312026.htm",
+      "summary": "",
+      "published_at": "2026-03-31T10:00:00-04:00",
+      "source": "bls_jolts",
+      "_translation_hash": "88e3029408c4ea73119f84b0e20950ec10363e6520e3602791cd7cf9abd42b82"
     },
     {
-      "title": "Personal Income by State, 2nd Quarter 2023",
-      "link": "https://www.bea.gov/news/2023/personal-income-state-2nd-quarter-2023",
-      "summary": "Personal income, in current dollars, increased in 49 states and the District of Columbia in the second quarter of 2023, with the percent change ranging from 6.1 percent in New York and the District of Columbia to -2.7 percent in Maine. Full Text",
-      "published_at": "Fri, 29 Sep 2023 10:00:00 EDT",
-      "source": "bea",
-      "_translation_hash": "2d3e47f2aa239d9e358ef58cdb2e2a68e7f13d4c25f7146f4ff1962e56dd4a01"
+      "title": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
+      "summary": "Federal Reserve issues FOMC statement",
+      "published_at": "Wed, 18 Mar 2026 18:00:00 GMT",
+      "source": "fed_policy",
+      "_translation_hash": "290e75caada0bd9ff13e5e910adcf7e75770b6638cd0e4e72f478e4de342e680"
     },
     {
-      "title": "Real Personal Consumption Expenditures and Personal Income by State, 2020",
-      "link": "https://www.bea.gov/news/2021/real-personal-consumption-expenditures-state-and-real-personal-income-state-and",
-      "summary": "Today, the U.S Bureau of Economic Analysis (BEA) released official statistics of real state personal consumption expenditures (PCE) for the first time. Real PCE decreased 3.8 percent in 2020 for the nation. Across states, the percent change ranged from 2.2 percent in Utah to -7.0 percent in Hawaii, Maryland, and New York; the percent change was -8.9 percent in the District of Columbia. Real state PCE is a state's current-dollar PCE adjusted by the state's regional price parity and the national P",
-      "published_at": "Tue, 14 Dec 2021 08:30:00 EST",
-      "source": "bea",
-      "_translation_hash": "9000d931925c58f6b9081a06ab8b0e3d8562d65eb6c0a3db310c7d3f149a21ff"
+      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the March 17-18 FOMC meeting",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318b.htm",
+      "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the March 17-18 FOMC meeting",
+      "published_at": "Wed, 18 Mar 2026 18:00:00 GMT",
+      "source": "fed_policy",
+      "_translation_hash": "69c11b2b4de33e47960bfe18ca1a1508bb803dc49af20ade9344d7f426dccca8"
     },
     {
-      "title": "Real Personal Income by State and Metropolitan Area, 2019",
-      "link": "https://www.bea.gov/news/2020/real-personal-income-state-and-metropolitan-area-2019",
-      "summary": "Real state personal income grew 2.4 percent in 2019 after increasing 3.1 percent in 2018, according to estimates released today by the Bureau of Economic Analysis (BEA). Real state personal income is a state's current-dollar personal income adjusted by the state's regional price parity and the national personal consumption expenditures price index. The percent change in real state personal income ranged from 4.1 percent in Maine to 0.7 percent in Hawaii, Wyoming, and Rhode Island. Across metropo",
-      "published_at": "Tue, 15 Dec 2020 08:30:00 EST",
-      "source": "bea",
-      "_translation_hash": "a1ceb1bd3f472df0487c12d987eff29621ea45f1bde01b5dbc12226f4485b678"
+      "title": "PPI for final demand advances 0.7% in February; services rise 0.5%, goods increase 1.1%",
+      "link": "https://www.bls.gov/news.release/archives/ppi_03182026.htm",
+      "summary": "",
+      "published_at": "2026-03-18T08:30:00-04:00",
+      "source": "bls_ppi",
+      "_translation_hash": "610aa9ae7a3b0a617060bf24d0c0f635bf82e71eb1ee82231fdf33e5d2b2faaf"
     },
     {
-      "title": "State Quarterly Personal Income, 3rd quarter 2019",
-      "link": "https://www.bea.gov/news/2019/state-personal-income-third-quarter-2019",
-      "summary": "State personal income increased 3.8 percent at an annual rate in the third quarter of 2019, a deceleration from the 4.4 percent increase in the second quarter. The percent change in personal income across all states ranged from 15.2 percent in South Dakota to 1.9 percent in West Virginia and Wyoming. Full Text",
-      "published_at": "Wed, 18 Dec 2019 08:30:00 EST",
-      "source": "bea",
-      "_translation_hash": "8c9aa49a9d1131cbd36feddcd18a363fb62f8b240738f57ffd2dfed0edc3a8ed"
+      "title": "January job openings and total separations change little; hires unchanged",
+      "link": "https://www.bls.gov/news.release/archives/jolts_03132026.htm",
+      "summary": "",
+      "published_at": "2026-03-13T10:00:00-04:00",
+      "source": "bls_jolts",
+      "_translation_hash": "94b2a641180c40d438efa6c40ca3e0f3c1d02fc48e12eee214f2f286ed751944"
+    },
+    {
+      "title": "CPI for all items rises 0.3% in February; shelter up",
+      "link": "https://www.bls.gov/news.release/archives/cpi_03112026.htm",
+      "summary": "",
+      "published_at": "2026-03-11T08:30:00-04:00",
+      "source": "bls_cpi",
+      "_translation_hash": "8f1e1182b3d08aa1012b8b655745e5924e791695fc5f219142f3a7373ec55542"
+    },
+    {
+      "title": "Payroll employment edges down 92,000 in February; unemployment rate changes little at 4.4%",
+      "link": "https://www.bls.gov/news.release/archives/empsit_03062026.htm",
+      "summary": "",
+      "published_at": "2026-03-06T08:30:00-05:00",
+      "source": "bls_jobs",
+      "_translation_hash": "910d229d9607f40c74bca368ee1d574d4146d87c3b06f1641f9b8e9d612b9770"
+    },
+    {
+      "title": "PPI for final demand advances 0.5% in January; services rise 0.8%, goods decrease 0.3%",
+      "link": "https://www.bls.gov/news.release/archives/ppi_02272026.htm",
+      "summary": "",
+      "published_at": "2026-02-27T08:30:00-05:00",
+      "source": "bls_ppi",
+      "_translation_hash": "186674e2f10431d69027b6f118f0bbb11e976b860c3cf5b740f03086a8b5ef56"
+    },
+    {
+      "title": "Minutes of the Board's discount rate meetings on January 20 and 28, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260224a.htm",
+      "summary": "Minutes of the Board's discount rate meetings on January 20 and 28, 2026",
+      "published_at": "Tue, 24 Feb 2026 19:00:00 GMT",
+      "source": "fed_policy",
+      "_translation_hash": "e89d8ef97a2ffdebc38f974f461ebf6da6e2b381a1d2ff81ad33040d7692e588"
+    },
+    {
+      "title": "Minutes of the Federal Open Market Committee, January 27–28, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260218a.htm",
+      "summary": "Minutes of the Federal Open Market Committee, January 27–28, 2026",
+      "published_at": "Wed, 18 Feb 2026 19:00:00 GMT",
+      "source": "fed_policy",
+      "_translation_hash": "9f0d9e068b89f6499111374dceb002af57bd5fd78e31ed7ba1c150f230178848"
+    },
+    {
+      "title": "Treasury Accepting Whistleblower Tips on Fraud, Money Laundering, Sanctions Violations",
+      "link": "https://home.treasury.gov/news/featured-stories/treasury-accepting-whistleblower-tips-on-fraud-money-laundering-sanctions-violations",
+      "summary": "Treasury Accepting Whistleblower Tips on Fraud, Money Laundering, Sanctions Violations",
+      "published_at": "2026-02-13T14:52:38Z",
+      "source": "treasury",
+      "_translation_hash": "5b58aa8be0d2e729eb114f76f120957ae948308aef7244707d047ddac1417325"
+    },
+    {
+      "title": "CPI for all items rises 0.2% in January; shelter up",
+      "link": "https://www.bls.gov/news.release/archives/cpi_02132026.htm",
+      "summary": "",
+      "published_at": "2026-02-13T08:30:00-05:00",
+      "source": "bls_cpi",
+      "_translation_hash": "84fe30b3d18d5587329f19208308b5bfae04cb1e0a11fc12f96680ad33e3b0a5"
+    },
+    {
+      "title": "Payroll employment rises by 130,000 in January; unemployment rate changes little at 4.3%",
+      "link": "https://www.bls.gov/news.release/archives/empsit_02112026.htm",
+      "summary": "",
+      "published_at": "2026-02-11T08:30:00-05:00",
+      "source": "bls_jobs",
+      "_translation_hash": "c49f635af81d3dcac434e796ab011efd49a23ac5b31bc3a390946a50c632e895"
+    },
+    {
+      "title": "December job openings trend down, hires and total separations change little",
+      "link": "https://www.bls.gov/news.release/archives/jolts_02052026.htm",
+      "summary": "",
+      "published_at": "2026-02-05T10:00:00-05:00",
+      "source": "bls_jolts",
+      "_translation_hash": "e828c191f58e2b1caaa143ad6009f281cd1deb7d28c7d5429793cda552d4f63b"
+    },
+    {
+      "title": "PPI for final demand advances 0.5% in December; services rise 0.7%, goods unchanged",
+      "link": "https://www.bls.gov/news.release/archives/ppi_01302026.htm",
+      "summary": "",
+      "published_at": "2026-01-30T08:30:00-05:00",
+      "source": "bls_ppi",
+      "_translation_hash": "63d8b506d315ba3e4560544a9b60766982b6b421608f7d27e444c26cd9db126c"
+    },
+    {
+      "title": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm",
+      "summary": "Federal Reserve issues FOMC statement",
+      "published_at": "Wed, 28 Jan 2026 19:00:00 GMT",
+      "source": "fed_policy",
+      "_translation_hash": "290e75caada0bd9ff13e5e910adcf7e75770b6638cd0e4e72f478e4de342e680"
+    },
+    {
+      "title": "PPI for final demand advances 0.2% in November; goods rise 0.9%, services unchanged",
+      "link": "https://www.bls.gov/news.release/archives/ppi_01142026.htm",
+      "summary": "",
+      "published_at": "2026-01-14T08:30:00-05:00",
+      "source": "bls_ppi",
+      "_translation_hash": "690c98f9bb74cebb41bfb0324947380de6ad560c826927d9e3bc12c373518155"
+    },
+    {
+      "title": "CPI for all items rises 0.3% in December; shelter and food up",
+      "link": "https://www.bls.gov/news.release/archives/cpi_01132026.htm",
+      "summary": "",
+      "published_at": "2026-01-13T08:30:00-05:00",
+      "source": "bls_cpi",
+      "_translation_hash": "73bda2ca782b16cd80357da42f35608e224ee3c0499888fae3e0c51804e6e281"
+    },
+    {
+      "title": "Both payroll employment (+50,000) and unemployment rate (4.4%) change little in December",
+      "link": "https://www.bls.gov/news.release/archives/empsit_01092026.htm",
+      "summary": "",
+      "published_at": "2026-01-09T08:30:00-05:00",
+      "source": "bls_jobs",
+      "_translation_hash": "9b48fbf047f30f6f279873c58b8a7464563f431ae74d4d223455487a1521272a"
+    },
+    {
+      "title": "November job openings and hires change little; total separations unchanged",
+      "link": "https://www.bls.gov/news.release/archives/jolts_01072026.htm",
+      "summary": "",
+      "published_at": "2026-01-07T10:00:00-05:00",
+      "source": "bls_jolts",
+      "_translation_hash": "3cf36b7f6c0604e7034eb43f333ae8feac6eac4367d5f6ca80f8a0db7ec3c7f4"
+    },
+    {
+      "title": "CPI for all items rises 2.7% over 12 months ending in November; shelter up",
+      "link": "https://www.bls.gov/news.release/archives/cpi_12182025.htm",
+      "summary": "",
+      "published_at": "2025-12-18T08:30:00-05:00",
+      "source": "bls_cpi",
+      "_translation_hash": "8cb0feea009ec1c94d48c00d3404e09e4ff44e4246b3bf6320d20a9cbc5f450f"
+    },
+    {
+      "title": "Both payroll employment (+64,000) and unemployment rate (4.6%) change little in November",
+      "link": "https://www.bls.gov/news.release/archives/empsit_12162025.htm",
+      "summary": "",
+      "published_at": "2025-12-16T08:30:00-05:00",
+      "source": "bls_jobs",
+      "_translation_hash": "b6b48fb53a5a62da2133cb4e82ec3cb623a572b1b617a52fed45d717559fdd99"
     }
   ]
 }
