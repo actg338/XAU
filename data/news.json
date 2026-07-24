@@ -1,7 +1,109 @@
 {
-  "fetched_at": "2026-07-24T12:59:52.452554+00:00",
-  "total": 117,
+  "fetched_at": "2026-07-24T15:03:04.000293+00:00",
+  "total": 116,
   "items": [
+    {
+      "title": "Treasury Further Dismantles Iranian Financier Zanjani’s Network",
+      "link": "https://home.treasury.gov/news/press-releases/sb0576",
+      "summary": "Treasury Further Dismantles Iranian Financier Zanjani’s Network",
+      "published_at": "2026-07-24T14:30:00Z",
+      "source": "treasury",
+      "_translation_hash": "ac850d238b3e74c09da8d8c8273e491016f35514d90c116e4df5d77eb28184d3",
+      "translations": {
+        "zh-CN": {
+          "title": "财政部进一步拆除伊朗金融家赞贾尼的网络",
+          "summary": "财政部进一步拆除伊朗金融家赞贾尼的网络"
+        },
+        "ja": {
+          "title": "財務省、イラン金融家ザンジャーニのネットワークをさらに解体",
+          "summary": "財務省、イラン金融家ザンジャーニのネットワークをさらに解体"
+        },
+        "ko": {
+          "title": "재무부, 이란 금융가 Zanjani의 네트워크 추가 해체",
+          "summary": "재무부, 이란 금융가 Zanjani의 네트워크 추가 해체"
+        },
+        "zh-TW": {
+          "title": "財政部進一步拆除伊朗金融家贊賈尼的網絡",
+          "summary": "財政部進一步拆除伊朗金融家贊賈尼的網絡"
+        },
+        "de": {
+          "title": "Das Finanzministerium demontiert das Netzwerk des iranischen Finanziers Zanjani weiter",
+          "summary": "Das Finanzministerium demontiert das Netzwerk des iranischen Finanziers Zanjani weiter"
+        },
+        "fr": {
+          "title": "Le Trésor démantèle encore le réseau du financier iranien Zanjani",
+          "summary": "Le Trésor démantèle encore le réseau du financier iranien Zanjani"
+        }
+      }
+    },
+    {
+      "title": "New Home Sales",
+      "link": "https://www.census.gov/construction/nrs/",
+      "summary": "Sales of new single-family houses in June 2026 were at a seasonally adjusted annual rate of 628,000. This is 1.6 percent (+/- 14.8%)* above the revised May 2026 estimate of 618,000. June 2026: +1.6* % Change May 2026 (r): -4.3* % Change",
+      "published_at": "Fri, 24 Jul 2026 10:00:00 -0400",
+      "source": "census",
+      "_translation_hash": "e85d62fd6c2bfb9af1cd67495cbfbf91b4d3368b4ea71112ece8e4e47027ee0a",
+      "translations": {
+        "zh-CN": {
+          "title": "新屋销售",
+          "summary": "2026 年 6 月新建单户住宅销量经季节性调整后的年增长率为 628,000 套。这比 2026 年 5 月修订后的估计数 618,000 人高出 1.6% (+/- 14.8%)*。 2026 年 6 月：+1.6* 变化百分比 2026 年 5 月 (r)：-4.3* 变化百分比"
+        },
+        "ja": {
+          "title": "新築住宅販売",
+          "summary": "2026年6月の新築一戸建て住宅の販売戸数（季節調整後）は年率62万8,000戸となった。これは、2026 年 5 月の改訂予測値 618,000 を 1.6 パーセント (+/- 14.8 %)* 上回っています。 2026 年 6 月: +1.6* % 変化 2026 年 5 月 (r): -4.3* % 変化"
+        },
+        "ko": {
+          "title": "신규 주택 판매",
+          "summary": "2026년 6월 신규 단독주택 매매는 계절조정 연율 628,000건이었습니다. 이는 2026년 5월 수정된 추정치인 618,000보다 1.6%(+/- 14.8%)* 높은 수치입니다. 2026년 6월: +1.6* % 변화 2026년 5월(r): -4.3* % 변화"
+        },
+        "zh-TW": {
+          "title": "新屋銷售",
+          "summary": "2026 年 6 月新建單戶住宅銷售經季節性調整後的年增率為 628,000 套。這比 2026 年 5 月修訂後的估計數 618,000 人高出 1.6% (+/- 14.8%)*。 2026 年 6 月：+1.6* 變化百分比 2026 年 5 月 (r)：-4.3* 變化百分比"
+        },
+        "de": {
+          "title": "Verkauf neuer Häuser",
+          "summary": "Der Verkauf neuer Einfamilienhäuser lag im Juni 2026 bei einer saisonbereinigten Jahresrate von 628.000. Das sind 1,6 Prozent (+/- 14,8 %)* über der revidierten Schätzung vom Mai 2026 von 618.000. Juni 2026: +1,6* % Veränderung Mai 2026 (r): -4,3* % Veränderung"
+        },
+        "fr": {
+          "title": "Ventes de maisons neuves",
+          "summary": "Les ventes de maisons unifamiliales neuves en juin 2026 se sont établies à un rythme annuel désaisonnalisé de 628 000. Cela représente 1,6 pour cent (+/- 14,8%)* au-dessus de l'estimation révisée de mai 2026 de 618 000. Juin 2026 : +1,6* % Variation Mai 2026 (r) : -4,3* % Variation"
+        }
+      }
+    },
+    {
+      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+      "link": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260724~eebbc30622.en.html",
+      "summary": "",
+      "published_at": "Fri, 24 Jul 2026 15:00:00 +0200",
+      "source": "ecb",
+      "_translation_hash": "74c37c553fb251a4c8ef04f315442854fbadcdcad82db485b52b5feb0085ea55",
+      "translations": {
+        "zh-CN": {
+          "title": "欧洲央行管理委员会做出的决定（除了设定利率的决定之外）",
+          "summary": ""
+        },
+        "ja": {
+          "title": "ECB理事会による決定（金利設定の決定に加えて）",
+          "summary": ""
+        },
+        "ko": {
+          "title": "ECB 이사회의 결정(이자율 설정 결정에 추가)",
+          "summary": ""
+        },
+        "zh-TW": {
+          "title": "歐洲央行管理委員會所做的決定（除了設定利率的決定之外）",
+          "summary": ""
+        },
+        "de": {
+          "title": "Entscheidungen des EZB-Rats (zusätzlich zu Entscheidungen zur Festlegung der Zinssätze)",
+          "summary": ""
+        },
+        "fr": {
+          "title": "Décisions prises par le Conseil des gouverneurs de la BCE (en plus des décisions fixant les taux d'intérêt)",
+          "summary": ""
+        }
+      }
+    },
     {
       "title": "Actions by the United States in the Investigations under Section 301 of the Trade Act of 1974 of the Acts, Policies, and Practices of 60 Economies Related to the Failure of Each Economy to Impose and Effectively Enforce a Prohibition on the Importation of Goods Produced with Forced Labor",
       "link": "https://www.whitehouse.gov/presidential-actions/2026/07/actions-by-the-united-states-in-the-investigations-under-section-301-of-the-trade-act-of-1974-of-the-acts-policies-and-practices-of-60-economies-related-to-the-failure-of-each-economy-to-impose-and/",
@@ -33,108 +135,6 @@
         "fr": {
           "title": "Actions des États-Unis dans le cadre des enquêtes menées en vertu de l'article 301 de la Loi sur le commerce de 1974 sur les lois, politiques et pratiques de 60 économies liées à l'échec de chaque économie à imposer et à faire appliquer efficacement une interdiction d'importation de marchandises produites au moyen de travail forcé",
           "summary": "MÉMORANDUM À L'INTENTION DU REPRÉSENTANT COMMERCIAL DES ÉTATS-UNIS Objet : Actions des États-Unis dans le cadre des enquêtes menées en vertu de l'article 301 du Trade Act de 1974 sur les lois, politiques et pratiques de 60 économies liées à l'échec de chaque économie à imposer et à faire appliquer efficacement une interdiction sur l'importation de marchandises produites avec […]. 1974 des lois, politiques et pratiques de 60 économies R"
-        }
-      }
-    },
-    {
-      "title": "Treasury Releases Report on Macroeconomic and Foreign Exchange Policies of Major Trading Partners of the United States",
-      "link": "https://home.treasury.gov/news/press-releases/sb0574",
-      "summary": "Treasury Releases Report on Macroeconomic and Foreign Exchange Policies of Major Trading Partners of the United States",
-      "published_at": "2026-07-23T20:00:00Z",
-      "source": "treasury",
-      "_translation_hash": "321d67888b48ee018ef41e05dd6db15e54be52169d19bc759302318bddfc3ca2",
-      "translations": {
-        "zh-CN": {
-          "title": "美国财政部发布美国主要贸易伙伴宏观经济和外汇政策报告",
-          "summary": "美国财政部发布美国主要贸易伙伴宏观经济和外汇政策报告"
-        },
-        "zh-TW": {
-          "title": "美國財政部發布美國主要貿易夥伴宏觀經濟與外匯政策報告",
-          "summary": "美國財政部發布美國主要貿易夥伴宏觀經濟與外匯政策報告"
-        },
-        "ja": {
-          "title": "財務省、米国の主要貿易相手国のマクロ経済・外国為替政策に関する報告書を発表",
-          "summary": "財務省、米国の主要貿易相手国のマクロ経済・外国為替政策に関する報告書を発表"
-        },
-        "ko": {
-          "title": "재무부, 미국 주요 무역 상대국의 거시경제 및 외환 정책에 관한 보고서 발표",
-          "summary": "재무부, 미국 주요 무역 상대국의 거시경제 및 외환 정책에 관한 보고서 발표"
-        },
-        "de": {
-          "title": "Das Finanzministerium veröffentlicht einen Bericht über die makroökonomische Politik und die Devisenpolitik wichtiger Handelspartner der Vereinigten Staaten",
-          "summary": "Das Finanzministerium veröffentlicht einen Bericht über die makroökonomische Politik und die Devisenpolitik wichtiger Handelspartner der Vereinigten Staaten"
-        },
-        "fr": {
-          "title": "Le Trésor publie un rapport sur les politiques macroéconomiques et de change des principaux partenaires commerciaux des États-Unis",
-          "summary": "Le Trésor publie un rapport sur les politiques macroéconomiques et de change des principaux partenaires commerciaux des États-Unis"
-        }
-      }
-    },
-    {
-      "title": "Treasury Disrupts Muslim Brotherhood and Hamas Financial Networks",
-      "link": "https://home.treasury.gov/news/press-releases/sb0572",
-      "summary": "Treasury Disrupts Muslim Brotherhood and Hamas Financial Networks",
-      "published_at": "2026-07-23T18:30:00Z",
-      "source": "treasury",
-      "_translation_hash": "9062b015ddd735e09880e6690fd09a65a3c62121a6b95f421fecba4720813c05",
-      "translations": {
-        "zh-CN": {
-          "title": "财政部扰乱穆斯林兄弟会和哈马斯金融网络",
-          "summary": "财政部扰乱穆斯林兄弟会和哈马斯金融网络"
-        },
-        "zh-TW": {
-          "title": "財政部擾亂穆斯林兄弟會和哈馬斯金融網絡",
-          "summary": "財政部擾亂穆斯林兄弟會和哈馬斯金融網絡"
-        },
-        "ja": {
-          "title": "財務省がムスリム同胞団とハマスの金融ネットワークを混乱させる",
-          "summary": "財務省がムスリム同胞団とハマスの金融ネットワークを混乱させる"
-        },
-        "ko": {
-          "title": "재무부는 무슬림 형제단과 하마스 금융 네트워크를 혼란에 빠뜨렸습니다.",
-          "summary": "재무부는 무슬림 형제단과 하마스 금융 네트워크를 혼란에 빠뜨렸습니다."
-        },
-        "de": {
-          "title": "Das Finanzministerium stört die Finanznetzwerke der Muslimbruderschaft und der Hamas",
-          "summary": "Das Finanzministerium stört die Finanznetzwerke der Muslimbruderschaft und der Hamas"
-        },
-        "fr": {
-          "title": "Le Trésor perturbe les réseaux financiers des Frères musulmans et du Hamas",
-          "summary": "Le Trésor perturbe les réseaux financiers des Frères musulmans et du Hamas"
-        }
-      }
-    },
-    {
-      "title": "Treasury Takes Largest Action Ever Targeting Cartel de Jalisco Nueva Generacion",
-      "link": "https://home.treasury.gov/news/press-releases/sb0573",
-      "summary": "Treasury Takes Largest Action Ever Targeting Cartel de Jalisco Nueva Generacion",
-      "published_at": "2026-07-23T18:30:00Z",
-      "source": "treasury",
-      "_translation_hash": "b599b12489dc315c74a6802dbdd50f218ae99f703cf5a36e10a4f69de1ad49b0",
-      "translations": {
-        "zh-CN": {
-          "title": "财政部针对哈利斯科新世代卡特尔采取有史以来最大规模的行动",
-          "summary": "财政部针对哈利斯科新世代卡特尔采取有史以来最大规模的行动"
-        },
-        "zh-TW": {
-          "title": "財政部針對哈利斯科新世代卡特爾採取有史以來最大規模的行動",
-          "summary": "財政部針對哈利斯科新世代卡特爾採取有史以來最大規模的行動"
-        },
-        "ja": {
-          "title": "財務省、ハリスコ・ヌエバ・ヘネラシオンのカルテルを標的に史上最大規模の行動に出る",
-          "summary": "財務省、ハリスコ・ヌエバ・ヘネラシオンのカルテルを標的に史上最大規模の行動に出る"
-        },
-        "ko": {
-          "title": "재무부는 Cartel de Jalisco Nueva Generacion을 표적으로 삼아 역대 최대 규모의 조치를 취했습니다.",
-          "summary": "재무부는 Cartel de Jalisco Nueva Generacion을 표적으로 삼아 역대 최대 규모의 조치를 취했습니다."
-        },
-        "de": {
-          "title": "Das Finanzministerium ergreift die größte Maßnahme aller Zeiten gegen das Cartel de Jalisco Nueva Generacion",
-          "summary": "Das Finanzministerium ergreift die größte Maßnahme aller Zeiten gegen das Cartel de Jalisco Nueva Generacion"
-        },
-        "fr": {
-          "title": "Le Trésor prend la plus grande mesure jamais prise contre le cartel de Jalisco Nueva Generacion",
-          "summary": "Le Trésor prend la plus grande mesure jamais prise contre le cartel de Jalisco Nueva Generacion"
         }
       }
     },
@@ -1057,14 +1057,6 @@
       }
     },
     {
-      "title": "New Home Sales",
-      "link": "https://www.census.gov/construction/nrs/",
-      "summary": "Sales of new single-family houses in May 2026 were at a seasonally adjusted annual rate of 580,000. This is 7.3 percent (+/- 13.3%)* below the revised April 2026 estimate of 626,000. May 2026: -7.3* % Change April 2026 (r): -5.7* % Change",
-      "published_at": "Wed, 24 Jun 2026 10:00:00 -0400",
-      "source": "census",
-      "_translation_hash": "e58c09513fed3b390039bac8e82e92abfd650bca66116e3cdf2eb76a2179e406"
-    },
-    {
       "title": "Waller, Welcoming Remarks on the International Role of the U.S. Dollar",
       "link": "https://www.federalreserve.gov/newsevents/speech/waller20260622a.htm",
       "summary": "Speech At the Fifth Conference on the International Roles of the Dollar, Board of Governors of the Federal Reserve System, Washington, D.C.",
@@ -1473,6 +1465,14 @@
       "published_at": "2025-12-16T08:30:00-05:00",
       "source": "bls_jobs",
       "_translation_hash": "b6b48fb53a5a62da2133cb4e82ec3cb623a572b1b617a52fed45d717559fdd99"
+    },
+    {
+      "title": "October job openings unchanged; hires and total separations change little",
+      "link": "https://www.bls.gov/news.release/archives/jolts_12092025.htm",
+      "summary": "",
+      "published_at": "2025-12-09T10:00:00-05:00",
+      "source": "bls_jolts",
+      "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
     }
   ]
 }
