@@ -48,7 +48,7 @@ The site hosts a live XAUUSD policy and news monitor at /news.html (and localize
 - U.S. Dollar Index (DXY)
 - Real-time Federal Reserve Chair Warsh stance analysis (keyword-weighted, updated every 5 minutes)
 - CME FedWatch rate-path probabilities for upcoming FOMC meetings
-- Authoritative news from the Federal Reserve, BLS, U.S. Treasury, CNBC, Reuters, and Kitco
+- Authoritative news from the Federal Reserve, BLS, BEA, and CNBC
 - Aggregated strategy signal combining all of the above
 
 Data is refreshed automatically by a GitHub Actions workflow every 5 minutes. Sources are exclusively primary institutions and professional media. The news center is informational only and does not constitute investment advice.
