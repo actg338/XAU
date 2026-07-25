@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-25T04:18:35.465719+00:00",
+  "fetched_at": "2026-07-25T06:33:48.547450+00:00",
   "total": 116,
   "items": [
     {
@@ -517,7 +517,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "_translation_hash": "c09a26cb3c65f8400f15c7e89dcc1a09c734bb0be0d32fb4ab108c5d9d6e34a1",
       "translations": {
         "ja": {
@@ -687,7 +687,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "_translation_hash": "db09f66de63cb0b059d2c8f1e934f2297fdcf0cfb98f4d5c3f3ebd31c649b786",
       "translations": {
         "zh-CN": {
@@ -1095,7 +1095,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 17 Jun 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "_translation_hash": "290e75caada0bd9ff13e5e910adcf7e75770b6638cd0e4e72f478e4de342e680"
     },
     {
@@ -1103,7 +1103,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
       "published_at": "Wed, 17 Jun 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "_translation_hash": "1a1af3cea5eec364078d94a6fb136d13d02892ad03abbb74de6098e21d26bb32"
     },
     {
