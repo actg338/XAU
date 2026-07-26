@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-07-26T09:04:17.810862+00:00",
-  "total": 104,
+  "fetched_at": "2026-07-26T10:50:46.170039+00:00",
+  "total": 116,
   "items": [
     {
       "title": "New Home Sales",
@@ -1163,6 +1163,14 @@
       "_translation_hash": "a403da507735cf1e0ae296e2c34e281fda019db5bc19786d95b825c171a696db"
     },
     {
+      "title": "April job openings increase; hires and total separations decrease",
+      "link": "https://www.bls.gov/news.release/archives/jolts_06022026.htm",
+      "summary": "",
+      "published_at": "2026-06-02T10:00:00-04:00",
+      "source": "bls_jolts",
+      "_translation_hash": "20c37231c35bc7e3940be60567449c01417d74bd5e9d44060deda52ce576aaf2"
+    },
+    {
       "title": "Powell, Acceptance Remarks",
       "link": "https://www.federalreserve.gov/newsevents/speech/powell20260531a.htm",
       "summary": "Speech For the 2026 John F. Kennedy Profile in Courage Award, John F. Kennedy Library Foundation, Boston, Massachusetts",
@@ -1217,6 +1225,14 @@
       "published_at": "2026-05-08T08:30:00-04:00",
       "source": "bls_jobs",
       "_translation_hash": "86c178771ce88ece70aa6f1b96b769a3732f03806aff9e1a6458b47a05762e68"
+    },
+    {
+      "title": "March hires increase; job openings unchanged and total separations change little",
+      "link": "https://www.bls.gov/news.release/archives/jolts_05052026.htm",
+      "summary": "",
+      "published_at": "2026-05-05T10:00:00-04:00",
+      "source": "bls_jolts",
+      "_translation_hash": "1cf6bdb4bb971357be9f90acc87e66f55be11e59371c9663e862bba7c00fcb1b"
     },
     {
       "title": "Federal Reserve issues FOMC statement",
@@ -1275,6 +1291,14 @@
       "_translation_hash": "96956f8e200b64dc19908bb07b6fae2652aaf4f12c4b2bb79d9c59d650b27655"
     },
     {
+      "title": "February hires decrease; job openings and total separations change little",
+      "link": "https://www.bls.gov/news.release/archives/jolts_03312026.htm",
+      "summary": "",
+      "published_at": "2026-03-31T10:00:00-04:00",
+      "source": "bls_jolts",
+      "_translation_hash": "88e3029408c4ea73119f84b0e20950ec10363e6520e3602791cd7cf9abd42b82"
+    },
+    {
       "title": "Federal Reserve issues FOMC statement",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
       "summary": "Federal Reserve issues FOMC statement",
@@ -1297,6 +1321,14 @@
       "published_at": "2026-03-18T08:30:00-04:00",
       "source": "bls_ppi",
       "_translation_hash": "610aa9ae7a3b0a617060bf24d0c0f635bf82e71eb1ee82231fdf33e5d2b2faaf"
+    },
+    {
+      "title": "January job openings and total separations change little; hires unchanged",
+      "link": "https://www.bls.gov/news.release/archives/jolts_03132026.htm",
+      "summary": "",
+      "published_at": "2026-03-13T10:00:00-04:00",
+      "source": "bls_jolts",
+      "_translation_hash": "94b2a641180c40d438efa6c40ca3e0f3c1d02fc48e12eee214f2f286ed751944"
     },
     {
       "title": "CPI for all items rises 0.3% in February; shelter up",
@@ -1363,6 +1395,14 @@
       "_translation_hash": "c49f635af81d3dcac434e796ab011efd49a23ac5b31bc3a390946a50c632e895"
     },
     {
+      "title": "December job openings trend down, hires and total separations change little",
+      "link": "https://www.bls.gov/news.release/archives/jolts_02052026.htm",
+      "summary": "",
+      "published_at": "2026-02-05T10:00:00-05:00",
+      "source": "bls_jolts",
+      "_translation_hash": "e828c191f58e2b1caaa143ad6009f281cd1deb7d28c7d5429793cda552d4f63b"
+    },
+    {
       "title": "PPI for final demand advances 0.5% in December; services rise 0.7%, goods unchanged",
       "link": "https://www.bls.gov/news.release/archives/ppi_01302026.htm",
       "summary": "",
@@ -1403,6 +1443,14 @@
       "_translation_hash": "9b48fbf047f30f6f279873c58b8a7464563f431ae74d4d223455487a1521272a"
     },
     {
+      "title": "November job openings and hires change little; total separations unchanged",
+      "link": "https://www.bls.gov/news.release/archives/jolts_01072026.htm",
+      "summary": "",
+      "published_at": "2026-01-07T10:00:00-05:00",
+      "source": "bls_jolts",
+      "_translation_hash": "3cf36b7f6c0604e7034eb43f333ae8feac6eac4367d5f6ca80f8a0db7ec3c7f4"
+    },
+    {
       "title": "CPI for all items rises 2.7% over 12 months ending in November; shelter up",
       "link": "https://www.bls.gov/news.release/archives/cpi_12182025.htm",
       "summary": "",
@@ -1419,60 +1467,12 @@
       "_translation_hash": "b6b48fb53a5a62da2133cb4e82ec3cb623a572b1b617a52fed45d717559fdd99"
     },
     {
-      "title": "PPI for final demand advances 0.3% in September; goods rise 0.9%, services unchanged",
-      "link": "https://www.bls.gov/news.release/archives/ppi_11252025.htm",
+      "title": "October job openings unchanged; hires and total separations change little",
+      "link": "https://www.bls.gov/news.release/archives/jolts_12092025.htm",
       "summary": "",
-      "published_at": "2025-11-25T08:30:00-05:00",
-      "source": "bls_ppi",
-      "_translation_hash": "4580557ddb6ea1d4834c1b15c41a3149ef83d749f8ae34cb0c4cceec56f369f8"
-    },
-    {
-      "title": "Payroll employment edges up 119,000 in September; unemployment rate changes little at 4.4%",
-      "link": "https://www.bls.gov/news.release/archives/empsit_11202025.htm",
-      "summary": "",
-      "published_at": "2025-11-20T08:30:00-05:00",
-      "source": "bls_jobs",
-      "_translation_hash": "b913e2014a1c590a06230e201b743e6ef224d6a5a356c51addaeb7d4912bd47e"
-    },
-    {
-      "title": "CPI for all items rises 0.3% in September; gasoline up",
-      "link": "https://www.bls.gov/news.release/archives/cpi_10242025.htm",
-      "summary": "",
-      "published_at": "2025-10-24T08:30:00-04:00",
-      "source": "bls_cpi",
-      "_translation_hash": "044af1e69df439dcfbdc5335fa821579e6cc7c52c8d2171caae18d4fc2ca7848"
-    },
-    {
-      "title": "CPI for all items rises 0.4% in August; shelter and food up",
-      "link": "https://www.bls.gov/news.release/archives/cpi_09112025.htm",
-      "summary": "",
-      "published_at": "2025-09-11T08:30:00-04:00",
-      "source": "bls_cpi",
-      "_translation_hash": "dcc4c3f6fcabe746e3475b84a88ca883228a5a37aa7ce8f33869fa2ff10ef920"
-    },
-    {
-      "title": "PPI for final demand declines 0.1% in August; services fall 0.2%, goods increase 0.1%",
-      "link": "https://www.bls.gov/news.release/archives/ppi_09102025.htm",
-      "summary": "",
-      "published_at": "2025-09-10T08:30:00-04:00",
-      "source": "bls_ppi",
-      "_translation_hash": "2d63234f42ccec42943aaf811f237af0041ece5d9c945b9b5b3427b4bc09b138"
-    },
-    {
-      "title": "Both payroll employment (+22,000) and unemployment rate (4.3%) change little in August",
-      "link": "https://www.bls.gov/news.release/archives/empsit_09052025.htm",
-      "summary": "",
-      "published_at": "2025-09-05T08:30:00-04:00",
-      "source": "bls_jobs",
-      "_translation_hash": "25104201d9e4a282aab1e9ff171c130e5a1bc5abb51c7f09d98c7e351796b21b"
-    },
-    {
-      "title": "PPI for final demand advances 0.9% in July; services rise 1.1%, goods increase 0.7%",
-      "link": "https://www.bls.gov/news.release/archives/ppi_08142025.htm",
-      "summary": "",
-      "published_at": "2025-08-14T08:30:00-04:00",
-      "source": "bls_ppi",
-      "_translation_hash": "53bddad084d6ce2ba5a12c1a2ad87dcbb881ae0c6e85e1c6dcebd7938754b93f"
+      "published_at": "2025-12-09T10:00:00-05:00",
+      "source": "bls_jolts",
+      "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
     }
   ]
 }
