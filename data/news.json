@@ -1,7 +1,75 @@
 {
-  "fetched_at": "2026-07-27T17:07:00.035736+00:00",
-  "total": 117,
+  "fetched_at": "2026-07-27T18:46:03.392786+00:00",
+  "total": 119,
   "items": [
+    {
+      "title": "Treasury Announces Second Round of Sanctions Removals, Updates in Modernization Initiative",
+      "link": "https://home.treasury.gov/news/press-releases/sb0578",
+      "summary": "Treasury Announces Second Round of Sanctions Removals, Updates in Modernization Initiative",
+      "published_at": "2026-07-27T17:30:00Z",
+      "source": "treasury",
+      "_translation_hash": "53c691168a2ccf04863bcf91f918ca989d0611939a603eeb3ed467db137f2b53",
+      "translations": {
+        "ja": {
+          "title": "財務省、第2弾の制裁解除と近代化構想の最新情報を発表",
+          "summary": "財務省、第2弾の制裁解除と近代化構想の最新情報を発表"
+        },
+        "zh-CN": {
+          "title": "财政部宣布第二轮制裁取消和现代化计划的更新",
+          "summary": "财政部宣布第二轮制裁取消和现代化计划的更新"
+        },
+        "ko": {
+          "title": "재무부, 2차 제재 해제 및 현대화 계획 업데이트 발표",
+          "summary": "재무부, 2차 제재 해제 및 현대화 계획 업데이트 발표"
+        },
+        "zh-TW": {
+          "title": "財政部宣布第二輪制裁取消和現代化計劃的更新",
+          "summary": "財政部宣布第二輪制裁取消和現代化計劃的更新"
+        },
+        "de": {
+          "title": "Finanzministerium kündigt zweite Runde der Aufhebung von Sanktionen und Aktualisierungen der Modernisierungsinitiative an",
+          "summary": "Finanzministerium kündigt zweite Runde der Aufhebung von Sanktionen und Aktualisierungen der Modernisierungsinitiative an"
+        },
+        "fr": {
+          "title": "Le Trésor annonce une deuxième série de suppressions de sanctions et une mise à jour de son initiative de modernisation",
+          "summary": "Le Trésor annonce une deuxième série de suppressions de sanctions et une mise à jour de son initiative de modernisation"
+        }
+      }
+    },
+    {
+      "title": "Remarks by Secretary of the Treasury Scott Bessent Before the Financial Literacy and Education Commission",
+      "link": "https://home.treasury.gov/news/press-releases/sb0579",
+      "summary": "Remarks by Secretary of the Treasury Scott Bessent Before the Financial Literacy and Education Commission",
+      "published_at": "2026-07-27T17:30:00Z",
+      "source": "treasury",
+      "_translation_hash": "302ec01568ec4a67f25cb8647c92401e7472413e294fac049b405306117ce6b5",
+      "translations": {
+        "ja": {
+          "title": "スコット・ベッセント財務長官による金融リテラシー・教育委員会での発言",
+          "summary": "スコット・ベッセント財務長官による金融リテラシー・教育委員会での発言"
+        },
+        "zh-CN": {
+          "title": "财政部长斯科特·贝森特在金融素养和教育委员会上的讲话",
+          "summary": "财政部长斯科特·贝森特在金融素养和教育委员会上的讲话"
+        },
+        "ko": {
+          "title": "금융교육위원회에서 Scott Bessent 재무장관의 발언",
+          "summary": "금융교육위원회에서 Scott Bessent 재무장관의 발언"
+        },
+        "zh-TW": {
+          "title": "財政部長斯科特·貝森特在金融素養和教育委員會的講話",
+          "summary": "財政部長斯科特·貝森特在金融素養和教育委員會的講話"
+        },
+        "de": {
+          "title": "Bemerkungen von Finanzminister Scott Bessent vor der Financial Literacy and Education Commission",
+          "summary": "Bemerkungen von Finanzminister Scott Bessent vor der Financial Literacy and Education Commission"
+        },
+        "fr": {
+          "title": "Allocution du secrétaire au Trésor Scott Bessent devant la Commission pour la littératie et l'éducation financières",
+          "summary": "Allocution du secrétaire au Trésor Scott Bessent devant la Commission pour la littératie et l'éducation financières"
+        }
+      }
+    },
     {
       "title": "Made in Michigan Again: President Trump’s Trade Agenda Is Supercharging American Auto Manufacturing",
       "link": "https://www.whitehouse.gov/releases/2026/07/made-in-michigan-again-president-trumps-trade-agenda-is-supercharging-american-auto-manufacturing/",
@@ -585,7 +653,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "_translation_hash": "c09a26cb3c65f8400f15c7e89dcc1a09c734bb0be0d32fb4ab108c5d9d6e34a1",
       "translations": {
         "ja": {
@@ -755,7 +823,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "_translation_hash": "db09f66de63cb0b059d2c8f1e934f2297fdcf0cfb98f4d5c3f3ebd31c649b786",
       "translations": {
         "zh-CN": {
@@ -1129,7 +1197,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 17 Jun 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "_translation_hash": "290e75caada0bd9ff13e5e910adcf7e75770b6638cd0e4e72f478e4de342e680"
     },
     {
@@ -1137,7 +1205,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
       "published_at": "Wed, 17 Jun 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "_translation_hash": "1a1af3cea5eec364078d94a6fb136d13d02892ad03abbb74de6098e21d26bb32"
     },
     {
@@ -1483,22 +1551,6 @@
       "published_at": "2026-01-07T10:00:00-05:00",
       "source": "bls_jolts",
       "_translation_hash": "3cf36b7f6c0604e7034eb43f333ae8feac6eac4367d5f6ca80f8a0db7ec3c7f4"
-    },
-    {
-      "title": "CPI for all items rises 2.7% over 12 months ending in November; shelter up",
-      "link": "https://www.bls.gov/news.release/archives/cpi_12182025.htm",
-      "summary": "",
-      "published_at": "2025-12-18T08:30:00-05:00",
-      "source": "bls_cpi",
-      "_translation_hash": "8cb0feea009ec1c94d48c00d3404e09e4ff44e4246b3bf6320d20a9cbc5f450f"
-    },
-    {
-      "title": "Both payroll employment (+64,000) and unemployment rate (4.6%) change little in November",
-      "link": "https://www.bls.gov/news.release/archives/empsit_12162025.htm",
-      "summary": "",
-      "published_at": "2025-12-16T08:30:00-05:00",
-      "source": "bls_jobs",
-      "_translation_hash": "b6b48fb53a5a62da2133cb4e82ec3cb623a572b1b617a52fed45d717559fdd99"
     }
   ]
 }
