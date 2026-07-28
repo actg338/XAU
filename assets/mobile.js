@@ -12,7 +12,7 @@
 
   if (languageSwitcher instanceof HTMLElement) {
     languageSwitcher.classList.add("language-switcher--nav");
-    navInner.insertBefore(languageSwitcher, navLinks);
+    navLinks.insertBefore(languageSwitcher, navLinks.firstChild);
   }
 
   navLinks.addEventListener("wheel", event => {
