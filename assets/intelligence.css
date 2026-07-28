@@ -231,6 +231,19 @@
   cursor: pointer;
 }
 
+.intel-open {
+  display: inline-flex;
+  margin-top: 18px;
+  color: #f3d58a;
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.intel-open:hover {
+  color: #fff1bd;
+}
+
 .signal-breakdown {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
