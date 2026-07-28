@@ -129,6 +129,43 @@ SOURCES: list[Source] = [
     },
 ]
 
+CATEGORY_RULES: dict[str, tuple[str, ...]] = {
+    "monetary_policy": ("fomc", "federal reserve", "interest rate", "monetary policy", "ecb"),
+    "inflation": ("inflation", "consumer price", "producer price", "cpi", "ppi", "price index"),
+    "labor": ("employment", "payroll", "job opening", "unemployment", "labor"),
+    "growth": ("gdp", "economic growth", "personal income", "retail sales", "productivity"),
+    "trade": ("trade", "tariff", "export", "import", "foreign exchange", "currency"),
+    "geopolitics": ("sanction", "war", "iran", "russia", "china", "hamas", "conflict"),
+}
+HIGH_IMPACT_TERMS: tuple[str, ...] = (
+    "fomc", "interest rate", "consumer price", "cpi", "employment situation",
+    "payroll", "gdp", "personal consumption expenditures", "pce", "tariff",
+)
+BULLISH_GOLD_TERMS: tuple[str, ...] = (
+    "rate cut", "easing", "dovish", "lower rates", "geopolitical", "sanction",
+    "war", "conflict", "inflation rises", "weaker dollar",
+)
+BEARISH_GOLD_TERMS: tuple[str, ...] = (
+    "rate hike", "hawkish", "higher for longer", "stronger dollar",
+    "inflation falls", "price stability", "restrictive",
+)
+
+
+def classify_news(item: dict[str, str | None]) -> None:
+    text = f"{item.get('title') or ''} {item.get('summary') or ''}".lower()
+    category = next(
+        (key for key, terms in CATEGORY_RULES.items() if any(term in text for term in terms)),
+        "other",
+    )
+    bullish = sum(term in text for term in BULLISH_GOLD_TERMS)
+    bearish = sum(term in text for term in BEARISH_GOLD_TERMS)
+    bias = "bullish" if bullish > bearish else "bearish" if bearish > bullish else "neutral"
+    high = any(term in text for term in HIGH_IMPACT_TERMS)
+    item["category"] = category
+    item["impact"] = "high" if high else "medium" if category != "other" else "low"
+    item["gold_bias"] = bias
+    item["why_key"] = f"{category}_{bias}"
+
 
 def translation_hash(item: dict[str, str | None]) -> str:
     source = f"{item.get('title') or ''}\0{item.get('summary') or ''}"
@@ -312,6 +349,8 @@ def main() -> None:
         return datetime.min.replace(tzinfo=timezone.utc)
 
     all_items.sort(key=lambda x: parse_dt(x.get("published_at", "")), reverse=True)
+    for item in all_items:
+        classify_news(item)
     restore_translations(all_items, cached_translations)
 
     out = {

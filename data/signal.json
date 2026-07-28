@@ -1,10 +1,59 @@
 {
-  "score": -3,
-  "signal": "偏空 · 关注做空机会",
-  "action": "策略 A 做空端,1% 风险",
-  "reasons": [
-    "沃什强鹰派立场"
+  "schema_version": 2,
+  "score": -48,
+  "direction": "bearish",
+  "label_key": "strong_bearish",
+  "signal": "strong_bearish",
+  "action": "wait_for_confirmation",
+  "confidence": 88,
+  "components": [
+    {
+      "key": "warsh",
+      "score": -30,
+      "direction": "bearish",
+      "value": "STRONG_HAWK",
+      "reason_key": "warsh_strong_hawk",
+      "updated_at": "2026-07-28T07:18:24.878387+00:00"
+    },
+    {
+      "key": "fedwatch",
+      "score": -11,
+      "direction": "bearish",
+      "value": "cut 0.0% / hike 35.8%",
+      "reason_key": "fedwatch_path",
+      "updated_at": "2026-07-28T07:18:27.285650+00:00"
+    },
+    {
+      "key": "xau",
+      "score": -8,
+      "direction": "bearish",
+      "value": "-0.63%",
+      "reason_key": "xau_momentum",
+      "updated_at": "2026-07-28T07:18:24.279795+00:00"
+    },
+    {
+      "key": "dxy",
+      "score": 1,
+      "direction": "bullish",
+      "value": "-0.03%",
+      "reason_key": "dxy_momentum",
+      "updated_at": "2026-07-28T07:18:24.485045+00:00"
+    }
   ],
-  "reason": "沃什强鹰派立场",
-  "generated_at": "2026-07-28T07:18:38.123063+00:00"
+  "supporting": [
+    "warsh",
+    "fedwatch",
+    "xau"
+  ],
+  "opposing": [
+    "dxy"
+  ],
+  "reason": "warsh_strong_hawk · fedwatch_path · xau_momentum · dxy_momentum",
+  "reasons": [
+    "warsh_strong_hawk",
+    "fedwatch_path",
+    "xau_momentum",
+    "dxy_momentum"
+  ],
+  "generated_at": "2026-07-28T09:14:59.192523+00:00"
 }

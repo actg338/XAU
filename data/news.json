@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-28T07:18:37.974270+00:00",
+  "fetched_at": "2026-07-28T09:14:58.992635+00:00",
   "total": 120,
   "items": [
     {
@@ -8,6 +8,10 @@
       "summary": "Today, our Nation marks the 82nd anniversary of the American liberation of Guam—the day the United States shattered a brutal occupation and carried freedom back to an island that had endured more than 2 years of suffering As our Nation observes National Korean War Veterans Armistice Day, we honor the extraordinary courage and devotion of […] The post Presidential Message on National Korean War Veterans Armistice Day appeared first on The White House .",
       "published_at": "Mon, 27 Jul 2026 22:51:46 +0000",
       "source": "white_house",
+      "category": "geopolitics",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "geopolitics_bullish",
       "_translation_hash": "ce489a4c0c41d8ebea0e2a77d67d87d951943f12a34930d4c71cd77d43266a14",
       "translations": {
         "zh-CN": {
@@ -42,6 +46,10 @@
       "summary": "Treasury Announces Second Round of Sanctions Removals, Updates in Modernization Initiative",
       "published_at": "2026-07-27T17:30:00Z",
       "source": "treasury",
+      "category": "geopolitics",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "geopolitics_bullish",
       "_translation_hash": "53c691168a2ccf04863bcf91f918ca989d0611939a603eeb3ed467db137f2b53",
       "translations": {
         "ja": {
@@ -76,6 +84,10 @@
       "summary": "Remarks by Secretary of the Treasury Scott Bessent Before the Financial Literacy and Education Commission",
       "published_at": "2026-07-27T17:30:00Z",
       "source": "treasury",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "302ec01568ec4a67f25cb8647c92401e7472413e294fac049b405306117ce6b5",
       "translations": {
         "ja": {
@@ -110,6 +122,10 @@
       "summary": "President Donald J. Trump returns to Michigan today to visit the General Motors Proving Ground in Milford and celebrate the roaring comeback of American auto manufacturing under his leadership. Since taking office, President Trump has ignited an automotive renaissance — onshoring production, restoring factory jobs, and making vehicles in Michigan again. Record Investments. Record Sales. […] The post Made in Michigan Again: President Trump’s Trade Agenda Is Supercharging American Auto Manufacturi",
       "published_at": "Mon, 27 Jul 2026 16:02:58 +0000",
       "source": "white_house",
+      "category": "trade",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "trade_neutral",
       "_translation_hash": "fb4aa329fa099a7e3c00d22ebb2aae1a284aebb1cb9fa2888aee83cb8ce85761",
       "translations": {
         "zh-CN": {
@@ -144,6 +160,10 @@
       "summary": "New orders for manufactured durable goods in June, up three of the last four months, increased $1.1 billion or 0.3 percent to $334.8 billion. June 2026: +0.3° % Change May 2026 (r): -4.0° % Change",
       "published_at": "Mon, 27 Jul 2026 08:30:00 -0400",
       "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "93519770ea93d596d9987ce3b9b6ebaf647bfc5c27b192fd3a50cc2f8048fef8",
       "translations": {
         "ja": {
@@ -178,6 +198,10 @@
       "summary": "Treasury Further Dismantles Iranian Financier Zanjani’s Network",
       "published_at": "2026-07-24T14:30:00Z",
       "source": "treasury",
+      "category": "geopolitics",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "geopolitics_neutral",
       "_translation_hash": "ac850d238b3e74c09da8d8c8273e491016f35514d90c116e4df5d77eb28184d3",
       "translations": {
         "zh-CN": {
@@ -212,6 +236,10 @@
       "summary": "Sales of new single-family houses in June 2026 were at a seasonally adjusted annual rate of 628,000. This is 1.6 percent (+/- 14.8%)* above the revised May 2026 estimate of 618,000. June 2026: +1.6* % Change May 2026 (r): -4.3* % Change",
       "published_at": "Fri, 24 Jul 2026 10:00:00 -0400",
       "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "e85d62fd6c2bfb9af1cd67495cbfbf91b4d3368b4ea71112ece8e4e47027ee0a",
       "translations": {
         "zh-CN": {
@@ -246,6 +274,10 @@
       "summary": "",
       "published_at": "Fri, 24 Jul 2026 15:00:00 +0200",
       "source": "ecb",
+      "category": "monetary_policy",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
       "_translation_hash": "74c37c553fb251a4c8ef04f315442854fbadcdcad82db485b52b5feb0085ea55",
       "translations": {
         "zh-CN": {
@@ -280,6 +312,10 @@
       "summary": "MEMORANDUM FOR THE UNITED STATES TRADE REPRESENTATIVE Subject: Actions by the United States in the Investigations under Section 301 of the Trade Act of 1974 of the Acts, Policies, and Practices of 60 Economies Related to the Failure of Each Economy to Impose and Effectively Enforce a Prohibition on the Importation of Goods Produced with […] The post Actions by the United States in the Investigations under Section 301 of the Trade Act of 1974 of the Acts, Policies, and Practices of 60 Economies R",
       "published_at": "Thu, 23 Jul 2026 22:48:44 +0000",
       "source": "white_house",
+      "category": "labor",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
       "_translation_hash": "cb874d7629438fa897824e315c297d8de1b4b3e75d939a8d07f0aa29ad30b93f",
       "translations": {
         "zh-CN": {
@@ -314,6 +350,10 @@
       "summary": "",
       "published_at": "Thu, 23 Jul 2026 15:00:00 +0200",
       "source": "ecb",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
       "_translation_hash": "f069dc1250bc05bc9b9015550638a08d93cef1efb3a0d3e8b2df31b2288f5a5f",
       "translations": {
         "zh-CN": {
@@ -348,6 +388,10 @@
       "summary": "",
       "published_at": "Thu, 23 Jul 2026 14:15:00 +0200",
       "source": "ecb",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
       "_translation_hash": "d6c8601c58efe148c5d3e41e8bf36e6b8e9e50bba576b3fdb43527c824f612d0",
       "translations": {
         "zh-CN": {
@@ -382,6 +426,10 @@
       "summary": "DELIVERING ON RECIPROCAL TRADE: Today, President Donald J. Trump announced a landmark trade deal with Jordan. Key terms of the Agreement with Jordan include: THE PROSPEROUS PATH FORWARD: Today’s announcement reinforces America’s strategic partnership with one of America’s most valued partners in the Middle East while fostering reciprocal conditions that prioritize American workers and industries, protect U.S. […] The post Fact Sheet: President Donald J. Trump Announces Trade Deal with Jordan app",
       "published_at": "Tue, 21 Jul 2026 15:56:03 +0000",
       "source": "white_house",
+      "category": "trade",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "trade_bullish",
       "_translation_hash": "a948082b51eac9236d12d9046d5b417bfc280c67e52569fd70b18e756b45eadd",
       "translations": {
         "zh-CN": {
@@ -416,6 +464,10 @@
       "summary": "AGREEMENT BETWEEN THE UNITED STATES OF AMERICA AND THE HASHEMITE KINGDOM OF JORDAN ON RECIPROCAL TRADE Preamble The United States of America (“United States”) and the Hashemite Kingdom of Jordan (“Jordan”) (individually a “Party” and collectively “the Parties”), EMPHASIZING their shared values, including democracy, economic freedom, and the rule of law; RECOGNIZING the special bonds […] The post AGREEMENT BETWEEN THE UNITED STATES OF AMERICA AND THE HASHEMITE KINGDOM OF JORDAN ON RECIPROCAL TRAD",
       "published_at": "Tue, 21 Jul 2026 15:55:51 +0000",
       "source": "white_house",
+      "category": "trade",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "trade_neutral",
       "_translation_hash": "e6b82a17d13a36f607986cbdf329c37e0fa38bbeb75b7da815eb4039bac26761",
       "translations": {
         "zh-CN": {
@@ -450,6 +502,10 @@
       "summary": "DEFENDING AMERICAN WORKERS AND ENSURING FAIR TRADE: Today, President Donald J. Trump signed three Proclamations pursuant to Section 338 of the Tariff Act of 1930 to impose additional 50% tariffs on certain goods of Canada in response to Canada’s discriminatory treatment of American products. By doing so, President Trump is offsetting the burden and disadvantage on […] The post Fact Sheet: President Donald J. Trump Imposes Additional Tariffs on Canada appeared first on The White House .",
       "published_at": "Mon, 20 Jul 2026 21:00:00 +0000",
       "source": "white_house",
+      "category": "trade",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "trade_neutral",
       "_translation_hash": "62670b654d89075ca4b37b18a2e68d27b0d45663651469b4d60028d7b573e200",
       "translations": {
         "zh-CN": {
@@ -484,6 +540,10 @@
       "summary": "Privately-owned housing starts in June 2026 were at a seasonally adjusted annual rate of 1,427,000. This is 19.0 percent (+/- 15.9%) above the revised May 2026 estimate of 1,199,000. June 2026: +19.0 % Change May 2026 (r): -15.2 % Change",
       "published_at": "Fri, 17 Jul 2026 08:30:00 -0400",
       "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "4a8f488225f104ff1c0d44a00308613c42d6778ecc09a4870df52716f56b5cfc",
       "translations": {
         "zh-CN": {
@@ -518,6 +578,10 @@
       "summary": "Speech At the Stanford Institute for Economic Policy Research, Stanford University, Stanford, California",
       "published_at": "Thu, 16 Jul 2026 23:00:00 GMT",
       "source": "fed_remarks",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
       "_translation_hash": "6d29eb2f0ab1b25137c61233ab111f88fcd283769ced4a9f3a5a6eedf2a51bdf",
       "translations": {
         "zh-CN": {
@@ -552,6 +616,10 @@
       "summary": "U.S. total business end-of-month inventories for May 2026 were $2,736.2 billion, up 0.3 percent (+/- 0.1 percent) from last month. U.S. total business sales were $2,135.0 billion, up 2.1 percent (+/- 0.2 percent) from last month. May 2026: +0.3 % Change in Inventories April 2026 (r): +0.6 % Change in Inventories",
       "published_at": "Thu, 16 Jul 2026 10:00:00 -0400",
       "source": "census",
+      "category": "trade",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "trade_neutral",
       "_translation_hash": "1c929bfecd9b3469156504b12a1389962f78f8e32eea80485f621a9a989b2b38",
       "translations": {
         "zh-CN": {
@@ -586,6 +654,10 @@
       "summary": "U.S. retail and food services sales for June 2026 were $768.6 billion, up 0.2 percent (+/-0.4 percent)* from the previous month. June 2026: +0.2* % Change May 2026 (r): +1.0 % Change",
       "published_at": "Thu, 16 Jul 2026 08:30:00 -0400",
       "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "84c6b12350918c3c78a024c965cff4a24ab306f473b84342d731cce3f574f9bb",
       "translations": {
         "zh-CN": {
@@ -620,6 +692,10 @@
       "summary": "Speech At The Exchequer Club of Washington D.C., Washington, D.C.",
       "published_at": "Wed, 15 Jul 2026 17:00:00 GMT",
       "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "fe80970e60f60f449a9fb936200c1686d54bb4e04279621c532e6830839a1e41",
       "translations": {
         "zh-CN": {
@@ -654,6 +730,10 @@
       "summary": "Speech At “Next-Gen Financial Inclusion,” the third annual Financial Inclusion Conference hosted by the Federal Reserve Board, Washington, D.C. (via pre-recorded video)",
       "published_at": "Tue, 14 Jul 2026 18:55:00 GMT",
       "source": "fed_remarks",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
       "_translation_hash": "c4c1a3d12f6985dd4d0cfb380179af5fc9a01b9a71b08d6df226bc561c7507a6",
       "translations": {
         "zh-CN": {
@@ -687,7 +767,11 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "c09a26cb3c65f8400f15c7e89dcc1a09c734bb0be0d32fb4ab108c5d9d6e34a1",
       "translations": {
         "ja": {
@@ -722,6 +806,10 @@
       "summary": "Speech At “Next-Gen Financial Inclusion,” the third annual Financial Inclusion Conference hosted by the Federal Reserve Board",
       "published_at": "Tue, 14 Jul 2026 16:40:00 GMT",
       "source": "fed_remarks",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
       "_translation_hash": "4e45fae278ef0bb5d7b4496612864fa8443a8796916e14adfc7e6b05cbaacd2e",
       "translations": {
         "zh-CN": {
@@ -756,6 +844,10 @@
       "summary": "Testimony Before the Committee on Financial Services, U.S. House of Representatives",
       "published_at": "Tue, 14 Jul 2026 12:30:00 GMT",
       "source": "fed_remarks",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "monetary_policy_bullish",
       "_translation_hash": "47784f805710e9c2864bda600ce891c68e264b7f3c1e32b82d167cf56cc5e952",
       "translations": {
         "zh-CN": {
@@ -790,6 +882,10 @@
       "summary": "Speech At the New York Association for Business Economics, New York, New York",
       "published_at": "Mon, 13 Jul 2026 16:30:00 GMT",
       "source": "fed_remarks",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
       "_translation_hash": "69f1b86d0a3edeb5410849d51dd428bc534cbc3d32391dc4a389942a3e2c146b",
       "translations": {
         "zh-CN": {
@@ -824,6 +920,10 @@
       "summary": "Speech At a Bank Policy Institute London Conference, London, United Kingdom",
       "published_at": "Mon, 13 Jul 2026 09:25:00 GMT",
       "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "cb066f2074ca98535faafc584220193f5ded7ff689c112d7c9bea00776eafd67",
       "translations": {
         "zh-CN": {
@@ -857,7 +957,11 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
       "_translation_hash": "db09f66de63cb0b059d2c8f1e934f2297fdcf0cfb98f4d5c3f3ebd31c649b786",
       "translations": {
         "zh-CN": {
@@ -892,6 +996,10 @@
       "summary": "Total U.S. Business Applications were 531,423 in June 2026, up 1.1% from May 2026. June 2026: +1.1° % Change May 2026 (r): +3.7° % Change",
       "published_at": "Thu, 09 Jul 2026 10:00:00 -0400",
       "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "ed746e2f8947c1c1ecba17acc31b7be50b2cf35e829f88ad3ca9f12bf7bc71ce",
       "translations": {
         "zh-CN": {
@@ -926,6 +1034,10 @@
       "summary": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
       "published_at": "Wed, 8 Jul 2026 18:00:00 GMT",
       "source": "fed_policy",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "34ec650653fe32efaea5d06c1c55c3a9cd6e9e7e5fb94d61d1fe47ddcc221da6",
       "translations": {
         "zh-CN": {
@@ -960,6 +1072,10 @@
       "summary": "May 2026 sales of merchant wholesalers were $817.4 billion, up 3.4 percent (+/- 0.5 percent) from last month. End-of-month inventories were $941.8 billion, up 0.1 percent (+/- 0.2 percent)* from last month. May 2026: +0.1* % Change in Inventories April 2026 (r): +0.7 % Change in Inventories",
       "published_at": "Wed, 08 Jul 2026 10:00:00 -0400",
       "source": "census",
+      "category": "trade",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "trade_neutral",
       "_translation_hash": "beb6fbe5353935b16f1f63ef3f2c10d9968f0ff94acd237cca4563f90752e755",
       "translations": {
         "zh-CN": {
@@ -994,6 +1110,10 @@
       "summary": "The nation's international trade deficit in goods and services increased to $77.6 billion in May from $54.6 billion in April (revised), as exports decreased and imports increased. May 2026: 42.2° % Change April 2026 (r): -3.6° % Change",
       "published_at": "Tue, 07 Jul 2026 08:30:00 -0400",
       "source": "census",
+      "category": "trade",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "trade_neutral",
       "_translation_hash": "098058665af2f2247adc622ca2eefe4af9dd502f224aece6858c6e65227ee620",
       "translations": {
         "zh-CN": {
@@ -1028,6 +1148,10 @@
       "summary": "Speech At the Financial Stability Board Virtual Outreach Event",
       "published_at": "Tue, 7 Jul 2026 11:00:00 GMT",
       "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "e1014e8f851be1f201d1eda37a228c0c2a0415978b02832f6ff3135a945e5580",
       "translations": {
         "zh-CN": {
@@ -1062,6 +1186,10 @@
       "summary": "Speech At \"Challenges for Monetary Policy Transmission in a Changing World,\" a conference sponsored by the Bank of Italy for the research network initiated by the European System of Central Banks, Rome, Italy",
       "published_at": "Mon, 6 Jul 2026 15:00:00 GMT",
       "source": "fed_remarks",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
       "_translation_hash": "366cfae5bbe7173ddebd5f02b00179a2d25e76432f50efd1a9c5c0fd87df49d1",
       "translations": {
         "ja": {
@@ -1096,6 +1224,10 @@
       "summary": "Total construction activity for May 2026 ($2,210.2 billion) was 0.1 percent (+/-0.7 percent)* above the revised April 2026 ($2,207.1 billion). May 2026: +0.1* % Change April 2026 (r): +0.3* % Change",
       "published_at": "Wed, 01 Jul 2026 10:00:00 -0400",
       "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "ba2b426cca71bd61b03cf009fc5d8e33121fd5efd2785345d7367b497526ca9f",
       "translations": {
         "zh-CN": {
@@ -1130,6 +1262,10 @@
       "summary": "The advance international trade deficit in goods increased to $105.8 billion in May from $83.0 billion in April as exports decreased and imports increased. May 2026: 27.4° % Change April 2026: -2.5° % Change",
       "published_at": "Fri, 26 Jun 2026 08:30:00 -0400",
       "source": "census",
+      "category": "trade",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "trade_neutral",
       "_translation_hash": "8755086213c17dd6b07bb8e2099729ceec871af20ff19c223f714ce6f9d02280",
       "translations": {
         "zh-CN": {
@@ -1164,6 +1300,10 @@
       "summary": "Speech At the State of Small Business Symposium hosted by the Federal Reserve Bank of Cleveland (via pre-recorded video)",
       "published_at": "Wed, 24 Jun 2026 18:00:00 GMT",
       "source": "fed_remarks",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
       "_translation_hash": "1a752e0402ca3bfccc4df12f3f771296d0fe171988eca50bb601202ed2a5a78f",
       "translations": {
         "zh-CN": {
@@ -1198,6 +1338,10 @@
       "summary": "Speech At the Fifth Conference on the International Roles of the Dollar, Board of Governors of the Federal Reserve System, Washington, D.C.",
       "published_at": "Mon, 22 Jun 2026 13:00:00 GMT",
       "source": "fed_remarks",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
       "_translation_hash": "9b5526dd0b68ece33cd0e66ad7016bc1eef51be6d1304103e67a64bc1446e344",
       "translations": {
         "zh-CN": {
@@ -1231,7 +1375,11 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 17 Jun 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
+      "category": "monetary_policy",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
       "_translation_hash": "290e75caada0bd9ff13e5e910adcf7e75770b6638cd0e4e72f478e4de342e680"
     },
     {
@@ -1239,7 +1387,11 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
       "published_at": "Wed, 17 Jun 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
+      "category": "monetary_policy",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
       "_translation_hash": "1a1af3cea5eec364078d94a6fb136d13d02892ad03abbb74de6098e21d26bb32"
     },
     {
@@ -1248,6 +1400,10 @@
       "summary": "U.S. selected services total revenue for the first quarter of 2026, adjusted for seasonal variation but not for price changes, was $6,223.1 billion, an increase of 1.1 percent (+/- 0.4 percent) from the fourth quarter of 2025 and up 6.5 percent (+/- 0.4 percent) from the first quarter of 2025. The fourth quarter of 2025 to first quarter of 2026 percentage change was revised from the advance estimate of 0.9 percent (+/- 0.4 percent). 1st Qtr 2026: +1.1 % Change 4th Qtr 2025 (r): +0.8 % Change",
       "published_at": "Thu, 11 Jun 2026 10:00:00 -0400",
       "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "79b6d2773102419dff83b48579837e7219b71d9ac1bbce0ca96aa4a6814b58b7"
     },
     {
@@ -1256,6 +1412,10 @@
       "summary": "",
       "published_at": "2026-06-11T08:30:00-04:00",
       "source": "bls_ppi",
+      "category": "inflation",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
       "_translation_hash": "67dd1b2f180ac51cf342cb8207e6763f85f038eb0243e344e752be36fcdaafb2"
     },
     {
@@ -1264,6 +1424,10 @@
       "summary": "",
       "published_at": "2026-06-10T08:30:00-04:00",
       "source": "bls_cpi",
+      "category": "inflation",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
       "_translation_hash": "d917f648bbf1a2e8e83bb8b39d2b15adc9637314fb0f4a894223b884a93ce823"
     },
     {
@@ -1272,6 +1436,10 @@
       "summary": "Not seasonally adjusted after-tax profits for retail corporations with assets of $50 million and over were $62.6 billion for the first quarter 2026 (the 3 months ending April 30, 2026), down $0.3 (+/- 0.1) billion from fourth quarter 2025 (the 3 months ending January 31, 2026). 1st Qtr 2026: -0.3 Billions of Dollars 4th Qtr 2025 (r): +9.5 Billions of Dollars",
       "published_at": "Mon, 08 Jun 2026 10:00:00 -0400",
       "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "ee61db96eb5c2dee68b4eeced8f9eab8b1df483649e92778230f340872611d20"
     },
     {
@@ -1280,6 +1448,10 @@
       "summary": "Speech At American University, Washington, D.C.",
       "published_at": "Sat, 6 Jun 2026 16:00:00 GMT",
       "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "823fb7975446cd576cdaa0f0a531521de74ad2e840a455dc14c6b9c7026fe7fb"
     },
     {
@@ -1288,6 +1460,10 @@
       "summary": "",
       "published_at": "2026-06-05T08:30:00-04:00",
       "source": "bls_jobs",
+      "category": "labor",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
       "_translation_hash": "d66b80ff9775cd4f6da2b00c122e3b5db0e0bd87605a5ec45086cf5966d79be3"
     },
     {
@@ -1296,6 +1472,10 @@
       "summary": "Testimony Before the Committee on Financial Services, U.S. House of Representatives, Washington, D.C.",
       "published_at": "Wed, 3 Jun 2026 20:30:00 GMT",
       "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "a403da507735cf1e0ae296e2c34e281fda019db5bc19786d95b825c171a696db"
     },
     {
@@ -1304,6 +1484,10 @@
       "summary": "",
       "published_at": "2026-06-02T10:00:00-04:00",
       "source": "bls_jolts",
+      "category": "labor",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
       "_translation_hash": "20c37231c35bc7e3940be60567449c01417d74bd5e9d44060deda52ce576aaf2"
     },
     {
@@ -1312,6 +1496,10 @@
       "summary": "Speech For the 2026 John F. Kennedy Profile in Courage Award, John F. Kennedy Library Foundation, Boston, Massachusetts",
       "published_at": "Mon, 1 Jun 2026 00:30:00 GMT",
       "source": "fed_remarks",
+      "category": "geopolitics",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "geopolitics_bullish",
       "_translation_hash": "e7d1981efc8b79d1f8cff9584b7280fe21caeef53a618739fd4a01b1d5392c0c"
     },
     {
@@ -1320,6 +1508,10 @@
       "summary": "Speech At the Reykjavík Economic Conference 2026, Central Bank of Iceland, Reykjavík, Iceland",
       "published_at": "Fri, 29 May 2026 13:10:00 GMT",
       "source": "fed_remarks",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
       "_translation_hash": "0e38c9ef350694511a63a5b5603042def2fa86614aa940111b2b454f52cb7841"
     },
     {
@@ -1328,6 +1520,10 @@
       "summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
       "published_at": "Tue, 26 May 2026 18:00:00 GMT",
       "source": "fed_policy",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "953ce2f85e7e22e5145ee5f0a369f0a64e872032ed2097c7bb516b88df8bfea8"
     },
     {
@@ -1336,6 +1532,10 @@
       "summary": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
       "published_at": "Wed, 20 May 2026 18:00:00 GMT",
       "source": "fed_policy",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "ac291f216ef11ec1f9ecada800c0419de25074e2812ac17517e3fe4c2b7d40b3"
     },
     {
@@ -1344,6 +1544,10 @@
       "summary": "",
       "published_at": "2026-05-13T08:30:00-04:00",
       "source": "bls_ppi",
+      "category": "inflation",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
       "_translation_hash": "9b4c41c13c668f7c899e780108dc4e21bd7b3a718a25b19c3e5c7421749be384"
     },
     {
@@ -1352,6 +1556,10 @@
       "summary": "",
       "published_at": "2026-05-12T08:30:00-04:00",
       "source": "bls_cpi",
+      "category": "inflation",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
       "_translation_hash": "a3d376f436657a3e6c36ff8f2cf3c2dca7cf359b6a0c0fbbee4630f2002d057e"
     },
     {
@@ -1360,6 +1568,10 @@
       "summary": "",
       "published_at": "2026-05-08T08:30:00-04:00",
       "source": "bls_jobs",
+      "category": "labor",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
       "_translation_hash": "86c178771ce88ece70aa6f1b96b769a3732f03806aff9e1a6458b47a05762e68"
     },
     {
@@ -1368,6 +1580,10 @@
       "summary": "",
       "published_at": "2026-05-05T10:00:00-04:00",
       "source": "bls_jolts",
+      "category": "labor",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
       "_translation_hash": "1cf6bdb4bb971357be9f90acc87e66f55be11e59371c9663e862bba7c00fcb1b"
     },
     {
@@ -1376,6 +1592,10 @@
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Apr 2026 18:00:00 GMT",
       "source": "fed_policy",
+      "category": "monetary_policy",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
       "_translation_hash": "290e75caada0bd9ff13e5e910adcf7e75770b6638cd0e4e72f478e4de342e680"
     },
     {
@@ -1384,6 +1604,10 @@
       "summary": "The rental vacancy rate of 7.3 percent was not statistically different from the rate in the first quarter 2025. Compared to the first quarter 2025, rental vacancy rate was higher in the Northeast and South, lower in the Midwest, and not statistically different in the West.. 1st Qtr 2026: +0.2* Percentage Points 1st Qtr 2025: +0.5 Percentage Points",
       "published_at": "Tue, 28 Apr 2026 10:00:00 -0400",
       "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "0ef31e87957175fe329b5478646bc9c24afa822cfc896fee2303730dd9b91d7d"
     },
     {
@@ -1392,6 +1616,10 @@
       "summary": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026",
       "published_at": "Tue, 14 Apr 2026 18:00:00 GMT",
       "source": "fed_policy",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "0f7b85d5c40d1900508eeccd2cc0e99e773f106dc14f13c1768c5a4f36509498"
     },
     {
@@ -1400,6 +1628,10 @@
       "summary": "",
       "published_at": "2026-04-14T08:30:00-04:00",
       "source": "bls_ppi",
+      "category": "inflation",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
       "_translation_hash": "be2b9f220e69a817f008c06cc75b9f1c0110eaa74cf8be8eed43b43253c07b27"
     },
     {
@@ -1408,6 +1640,10 @@
       "summary": "",
       "published_at": "2026-04-10T08:30:00-04:00",
       "source": "bls_cpi",
+      "category": "inflation",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
       "_translation_hash": "fc4f5f95b252fcdfbe5bf99014f8e166acae76a60954c923faaa06e3ba82ad29"
     },
     {
@@ -1416,6 +1652,10 @@
       "summary": "Minutes of the Federal Open Market Committee, March 17–18, 2026",
       "published_at": "Wed, 8 Apr 2026 18:00:00 GMT",
       "source": "fed_policy",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "efb617292e669e49e8313fdad791dfc871482bec6092eb3b8e4444ae64167806"
     },
     {
@@ -1424,6 +1664,10 @@
       "summary": "",
       "published_at": "2026-04-03T08:30:00-04:00",
       "source": "bls_jobs",
+      "category": "labor",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
       "_translation_hash": "96956f8e200b64dc19908bb07b6fae2652aaf4f12c4b2bb79d9c59d650b27655"
     },
     {
@@ -1432,6 +1676,10 @@
       "summary": "",
       "published_at": "2026-03-31T10:00:00-04:00",
       "source": "bls_jolts",
+      "category": "labor",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
       "_translation_hash": "88e3029408c4ea73119f84b0e20950ec10363e6520e3602791cd7cf9abd42b82"
     },
     {
@@ -1440,6 +1688,10 @@
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 18 Mar 2026 18:00:00 GMT",
       "source": "fed_policy",
+      "category": "monetary_policy",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
       "_translation_hash": "290e75caada0bd9ff13e5e910adcf7e75770b6638cd0e4e72f478e4de342e680"
     },
     {
@@ -1448,6 +1700,10 @@
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the March 17-18 FOMC meeting",
       "published_at": "Wed, 18 Mar 2026 18:00:00 GMT",
       "source": "fed_policy",
+      "category": "monetary_policy",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
       "_translation_hash": "69c11b2b4de33e47960bfe18ca1a1508bb803dc49af20ade9344d7f426dccca8"
     },
     {
@@ -1456,6 +1712,10 @@
       "summary": "",
       "published_at": "2026-03-18T08:30:00-04:00",
       "source": "bls_ppi",
+      "category": "inflation",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
       "_translation_hash": "610aa9ae7a3b0a617060bf24d0c0f635bf82e71eb1ee82231fdf33e5d2b2faaf"
     },
     {
@@ -1464,6 +1724,10 @@
       "summary": "",
       "published_at": "2026-03-13T10:00:00-04:00",
       "source": "bls_jolts",
+      "category": "labor",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
       "_translation_hash": "94b2a641180c40d438efa6c40ca3e0f3c1d02fc48e12eee214f2f286ed751944"
     },
     {
@@ -1472,6 +1736,10 @@
       "summary": "",
       "published_at": "2026-03-11T08:30:00-04:00",
       "source": "bls_cpi",
+      "category": "inflation",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
       "_translation_hash": "8f1e1182b3d08aa1012b8b655745e5924e791695fc5f219142f3a7373ec55542"
     },
     {
@@ -1480,6 +1748,10 @@
       "summary": "",
       "published_at": "2026-03-06T08:30:00-05:00",
       "source": "bls_jobs",
+      "category": "labor",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
       "_translation_hash": "910d229d9607f40c74bca368ee1d574d4146d87c3b06f1641f9b8e9d612b9770"
     },
     {
@@ -1488,6 +1760,10 @@
       "summary": "",
       "published_at": "2026-02-27T08:30:00-05:00",
       "source": "bls_ppi",
+      "category": "inflation",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
       "_translation_hash": "186674e2f10431d69027b6f118f0bbb11e976b860c3cf5b740f03086a8b5ef56"
     },
     {
@@ -1496,6 +1772,10 @@
       "summary": "Minutes of the Board's discount rate meetings on January 20 and 28, 2026",
       "published_at": "Tue, 24 Feb 2026 19:00:00 GMT",
       "source": "fed_policy",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "e89d8ef97a2ffdebc38f974f461ebf6da6e2b381a1d2ff81ad33040d7692e588"
     },
     {
@@ -1504,6 +1784,10 @@
       "summary": "Minutes of the Federal Open Market Committee, January 27–28, 2026",
       "published_at": "Wed, 18 Feb 2026 19:00:00 GMT",
       "source": "fed_policy",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
       "_translation_hash": "9f0d9e068b89f6499111374dceb002af57bd5fd78e31ed7ba1c150f230178848"
     },
     {
@@ -1512,6 +1796,10 @@
       "summary": "Treasury Accepting Whistleblower Tips on Fraud, Money Laundering, Sanctions Violations",
       "published_at": "2026-02-13T14:52:38Z",
       "source": "treasury",
+      "category": "geopolitics",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "geopolitics_bullish",
       "_translation_hash": "5b58aa8be0d2e729eb114f76f120957ae948308aef7244707d047ddac1417325"
     },
     {
@@ -1520,6 +1808,10 @@
       "summary": "",
       "published_at": "2026-02-13T08:30:00-05:00",
       "source": "bls_cpi",
+      "category": "inflation",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
       "_translation_hash": "84fe30b3d18d5587329f19208308b5bfae04cb1e0a11fc12f96680ad33e3b0a5"
     },
     {
@@ -1528,6 +1820,10 @@
       "summary": "",
       "published_at": "2026-02-11T08:30:00-05:00",
       "source": "bls_jobs",
+      "category": "labor",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
       "_translation_hash": "c49f635af81d3dcac434e796ab011efd49a23ac5b31bc3a390946a50c632e895"
     },
     {
@@ -1536,6 +1832,10 @@
       "summary": "",
       "published_at": "2026-02-05T10:00:00-05:00",
       "source": "bls_jolts",
+      "category": "labor",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
       "_translation_hash": "e828c191f58e2b1caaa143ad6009f281cd1deb7d28c7d5429793cda552d4f63b"
     },
     {
@@ -1544,6 +1844,10 @@
       "summary": "",
       "published_at": "2026-01-30T08:30:00-05:00",
       "source": "bls_ppi",
+      "category": "inflation",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
       "_translation_hash": "63d8b506d315ba3e4560544a9b60766982b6b421608f7d27e444c26cd9db126c"
     },
     {
@@ -1552,6 +1856,10 @@
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 28 Jan 2026 19:00:00 GMT",
       "source": "fed_policy",
+      "category": "monetary_policy",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
       "_translation_hash": "290e75caada0bd9ff13e5e910adcf7e75770b6638cd0e4e72f478e4de342e680"
     },
     {
@@ -1560,6 +1868,10 @@
       "summary": "",
       "published_at": "2026-01-14T08:30:00-05:00",
       "source": "bls_ppi",
+      "category": "inflation",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
       "_translation_hash": "690c98f9bb74cebb41bfb0324947380de6ad560c826927d9e3bc12c373518155"
     },
     {
@@ -1568,6 +1880,10 @@
       "summary": "",
       "published_at": "2026-01-13T08:30:00-05:00",
       "source": "bls_cpi",
+      "category": "inflation",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
       "_translation_hash": "73bda2ca782b16cd80357da42f35608e224ee3c0499888fae3e0c51804e6e281"
     },
     {
@@ -1576,6 +1892,10 @@
       "summary": "",
       "published_at": "2026-01-09T08:30:00-05:00",
       "source": "bls_jobs",
+      "category": "labor",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
       "_translation_hash": "9b48fbf047f30f6f279873c58b8a7464563f431ae74d4d223455487a1521272a"
     }
   ]
