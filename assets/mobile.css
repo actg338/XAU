@@ -82,18 +82,23 @@ svg {
     display: inline-flex !important;
   }
 
-  .nav-inner > .language-switcher--nav {
+  .language-switcher:not(.language-switcher--nav) {
+    display: none !important;
+  }
+
+  .nav-links > .language-switcher--nav {
     position: static !important;
-    flex: 0 1 auto;
+    display: inline-flex !important;
+    flex: 0 0 auto;
     width: auto;
-    max-width: 112px;
-    margin-left: auto;
-    padding: 6px 7px;
+    max-width: 116px;
+    margin: 0;
+    padding: 5px 9px;
     transform: none;
     z-index: 22;
   }
 
-  .nav-inner > .language-switcher--nav select {
+  .nav-links > .language-switcher--nav select {
     display: block;
     width: 94px;
     max-width: 100%;
@@ -137,12 +142,12 @@ svg {
     height: 34px !important;
   }
 
-  .nav-inner > .language-switcher--nav {
-    max-width: 96px;
+  .nav-links > .language-switcher--nav {
+    max-width: 104px;
   }
 
-  .nav-inner > .language-switcher--nav select {
-    width: 78px;
+  .nav-links > .language-switcher--nav select {
+    width: 84px;
   }
 }
 
@@ -159,10 +164,6 @@ svg {
   .brand-mark,
   .mark {
     font-size: 13px !important;
-  }
-
-  .nav-inner > .language-switcher--nav {
-    max-width: 92px;
   }
 
   .nav-links {
