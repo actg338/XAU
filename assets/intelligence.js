@@ -153,18 +153,15 @@
   }
 
   async function render() {
-    const anchor = document.getElementById('features');
-    if (!anchor) return;
+    const section = document.getElementById('intelligence-home');
+    if (!section) return;
     try {
       const [brief, events] = await Promise.all([fetchJson('brief.json'), fetchJson('events.json')]);
-      const section = document.createElement('section');
-      section.className = 'intel-shell';
       section.innerHTML = `<div class="intel-kicker">INTELLIGENCE</div><h2 class="intel-title">${escapeHtml(copy.title)}</h2>
         <div class="intel-grid"><div class="intel-card">${briefMarkup(brief)}</div>
         <div class="intel-card"><div class="intel-kicker">CALENDAR</div><h3>${escapeHtml(copy.events)}</h3>
         <div class="event-list">${eventsMarkup(events)}</div></div></div>
         <a class="intel-open" href="${escapeHtml(newsUrl())}">${escapeHtml(copy.open)} →</a>`;
-      anchor.parentNode.insertBefore(section, anchor);
       setInterval(() => document.querySelectorAll('[data-event-time]').forEach(element => {
         element.textContent = countdown(element.dataset.eventTime);
       }), 60000);

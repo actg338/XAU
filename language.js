@@ -87,12 +87,12 @@
   if (!document.querySelector('link[href^="/assets/intelligence.css"]')) {
     const stylesheet = document.createElement('link');
     stylesheet.rel = 'stylesheet';
-    stylesheet.href = '/assets/intelligence.css?v=20260728-4';
+    stylesheet.href = '/assets/intelligence.css?v=20260728-5';
     document.head.appendChild(stylesheet);
   }
   if (!document.querySelector('script[src^="/assets/intelligence.js"]')) {
     const script = document.createElement('script');
-    script.src = '/assets/intelligence.js?v=20260728-4';
+    script.src = '/assets/intelligence.js?v=20260728-5';
     script.defer = true;
     document.head.appendChild(script);
   }
