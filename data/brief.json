@@ -1,17 +1,15 @@
 {
-  "generated_at": "2026-07-28T09:16:12.462066+00:00",
+  "generated_at": "2026-07-28T09:24:21.877952+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
-  "confidence": 88,
-  "score": -48,
+  "confidence": 92,
+  "score": -50,
   "drivers": [
     "warsh",
     "fedwatch",
     "xau"
   ],
-  "counter_risks": [
-    "dxy"
-  ],
+  "counter_risks": [],
   "top_news": [
     {
       "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
