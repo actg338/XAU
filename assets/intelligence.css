@@ -20,6 +20,11 @@
   background: linear-gradient(145deg, rgba(217, 172, 85, .1), rgba(255, 255, 255, .025));
 }
 
+.intel-loading {
+  color: var(--muted, #9ba4b5);
+  font-size: 13px;
+}
+
 .intel-kicker {
   color: #d9ac55;
   font-size: 11px;
