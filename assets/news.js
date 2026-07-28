@@ -9,7 +9,7 @@
   if (!document.querySelector('link[href^="/assets/intelligence.css"]')) {
     const stylesheet = document.createElement('link');
     stylesheet.rel = 'stylesheet';
-    stylesheet.href = '/assets/intelligence.css?v=20260728-2';
+    stylesheet.href = '/assets/intelligence.css?v=20260728-3';
     document.head.appendChild(stylesheet);
   }
 
@@ -82,6 +82,15 @@
     ko: { high: '높은 영향', medium: '중간 영향', low: '낮은 영향', monetary_policy: '통화정책', inflation: '인플레이션', labor: '고용', growth: '성장', trade: '무역', geopolitics: '지정학', other: '기타' },
     de: { high: 'Hohe Wirkung', medium: 'Mittlere Wirkung', low: 'Geringe Wirkung', monetary_policy: 'Geldpolitik', inflation: 'Inflation', labor: 'Arbeitsmarkt', growth: 'Wachstum', trade: 'Handel', geopolitics: 'Geopolitik', other: 'Sonstiges' },
     fr: { high: 'Impact élevé', medium: 'Impact moyen', low: 'Impact faible', monetary_policy: 'Politique monétaire', inflation: 'Inflation', labor: 'Emploi', growth: 'Croissance', trade: 'Commerce', geopolitics: 'Géopolitique', other: 'Autre' }
+  };
+  const BRIEF_LABELS = {
+    'zh-CN': { support: '主要驱动', counter: '反向因素', score: '综合评分', warsh: '沃什立场', fedwatch: '利率路径', xau: '黄金动量', dxy: '美元指数' },
+    'zh-TW': { support: '主要驅動', counter: '反向因素', score: '綜合評分', warsh: '沃什立場', fedwatch: '利率路徑', xau: '黃金動量', dxy: '美元指數' },
+    en: { support: 'Key drivers', counter: 'Counter factors', score: 'Composite score', warsh: 'Warsh stance', fedwatch: 'Rate path', xau: 'Gold momentum', dxy: 'Dollar index' },
+    ja: { support: '主な要因', counter: '反対要因', score: '総合スコア', warsh: 'ウォーシュ姿勢', fedwatch: '金利経路', xau: '金モメンタム', dxy: 'ドル指数' },
+    ko: { support: '주요 동인', counter: '반대 요인', score: '종합 점수', warsh: '워시 입장', fedwatch: '금리 경로', xau: '금 모멘텀', dxy: '달러 지수' },
+    de: { support: 'Haupttreiber', counter: 'Gegenfaktoren', score: 'Gesamtwert', warsh: 'Warsh-Position', fedwatch: 'Zinspfad', xau: 'Goldmomentum', dxy: 'Dollarindex' },
+    fr: { support: 'Facteurs moteurs', counter: 'Facteurs contraires', score: 'Score global', warsh: 'Position de Warsh', fedwatch: 'Trajectoire des taux', xau: 'Momentum de l’or', dxy: 'Indice dollar' }
   };
 
   // 沃什立场分析器(本地 fallback,无服务器依赖)
@@ -484,10 +493,28 @@
     const target = $('brief-card');
     if (!target || !brief) return;
     const ui = INTEL_UI[TRANSLATION_LANGUAGE] || INTEL_UI.en;
-    target.innerHTML = `<div class="intel-kicker">EXPLAINABLE SIGNAL</div>
-      <div class="intel-score">${Number(brief.score || 0) > 0 ? '+' : ''}${Number(brief.score || 0)}</div>
-      <div class="intel-meta">${ui.confidence} ${Number(brief.confidence || 0)}%</div>
-      <div class="intel-tags">${(brief.drivers || []).map(item => `<span class="intel-tag ${escapeHtml(brief.direction)}">${escapeHtml(String(item).toUpperCase())}</span>`).join('')}</div>`;
+    const labels = BRIEF_LABELS[TRANSLATION_LANGUAGE] || BRIEF_LABELS.en;
+    const signals = SIGNAL_LABELS[TRANSLATION_LANGUAGE] || SIGNAL_LABELS.en;
+    const score = Number(brief.score || 0);
+    const confidence = Math.max(0, Math.min(100, Number(brief.confidence || 0)));
+    const opposite = brief.direction === 'bullish' ? 'bearish' : 'bullish';
+    const chips = (items, direction) => (items || []).map(item =>
+      `<span class="brief-chip ${escapeHtml(direction)}">${escapeHtml(labels[item] || String(item).toUpperCase())}</span>`
+    ).join('');
+    const evidence = [
+      { title: labels.support, items: brief.drivers, direction: brief.direction },
+      { title: labels.counter, items: brief.counter_risks, direction: opposite }
+    ].filter(group => Array.isArray(group.items) && group.items.length);
+    target.innerHTML = `<div class="brief-top">
+        <div><div class="intel-kicker">${escapeHtml(labels.score)}</div>
+        <div class="brief-direction">${escapeHtml(signals[brief.label_key] || ui.neutral)}</div></div>
+        <div class="intel-score">${score > 0 ? '+' : ''}${score}</div>
+      </div>
+      <div class="confidence-head"><span>${ui.confidence}</span><strong>${confidence}%</strong></div>
+      <div class="confidence-track"><span style="width:${confidence}%"></span></div>
+      <div class="brief-evidence ${evidence.length === 1 ? 'single' : ''}">${evidence.map(group =>
+        `<div><span class="evidence-label">${escapeHtml(group.title)}</span><div class="brief-chips">${chips(group.items, group.direction)}</div></div>`
+      ).join('')}</div>`;
   }
 
   function eventCountdown(iso) {
@@ -509,10 +536,11 @@
     if (!target) return;
     const ui = INTEL_UI[TRANSLATION_LANGUAGE] || INTEL_UI.en;
     const events = data?.events || [];
-    target.innerHTML = events.length ? events.slice(0, 5).map(item => `<div class="event-row">
-      <span class="intel-tag impact-${escapeHtml(item.impact)}">${escapeHtml(item.source)}</span>
-      <div><strong>${escapeHtml((EVENT_LABELS[TRANSLATION_LANGUAGE] || EVENT_LABELS.en)[item.event_key] || item.title)}</strong><div class="intel-muted">${escapeHtml(formatTime(item.starts_at))}</div></div>
-      <span class="event-countdown" data-event-time="${escapeHtml(item.starts_at)}">${eventCountdown(item.starts_at)}</span>
+    target.innerHTML = events.length ? events.slice(0, 3).map(item => `<div class="event-row">
+      <div class="event-meta"><span class="event-source">${escapeHtml(item.event_key === 'fomc' ? 'FOMC' : item.source)}</span>
+      <span class="event-countdown" data-event-time="${escapeHtml(item.starts_at)}">${eventCountdown(item.starts_at)}</span></div>
+      <strong>${escapeHtml((EVENT_LABELS[TRANSLATION_LANGUAGE] || EVENT_LABELS.en)[item.event_key] || item.title)}</strong>
+      <time class="intel-muted">${escapeHtml(formatTime(item.starts_at))}</time>
     </div>`).join('') : `<div class="intel-muted">${ui.noEvents}</div>`;
   }
 
