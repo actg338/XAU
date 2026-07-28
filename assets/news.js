@@ -9,7 +9,7 @@
   if (!document.querySelector('link[href^="/assets/intelligence.css"]')) {
     const stylesheet = document.createElement('link');
     stylesheet.rel = 'stylesheet';
-    stylesheet.href = '/assets/intelligence.css?v=20260728-1';
+    stylesheet.href = '/assets/intelligence.css?v=20260728-2';
     document.head.appendChild(stylesheet);
   }
 
@@ -459,6 +459,7 @@
     if (!main || !newsList) return;
     const dashboard = document.createElement('section');
     dashboard.id = 'intelligence-dashboard';
+    dashboard.className = 'intel-shell';
     dashboard.innerHTML = `<div class="section-head"><div><span class="eyebrow">INTELLIGENCE</span><h2>${ui.brief}</h2></div></div>
       <div class="intel-grid"><div class="intel-card" id="brief-card">—</div><div class="intel-card"><div class="intel-kicker">CALENDAR</div><h3>${ui.events}</h3><div class="event-list" id="event-list">—</div></div></div>`;
     const firstSection = main.querySelector('section');

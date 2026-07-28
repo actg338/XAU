@@ -87,7 +87,7 @@
   if (!document.querySelector('link[href^="/assets/intelligence.css"]')) {
     const stylesheet = document.createElement('link');
     stylesheet.rel = 'stylesheet';
-    stylesheet.href = '/assets/intelligence.css?v=20260728-1';
+    stylesheet.href = '/assets/intelligence.css?v=20260728-2';
     document.head.appendChild(stylesheet);
   }
   if (!document.querySelector('script[src^="/assets/intelligence.js"]')) {
