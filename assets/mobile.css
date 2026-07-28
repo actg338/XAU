@@ -11,10 +11,14 @@ svg {
 }
 
 .mobile-menu-toggle {
-  display: none;
+  display: none !important;
 }
 
 @media (max-width: 880px) {
+  .nav {
+    overflow: visible;
+  }
+
   .nav-inner {
     position: relative;
     height: 64px !important;
@@ -25,73 +29,80 @@ svg {
     overflow: visible;
   }
 
+  .brand {
+    min-width: 0;
+    flex: 0 1 auto;
+    white-space: nowrap;
+  }
+
   .nav-links {
     position: absolute;
-    top: calc(100% + 8px);
-    right: 0;
-    display: none !important;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    width: min(360px, calc(100vw - 24px));
+    top: 64px;
+    left: 50%;
+    display: flex !important;
+    width: 100vw;
+    max-width: none;
+    padding: 8px 12px;
     gap: 8px !important;
-    padding: 12px;
-    overflow: visible;
-    border: 1px solid rgba(255, 255, 255, .13);
-    border-radius: 16px;
-    background: rgba(8, 11, 16, .98);
-    box-shadow: 0 18px 44px rgba(0, 0, 0, .42);
-    backdrop-filter: blur(18px);
+    overflow-x: auto;
+    overflow-y: hidden;
+    transform: translateX(-50%);
+    border-top: 1px solid rgba(255, 255, 255, .08);
+    border-bottom: 1px solid rgba(255, 255, 255, .12);
+    background: rgba(8, 11, 16, .97);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .28);
+    scrollbar-width: none;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
     z-index: 20;
   }
 
-  .nav-inner.is-menu-open .nav-links {
-    display: grid !important;
+  .nav-links::-webkit-scrollbar {
+    display: none;
   }
 
   .nav-links > a,
   .nav-links > button {
     display: inline-flex !important;
-    width: 100%;
-    min-width: 0;
-    min-height: 44px !important;
-    padding: 5px 8px !important;
+    flex: 0 0 auto;
+    width: auto !important;
+    min-width: max-content;
+    min-height: 40px !important;
+    padding: 5px 14px !important;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    white-space: normal;
-    line-height: 1.25;
     order: initial !important;
-  }
-
-  .mobile-menu-toggle {
-    display: inline-flex;
-    flex: 0 0 44px;
-    width: 44px;
-    height: 44px;
-    margin-left: 0;
-    padding: 0;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(255, 255, 255, .16);
-    border-radius: 12px;
-    color: #f5f1e8;
-    background: rgba(255, 255, 255, .06);
-    cursor: pointer;
-    position: relative;
-    z-index: 22;
-  }
-
-  .mobile-menu-icon {
-    display: block;
-    font-size: 22px;
-    line-height: 1;
-  }
-
-  .nav-inner.is-menu-open .mobile-menu-icon {
-    font-size: 28px;
+    border-radius: 11px;
+    white-space: nowrap;
+    font-size: 12px !important;
+    line-height: 1.2;
   }
 
   .nav-links .nav-cta {
     display: inline-flex !important;
+  }
+
+  .nav-inner > .language-switcher--nav {
+    position: static !important;
+    flex: 0 1 auto;
+    width: auto;
+    max-width: 112px;
+    margin-left: auto;
+    padding: 6px 7px;
+    transform: none;
+    z-index: 22;
+  }
+
+  .nav-inner > .language-switcher--nav select {
+    display: block;
+    width: 94px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .hero {
+    padding-top: 108px !important;
   }
 
   .top-links {
@@ -109,25 +120,6 @@ svg {
     flex: 0 0 auto;
     min-height: 44px;
   }
-
-  .nav-inner > .language-switcher--nav {
-    position: static !important;
-    flex: 0 1 auto;
-    width: auto;
-    max-width: 104px;
-    margin-left: auto;
-    padding: 6px 7px;
-    transform: none;
-    z-index: 22;
-  }
-
-  .nav-inner > .language-switcher--nav select {
-    display: block;
-    width: 88px;
-    max-width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
 }
 
 @media (max-width: 420px) {
@@ -136,7 +128,6 @@ svg {
   }
 
   .brand {
-    min-width: 0;
     font-size: 13px !important;
   }
 
@@ -147,11 +138,11 @@ svg {
   }
 
   .nav-inner > .language-switcher--nav {
-    max-width: 92px;
+    max-width: 96px;
   }
 
   .nav-inner > .language-switcher--nav select {
-    width: 76px;
+    width: 78px;
   }
 }
 
@@ -160,17 +151,8 @@ svg {
     width: min(100% - 16px, 1160px) !important;
   }
 
-  .nav-links > a,
-  .nav-links > button {
-    padding-inline: 10px !important;
-    font-size: 12px !important;
-  }
-
-  .nav-links {
-    width: calc(100vw - 16px);
-  }
-
   .brand {
+    gap: 0;
     font-size: 0 !important;
   }
 
@@ -180,6 +162,10 @@ svg {
   }
 
   .nav-inner > .language-switcher--nav {
-    max-width: 86px;
+    max-width: 92px;
+  }
+
+  .nav-links {
+    padding-inline: 8px;
   }
 }
