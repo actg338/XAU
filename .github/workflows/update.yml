@@ -52,6 +52,12 @@ jobs:
       - name: Generate aggregated signal
         run: python scripts/build_signal.py
 
+      - name: Build economic event radar
+        run: python scripts/build_events.py
+
+      - name: Build intelligent market brief
+        run: python scripts/build_brief.py
+
       - name: Validate JSON files
         run: |
           set -euo pipefail

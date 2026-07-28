@@ -6,6 +6,13 @@
 (function () {
   'use strict';
 
+  if (!document.querySelector('link[href^="/assets/intelligence.css"]')) {
+    const stylesheet = document.createElement('link');
+    stylesheet.rel = 'stylesheet';
+    stylesheet.href = '/assets/intelligence.css?v=20260728-1';
+    document.head.appendChild(stylesheet);
+  }
+
   const DATA_BASE = '/data';
   const REFRESH_INTERVAL = 5 * 60 * 1000; // 5 分钟
   const COUNTDOWN_INTERVAL = 1000;
@@ -38,6 +45,43 @@
     ko: { empty: '데이터 없음', waiting: '워시 의장의 최신 공개 발언을 기다리는 중…', summary: '최근 발언의 키워드 가중치 분석', fed: '연방준비제도', labels: ['강한 매파', '매파', '중립', '비둘기파', '강한 비둘기파'] },
     de: { empty: 'Keine Daten', waiting: 'Warte auf Warshs jüngste öffentliche Äußerung…', summary: 'Schlüsselwortanalyse der jüngsten Äußerung', fed: 'Federal Reserve', labels: ['Stark restriktiv', 'Restriktiv', 'Neutral', 'Expansiv', 'Stark expansiv'] },
     fr: { empty: 'Aucune donnée', waiting: 'En attente de la dernière déclaration publique de Warsh…', summary: 'Analyse pondérée des mots-clés de la dernière déclaration', fed: 'Réserve fédérale', labels: ['Très restrictif', 'Restrictif', 'Neutre', 'Accommodant', 'Très accommodant'] }
+  };
+  const INTEL_UI = {
+    'zh-CN': { brief: '黄金市场智能简报', confidence: '置信度', events: '经济事件雷达', all: '全部', high: '高影响', bullish: '利多黄金', bearish: '利空黄金', more: '加载更多', next: '距离发布', factors: '信号贡献', neutral: '中性', noEvents: '暂无未来事件' },
+    'zh-TW': { brief: '黃金市場智能簡報', confidence: '信心度', events: '經濟事件雷達', all: '全部', high: '高影響', bullish: '利多黃金', bearish: '利空黃金', more: '載入更多', next: '距離發布', factors: '訊號貢獻', neutral: '中性', noEvents: '暫無未來事件' },
+    en: { brief: 'Gold Market Intelligence Brief', confidence: 'Confidence', events: 'Economic Event Radar', all: 'All', high: 'High impact', bullish: 'Gold bullish', bearish: 'Gold bearish', more: 'Load more', next: 'Time to release', factors: 'Signal contribution', neutral: 'Neutral', noEvents: 'No upcoming events' },
+    ja: { brief: '金市場インテリジェンス', confidence: '信頼度', events: '経済イベントレーダー', all: 'すべて', high: '高影響', bullish: '金に強気', bearish: '金に弱気', more: 'さらに表示', next: '発表まで', factors: 'シグナル寄与', neutral: '中立', noEvents: '予定なし' },
+    ko: { brief: '금 시장 인텔리전스 브리핑', confidence: '신뢰도', events: '경제 이벤트 레이더', all: '전체', high: '높은 영향', bullish: '금 강세', bearish: '금 약세', more: '더 보기', next: '발표까지', factors: '신호 기여도', neutral: '중립', noEvents: '예정된 이벤트 없음' },
+    de: { brief: 'Goldmarkt-Intelligence', confidence: 'Konfidenz', events: 'Wirtschaftstermin-Radar', all: 'Alle', high: 'Hohe Wirkung', bullish: 'Gold positiv', bearish: 'Gold negativ', more: 'Mehr laden', next: 'Bis zur Veröffentlichung', factors: 'Signalbeitrag', neutral: 'Neutral', noEvents: 'Keine Termine' },
+    fr: { brief: 'Brief intelligent du marché de l’or', confidence: 'Confiance', events: 'Radar des événements économiques', all: 'Tous', high: 'Impact élevé', bullish: 'Haussier or', bearish: 'Baissier or', more: 'Afficher plus', next: 'Avant publication', factors: 'Contribution au signal', neutral: 'Neutre', noEvents: 'Aucun événement à venir' }
+  };
+  let newsState = { items: [], filter: 'all', limit: 12 };
+  const SIGNAL_LABELS = {
+    'zh-CN': { strong_bullish: '强势偏多', mild_bullish: '震荡偏多', balanced: '多空均衡', mild_bearish: '震荡偏空', strong_bearish: '强势偏空' },
+    'zh-TW': { strong_bullish: '強勢偏多', mild_bullish: '震盪偏多', balanced: '多空均衡', mild_bearish: '震盪偏空', strong_bearish: '強勢偏空' },
+    en: { strong_bullish: 'Strong bullish', mild_bullish: 'Mild bullish', balanced: 'Balanced', mild_bearish: 'Mild bearish', strong_bearish: 'Strong bearish' },
+    ja: { strong_bullish: '強い強気', mild_bullish: 'やや強気', balanced: '均衡', mild_bearish: 'やや弱気', strong_bearish: '強い弱気' },
+    ko: { strong_bullish: '강한 강세', mild_bullish: '완만한 강세', balanced: '균형', mild_bearish: '완만한 약세', strong_bearish: '강한 약세' },
+    de: { strong_bullish: 'Stark positiv', mild_bullish: 'Leicht positiv', balanced: 'Ausgeglichen', mild_bearish: 'Leicht negativ', strong_bearish: 'Stark negativ' },
+    fr: { strong_bullish: 'Fortement haussier', mild_bullish: 'Modérément haussier', balanced: 'Équilibré', mild_bearish: 'Modérément baissier', strong_bearish: 'Fortement baissier' }
+  };
+  const EVENT_LABELS = {
+    'zh-CN': { fomc: 'FOMC 利率决议', cpi: '美国消费者物价指数 CPI', nfp: '美国非农就业报告', ppi: '美国生产者物价指数 PPI', jolts: '美国 JOLTS 职位空缺', eci: '美国就业成本指数' },
+    'zh-TW': { fomc: 'FOMC 利率決議', cpi: '美國消費者物價指數 CPI', nfp: '美國非農就業報告', ppi: '美國生產者物價指數 PPI', jolts: '美國 JOLTS 職位空缺', eci: '美國就業成本指數' },
+    en: { fomc: 'FOMC Rate Decision', cpi: 'U.S. Consumer Price Index', nfp: 'U.S. Employment Report', ppi: 'U.S. Producer Price Index', jolts: 'U.S. JOLTS Job Openings', eci: 'U.S. Employment Cost Index' },
+    ja: { fomc: 'FOMC 金利決定', cpi: '米国 CPI', nfp: '米国雇用統計', ppi: '米国 PPI', jolts: '米国 JOLTS 求人', eci: '米国雇用コスト指数' },
+    ko: { fomc: 'FOMC 금리 결정', cpi: '미국 CPI', nfp: '미국 고용보고서', ppi: '미국 PPI', jolts: '미국 JOLTS 구인', eci: '미국 고용비용지수' },
+    de: { fomc: 'FOMC-Zinsentscheid', cpi: 'US-Verbraucherpreisindex', nfp: 'US-Arbeitsmarktbericht', ppi: 'US-Erzeugerpreisindex', jolts: 'US-JOLTS-Stellenangebote', eci: 'US-Beschäftigungskostenindex' },
+    fr: { fomc: 'Décision de taux du FOMC', cpi: 'IPC américain', nfp: 'Rapport sur l’emploi américain', ppi: 'IPP américain', jolts: 'Offres d’emploi JOLTS', eci: 'Indice du coût de l’emploi' }
+  };
+  const NEWS_TAGS = {
+    'zh-CN': { high: '高影响', medium: '中影响', low: '低影响', monetary_policy: '货币政策', inflation: '通胀', labor: '就业', growth: '增长', trade: '贸易', geopolitics: '地缘政治', other: '其他' },
+    'zh-TW': { high: '高影響', medium: '中影響', low: '低影響', monetary_policy: '貨幣政策', inflation: '通膨', labor: '就業', growth: '成長', trade: '貿易', geopolitics: '地緣政治', other: '其他' },
+    en: { high: 'High impact', medium: 'Medium impact', low: 'Low impact', monetary_policy: 'Monetary policy', inflation: 'Inflation', labor: 'Labor', growth: 'Growth', trade: 'Trade', geopolitics: 'Geopolitics', other: 'Other' },
+    ja: { high: '高影響', medium: '中影響', low: '低影響', monetary_policy: '金融政策', inflation: 'インフレ', labor: '雇用', growth: '成長', trade: '貿易', geopolitics: '地政学', other: 'その他' },
+    ko: { high: '높은 영향', medium: '중간 영향', low: '낮은 영향', monetary_policy: '통화정책', inflation: '인플레이션', labor: '고용', growth: '성장', trade: '무역', geopolitics: '지정학', other: '기타' },
+    de: { high: 'Hohe Wirkung', medium: 'Mittlere Wirkung', low: 'Geringe Wirkung', monetary_policy: 'Geldpolitik', inflation: 'Inflation', labor: 'Arbeitsmarkt', growth: 'Wachstum', trade: 'Handel', geopolitics: 'Geopolitik', other: 'Sonstiges' },
+    fr: { high: 'Impact élevé', medium: 'Impact moyen', low: 'Impact faible', monetary_policy: 'Politique monétaire', inflation: 'Inflation', labor: 'Emploi', growth: 'Croissance', trade: 'Commerce', geopolitics: 'Géopolitique', other: 'Autre' }
   };
 
   // 沃什立场分析器(本地 fallback,无服务器依赖)
@@ -336,6 +380,7 @@
   }
 
   function newsMarkup(items) {
+    const tags = NEWS_TAGS[TRANSLATION_LANGUAGE] || NEWS_TAGS.en;
     return items.map((item, index) => {
       const source = String(item.source || 'unknown').toLowerCase();
       const sourceKey = ['treasury', 'census', 'white_house', 'ecb', 'fed', 'bls', 'bea']
@@ -351,13 +396,17 @@
         official: 'OFFICIAL'
       };
       return `
-        <article class="news-item" data-news-index="${index}">
+        <article class="news-item" data-news-index="${index}" data-impact="${escapeHtml(item.impact || 'low')}" data-bias="${escapeHtml(item.gold_bias || 'neutral')}">
           <div class="meta">
             <span class="source-badge ${sourceKey}">${sourceLabels[sourceKey] || source.toUpperCase()}</span>
             <span>${escapeHtml(relativeTime(item.published_at))}</span>
           </div>
           <h3><a href="${safeExternalUrl(item.link)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title || '—')}</a></h3>
           <p>${escapeHtml(item.summary || '')}</p>
+          <div class="news-intel">
+            <span class="intel-tag impact-${escapeHtml(item.impact || 'low')}">${escapeHtml(tags[item.impact] || tags.low)}</span>
+            <span class="intel-tag ${escapeHtml(item.gold_bias || 'neutral')}">${escapeHtml(tags[item.category] || tags.other)}</span>
+          </div>
         </article>
       `;
     }).join('');
@@ -382,13 +431,102 @@
       list.innerHTML = `<div class="empty-state"><strong>暂无新闻</strong>等待数据更新...</div>`;
       return;
     }
-    const items = localizedNewsItems(d.items);
-    list.innerHTML = newsMarkup(items);
+    newsState.items = localizedNewsItems(d.items);
+    renderFilteredNews();
+  }
+
+  function renderFilteredNews() {
+    const list = $('news-list');
+    const ui = INTEL_UI[TRANSLATION_LANGUAGE] || INTEL_UI.en;
+    const filtered = newsState.items.filter(item =>
+      newsState.filter === 'all' || item.impact === newsState.filter || item.gold_bias === newsState.filter
+    );
+    list.innerHTML = newsMarkup(filtered.slice(0, newsState.limit));
+    if (filtered.length > newsState.limit) {
+      list.insertAdjacentHTML('beforeend', `<button class="news-more" id="news-more">${ui.more}</button>`);
+      $('news-more').addEventListener('click', () => {
+        newsState.limit += 12;
+        renderFilteredNews();
+      });
+    }
+  }
+
+  function ensureIntelligenceUi() {
+    if (document.getElementById('intelligence-dashboard')) return;
+    const ui = INTEL_UI[TRANSLATION_LANGUAGE] || INTEL_UI.en;
+    const main = document.querySelector('main');
+    const newsList = $('news-list');
+    if (!main || !newsList) return;
+    const dashboard = document.createElement('section');
+    dashboard.id = 'intelligence-dashboard';
+    dashboard.innerHTML = `<div class="section-head"><div><span class="eyebrow">INTELLIGENCE</span><h2>${ui.brief}</h2></div></div>
+      <div class="intel-grid"><div class="intel-card" id="brief-card">—</div><div class="intel-card"><div class="intel-kicker">CALENDAR</div><h3>${ui.events}</h3><div class="event-list" id="event-list">—</div></div></div>`;
+    const firstSection = main.querySelector('section');
+    firstSection?.insertAdjacentElement('afterend', dashboard);
+    newsList.insertAdjacentHTML('beforebegin', `<div class="news-controls" id="news-controls">
+      <button class="news-filter active" data-filter="all">${ui.all}</button>
+      <button class="news-filter" data-filter="high">${ui.high}</button>
+      <button class="news-filter" data-filter="bullish">${ui.bullish}</button>
+      <button class="news-filter" data-filter="bearish">${ui.bearish}</button>
+    </div>`);
+    $('news-controls').addEventListener('click', event => {
+      const button = event.target.closest('[data-filter]');
+      if (!button) return;
+      newsState.filter = button.dataset.filter;
+      newsState.limit = 12;
+      document.querySelectorAll('.news-filter').forEach(item => item.classList.toggle('active', item === button));
+      renderFilteredNews();
+    });
+  }
+
+  function renderBrief(brief) {
+    const target = $('brief-card');
+    if (!target || !brief) return;
+    const ui = INTEL_UI[TRANSLATION_LANGUAGE] || INTEL_UI.en;
+    target.innerHTML = `<div class="intel-kicker">EXPLAINABLE SIGNAL</div>
+      <div class="intel-score">${Number(brief.score || 0) > 0 ? '+' : ''}${Number(brief.score || 0)}</div>
+      <div class="intel-meta">${ui.confidence} ${Number(brief.confidence || 0)}%</div>
+      <div class="intel-tags">${(brief.drivers || []).map(item => `<span class="intel-tag ${escapeHtml(brief.direction)}">${escapeHtml(String(item).toUpperCase())}</span>`).join('')}</div>`;
+  }
+
+  function eventCountdown(iso) {
+    const diff = new Date(iso).getTime() - Date.now();
+    if (!Number.isFinite(diff) || diff <= 0) return '00:00';
+    const hours = Math.floor(diff / 3600000);
+    const minutes = Math.floor((diff % 3600000) / 60000);
+    return `${hours}h ${minutes}m`;
+  }
+
+  function updateEventCountdowns() {
+    document.querySelectorAll('[data-event-time]').forEach(element => {
+      element.textContent = eventCountdown(element.dataset.eventTime);
+    });
+  }
+
+  function renderEvents(data) {
+    const target = $('event-list');
+    if (!target) return;
+    const ui = INTEL_UI[TRANSLATION_LANGUAGE] || INTEL_UI.en;
+    const events = data?.events || [];
+    target.innerHTML = events.length ? events.slice(0, 5).map(item => `<div class="event-row">
+      <span class="intel-tag impact-${escapeHtml(item.impact)}">${escapeHtml(item.source)}</span>
+      <div><strong>${escapeHtml((EVENT_LABELS[TRANSLATION_LANGUAGE] || EVENT_LABELS.en)[item.event_key] || item.title)}</strong><div class="intel-muted">${escapeHtml(formatTime(item.starts_at))}</div></div>
+      <span class="event-countdown" data-event-time="${escapeHtml(item.starts_at)}">${eventCountdown(item.starts_at)}</span>
+    </div>`).join('') : `<div class="intel-muted">${ui.noEvents}</div>`;
   }
 
   function renderSignal(s) {
-    $('signal-text').textContent = s ? s.signal : '震荡偏空 · 关注 4,000 支撑';
-    $('signal-reason').textContent = s ? s.reason : '基于沃什鹰派立场 + 利率上行预期 + 美元走强,黄金短期承压。建议策略 A 做空端,1% 风险。';
+    const ui = INTEL_UI[TRANSLATION_LANGUAGE] || INTEL_UI.en;
+    const labels = SIGNAL_LABELS[TRANSLATION_LANGUAGE] || SIGNAL_LABELS.en;
+    $('signal-text').textContent = s ? (labels[s.label_key] || ui.neutral) : ui.neutral;
+    $('signal-reason').textContent = s ? `${ui.confidence} ${s.confidence || 0}%` : ui.neutral;
+    const card = $('signal-text')?.closest('.signal-card');
+    card?.querySelector('.signal-breakdown')?.remove();
+    if (card && s?.components) {
+      card.insertAdjacentHTML('beforeend', `<div class="signal-breakdown">${s.components.map(item =>
+        `<div class="signal-factor ${escapeHtml(item.direction)}"><span>${escapeHtml(item.key.toUpperCase())}</span><strong>${Number(item.score) > 0 ? '+' : ''}${Number(item.score)}</strong><small>${escapeHtml(item.value)}</small></div>`
+      ).join('')}</div>`);
+    }
   }
 
   async function fetchJson(path) {
@@ -405,13 +543,16 @@
   async function refresh() {
     $('last-updated').innerHTML = '刷新中<span class="loading-dot"></span><span class="loading-dot"></span><span class="loading-dot"></span>';
 
-    const [price, dxy, warsh, fedwatch, news, signal] = await Promise.all([
+    ensureIntelligenceUi();
+    const [price, dxy, warsh, fedwatch, news, signal, brief, events] = await Promise.all([
       fetchJson('xauusd.json'),
       fetchJson('dxy.json'),
       fetchJson('warsh.json'),
       fetchJson('fedwatch.json'),
       fetchJson('news.json'),
-      fetchJson('signal.json')
+      fetchJson('signal.json'),
+      fetchJson('brief.json'),
+      fetchJson('events.json')
     ]);
 
     renderPrice(price);
@@ -421,6 +562,8 @@
     renderFedwatch(fedwatch);
     renderNews(news);
     renderSignal(signal);
+    renderBrief(brief);
+    renderEvents(events);
 
     const now = new Date();
     $('last-updated').textContent = `最后更新: ${now.toLocaleString('zh-CN', { hour12: false })}`;
@@ -439,6 +582,7 @@
     renderCountdown();
     setInterval(renderCountdown, COUNTDOWN_INTERVAL);
     setInterval(updateMarketClocks, COUNTDOWN_INTERVAL);
+    setInterval(updateEventCountdowns, COUNTDOWN_INTERVAL);
     setInterval(refresh, REFRESH_INTERVAL);
   });
 })();

@@ -39,7 +39,15 @@ def main() -> None:
     if not isinstance(dxy.get("value"), (int, float)) or float(dxy["value"]) <= 0:
         raise ValueError("dxy.json: value must be a positive number")
     require_mapping("warsh.json")
-    require_mapping("signal.json")
+    signal = require_mapping("signal.json")
+    if not isinstance(signal.get("components"), list) or len(signal["components"]) < 4:
+        raise ValueError("signal.json: four explainable components are required")
+    events = require_mapping("events.json")
+    if not isinstance(events.get("events"), list):
+        raise ValueError("events.json: events must be a list")
+    brief = require_mapping("brief.json")
+    if not isinstance(brief.get("confidence"), (int, float)):
+        raise ValueError("brief.json: confidence must be numeric")
 
 
 if __name__ == "__main__":

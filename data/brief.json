@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-07-28T09:16:12.462066+00:00",
+  "direction": "bearish",
+  "label_key": "strong_bearish",
+  "confidence": 88,
+  "score": -48,
+  "drivers": [
+    "warsh",
+    "fedwatch",
+    "xau"
+  ],
+  "counter_risks": [
+    "dxy"
+  ],
+  "top_news": [
+    {
+      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+      "link": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260724~eebbc30622.en.html",
+      "category": "monetary_policy",
+      "bias": "neutral"
+    },
+    {
+      "title": "Fact Sheet: President Donald J. Trump Imposes Additional Tariffs on Canada",
+      "link": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-imposes-additional-tariffs-on-canada/",
+      "category": "trade",
+      "bias": "neutral"
+    },
+    {
+      "title": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+      "category": "monetary_policy",
+      "bias": "neutral"
+    }
+  ],
+  "next_event": {
+    "event_key": "bls_release",
+    "title": "Metropolitan Area Employment and Unemployment (Monthly)",
+    "starts_at": "2026-07-29T14:00:00+00:00",
+    "impact": "medium",
+    "source": "BLS",
+    "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
+  }
+}
