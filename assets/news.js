@@ -9,7 +9,7 @@
   if (!document.querySelector('link[href^="/assets/intelligence.css"]')) {
     const stylesheet = document.createElement('link');
     stylesheet.rel = 'stylesheet';
-    stylesheet.href = '/assets/intelligence.css?v=20260728-3';
+    stylesheet.href = '/assets/intelligence.css?v=20260728-4';
     document.head.appendChild(stylesheet);
   }
 
@@ -65,15 +65,6 @@
     de: { strong_bullish: 'Stark positiv', mild_bullish: 'Leicht positiv', balanced: 'Ausgeglichen', mild_bearish: 'Leicht negativ', strong_bearish: 'Stark negativ' },
     fr: { strong_bullish: 'Fortement haussier', mild_bullish: 'Modérément haussier', balanced: 'Équilibré', mild_bearish: 'Modérément baissier', strong_bearish: 'Fortement baissier' }
   };
-  const EVENT_LABELS = {
-    'zh-CN': { fomc: 'FOMC 利率决议', cpi: '美国消费者物价指数 CPI', nfp: '美国非农就业报告', ppi: '美国生产者物价指数 PPI', jolts: '美国 JOLTS 职位空缺', eci: '美国就业成本指数' },
-    'zh-TW': { fomc: 'FOMC 利率決議', cpi: '美國消費者物價指數 CPI', nfp: '美國非農就業報告', ppi: '美國生產者物價指數 PPI', jolts: '美國 JOLTS 職位空缺', eci: '美國就業成本指數' },
-    en: { fomc: 'FOMC Rate Decision', cpi: 'U.S. Consumer Price Index', nfp: 'U.S. Employment Report', ppi: 'U.S. Producer Price Index', jolts: 'U.S. JOLTS Job Openings', eci: 'U.S. Employment Cost Index' },
-    ja: { fomc: 'FOMC 金利決定', cpi: '米国 CPI', nfp: '米国雇用統計', ppi: '米国 PPI', jolts: '米国 JOLTS 求人', eci: '米国雇用コスト指数' },
-    ko: { fomc: 'FOMC 금리 결정', cpi: '미국 CPI', nfp: '미국 고용보고서', ppi: '미국 PPI', jolts: '미국 JOLTS 구인', eci: '미국 고용비용지수' },
-    de: { fomc: 'FOMC-Zinsentscheid', cpi: 'US-Verbraucherpreisindex', nfp: 'US-Arbeitsmarktbericht', ppi: 'US-Erzeugerpreisindex', jolts: 'US-JOLTS-Stellenangebote', eci: 'US-Beschäftigungskostenindex' },
-    fr: { fomc: 'Décision de taux du FOMC', cpi: 'IPC américain', nfp: 'Rapport sur l’emploi américain', ppi: 'IPP américain', jolts: 'Offres d’emploi JOLTS', eci: 'Indice du coût de l’emploi' }
-  };
   const NEWS_TAGS = {
     'zh-CN': { high: '高影响', medium: '中影响', low: '低影响', monetary_policy: '货币政策', inflation: '通胀', labor: '就业', growth: '增长', trade: '贸易', geopolitics: '地缘政治', other: '其他' },
     'zh-TW': { high: '高影響', medium: '中影響', low: '低影響', monetary_policy: '貨幣政策', inflation: '通膨', labor: '就業', growth: '成長', trade: '貿易', geopolitics: '地緣政治', other: '其他' },
@@ -82,15 +73,6 @@
     ko: { high: '높은 영향', medium: '중간 영향', low: '낮은 영향', monetary_policy: '통화정책', inflation: '인플레이션', labor: '고용', growth: '성장', trade: '무역', geopolitics: '지정학', other: '기타' },
     de: { high: 'Hohe Wirkung', medium: 'Mittlere Wirkung', low: 'Geringe Wirkung', monetary_policy: 'Geldpolitik', inflation: 'Inflation', labor: 'Arbeitsmarkt', growth: 'Wachstum', trade: 'Handel', geopolitics: 'Geopolitik', other: 'Sonstiges' },
     fr: { high: 'Impact élevé', medium: 'Impact moyen', low: 'Impact faible', monetary_policy: 'Politique monétaire', inflation: 'Inflation', labor: 'Emploi', growth: 'Croissance', trade: 'Commerce', geopolitics: 'Géopolitique', other: 'Autre' }
-  };
-  const BRIEF_LABELS = {
-    'zh-CN': { support: '主要驱动', counter: '反向因素', score: '综合评分', warsh: '沃什立场', fedwatch: '利率路径', xau: '黄金动量', dxy: '美元指数' },
-    'zh-TW': { support: '主要驅動', counter: '反向因素', score: '綜合評分', warsh: '沃什立場', fedwatch: '利率路徑', xau: '黃金動量', dxy: '美元指數' },
-    en: { support: 'Key drivers', counter: 'Counter factors', score: 'Composite score', warsh: 'Warsh stance', fedwatch: 'Rate path', xau: 'Gold momentum', dxy: 'Dollar index' },
-    ja: { support: '主な要因', counter: '反対要因', score: '総合スコア', warsh: 'ウォーシュ姿勢', fedwatch: '金利経路', xau: '金モメンタム', dxy: 'ドル指数' },
-    ko: { support: '주요 동인', counter: '반대 요인', score: '종합 점수', warsh: '워시 입장', fedwatch: '금리 경로', xau: '금 모멘텀', dxy: '달러 지수' },
-    de: { support: 'Haupttreiber', counter: 'Gegenfaktoren', score: 'Gesamtwert', warsh: 'Warsh-Position', fedwatch: 'Zinspfad', xau: 'Goldmomentum', dxy: 'Dollarindex' },
-    fr: { support: 'Facteurs moteurs', counter: 'Facteurs contraires', score: 'Score global', warsh: 'Position de Warsh', fedwatch: 'Trajectoire des taux', xau: 'Momentum de l’or', dxy: 'Indice dollar' }
   };
 
   // 沃什立场分析器(本地 fallback,无服务器依赖)
@@ -460,19 +442,11 @@
     }
   }
 
-  function ensureIntelligenceUi() {
-    if (document.getElementById('intelligence-dashboard')) return;
+  function ensureNewsControls() {
+    if (document.getElementById('news-controls')) return;
     const ui = INTEL_UI[TRANSLATION_LANGUAGE] || INTEL_UI.en;
-    const main = document.querySelector('main');
     const newsList = $('news-list');
-    if (!main || !newsList) return;
-    const dashboard = document.createElement('section');
-    dashboard.id = 'intelligence-dashboard';
-    dashboard.className = 'intel-shell';
-    dashboard.innerHTML = `<div class="section-head"><div><span class="eyebrow">INTELLIGENCE</span><h2>${ui.brief}</h2></div></div>
-      <div class="intel-grid"><div class="intel-card" id="brief-card">—</div><div class="intel-card"><div class="intel-kicker">CALENDAR</div><h3>${ui.events}</h3><div class="event-list" id="event-list">—</div></div></div>`;
-    const firstSection = main.querySelector('section');
-    firstSection?.insertAdjacentElement('afterend', dashboard);
+    if (!newsList) return;
     newsList.insertAdjacentHTML('beforebegin', `<div class="news-controls" id="news-controls">
       <button class="news-filter active" data-filter="all">${ui.all}</button>
       <button class="news-filter" data-filter="high">${ui.high}</button>
@@ -487,61 +461,6 @@
       document.querySelectorAll('.news-filter').forEach(item => item.classList.toggle('active', item === button));
       renderFilteredNews();
     });
-  }
-
-  function renderBrief(brief) {
-    const target = $('brief-card');
-    if (!target || !brief) return;
-    const ui = INTEL_UI[TRANSLATION_LANGUAGE] || INTEL_UI.en;
-    const labels = BRIEF_LABELS[TRANSLATION_LANGUAGE] || BRIEF_LABELS.en;
-    const signals = SIGNAL_LABELS[TRANSLATION_LANGUAGE] || SIGNAL_LABELS.en;
-    const score = Number(brief.score || 0);
-    const confidence = Math.max(0, Math.min(100, Number(brief.confidence || 0)));
-    const opposite = brief.direction === 'bullish' ? 'bearish' : 'bullish';
-    const chips = (items, direction) => (items || []).map(item =>
-      `<span class="brief-chip ${escapeHtml(direction)}">${escapeHtml(labels[item] || String(item).toUpperCase())}</span>`
-    ).join('');
-    const evidence = [
-      { title: labels.support, items: brief.drivers, direction: brief.direction },
-      { title: labels.counter, items: brief.counter_risks, direction: opposite }
-    ].filter(group => Array.isArray(group.items) && group.items.length);
-    target.innerHTML = `<div class="brief-top">
-        <div><div class="intel-kicker">${escapeHtml(labels.score)}</div>
-        <div class="brief-direction">${escapeHtml(signals[brief.label_key] || ui.neutral)}</div></div>
-        <div class="intel-score">${score > 0 ? '+' : ''}${score}</div>
-      </div>
-      <div class="confidence-head"><span>${ui.confidence}</span><strong>${confidence}%</strong></div>
-      <div class="confidence-track"><span style="width:${confidence}%"></span></div>
-      <div class="brief-evidence ${evidence.length === 1 ? 'single' : ''}">${evidence.map(group =>
-        `<div><span class="evidence-label">${escapeHtml(group.title)}</span><div class="brief-chips">${chips(group.items, group.direction)}</div></div>`
-      ).join('')}</div>`;
-  }
-
-  function eventCountdown(iso) {
-    const diff = new Date(iso).getTime() - Date.now();
-    if (!Number.isFinite(diff) || diff <= 0) return '00:00';
-    const hours = Math.floor(diff / 3600000);
-    const minutes = Math.floor((diff % 3600000) / 60000);
-    return `${hours}h ${minutes}m`;
-  }
-
-  function updateEventCountdowns() {
-    document.querySelectorAll('[data-event-time]').forEach(element => {
-      element.textContent = eventCountdown(element.dataset.eventTime);
-    });
-  }
-
-  function renderEvents(data) {
-    const target = $('event-list');
-    if (!target) return;
-    const ui = INTEL_UI[TRANSLATION_LANGUAGE] || INTEL_UI.en;
-    const events = data?.events || [];
-    target.innerHTML = events.length ? events.slice(0, 3).map(item => `<div class="event-row">
-      <div class="event-meta"><span class="event-source">${escapeHtml(item.event_key === 'fomc' ? 'FOMC' : item.source)}</span>
-      <span class="event-countdown" data-event-time="${escapeHtml(item.starts_at)}">${eventCountdown(item.starts_at)}</span></div>
-      <strong>${escapeHtml((EVENT_LABELS[TRANSLATION_LANGUAGE] || EVENT_LABELS.en)[item.event_key] || item.title)}</strong>
-      <time class="intel-muted">${escapeHtml(formatTime(item.starts_at))}</time>
-    </div>`).join('') : `<div class="intel-muted">${ui.noEvents}</div>`;
   }
 
   function renderSignal(s) {
@@ -572,16 +491,14 @@
   async function refresh() {
     $('last-updated').innerHTML = '刷新中<span class="loading-dot"></span><span class="loading-dot"></span><span class="loading-dot"></span>';
 
-    ensureIntelligenceUi();
-    const [price, dxy, warsh, fedwatch, news, signal, brief, events] = await Promise.all([
+    ensureNewsControls();
+    const [price, dxy, warsh, fedwatch, news, signal] = await Promise.all([
       fetchJson('xauusd.json'),
       fetchJson('dxy.json'),
       fetchJson('warsh.json'),
       fetchJson('fedwatch.json'),
       fetchJson('news.json'),
-      fetchJson('signal.json'),
-      fetchJson('brief.json'),
-      fetchJson('events.json')
+      fetchJson('signal.json')
     ]);
 
     renderPrice(price);
@@ -591,8 +508,6 @@
     renderFedwatch(fedwatch);
     renderNews(news);
     renderSignal(signal);
-    renderBrief(brief);
-    renderEvents(events);
 
     const now = new Date();
     $('last-updated').textContent = `最后更新: ${now.toLocaleString('zh-CN', { hour12: false })}`;
@@ -611,7 +526,6 @@
     renderCountdown();
     setInterval(renderCountdown, COUNTDOWN_INTERVAL);
     setInterval(updateMarketClocks, COUNTDOWN_INTERVAL);
-    setInterval(updateEventCountdowns, COUNTDOWN_INTERVAL);
     setInterval(refresh, REFRESH_INTERVAL);
   });
 })();
