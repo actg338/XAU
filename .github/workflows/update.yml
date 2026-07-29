@@ -37,6 +37,12 @@ jobs:
       - name: Fetch DXY
         run: python scripts/fetch_dxy.py
 
+      - name: Fetch CFTC gold positioning
+        run: python scripts/fetch_cot.py
+
+      - name: Build gold driver snapshot
+        run: python scripts/fetch_drivers.py
+
       - name: Fetch Warsh stance
         run: python scripts/fetch_warsh.py
 
