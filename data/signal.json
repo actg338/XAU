@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "score": -39,
+  "score": -35,
   "direction": "bearish",
   "label_key": "strong_bearish",
   "signal": "strong_bearish",
   "action": "wait_for_confirmation",
-  "confidence": 86,
+  "confidence": 74,
   "components": [
     {
       "key": "warsh",
@@ -13,47 +13,46 @@
       "direction": "bearish",
       "value": "STRONG_HAWK",
       "reason_key": "warsh_strong_hawk",
-      "updated_at": "2026-07-29T04:33:19.967873+00:00"
+      "updated_at": "2026-07-29T06:45:54.882425+00:00"
     },
     {
       "key": "fedwatch",
-      "score": -10,
+      "score": -9,
       "direction": "bearish",
-      "value": "cut 0.0% / hike 32.1%",
+      "value": "cut 0.0% / hike 29.4%",
       "reason_key": "fedwatch_path",
-      "updated_at": "2026-07-29T04:33:21.565892+00:00"
+      "updated_at": "2026-07-29T06:45:56.388694+00:00"
     },
     {
       "key": "xau",
-      "score": -1,
-      "direction": "bearish",
-      "value": "-0.06%",
+      "score": 4,
+      "direction": "bullish",
+      "value": "+0.35%",
       "reason_key": "xau_momentum",
-      "updated_at": "2026-07-29T04:33:19.182103+00:00"
+      "updated_at": "2026-07-29T06:45:42.655517+00:00"
     },
     {
       "key": "dxy",
-      "score": 2,
-      "direction": "bullish",
-      "value": "-0.10%",
-      "reason_key": "dxy_momentum",
-      "updated_at": "2026-07-29T04:33:19.372406+00:00"
+      "score": 0,
+      "direction": "neutral",
+      "value": "unavailable",
+      "reason_key": "dxy_missing",
+      "updated_at": "2026-07-29T06:45:44.461956+00:00"
     }
   ],
   "supporting": [
     "warsh",
-    "fedwatch",
-    "xau"
+    "fedwatch"
   ],
   "opposing": [
-    "dxy"
+    "xau"
   ],
-  "reason": "warsh_strong_hawk · fedwatch_path · xau_momentum · dxy_momentum",
+  "reason": "warsh_strong_hawk · fedwatch_path · xau_momentum · dxy_missing",
   "reasons": [
     "warsh_strong_hawk",
     "fedwatch_path",
     "xau_momentum",
-    "dxy_momentum"
+    "dxy_missing"
   ],
-  "generated_at": "2026-07-29T04:33:32.333585+00:00"
+  "generated_at": "2026-07-29T06:46:05.116648+00:00"
 }
