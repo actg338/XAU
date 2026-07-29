@@ -1,23 +1,7 @@
 {
-  "fetched_at": "2026-07-29T12:22:04.634764+00:00",
+  "fetched_at": "2026-07-29T14:39:47.712664+00:00",
   "timezone": "UTC",
   "events": [
-    {
-      "event_key": "bls_release",
-      "title": "Metropolitan Area Employment and Unemployment (Monthly)",
-      "starts_at": "2026-07-29T14:00:00+00:00",
-      "impact": "medium",
-      "source": "BLS",
-      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
-    },
-    {
-      "event_key": "bls_release",
-      "title": "Quarterly Data Series on Business Employment Dynamics",
-      "starts_at": "2026-07-29T14:00:00+00:00",
-      "impact": "medium",
-      "source": "BLS",
-      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
-    },
     {
       "event_key": "fomc",
       "title": "FOMC Rate Decision",
@@ -190,6 +174,22 @@
       "event_key": "bls_release",
       "title": "Employer Costs for Employee Compensation",
       "starts_at": "2026-09-09T14:00:00+00:00",
+      "impact": "medium",
+      "source": "BLS",
+      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
+    },
+    {
+      "event_key": "ppi",
+      "title": "Producer Price Index",
+      "starts_at": "2026-09-10T12:30:00+00:00",
+      "impact": "high",
+      "source": "BLS",
+      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
+    },
+    {
+      "event_key": "bls_release",
+      "title": "Real Earnings",
+      "starts_at": "2026-09-11T12:30:00+00:00",
       "impact": "medium",
       "source": "BLS",
       "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"

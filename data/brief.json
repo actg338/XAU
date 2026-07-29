@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-07-29T12:22:04.806999+00:00",
+  "generated_at": "2026-07-29T14:39:47.873921+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
-  "confidence": 92,
-  "score": -45,
+  "confidence": 87,
+  "score": -46,
   "drivers": [
     "warsh",
     "fedwatch",
-    "xau",
+    "xau"
+  ],
+  "counter_risks": [
     "dxy"
   ],
-  "counter_risks": [],
   "top_news": [
     {
       "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
@@ -32,11 +33,11 @@
     }
   ],
   "next_event": {
-    "event_key": "bls_release",
-    "title": "Metropolitan Area Employment and Unemployment (Monthly)",
-    "starts_at": "2026-07-29T14:00:00+00:00",
-    "impact": "medium",
-    "source": "BLS",
-    "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
+    "event_key": "fomc",
+    "title": "FOMC Rate Decision",
+    "starts_at": "2026-07-29T18:00:00+00:00",
+    "impact": "high",
+    "source": "CME/Federal Reserve",
+    "source_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
   }
 }
