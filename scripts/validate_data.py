@@ -38,6 +38,13 @@ def main() -> None:
     dxy = require_mapping("dxy.json")
     if not isinstance(dxy.get("value"), (int, float)) or float(dxy["value"]) <= 0:
         raise ValueError("dxy.json: value must be a positive number")
+    cot = require_mapping("cot.json")
+    if cot.get("marketCode") != "088691":
+        raise ValueError("cot.json: COMEX Gold market code is required")
+    drivers = require_mapping("drivers.json")
+    for key in ("us2y", "us10y", "real10y", "xauusd", "dxy"):
+        if not isinstance(drivers.get(key), (int, float)):
+            raise ValueError(f"drivers.json: {key} must be numeric")
     require_mapping("warsh.json")
     signal = require_mapping("signal.json")
     if not isinstance(signal.get("components"), list) or len(signal["components"]) < 4:
