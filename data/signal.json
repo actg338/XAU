@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "score": -35,
+  "score": -32,
   "direction": "bearish",
-  "label_key": "strong_bearish",
-  "signal": "strong_bearish",
+  "label_key": "mild_bearish",
+  "signal": "mild_bearish",
   "action": "wait_for_confirmation",
-  "confidence": 74,
+  "confidence": 76,
   "components": [
     {
       "key": "warsh",
@@ -13,7 +13,7 @@
       "direction": "bearish",
       "value": "STRONG_HAWK",
       "reason_key": "warsh_strong_hawk",
-      "updated_at": "2026-07-29T06:45:54.882425+00:00"
+      "updated_at": "2026-07-29T07:26:04.314588+00:00"
     },
     {
       "key": "fedwatch",
@@ -21,23 +21,23 @@
       "direction": "bearish",
       "value": "cut 0.0% / hike 29.4%",
       "reason_key": "fedwatch_path",
-      "updated_at": "2026-07-29T06:45:56.388694+00:00"
+      "updated_at": "2026-07-29T07:26:06.198508+00:00"
     },
     {
       "key": "xau",
-      "score": 4,
+      "score": 5,
       "direction": "bullish",
-      "value": "+0.35%",
+      "value": "+0.45%",
       "reason_key": "xau_momentum",
-      "updated_at": "2026-07-29T06:45:42.655517+00:00"
+      "updated_at": "2026-07-29T07:26:03.369712+00:00"
     },
     {
       "key": "dxy",
-      "score": 0,
-      "direction": "neutral",
-      "value": "unavailable",
-      "reason_key": "dxy_missing",
-      "updated_at": "2026-07-29T06:45:44.461956+00:00"
+      "score": 2,
+      "direction": "bullish",
+      "value": "-0.09%",
+      "reason_key": "dxy_momentum",
+      "updated_at": "2026-07-29T07:26:03.549943+00:00"
     }
   ],
   "supporting": [
@@ -45,14 +45,15 @@
     "fedwatch"
   ],
   "opposing": [
-    "xau"
+    "xau",
+    "dxy"
   ],
-  "reason": "warsh_strong_hawk · fedwatch_path · xau_momentum · dxy_missing",
+  "reason": "warsh_strong_hawk · fedwatch_path · xau_momentum · dxy_momentum",
   "reasons": [
     "warsh_strong_hawk",
     "fedwatch_path",
     "xau_momentum",
-    "dxy_missing"
+    "dxy_momentum"
   ],
-  "generated_at": "2026-07-29T06:46:05.116648+00:00"
+  "generated_at": "2026-07-29T07:26:14.835393+00:00"
 }

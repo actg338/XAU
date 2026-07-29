@@ -1,7 +1,6 @@
 {
-  "value": 101.55,
-  "change_pct": null,
-  "source": "ECB FX reference rates via Frankfurter",
-  "source_date": "2026-07-28",
-  "fetched_at": "2026-07-29T06:45:44.461956+00:00"
+  "value": 101.31,
+  "change_pct": -0.09,
+  "source": "TradingView TVC:DXY",
+  "fetched_at": "2026-07-29T07:26:03.549943+00:00"
 }
