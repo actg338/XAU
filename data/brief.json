@@ -1,17 +1,24 @@
 {
-  "generated_at": "2026-07-29T17:39:54.106842+00:00",
-  "direction": "bearish",
-  "label_key": "strong_bearish",
-  "confidence": 81,
-  "score": -35,
+  "generated_at": "2026-07-29T18:41:51.836639+00:00",
+  "direction": "neutral",
+  "label_key": "balanced",
+  "confidence": 76,
+  "score": -10,
   "drivers": [
-    "warsh",
     "fedwatch"
   ],
   "counter_risks": [
-    "xau"
+    "warsh",
+    "xau",
+    "dxy"
   ],
   "top_news": [
+    {
+      "title": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "category": "monetary_policy",
+      "bias": "neutral"
+    },
     {
       "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
       "link": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260724~eebbc30622.en.html",
@@ -23,20 +30,14 @@
       "link": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-imposes-additional-tariffs-on-canada/",
       "category": "trade",
       "bias": "neutral"
-    },
-    {
-      "title": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-      "category": "monetary_policy",
-      "bias": "neutral"
     }
   ],
   "next_event": {
-    "event_key": "fomc",
-    "title": "FOMC Rate Decision",
-    "starts_at": "2026-07-29T18:00:00+00:00",
+    "event_key": "eci",
+    "title": "Employment Cost Index",
+    "starts_at": "2026-07-31T12:30:00+00:00",
     "impact": "high",
-    "source": "CME/Federal Reserve",
-    "source_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
+    "source": "BLS",
+    "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
   }
 }

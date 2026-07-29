@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-07-29T17:39:53.763926+00:00",
+  "fetched_at": "2026-07-29T18:41:49.159058+00:00",
   "total": 122,
   "items": [
+    {
+      "title": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "summary": "Federal Reserve issues FOMC statement",
+      "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
+      "source": "fed_policy",
+      "category": "monetary_policy",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "290e75caada0bd9ff13e5e910adcf7e75770b6638cd0e4e72f478e4de342e680",
+      "translations": {
+        "ja": {
+          "title": "FRBがFOMC声明を発表",
+          "summary": "FRBがFOMC声明を発表"
+        },
+        "zh-CN": {
+          "title": "美联储发表联邦公开市场委员会声明",
+          "summary": "美联储发表联邦公开市场委员会声明"
+        },
+        "zh-TW": {
+          "title": "聯準會發表聯邦公開市場委員會聲明",
+          "summary": "聯準會發表聯邦公開市場委員會聲明"
+        },
+        "de": {
+          "title": "Federal Reserve gibt FOMC-Erklärung heraus",
+          "summary": "Federal Reserve gibt FOMC-Erklärung heraus"
+        },
+        "ko": {
+          "title": "연준, FOMC 성명 발표",
+          "summary": "연준, FOMC 성명 발표"
+        },
+        "fr": {
+          "title": "La Réserve fédérale publie une déclaration du FOMC",
+          "summary": "La Réserve fédérale publie une déclaration du FOMC"
+        }
+      }
+    },
     {
       "title": "Treasury Disrupts Iranian Regime’s Strait of Hormuz Extortion Network",
       "link": "https://home.treasury.gov/news/press-releases/sb0581",
@@ -1951,18 +1989,6 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "63d8b506d315ba3e4560544a9b60766982b6b421608f7d27e444c26cd9db126c"
-    },
-    {
-      "title": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm",
-      "summary": "Federal Reserve issues FOMC statement",
-      "published_at": "Wed, 28 Jan 2026 19:00:00 GMT",
-      "source": "fed_policy",
-      "category": "monetary_policy",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "290e75caada0bd9ff13e5e910adcf7e75770b6638cd0e4e72f478e4de342e680"
     },
     {
       "title": "PPI for final demand advances 0.2% in November; goods rise 0.9%, services unchanged",
