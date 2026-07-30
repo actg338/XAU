@@ -50,9 +50,29 @@ function languageNode(page, currentPrefix, label) {
   return select;
 }
 
+function isCoreLink(node) {
+  if (node.tagName !== "A") return false;
+  const href = node.getAttribute("href");
+  if (!href || href.startsWith("#")) return false;
+  const target = new URL(href, location.origin);
+  if (target.hash) return false;
+  const name = target.pathname.split("/").filter(Boolean).pop() || "";
+  const page = name === "index.html" ? "" : name;
+  return SITE_PAGES.includes(page);
+}
+
+function contextualNodes() {
+  const container = document.querySelector(".nav-links, .mt-links, main > .top-links");
+  if (!container) return [];
+  return [...container.children].filter((node) => {
+    return (node.tagName === "A" || node.tagName === "BUTTON") && !isCoreLink(node);
+  });
+}
+
 function buildNavigation() {
   const language = currentLanguage();
   const page = currentPage();
+  const contextual = contextualNodes();
   const nav = document.createElement("nav");
   const inner = document.createElement("div");
   const brand = linkNode("XAU QUANT", pageUrl(language.prefix, ""), false);
@@ -63,6 +83,10 @@ function buildNavigation() {
   brand.className = "site-core-nav__brand";
   links.className = "site-core-nav__links";
   SITE_PAGES.forEach((item, index) => links.append(linkNode(language.labels[index], pageUrl(language.prefix, item), page === item)));
+  contextual.forEach((node) => {
+    node.classList.add("site-core-nav__link");
+    links.append(node);
+  });
   links.append(languageNode(page, language.prefix, language.language));
   inner.append(brand, links);
   nav.append(inner);
