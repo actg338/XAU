@@ -17,6 +17,19 @@ function formatTime(value) {
   return Number.isNaN(date.getTime()) ? "—" : date.toLocaleString(document.documentElement.lang, {timeZoneName:"short"});
 }
 
+function formatDualTime(value) {
+  const date = new Date(String(value));
+  if (Number.isNaN(date.getTime())) return "—";
+  const options = {year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false};
+  const utc = date.toLocaleString(document.documentElement.lang, {...options,timeZone:"UTC"});
+  const beijing = date.toLocaleString(document.documentElement.lang, {...options,timeZone:"Asia/Shanghai"});
+  return `UTC ${utc} · 北京 ${beijing}`;
+}
+
+function setTimes(ids, value) {
+  ids.forEach((id) => setText(id, value));
+}
+
 async function getJson(path) {
   const response = await fetch(path, {cache:"no-store"});
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -25,18 +38,29 @@ async function getJson(path) {
 
 async function loadMarketData() {
   try {
-    const [cot, drivers] = await Promise.all([getJson("/data/cot.json"), getJson("/data/drivers.json")]);
+    const [cot, drivers, xau, dxy] = await Promise.all([
+      getJson("/data/cot.json"),
+      getJson("/data/drivers.json"),
+      getJson("/data/xauusd.json"),
+      getJson("/data/dxy.json")
+    ]);
     setText("cot-date", cot.reportDate || "—");
     setText("cot-oi", formatNumber(cot.openInterest));
     setText("cot-managed", formatNumber(cot.managedMoney?.net));
     setText("cot-change", cot.managedMoneyWeeklyChange === null ? "—" : formatNumber(cot.managedMoneyWeeklyChange));
     setText("cot-producer", formatNumber(cot.producer?.net));
-    setText("driver-xau", formatNumber(drivers.xauusd));
-    setText("driver-dxy", formatNumber(drivers.dxy));
+    const cotTime = `${cot.reportDate || "—"} (CFTC)`;
+    setTimes(["cot-managed-time","cot-change-time","cot-producer-time","cot-oi-time"], cotTime);
+    setText("driver-xau", formatNumber(xau.price));
+    setText("driver-dxy", formatNumber(dxy.value));
     setText("driver-us2y", `${formatNumber(drivers.us2y)}%`);
     setText("driver-us10y", `${formatNumber(drivers.us10y)}%`);
-    setText("driver-real10y", `${formatNumber(drivers.real10y)}%`);
-    setText("driver-time", formatTime(drivers.updatedAt));
+    setText("driver-real10", `${formatNumber(drivers.real10y)}%`);
+    setText("driver-xau-time", formatDualTime(xau.fetched_at));
+    setText("driver-dxy-time", formatDualTime(dxy.fetched_at));
+    const treasuryTime = `${String(drivers.treasuryDate || "—").slice(0, 10)} (U.S. Treasury EOD)`;
+    setTimes(["driver-us2y-time","driver-us10y-time","driver-real10-time"], treasuryTime);
+    setText("driver-time", formatDualTime(drivers.updatedAt));
   } catch (error) {
     document.querySelectorAll("[data-market-value]").forEach((node) => { node.textContent = "—"; });
     setText("market-status", document.body.dataset.loadError || "Data unavailable");
