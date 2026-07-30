@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-07-30T16:56:17.422583+00:00",
+  "fetched_at": "2026-07-30T18:20:54.670759+00:00",
   "total": 124,
   "items": [
+    {
+      "title": "Treasury Cracks Down on Global Networks Enabling Iran’s Mahan Air and IRGC",
+      "link": "https://home.treasury.gov/news/press-releases/sb0582",
+      "summary": "Treasury Cracks Down on Global Networks Enabling Iran’s Mahan Air and IRGC",
+      "published_at": "2026-07-30T17:30:00Z",
+      "source": "treasury",
+      "category": "geopolitics",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "geopolitics_neutral",
+      "_translation_hash": "a4df61ed4cb6fa2ac86acc76ca1faa15399bf97e99042de96ed6ae42f7799fa0",
+      "translations": {
+        "zh-CN": {
+          "title": "财政部打击支持伊朗马汉航空和 IRGC 的全球网络",
+          "summary": "财政部打击支持伊朗马汉航空和 IRGC 的全球网络"
+        },
+        "zh-TW": {
+          "title": "財政部打擊支持伊朗馬漢航空和 IRGC 的全球網絡",
+          "summary": "財政部打擊支持伊朗馬漢航空和 IRGC 的全球網絡"
+        },
+        "ko": {
+          "title": "재무부, 이란의 Mahan Air와 IRGC를 지원하는 글로벌 네트워크 단속",
+          "summary": "재무부, 이란의 Mahan Air와 IRGC를 지원하는 글로벌 네트워크 단속"
+        },
+        "de": {
+          "title": "Das Finanzministerium geht hart gegen globale Netzwerke vor, die Irans Mahan Air und IRGC ermöglichen",
+          "summary": "Das Finanzministerium geht hart gegen globale Netzwerke vor, die Irans Mahan Air und IRGC ermöglichen"
+        },
+        "fr": {
+          "title": "Le Trésor sévit contre les réseaux mondiaux qui permettent à la compagnie aérienne iranienne Mahan Air et au CGRI",
+          "summary": "Le Trésor sévit contre les réseaux mondiaux qui permettent à la compagnie aérienne iranienne Mahan Air et au CGRI"
+        },
+        "ja": {
+          "title": "財務省、イランのマハン航空とIRGCを可能にする世界的ネットワークを取り締まる",
+          "summary": "財務省、イランのマハン航空とIRGCを可能にする世界的ネットワークを取り締まる"
+        }
+      }
+    },
     {
       "title": "First Lady Melania Trump Facilitates Her Fifth Ukraine–Russia Family Reunification",
       "link": "https://www.whitehouse.gov/briefings-statements/2026/07/first-lady-melania-trump-facilitates-her-fifth-ukrainerussia-family-reunification/",
@@ -303,44 +341,6 @@
         "fr": {
           "title": "Message présidentiel à l'occasion de la Journée nationale de l'armistice des anciens combattants de la guerre de Corée",
           "summary": "Aujourd'hui, notre nation célèbre le 82e anniversaire de la libération américaine de Guam, le jour où les États-Unis ont brisé une occupation brutale et ramené la liberté sur une île qui avait enduré plus de deux ans de souffrance. Alors que notre nation célèbre la Journée nationale de l'armistice des anciens combattants de la guerre de Corée, nous honorons le courage et le dévouement extraordinaires de […] Le message post-présidentiel à l'occasion de la Journée nationale de l'armistice des anciens combattants de la guerre de Corée est apparu en premier à la Maison Blanche."
-        }
-      }
-    },
-    {
-      "title": "Treasury Announces Second Round of Sanctions Removals, Updates in Modernization Initiative",
-      "link": "https://home.treasury.gov/news/press-releases/sb0578",
-      "summary": "Treasury Announces Second Round of Sanctions Removals, Updates in Modernization Initiative",
-      "published_at": "2026-07-27T17:30:00Z",
-      "source": "treasury",
-      "category": "geopolitics",
-      "impact": "medium",
-      "gold_bias": "bullish",
-      "why_key": "geopolitics_bullish",
-      "_translation_hash": "53c691168a2ccf04863bcf91f918ca989d0611939a603eeb3ed467db137f2b53",
-      "translations": {
-        "ja": {
-          "title": "財務省、第2弾の制裁解除と近代化構想の最新情報を発表",
-          "summary": "財務省、第2弾の制裁解除と近代化構想の最新情報を発表"
-        },
-        "zh-CN": {
-          "title": "财政部宣布第二轮制裁取消和现代化计划的更新",
-          "summary": "财政部宣布第二轮制裁取消和现代化计划的更新"
-        },
-        "ko": {
-          "title": "재무부, 2차 제재 해제 및 현대화 계획 업데이트 발표",
-          "summary": "재무부, 2차 제재 해제 및 현대화 계획 업데이트 발표"
-        },
-        "zh-TW": {
-          "title": "財政部宣布第二輪制裁取消和現代化計劃的更新",
-          "summary": "財政部宣布第二輪制裁取消和現代化計劃的更新"
-        },
-        "de": {
-          "title": "Finanzministerium kündigt zweite Runde der Aufhebung von Sanktionen und Aktualisierungen der Modernisierungsinitiative an",
-          "summary": "Finanzministerium kündigt zweite Runde der Aufhebung von Sanktionen und Aktualisierungen der Modernisierungsinitiative an"
-        },
-        "fr": {
-          "title": "Le Trésor annonce une deuxième série de suppressions de sanctions et une mise à jour de son initiative de modernisation",
-          "summary": "Le Trésor annonce une deuxième série de suppressions de sanctions et une mise à jour de son initiative de modernisation"
         }
       }
     },
