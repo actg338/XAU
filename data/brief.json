@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-31T18:14:58.776288+00:00",
+  "generated_at": "2026-07-31T19:57:22.985875+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
   "confidence": 91,
-  "score": -65,
+  "score": -64,
   "drivers": [
     "warsh",
     "fedwatch",
@@ -26,9 +26,9 @@
       "bias": "neutral"
     },
     {
-      "title": "Fact Sheet: President Donald J. Trump Imposes Additional Tariffs on Canada",
-      "link": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-imposes-additional-tariffs-on-canada/",
-      "category": "trade",
+      "title": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+      "category": "monetary_policy",
       "bias": "neutral"
     }
   ],
