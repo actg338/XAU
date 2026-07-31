@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-07-31T12:23:29.188826+00:00",
-  "total": 124,
+  "fetched_at": "2026-07-31T14:58:22.189504+00:00",
+  "total": 123,
   "items": [
     {
       "title": "Treasury Cracks Down on Global Networks Enabling Iran’s Mahan Air and IRGC",
@@ -151,44 +151,6 @@
         "fr": {
           "title": "Le Trésor perturbe le réseau d’extorsion du régime iranien dans le détroit d’Ormuz",
           "summary": "Le Trésor perturbe le réseau d’extorsion du régime iranien dans le détroit d’Ormuz"
-        }
-      }
-    },
-    {
-      "title": "Treasury Unveils Redesigned CFIUS Website",
-      "link": "https://home.treasury.gov/news/press-releases/sb0580",
-      "summary": "Treasury Unveils Redesigned CFIUS Website",
-      "published_at": "2026-07-29T12:27:40Z",
-      "source": "treasury",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "c094323ed06b04731104ea62da3e6b8915b7e5dd4739a9b9c1812416fc19053d",
-      "translations": {
-        "zh-CN": {
-          "title": "财政部推出重新设计的 CFIUS 网站",
-          "summary": "财政部推出重新设计的 CFIUS 网站"
-        },
-        "ja": {
-          "title": "財務省が再設計されたCFIUSウェブサイトを公開",
-          "summary": "財務省が再設計されたCFIUSウェブサイトを公開"
-        },
-        "ko": {
-          "title": "재무부, 새롭게 디자인된 CFIUS 웹사이트 공개",
-          "summary": "재무부, 새롭게 디자인된 CFIUS 웹사이트 공개"
-        },
-        "zh-TW": {
-          "title": "財政部推出重新設計的 CFIUS 網站",
-          "summary": "財政部推出重新設計的 CFIUS 網站"
-        },
-        "de": {
-          "title": "Finanzministerium stellt neu gestaltete CFIUS-Website vor",
-          "summary": "Finanzministerium stellt neu gestaltete CFIUS-Website vor"
-        },
-        "fr": {
-          "title": "Le Trésor dévoile le site Web repensé du CFIUS",
-          "summary": "Le Trésor dévoile le site Web repensé du CFIUS"
         }
       }
     },
@@ -2027,6 +1989,18 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "63d8b506d315ba3e4560544a9b60766982b6b421608f7d27e444c26cd9db126c"
+    },
+    {
+      "title": "PPI for final demand advances 0.2% in November; goods rise 0.9%, services unchanged",
+      "link": "https://www.bls.gov/news.release/archives/ppi_01142026.htm",
+      "summary": "",
+      "published_at": "2026-01-14T08:30:00-05:00",
+      "source": "bls_ppi",
+      "category": "inflation",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
+      "_translation_hash": "690c98f9bb74cebb41bfb0324947380de6ad560c826927d9e3bc12c373518155"
     }
   ]
 }

@@ -1,15 +1,7 @@
 {
-  "fetched_at": "2026-07-31T12:23:29.440250+00:00",
+  "fetched_at": "2026-07-31T14:58:22.418411+00:00",
   "timezone": "UTC",
   "events": [
-    {
-      "event_key": "eci",
-      "title": "Employment Cost Index",
-      "starts_at": "2026-07-31T12:30:00+00:00",
-      "impact": "high",
-      "source": "BLS",
-      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
-    },
     {
       "event_key": "jolts",
       "title": "Job Openings and Labor Turnover Survey",
@@ -191,6 +183,14 @@
       "title": "Consumer Price Index",
       "starts_at": "2026-09-11T12:30:00+00:00",
       "impact": "high",
+      "source": "BLS",
+      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
+    },
+    {
+      "event_key": "bls_release",
+      "title": "U.S. Import and Export Price Indexes",
+      "starts_at": "2026-09-16T12:30:00+00:00",
+      "impact": "medium",
       "source": "BLS",
       "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
     }
