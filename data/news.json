@@ -1,7 +1,83 @@
 {
-  "fetched_at": "2026-08-03T19:00:08.251934+00:00",
-  "total": 122,
+  "fetched_at": "2026-08-03T20:36:18.215290+00:00",
+  "total": 120,
   "items": [
+    {
+      "title": "Economy Statement for the Treasury Borrowing Advisory Committee",
+      "link": "https://home.treasury.gov/news/press-releases/sb0585",
+      "summary": "Economy Statement for the Treasury Borrowing Advisory Committee",
+      "published_at": "2026-08-03T19:00:00Z",
+      "source": "treasury",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "8a38db19b27714579f667c22b6fd581ed1a676fd99ac119febb5823cda009d18",
+      "translations": {
+        "zh-CN": {
+          "title": "财政部借款咨询委员会的经济声明",
+          "summary": "财政部借款咨询委员会的经济声明"
+        },
+        "ko": {
+          "title": "국고차입자문위원회 경제성명서",
+          "summary": "국고차입자문위원회 경제성명서"
+        },
+        "de": {
+          "title": "Wirtschaftserklärung für den Treasury Borrowing Advisory Committee",
+          "summary": "Wirtschaftserklärung für den Treasury Borrowing Advisory Committee"
+        },
+        "ja": {
+          "title": "財務省借入諮問委員会の経済声明",
+          "summary": "財務省借入諮問委員会の経済声明"
+        },
+        "zh-TW": {
+          "title": "財政部借款諮詢委員會的經濟聲明",
+          "summary": "財政部借款諮詢委員會的經濟聲明"
+        },
+        "fr": {
+          "title": "Déclaration économique pour le Comité consultatif sur les emprunts du Trésor",
+          "summary": "Déclaration économique pour le Comité consultatif sur les emprunts du Trésor"
+        }
+      }
+    },
+    {
+      "title": "Treasury Announces Marketable Borrowing Estimates",
+      "link": "https://home.treasury.gov/news/press-releases/sb0584",
+      "summary": "Treasury Announces Marketable Borrowing Estimates",
+      "published_at": "2026-08-03T19:00:00Z",
+      "source": "treasury",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "3e4acc32d28c0db60330bf734d882137e54895303f76ea536f6e77c8fdeb7312",
+      "translations": {
+        "zh-CN": {
+          "title": "财政部公布适销借款预估",
+          "summary": "财政部公布适销借款预估"
+        },
+        "ko": {
+          "title": "재무부, 시장성 있는 차입 추정치 발표",
+          "summary": "재무부, 시장성 있는 차입 추정치 발표"
+        },
+        "de": {
+          "title": "Das Finanzministerium gibt Schätzungen zur marktfähigen Kreditaufnahme bekannt",
+          "summary": "Das Finanzministerium gibt Schätzungen zur marktfähigen Kreditaufnahme bekannt"
+        },
+        "ja": {
+          "title": "財務省が市場性のある借入見積りを発表",
+          "summary": "財務省が市場性のある借入見積りを発表"
+        },
+        "zh-TW": {
+          "title": "財政部公佈適銷借款預估",
+          "summary": "財政部公佈適銷借款預估"
+        },
+        "fr": {
+          "title": "Le Trésor annonce des estimations d’emprunts négociables",
+          "summary": "Le Trésor annonce des estimations d’emprunts négociables"
+        }
+      }
+    },
     {
       "title": "Construction Spending",
       "link": "https://www.census.gov/construction/c30/c30index.html",
@@ -37,44 +113,6 @@
         "fr": {
           "title": "Dépenses de construction",
           "summary": "L'activité totale de construction pour juin 2026 (2 166,5 milliards de dollars) était inférieure de 0,1 % (+/-0,8 %)* à l'estimation révisée de mai 2026 (2 168,5 milliards de dollars). Juin 2026 : -0,1* % de variation Mai 2026 (r) : 0,0* % de variation"
-        }
-      }
-    },
-    {
-      "title": "Treasury Cracks Down on Global Networks Enabling Iran’s Mahan Air and IRGC",
-      "link": "https://home.treasury.gov/news/press-releases/sb0582",
-      "summary": "Treasury Cracks Down on Global Networks Enabling Iran’s Mahan Air and IRGC",
-      "published_at": "2026-07-30T17:30:00Z",
-      "source": "treasury",
-      "category": "geopolitics",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "geopolitics_neutral",
-      "_translation_hash": "a4df61ed4cb6fa2ac86acc76ca1faa15399bf97e99042de96ed6ae42f7799fa0",
-      "translations": {
-        "zh-CN": {
-          "title": "财政部打击支持伊朗马汉航空和 IRGC 的全球网络",
-          "summary": "财政部打击支持伊朗马汉航空和 IRGC 的全球网络"
-        },
-        "zh-TW": {
-          "title": "財政部打擊支持伊朗馬漢航空和 IRGC 的全球網絡",
-          "summary": "財政部打擊支持伊朗馬漢航空和 IRGC 的全球網絡"
-        },
-        "ko": {
-          "title": "재무부, 이란의 Mahan Air와 IRGC를 지원하는 글로벌 네트워크 단속",
-          "summary": "재무부, 이란의 Mahan Air와 IRGC를 지원하는 글로벌 네트워크 단속"
-        },
-        "de": {
-          "title": "Das Finanzministerium geht hart gegen globale Netzwerke vor, die Irans Mahan Air und IRGC ermöglichen",
-          "summary": "Das Finanzministerium geht hart gegen globale Netzwerke vor, die Irans Mahan Air und IRGC ermöglichen"
-        },
-        "fr": {
-          "title": "Le Trésor sévit contre les réseaux mondiaux qui permettent à la compagnie aérienne iranienne Mahan Air et au CGRI",
-          "summary": "Le Trésor sévit contre les réseaux mondiaux qui permettent à la compagnie aérienne iranienne Mahan Air et au CGRI"
-        },
-        "ja": {
-          "title": "財務省、イランのマハン航空とIRGCを可能にする世界的ネットワークを取り締まる",
-          "summary": "財務省、イランのマハン航空とIRGCを可能にする世界的ネットワークを取り締まる"
         }
       }
     },
@@ -151,44 +189,6 @@
         "fr": {
           "title": "La Réserve fédérale publie une déclaration du FOMC",
           "summary": "La Réserve fédérale publie une déclaration du FOMC"
-        }
-      }
-    },
-    {
-      "title": "Treasury Disrupts Iranian Regime’s Strait of Hormuz Extortion Network",
-      "link": "https://home.treasury.gov/news/press-releases/sb0581",
-      "summary": "Treasury Disrupts Iranian Regime’s Strait of Hormuz Extortion Network",
-      "published_at": "2026-07-29T14:30:00Z",
-      "source": "treasury",
-      "category": "geopolitics",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "geopolitics_neutral",
-      "_translation_hash": "f24710dc37d1b48bbb13734189986b39e125982b8d026228ae9ec4886cb54785",
-      "translations": {
-        "zh-CN": {
-          "title": "财政部破坏伊朗政权的霍尔木兹海峡勒索网络",
-          "summary": "财政部破坏伊朗政权的霍尔木兹海峡勒索网络"
-        },
-        "ja": {
-          "title": "財務省がイラン政権のホルムズ海峡恐喝ネットワークを混乱させる",
-          "summary": "財務省がイラン政権のホルムズ海峡恐喝ネットワークを混乱させる"
-        },
-        "ko": {
-          "title": "재무부가 이란 정권의 호르무즈 해협 강탈 네트워크를 방해하다",
-          "summary": "재무부가 이란 정권의 호르무즈 해협 강탈 네트워크를 방해하다"
-        },
-        "zh-TW": {
-          "title": "財政部破壞伊朗政權的霍爾木茲海峽勒索網絡",
-          "summary": "財政部破壞伊朗政權的霍爾木茲海峽勒索網絡"
-        },
-        "de": {
-          "title": "Das Finanzministerium stört das Erpressungsnetzwerk des iranischen Regimes in der Straße von Hormus",
-          "summary": "Das Finanzministerium stört das Erpressungsnetzwerk des iranischen Regimes in der Straße von Hormus"
-        },
-        "fr": {
-          "title": "Le Trésor perturbe le réseau d’extorsion du régime iranien dans le détroit d’Ormuz",
-          "summary": "Le Trésor perturbe le réseau d’extorsion du régime iranien dans le détroit d’Ormuz"
         }
       }
     },
@@ -645,82 +645,6 @@
         "fr": {
           "title": "Décisions de politique monétaire",
           "summary": ""
-        }
-      }
-    },
-    {
-      "title": "Fact Sheet: President Donald J. Trump Announces Trade Deal with Jordan",
-      "link": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-announces-trade-deal-with-jordan/",
-      "summary": "DELIVERING ON RECIPROCAL TRADE: Today, President Donald J. Trump announced a landmark trade deal with Jordan. Key terms of the Agreement with Jordan include: THE PROSPEROUS PATH FORWARD: Today’s announcement reinforces America’s strategic partnership with one of America’s most valued partners in the Middle East while fostering reciprocal conditions that prioritize American workers and industries, protect U.S. […] The post Fact Sheet: President Donald J. Trump Announces Trade Deal with Jordan app",
-      "published_at": "Tue, 21 Jul 2026 15:56:03 +0000",
-      "source": "white_house",
-      "category": "trade",
-      "impact": "medium",
-      "gold_bias": "bullish",
-      "why_key": "trade_bullish",
-      "_translation_hash": "a948082b51eac9236d12d9046d5b417bfc280c67e52569fd70b18e756b45eadd",
-      "translations": {
-        "zh-CN": {
-          "title": "情况说明书：唐纳德·J·特朗普总统宣布与约旦达成贸易协议",
-          "summary": "实现互惠贸易：今天，唐纳德·J·特朗普总统宣布与约旦达成一项具有里程碑意义的贸易协议。与约旦达成的协议的关键条款包括： 繁荣的道路：今天的声明加强了美国与美国在中东最有价值的合作伙伴之一的战略伙伴关系，同时创造了优先考虑美国工人和工业、保护美国的互惠条件 […] 后情况说明书：唐纳德·J·特朗普总统宣布与约旦的贸易协议"
-        },
-        "zh-TW": {
-          "title": "情況說明書：唐納德·J·特朗普總統宣布與約旦達成貿易協議",
-          "summary": "實現互惠貿易：今天，唐納德·J·特朗普總統宣布與約旦達成一項具有里程碑意義的貿易協議。與約旦達成的協議的關鍵條款包括： 繁榮的道路：今天的聲明加強了美國與美國在中東最有價值的合作夥伴之一的戰略夥伴關係，同時創造了優先考慮美國工人和工業、保護美國的互惠條件 […] 後情況說明書：唐納德·J·特朗普總統宣布與約旦的貿易協議"
-        },
-        "ja": {
-          "title": "ファクトシート: ドナルド・J・トランプ大統領、ヨルダンとの貿易協定を発表",
-          "summary": "相互貿易の実現：本日、ドナルド・J・トランプ大統領はヨルダンとの画期的な貿易協定を発表した。ヨルダンとの協定の主な条項は次のとおりです: 前進する繁栄の道: 今日の発表は、中東における米国の最も価値あるパートナーの1つとの米国の戦略的パートナーシップを強化すると同時に、米国の労働者と産業を優先し、米国を守る相互条件を促進します。 […] ポストファクトシート: ドナルド・J・トランプ大統領、ヨルダンとの通商協定を発表"
-        },
-        "ko": {
-          "title": "팩트 시트: 도널드 J. 트럼프 대통령, 요르단과의 무역 협정 발표",
-          "summary": "상호 무역 제공: 오늘 도널드 J. 트럼프 대통령은 요르단과의 획기적인 무역 협정을 발표했습니다. 요르단과의 협정의 주요 조건은 다음과 같습니다: 번영하는 길: 오늘의 발표는 미국의 노동자와 산업을 우선시하고 미국을 보호하는 상호 조건을 조성하는 동시에 중동에서 미국의 가장 가치 있는 파트너 중 하나와 미국의 전략적 파트너십을 강화합니다. [...] 포스트 팩트 시트: 도널드 J. 트럼프 대통령, 요르단 앱과의 무역 협정 발표"
-        },
-        "de": {
-          "title": "Faktenblatt: Präsident Donald J. Trump kündigt Handelsabkommen mit Jordanien an",
-          "summary": "UMSETZUNG DES GEGENSEITIGEN HANDELS: Heute kündigte Präsident Donald J. Trump ein bahnbrechendes Handelsabkommen mit Jordanien an. Zu den wichtigsten Bedingungen des Abkommens mit Jordanien gehören: DER PROSPERIGE WEG NACH VORN: Die heutige Ankündigung stärkt Amerikas strategische Partnerschaft mit einem der am meisten geschätzten Partner Amerikas im Nahen Osten und fördert gleichzeitig gegenseitige Bedingungen, die amerikanische Arbeitnehmer und Industrien in den Vordergrund stellen und die USA schützen"
-        },
-        "fr": {
-          "title": "Fiche d'information : Le président Donald J. Trump annonce un accord commercial avec la Jordanie",
-          "summary": "RÉALISER LE COMMERCE RÉCIPROQUE : Aujourd'hui, le président Donald J. Trump a annoncé un accord commercial historique avec la Jordanie. Les principaux termes de l'accord avec la Jordanie comprennent : LA VOIE PROSPÉRÉE : L'annonce d'aujourd'hui renforce le partenariat stratégique de l'Amérique avec l'un des partenaires les plus précieux des États-Unis au Moyen-Orient tout en favorisant des conditions réciproques qui donnent la priorité aux travailleurs et aux industries américaines, protègent les États-Unis."
-        }
-      }
-    },
-    {
-      "title": "AGREEMENT BETWEEN THE UNITED STATES OF AMERICA AND THE HASHEMITE KINGDOM OF JORDAN ON RECIPROCAL TRADE",
-      "link": "https://www.whitehouse.gov/briefings-statements/2026/07/agreement-between-the-united-states-of-america-and-the-hashemite-kingdom-of-jordan-on-reciprocal-trade/",
-      "summary": "AGREEMENT BETWEEN THE UNITED STATES OF AMERICA AND THE HASHEMITE KINGDOM OF JORDAN ON RECIPROCAL TRADE Preamble The United States of America (“United States”) and the Hashemite Kingdom of Jordan (“Jordan”) (individually a “Party” and collectively “the Parties”), EMPHASIZING their shared values, including democracy, economic freedom, and the rule of law; RECOGNIZING the special bonds […] The post AGREEMENT BETWEEN THE UNITED STATES OF AMERICA AND THE HASHEMITE KINGDOM OF JORDAN ON RECIPROCAL TRAD",
-      "published_at": "Tue, 21 Jul 2026 15:55:51 +0000",
-      "source": "white_house",
-      "category": "trade",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "e6b82a17d13a36f607986cbdf329c37e0fa38bbeb75b7da815eb4039bac26761",
-      "translations": {
-        "zh-CN": {
-          "title": "美利坚合众国与约旦哈希姆王国互惠贸易协定",
-          "summary": "美利坚合众国和约旦哈希姆王国互惠贸易协定 序言 美利坚合众国（“美利坚合众国”）和约旦哈希姆王国（“约旦”）（单独称为“一方”，统称为“双方”），强调两国共同的价值观，包括民主、经济自由和法治；承认特殊纽带[...]美利坚合众国与约旦哈希姆王国之间的互惠贸易协议"
-        },
-        "zh-TW": {
-          "title": "美利堅合眾國與約旦哈希姆王國互惠貿易協定",
-          "summary": "美利堅合眾國與約旦哈希姆王國互惠貿易協定 序言 美利堅合眾國（“美利堅合眾國和約旦哈希姆王國互惠貿易協定 序言 美利堅合眾國（“美利堅合眾國和約旦哈希姆王國互惠貿易協定 序言 美利堅合眾國（“美利堅合眾國”）和約旦哈希姆王國（“約旦”）（單獨稱為“一方”，統稱為“雙方”），強調兩國共同的價值觀，包括民主、經濟自由和法治；承認特殊紐帶[...]與約"
-        },
-        "ja": {
-          "title": "アメリカ合衆国とヨルダン・ハシミテ王国間の相互貿易に関する協定",
-          "summary": "相互貿易に関するアメリカ合衆国とヨルダン・ハシミテ王国との間の協定 前文 アメリカ合衆国（以下「米国」）とヨルダン・ハシミテ王国（以下「ヨルダン」）（個別に「締約国」、総称して「締約国」）は、民主主義、経済的自由、法の支配を含む共通の価値観を強調し、特別債券の認識 […] The post 相互貿易に関するアメリカ合衆国とヨルダン・ハシミテ王国間の協定"
-        },
-        "ko": {
-          "title": "미합중국과 요르단 하셰미트 왕국 간의 상호 무역에 관한 협정",
-          "summary": "상호 무역에 관한 미국과 요르단 하시미트 왕국 간의 협정 서문 미국(“미국”)과 요르단 하심 왕국(“요르단”)(개별적으로 “당사국”, 집합적으로 “당사국”)은 민주주의, 경제적 자유, 법치를 포함한 공유 가치를 강조합니다. 특수 채권 인정 […] 미국과 요르단 하쉬미트 왕국 간의 상호 무역에 관한 협정 이후"
-        },
-        "de": {
-          "title": "Abkommen zwischen den Vereinigten Staaten von Amerika und dem Haschemitischen Königreich Jordanien über den gegenseitigen Handel",
-          "summary": "ABKOMMEN ZWISCHEN DEN VEREINIGTEN STAATEN VON AMERIKA UND DEM HASCHEMITENKÖNIGREICH JORDANIEN ÜBER GEGENSEITIGEN HANDEL Präambel Die Vereinigten Staaten von Amerika („Vereinigte Staaten“) und das Haschemitische Königreich Jordanien („Jordanien“) (einzeln eine „Partei“ und zusammen „die Parteien“), UNTER HERVORHEBUNG ihrer gemeinsamen Werte, einschließlich Demokratie, Wirtschaftsfreiheit und Rechtsstaatlichkeit; IN ANERKENNUNG der besonderen Bindungen […] Das Postabkommen zwischen den Vereinigten Staaten von Amerika und dem Haschemitischen Königreich Jordanien über den gegenseitigen Handel"
-        },
-        "fr": {
-          "title": "ACCORD COMMERCIAL RÉCIPROQUE ENTRE LES ÉTATS-UNIS D'AMÉRIQUE ET LE ROYAUME HACHÉMITE DE JORDANIE",
-          "summary": "ACCORD ENTRE LES ÉTATS-UNIS D'AMÉRIQUE ET LE ROYAUME HACHÉMITE DE JORDANIE SUR LE COMMERCE RÉCIPROQUE Préambule Les États-Unis d'Amérique (« États-Unis ») et le Royaume hachémite de Jordanie (« Jordanie ») (individuellement une « Partie » et collectivement « les Parties »), SOULIGNANT leurs valeurs communes, notamment la démocratie, la liberté économique et l'État de droit ; RECONNAISSANT les obligations spéciales […] The post ACCORD ENTRE LES ÉTATS-UNIS D'AMÉRIQUE ET LE ROYAUME HACHÉMITE DE JORDANIE SUR LE COMMERCE RÉCIPROQUE"
         }
       }
     },
@@ -1975,6 +1899,30 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "73bda2ca782b16cd80357da42f35608e224ee3c0499888fae3e0c51804e6e281"
+    },
+    {
+      "title": "Both payroll employment (+50,000) and unemployment rate (4.4%) change little in December",
+      "link": "https://www.bls.gov/news.release/archives/empsit_01092026.htm",
+      "summary": "",
+      "published_at": "2026-01-09T08:30:00-05:00",
+      "source": "bls_jobs",
+      "category": "labor",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "9b48fbf047f30f6f279873c58b8a7464563f431ae74d4d223455487a1521272a"
+    },
+    {
+      "title": "November job openings and hires change little; total separations unchanged",
+      "link": "https://www.bls.gov/news.release/archives/jolts_01072026.htm",
+      "summary": "",
+      "published_at": "2026-01-07T10:00:00-05:00",
+      "source": "bls_jolts",
+      "category": "labor",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "3cf36b7f6c0604e7034eb43f333ae8feac6eac4367d5f6ca80f8a0db7ec3c7f4"
     }
   ]
 }
