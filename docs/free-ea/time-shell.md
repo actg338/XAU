@@ -5,6 +5,7 @@
 
 ## 本版面板
 - 显示当前 Magic 结算金额、结算单数、结算手数和均单收益。
+- 显示当前 Magic 持仓均价，并在图表绘制 SELL 平均持仓线。
 - 显示当前浮动盈亏、当前持仓单数、当前持仓手数。
 - 分开显示多单与空单的单数和手数，便于检查方向暴露。
 - 显示止损出场单数与手数、止盈出场单数与手数、胜率。
@@ -23,9 +24,10 @@
 - `MinMarginLevel`、`BaseMaxOrders`：风险限制。
 - `PreferredFilling`、`ForceUseIOC`、`AllowUseFOK`：自动识别并回退订单填充模式。
 - `InpEnableCommercialPanel`、`InpPanelScale`、`InpPanelAlpha`：商业化面板、缩放和透明度。
+- `InpShowAveragePositionLine`、`InpAveragePositionLineColor`、`InpAveragePositionLineWidth`：当前 Magic 平均持仓线显示、颜色和宽度。
 
 ## 使用
-在模拟账户检查卖出逻辑、经纪商点值、服务器时间和填充模式后再评估实盘。面板会自动显示下单最小间隔倒计时、持仓状态、拒绝开仓原因、多周期 ADX、Magic 运行统计、授权状态、编译人微信和官网。
+在模拟账户检查卖出逻辑、经纪商点值、服务器时间和填充模式后再评估实盘。面板会自动显示下单最小间隔倒计时、SELL 持仓状态、持仓均价、拒绝开仓原因、多周期 ADX、Magic 运行统计、授权状态、编译人微信和官网。
 
 ## 风险
 定时做空在持续上涨行情中可能快速累积风险，请启用仓位上限和保证金保护。
