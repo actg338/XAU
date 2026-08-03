@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-08-03T11:57:07.392226+00:00",
+  "fetched_at": "2026-08-03T14:57:19.716841+00:00",
   "total": 122,
   "items": [
+    {
+      "title": "Construction Spending",
+      "link": "https://www.census.gov/construction/c30/c30index.html",
+      "summary": "Total construction activity for June 2026 ($2,166.5 billion) was 0.1 percent (+/-0.8 percent)* below the revised May 2026 ($2,168.5 billion) estimate. June 2026: -0.1* % Change May 2026 (r): 0.0* % Change",
+      "published_at": "Mon, 03 Aug 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "80655037f35c71e83a9d9906908bb1d883b2852dc6947740fb8787bd3917476e",
+      "translations": {
+        "zh-CN": {
+          "title": "建筑开支",
+          "summary": "2026 年 6 月的建筑活动总额（21,665 亿美元）比 2026 年 5 月修订后的估计值（21,685 亿美元）低 0.1% (+/-0.8%)*。 2026 年 6 月：-0.1* 变化百分比 2026 年 5 月 (r)：0.0* 变化百分比"
+        },
+        "ja": {
+          "title": "建設支出",
+          "summary": "2026 年 6 月の建設活動総額 (2 兆 1,665 億ドル) は、2026 年 5 月の修正予測値 (2 兆 1,685 億ドル) を 0.1 パーセント (+/-0.8 パーセント)*下回りました。 2026 年 6 月: -0.1* % 変化 2026 年 5 月 (r): 0.0* % 変化"
+        },
+        "ko": {
+          "title": "건설비",
+          "summary": "2026년 6월 총 건설 활동(2조 1,665억 달러)은 수정된 2026년 5월 추정치(2조 1,685억 달러)보다 0.1%(+/-0.8%)* 낮았습니다. 2026년 6월: -0.1* % 변화 2026년 5월(r): 0.0* % 변화"
+        },
+        "zh-TW": {
+          "title": "建築開支",
+          "summary": "2026 年 6 月的建築活動總額（21,665 億美元）比 2026 年 5 月修訂後的估計值（21,685 億美元）低 0.1% (+/-0.8%)*。 2026 年 6 月：-0.1* 變化百分比 2026 年 5 月 (r)：0.0* 變化百分比"
+        },
+        "de": {
+          "title": "Bauausgaben",
+          "summary": "Die gesamte Bautätigkeit im Juni 2026 (2.166,5 Milliarden US-Dollar) lag 0,1 Prozent (+/-0,8 Prozent)* unter der revidierten Schätzung vom Mai 2026 (2.168,5 Milliarden US-Dollar). Juni 2026: -0,1* % Veränderung Mai 2026 (r): 0,0* % Veränderung"
+        },
+        "fr": {
+          "title": "Dépenses de construction",
+          "summary": "L'activité totale de construction pour juin 2026 (2 166,5 milliards de dollars) était inférieure de 0,1 % (+/-0,8 %)* à l'estimation révisée de mai 2026 (2 168,5 milliards de dollars). Juin 2026 : -0,1* % de variation Mai 2026 (r) : 0,0* % de variation"
+        }
+      }
+    },
     {
       "title": "Treasury Cracks Down on Global Networks Enabling Iran’s Mahan Air and IRGC",
       "link": "https://home.treasury.gov/news/press-releases/sb0582",
@@ -83,7 +121,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -919,7 +957,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1109,7 +1147,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
@@ -1367,44 +1405,6 @@
         "de": {
           "title": "Waller, Zwei Gedanken zur Transmission der Geldpolitik",
           "summary": "Rede auf der Konferenz „Challenges for Monetary Policy Transmission in a Changing World“, einer von der Bank von Italien gesponserten Konferenz für das vom Europäischen System der Zentralbanken initiierte Forschungsnetzwerk, Rom, Italien"
-        }
-      }
-    },
-    {
-      "title": "Construction Spending",
-      "link": "https://www.census.gov/construction/c30/c30index.html",
-      "summary": "Total construction activity for May 2026 ($2,210.2 billion) was 0.1 percent (+/-0.7 percent)* above the revised April 2026 ($2,207.1 billion). May 2026: +0.1* % Change April 2026 (r): +0.3* % Change",
-      "published_at": "Wed, 01 Jul 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "ba2b426cca71bd61b03cf009fc5d8e33121fd5efd2785345d7367b497526ca9f",
-      "translations": {
-        "zh-CN": {
-          "title": "建筑开支",
-          "summary": "2026 年 5 月的建筑活动总额（22,102 亿美元）比修订后的 2026 年 4 月（22,071 亿美元）高出 0.1% (+/-0.7%)*。 2026 年 5 月：+0.1* 变化百分比 2026 年 4 月 (r)：+0.3* 变化百分比"
-        },
-        "zh-TW": {
-          "title": "建築開支",
-          "summary": "2026 年 5 月的建築活動總額（22,102 億美元）比修訂後的 2026 年 4 月（22,071 億美元）高出 0.1% (+/-0.7%)*。 2026 年 5 月：+0.1* 變化百分比 2026 年 4 月 (r)：+0.3* 變化百分比"
-        },
-        "ja": {
-          "title": "建設支出",
-          "summary": "2026年5月の建設活動総額（2兆2,102億ドル）は、2026年4月改定値（2兆2,071億ドル）を0.1パーセント（+/-0.7パーセント）*上回りました。 2026 年 5 月: +0.1* % 変化 2026 年 4 月 (r): +0.3* % 変化"
-        },
-        "ko": {
-          "title": "건설비",
-          "summary": "2026년 5월 총 건설 활동(2조 2,102억 달러)은 수정된 2026년 4월(2조 2,071억 달러)보다 0.1%(+/-0.7%)* 증가했습니다. 2026년 5월: +0.1* % 변화 2026년 4월(r): +0.3* % 변화"
-        },
-        "de": {
-          "title": "Bauausgaben",
-          "summary": "Die gesamte Bautätigkeit im Mai 2026 (2.210,2 Milliarden US-Dollar) lag 0,1 Prozent (+/-0,7 Prozent)* über dem revidierten April 2026 (2.207,1 Milliarden US-Dollar). Mai 2026: +0,1* % Veränderung April 2026 (r): +0,3* % Veränderung"
-        },
-        "fr": {
-          "title": "Dépenses de construction",
-          "summary": "L'activité totale de construction pour mai 2026 (2 210,2 milliards de dollars) était de 0,1 % (+/-0,7 %)* supérieure à celle d'avril 2026 révisée (2 207,1 milliards de dollars). Mai 2026 : +0,1* % Variation Avril 2026 (r) : +0,3* % Variation"
         }
       }
     },
