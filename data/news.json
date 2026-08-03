@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-08-03T20:36:18.215290+00:00",
-  "total": 120,
+  "fetched_at": "2026-08-03T21:46:56.867117+00:00",
+  "total": 121,
   "items": [
     {
       "title": "Economy Statement for the Treasury Borrowing Advisory Committee",
@@ -645,6 +645,44 @@
         "fr": {
           "title": "Décisions de politique monétaire",
           "summary": ""
+        }
+      }
+    },
+    {
+      "title": "Fact Sheet: President Donald J. Trump Announces Trade Deal with Jordan",
+      "link": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-announces-trade-deal-with-jordan/",
+      "summary": "DELIVERING ON RECIPROCAL TRADE: Today, President Donald J. Trump announced a landmark trade deal with Jordan. Key terms of the Agreement with Jordan include: THE PROSPEROUS PATH FORWARD: Today’s announcement reinforces America’s strategic partnership with one of America’s most valued partners in the Middle East while fostering reciprocal conditions that prioritize American workers and industries, protect U.S. […] The post Fact Sheet: President Donald J. Trump Announces Trade Deal with Jordan app",
+      "published_at": "Tue, 21 Jul 2026 15:56:03 +0000",
+      "source": "white_house",
+      "category": "trade",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "trade_bullish",
+      "_translation_hash": "a948082b51eac9236d12d9046d5b417bfc280c67e52569fd70b18e756b45eadd",
+      "translations": {
+        "zh-CN": {
+          "title": "情况说明书：唐纳德·J·特朗普总统宣布与约旦达成贸易协议",
+          "summary": "实现互惠贸易：今天，唐纳德·J·特朗普总统宣布与约旦达成一项具有里程碑意义的贸易协议。与约旦达成的协议的关键条款包括： 繁荣的道路：今天的声明加强了美国与美国在中东最有价值的合作伙伴之一的战略伙伴关系，同时创造了优先考虑美国工人和工业、保护美国的互惠条件 […] 后情况说明书：唐纳德·J·特朗普总统宣布与约旦的贸易协议"
+        },
+        "zh-TW": {
+          "title": "情況說明書：唐納德·J·特朗普總統宣布與約旦達成貿易協議",
+          "summary": "實現互惠貿易：今天，唐納德·J·特朗普總統宣布與約旦達成一項具有里程碑意義的貿易協議。與約旦達成的協議的關鍵條款包括： 繁榮的道路：今天的聲明加強了美國與美國在中東最有價值的合作夥伴之一的戰略夥伴關係，同時創造了優先考慮美國工人和工業、保護美國的互惠條件 […] 後情況說明書：唐納德·J·特朗普總統宣布與約旦的貿易協議"
+        },
+        "ja": {
+          "title": "ファクトシート: ドナルド・J・トランプ大統領、ヨルダンとの貿易協定を発表",
+          "summary": "相互貿易の実現：本日、ドナルド・J・トランプ大統領はヨルダンとの画期的な貿易協定を発表した。ヨルダンとの協定の主な条項は次のとおりです: 前進する繁栄の道: 今日の発表は、中東における米国の最も価値あるパートナーの1つとの米国の戦略的パートナーシップを強化すると同時に、米国の労働者と産業を優先し、米国を保護する相互条件を促進します。 […] ポストファクトシート: ドナルド・J・トランプ大統領、ヨルダンとの貿易協定を発表"
+        },
+        "ko": {
+          "title": "팩트 시트: 도널드 J. 트럼프 대통령, 요르단과의 무역 협정 발표",
+          "summary": "상호 무역 제공: 오늘 도널드 J. 트럼프 대통령은 요르단과의 획기적인 무역 협정을 발표했습니다. 요르단과의 협정의 주요 조건은 다음과 같습니다: 번영하는 길: 오늘의 발표는 미국의 근로자와 산업을 우선시하고 미국을 보호하는 상호 조건을 조성하는 동시에 중동에서 미국의 가장 가치 있는 파트너 중 하나와 미국의 전략적 파트너십을 강화합니다. [...] 포스트 팩트 시트: 도널드 J. 트럼프 대통령, 요르단 앱과의 무역 협정 발표"
+        },
+        "de": {
+          "title": "Faktenblatt: Präsident Donald J. Trump kündigt Handelsabkommen mit Jordanien an",
+          "summary": "UMSETZUNG DES GEGENSEITIGEN HANDELS: Heute kündigte Präsident Donald J. Trump ein bahnbrechendes Handelsabkommen mit Jordanien an. Zu den wichtigsten Bedingungen des Abkommens mit Jordanien gehören: DER PROSPERIGE WEG NACH VORN: Die heutige Ankündigung stärkt Amerikas strategische Partnerschaft mit einem der am meisten geschätzten Partner Amerikas im Nahen Osten und fördert gleichzeitig gegenseitige Bedingungen, die amerikanische Arbeitnehmer und Industrien in den Vordergrund stellen und die USA schützen"
+        },
+        "fr": {
+          "title": "Fiche d'information : Le président Donald J. Trump annonce un accord commercial avec la Jordanie",
+          "summary": "RÉALISER LE COMMERCE RÉCIPROQUE : Aujourd'hui, le président Donald J. Trump a annoncé un accord commercial historique avec la Jordanie. Les principaux termes de l'accord avec la Jordanie comprennent : LA VOIE PROSPÉRÉE : L'annonce d'aujourd'hui renforce le partenariat stratégique de l'Amérique avec l'un des partenaires les plus précieux des États-Unis au Moyen-Orient tout en favorisant des conditions réciproques qui donnent la priorité aux travailleurs et aux industries américaines, protègent les États-Unis."
         }
       }
     },
@@ -1911,18 +1949,6 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "9b48fbf047f30f6f279873c58b8a7464563f431ae74d4d223455487a1521272a"
-    },
-    {
-      "title": "November job openings and hires change little; total separations unchanged",
-      "link": "https://www.bls.gov/news.release/archives/jolts_01072026.htm",
-      "summary": "",
-      "published_at": "2026-01-07T10:00:00-05:00",
-      "source": "bls_jolts",
-      "category": "labor",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "3cf36b7f6c0604e7034eb43f333ae8feac6eac4367d5f6ca80f8a0db7ec3c7f4"
     }
   ]
 }
