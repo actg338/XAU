@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-08-04T10:48:41.695104+00:00",
+  "fetched_at": "2026-08-04T12:50:26.149847+00:00",
   "total": 121,
   "items": [
+    {
+      "title": "U.S. International Trade in Goods and Services",
+      "link": "https://www.census.gov/foreign-trade/index.html",
+      "summary": "The nation's international trade deficit in goods and services decreased to $73.3 billion in June from $77.6 billion in May (revised), as imports decreased more than exports. June 2026: -5.6° % Change May 2026 (r): 42.3° % Change",
+      "published_at": "Tue, 04 Aug 2026 08:30:00 -0400",
+      "source": "census",
+      "category": "trade",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "trade_neutral",
+      "_translation_hash": "df560cc1616d3b3462ee3295658dc0b73042f72d43be04c968f25a4e7cc6995c",
+      "translations": {
+        "zh-CN": {
+          "title": "美国国际商品和服务贸易",
+          "summary": "由于进口降幅大于出口降幅，美国 6 月份商品和服务国际贸易逆差从 5 月份的 776 亿美元（修正后）降至 733 亿美元。 2026 年 6 月：-5.6° 变化百分比 2026 年 5 月 (r)：42.3° 变化百分比"
+        },
+        "ja": {
+          "title": "米国の商品とサービスの国際貿易",
+          "summary": "輸入が輸出を上回ったため、6月の財とサービスの国際貿易赤字は5月の776億ドル（改定値）から733億ドルに減少した。 2026 年 6 月: -5.6° % 変化 2026 年 5 月 (r): 42.3° % 変化"
+        },
+        "ko": {
+          "title": "미국의 상품 및 서비스 국제 무역",
+          "summary": "상품 및 서비스 부문의 국내 국제 무역 적자는 수출보다 수입이 더 많이 감소함에 따라 5월(개정)의 776억 달러에서 6월 733억 달러로 감소했습니다. 2026년 6월: -5.6° % 변화 2026년 5월(r): 42.3° % 변화"
+        },
+        "zh-TW": {
+          "title": "美國國際商品與服務貿易",
+          "summary": "由於進口降幅大於出口降幅，美國 6 月商品與服務國際貿易逆差從 5 月的 776 億美元（修正後）降至 733 億美元。 2026 年 6 月：-5.6° 變化百分比 2026 年 5 月 (r)：42.3° 變化百分比"
+        },
+        "de": {
+          "title": "Internationaler Handel der USA mit Waren und Dienstleistungen",
+          "summary": "Das internationale Handelsdefizit des Landes bei Waren und Dienstleistungen sank von 77,6 Milliarden US-Dollar im Mai (revidiert) auf 73,3 Milliarden US-Dollar im Juni, da die Importe stärker zurückgingen als die Exporte. Juni 2026: -5,6° % Veränderung Mai 2026 (r): 42,3° % Veränderung"
+        },
+        "fr": {
+          "title": "Commerce international des biens et services des États-Unis",
+          "summary": "Le déficit du commerce international des biens et services du pays a diminué à 73,3 milliards de dollars en juin contre 77,6 milliards de dollars en mai (révisé), les importations ayant diminué plus que les exportations. Juin 2026 : -5,6° % Variation Mai 2026 (r) : 42,3° % Variation"
+        }
+      }
+    },
     {
       "title": "Economy Statement for the Treasury Borrowing Advisory Committee",
       "link": "https://home.treasury.gov/news/press-releases/sb0585",
@@ -1253,44 +1291,6 @@
         "fr": {
           "title": "Commerce de gros mensuel : ventes et stocks",
           "summary": "En mai 2026, les ventes des grossistes marchands s'élevaient à 817,4 milliards de dollars, en hausse de 3,4 % (+/- 0,5 %) par rapport au mois dernier. Les stocks de fin de mois s'élevaient à 941,8 milliards de dollars, en hausse de 0,1 pour cent (+/- 0,2 pour cent)* par rapport au mois dernier. Mai 2026 : +0,1* % de variation des stocks Avril 2026 (r) : +0,7 % de variation des stocks"
-        }
-      }
-    },
-    {
-      "title": "U.S. International Trade in Goods and Services",
-      "link": "https://www.census.gov/foreign-trade/index.html",
-      "summary": "The nation's international trade deficit in goods and services increased to $77.6 billion in May from $54.6 billion in April (revised), as exports decreased and imports increased. May 2026: 42.2° % Change April 2026 (r): -3.6° % Change",
-      "published_at": "Tue, 07 Jul 2026 08:30:00 -0400",
-      "source": "census",
-      "category": "trade",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "098058665af2f2247adc622ca2eefe4af9dd502f224aece6858c6e65227ee620",
-      "translations": {
-        "zh-CN": {
-          "title": "美国国际商品和服务贸易",
-          "summary": "由于出口减少和进口增加，5 月份美国商品和服务国际贸易逆差从 4 月份的 546 亿美元（修正后）增至 776 亿美元。 2026 年 5 月：42.2° 变化百分比 2026 年 4 月 (r)：-3.6° 变化百分比"
-        },
-        "zh-TW": {
-          "title": "美國國際商品與服務貿易",
-          "summary": "由於出口減少和進口增加，5 月美國商品和服務國際貿易逆差從 4 月的 546 億美元（修正後）增加到 776 億美元。 2026 年 5 月：42.2° 變化百分比 2026 年 4 月 (r)：-3.6° 變化百分比"
-        },
-        "ja": {
-          "title": "米国の商品とサービスの国際貿易",
-          "summary": "輸出が減少し輸入が増加したことにより、同国の財とサービスの国際貿易赤字は4月の546億ドル（改定値）から5月には776億ドルに増加した。 2026年5月: 42.2° %変化 2026年4月(r): -3.6° %変化"
-        },
-        "ko": {
-          "title": "미국의 상품 및 서비스 국제 무역",
-          "summary": "수출이 감소하고 수입이 증가함에 따라 상품 및 서비스 분야의 국가 국제 무역 적자는 4월(개정)의 546억 달러에서 5월 776억 달러로 증가했습니다. 2026년 5월: 42.2° % 변화 2026년 4월(r): -3.6° % 변화"
-        },
-        "de": {
-          "title": "Internationaler Handel der USA mit Waren und Dienstleistungen",
-          "summary": "Das internationale Handelsdefizit des Landes bei Waren und Dienstleistungen stieg im Mai von 54,6 Milliarden US-Dollar im April (revidiert) auf 77,6 Milliarden US-Dollar, da die Exporte zurückgingen und die Importe zunahmen. Mai 2026: 42,2° % Veränderung April 2026 (r): -3,6° % Veränderung"
-        },
-        "fr": {
-          "title": "Commerce international des biens et services des États-Unis",
-          "summary": "Le déficit du commerce international des biens et services du pays a augmenté pour atteindre 77,6 milliards de dollars en mai, contre 54,6 milliards de dollars en avril (révisé), alors que les exportations ont diminué et que les importations ont augmenté. Mai 2026 : 42,2° % Variation Avril 2026 (r) : -3,6° % Variation"
         }
       }
     },
