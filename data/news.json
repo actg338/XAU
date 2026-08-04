@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-04T05:28:30.629085+00:00",
+  "fetched_at": "2026-08-04T08:03:57.400366+00:00",
   "total": 121,
   "items": [
     {
@@ -159,7 +159,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -345,6 +345,44 @@
       }
     },
     {
+      "title": "Remarks by Secretary of the Treasury Scott Bessent Before the Financial Literacy and Education Commission",
+      "link": "https://home.treasury.gov/news/press-releases/sb0579",
+      "summary": "Remarks by Secretary of the Treasury Scott Bessent Before the Financial Literacy and Education Commission",
+      "published_at": "2026-07-27T17:30:00Z",
+      "source": "treasury",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "302ec01568ec4a67f25cb8647c92401e7472413e294fac049b405306117ce6b5",
+      "translations": {
+        "ja": {
+          "title": "スコット・ベッセント財務長官による金融リテラシー・教育委員会での発言",
+          "summary": "スコット・ベッセント財務長官による金融リテラシー・教育委員会での発言"
+        },
+        "zh-CN": {
+          "title": "财政部长斯科特·贝森特在金融素养和教育委员会上的讲话",
+          "summary": "财政部长斯科特·贝森特在金融素养和教育委员会上的讲话"
+        },
+        "ko": {
+          "title": "금융교육위원회에서 Scott Bessent 재무장관의 발언",
+          "summary": "금융교육위원회에서 Scott Bessent 재무장관의 발언"
+        },
+        "zh-TW": {
+          "title": "財政部長斯科特·貝森特在金融素養和教育委員會的講話",
+          "summary": "財政部長斯科特·貝森特在金融素養和教育委員會的講話"
+        },
+        "de": {
+          "title": "Bemerkungen von Finanzminister Scott Bessent vor der Financial Literacy and Education Commission",
+          "summary": "Bemerkungen von Finanzminister Scott Bessent vor der Financial Literacy and Education Commission"
+        },
+        "fr": {
+          "title": "Allocution du secrétaire au Trésor Scott Bessent devant la Commission pour la littératie et l'éducation financières",
+          "summary": "Allocution du secrétaire au Trésor Scott Bessent devant la Commission pour la littératie et l'éducation financières"
+        }
+      }
+    },
+    {
       "title": "Made in Michigan Again: President Trump’s Trade Agenda Is Supercharging American Auto Manufacturing",
       "link": "https://www.whitehouse.gov/releases/2026/07/made-in-michigan-again-president-trumps-trade-agenda-is-supercharging-american-auto-manufacturing/",
       "summary": "President Donald J. Trump returns to Michigan today to visit the General Motors Proving Ground in Milford and celebrate the roaring comeback of American auto manufacturing under his leadership. Since taking office, President Trump has ignited an automotive renaissance — onshoring production, restoring factory jobs, and making vehicles in Michigan again. Record Investments. Record Sales. […] The post Made in Michigan Again: President Trump’s Trade Agenda Is Supercharging American Auto Manufacturi",
@@ -379,44 +417,6 @@
         "fr": {
           "title": "Encore une fois fabriqué au Michigan : le programme commercial du président Trump dynamise la fabrication automobile américaine",
           "summary": "Le président Donald J. Trump retourne aujourd'hui au Michigan pour visiter le General Motors Proving Ground à Milford et célébrer le retour en force de la construction automobile américaine sous sa direction. Depuis son entrée en fonction, le président Trump a déclenché une renaissance de l’automobile en délocalisant la production, en rétablissant les emplois dans les usines et en fabriquant à nouveau des véhicules dans le Michigan. Des investissements records. Ventes record. […] L'article Made in Michigan Again : le programme commercial du président Trump dynamise les constructeurs automobiles américains"
-        }
-      }
-    },
-    {
-      "title": "Remarks by Secretary of the Treasury Scott Bessent Before the Financial Literacy and Education Commission",
-      "link": "https://home.treasury.gov/news/press-releases/sb0579",
-      "summary": "Remarks by Secretary of the Treasury Scott Bessent Before the Financial Literacy and Education Commission",
-      "published_at": "2026-07-27T13:30:00Z",
-      "source": "treasury",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "302ec01568ec4a67f25cb8647c92401e7472413e294fac049b405306117ce6b5",
-      "translations": {
-        "ja": {
-          "title": "スコット・ベッセント財務長官による金融リテラシー・教育委員会での発言",
-          "summary": "スコット・ベッセント財務長官による金融リテラシー・教育委員会での発言"
-        },
-        "zh-CN": {
-          "title": "财政部长斯科特·贝森特在金融素养和教育委员会上的讲话",
-          "summary": "财政部长斯科特·贝森特在金融素养和教育委员会上的讲话"
-        },
-        "ko": {
-          "title": "금융교육위원회에서 Scott Bessent 재무장관의 발언",
-          "summary": "금융교육위원회에서 Scott Bessent 재무장관의 발언"
-        },
-        "zh-TW": {
-          "title": "財政部長斯科特·貝森特在金融素養和教育委員會的講話",
-          "summary": "財政部長斯科特·貝森特在金融素養和教育委員會的講話"
-        },
-        "de": {
-          "title": "Bemerkungen von Finanzminister Scott Bessent vor der Financial Literacy and Education Commission",
-          "summary": "Bemerkungen von Finanzminister Scott Bessent vor der Financial Literacy and Education Commission"
-        },
-        "fr": {
-          "title": "Allocution du secrétaire au Trésor Scott Bessent devant la Commission pour la littératie et l'éducation financières",
-          "summary": "Allocution du secrétaire au Trésor Scott Bessent devant la Commission pour la littératie et l'éducation financières"
         }
       }
     },
@@ -919,7 +919,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1109,7 +1109,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
