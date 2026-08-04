@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-04T12:50:29.597078+00:00",
+  "generated_at": "2026-08-04T15:15:16.602468+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
   "confidence": 78,
-  "score": -40,
+  "score": -38,
   "drivers": [
     "warsh",
     "fedwatch"
@@ -33,10 +33,10 @@
     }
   ],
   "next_event": {
-    "event_key": "jolts",
-    "title": "Job Openings and Labor Turnover Survey",
-    "starts_at": "2026-08-04T14:00:00+00:00",
-    "impact": "high",
+    "event_key": "bls_release",
+    "title": "Productivity and Costs",
+    "starts_at": "2026-08-06T12:30:00+00:00",
+    "impact": "medium",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
   }

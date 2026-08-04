@@ -1,15 +1,7 @@
 {
-  "fetched_at": "2026-08-04T12:50:29.500373+00:00",
+  "fetched_at": "2026-08-04T15:15:16.425667+00:00",
   "timezone": "UTC",
   "events": [
-    {
-      "event_key": "jolts",
-      "title": "Job Openings and Labor Turnover Survey",
-      "starts_at": "2026-08-04T14:00:00+00:00",
-      "impact": "high",
-      "source": "BLS",
-      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
-    },
     {
       "event_key": "bls_release",
       "title": "Productivity and Costs",
@@ -193,6 +185,14 @@
       "impact": "medium",
       "source": "BLS",
       "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
+    },
+    {
+      "event_key": "fomc",
+      "title": "FOMC Rate Decision",
+      "starts_at": "2026-09-16T18:00:00+00:00",
+      "impact": "high",
+      "source": "CME/Federal Reserve",
+      "source_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
     }
   ]
 }

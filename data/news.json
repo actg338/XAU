@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-08-04T12:50:26.149847+00:00",
+  "fetched_at": "2026-08-04T15:15:12.565421+00:00",
   "total": 121,
   "items": [
+    {
+      "title": "Manufacturers' Shipments, Inventories, and Orders",
+      "link": "https://www.census.gov/manufacturing/m3/",
+      "summary": "New orders for manufactured goods in June, down two consecutive months, decreased $2.3 billion or 0.3 percent to $656.5 billion. June 2026: -0.3° % Change May 2026 (r): -1.1° % Change",
+      "published_at": "Tue, 04 Aug 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "70ab8d39bf11eeddb8f42d325da0fc89172c3071afb2692cb7b44963697628c1",
+      "translations": {
+        "ja": {
+          "title": "メーカー出荷・在庫・受注状況",
+          "summary": "６月の工業製品の新規受注は２カ月連続で減少し、２３億ドル（０．３％）減の６５６５億ドルとなった。 2026年6月: -0.3° %変化 2026年5月(r): -1.1° %変化"
+        },
+        "zh-CN": {
+          "title": "制造商的出货量、库存和订单",
+          "summary": "6月份制成品新订单连续两个月下降，减少23亿美元，降至6565亿美元，降幅0.3%。 2026 年 6 月：-0.3° 变化百分比 2026 年 5 月 (r)：-1.1° 变化百分比"
+        },
+        "de": {
+          "title": "Lieferungen, Bestände und Bestellungen der Hersteller",
+          "summary": "Die Auftragseingänge für Industriegüter sanken im Juni um zwei Monate in Folge um 2,3 Milliarden US-Dollar oder 0,3 Prozent auf 656,5 Milliarden US-Dollar. Juni 2026: -0,3° % Veränderung Mai 2026 (r): -1,1° % Veränderung"
+        },
+        "ko": {
+          "title": "제조업체의 배송, 재고 및 주문",
+          "summary": "6월 공산품 신규 주문은 2개월 연속 감소해 23억 달러(0.3%) 감소한 6,565억 달러를 기록했습니다. 2026년 6월: -0.3° % 변화 2026년 5월(r): -1.1° % 변화"
+        },
+        "fr": {
+          "title": "Expéditions, stocks et commandes des fabricants",
+          "summary": "Les nouvelles commandes de produits manufacturés en juin, en baisse sur deux mois consécutifs, ont diminué de 2,3 milliards de dollars, ou 0,3%, à 656,5 milliards de dollars. Juin 2026 : -0,3° % Variation Mai 2026 (r) : -1,1° % Variation"
+        },
+        "zh-TW": {
+          "title": "製造商的出貨量、庫存和訂單",
+          "summary": "6月製成品新訂單連續兩個月下降，減少23億美元，降至6,565億美元，降幅0.3%。 2026 年 6 月：-0.3° 變化百分比 2026 年 5 月 (r)：-1.1° 變化百分比"
+        }
+      }
+    },
     {
       "title": "U.S. International Trade in Goods and Services",
       "link": "https://www.census.gov/foreign-trade/index.html",
@@ -197,7 +235,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -455,44 +493,6 @@
         "fr": {
           "title": "Encore une fois fabriqué au Michigan : le programme commercial du président Trump dynamise la fabrication automobile américaine",
           "summary": "Le président Donald J. Trump retourne aujourd'hui au Michigan pour visiter le General Motors Proving Ground à Milford et célébrer le retour en force de la construction automobile américaine sous sa direction. Depuis son entrée en fonction, le président Trump a déclenché une renaissance de l’automobile en délocalisant la production, en rétablissant les emplois dans les usines et en fabriquant à nouveau des véhicules dans le Michigan. Des investissements records. Ventes record. […] L'article Made in Michigan Again : le programme commercial du président Trump dynamise les constructeurs automobiles américains"
-        }
-      }
-    },
-    {
-      "title": "Advance Monthly Manufacturers' Shipments, Inventories, and Orders",
-      "link": "https://www.census.gov/manufacturing/m3/",
-      "summary": "New orders for manufactured durable goods in June, up three of the last four months, increased $1.1 billion or 0.3 percent to $334.8 billion. June 2026: +0.3° % Change May 2026 (r): -4.0° % Change",
-      "published_at": "Mon, 27 Jul 2026 08:30:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "93519770ea93d596d9987ce3b9b6ebaf647bfc5c27b192fd3a50cc2f8048fef8",
-      "translations": {
-        "ja": {
-          "title": "メーカーの毎月の出荷、在庫、注文を事前に把握",
-          "summary": "６月の耐久財新規受注は過去４カ月中３カ月増加し、１１億ドル（０．３％）増の３３４８億ドルとなった。 2026年6月: +0.3° %変化 2026年5月(r): -4.0° %変化"
-        },
-        "zh-CN": {
-          "title": "预付每月制造商的发货量、库存和订单",
-          "summary": "6 月份耐用品制成品新订单增加 11 亿美元，即 0.3%，达到 3,348 亿美元，是过去四个月中的三个月。 2026 年 6 月：+0.3° 变化百分比 2026 年 5 月 (r)：-4.0° 变化百分比"
-        },
-        "de": {
-          "title": "Vorausschauende monatliche Herstellerlieferungen, Lagerbestände und Bestellungen",
-          "summary": "Die Auftragseingänge für langlebige Industriegüter stiegen im Juni um drei der letzten vier Monate um 1,1 Milliarden US-Dollar oder 0,3 Prozent auf 334,8 Milliarden US-Dollar. Juni 2026: +0,3° % Veränderung Mai 2026 (r): -4,0° % Veränderung"
-        },
-        "ko": {
-          "title": "월별 제조업체의 선적, 재고 및 주문 사전",
-          "summary": "6월 내구재 제조 신규 주문은 지난 4개월 중 3개월 증가해 11억 달러(0.3%) 증가한 3,348억 달러를 기록했습니다. 2026년 6월: +0.3° % 변화 2026년 5월(r): -4.0° % 변화"
-        },
-        "fr": {
-          "title": "Avancer les expéditions, les stocks et les commandes mensuelles des fabricants",
-          "summary": "Les nouvelles commandes de biens manufacturés durables en juin, en hausse sur trois des quatre derniers mois, ont augmenté de 1,1 milliard de dollars, soit 0,3%, à 334,8 milliards de dollars. Juin 2026 : +0,3° % Variation Mai 2026 (r) : -4,0° % Variation"
-        },
-        "zh-TW": {
-          "title": "預付每月製造商的出貨量、庫存和訂單",
-          "summary": "6 月耐久財製成品新訂單增加 11 億美元，或 0.3%，達到 3,348 億美元，是過去四個月的三個月。 2026 年 6 月：+0.3° 變化百分比 2026 年 5 月 (r)：-4.0° 變化百分比"
         }
       }
     },
@@ -957,7 +957,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1147,7 +1147,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
