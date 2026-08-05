@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-08-05T20:02:11.169755+00:00",
+  "fetched_at": "2026-08-05T20:38:16.991131+00:00",
   "total": 121,
   "items": [
+    {
+      "title": "Cook, Outlook for the U.S. and Alaskan Economies",
+      "link": "https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm",
+      "summary": "Speech At the 2026 Economic Luncheon of the Anchorage Economic Development Corporation, Anchorage, Alaska",
+      "published_at": "Wed, 5 Aug 2026 20:05:00 GMT",
+      "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "c31a0856028f5de1b049d1b6e812086a2fba9ad3168a520f1a5536cb7ca010be",
+      "translations": {
+        "zh-CN": {
+          "title": "库克，美国和阿拉斯加经济展望",
+          "summary": "在阿拉斯加州安克雷奇安克雷奇经济发展公司 2026 年经济午餐会上的讲话"
+        },
+        "ja": {
+          "title": "クック氏、米国とアラスカ経済の見通し",
+          "summary": "アラスカ州アンカレッジのアンカレッジ経済開発公社の2026年経済昼食会でのスピーチ"
+        },
+        "zh-TW": {
+          "title": "庫克，美國和阿拉斯加經濟展望",
+          "summary": "在阿拉斯加州安克雷奇安克雷奇經濟發展公司 2026 年經濟午餐會上的講話"
+        },
+        "ko": {
+          "title": "쿡, 미국 및 알래스카 경제 전망",
+          "summary": "알래스카 앵커리지에서 열린 앵커리지 경제 개발 공사의 2026년 경제 오찬에서 연설"
+        },
+        "fr": {
+          "title": "Cook, Perspectives des économies des États-Unis et de l'Alaska",
+          "summary": "Discours prononcé lors du déjeuner économique 2026 de l'Anchorage Economic Development Corporation, Anchorage, Alaska"
+        },
+        "de": {
+          "title": "Cook, Ausblick für die Volkswirtschaften der USA und Alaskas",
+          "summary": "Rede beim Economic Luncheon 2026 der Anchorage Economic Development Corporation, Anchorage, Alaska"
+        }
+      }
+    },
     {
       "title": "Treasury, IRS Issue Guidance on the Permanent Expansion of Paid Family and Medical Leave under the Working Families Tax Cuts",
       "link": "https://home.treasury.gov/news/press-releases/sb0593",
@@ -1577,18 +1615,6 @@
       "gold_bias": "bullish",
       "why_key": "geopolitics_bullish",
       "_translation_hash": "e7d1981efc8b79d1f8cff9584b7280fe21caeef53a618739fd4a01b1d5392c0c"
-    },
-    {
-      "title": "Bowman, A Framework for Practical Monetary Policy Decision Making",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260529a.htm",
-      "summary": "Speech At the Reykjavík Economic Conference 2026, Central Bank of Iceland, Reykjavík, Iceland",
-      "published_at": "Fri, 29 May 2026 13:10:00 GMT",
-      "source": "fed_remarks",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "0e38c9ef350694511a63a5b5603042def2fa86614aa940111b2b454f52cb7841"
     },
     {
       "title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
