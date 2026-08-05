@@ -1,7 +1,7 @@
 # timebuy.ex5 使用说明
 
 ## 功能
-定时间隔做多 EA，结合 SAR、初始止盈、跟踪回撤止盈、动态 SL、浮亏保护、自动填充模式识别、动态最大持仓管理和商业化彩色面板。
+定时间隔做多 EA，结合 SAR、初始止盈、跟踪回撤止盈、动态 SL、单仓硬止损、浮亏保护、自动填充模式识别、动态最大持仓管理和商业化彩色面板。
 
 ## 本版面板
 - 显示当前 Magic 结算金额、结算单数、结算手数和均单收益。
@@ -10,6 +10,7 @@
 - 分开显示多单与空单的单数和手数，便于检查方向暴露。
 - 显示止损出场单数与手数、止盈出场单数与手数、胜率。
 - 总运行动态统计固定为：当前 Magic 结算统计 + 当前浮动盈亏。
+- 显示单仓硬止损开关和每 0.01 手风险金额，触发后市价平当前 ticket 并进入下单间隔倒计时。
 
 ## 品牌信息
 - 编译人：微信：thRO03
@@ -21,13 +22,15 @@
 - `TP_USDPer001`：按 0.01 手计算的止盈金额。
 - `EnableSAR`：SAR 信号过滤。
 - `DynamicSLRatio`：动态止损跟踪比例。
+- `EnableSinglePositionHardStop`：单仓硬止损开关。
+- `SinglePositionHardStopUSD`：每 0.01 手单仓硬止损金额，实际阈值 = 当前手数 / 0.01 * 参数值。
 - `MinMarginLevel`、`BaseMaxOrders`：风险限制。
 - `PreferredFilling`、`ForceUseIOC`、`AllowUseFOK`：自动识别并回退订单填充模式。
 - `InpEnableCommercialPanel`、`InpPanelScale`、`InpPanelAlpha`：商业化面板、缩放和透明度。
 - `InpShowAveragePositionLine`、`InpAveragePositionLineColor`、`InpAveragePositionLineWidth`：当前 Magic 平均持仓线显示、颜色和宽度。
 
 ## 使用
-优先在 XAUUSD 模拟账户测试服务器时间、点值、填充模式和美元金额换算是否符合预期。面板会自动显示下单最小间隔倒计时、BUY 持仓状态、持仓均价、拒绝开仓原因、多周期 ADX、Magic 运行统计、授权状态、编译人微信和官网。
+优先在 XAUUSD 模拟账户测试服务器时间、点值、填充模式和美元金额换算是否符合预期。面板会自动显示下单最小间隔倒计时、BUY 持仓状态、持仓均价、单仓硬止损、拒绝开仓原因、多周期 ADX、Magic 运行统计、授权状态、编译人微信和官网。
 
 ## 风险
 定时开仓可能在单边逆势期间累积仓位。必须限制最大订单数并监控保证金。
