@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-08-05T17:31:10.929025+00:00",
-  "total": 122,
+  "fetched_at": "2026-08-05T18:08:28.833893+00:00",
+  "total": 121,
   "items": [
     {
       "title": "Treasury, IRS Issue Guidance on the Permanent Expansion of Paid Family and Medical Leave under the Working Families Tax Cuts",
@@ -75,44 +75,6 @@
         "zh-TW": {
           "title": "國庫借款諮詢委員會會議紀錄 2026 年 8 月 4 日",
           "summary": "國庫借款諮詢委員會會議紀錄 2026 年 8 月 4 日"
-        }
-      }
-    },
-    {
-      "title": "Report to the Secretary of the Treasury from the Treasury Borrowing Advisory Committee",
-      "link": "https://home.treasury.gov/news/press-releases/sb0591",
-      "summary": "Report to the Secretary of the Treasury from the Treasury Borrowing Advisory Committee",
-      "published_at": "2026-08-05T12:30:00Z",
-      "source": "treasury",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "02fd87c3640ec609e94d68a3dd15a12f39c845c610982671213eb9e995c11782",
-      "translations": {
-        "zh-CN": {
-          "title": "财政部借款咨询委员会向财政部长提交的报告",
-          "summary": "财政部借款咨询委员会向财政部长提交的报告"
-        },
-        "ja": {
-          "title": "財務省借入諮問委員会から財務長官への報告",
-          "summary": "財務省借入諮問委員会から財務長官への報告"
-        },
-        "ko": {
-          "title": "재무부 차입자문위원회에서 재무장관에게 보고",
-          "summary": "재무부 차입자문위원회에서 재무장관에게 보고"
-        },
-        "de": {
-          "title": "Bericht des Treasury Borrowing Advisory Committee an den Finanzminister",
-          "summary": "Bericht des Treasury Borrowing Advisory Committee an den Finanzminister"
-        },
-        "fr": {
-          "title": "Rapport au secrétaire au Trésor du Comité consultatif sur les emprunts du Trésor",
-          "summary": "Rapport au secrétaire au Trésor du Comité consultatif sur les emprunts du Trésor"
-        },
-        "zh-TW": {
-          "title": "財政部借款諮詢委員會向財政部長提交的報告",
-          "summary": "財政部借款諮詢委員會向財政部長提交的報告"
         }
       }
     },
@@ -1975,6 +1937,18 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "73bda2ca782b16cd80357da42f35608e224ee3c0499888fae3e0c51804e6e281"
+    },
+    {
+      "title": "Both payroll employment (+50,000) and unemployment rate (4.4%) change little in December",
+      "link": "https://www.bls.gov/news.release/archives/empsit_01092026.htm",
+      "summary": "",
+      "published_at": "2026-01-09T08:30:00-05:00",
+      "source": "bls_jobs",
+      "category": "labor",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "9b48fbf047f30f6f279873c58b8a7464563f431ae74d4d223455487a1521272a"
     }
   ]
 }
