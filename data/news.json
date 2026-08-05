@@ -1,7 +1,83 @@
 {
-  "fetched_at": "2026-08-05T12:20:54.990107+00:00",
+  "fetched_at": "2026-08-05T13:03:09.599004+00:00",
   "total": 121,
   "items": [
+    {
+      "title": "Report to the Secretary of the Treasury from the Treasury Borrowing Advisory Committee",
+      "link": "https://home.treasury.gov/news/press-releases/sb0591",
+      "summary": "Report to the Secretary of the Treasury from the Treasury Borrowing Advisory Committee",
+      "published_at": "2026-08-05T12:30:00Z",
+      "source": "treasury",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "02fd87c3640ec609e94d68a3dd15a12f39c845c610982671213eb9e995c11782",
+      "translations": {
+        "zh-CN": {
+          "title": "财政部借款咨询委员会向财政部长提交的报告",
+          "summary": "财政部借款咨询委员会向财政部长提交的报告"
+        },
+        "ja": {
+          "title": "財務省借入諮問委員会から財務長官への報告",
+          "summary": "財務省借入諮問委員会から財務長官への報告"
+        },
+        "ko": {
+          "title": "재무부 차입자문위원회에서 재무장관에게 보고",
+          "summary": "재무부 차입자문위원회에서 재무장관에게 보고"
+        },
+        "de": {
+          "title": "Bericht des Treasury Borrowing Advisory Committee an den Finanzminister",
+          "summary": "Bericht des Treasury Borrowing Advisory Committee an den Finanzminister"
+        },
+        "fr": {
+          "title": "Rapport au secrétaire au Trésor du Comité consultatif sur les emprunts du Trésor",
+          "summary": "Rapport au secrétaire au Trésor du Comité consultatif sur les emprunts du Trésor"
+        },
+        "zh-TW": {
+          "title": "財政部借款諮詢委員會向財政部長提交的報告",
+          "summary": "財政部借款諮詢委員會向財政部長提交的報告"
+        }
+      }
+    },
+    {
+      "title": "Minutes of the Meeting of the Treasury Borrowing Advisory Committee August 4, 2026",
+      "link": "https://home.treasury.gov/news/press-releases/sb0592",
+      "summary": "Minutes of the Meeting of the Treasury Borrowing Advisory Committee August 4, 2026",
+      "published_at": "2026-08-05T12:30:00Z",
+      "source": "treasury",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "c2348614f2aae0115a5640477f2dc8e888482d6f6511266a57838f2cca2f69c6",
+      "translations": {
+        "zh-CN": {
+          "title": "国库借款咨询委员会会议纪要 2026 年 8 月 4 日",
+          "summary": "国库借款咨询委员会会议纪要 2026 年 8 月 4 日"
+        },
+        "ja": {
+          "title": "国庫借入諮問委員会会議議事録 2026 年 8 月 4 日",
+          "summary": "国庫借入諮問委員会会議議事録 2026 年 8 月 4 日"
+        },
+        "ko": {
+          "title": "국고차입자문위원회 회의록 2026년 8월 4일",
+          "summary": "국고차입자문위원회 회의록 2026년 8월 4일"
+        },
+        "de": {
+          "title": "Protokoll der Sitzung des Treasury Borrowing Advisory Committee vom 4. August 2026",
+          "summary": "Protokoll der Sitzung des Treasury Borrowing Advisory Committee vom 4. August 2026"
+        },
+        "fr": {
+          "title": "Procès-verbal de la réunion du Comité consultatif sur les emprunts du Trésor du 4 août 2026",
+          "summary": "Procès-verbal de la réunion du Comité consultatif sur les emprunts du Trésor du 4 août 2026"
+        },
+        "zh-TW": {
+          "title": "國庫借款諮詢委員會會議紀錄 2026 年 8 月 4 日",
+          "summary": "國庫借款諮詢委員會會議紀錄 2026 年 8 月 4 日"
+        }
+      }
+    },
     {
       "title": "FBI Secretly Opened Probe Alleging Trump Fired Comey because he was a Russian Asset, Declassified Memos Show",
       "link": "https://www.whitehouse.gov/releases/2026/08/fbi-secretly-opened-probe-alleging-trump-fired-comey-because-he-was-a-russian-asset-declassified-memos-show/",
@@ -117,82 +193,6 @@
       }
     },
     {
-      "title": "Economy Statement for the Treasury Borrowing Advisory Committee",
-      "link": "https://home.treasury.gov/news/press-releases/sb0585",
-      "summary": "Economy Statement for the Treasury Borrowing Advisory Committee",
-      "published_at": "2026-08-03T19:00:00Z",
-      "source": "treasury",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "8a38db19b27714579f667c22b6fd581ed1a676fd99ac119febb5823cda009d18",
-      "translations": {
-        "zh-CN": {
-          "title": "财政部借款咨询委员会的经济声明",
-          "summary": "财政部借款咨询委员会的经济声明"
-        },
-        "ko": {
-          "title": "국고차입자문위원회 경제성명서",
-          "summary": "국고차입자문위원회 경제성명서"
-        },
-        "de": {
-          "title": "Wirtschaftserklärung für den Treasury Borrowing Advisory Committee",
-          "summary": "Wirtschaftserklärung für den Treasury Borrowing Advisory Committee"
-        },
-        "ja": {
-          "title": "財務省借入諮問委員会の経済声明",
-          "summary": "財務省借入諮問委員会の経済声明"
-        },
-        "zh-TW": {
-          "title": "財政部借款諮詢委員會的經濟聲明",
-          "summary": "財政部借款諮詢委員會的經濟聲明"
-        },
-        "fr": {
-          "title": "Déclaration économique pour le Comité consultatif sur les emprunts du Trésor",
-          "summary": "Déclaration économique pour le Comité consultatif sur les emprunts du Trésor"
-        }
-      }
-    },
-    {
-      "title": "Treasury Announces Marketable Borrowing Estimates",
-      "link": "https://home.treasury.gov/news/press-releases/sb0584",
-      "summary": "Treasury Announces Marketable Borrowing Estimates",
-      "published_at": "2026-08-03T19:00:00Z",
-      "source": "treasury",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "3e4acc32d28c0db60330bf734d882137e54895303f76ea536f6e77c8fdeb7312",
-      "translations": {
-        "zh-CN": {
-          "title": "财政部公布适销借款预估",
-          "summary": "财政部公布适销借款预估"
-        },
-        "ko": {
-          "title": "재무부, 시장성 있는 차입 추정치 발표",
-          "summary": "재무부, 시장성 있는 차입 추정치 발표"
-        },
-        "de": {
-          "title": "Das Finanzministerium gibt Schätzungen zur marktfähigen Kreditaufnahme bekannt",
-          "summary": "Das Finanzministerium gibt Schätzungen zur marktfähigen Kreditaufnahme bekannt"
-        },
-        "ja": {
-          "title": "財務省が市場性のある借入見積りを発表",
-          "summary": "財務省が市場性のある借入見積りを発表"
-        },
-        "zh-TW": {
-          "title": "財政部公佈適銷借款預估",
-          "summary": "財政部公佈適銷借款預估"
-        },
-        "fr": {
-          "title": "Le Trésor annonce des estimations d’emprunts négociables",
-          "summary": "Le Trésor annonce des estimations d’emprunts négociables"
-        }
-      }
-    },
-    {
       "title": "Construction Spending",
       "link": "https://www.census.gov/construction/c30/c30index.html",
       "summary": "Total construction activity for June 2026 ($2,166.5 billion) was 0.1 percent (+/-0.8 percent)* below the revised May 2026 ($2,168.5 billion) estimate. June 2026: -0.1* % Change May 2026 (r): 0.0* % Change",
@@ -273,7 +273,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -957,7 +957,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1147,7 +1147,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
