@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-08-06T13:43:50.217821+00:00",
+  "fetched_at": "2026-08-06T14:37:09.812390+00:00",
   "total": 121,
   "items": [
+    {
+      "title": "Monthly Wholesale Trade: Sales and Inventories",
+      "link": "https://www.census.gov/wholesale/index.html",
+      "summary": "June 2026 sales of merchant wholesalers were $794.1 billion, down 3.0 percent (+/- 0.5 percent) from last month. End-of-month inventories were $944.7 billion, up 0.2 percent (+/- 0.2 percent)* from last month. June 2026: +0.2* % Change in Inventories May 2026 (r): +0.3 % Change in Inventories",
+      "published_at": "Thu, 06 Aug 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "trade",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "trade_neutral",
+      "_translation_hash": "fdfd5a6c859f729c0511c02ea33314e4fcc3563dc806d2e65bbdee79cde57d92",
+      "translations": {
+        "ja": {
+          "title": "月次卸売業の売上と在庫",
+          "summary": "2026 年 6 月の商業卸売業者の売上高は 7,941 億ドルで、前月比 3.0% (+/- 0.5%) 減少しました。月末の在庫は 9,447 億ドルで、前月比 0.2% (+/- 0.2%)* 増加しました。 2026 年 6 月: +0.2* % 在庫変動率 2026 年 5 月 (r): +0.3 % 在庫変動率"
+        },
+        "zh-CN": {
+          "title": "月度批发贸易：销售和库存",
+          "summary": "2026 年 6 月商业批发商销售额为 7,941 亿美元，比上月下降 3.0%（+/- 0.5%）。月末库存为 9,447 亿美元，较上月增长 0.2% (+/- 0.2%)*。 2026 年 6 月：+0.2* 库存变化百分比 2026 年 5 月 (r)：+0.3% 库存变化"
+        },
+        "zh-TW": {
+          "title": "月度批發貿易：銷售和庫存",
+          "summary": "2026 年 6 月商業批發商銷售額為 7,941 億美元，較上月下降 3.0%（+/- 0.5%）。月末庫存為 9,447 億美元，較上月增長 0.2% (+/- 0.2%)*。 2026 年 6 月：+0.2* 庫存變化百分比 2026 年 5 月 (r)：+0.3% 庫存變化"
+        },
+        "ko": {
+          "title": "월별 도매 무역: 판매 및 재고",
+          "summary": "2026년 6월 도매상 매출은 7,941억 달러로 전월 대비 3.0%(+/-0.5%) 감소했습니다. 월말 재고는 9,447억 달러로 전월 대비 0.2%(+/- 0.2%)* 증가했습니다. 2026년 6월: +0.2* 재고 변동률 2026년 5월(r): 재고 변동률 +0.3%"
+        },
+        "fr": {
+          "title": "Commerce de gros mensuel : ventes et stocks",
+          "summary": "En juin 2026, les ventes des grossistes marchands s'élevaient à 794,1 milliards de dollars, en baisse de 3,0 % (+/- 0,5 %) par rapport au mois dernier. Les stocks de fin de mois s'élevaient à 944,7 milliards de dollars, en hausse de 0,2 pour cent (+/- 0,2 pour cent)* par rapport au mois dernier. Juin 2026 : +0,2* % de variation des stocks Mai 2026 (r) : +0,3 % de variation des stocks"
+        },
+        "de": {
+          "title": "Monatlicher Großhandel: Verkäufe und Lagerbestände",
+          "summary": "Der Umsatz der Handelsgroßhändler belief sich im Juni 2026 auf 794,1 Milliarden US-Dollar, was einem Rückgang von 3,0 Prozent (+/- 0,5 Prozent) gegenüber dem Vormonat entspricht. Die Lagerbestände zum Monatsende beliefen sich auf 944,7 Milliarden US-Dollar, ein Plus von 0,2 Prozent (+/- 0,2 Prozent)* gegenüber dem Vormonat. Juni 2026: +0,2* % Bestandsveränderung Mai 2026 (r): +0,3 % Bestandsveränderung"
+        }
+      }
+    },
     {
       "title": "Cook, Outlook for the U.S. and Alaskan Economies",
       "link": "https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm",
@@ -1291,44 +1329,6 @@
         "fr": {
           "title": "Procès-verbal du Comité fédéral de l'open market, 16-17 juin 2026",
           "summary": "Procès-verbal du Comité fédéral de l'open market, 16-17 juin 2026"
-        }
-      }
-    },
-    {
-      "title": "Monthly Wholesale Trade: Sales and Inventories",
-      "link": "https://www.census.gov/wholesale/index.html",
-      "summary": "May 2026 sales of merchant wholesalers were $817.4 billion, up 3.4 percent (+/- 0.5 percent) from last month. End-of-month inventories were $941.8 billion, up 0.1 percent (+/- 0.2 percent)* from last month. May 2026: +0.1* % Change in Inventories April 2026 (r): +0.7 % Change in Inventories",
-      "published_at": "Wed, 08 Jul 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "trade",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "beb6fbe5353935b16f1f63ef3f2c10d9968f0ff94acd237cca4563f90752e755",
-      "translations": {
-        "zh-CN": {
-          "title": "月度批发贸易：销售和库存",
-          "summary": "2026 年 5 月，商业批发商的销售额为 8,174 亿美元，比上个月增长 3.4%（+/- 0.5%）。月末库存为 9,418 亿美元，较上月增长 0.1%（+/- 0.2%）*。 2026 年 5 月：+0.1* 库存变化百分比 2026 年 4 月 (r)：+0.7% 库存变化"
-        },
-        "zh-TW": {
-          "title": "月度批發貿易：銷售和庫存",
-          "summary": "2026 年 5 月，商業批發商的銷售額為 8,174 億美元，比上個月成長 3.4%（+/- 0.5%）。月末庫存為 9,418 億美元，較上月增長 0.1%（+/- 0.2%）*。 2026 年 5 月：+0.1* 庫存變化百分比 2026 年 4 月 (r)：+0.7% 庫存變化"
-        },
-        "ja": {
-          "title": "月次卸売業の売上高と在庫状況",
-          "summary": "2026 年 5 月の小売卸売業者の売上高は 8,174 億ドルで、前月比 3.4% (+/- 0.5%) 増加しました。月末の在庫は 9,418 億ドルで、前月比 0.1% (+/- 0.2%)* 増加しました。 2026 年 5 月: +0.1* % 在庫変動率 2026 年 4 月 (r): +0.7 % 在庫変動率"
-        },
-        "ko": {
-          "title": "월별 도매 거래: 판매 및 재고",
-          "summary": "2026년 5월 도매상 매출은 8,174억 달러로 전월 대비 3.4%(+/- 0.5%) 증가했습니다. 월말 재고는 9,418억 달러로 전월 대비 0.1%(+/- 0.2%)* 증가했습니다. 2026년 5월: +0.1* 재고 변동률 2026년 4월(r): 재고 변동률 +0.7%"
-        },
-        "de": {
-          "title": "Monatlicher Großhandel: Verkäufe und Lagerbestände",
-          "summary": "Der Umsatz der Großhändler belief sich im Mai 2026 auf 817,4 Milliarden US-Dollar, ein Plus von 3,4 Prozent (+/- 0,5 Prozent) gegenüber dem Vormonat. Die Lagerbestände zum Monatsende beliefen sich auf 941,8 Milliarden US-Dollar, ein Plus von 0,1 Prozent (+/- 0,2 Prozent)* gegenüber dem Vormonat. Mai 2026: +0,1* % Bestandsveränderung April 2026 (r): +0,7 % Bestandsveränderung"
-        },
-        "fr": {
-          "title": "Commerce de gros mensuel : ventes et stocks",
-          "summary": "En mai 2026, les ventes des grossistes marchands s'élevaient à 817,4 milliards de dollars, en hausse de 3,4 % (+/- 0,5 %) par rapport au mois dernier. Les stocks de fin de mois s'élevaient à 941,8 milliards de dollars, en hausse de 0,1 pour cent (+/- 0,2 pour cent)* par rapport au mois dernier. Mai 2026 : +0,1* % de variation des stocks Avril 2026 (r) : +0,7 % de variation des stocks"
         }
       }
     },
