@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-08-07T16:45:36.914334+00:00",
+  "fetched_at": "2026-08-07T17:10:06.358273+00:00",
   "total": 124,
   "items": [
+    {
+      "title": "Treasury Continues to Follow the Money in Minnesota to Eliminate Fraud",
+      "link": "https://home.treasury.gov/news/press-releases/sb0597",
+      "summary": "Treasury Continues to Follow the Money in Minnesota to Eliminate Fraud",
+      "published_at": "2026-08-07T17:00:00Z",
+      "source": "treasury",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "81da61280786e7523690fb92fd749bf36e0f856fd4a84ab6288c42515a2176dd",
+      "translations": {
+        "zh-CN": {
+          "title": "财政部继续跟踪明尼苏达州的资金情况以消除欺诈",
+          "summary": "财政部继续跟踪明尼苏达州的资金情况以消除欺诈"
+        },
+        "ko": {
+          "title": "재무부는 사기를 근절하기 위해 미네소타의 자금을 계속 추적하고 있습니다.",
+          "summary": "재무부는 사기를 근절하기 위해 미네소타의 자금을 계속 추적하고 있습니다."
+        },
+        "de": {
+          "title": "Das Finanzministerium verfolgt weiterhin die Gelder in Minnesota, um Betrug zu beseitigen",
+          "summary": "Das Finanzministerium verfolgt weiterhin die Gelder in Minnesota, um Betrug zu beseitigen"
+        },
+        "zh-TW": {
+          "title": "財政部繼續追蹤明尼蘇達州的資金狀況以消除欺詐",
+          "summary": "財政部繼續追蹤明尼蘇達州的資金狀況以消除欺詐"
+        },
+        "ja": {
+          "title": "財務省は不正撲滅に向けてミネソタ州の資金を追跡し続ける",
+          "summary": "財務省は不正撲滅に向けてミネソタ州の資金を追跡し続ける"
+        },
+        "fr": {
+          "title": "Le Trésor continue de suivre l'argent au Minnesota pour éliminer la fraude",
+          "summary": "Le Trésor continue de suivre l'argent au Minnesota pour éliminer la fraude"
+        }
+      }
+    },
     {
       "title": "Fact Sheet: President Donald J. Trump Bolsters National Security and Strengthens U.S. Supply Chains by Imposing Tariffs on Polysilicon and its Derivatives",
       "link": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-bolsters-national-security-and-strengthens-u-s-supply-chains-by-imposing-tariffs-on-polysilicon-and-its-derivatives/",
@@ -265,44 +303,6 @@
         "fr": {
           "title": "Le Trésor et l'IRS publient des directives sur l'expansion permanente des congés familiaux et médicaux payés dans le cadre des réductions d'impôts pour les familles qui travaillent",
           "summary": "Le Trésor et l'IRS publient des directives sur l'expansion permanente des congés familiaux et médicaux payés dans le cadre des réductions d'impôts pour les familles qui travaillent"
-        }
-      }
-    },
-    {
-      "title": "Minutes of the Meeting of the Treasury Borrowing Advisory Committee August 4, 2026",
-      "link": "https://home.treasury.gov/news/press-releases/sb0592",
-      "summary": "Minutes of the Meeting of the Treasury Borrowing Advisory Committee August 4, 2026",
-      "published_at": "2026-08-05T12:30:00Z",
-      "source": "treasury",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "c2348614f2aae0115a5640477f2dc8e888482d6f6511266a57838f2cca2f69c6",
-      "translations": {
-        "zh-CN": {
-          "title": "国库借款咨询委员会会议纪要 2026 年 8 月 4 日",
-          "summary": "国库借款咨询委员会会议纪要 2026 年 8 月 4 日"
-        },
-        "ja": {
-          "title": "国庫借入諮問委員会会議議事録 2026 年 8 月 4 日",
-          "summary": "国庫借入諮問委員会会議議事録 2026 年 8 月 4 日"
-        },
-        "ko": {
-          "title": "국고차입자문위원회 회의록 2026년 8월 4일",
-          "summary": "국고차입자문위원회 회의록 2026년 8월 4일"
-        },
-        "de": {
-          "title": "Protokoll der Sitzung des Treasury Borrowing Advisory Committee vom 4. August 2026",
-          "summary": "Protokoll der Sitzung des Treasury Borrowing Advisory Committee vom 4. August 2026"
-        },
-        "fr": {
-          "title": "Procès-verbal de la réunion du Comité consultatif sur les emprunts du Trésor du 4 août 2026",
-          "summary": "Procès-verbal de la réunion du Comité consultatif sur les emprunts du Trésor du 4 août 2026"
-        },
-        "zh-TW": {
-          "title": "國庫借款諮詢委員會會議紀錄 2026 年 8 月 4 日",
-          "summary": "國庫借款諮詢委員會會議紀錄 2026 年 8 月 4 日"
         }
       }
     },
