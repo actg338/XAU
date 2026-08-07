@@ -1,42 +1,42 @@
 {
-  "fetched_at": "2026-08-07T20:39:21.178766+00:00",
+  "fetched_at": "2026-08-07T21:00:50.889287+00:00",
   "total": 123,
   "items": [
     {
-      "title": "Treasury Sanctions Crypto Exchanges Funding Iran’s IRGC and Enabling Illicit Finance",
-      "link": "https://home.treasury.gov/news/press-releases/sb0598",
-      "summary": "Treasury Sanctions Crypto Exchanges Funding Iran’s IRGC and Enabling Illicit Finance",
-      "published_at": "2026-08-07T17:30:00Z",
+      "title": "Treasury Releases CFIUS Annual Report for 2025",
+      "link": "https://home.treasury.gov/news/press-releases/sb0599",
+      "summary": "Treasury Releases CFIUS Annual Report for 2025",
+      "published_at": "2026-08-07T20:39:09Z",
       "source": "treasury",
-      "category": "geopolitics",
-      "impact": "medium",
-      "gold_bias": "bullish",
-      "why_key": "geopolitics_bullish",
-      "_translation_hash": "127b71ce014205b3612f0ebc127eaed8f64fef46606f7a37bfe9b33ac48f3a92",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "a5bb67c9c97457e3ddc08231847193fdbbf8d9e2ee8edcaf9932d11acdfa5732",
       "translations": {
         "zh-CN": {
-          "title": "财政部制裁为伊朗伊斯兰革命卫队提供资金并助长非法融资的加密货币交易所",
-          "summary": "财政部制裁为伊朗伊斯兰革命卫队提供资金并助长非法融资的加密货币交易所"
-        },
-        "zh-TW": {
-          "title": "財政部製裁為伊朗伊斯蘭革命衛隊提供資金並助長非法融資的加密貨幣交易所",
-          "summary": "財政部製裁為伊朗伊斯蘭革命衛隊提供資金並助長非法融資的加密貨幣交易所"
+          "title": "财政部发布 CFIUS 2025 年年度报告",
+          "summary": "财政部发布 CFIUS 2025 年年度报告"
         },
         "ja": {
-          "title": "イラン革命防衛隊に資金提供し違法金融を可能にする仮想通貨取引所を財務省制裁",
-          "summary": "イラン革命防衛隊に資金提供し違法金融を可能にする仮想通貨取引所を財務省制裁"
+          "title": "財務省が2025年のCFIUS年次報告書を発表",
+          "summary": "財務省が2025年のCFIUS年次報告書を発表"
+        },
+        "zh-TW": {
+          "title": "財政部發布 CFIUS 2025 年年度報告",
+          "summary": "財政部發布 CFIUS 2025 年年度報告"
         },
         "ko": {
-          "title": "이란의 IRGC에 자금을 지원하고 불법 금융을 활성화하는 재무부 암호화폐 거래소 제재",
-          "summary": "이란의 IRGC에 자금을 지원하고 불법 금융을 활성화하는 재무부 암호화폐 거래소 제재"
+          "title": "재무부, 2025년 CFIUS 연례 보고서 발표",
+          "summary": "재무부, 2025년 CFIUS 연례 보고서 발표"
         },
         "de": {
-          "title": "Das Finanzministerium verhängt Sanktionen gegen Krypto-Börsen, die das iranische IRGC finanzieren und illegale Finanzierungen ermöglichen",
-          "summary": "Das Finanzministerium verhängt Sanktionen gegen Krypto-Börsen, die das iranische IRGC finanzieren und illegale Finanzierungen ermöglichen"
+          "title": "Finanzministerium veröffentlicht CFIUS-Jahresbericht für 2025",
+          "summary": "Finanzministerium veröffentlicht CFIUS-Jahresbericht für 2025"
         },
         "fr": {
-          "title": "Le Trésor sanctionne les échanges cryptographiques finançant le CGRI iranien et permettant le financement illicite",
-          "summary": "Le Trésor sanctionne les échanges cryptographiques finançant le CGRI iranien et permettant le financement illicite"
+          "title": "Le Trésor publie le rapport annuel du CFIUS pour 2025",
+          "summary": "Le Trésor publie le rapport annuel du CFIUS pour 2025"
         }
       }
     },
@@ -79,40 +79,40 @@
       }
     },
     {
-      "title": "Treasury Continues to Follow the Money in Minnesota to Eliminate Fraud",
-      "link": "https://home.treasury.gov/news/press-releases/sb0597",
-      "summary": "Treasury Continues to Follow the Money in Minnesota to Eliminate Fraud",
-      "published_at": "2026-08-07T17:00:00Z",
+      "title": "Treasury Sanctions Crypto Exchanges Funding Iran’s IRGC and Enabling Illicit Finance",
+      "link": "https://home.treasury.gov/news/press-releases/sb0598",
+      "summary": "Treasury Sanctions Crypto Exchanges Funding Iran’s IRGC and Enabling Illicit Finance",
+      "published_at": "2026-08-07T17:30:00Z",
       "source": "treasury",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "81da61280786e7523690fb92fd749bf36e0f856fd4a84ab6288c42515a2176dd",
+      "category": "geopolitics",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "geopolitics_bullish",
+      "_translation_hash": "127b71ce014205b3612f0ebc127eaed8f64fef46606f7a37bfe9b33ac48f3a92",
       "translations": {
         "zh-CN": {
-          "title": "财政部继续跟踪明尼苏达州的资金情况以消除欺诈",
-          "summary": "财政部继续跟踪明尼苏达州的资金情况以消除欺诈"
-        },
-        "ko": {
-          "title": "재무부는 사기를 근절하기 위해 미네소타의 자금을 계속 추적하고 있습니다.",
-          "summary": "재무부는 사기를 근절하기 위해 미네소타의 자금을 계속 추적하고 있습니다."
-        },
-        "de": {
-          "title": "Das Finanzministerium verfolgt weiterhin die Gelder in Minnesota, um Betrug zu beseitigen",
-          "summary": "Das Finanzministerium verfolgt weiterhin die Gelder in Minnesota, um Betrug zu beseitigen"
+          "title": "财政部制裁为伊朗伊斯兰革命卫队提供资金并助长非法融资的加密货币交易所",
+          "summary": "财政部制裁为伊朗伊斯兰革命卫队提供资金并助长非法融资的加密货币交易所"
         },
         "zh-TW": {
-          "title": "財政部繼續追蹤明尼蘇達州的資金狀況以消除欺詐",
-          "summary": "財政部繼續追蹤明尼蘇達州的資金狀況以消除欺詐"
+          "title": "財政部製裁為伊朗伊斯蘭革命衛隊提供資金並助長非法融資的加密貨幣交易所",
+          "summary": "財政部製裁為伊朗伊斯蘭革命衛隊提供資金並助長非法融資的加密貨幣交易所"
         },
         "ja": {
-          "title": "財務省は不正撲滅に向けてミネソタ州の資金を追跡し続ける",
-          "summary": "財務省は不正撲滅に向けてミネソタ州の資金を追跡し続ける"
+          "title": "イラン革命防衛隊に資金提供し違法金融を可能にする仮想通貨取引所を財務省制裁",
+          "summary": "イラン革命防衛隊に資金提供し違法金融を可能にする仮想通貨取引所を財務省制裁"
+        },
+        "ko": {
+          "title": "이란의 IRGC에 자금을 지원하고 불법 금융을 활성화하는 재무부 암호화폐 거래소 제재",
+          "summary": "이란의 IRGC에 자금을 지원하고 불법 금융을 활성화하는 재무부 암호화폐 거래소 제재"
+        },
+        "de": {
+          "title": "Das Finanzministerium verhängt Sanktionen gegen Krypto-Börsen, die das iranische IRGC finanzieren und illegale Finanzierungen ermöglichen",
+          "summary": "Das Finanzministerium verhängt Sanktionen gegen Krypto-Börsen, die das iranische IRGC finanzieren und illegale Finanzierungen ermöglichen"
         },
         "fr": {
-          "title": "Le Trésor continue de suivre l'argent au Minnesota pour éliminer la fraude",
-          "summary": "Le Trésor continue de suivre l'argent au Minnesota pour éliminer la fraude"
+          "title": "Le Trésor sanctionne les échanges cryptographiques finançant le CGRI iranien et permettant le financement illicite",
+          "summary": "Le Trésor sanctionne les échanges cryptographiques finançant le CGRI iranien et permettant le financement illicite"
         }
       }
     },
@@ -539,7 +539,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1109,7 +1109,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1299,7 +1299,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
