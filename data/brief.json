@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-07T12:19:01.028623+00:00",
+  "generated_at": "2026-08-07T12:40:53.182867+00:00",
   "direction": "bearish",
   "label_key": "mild_bearish",
-  "confidence": 75,
-  "score": -23,
+  "confidence": 72,
+  "score": -12,
   "drivers": [
     "warsh",
     "fedwatch"
@@ -33,9 +33,9 @@
     }
   ],
   "next_event": {
-    "event_key": "nfp",
-    "title": "Employment Situation",
-    "starts_at": "2026-08-07T12:30:00+00:00",
+    "event_key": "cpi",
+    "title": "Consumer Price Index",
+    "starts_at": "2026-08-12T12:30:00+00:00",
     "impact": "high",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"

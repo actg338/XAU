@@ -1,15 +1,7 @@
 {
-  "fetched_at": "2026-08-07T12:19:00.911613+00:00",
+  "fetched_at": "2026-08-07T12:40:52.964673+00:00",
   "timezone": "UTC",
   "events": [
-    {
-      "event_key": "nfp",
-      "title": "Employment Situation",
-      "starts_at": "2026-08-07T12:30:00+00:00",
-      "impact": "high",
-      "source": "BLS",
-      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
-    },
     {
       "event_key": "cpi",
       "title": "Consumer Price Index",
@@ -190,6 +182,14 @@
       "event_key": "bls_release",
       "title": "State Employment and Unemployment (Monthly)",
       "starts_at": "2026-09-18T14:00:00+00:00",
+      "impact": "medium",
+      "source": "BLS",
+      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
+    },
+    {
+      "event_key": "bls_release",
+      "title": "Employee Tenure",
+      "starts_at": "2026-09-24T14:00:00+00:00",
       "impact": "medium",
       "source": "BLS",
       "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
