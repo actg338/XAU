@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-08-08T05:48:26.506454+00:00",
+  "fetched_at": "2026-08-08T06:07:15.463105+00:00",
   "total": 124,
   "items": [
+    {
+      "title": "Secretary Bessent Issues Statement Welcoming S&P Global Release of Critical Mineral Reference Prices",
+      "link": "https://home.treasury.gov/news/press-releases/sb0600",
+      "summary": "Secretary Bessent Issues Statement Welcoming S&P Global Release of Critical Mineral Reference Prices",
+      "published_at": "2026-08-07T22:12:41Z",
+      "source": "treasury",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "e7c7e0bc1d8f8baf7b5cc3b8437474c9ca00716106219763dd4e0e980a94e7d1",
+      "translations": {
+        "zh-CN": {
+          "title": "贝森特部长发表声明欢迎标普全球发布关键矿产参考价格",
+          "summary": "贝森特部长发表声明欢迎标普全球发布关键矿产参考价格"
+        },
+        "zh-TW": {
+          "title": "貝森特部長發表聲明歡迎標普全球發布關鍵礦產參考價格",
+          "summary": "貝森特部長發表聲明歡迎標普全球發布關鍵礦產參考價格"
+        },
+        "de": {
+          "title": "Minister Bessent gibt eine Erklärung ab, in der er die weltweite Veröffentlichung kritischer Mineralreferenzpreise durch S&P begrüßt",
+          "summary": "Minister Bessent gibt eine Erklärung ab, in der er die weltweite Veröffentlichung kritischer Mineralreferenzpreise durch S&P begrüßt"
+        },
+        "fr": {
+          "title": "Le secrétaire d'État Bessent publie une déclaration saluant la publication par S&P Global des prix de référence des minéraux critiques",
+          "summary": "Le secrétaire d'État Bessent publie une déclaration saluant la publication par S&P Global des prix de référence des minéraux critiques"
+        },
+        "ja": {
+          "title": "ベッセント長官、S&Pの重要鉱物参照価格の世界的発表を歓迎する声明を発表",
+          "summary": "ベッセント長官、S&Pの重要鉱物参照価格の世界的発表を歓迎する声明を発表"
+        },
+        "ko": {
+          "title": "Bessent 장관 성명서 S&P의 글로벌 중요 광물 기준 가격 발표를 환영하는 성명서",
+          "summary": "Bessent 장관 성명서 S&P의 글로벌 중요 광물 기준 가격 발표를 환영하는 성명서"
+        }
+      }
+    },
     {
       "title": "Treasury Releases CFIUS Annual Report for 2025",
       "link": "https://home.treasury.gov/news/press-releases/sb0599",
@@ -37,44 +75,6 @@
         "fr": {
           "title": "Le Trésor publie le rapport annuel du CFIUS pour 2025",
           "summary": "Le Trésor publie le rapport annuel du CFIUS pour 2025"
-        }
-      }
-    },
-    {
-      "title": "Secretary Bessent Issues Statement Welcoming S&P Global Release of Critical Mineral Reference Prices",
-      "link": "https://home.treasury.gov/news/press-releases/sb0600",
-      "summary": "Secretary Bessent Issues Statement Welcoming S&P Global Release of Critical Mineral Reference Prices",
-      "published_at": "2026-08-07T18:12:41Z",
-      "source": "treasury",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "e7c7e0bc1d8f8baf7b5cc3b8437474c9ca00716106219763dd4e0e980a94e7d1",
-      "translations": {
-        "zh-CN": {
-          "title": "贝森特部长发表声明欢迎标普全球发布关键矿产参考价格",
-          "summary": "贝森特部长发表声明欢迎标普全球发布关键矿产参考价格"
-        },
-        "zh-TW": {
-          "title": "貝森特部長發表聲明歡迎標普全球發布關鍵礦產參考價格",
-          "summary": "貝森特部長發表聲明歡迎標普全球發布關鍵礦產參考價格"
-        },
-        "de": {
-          "title": "Minister Bessent gibt eine Erklärung ab, in der er die weltweite Veröffentlichung kritischer Mineralreferenzpreise durch S&P begrüßt",
-          "summary": "Minister Bessent gibt eine Erklärung ab, in der er die weltweite Veröffentlichung kritischer Mineralreferenzpreise durch S&P begrüßt"
-        },
-        "fr": {
-          "title": "Le secrétaire d'État Bessent publie une déclaration saluant la publication par S&P Global des prix de référence des minéraux critiques",
-          "summary": "Le secrétaire d'État Bessent publie une déclaration saluant la publication par S&P Global des prix de référence des minéraux critiques"
-        },
-        "ja": {
-          "title": "ベッセント長官、S&Pの重要鉱物参照価格の世界的発表を歓迎する声明を発表",
-          "summary": "ベッセント長官、S&Pの重要鉱物参照価格の世界的発表を歓迎する声明を発表"
-        },
-        "ko": {
-          "title": "Bessent 장관 성명서 S&P의 글로벌 중요 광물 기준 가격 발표를 환영하는 성명서",
-          "summary": "Bessent 장관 성명서 S&P의 글로벌 중요 광물 기준 가격 발표를 환영하는 성명서"
         }
       }
     },
@@ -577,7 +577,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1147,7 +1147,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1337,7 +1337,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
