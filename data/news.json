@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-08-10T17:04:18.079765+00:00",
+  "fetched_at": "2026-08-10T17:29:45.267779+00:00",
   "total": 124,
   "items": [
+    {
+      "title": "Remarks from Secretary of the Treasury Scott Bessent at Joint Base Lindsey Graham Renaming Ceremony",
+      "link": "https://home.treasury.gov/news/press-releases/sb0601",
+      "summary": "Remarks from Secretary of the Treasury Scott Bessent at Joint Base Lindsey Graham Renaming Ceremony",
+      "published_at": "2026-08-10T17:05:11Z",
+      "source": "treasury",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "ac999ff87152c4202404038ea8d3dc677597a653c077643dbd1a2238f673882f",
+      "translations": {
+        "zh-CN": {
+          "title": "财政部长斯科特·贝森特在林赛·格雷厄姆联合基地更名仪式上的讲话",
+          "summary": "财政部长斯科特·贝森特在林赛·格雷厄姆联合基地更名仪式上的讲话"
+        },
+        "ja": {
+          "title": "リンゼー・グラハム統合基地の改名式典におけるスコット・ベッセント財務長官の発言",
+          "summary": "リンゼー・グラハム統合基地の改名式典におけるスコット・ベッセント財務長官の発言"
+        },
+        "zh-TW": {
+          "title": "財政部長斯科特貝森特在林賽格雷厄姆聯合基地更名儀式上的講話",
+          "summary": "財政部長斯科特貝森特在林賽格雷厄姆聯合基地更名儀式上的講話"
+        },
+        "ko": {
+          "title": "린지 그레이엄 합동기지 개명식에서 스콧 베센트(Scott Bessent) 재무장관의 발언",
+          "summary": "린지 그레이엄 합동기지 개명식에서 스콧 베센트(Scott Bessent) 재무장관의 발언"
+        },
+        "fr": {
+          "title": "Allocution du secrétaire au Trésor Scott Bessent lors de la cérémonie de changement de nom de la base commune Lindsey Graham",
+          "summary": "Allocution du secrétaire au Trésor Scott Bessent lors de la cérémonie de changement de nom de la base commune Lindsey Graham"
+        },
+        "de": {
+          "title": "Bemerkungen von Finanzminister Scott Bessent bei der Umbenennungszeremonie des Joint Base Lindsey Graham",
+          "summary": "Bemerkungen von Finanzminister Scott Bessent bei der Umbenennungszeremonie des Joint Base Lindsey Graham"
+        }
+      }
+    },
     {
       "title": "Secretary Bessent Issues Statement Welcoming S&P Global Release of Critical Mineral Reference Prices",
       "link": "https://home.treasury.gov/news/press-releases/sb0600",
@@ -721,44 +759,6 @@
         "fr": {
           "title": "Faire progresser le commerce international des marchandises aux États-Unis",
           "summary": "Le déficit anticipé du commerce international de biens a diminué à 101,5 milliards de dollars en juin contre 105,9 milliards de dollars en mai, les importations ayant diminué plus que les exportations. Juin 2026 : -4,2° % Variation Mai 2026 : 28,8° % Variation"
-        }
-      }
-    },
-    {
-      "title": "Remarks by Secretary of the Treasury Scott Bessent Before the Financial Literacy and Education Commission",
-      "link": "https://home.treasury.gov/news/press-releases/sb0579",
-      "summary": "Remarks by Secretary of the Treasury Scott Bessent Before the Financial Literacy and Education Commission",
-      "published_at": "2026-07-27T17:30:00Z",
-      "source": "treasury",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "302ec01568ec4a67f25cb8647c92401e7472413e294fac049b405306117ce6b5",
-      "translations": {
-        "ja": {
-          "title": "スコット・ベッセント財務長官による金融リテラシー・教育委員会での発言",
-          "summary": "スコット・ベッセント財務長官による金融リテラシー・教育委員会での発言"
-        },
-        "zh-CN": {
-          "title": "财政部长斯科特·贝森特在金融素养和教育委员会上的讲话",
-          "summary": "财政部长斯科特·贝森特在金融素养和教育委员会上的讲话"
-        },
-        "ko": {
-          "title": "금융교육위원회에서 Scott Bessent 재무장관의 발언",
-          "summary": "금융교육위원회에서 Scott Bessent 재무장관의 발언"
-        },
-        "zh-TW": {
-          "title": "財政部長斯科特·貝森特在金融素養和教育委員會的講話",
-          "summary": "財政部長斯科特·貝森特在金融素養和教育委員會的講話"
-        },
-        "de": {
-          "title": "Bemerkungen von Finanzminister Scott Bessent vor der Financial Literacy and Education Commission",
-          "summary": "Bemerkungen von Finanzminister Scott Bessent vor der Financial Literacy and Education Commission"
-        },
-        "fr": {
-          "title": "Allocution du secrétaire au Trésor Scott Bessent devant la Commission pour la littératie et l'éducation financières",
-          "summary": "Allocution du secrétaire au Trésor Scott Bessent devant la Commission pour la littératie et l'éducation financières"
         }
       }
     },
