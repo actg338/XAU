@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-08-11T05:43:32.522991+00:00",
+  "fetched_at": "2026-08-11T06:06:21.537638+00:00",
   "total": 123,
   "items": [
     {
       "title": "Remarks from Secretary of the Treasury Scott Bessent at Joint Base Lindsey Graham Renaming Ceremony",
       "link": "https://home.treasury.gov/news/press-releases/sb0601",
       "summary": "Remarks from Secretary of the Treasury Scott Bessent at Joint Base Lindsey Graham Renaming Ceremony",
-      "published_at": "2026-08-10T17:05:11Z",
+      "published_at": "2026-08-10T13:05:11Z",
       "source": "treasury",
       "category": "other",
       "impact": "low",
@@ -44,7 +44,7 @@
       "title": "Secretary Bessent Issues Statement Welcoming S&P Global Release of Critical Mineral Reference Prices",
       "link": "https://home.treasury.gov/news/press-releases/sb0600",
       "summary": "Secretary Bessent Issues Statement Welcoming S&P Global Release of Critical Mineral Reference Prices",
-      "published_at": "2026-08-07T22:12:41Z",
+      "published_at": "2026-08-07T18:12:41Z",
       "source": "treasury",
       "category": "other",
       "impact": "low",
@@ -82,7 +82,7 @@
       "title": "Treasury Releases CFIUS Annual Report for 2025",
       "link": "https://home.treasury.gov/news/press-releases/sb0599",
       "summary": "Treasury Releases CFIUS Annual Report for 2025",
-      "published_at": "2026-08-07T20:39:09Z",
+      "published_at": "2026-08-07T16:39:09Z",
       "source": "treasury",
       "category": "other",
       "impact": "low",
@@ -120,7 +120,7 @@
       "title": "Treasury Dismantles Iranian Regime’s Global Clandestine Currency Networks",
       "link": "https://home.treasury.gov/news/press-releases/sb0596",
       "summary": "Treasury Dismantles Iranian Regime’s Global Clandestine Currency Networks",
-      "published_at": "2026-08-07T17:30:00Z",
+      "published_at": "2026-08-07T13:30:00Z",
       "source": "treasury",
       "category": "trade",
       "impact": "medium",
@@ -158,7 +158,7 @@
       "title": "Treasury Sanctions Crypto Exchanges Funding Iran’s IRGC and Enabling Illicit Finance",
       "link": "https://home.treasury.gov/news/press-releases/sb0598",
       "summary": "Treasury Sanctions Crypto Exchanges Funding Iran’s IRGC and Enabling Illicit Finance",
-      "published_at": "2026-08-07T17:30:00Z",
+      "published_at": "2026-08-07T13:30:00Z",
       "source": "treasury",
       "category": "geopolitics",
       "impact": "medium",
@@ -269,44 +269,6 @@
       }
     },
     {
-      "title": "Remarks from Secretary of the Treasury Scott Bessent at Event with Arizona Bankers in Phoenix",
-      "link": "https://home.treasury.gov/news/press-releases/sb0595",
-      "summary": "Remarks from Secretary of the Treasury Scott Bessent at Event with Arizona Bankers in Phoenix",
-      "published_at": "2026-08-06T19:40:00Z",
-      "source": "treasury",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "f48e65048891d11c74c25fc83bfbb20f80651ae38f5c01eca026d37f6f51e40a",
-      "translations": {
-        "zh-CN": {
-          "title": "财政部长斯科特·贝森特在凤凰城与亚利桑那州银行家举行的活动上的讲话",
-          "summary": "财政部长斯科特·贝森特在凤凰城与亚利桑那州银行家举行的活动上的讲话"
-        },
-        "ja": {
-          "title": "フェニックスでのアリゾナ銀行関係者とのイベントにおけるスコット・ベッセント財務長官の発言",
-          "summary": "フェニックスでのアリゾナ銀行関係者とのイベントにおけるスコット・ベッセント財務長官の発言"
-        },
-        "ko": {
-          "title": "피닉스에서 열린 애리조나 은행가들과의 행사에서 스콧 베센트(Scott Bessent) 재무장관의 발언",
-          "summary": "피닉스에서 열린 애리조나 은행가들과의 행사에서 스콧 베센트(Scott Bessent) 재무장관의 발언"
-        },
-        "zh-TW": {
-          "title": "財政部長斯科特貝森特在鳳凰城與亞利桑那州銀行家舉行的活動上的講話",
-          "summary": "財政部長斯科特貝森特在鳳凰城與亞利桑那州銀行家舉行的活動上的講話"
-        },
-        "de": {
-          "title": "Bemerkungen von Finanzminister Scott Bessent bei einer Veranstaltung mit Arizona Bankers in Phoenix",
-          "summary": "Bemerkungen von Finanzminister Scott Bessent bei einer Veranstaltung mit Arizona Bankers in Phoenix"
-        },
-        "fr": {
-          "title": "Allocution du secrétaire au Trésor Scott Bessent lors d'un événement avec les banquiers de l'Arizona à Phoenix",
-          "summary": "Allocution du secrétaire au Trésor Scott Bessent lors d'un événement avec les banquiers de l'Arizona à Phoenix"
-        }
-      }
-    },
-    {
       "title": "Fraud.gov: Track the Trump Administration’s Relentless War on Fraud",
       "link": "https://www.whitehouse.gov/releases/2026/08/fraud-gov-track-the-trump-administrations-relentless-war-on-fraud/",
       "summary": "President Donald J. Trump and Vice President JD Vance are waging war on the fraudsters and scammers who have looted hardworking Americans for far too long. Today, that war becomes fully transparent at fraud.gov — a new website where Americans can track every action, every takedown, and every dollar recovered as part of the unrelenting […] The post Fraud.gov: Track the Trump Administration’s Relentless War on Fraud appeared first on The White House .",
@@ -341,6 +303,44 @@
         "fr": {
           "title": "Fraud.gov : suivez la guerre incessante de l’administration Trump contre la fraude",
           "summary": "Le président Donald J. Trump et le vice-président JD Vance mènent une guerre contre les fraudeurs et les escrocs qui pillent depuis trop longtemps les travailleurs américains. Aujourd’hui, cette guerre devient totalement transparente sur fraud.gov – un nouveau site Web où les Américains peuvent suivre chaque action, chaque retrait et chaque dollar récupéré dans le cadre de l’implacable […] L’article Fraud.gov : Suivez la guerre implacable de l’administration Trump contre la fraude est apparu en premier sur La Maison Blanche."
+        }
+      }
+    },
+    {
+      "title": "Remarks from Secretary of the Treasury Scott Bessent at Event with Arizona Bankers in Phoenix",
+      "link": "https://home.treasury.gov/news/press-releases/sb0595",
+      "summary": "Remarks from Secretary of the Treasury Scott Bessent at Event with Arizona Bankers in Phoenix",
+      "published_at": "2026-08-06T15:40:00Z",
+      "source": "treasury",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "f48e65048891d11c74c25fc83bfbb20f80651ae38f5c01eca026d37f6f51e40a",
+      "translations": {
+        "zh-CN": {
+          "title": "财政部长斯科特·贝森特在凤凰城与亚利桑那州银行家举行的活动上的讲话",
+          "summary": "财政部长斯科特·贝森特在凤凰城与亚利桑那州银行家举行的活动上的讲话"
+        },
+        "ja": {
+          "title": "フェニックスでのアリゾナ銀行関係者とのイベントにおけるスコット・ベッセント財務長官の発言",
+          "summary": "フェニックスでのアリゾナ銀行関係者とのイベントにおけるスコット・ベッセント財務長官の発言"
+        },
+        "ko": {
+          "title": "피닉스에서 열린 애리조나 은행가들과의 행사에서 스콧 베센트(Scott Bessent) 재무장관의 발언",
+          "summary": "피닉스에서 열린 애리조나 은행가들과의 행사에서 스콧 베센트(Scott Bessent) 재무장관의 발언"
+        },
+        "zh-TW": {
+          "title": "財政部長斯科特貝森特在鳳凰城與亞利桑那州銀行家舉行的活動上的講話",
+          "summary": "財政部長斯科特貝森特在鳳凰城與亞利桑那州銀行家舉行的活動上的講話"
+        },
+        "de": {
+          "title": "Bemerkungen von Finanzminister Scott Bessent bei einer Veranstaltung mit Arizona Bankers in Phoenix",
+          "summary": "Bemerkungen von Finanzminister Scott Bessent bei einer Veranstaltung mit Arizona Bankers in Phoenix"
+        },
+        "fr": {
+          "title": "Allocution du secrétaire au Trésor Scott Bessent lors d'un événement avec les banquiers de l'Arizona à Phoenix",
+          "summary": "Allocution du secrétaire au Trésor Scott Bessent lors d'un événement avec les banquiers de l'Arizona à Phoenix"
         }
       }
     },
