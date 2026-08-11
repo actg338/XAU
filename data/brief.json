@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-08-11T21:55:45.519815+00:00",
+  "generated_at": "2026-08-11T22:18:52.485430+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
-  "confidence": 92,
-  "score": -50,
+  "confidence": 82,
+  "score": -42,
   "drivers": [
     "warsh",
-    "fedwatch",
+    "fedwatch"
+  ],
+  "counter_risks": [
     "xau"
   ],
-  "counter_risks": [],
   "top_news": [
     {
       "title": "Fact Sheet: President Donald J. Trump Bolsters National Security and Strengthens U.S. Supply Chains by Imposing Tariffs on Polysilicon and its Derivatives",
