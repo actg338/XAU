@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-08-11T12:52:30.848601+00:00",
+  "fetched_at": "2026-08-11T13:26:32.680620+00:00",
   "total": 123,
   "items": [
+    {
+      "title": "Treasury Announces Employer Contributions to Trump Accounts, Drawing Corporate Support",
+      "link": "https://home.treasury.gov/news/press-releases/sb0602",
+      "summary": "Treasury Announces Employer Contributions to Trump Accounts, Drawing Corporate Support",
+      "published_at": "2026-08-11T13:00:00Z",
+      "source": "treasury",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "24fc45a2fda91e60db0fb6b07bd079252c2cf62e6ee2b4c234a52a3a2459b498",
+      "translations": {
+        "zh-CN": {
+          "title": "财政部宣布雇主向特朗普账户缴款，争取企业支持",
+          "summary": "财政部宣布雇主向特朗普账户缴款，争取企业支持"
+        },
+        "ja": {
+          "title": "財務省、トランプ大統領の口座への雇用主の拠出を発表、企業の支持を集める",
+          "summary": "財務省、トランプ大統領の口座への雇用主の拠出を発表、企業の支持を集める"
+        },
+        "zh-TW": {
+          "title": "財政部宣布雇主向川普帳戶繳款，爭取企業支持",
+          "summary": "財政部宣布雇主向川普帳戶繳款，爭取企業支持"
+        },
+        "ko": {
+          "title": "재무부, 트럼프 계정에 대한 고용주 기부 발표, 기업 지원 이끌어내다",
+          "summary": "재무부, 트럼프 계정에 대한 고용주 기부 발표, 기업 지원 이끌어내다"
+        },
+        "fr": {
+          "title": "Le Trésor annonce les contributions des employeurs aux comptes Trump, attirant le soutien des entreprises",
+          "summary": "Le Trésor annonce les contributions des employeurs aux comptes Trump, attirant le soutien des entreprises"
+        },
+        "de": {
+          "title": "Das Finanzministerium kündigt Arbeitgeberbeiträge zu Trump-Konten an und erhält Unterstützung von Unternehmen",
+          "summary": "Das Finanzministerium kündigt Arbeitgeberbeiträge zu Trump-Konten an und erhält Unterstützung von Unternehmen"
+        }
+      }
+    },
     {
       "title": "Remarks from Secretary of the Treasury Scott Bessent at Joint Base Lindsey Graham Renaming Ceremony",
       "link": "https://home.treasury.gov/news/press-releases/sb0601",
@@ -113,44 +151,6 @@
         "fr": {
           "title": "Le Trésor publie le rapport annuel du CFIUS pour 2025",
           "summary": "Le Trésor publie le rapport annuel du CFIUS pour 2025"
-        }
-      }
-    },
-    {
-      "title": "Treasury Dismantles Iranian Regime’s Global Clandestine Currency Networks",
-      "link": "https://home.treasury.gov/news/press-releases/sb0596",
-      "summary": "Treasury Dismantles Iranian Regime’s Global Clandestine Currency Networks",
-      "published_at": "2026-08-07T13:30:00Z",
-      "source": "treasury",
-      "category": "trade",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "6557ab209103803c4eed3ac66afd108b02c34925642975033b3e5ca320c79ad4",
-      "translations": {
-        "zh-CN": {
-          "title": "财政部拆除伊朗政权的全球秘密货币网络",
-          "summary": "财政部拆除伊朗政权的全球秘密货币网络"
-        },
-        "zh-TW": {
-          "title": "財政部拆除伊朗政權的全球秘密貨幣網絡",
-          "summary": "財政部拆除伊朗政權的全球秘密貨幣網絡"
-        },
-        "ja": {
-          "title": "財務省がイラン政権の世界的な秘密通貨ネットワークを解体",
-          "summary": "財務省がイラン政権の世界的な秘密通貨ネットワークを解体"
-        },
-        "ko": {
-          "title": "재무부, 이란 정권의 글로벌 비밀 통화 네트워크 해체",
-          "summary": "재무부, 이란 정권의 글로벌 비밀 통화 네트워크 해체"
-        },
-        "de": {
-          "title": "Das Finanzministerium zerschlägt die globalen geheimen Währungsnetzwerke des iranischen Regimes",
-          "summary": "Das Finanzministerium zerschlägt die globalen geheimen Währungsnetzwerke des iranischen Regimes"
-        },
-        "fr": {
-          "title": "Le Trésor démantèle les réseaux mondiaux de devises clandestines du régime iranien",
-          "summary": "Le Trésor démantèle les réseaux mondiaux de devises clandestines du régime iranien"
         }
       }
     },
