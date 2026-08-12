@@ -1,23 +1,7 @@
 {
-  "fetched_at": "2026-08-12T12:08:23.712029+00:00",
+  "fetched_at": "2026-08-12T12:31:21.923610+00:00",
   "timezone": "UTC",
   "events": [
-    {
-      "event_key": "cpi",
-      "title": "Consumer Price Index",
-      "starts_at": "2026-08-12T12:30:00+00:00",
-      "impact": "high",
-      "source": "BLS",
-      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
-    },
-    {
-      "event_key": "bls_release",
-      "title": "Real Earnings",
-      "starts_at": "2026-08-12T12:30:00+00:00",
-      "impact": "medium",
-      "source": "BLS",
-      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
-    },
     {
       "event_key": "ppi",
       "title": "Producer Price Index",
@@ -190,6 +174,22 @@
       "event_key": "bls_release",
       "title": "Employee Tenure",
       "starts_at": "2026-09-24T14:00:00+00:00",
+      "impact": "medium",
+      "source": "BLS",
+      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
+    },
+    {
+      "event_key": "bls_release",
+      "title": "Job Flexibilities and Work Schedules",
+      "starts_at": "2026-09-24T14:00:00+00:00",
+      "impact": "medium",
+      "source": "BLS",
+      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
+    },
+    {
+      "event_key": "bls_release",
+      "title": "Employee Benefits in the United States",
+      "starts_at": "2026-09-25T14:00:00+00:00",
       "impact": "medium",
       "source": "BLS",
       "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"

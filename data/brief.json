@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-12T12:08:23.820060+00:00",
+  "generated_at": "2026-08-12T12:31:22.157369+00:00",
   "direction": "bearish",
-  "label_key": "mild_bearish",
-  "confidence": 76,
-  "score": -32,
+  "label_key": "strong_bearish",
+  "confidence": 86,
+  "score": -38,
   "drivers": [
     "warsh",
-    "fedwatch"
+    "fedwatch",
+    "dxy"
   ],
   "counter_risks": [
-    "xau",
-    "dxy"
+    "xau"
   ],
   "top_news": [
     {
@@ -33,9 +33,9 @@
     }
   ],
   "next_event": {
-    "event_key": "cpi",
-    "title": "Consumer Price Index",
-    "starts_at": "2026-08-12T12:30:00+00:00",
+    "event_key": "ppi",
+    "title": "Producer Price Index",
+    "starts_at": "2026-08-13T12:30:00+00:00",
     "impact": "high",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
