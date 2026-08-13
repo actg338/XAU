@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T21:27:28.282923+00:00",
+  "generated_at": "2026-08-13T21:50:55.581553+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
   "confidence": 92,
@@ -12,6 +12,12 @@
   "counter_risks": [],
   "top_news": [
     {
+      "title": "Fact Sheet: President Donald J. Trump Bolsters National Security and Strengthens U.S. Supply Chains by Imposing Tariffs on Drones and Their Parts and Components",
+      "link": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-bolsters-national-security-and-strengthens-u-s-supply-chains-by-imposing-tariffs-on-drones-and-their-parts-and-components/",
+      "category": "trade",
+      "bias": "neutral"
+    },
+    {
       "title": "Fact Sheet: President Donald J. Trump Bolsters National Security and Strengthens U.S. Supply Chains by Imposing Tariffs on Polysilicon and its Derivatives",
       "link": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-bolsters-national-security-and-strengthens-u-s-supply-chains-by-imposing-tariffs-on-polysilicon-and-its-derivatives/",
       "category": "trade",
@@ -20,12 +26,6 @@
     {
       "title": "Federal Reserve issues FOMC statement",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
-      "category": "monetary_policy",
-      "bias": "neutral"
-    },
-    {
-      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
-      "link": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260724~eebbc30622.en.html",
       "category": "monetary_policy",
       "bias": "neutral"
     }
