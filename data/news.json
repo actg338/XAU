@@ -1,45 +1,7 @@
 {
-  "fetched_at": "2026-08-13T15:51:57.021856+00:00",
-  "total": 121,
+  "fetched_at": "2026-08-13T16:14:44.483421+00:00",
+  "total": 115,
   "items": [
-    {
-      "title": "Treasury Secretary Scott Bessent Highlights America’s Main Street and Manufacturing Renaissance",
-      "link": "https://home.treasury.gov/news/press-releases/sb0604",
-      "summary": "Treasury Secretary Scott Bessent Highlights America’s Main Street and Manufacturing Renaissance",
-      "published_at": "2026-08-13T01:00:00Z",
-      "source": "treasury",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "5b2200461a7cb5e549ecf739254b8f969991c878f089b7bdc07d1130e1fd3195",
-      "translations": {
-        "zh-CN": {
-          "title": "财政部长斯科特·贝森特强调美国的大街和制造业复兴",
-          "summary": "财政部长斯科特·贝森特强调美国的大街和制造业复兴"
-        },
-        "ja": {
-          "title": "スコット・ベッセント財務長官がアメリカのメインストリートと製造業ルネサンスを強調",
-          "summary": "スコット・ベッセント財務長官がアメリカのメインストリートと製造業ルネサンスを強調"
-        },
-        "zh-TW": {
-          "title": "財政部長斯科特·貝森特強調美國的大街和製造業復興",
-          "summary": "財政部長斯科特·貝森特強調美國的大街和製造業復興"
-        },
-        "de": {
-          "title": "Finanzminister Scott Bessent beleuchtet Amerikas Main Street und die Renaissance des verarbeitenden Gewerbes",
-          "summary": "Finanzminister Scott Bessent beleuchtet Amerikas Main Street und die Renaissance des verarbeitenden Gewerbes"
-        },
-        "ko": {
-          "title": "Scott Bessent 재무장관은 미국의 메인 스트리트와 제조업 르네상스를 강조합니다.",
-          "summary": "Scott Bessent 재무장관은 미국의 메인 스트리트와 제조업 르네상스를 강조합니다."
-        },
-        "fr": {
-          "title": "Le secrétaire au Trésor, Scott Bessent, met en lumière la renaissance de l’Amérique et du secteur manufacturier",
-          "summary": "Le secrétaire au Trésor, Scott Bessent, met en lumière la renaissance de l’Amérique et du secteur manufacturier"
-        }
-      }
-    },
     {
       "title": "Business Formation Statistics",
       "link": "https://www.census.gov/econ/bfs/",
@@ -75,120 +37,6 @@
         "fr": {
           "title": "Statistiques sur la création d'entreprises",
           "summary": "Le nombre total d'applications commerciales aux États-Unis s'élevait à 578 926 en juillet 2026, en hausse de 8,1 % par rapport à juin 2026. Juillet 2026 : +8,1° % de variation Juin 2026 (d) : +1,3° % de variation"
-        }
-      }
-    },
-    {
-      "title": "Treasury Announces Employer Contributions to Trump Accounts, Drawing Corporate Support",
-      "link": "https://home.treasury.gov/news/press-releases/sb0602",
-      "summary": "Treasury Announces Employer Contributions to Trump Accounts, Drawing Corporate Support",
-      "published_at": "2026-08-11T13:00:00Z",
-      "source": "treasury",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "24fc45a2fda91e60db0fb6b07bd079252c2cf62e6ee2b4c234a52a3a2459b498",
-      "translations": {
-        "zh-CN": {
-          "title": "财政部宣布雇主向特朗普账户缴款，争取企业支持",
-          "summary": "财政部宣布雇主向特朗普账户缴款，争取企业支持"
-        },
-        "ja": {
-          "title": "財務省、トランプ大統領の口座への雇用主の拠出を発表、企業の支持を集める",
-          "summary": "財務省、トランプ大統領の口座への雇用主の拠出を発表、企業の支持を集める"
-        },
-        "zh-TW": {
-          "title": "財政部宣布雇主向川普帳戶繳款，爭取企業支持",
-          "summary": "財政部宣布雇主向川普帳戶繳款，爭取企業支持"
-        },
-        "ko": {
-          "title": "재무부, 트럼프 계정에 대한 고용주 기부 발표, 기업 지원 이끌어내다",
-          "summary": "재무부, 트럼프 계정에 대한 고용주 기부 발표, 기업 지원 이끌어내다"
-        },
-        "fr": {
-          "title": "Le Trésor annonce les contributions des employeurs aux comptes Trump, attirant le soutien des entreprises",
-          "summary": "Le Trésor annonce les contributions des employeurs aux comptes Trump, attirant le soutien des entreprises"
-        },
-        "de": {
-          "title": "Das Finanzministerium kündigt Arbeitgeberbeiträge zu Trump-Konten an und erhält Unterstützung von Unternehmen",
-          "summary": "Das Finanzministerium kündigt Arbeitgeberbeiträge zu Trump-Konten an und erhält Unterstützung von Unternehmen"
-        }
-      }
-    },
-    {
-      "title": "Remarks from Secretary of the Treasury Scott Bessent at Joint Base Lindsey Graham Renaming Ceremony",
-      "link": "https://home.treasury.gov/news/press-releases/sb0601",
-      "summary": "Remarks from Secretary of the Treasury Scott Bessent at Joint Base Lindsey Graham Renaming Ceremony",
-      "published_at": "2026-08-10T17:05:11Z",
-      "source": "treasury",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "ac999ff87152c4202404038ea8d3dc677597a653c077643dbd1a2238f673882f",
-      "translations": {
-        "zh-CN": {
-          "title": "财政部长斯科特·贝森特在林赛·格雷厄姆联合基地更名仪式上的讲话",
-          "summary": "财政部长斯科特·贝森特在林赛·格雷厄姆联合基地更名仪式上的讲话"
-        },
-        "ja": {
-          "title": "リンゼー・グラハム統合基地の改名式典におけるスコット・ベッセント財務長官の発言",
-          "summary": "リンゼー・グラハム統合基地の改名式典におけるスコット・ベッセント財務長官の発言"
-        },
-        "zh-TW": {
-          "title": "財政部長斯科特貝森特在林賽格雷厄姆聯合基地更名儀式上的講話",
-          "summary": "財政部長斯科特貝森特在林賽格雷厄姆聯合基地更名儀式上的講話"
-        },
-        "ko": {
-          "title": "린지 그레이엄 합동기지 개명식에서 스콧 베센트(Scott Bessent) 재무장관의 발언",
-          "summary": "린지 그레이엄 합동기지 개명식에서 스콧 베센트(Scott Bessent) 재무장관의 발언"
-        },
-        "fr": {
-          "title": "Allocution du secrétaire au Trésor Scott Bessent lors de la cérémonie de changement de nom de la base commune Lindsey Graham",
-          "summary": "Allocution du secrétaire au Trésor Scott Bessent lors de la cérémonie de changement de nom de la base commune Lindsey Graham"
-        },
-        "de": {
-          "title": "Bemerkungen von Finanzminister Scott Bessent bei der Umbenennungszeremonie des Joint Base Lindsey Graham",
-          "summary": "Bemerkungen von Finanzminister Scott Bessent bei der Umbenennungszeremonie des Joint Base Lindsey Graham"
-        }
-      }
-    },
-    {
-      "title": "Secretary Bessent Issues Statement Welcoming S&P Global Release of Critical Mineral Reference Prices",
-      "link": "https://home.treasury.gov/news/press-releases/sb0600",
-      "summary": "Secretary Bessent Issues Statement Welcoming S&P Global Release of Critical Mineral Reference Prices",
-      "published_at": "2026-08-07T22:12:41Z",
-      "source": "treasury",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "e7c7e0bc1d8f8baf7b5cc3b8437474c9ca00716106219763dd4e0e980a94e7d1",
-      "translations": {
-        "zh-CN": {
-          "title": "贝森特部长发表声明欢迎标普全球发布关键矿产参考价格",
-          "summary": "贝森特部长发表声明欢迎标普全球发布关键矿产参考价格"
-        },
-        "zh-TW": {
-          "title": "貝森特部長發表聲明歡迎標普全球發布關鍵礦產參考價格",
-          "summary": "貝森特部長發表聲明歡迎標普全球發布關鍵礦產參考價格"
-        },
-        "de": {
-          "title": "Minister Bessent gibt eine Erklärung ab, in der er die weltweite Veröffentlichung kritischer Mineralreferenzpreise durch S&P begrüßt",
-          "summary": "Minister Bessent gibt eine Erklärung ab, in der er die weltweite Veröffentlichung kritischer Mineralreferenzpreise durch S&P begrüßt"
-        },
-        "fr": {
-          "title": "Le secrétaire d'État Bessent publie une déclaration saluant la publication par S&P Global des prix de référence des minéraux critiques",
-          "summary": "Le secrétaire d'État Bessent publie une déclaration saluant la publication par S&P Global des prix de référence des minéraux critiques"
-        },
-        "ja": {
-          "title": "ベッセント長官、S&Pの重要鉱物参照価格の世界的発表を歓迎する声明を発表",
-          "summary": "ベッセント長官、S&Pの重要鉱物参照価格の世界的発表を歓迎する声明を発表"
-        },
-        "ko": {
-          "title": "Bessent 장관 성명서 S&P의 글로벌 중요 광물 기준 가격 발표를 환영하는 성명서",
-          "summary": "Bessent 장관 성명서 S&P의 글로벌 중요 광물 기준 가격 발표를 환영하는 성명서"
         }
       }
     },
@@ -265,44 +113,6 @@
         "fr": {
           "title": "Le secteur privé répond à l’appel du président Trump à baisser les prix pour les familles américaines",
           "summary": "Le président Donald J. Trump a hérité d’une économie meurtrie par des années d’inflation qui ont écrasé les familles de travailleurs. Grâce à des mesures audacieuses visant à restaurer la domination énergétique américaine, à réduire les formalités administratives et à garantir un commerce équitable, l’administration Trump reconstruit rapidement les bases d’une prospérité durable. Ce leadership produit des résultats. Dans tout le pays, les entreprises du secteur privé réagissent […] Le post Le secteur privé répond à l’appel du président Trump à baisser les prix pour les familles américaines apparaît en premier"
-        }
-      }
-    },
-    {
-      "title": "Remarks from Secretary of the Treasury Scott Bessent at Event with Arizona Bankers in Phoenix",
-      "link": "https://home.treasury.gov/news/press-releases/sb0595",
-      "summary": "Remarks from Secretary of the Treasury Scott Bessent at Event with Arizona Bankers in Phoenix",
-      "published_at": "2026-08-06T19:40:00Z",
-      "source": "treasury",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "f48e65048891d11c74c25fc83bfbb20f80651ae38f5c01eca026d37f6f51e40a",
-      "translations": {
-        "zh-CN": {
-          "title": "财政部长斯科特·贝森特在凤凰城与亚利桑那州银行家举行的活动上的讲话",
-          "summary": "财政部长斯科特·贝森特在凤凰城与亚利桑那州银行家举行的活动上的讲话"
-        },
-        "ja": {
-          "title": "フェニックスでのアリゾナ銀行関係者とのイベントにおけるスコット・ベッセント財務長官の発言",
-          "summary": "フェニックスでのアリゾナ銀行関係者とのイベントにおけるスコット・ベッセント財務長官の発言"
-        },
-        "ko": {
-          "title": "피닉스에서 열린 애리조나 은행가들과의 행사에서 스콧 베센트(Scott Bessent) 재무장관의 발언",
-          "summary": "피닉스에서 열린 애리조나 은행가들과의 행사에서 스콧 베센트(Scott Bessent) 재무장관의 발언"
-        },
-        "zh-TW": {
-          "title": "財政部長斯科特貝森特在鳳凰城與亞利桑那州銀行家舉行的活動上的講話",
-          "summary": "財政部長斯科特貝森特在鳳凰城與亞利桑那州銀行家舉行的活動上的講話"
-        },
-        "de": {
-          "title": "Bemerkungen von Finanzminister Scott Bessent bei einer Veranstaltung mit Arizona Bankers in Phoenix",
-          "summary": "Bemerkungen von Finanzminister Scott Bessent bei einer Veranstaltung mit Arizona Bankers in Phoenix"
-        },
-        "fr": {
-          "title": "Allocution du secrétaire au Trésor Scott Bessent lors d'un événement avec les banquiers de l'Arizona à Phoenix",
-          "summary": "Allocution du secrétaire au Trésor Scott Bessent lors d'un événement avec les banquiers de l'Arizona à Phoenix"
         }
       }
     },
@@ -577,7 +387,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1071,7 +881,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1261,7 +1071,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
@@ -1881,18 +1691,6 @@
       "_translation_hash": "9f0d9e068b89f6499111374dceb002af57bd5fd78e31ed7ba1c150f230178848"
     },
     {
-      "title": "Treasury Accepting Whistleblower Tips on Fraud, Money Laundering, Sanctions Violations",
-      "link": "https://home.treasury.gov/news/featured-stories/treasury-accepting-whistleblower-tips-on-fraud-money-laundering-sanctions-violations",
-      "summary": "Treasury Accepting Whistleblower Tips on Fraud, Money Laundering, Sanctions Violations",
-      "published_at": "2026-02-13T14:52:38Z",
-      "source": "treasury",
-      "category": "geopolitics",
-      "impact": "medium",
-      "gold_bias": "bullish",
-      "why_key": "geopolitics_bullish",
-      "_translation_hash": "5b58aa8be0d2e729eb114f76f120957ae948308aef7244707d047ddac1417325"
-    },
-    {
       "title": "CPI for all items rises 0.2% in January; shelter up",
       "link": "https://www.bls.gov/news.release/archives/cpi_02132026.htm",
       "summary": "",
@@ -1975,6 +1773,78 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "9b48fbf047f30f6f279873c58b8a7464563f431ae74d4d223455487a1521272a"
+    },
+    {
+      "title": "November job openings and hires change little; total separations unchanged",
+      "link": "https://www.bls.gov/news.release/archives/jolts_01072026.htm",
+      "summary": "",
+      "published_at": "2026-01-07T10:00:00-05:00",
+      "source": "bls_jolts",
+      "category": "labor",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "3cf36b7f6c0604e7034eb43f333ae8feac6eac4367d5f6ca80f8a0db7ec3c7f4"
+    },
+    {
+      "title": "CPI for all items rises 2.7% over 12 months ending in November; shelter up",
+      "link": "https://www.bls.gov/news.release/archives/cpi_12182025.htm",
+      "summary": "",
+      "published_at": "2025-12-18T08:30:00-05:00",
+      "source": "bls_cpi",
+      "category": "inflation",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
+      "_translation_hash": "8cb0feea009ec1c94d48c00d3404e09e4ff44e4246b3bf6320d20a9cbc5f450f"
+    },
+    {
+      "title": "Both payroll employment (+64,000) and unemployment rate (4.6%) change little in November",
+      "link": "https://www.bls.gov/news.release/archives/empsit_12162025.htm",
+      "summary": "",
+      "published_at": "2025-12-16T08:30:00-05:00",
+      "source": "bls_jobs",
+      "category": "labor",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "b6b48fb53a5a62da2133cb4e82ec3cb623a572b1b617a52fed45d717559fdd99"
+    },
+    {
+      "title": "October job openings unchanged; hires and total separations change little",
+      "link": "https://www.bls.gov/news.release/archives/jolts_12092025.htm",
+      "summary": "",
+      "published_at": "2025-12-09T10:00:00-05:00",
+      "source": "bls_jolts",
+      "category": "labor",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
+    },
+    {
+      "title": "PPI for final demand advances 0.3% in September; goods rise 0.9%, services unchanged",
+      "link": "https://www.bls.gov/news.release/archives/ppi_11252025.htm",
+      "summary": "",
+      "published_at": "2025-11-25T08:30:00-05:00",
+      "source": "bls_ppi",
+      "category": "inflation",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
+      "_translation_hash": "4580557ddb6ea1d4834c1b15c41a3149ef83d749f8ae34cb0c4cceec56f369f8"
+    },
+    {
+      "title": "Payroll employment edges up 119,000 in September; unemployment rate changes little at 4.4%",
+      "link": "https://www.bls.gov/news.release/archives/empsit_11202025.htm",
+      "summary": "",
+      "published_at": "2025-11-20T08:30:00-05:00",
+      "source": "bls_jobs",
+      "category": "labor",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "b913e2014a1c590a06230e201b743e6ef224d6a5a356c51addaeb7d4912bd47e"
     }
   ]
 }
