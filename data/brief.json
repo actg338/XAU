@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-13T12:23:56.319667+00:00",
+  "generated_at": "2026-08-13T12:48:05.513853+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
-  "confidence": 87,
-  "score": -47,
+  "confidence": 86,
+  "score": -42,
   "drivers": [
     "warsh",
     "fedwatch",
@@ -33,10 +33,10 @@
     }
   ],
   "next_event": {
-    "event_key": "ppi",
-    "title": "Producer Price Index",
-    "starts_at": "2026-08-13T12:30:00+00:00",
-    "impact": "high",
+    "event_key": "bls_release",
+    "title": "U.S. Import and Export Price Indexes",
+    "starts_at": "2026-08-18T12:30:00+00:00",
+    "impact": "medium",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
   }
