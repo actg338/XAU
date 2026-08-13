@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-08-13T14:58:24.371147+00:00",
+  "fetched_at": "2026-08-13T15:26:51.459069+00:00",
   "total": 121,
   "items": [
+    {
+      "title": "Treasury Secretary Scott Bessent Highlights America’s Main Street and Manufacturing Renaissance",
+      "link": "https://home.treasury.gov/news/press-releases/sb0604",
+      "summary": "Treasury Secretary Scott Bessent Highlights America’s Main Street and Manufacturing Renaissance",
+      "published_at": "2026-08-13T01:00:00Z",
+      "source": "treasury",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "5b2200461a7cb5e549ecf739254b8f969991c878f089b7bdc07d1130e1fd3195",
+      "translations": {
+        "zh-CN": {
+          "title": "财政部长斯科特·贝森特强调美国的大街和制造业复兴",
+          "summary": "财政部长斯科特·贝森特强调美国的大街和制造业复兴"
+        },
+        "ja": {
+          "title": "スコット・ベッセント財務長官がアメリカのメインストリートと製造業ルネサンスを強調",
+          "summary": "スコット・ベッセント財務長官がアメリカのメインストリートと製造業ルネサンスを強調"
+        },
+        "zh-TW": {
+          "title": "財政部長斯科特·貝森特強調美國的大街和製造業復興",
+          "summary": "財政部長斯科特·貝森特強調美國的大街和製造業復興"
+        },
+        "de": {
+          "title": "Finanzminister Scott Bessent beleuchtet Amerikas Main Street und die Renaissance des verarbeitenden Gewerbes",
+          "summary": "Finanzminister Scott Bessent beleuchtet Amerikas Main Street und die Renaissance des verarbeitenden Gewerbes"
+        },
+        "ko": {
+          "title": "Scott Bessent 재무장관은 미국의 메인 스트리트와 제조업 르네상스를 강조합니다.",
+          "summary": "Scott Bessent 재무장관은 미국의 메인 스트리트와 제조업 르네상스를 강조합니다."
+        },
+        "fr": {
+          "title": "Le secrétaire au Trésor, Scott Bessent, met en lumière la renaissance de l’Amérique et du secteur manufacturier",
+          "summary": "Le secrétaire au Trésor, Scott Bessent, met en lumière la renaissance de l’Amérique et du secteur manufacturier"
+        }
+      }
+    },
     {
       "title": "Business Formation Statistics",
       "link": "https://www.census.gov/econ/bfs/",
@@ -151,44 +189,6 @@
         "ko": {
           "title": "Bessent 장관 성명서 S&P의 글로벌 중요 광물 기준 가격 발표를 환영하는 성명서",
           "summary": "Bessent 장관 성명서 S&P의 글로벌 중요 광물 기준 가격 발표를 환영하는 성명서"
-        }
-      }
-    },
-    {
-      "title": "Treasury Releases CFIUS Annual Report for 2025",
-      "link": "https://home.treasury.gov/news/press-releases/sb0599",
-      "summary": "Treasury Releases CFIUS Annual Report for 2025",
-      "published_at": "2026-08-07T20:39:09Z",
-      "source": "treasury",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "a5bb67c9c97457e3ddc08231847193fdbbf8d9e2ee8edcaf9932d11acdfa5732",
-      "translations": {
-        "zh-CN": {
-          "title": "财政部发布 CFIUS 2025 年年度报告",
-          "summary": "财政部发布 CFIUS 2025 年年度报告"
-        },
-        "ja": {
-          "title": "財務省が2025年のCFIUS年次報告書を発表",
-          "summary": "財務省が2025年のCFIUS年次報告書を発表"
-        },
-        "zh-TW": {
-          "title": "財政部發布 CFIUS 2025 年年度報告",
-          "summary": "財政部發布 CFIUS 2025 年年度報告"
-        },
-        "ko": {
-          "title": "재무부, 2025년 CFIUS 연례 보고서 발표",
-          "summary": "재무부, 2025년 CFIUS 연례 보고서 발표"
-        },
-        "de": {
-          "title": "Finanzministerium veröffentlicht CFIUS-Jahresbericht für 2025",
-          "summary": "Finanzministerium veröffentlicht CFIUS-Jahresbericht für 2025"
-        },
-        "fr": {
-          "title": "Le Trésor publie le rapport annuel du CFIUS pour 2025",
-          "summary": "Le Trésor publie le rapport annuel du CFIUS pour 2025"
         }
       }
     },
