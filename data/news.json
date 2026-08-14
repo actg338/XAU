@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-08-14T12:28:13.270335+00:00",
+  "fetched_at": "2026-08-14T12:53:38.499095+00:00",
   "total": 122,
   "items": [
+    {
+      "title": "Advance Monthly Sales for Retail and Food Services",
+      "link": "https://www.census.gov/retail/index.html",
+      "summary": "U.S. retail and food services sales for July 2026 were $763.6 billion, down 0.6 percent (+/-0.4 percent) from the previous month. July 2026: -0.6 % Change June 2026 (r): +0.2* % Change",
+      "published_at": "Fri, 14 Aug 2026 08:30:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "1bbfbd906a1a6db79d235c2e801063e364b0ef6cd9fc479cf168708326080ac2",
+      "translations": {
+        "zh-CN": {
+          "title": "零售和食品服务的月销售额预付款",
+          "summary": "2026 年 7 月美国零售和食品服务销售额为 7,636 亿美元，环比下降 0.6% (+/-0.4%)。 2026 年 7 月：-0.6% 变化 2026 年 6 月 (r)：+0.2* % 变化"
+        },
+        "ja": {
+          "title": "小売および食品サービスの前月次売上高",
+          "summary": "2026年7月の米国の小売・食品サービス売上高は7,636億ドルで、前月比0.6％（±0.4％）減少した。 2026 年 7 月: -0.6 % 変化 2026 年 6 月 (r): +0.2* % 変化"
+        },
+        "de": {
+          "title": "Monatliche Vorverkäufe für Einzelhandel und Lebensmitteldienstleistungen",
+          "summary": "Der US-Einzelhandels- und Lebensmitteldienstleistungsumsatz belief sich im Juli 2026 auf 763,6 Milliarden US-Dollar, 0,6 Prozent (+/-0,4 Prozent) weniger als im Vormonat. Juli 2026: -0,6 % Veränderung. Juni 2026 (r): +0,2* % Veränderung"
+        },
+        "ko": {
+          "title": "소매 및 식품 서비스에 대한 월별 사전 판매",
+          "summary": "2026년 7월 미국 소매 및 식품 서비스 매출은 7,636억 달러로 전월보다 0.6%(+/-0.4%) 감소했습니다. 2026년 7월: -0.6% 변동 2026년 6월(r): +0.2*% 변동"
+        },
+        "zh-TW": {
+          "title": "零售和食品服務的月銷售額預付款",
+          "summary": "2026 年 7 月美國零售和食品服務銷售額為 7,636 億美元，季減 0.6% (+/-0.4%)。 2026 年 7 月：-0.6% 變化 2026 年 6 月 (r)：+0.2* % 變化"
+        },
+        "fr": {
+          "title": "Avancer les ventes mensuelles pour le commerce de détail et les services alimentaires",
+          "summary": "Les ventes du commerce de détail et des services alimentaires aux États-Unis pour juillet 2026 se sont élevées à 763,6 milliards de dollars, en baisse de 0,6 % (+/-0,4 %) par rapport au mois précédent. Juillet 2026 : -0,6 % Variation Juin 2026 (r) : +0,2* % Variation"
+        }
+      }
+    },
     {
       "title": "Fact Sheet: President Donald J. Trump Bolsters National Security and Strengthens U.S. Supply Chains by Imposing Tariffs on Drones and Their Parts and Components",
       "link": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-bolsters-national-security-and-strengthens-u-s-supply-chains-by-imposing-tariffs-on-drones-and-their-parts-and-components/",
@@ -615,7 +653,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -991,44 +1029,6 @@
       }
     },
     {
-      "title": "Advance Monthly Sales for Retail and Food Services",
-      "link": "https://www.census.gov/retail/index.html",
-      "summary": "U.S. retail and food services sales for June 2026 were $768.6 billion, up 0.2 percent (+/-0.4 percent)* from the previous month. June 2026: +0.2* % Change May 2026 (r): +1.0 % Change",
-      "published_at": "Thu, 16 Jul 2026 08:30:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "84c6b12350918c3c78a024c965cff4a24ab306f473b84342d731cce3f574f9bb",
-      "translations": {
-        "zh-CN": {
-          "title": "零售和食品服务的月销售额预付款",
-          "summary": "2026 年 6 月美国零售和食品服务销售额为 7,686 亿美元，环比增长 0.2% (+/-0.4%)*。 2026 年 6 月：+0.2* 变化百分比 2026 年 5 月 (r)：+1.0 变化百分比"
-        },
-        "zh-TW": {
-          "title": "零售和食品服務的月銷售額預付款",
-          "summary": "2026 年 6 月美國零售與食品服務銷售額為 7,686 億美元，較上季成長 0.2% (+/-0.4%)*。 2026 年 6 月：+0.2* 變化百分比 2026 年 5 月 (r)：+1.0 變化百分比"
-        },
-        "ja": {
-          "title": "小売および食品サービスの前月次売上高",
-          "summary": "2026 年 6 月の米国の小売および食品サービス売上高は 7,686 億ドルで、前月比 0.2% (+/-0.4%)* 増加しました。 2026 年 6 月: +0.2* % 変化 2026 年 5 月 (r): +1.0 % 変化"
-        },
-        "ko": {
-          "title": "소매 및 식품 서비스에 대한 월별 사전 판매",
-          "summary": "2026년 6월 미국 소매 및 식품 서비스 매출은 7,686억 달러로 전월 대비 0.2%(+/-0.4%)* 증가했습니다. 2026년 6월: +0.2* % 변동 2026년 5월(r): +1.0 % 변동"
-        },
-        "de": {
-          "title": "Monatliche Vorverkäufe für Einzelhandel und Lebensmitteldienstleistungen",
-          "summary": "Der Einzelhandels- und Lebensmitteldienstleistungsumsatz in den USA belief sich im Juni 2026 auf 768,6 Milliarden US-Dollar, ein Plus von 0,2 Prozent (+/-0,4 Prozent)* gegenüber dem Vormonat. Juni 2026: +0,2* % Veränderung Mai 2026 (r): +1,0 % Veränderung"
-        },
-        "fr": {
-          "title": "Avancer les ventes mensuelles pour le commerce de détail et les services alimentaires",
-          "summary": "Les ventes du commerce de détail et des services alimentaires aux États-Unis pour juin 2026 se sont élevées à 768,6 milliards de dollars, en hausse de 0,2 % (+/-0,4 %)* par rapport au mois précédent. Juin 2026 : +0,2* % Variation Mai 2026 (r) : +1,0 % Variation"
-        }
-      }
-    },
-    {
       "title": "Cook, Economic Outlook",
       "link": "https://www.federalreserve.gov/newsevents/speech/cook20260715a.htm",
       "summary": "Speech At The Exchequer Club of Washington D.C., Washington, D.C.",
@@ -1109,7 +1109,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1299,7 +1299,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
