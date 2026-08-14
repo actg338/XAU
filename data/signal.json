@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "score": -28,
+  "score": -29,
   "direction": "bearish",
   "label_key": "mild_bearish",
   "signal": "mild_bearish",
@@ -13,23 +13,23 @@
       "direction": "bearish",
       "value": "STRONG_HAWK",
       "reason_key": "warsh_strong_hawk",
-      "updated_at": "2026-08-14T19:42:34.459925+00:00"
+      "updated_at": "2026-08-14T20:01:06.920887+00:00"
     },
     {
       "key": "fedwatch",
       "score": -10,
       "direction": "bearish",
-      "value": "cut 0.0% / hike 32.4%",
+      "value": "cut 0.0% / hike 32.6%",
       "reason_key": "fedwatch_path",
-      "updated_at": "2026-08-14T19:42:36.319015+00:00"
+      "updated_at": "2026-08-14T20:01:08.771012+00:00"
     },
     {
       "key": "xau",
-      "score": 7,
+      "score": 6,
       "direction": "bullish",
-      "value": "+0.60%",
+      "value": "+0.52%",
       "reason_key": "xau_momentum",
-      "updated_at": "2026-08-14T19:42:33.257350+00:00"
+      "updated_at": "2026-08-14T20:01:05.384708+00:00"
     },
     {
       "key": "dxy",
@@ -37,7 +37,7 @@
       "direction": "bullish",
       "value": "-0.30%",
       "reason_key": "dxy_momentum",
-      "updated_at": "2026-08-14T19:42:33.409928+00:00"
+      "updated_at": "2026-08-14T20:01:05.512317+00:00"
     }
   ],
   "supporting": [
@@ -55,5 +55,5 @@
     "xau_momentum",
     "dxy_momentum"
   ],
-  "generated_at": "2026-08-14T19:42:44.920603+00:00"
+  "generated_at": "2026-08-14T20:01:19.436172+00:00"
 }
