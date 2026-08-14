@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-08-14T13:28:21.579949+00:00",
+  "fetched_at": "2026-08-14T14:01:45.321334+00:00",
   "total": 122,
   "items": [
+    {
+      "title": "Manufacturing and Trade Inventories and Sales",
+      "link": "https://www.census.gov/mtis/index.html",
+      "summary": "U.S. total business end-of-month inventories for June 2026 were $2,740.2 billion, virtually unchanged (+/- 0.1 percent)* from last month. U.S. total business sales were $2,111.3 billion, down 1.1 percent (+/- 0.2 percent) from last month. June 2026: 0.0* % Change in Inventories May 2026 (r): +0.4 % Change in Inventories",
+      "published_at": "Fri, 14 Aug 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "trade",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "trade_neutral",
+      "_translation_hash": "99f7510a2324aa4a4d4f52516be2c2d75247c622e5e194f1b736bd8698ce3b00",
+      "translations": {
+        "zh-CN": {
+          "title": "制造和贸易库存和销售",
+          "summary": "2026 年 6 月美国企业月末库存总额为 27,402 亿美元，与上个月基本持平（+/- 0.1%）*。美国企业总销售额为 21,113 亿美元，较上月下降 1.1%（+/- 0.2%）。 2026 年 6 月：0.0* 库存变化百分比 2026 年 5 月 (r)：库存变化 +0.4%"
+        },
+        "ja": {
+          "title": "製造および貿易の在庫および販売",
+          "summary": "2026 年 6 月の米国企業の月末在庫総額は 2 兆 7,402 億ドルで、前月から実質的に変化なし (+/- 0.1%)* でした。米国の総事業売上高は２兆１１１３億ドルで、前月比１．１％（±０．２％）減少した。 2026 年 6 月: 0.0* % 在庫変動率 2026 年 5 月 (r): +0.4 % 在庫変動率"
+        },
+        "zh-TW": {
+          "title": "製造和貿易庫存和銷售",
+          "summary": "2026 年 6 月美國企業月末庫存總額為 27,402 億美元，與上個月基本持平（+/- 0.1%）*。美國企業總銷售額為 21,113 億美元，較上月下降 1.1%（+/- 0.2%）。 2026 年 6 月：0.0* 庫存變化百分比 2026 年 5 月 (r)：庫存變化 +0.4%"
+        },
+        "de": {
+          "title": "Produktions- und Handelsbestände und -verkäufe",
+          "summary": "Die gesamten Lagerbestände der US-Unternehmen zum Monatsende beliefen sich im Juni 2026 auf 2.740,2 Milliarden US-Dollar, praktisch unverändert (+/- 0,1 Prozent)* gegenüber dem Vormonat. Der Gesamtumsatz der US-Unternehmen belief sich auf 2.111,3 Milliarden US-Dollar, was einem Rückgang von 1,1 Prozent (+/- 0,2 Prozent) gegenüber dem Vormonat entspricht. Juni 2026: 0,0* % Bestandsveränderung Mai 2026 (r): +0,4 % Bestandsveränderung"
+        },
+        "ko": {
+          "title": "제조 및 무역 재고 및 판매",
+          "summary": "2026년 6월 미국의 총 기업 월말 재고는 2조 7,402억 달러로 지난달과 거의 변동이 없었습니다(+/- 0.1%)*. 미국 전체 기업 매출은 2조1113억 달러로 전월보다 1.1%(+/-0.2%) 감소했다. 2026년 6월: 0.0* 재고 변동률 % 2026년 5월(r): 재고 변동률 +0.4%"
+        },
+        "fr": {
+          "title": "Stocks et ventes de fabrication et commerciaux",
+          "summary": "Les stocks totaux des entreprises américaines de fin de mois pour juin 2026 s'élevaient à 2 740,2 milliards de dollars, pratiquement inchangés (+/- 0,1 %)* par rapport au mois dernier. Le chiffre d'affaires total des entreprises aux États-Unis s'est élevé à 2.111,3 milliards de dollars, en baisse de 1,1 pour cent (+/- 0,2 pour cent) par rapport au mois dernier. Juin 2026 : 0,0* % de variation des stocks Mai 2026 (r) : +0,4 % de variation des stocks"
+        }
+      }
+    },
     {
       "title": "Advance Monthly Sales for Retail and Food Services",
       "link": "https://www.census.gov/retail/index.html",
@@ -987,44 +1025,6 @@
         "fr": {
           "title": "Jefferson, Faire face aux chocs économiques : le point de vue d’un décideur monétaire",
           "summary": "Discours prononcé au Stanford Institute for Economic Policy Research, Stanford University, Stanford, Californie"
-        }
-      }
-    },
-    {
-      "title": "Manufacturing and Trade Inventories and Sales",
-      "link": "https://www.census.gov/mtis/index.html",
-      "summary": "U.S. total business end-of-month inventories for May 2026 were $2,736.2 billion, up 0.3 percent (+/- 0.1 percent) from last month. U.S. total business sales were $2,135.0 billion, up 2.1 percent (+/- 0.2 percent) from last month. May 2026: +0.3 % Change in Inventories April 2026 (r): +0.6 % Change in Inventories",
-      "published_at": "Thu, 16 Jul 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "trade",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "1c929bfecd9b3469156504b12a1389962f78f8e32eea80485f621a9a989b2b38",
-      "translations": {
-        "zh-CN": {
-          "title": "制造和贸易库存和销售",
-          "summary": "2026 年 5 月美国企业月末库存总额为 27,362 亿美元，较上月增长 0.3%（+/- 0.1%）。美国企业总销售额为 21,350 亿美元，较上月增长 2.1%（+/- 0.2%）。 2026 年 5 月：库存变化 +0.3% 2026 年 4 月 (r)：库存变化 +0.6%"
-        },
-        "zh-TW": {
-          "title": "製造和貿易庫存和銷售",
-          "summary": "2026 年 5 月美國企業月末庫存總額為 27,362 億美元，較上月成長 0.3%（+/- 0.1%）。美國企業總銷售額為 21,350 億美元，較上月成長 2.1%（+/- 0.2%）。 2026 年 5 月：庫存變化 +0.3% 2026 年 4 月 (r)：庫存變化 +0.6%"
-        },
-        "ja": {
-          "title": "製造および貿易の在庫および販売",
-          "summary": "2026年5月の米国企業の月末在庫総額は2兆7,362億ドルで、前月比0.3パーセント（±0.1パーセント）増加しました。米国の総事業売上高は 2 兆 1,350 億ドルで、前月比 2.1% (+/- 0.2%) 増加しました。 2026年5月: +0.3 % 在庫変動 2026年4月(r): +0.6 % 在庫変動"
-        },
-        "ko": {
-          "title": "제조 및 무역 재고 및 판매",
-          "summary": "2026년 5월 미국의 총 기업 월말 재고는 2조 7,362억 달러로 지난달보다 0.3%(+/- 0.1%) 증가했습니다. 미국 전체 기업 매출은 2조1350억 달러로 전월보다 2.1%(+/-0.2%) 증가했다. 2026년 5월: 재고 변동 +0.3% 2026년 4월(r): 재고 변동 +0.6%"
-        },
-        "de": {
-          "title": "Produktions- und Handelsbestände und -verkäufe",
-          "summary": "Die Gesamtlagerbestände der US-Unternehmen zum Monatsende beliefen sich im Mai 2026 auf 2.736,2 Milliarden US-Dollar, ein Anstieg von 0,3 Prozent (+/- 0,1 Prozent) gegenüber dem Vormonat. Der Gesamtumsatz der US-Unternehmen belief sich auf 2.135,0 Milliarden US-Dollar, ein Plus von 2,1 Prozent (+/- 0,2 Prozent) gegenüber dem Vormonat. Mai 2026: +0,3 % Bestandsveränderung April 2026 (r): +0,6 % Bestandsveränderung"
-        },
-        "fr": {
-          "title": "Stocks et ventes de fabrication et commerciaux",
-          "summary": "Les stocks totaux des entreprises américaines de fin de mois pour mai 2026 s'élevaient à 2 736,2 milliards de dollars, en hausse de 0,3 % (+/- 0,1 %) par rapport au mois dernier. Le chiffre d'affaires total des entreprises aux États-Unis s'est élevé à 2 135,0 milliards de dollars, en hausse de 2,1 % (+/- 0,2 %) par rapport au mois dernier. Mai 2026 : +0,3 % variation des stocks Avril 2026 (r) : +0,6 % variation des stocks"
         }
       }
     },
