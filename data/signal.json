@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "score": -27,
+  "score": -40,
   "direction": "bearish",
-  "label_key": "mild_bearish",
-  "signal": "mild_bearish",
+  "label_key": "strong_bearish",
+  "signal": "strong_bearish",
   "action": "wait_for_confirmation",
-  "confidence": 75,
+  "confidence": 72,
   "components": [
     {
       "key": "warsh",
@@ -13,7 +13,7 @@
       "direction": "bearish",
       "value": "STRONG_HAWK",
       "reason_key": "warsh_strong_hawk",
-      "updated_at": "2026-08-15T03:26:32.147969+00:00"
+      "updated_at": "2026-08-15T03:47:40.877772+00:00"
     },
     {
       "key": "fedwatch",
@@ -21,39 +21,36 @@
       "direction": "bearish",
       "value": "cut 0.0% / hike 33.1%",
       "reason_key": "fedwatch_path",
-      "updated_at": "2026-08-15T03:26:33.776792+00:00"
+      "updated_at": "2026-08-15T03:47:42.938764+00:00"
     },
     {
       "key": "xau",
-      "score": 7,
-      "direction": "bullish",
-      "value": "+0.59%",
-      "reason_key": "xau_momentum",
-      "updated_at": "2026-08-15T03:26:30.810111+00:00"
+      "score": 0,
+      "direction": "neutral",
+      "value": "unavailable",
+      "reason_key": "xau_missing",
+      "updated_at": "2026-08-15T03:47:37.897Z"
     },
     {
       "key": "dxy",
-      "score": 6,
-      "direction": "bullish",
-      "value": "-0.31%",
-      "reason_key": "dxy_momentum",
-      "updated_at": "2026-08-15T03:26:30.996204+00:00"
+      "score": 0,
+      "direction": "neutral",
+      "value": "unavailable",
+      "reason_key": "dxy_missing",
+      "updated_at": "2026-08-15T03:47:39.492645+00:00"
     }
   ],
   "supporting": [
     "warsh",
     "fedwatch"
   ],
-  "opposing": [
-    "xau",
-    "dxy"
-  ],
-  "reason": "warsh_strong_hawk · fedwatch_path · xau_momentum · dxy_momentum",
+  "opposing": [],
+  "reason": "warsh_strong_hawk · fedwatch_path · xau_missing · dxy_missing",
   "reasons": [
     "warsh_strong_hawk",
     "fedwatch_path",
-    "xau_momentum",
-    "dxy_momentum"
+    "xau_missing",
+    "dxy_missing"
   ],
-  "generated_at": "2026-08-15T03:26:42.711944+00:00"
+  "generated_at": "2026-08-15T03:47:53.594976+00:00"
 }
