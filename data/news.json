@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-08-15T04:39:31.968116+00:00",
-  "total": 123,
+  "fetched_at": "2026-08-15T04:55:17.923170+00:00",
+  "total": 120,
   "items": [
     {
       "title": "Presidential Message on the Anniversary of Winning World War II",
@@ -729,7 +729,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -873,120 +873,6 @@
         "fr": {
           "title": "Ventes de maisons neuves",
           "summary": "Les ventes de maisons unifamiliales neuves en juin 2026 se sont établies à un rythme annuel désaisonnalisé de 628 000. Cela représente 1,6 pour cent (+/- 14,8%)* au-dessus de l'estimation révisée de mai 2026 de 618 000. Juin 2026 : +1,6* % Variation Mai 2026 (r) : -4,3* % Variation"
-        }
-      }
-    },
-    {
-      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
-      "link": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260724~eebbc30622.en.html",
-      "summary": "",
-      "published_at": "Fri, 24 Jul 2026 15:00:00 +0200",
-      "source": "ecb",
-      "category": "monetary_policy",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "74c37c553fb251a4c8ef04f315442854fbadcdcad82db485b52b5feb0085ea55",
-      "translations": {
-        "zh-CN": {
-          "title": "欧洲央行管理委员会做出的决定（除了设定利率的决定之外）",
-          "summary": ""
-        },
-        "ja": {
-          "title": "ECB理事会による決定（金利設定の決定に加えて）",
-          "summary": ""
-        },
-        "ko": {
-          "title": "ECB 이사회의 결정(이자율 설정 결정에 추가)",
-          "summary": ""
-        },
-        "zh-TW": {
-          "title": "歐洲央行管理委員會所做的決定（除了設定利率的決定之外）",
-          "summary": ""
-        },
-        "de": {
-          "title": "Entscheidungen des EZB-Rats (zusätzlich zu Entscheidungen zur Festlegung der Zinssätze)",
-          "summary": ""
-        },
-        "fr": {
-          "title": "Décisions prises par le Conseil des gouverneurs de la BCE (en plus des décisions fixant les taux d'intérêt)",
-          "summary": ""
-        }
-      }
-    },
-    {
-      "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
-      "link": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
-      "summary": "",
-      "published_at": "Thu, 23 Jul 2026 15:00:00 +0200",
-      "source": "ecb",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "f069dc1250bc05bc9b9015550638a08d93cef1efb3a0d3e8b2df31b2288f5a5f",
-      "translations": {
-        "zh-CN": {
-          "title": "克里斯蒂娜·拉加德 (Christine Lagarde)、鲍里斯·武伊契奇 (Boris Vujčić)：货币政策声明（含问答）",
-          "summary": ""
-        },
-        "zh-TW": {
-          "title": "克里斯蒂娜‧拉加德 (Christine Lagarde)、鮑里斯‧武伊契奇 (Boris Vujčić)：貨幣政策聲明（含問答）",
-          "summary": ""
-        },
-        "ja": {
-          "title": "クリスティーヌ・ラガルド氏、ボリス・ヴァイチッチ氏：金融政策声明（質疑応答付き）",
-          "summary": ""
-        },
-        "ko": {
-          "title": "Christine Lagarde, Boris Vujčić: 통화 정책 성명(Q&A 포함)",
-          "summary": ""
-        },
-        "de": {
-          "title": "Christine Lagarde, Boris Vujčić: Erklärung zur Geldpolitik (mit Fragen und Antworten)",
-          "summary": ""
-        },
-        "fr": {
-          "title": "Christine Lagarde, Boris Vujčić : Déclaration de politique monétaire (avec questions-réponses)",
-          "summary": ""
-        }
-      }
-    },
-    {
-      "title": "Monetary policy decisions",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html",
-      "summary": "",
-      "published_at": "Thu, 23 Jul 2026 14:15:00 +0200",
-      "source": "ecb",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "d6c8601c58efe148c5d3e41e8bf36e6b8e9e50bba576b3fdb43527c824f612d0",
-      "translations": {
-        "zh-CN": {
-          "title": "货币政策决策",
-          "summary": ""
-        },
-        "zh-TW": {
-          "title": "貨幣政策決策",
-          "summary": ""
-        },
-        "ja": {
-          "title": "金融政策決定",
-          "summary": ""
-        },
-        "ko": {
-          "title": "통화 정책 결정",
-          "summary": ""
-        },
-        "de": {
-          "title": "Geldpolitische Entscheidungen",
-          "summary": ""
-        },
-        "fr": {
-          "title": "Décisions de politique monétaire",
-          "summary": ""
         }
       }
     },
@@ -1147,7 +1033,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1337,7 +1223,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
@@ -2027,6 +1913,42 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "690c98f9bb74cebb41bfb0324947380de6ad560c826927d9e3bc12c373518155"
+    },
+    {
+      "title": "CPI for all items rises 0.3% in December; shelter and food up",
+      "link": "https://www.bls.gov/news.release/archives/cpi_01132026.htm",
+      "summary": "",
+      "published_at": "2026-01-13T08:30:00-05:00",
+      "source": "bls_cpi",
+      "category": "inflation",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
+      "_translation_hash": "73bda2ca782b16cd80357da42f35608e224ee3c0499888fae3e0c51804e6e281"
+    },
+    {
+      "title": "Both payroll employment (+50,000) and unemployment rate (4.4%) change little in December",
+      "link": "https://www.bls.gov/news.release/archives/empsit_01092026.htm",
+      "summary": "",
+      "published_at": "2026-01-09T08:30:00-05:00",
+      "source": "bls_jobs",
+      "category": "labor",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "9b48fbf047f30f6f279873c58b8a7464563f431ae74d4d223455487a1521272a"
+    },
+    {
+      "title": "November job openings and hires change little; total separations unchanged",
+      "link": "https://www.bls.gov/news.release/archives/jolts_01072026.htm",
+      "summary": "",
+      "published_at": "2026-01-07T10:00:00-05:00",
+      "source": "bls_jolts",
+      "category": "labor",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "3cf36b7f6c0604e7034eb43f333ae8feac6eac4367d5f6ca80f8a0db7ec3c7f4"
     }
   ]
 }
