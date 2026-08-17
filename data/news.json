@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-08-17T13:22:36.941146+00:00",
-  "total": 122,
+  "fetched_at": "2026-08-17T13:43:01.141900+00:00",
+  "total": 123,
   "items": [
+    {
+      "title": "First Lady Melania Trump’s Efforts Prove Successful in Ukraine-Russia",
+      "link": "https://www.whitehouse.gov/briefings-statements/2026/08/first-lady-melania-trumps-efforts-prove-successful-in-ukraine-russia/",
+      "summary": "First Lady Melania Trump facilitated the reunification of another child with her family on Monday, August 17, 2026, after being separated during the Ukraine – Russia Federation conflict. “There is nothing more powerful than reuniting a mother with her child after an extended period of time. My representative and I are focused on helping […] The post First Lady Melania Trump’s Efforts Prove Successful in Ukraine-Russia appeared first on The White House .",
+      "published_at": "Mon, 17 Aug 2026 13:02:21 +0000",
+      "source": "white_house",
+      "category": "geopolitics",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "geopolitics_bullish",
+      "_translation_hash": "b4e5952c971f84f76a768e6d1f51c72c6c6825baa064b4032a3c3909c65d715b",
+      "translations": {
+        "zh-CN": {
+          "title": "第一夫人梅拉尼娅·特朗普在乌克兰-俄罗斯问题上的努力被证明是成功的",
+          "summary": "2026 年 8 月 17 日星期一，第一夫人梅拉尼娅·特朗普 (Melania Trump) 协助另一个孩子在乌克兰与俄罗斯联邦冲突期间失散后与家人团聚。 “没有什么比在很长一段时间后让母亲与孩子团聚更强大的了。我和我的代表致力于帮助……”第一夫人梅拉尼娅·特朗普在乌克兰-俄罗斯的努力证明成功的帖子首先出现在白宫。"
+        },
+        "ko": {
+          "title": "영부인 멜라니아 트럼프의 노력은 우크라이나-러시아에서 성공을 거두었습니다.",
+          "summary": "멜라니아 트럼프 영부인은 우크라이나-러시아 연방 분쟁 중 헤어진 후 2026년 8월 17일 월요일에 또 다른 어린이가 가족과 재회할 수 있도록 도왔습니다. \"오랜 시간이 흐른 뒤 어머니와 아이를 재회시키는 것보다 더 강력한 것은 없습니다. 저와 저의 대표는 돕는 데 집중하고 있습니다. […"
+        },
+        "ja": {
+          "title": "メラニア・トランプ大統領夫人の努力がウクライナとロシアで成功を収めていることが判明",
+          "summary": "メラニア・トランプ大統領夫人は、2026年8月17日月曜日、ウクライナとロシア連邦の紛争中に離れ離れになった別の子供と家族の再会を促進した。 「長期間の後に母親と子供が再会することほど力強いことはありません。私の代表と私は支援に集中しています。[…] ウクライナとロシアにおけるメラニア・トランプ大統領夫人の努力が成功を証明したという投稿は、最初にホワイトハウスに掲載されました。"
+        },
+        "zh-TW": {
+          "title": "第一夫人梅拉尼婭·川普在烏克蘭-俄羅斯問題上的努力被證明是成功的",
+          "summary": "2026 年 8 月 17 日星期一，第一夫人梅拉尼婭·川普 (Melania Trump) 協助另一個孩子在烏克蘭與俄羅斯聯邦衝突期間失散後與家人團聚。 「沒有什麼比在很長一段時間後讓母親與孩子團聚更強大的了。我和我的代表致力於幫助…」第一夫人梅拉尼婭·川普在烏克蘭-俄羅斯的努力證明成功的帖子首先出現在白宮。"
+        },
+        "de": {
+          "title": "Die Bemühungen von First Lady Melania Trump erweisen sich in der Ukraine-Russland als erfolgreich",
+          "summary": "First Lady Melania Trump ermöglichte am Montag, dem 17. August 2026, die Wiedervereinigung eines weiteren Kindes mit seiner Familie, nachdem es während des Konflikts zwischen der Ukraine und der Russischen Föderation getrennt worden war. „Es gibt nichts Stärkeres, als eine Mutter nach einer längeren Zeit wieder mit ihrem Kind zu vereinen. Mein Vertreter und ich konzentrieren uns darauf, zu helfen."
+        },
+        "fr": {
+          "title": "Les efforts de la Première Dame Melania Trump s’avèrent fructueux en Ukraine-Russie",
+          "summary": "La Première Dame Melania Trump a facilité la réunification d'un autre enfant avec sa famille, lundi 17 août 2026, après avoir été séparés lors du conflit Ukraine-Fédération de Russie. \"Il n'y a rien de plus puissant que de réunir une mère avec son enfant après une longue période. Mon représentant et moi nous efforçons d'aider [...] L'article Les efforts de la Première Dame Melania Trump se révèlent fructueux en Ukraine-Russie est apparu en premier sur La Maison Blanche."
+        }
+      }
+    },
     {
       "title": "Treasury Seeks Public Comment on GENIUS Act Proposed Rulemaking",
       "link": "https://home.treasury.gov/news/press-releases/sb0605",
@@ -729,7 +767,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1109,7 +1147,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1299,7 +1337,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
@@ -1989,18 +2027,6 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "690c98f9bb74cebb41bfb0324947380de6ad560c826927d9e3bc12c373518155"
-    },
-    {
-      "title": "CPI for all items rises 0.3% in December; shelter and food up",
-      "link": "https://www.bls.gov/news.release/archives/cpi_01132026.htm",
-      "summary": "",
-      "published_at": "2026-01-13T08:30:00-05:00",
-      "source": "bls_cpi",
-      "category": "inflation",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "73bda2ca782b16cd80357da42f35608e224ee3c0499888fae3e0c51804e6e281"
     }
   ]
 }
