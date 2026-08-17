@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-08-17T19:56:42.266542+00:00",
-  "total": 123,
+  "fetched_at": "2026-08-17T20:09:37.955513+00:00",
+  "total": 124,
   "items": [
+    {
+      "title": "Treasury International Capital Data for June",
+      "link": "https://home.treasury.gov/news/press-releases/sb0606",
+      "summary": "Treasury International Capital Data for June",
+      "published_at": "2026-08-17T20:00:00Z",
+      "source": "treasury",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "a6f4867d511e65b7019488eff7bc2e68db27e5d941a31b8624cbd9b57a7466b3",
+      "translations": {
+        "zh-CN": {
+          "title": "六月份财政部国际资本数据",
+          "summary": "六月份财政部国际资本数据"
+        },
+        "ko": {
+          "title": "6월 재무부 국제자본 데이터",
+          "summary": "6월 재무부 국제자본 데이터"
+        },
+        "ja": {
+          "title": "6月の財務省国際資本データ",
+          "summary": "6月の財務省国際資本データ"
+        },
+        "zh-TW": {
+          "title": "六月財政部國際資本數據",
+          "summary": "六月財政部國際資本數據"
+        },
+        "de": {
+          "title": "Treasury International Capital Data für Juni",
+          "summary": "Treasury International Capital Data für Juni"
+        },
+        "fr": {
+          "title": "Données du Trésor sur les capitaux internationaux pour juin",
+          "summary": "Données du Trésor sur les capitaux internationaux pour juin"
+        }
+      }
+    },
     {
       "title": "President Trump Delivers Largest Prescription Drug Price Drop in Over 60 Years",
       "link": "https://www.whitehouse.gov/releases/2026/08/president-trump-delivers-largest-prescription-drug-price-drop-in-over-60-years/",
@@ -2015,18 +2053,6 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "63d8b506d315ba3e4560544a9b60766982b6b421608f7d27e444c26cd9db126c"
-    },
-    {
-      "title": "PPI for final demand advances 0.2% in November; goods rise 0.9%, services unchanged",
-      "link": "https://www.bls.gov/news.release/archives/ppi_01142026.htm",
-      "summary": "",
-      "published_at": "2026-01-14T08:30:00-05:00",
-      "source": "bls_ppi",
-      "category": "inflation",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "690c98f9bb74cebb41bfb0324947380de6ad560c826927d9e3bc12c373518155"
     }
   ]
 }
