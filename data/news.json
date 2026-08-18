@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-08-18T12:14:09.333117+00:00",
+  "fetched_at": "2026-08-18T12:32:30.306931+00:00",
   "total": 124,
   "items": [
+    {
+      "title": "New Residential Construction",
+      "link": "https://www.census.gov/construction/nrc/index.html",
+      "summary": "Privately-owned housing starts in July 2026 were at a seasonally adjusted annual rate of 1,239,000. This is 12.4 percent (+/- 9.5%) below the revised June 2026 estimate of 1,415,000. July 2026: -12.4 % Change June 2026 (r): +19.7 % Change",
+      "published_at": "Tue, 18 Aug 2026 08:30:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "b788fc10e538d66a6703bddc8032216539b9f2a89184e3a62afcf93eeef86076",
+      "translations": {
+        "zh-CN": {
+          "title": "新住宅建设",
+          "summary": "2026 年 7 月私人住房开工量经季节性调整后的年增长率为 1,239,000 套。这比修订后的 2026 年 6 月估计数 1,415,000 低 12.4% (+/- 9.5%)。 2026 年 7 月：-12.4% 变化 2026 年 6 月 (r)：+19.7% 变化"
+        },
+        "ja": {
+          "title": "新築住宅建設",
+          "summary": "２０２６年７月の民間住宅着工件数は季節調整済み年率１２３万９０００戸だった。これは、2026 年 6 月の改訂予測値 1,415,000 を 12.4 パーセント (+/- 9.5 %) 下回っています。 2026年7月: -12.4 %変化 2026年6月(r): +19.7 %変化"
+        },
+        "ko": {
+          "title": "새로운 주거 건설",
+          "summary": "2026년 7월 개인 소유 주택 착공은 계절 조정 연율 1,239,000건이었습니다. 이는 2026년 6월 수정된 추정치인 1,415,000보다 12.4%(+/- 9.5%) 낮은 수치입니다. 2026년 7월: -12.4% 변동 2026년 6월(r): +19.7% 변동"
+        },
+        "zh-TW": {
+          "title": "新住宅建設",
+          "summary": "2026 年 7 月私人住宅開工量經季節性調整後的年增率為 1,239,000 套。這比修訂後的 2026 年 6 月估計數 1,415,000 低 12.4% (+/- 9.5%)。 2026 年 7 月：-12.4% 變化 2026 年 6 月 (r)：+19.7% 變化"
+        },
+        "de": {
+          "title": "Neubau von Wohngebäuden",
+          "summary": "Im Juli 2026 wurden saisonbereinigt 1.239.000 Wohnungen in Privatwohnungen neu gebaut. Das sind 12,4 Prozent (+/- 9,5 %) weniger als die revidierte Schätzung vom Juni 2026 von 1.415.000. Juli 2026: -12,4 % Veränderung Juni 2026 (r): +19,7 % Veränderung"
+        },
+        "fr": {
+          "title": "Nouvelle construction résidentielle",
+          "summary": "En juillet 2026, les mises en chantier de logements privés se sont établies à un taux annuel désaisonnalisé de 1 239 000. Cela représente 12,4 % (+/- 9,5 %) de moins que l'estimation révisée de juin 2026 de 1 415 000. Juillet 2026 : -12,4 % Variation Juin 2026 (r) : +19,7 % Variation"
+        }
+      }
+    },
     {
       "title": "Treasury International Capital Data for June",
       "link": "https://home.treasury.gov/news/press-releases/sb0606",
@@ -1025,44 +1063,6 @@
         "fr": {
           "title": "Christine Lagarde, Boris Vujčić : Déclaration de politique monétaire (avec questions-réponses)",
           "summary": ""
-        }
-      }
-    },
-    {
-      "title": "New Residential Construction",
-      "link": "https://www.census.gov/construction/nrc/index.html",
-      "summary": "Privately-owned housing starts in June 2026 were at a seasonally adjusted annual rate of 1,427,000. This is 19.0 percent (+/- 15.9%) above the revised May 2026 estimate of 1,199,000. June 2026: +19.0 % Change May 2026 (r): -15.2 % Change",
-      "published_at": "Fri, 17 Jul 2026 08:30:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "4a8f488225f104ff1c0d44a00308613c42d6778ecc09a4870df52716f56b5cfc",
-      "translations": {
-        "zh-CN": {
-          "title": "新住宅建设",
-          "summary": "2026 年 6 月，经季节调整后的私人住房开工量年率为 1,427,000 套。这比 2026 年 5 月修订后的估计数 1,199,000 人高出 19.0% (+/- 15.9%)。 2026 年 6 月：+19.0% 变化 2026 年 5 月 (r)：-15.2% 变化"
-        },
-        "zh-TW": {
-          "title": "新住宅建設",
-          "summary": "2026 年 6 月，經季節調整後的私人住宅開工量年率為 1,427,000 套。這比 2026 年 5 月修訂後的估計數 1,199,000 人高出 19.0% (+/- 15.9%)。 2026 年 6 月：+19.0% 變化 2026 年 5 月 (r)：-15.2% 變化"
-        },
-        "ja": {
-          "title": "新築住宅建設",
-          "summary": "2026年6月の民間住宅着工戸数（季節調整済み年率換算）は142万7000戸だった。これは、2026 年 5 月の改訂予測値 1,199,000 を 19.0 パーセント (+/- 15.9 %) 上回っています。 2026年6月: +19.0 %変化 2026年5月(r): -15.2 %変化"
-        },
-        "ko": {
-          "title": "새로운 주거 건설",
-          "summary": "2026년 6월 개인 소유 주택 착공은 계절 조정 연율 1,427,000건이었습니다. 이는 2026년 5월 수정된 추정치인 1,199,000보다 19.0%(+/- 15.9%) 높은 수치입니다. 2026년 6월: +19.0% 변동 2026년 5월(r): -15.2% 변동"
-        },
-        "de": {
-          "title": "Neubau von Wohngebäuden",
-          "summary": "Im Juni 2026 wurden saisonbereinigt 1.427.000 Wohnungen im Privatbesitz neu gebaut. Das sind 19,0 Prozent (+/- 15,9 %) mehr als die revidierte Schätzung vom Mai 2026 von 1.199.000. Juni 2026: +19,0 % Veränderung Mai 2026 (r): -15,2 % Veränderung"
-        },
-        "fr": {
-          "title": "Nouvelle construction résidentielle",
-          "summary": "En juin 2026, les mises en chantier de logements privés se sont établies à un taux annuel désaisonnalisé de 1 427 000. Cela représente 19,0 pour cent (+/- 15,9%) au-dessus de l'estimation révisée de mai 2026 de 1 199 000. Juin 2026 : +19,0 % Variation Mai 2026 (r) : -15,2 % Variation"
         }
       }
     },

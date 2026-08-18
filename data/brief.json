@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-18T12:14:09.684337+00:00",
+  "generated_at": "2026-08-18T12:32:32.523893+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
   "confidence": 92,
-  "score": -49,
+  "score": -48,
   "drivers": [
     "warsh",
     "fedwatch",
@@ -33,8 +33,8 @@
   ],
   "next_event": {
     "event_key": "bls_release",
-    "title": "U.S. Import and Export Price Indexes",
-    "starts_at": "2026-08-18T12:30:00+00:00",
+    "title": "Summer Youth Labor Force",
+    "starts_at": "2026-08-20T14:00:00+00:00",
     "impact": "medium",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
