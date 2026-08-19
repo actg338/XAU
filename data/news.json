@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-08-19T12:59:54.736985+00:00",
+  "fetched_at": "2026-08-19T13:25:09.060162+00:00",
   "total": 121,
   "items": [
+    {
+      "title": "Treasury, IRS Propose Rules to Protect Refundable Tax Credits from Abuse by Illegal Aliens",
+      "link": "https://home.treasury.gov/news/press-releases/sb0608",
+      "summary": "Treasury, IRS Propose Rules to Protect Refundable Tax Credits from Abuse by Illegal Aliens",
+      "published_at": "2026-08-19T13:00:25Z",
+      "source": "treasury",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "de61cdf7e1a17d9d038c75ab90bf35a2b5671e6b2db10dd10c9fb3571b478a74",
+      "translations": {
+        "zh-CN": {
+          "title": "财政部、国税局提出规则，保护可退还税收抵免免遭非法外国人滥用",
+          "summary": "财政部、国税局提出规则，保护可退还税收抵免免遭非法外国人滥用"
+        },
+        "zh-TW": {
+          "title": "財政部、國稅局提出規則，保護可退還稅收抵免免於非法外國人濫用",
+          "summary": "財政部、國稅局提出規則，保護可退還稅收抵免免於非法外國人濫用"
+        },
+        "ja": {
+          "title": "財務省とIRSが還付可能な税額控除を不法外国人による乱用から守る規則を提案",
+          "summary": "財務省とIRSが還付可能な税額控除を不法外国人による乱用から守る規則を提案"
+        },
+        "ko": {
+          "title": "재무부와 IRS, 불법 외국인에 의한 남용으로부터 환급 가능한 세금 공제를 보호하기 위한 규칙 제안",
+          "summary": "재무부와 IRS, 불법 외국인에 의한 남용으로부터 환급 가능한 세금 공제를 보호하기 위한 규칙 제안"
+        },
+        "de": {
+          "title": "Finanzministerium und IRS schlagen Regeln zum Schutz erstattungsfähiger Steuergutschriften vor Missbrauch durch illegale Ausländer vor",
+          "summary": "Finanzministerium und IRS schlagen Regeln zum Schutz erstattungsfähiger Steuergutschriften vor Missbrauch durch illegale Ausländer vor"
+        },
+        "fr": {
+          "title": "Le Trésor et l'IRS proposent des règles pour protéger les crédits d'impôt remboursables contre les abus commis par des étrangers illégaux",
+          "summary": "Le Trésor et l'IRS proposent des règles pour protéger les crédits d'impôt remboursables contre les abus commis par des étrangers illégaux"
+        }
+      }
+    },
     {
       "title": "Treasury Announces Increased Sizes of Nominal Long-End Liquidity Support Buybacks Beginning September 9",
       "link": "https://home.treasury.gov/news/press-releases/sb0607",
@@ -189,44 +227,6 @@
         "fr": {
           "title": "Les efforts de la Première Dame Melania Trump s’avèrent fructueux en Ukraine-Russie",
           "summary": "La Première Dame Melania Trump a facilité la réunification d'un autre enfant avec sa famille, lundi 17 août 2026, après avoir été séparés lors du conflit Ukraine-Fédération de Russie. \"Il n'y a rien de plus puissant que de réunir une mère avec son enfant après une longue période. Mon représentant et moi nous efforçons d'aider [...] L'article Les efforts de la Première Dame Melania Trump se révèlent fructueux en Ukraine-Russie est apparu en premier sur La Maison Blanche."
-        }
-      }
-    },
-    {
-      "title": "Treasury Seeks Public Comment on GENIUS Act Proposed Rulemaking",
-      "link": "https://home.treasury.gov/news/press-releases/sb0605",
-      "summary": "Treasury Seeks Public Comment on GENIUS Act Proposed Rulemaking",
-      "published_at": "2026-08-17T08:45:00Z",
-      "source": "treasury",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "52434b7b994ca111aa5ceafe8d2be220059bfd31511a7931da243a2086d1e13d",
-      "translations": {
-        "zh-CN": {
-          "title": "财政部就 GENIUS 法案拟议规则制定征求公众意见",
-          "summary": "财政部就 GENIUS 法案拟议规则制定征求公众意见"
-        },
-        "zh-TW": {
-          "title": "財政部就 GENIUS 法案擬議規則制定徵求公眾意見",
-          "summary": "財政部就 GENIUS 法案擬議規則制定徵求公眾意見"
-        },
-        "ja": {
-          "title": "財務省、GENIUS法案のルール策定案についてパブリックコメントを募集",
-          "summary": "財務省、GENIUS法案のルール策定案についてパブリックコメントを募集"
-        },
-        "ko": {
-          "title": "재무부는 GENIUS 법 제안된 규칙 제정에 대한 공개 의견을 구하고 있습니다.",
-          "summary": "재무부는 GENIUS 법 제안된 규칙 제정에 대한 공개 의견을 구하고 있습니다."
-        },
-        "de": {
-          "title": "Das Finanzministerium bittet um eine öffentliche Stellungnahme zum vorgeschlagenen Regelwerk des GENIUS Act",
-          "summary": "Das Finanzministerium bittet um eine öffentliche Stellungnahme zum vorgeschlagenen Regelwerk des GENIUS Act"
-        },
-        "fr": {
-          "title": "Le Trésor sollicite les commentaires du public sur la réglementation proposée par la loi GENIUS",
-          "summary": "Le Trésor sollicite les commentaires du public sur la réglementation proposée par la loi GENIUS"
         }
       }
     },
@@ -767,7 +767,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1071,7 +1071,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1261,7 +1261,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
