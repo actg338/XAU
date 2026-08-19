@@ -1,14 +1,17 @@
 {
-  "generated_at": "2026-08-18T23:55:15.130598+00:00",
+  "generated_at": "2026-08-19T00:16:34.113165+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
-  "confidence": 86,
-  "score": -40,
+  "confidence": 77,
+  "score": -37,
   "drivers": [
     "warsh",
     "fedwatch"
   ],
-  "counter_risks": [],
+  "counter_risks": [
+    "xau",
+    "dxy"
+  ],
   "top_news": [
     {
       "title": "Fact Sheet: President Donald J. Trump Bolsters National Security and Strengthens U.S. Supply Chains by Imposing Tariffs on Drones and Their Parts and Components",
