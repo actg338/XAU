@@ -1,42 +1,42 @@
 {
-  "fetched_at": "2026-08-19T12:33:57.767170+00:00",
+  "fetched_at": "2026-08-19T12:59:54.736985+00:00",
   "total": 121,
   "items": [
     {
-      "title": "Treasury Announces Increased Sizes of Nominal Long-End",
+      "title": "Treasury Announces Increased Sizes of Nominal Long-End Liquidity Support Buybacks Beginning September 9",
       "link": "https://home.treasury.gov/news/press-releases/sb0607",
-      "summary": "Treasury Announces Increased Sizes of Nominal Long-End",
+      "summary": "Treasury Announces Increased Sizes of Nominal Long-End Liquidity Support Buybacks Beginning September 9",
       "published_at": "2026-08-19T12:30:00Z",
       "source": "treasury",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "64903e7814d072b18867de0a9c8811656fb25751d3ed7b1bc977cbe8ba8a2821",
+      "_translation_hash": "576278923540fe7fecd66cc0d5a3211ce3140a6fd7a3afcf21a7d0b2a92c42ba",
       "translations": {
         "zh-CN": {
-          "title": "财政部宣布增加名义长期债券规模",
-          "summary": "财政部宣布增加名义长期债券规模"
+          "title": "财政部宣布从 9 月 9 日开始扩大名义长期流动性支持回购规模",
+          "summary": "财政部宣布从 9 月 9 日开始扩大名义长期流动性支持回购规模"
         },
         "ko": {
-          "title": "재무부, 명목상 장기 규모의 증가 발표",
-          "summary": "재무부, 명목상 장기 규모의 증가 발표"
+          "title": "재무부, 9월 9일부터 명목 장기 유동성 지원 자사주 매입 규모 확대 발표",
+          "summary": "재무부, 9월 9일부터 명목 장기 유동성 지원 자사주 매입 규모 확대 발표"
         },
         "ja": {
-          "title": "財務省、名目ロングエンドの規模拡大を発表",
-          "summary": "財務省、名目ロングエンドの規模拡大を発表"
+          "title": "財務省、9月9日から名目長期流動性サポート買い戻し規模の拡大を発表",
+          "summary": "財務省、9月9日から名目長期流動性サポート買い戻し規模の拡大を発表"
         },
         "zh-TW": {
-          "title": "财政部宣布增加名义长期债券规模",
-          "summary": "财政部宣布增加名义长期债券规模"
-        },
-        "fr": {
-          "title": "Le Trésor annonce une augmentation de la taille des titres nominaux à long terme",
-          "summary": "Le Trésor annonce une augmentation de la taille des titres nominaux à long terme"
+          "title": "財政部宣布從 9 月 9 日開始擴大名目長期流動性支持回購規模",
+          "summary": "財政部宣布從 9 月 9 日開始擴大名目長期流動性支持回購規模"
         },
         "de": {
-          "title": "Finanzministerium kündigt Erhöhung der nominalen Long-End-Größen an",
-          "summary": "Finanzministerium kündigt Erhöhung der nominalen Long-End-Größen an"
+          "title": "Das Finanzministerium kündigt ab dem 9. September größere Mengen an nominalen langfristigen Liquiditätsunterstützungsrückkäufen an",
+          "summary": "Das Finanzministerium kündigt ab dem 9. September größere Mengen an nominalen langfristigen Liquiditätsunterstützungsrückkäufen an"
+        },
+        "fr": {
+          "title": "Le Trésor annonce une augmentation du volume des rachats nominaux de soutien à la liquidité à long terme à partir du 9 septembre",
+          "summary": "Le Trésor annonce une augmentation du volume des rachats nominaux de soutien à la liquidité à long terme à partir du 9 septembre"
         }
       }
     },
