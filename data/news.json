@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-08-19T17:58:59.515596+00:00",
+  "fetched_at": "2026-08-19T18:13:04.266684+00:00",
   "total": 121,
   "items": [
+    {
+      "title": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",
+      "summary": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
+      "published_at": "Wed, 19 Aug 2026 18:00:00 GMT",
+      "source": "fed_policy",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "2b4be61564ba905c150584a0152289b309e9f2f8b6bdf6d323a589437529de64",
+      "translations": {
+        "zh-CN": {
+          "title": "联邦公开市场委员会会议纪要，2026 年 7 月 28 日至 29 日",
+          "summary": "联邦公开市场委员会会议纪要，2026 年 7 月 28 日至 29 日"
+        },
+        "ja": {
+          "title": "連邦公開市場委員会の議事録、2026 年 7 月 28 ～ 29 日",
+          "summary": "連邦公開市場委員会の議事録、2026 年 7 月 28 ～ 29 日"
+        },
+        "ko": {
+          "title": "연방공개시장위원회 회의록, 2026년 7월 28~29일",
+          "summary": "연방공개시장위원회 회의록, 2026년 7월 28~29일"
+        },
+        "zh-TW": {
+          "title": "聯邦公開市場委員會會議紀要，2026 年 7 月 28 日至 29 日",
+          "summary": "聯邦公開市場委員會會議紀要，2026 年 7 月 28 日至 29 日"
+        },
+        "de": {
+          "title": "Protokoll des Federal Open Market Committee, 28.–29. Juli 2026",
+          "summary": "Protokoll des Federal Open Market Committee, 28.–29. Juli 2026"
+        },
+        "fr": {
+          "title": "Procès-verbal du Comité fédéral de l’open market, 28 et 29 juillet 2026",
+          "summary": "Procès-verbal du Comité fédéral de l’open market, 28 et 29 juillet 2026"
+        }
+      }
+    },
     {
       "title": "Treasury, IRS Propose Rules to Protect Refundable Tax Credits from Abuse by Illegal Aliens",
       "link": "https://home.treasury.gov/news/press-releases/sb0608",
@@ -1867,18 +1905,6 @@
       "gold_bias": "neutral",
       "why_key": "other_neutral",
       "_translation_hash": "e89d8ef97a2ffdebc38f974f461ebf6da6e2b381a1d2ff81ad33040d7692e588"
-    },
-    {
-      "title": "Minutes of the Federal Open Market Committee, January 27–28, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260218a.htm",
-      "summary": "Minutes of the Federal Open Market Committee, January 27–28, 2026",
-      "published_at": "Wed, 18 Feb 2026 19:00:00 GMT",
-      "source": "fed_policy",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "9f0d9e068b89f6499111374dceb002af57bd5fd78e31ed7ba1c150f230178848"
     },
     {
       "title": "Treasury Accepting Whistleblower Tips on Fraud, Money Laundering, Sanctions Violations",
