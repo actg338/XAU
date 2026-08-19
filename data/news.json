@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-08-19T12:14:44.579048+00:00",
+  "fetched_at": "2026-08-19T12:33:57.767170+00:00",
   "total": 121,
   "items": [
+    {
+      "title": "Treasury Announces Increased Sizes of Nominal Long-End",
+      "link": "https://home.treasury.gov/news/press-releases/sb0607",
+      "summary": "Treasury Announces Increased Sizes of Nominal Long-End",
+      "published_at": "2026-08-19T12:30:00Z",
+      "source": "treasury",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "64903e7814d072b18867de0a9c8811656fb25751d3ed7b1bc977cbe8ba8a2821",
+      "translations": {
+        "zh-CN": {
+          "title": "财政部宣布增加名义长期债券规模",
+          "summary": "财政部宣布增加名义长期债券规模"
+        },
+        "ko": {
+          "title": "재무부, 명목상 장기 규모의 증가 발표",
+          "summary": "재무부, 명목상 장기 규모의 증가 발표"
+        },
+        "ja": {
+          "title": "財務省、名目ロングエンドの規模拡大を発表",
+          "summary": "財務省、名目ロングエンドの規模拡大を発表"
+        },
+        "zh-TW": {
+          "title": "财政部宣布增加名义长期债券规模",
+          "summary": "财政部宣布增加名义长期债券规模"
+        },
+        "fr": {
+          "title": "Le Trésor annonce une augmentation de la taille des titres nominaux à long terme",
+          "summary": "Le Trésor annonce une augmentation de la taille des titres nominaux à long terme"
+        },
+        "de": {
+          "title": "Finanzministerium kündigt Erhöhung der nominalen Long-End-Größen an",
+          "summary": "Finanzministerium kündigt Erhöhung der nominalen Long-End-Größen an"
+        }
+      }
+    },
     {
       "title": "New Residential Construction",
       "link": "https://www.census.gov/construction/nrc/index.html",
@@ -341,44 +379,6 @@
         "fr": {
           "title": "Fiche d'information : Le président Donald J. Trump renforce la sécurité nationale et renforce les chaînes d'approvisionnement américaines en imposant des droits de douane sur les drones et leurs pièces et composants",
           "summary": "GARANTIR LA DOMINANCE AMÉRICAINE DES DRONES : Aujourd'hui, le président Donald J. Trump a signé une proclamation pour répondre à la menace pour la sécurité nationale posée par les importations de drones et de leurs composants, notamment en renforçant l'industrie américaine des drones et la chaîne d'approvisionnement. RENFORCEMENT DE LA SÉCURITÉ NATIONALE : le programme tarifaire sur les drones du président Trump protégera la sécurité nationale des États-Unis, ainsi que sa défense et ses zones adjacentes […] L'article Fiche d'information : Le président Donald J. Trump renforce la sécurité nationale et la sécurité"
-        }
-      }
-    },
-    {
-      "title": "Treasury Secretary Scott Bessent Highlights America’s Main Street and Manufacturing Renaissance",
-      "link": "https://home.treasury.gov/news/press-releases/sb0604",
-      "summary": "Treasury Secretary Scott Bessent Highlights America’s Main Street and Manufacturing Renaissance",
-      "published_at": "2026-08-12T21:00:00Z",
-      "source": "treasury",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "5b2200461a7cb5e549ecf739254b8f969991c878f089b7bdc07d1130e1fd3195",
-      "translations": {
-        "zh-CN": {
-          "title": "财政部长斯科特·贝森特强调美国的大街和制造业复兴",
-          "summary": "财政部长斯科特·贝森特强调美国的大街和制造业复兴"
-        },
-        "zh-TW": {
-          "title": "財政部長斯科特·貝森特強調美國的大街和製造業復興",
-          "summary": "財政部長斯科特·貝森特強調美國的大街和製造業復興"
-        },
-        "ja": {
-          "title": "スコット・ベッセント財務長官がアメリカのメインストリートと製造業ルネサンスを強調",
-          "summary": "スコット・ベッセント財務長官がアメリカのメインストリートと製造業ルネサンスを強調"
-        },
-        "ko": {
-          "title": "Scott Bessent 재무장관은 미국의 메인 스트리트와 제조업 르네상스를 강조합니다.",
-          "summary": "Scott Bessent 재무장관은 미국의 메인 스트리트와 제조업 르네상스를 강조합니다."
-        },
-        "de": {
-          "title": "Finanzminister Scott Bessent beleuchtet Amerikas Main Street und die Renaissance des verarbeitenden Gewerbes",
-          "summary": "Finanzminister Scott Bessent beleuchtet Amerikas Main Street und die Renaissance des verarbeitenden Gewerbes"
-        },
-        "fr": {
-          "title": "Le secrétaire au Trésor, Scott Bessent, met en lumière la renaissance de l’Amérique et du secteur manufacturier",
-          "summary": "Le secrétaire au Trésor, Scott Bessent, met en lumière la renaissance de l’Amérique et du secteur manufacturier"
         }
       }
     },
