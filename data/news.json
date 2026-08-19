@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-08-19T21:43:28.980805+00:00",
-  "total": 121,
+  "fetched_at": "2026-08-19T21:56:13.079333+00:00",
+  "total": 122,
   "items": [
+    {
+      "title": "President Trump’s Trade Agenda Is Rebuilding the American Auto Industry",
+      "link": "https://www.whitehouse.gov/releases/2026/08/president-trumps-trade-agenda-is-rebuilding-the-american-auto-industry/",
+      "summary": "Ford Motor Company announced it will reshore production of its Lincoln models to the United States — phasing out imports from China and creating thousands of new American jobs. This is the latest proof that President Donald J. Trump’s America First trade agenda is delivering exactly as designed: rewarding domestic manufacturing, protecting American workers, and […] The post President Trump’s Trade Agenda Is Rebuilding the American Auto Industry appeared first on The White House .",
+      "published_at": "Wed, 19 Aug 2026 21:42:19 +0000",
+      "source": "white_house",
+      "category": "trade",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "trade_bullish",
+      "_translation_hash": "7739de6e3f0fe9b9c8f093bf78e3434fbb98d9e708b2246f8aeae76b6dfce367",
+      "translations": {
+        "zh-CN": {
+          "title": "特朗普总统的贸易议程是重建美国汽车工业",
+          "summary": "福特汽车公司宣布将把林肯车型的生产迁回美国，逐步停止从中国进口，并为美国创造数千个新就业岗位。这是唐纳德·J·特朗普总统的“美国优先”贸易议程完全按照设计实现的最新证据：奖励国内制造业，保护美国工人，以及[……]特朗普总统的贸易议程正在重建美国汽车工业一文首先出现在白宫。"
+        },
+        "ja": {
+          "title": "トランプ大統領の通商政策はアメリカの自動車産業を再建する",
+          "summary": "フォード・モーター・カンパニーは、リンカーンモデルの生産を米国に再移転すると発表した。これにより、中国からの輸入を段階的に廃止し、米国で数千人の新たな雇用を創出する。これは、ドナルド・J・トランプ大統領のアメリカ第一の通商政策がまさに設計通りに実現していることの最新の証拠である：国内製造業に報酬を与え、アメリカの労働者を保護し、そして […] The post トランプ大統領の通商政策はアメリカの自動車産業を再構築している first appeared on The White House ."
+        },
+        "zh-TW": {
+          "title": "川普總統的貿易議程是重建美國汽車工業",
+          "summary": "福特汽車宣布將把林肯車型的生產遷回美國，逐步停止從中國進口，並為美國創造數千個新工作機會。這是唐納德·J·特朗普總統的“美國優先”貿易議程完全按照設計實現的最新證據：獎勵國內製造業，保護美國工人，以及[……]特朗普總統的貿易議程正在重建美國汽車工業一文首先出現在白宮。"
+        },
+        "ko": {
+          "title": "트럼프 대통령의 무역 어젠다가 미국 자동차 산업을 재건하고 있다",
+          "summary": "포드 자동차 회사(Ford Motor Company)는 링컨 모델의 생산을 미국으로 이전하여 중국으로부터의 수입을 단계적으로 중단하고 수천 개의 새로운 미국 일자리를 창출할 것이라고 발표했습니다. 이는 도널드 J. 트럼프 대통령의 미국 우선 무역 의제가 의도한 대로 정확히 전달되고 있음을 보여주는 최신 증거입니다. 국내 제조업에 대한 보상, 미국 근로자 보호, 그리고 […] 트럼프 대통령의 무역 의제는 미국 자동차 산업 재건이다라는 게시물이 백악관에 처음 등장했습니다."
+        },
+        "de": {
+          "title": "Die Handelsagenda von Präsident Trump baut die amerikanische Autoindustrie wieder auf",
+          "summary": "Die Ford Motor Company kündigte an, dass sie die Produktion ihrer Lincoln-Modelle in die USA verlagern wird – wodurch Importe aus China eingestellt werden und Tausende neuer Arbeitsplätze in den USA geschaffen werden. Dies ist der jüngste Beweis dafür, dass die Handelsagenda „America First“ von Präsident Donald J. Trump genau das liefert, was sie beabsichtigt hat: die inländische Produktion belohnen, amerikanische Arbeitnehmer schützen und […] Der Beitrag „Die Handelsagenda von Präsident Trump baut die amerikanische Autoindustrie wieder auf“ erschien zuerst im Weißen Haus."
+        },
+        "fr": {
+          "title": "Le programme commercial du président Trump reconstruit l’industrie automobile américaine",
+          "summary": "Ford Motor Company a annoncé qu'elle rapatrierait la production de ses modèles Lincoln aux États-Unis, éliminant ainsi progressivement les importations en provenance de Chine et créant des milliers de nouveaux emplois américains. Il s’agit de la dernière preuve que le programme commercial « L’Amérique d’abord » du président Donald J. Trump donne exactement les résultats escomptés : récompenser l’industrie manufacturière nationale, protéger les travailleurs américains et […] L’article Le programme commercial du président Trump vise à reconstruire l’industrie automobile américaine est apparu en premier sur La Maison Blanche."
+        }
+      }
+    },
     {
       "title": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",
@@ -805,7 +843,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1109,7 +1147,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1299,7 +1337,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
@@ -1989,18 +2027,6 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "73bda2ca782b16cd80357da42f35608e224ee3c0499888fae3e0c51804e6e281"
-    },
-    {
-      "title": "Both payroll employment (+50,000) and unemployment rate (4.4%) change little in December",
-      "link": "https://www.bls.gov/news.release/archives/empsit_01092026.htm",
-      "summary": "",
-      "published_at": "2026-01-09T08:30:00-05:00",
-      "source": "bls_jobs",
-      "category": "labor",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "9b48fbf047f30f6f279873c58b8a7464563f431ae74d4d223455487a1521272a"
     }
   ]
 }
