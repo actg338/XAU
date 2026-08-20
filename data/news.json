@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-08-20T13:49:00.383066+00:00",
+  "fetched_at": "2026-08-20T14:08:32.138277+00:00",
   "total": 122,
   "items": [
+    {
+      "title": "Quarterly Services Survey",
+      "link": "https://www.census.gov/services/index.html",
+      "summary": "Advance U.S. selected services total revenue for the second quarter of 2026, adjusted for seasonal variation but not for price changes, was $6,421.9 billion, an increase of 3.1 percent (+/- 0.4 percent) from the first quarter of 2026 and up 7.7 percent (+/- 0.6 percent) from the second quarter of 2025. 2nd Qtr 2026: +3.1 % Change 1st Qtr 2026 (r): +1.1 % Change",
+      "published_at": "Thu, 20 Aug 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "354385384c29962012a40936cd932acd23278e4bf9b5d701d3ecf676b6526f50",
+      "translations": {
+        "ja": {
+          "title": "四半期サービス調査",
+          "summary": "2026 年第 2 四半期の米国アドバンスト セレクト サービスの総収益は、季節変動を調整後、価格変動は考慮せず、6 兆 4,219 億ドルで、2026 年第 1 四半期から 3.1 パーセント (+/- 0.4 パーセント) 増加し、2025 年第 2 四半期から 7.7 パーセント (+/- 0.6 パーセント) 増加しました。 2026 年第 2 四半期: +3.1 % 変化2026 年第 1 四半期 (r): +1.1 % 変化"
+        },
+        "zh-CN": {
+          "title": "季度服务调查",
+          "summary": "美国高级精选服务 2026 年第二季度的总收入（根据季节性变化但未根据价格变化进行调整）为 64,219 亿美元，比 2026 年第一季度增长 3.1%（+/- 0.4%），比 2025 年第二季度增长 7.7%（+/- 0.6%）。 2026 年第二季度：第一季度变化 +3.1% 2026 年 (r)：+1.1% 变化"
+        },
+        "zh-TW": {
+          "title": "季度服務調查",
+          "summary": "美國高級精選服務 2026 年第二季度的總收入（根據季節性變化但未根據價格變化進行調整）為 64,219 億美元，比 2026 年第一季增長 3.1%（+/- 0.4%），比 2025 年第二季度增長 7.7%（+/- 0.6%）。 2026 年第二季：第一季變動 +3.1% 2026 年 (r)：+1.1% 變化"
+        },
+        "de": {
+          "title": "Vierteljährliche Dienstleistungsumfrage",
+          "summary": "Der Gesamtumsatz von Advance US-Auswahldiensten belief sich im zweiten Quartal 2026, bereinigt um saisonale Schwankungen, aber nicht um Preisänderungen, auf 6.421,9 Milliarden US-Dollar, ein Anstieg von 3,1 Prozent (+/- 0,4 Prozent) gegenüber dem ersten Quartal 2026 und ein Anstieg von 7,7 Prozent (+/- 0,6 Prozent) gegenüber dem zweiten Quartal 2025. 2. Quartal 2026: +3,1 % Veränderung 1. Quartal 2026 (r): +1,1 % Veränderung"
+        },
+        "ko": {
+          "title": "분기별 서비스 설문조사",
+          "summary": "2026년 2분기 사전 미국 선별 서비스 총 수익은 계절적 변동을 조정했지만 가격 변동은 조정하지 않은 6조 4,219억 달러로, 2026년 1분기보다 3.1%(+/- 0.4%) 증가했고 2025년 2분기보다 7.7%(+/- 0.6%) 증가했습니다. 2026년 2분기: +3.1% 변화 2026년 4분기(r): +1.1% 변화"
+        },
+        "fr": {
+          "title": "Enquête trimestrielle sur les services",
+          "summary": "Le chiffre d'affaires total des services sélectionnés aux États-Unis pour le deuxième trimestre 2026, ajusté des variations saisonnières mais pas des changements de prix, s'est élevé à 6 421,9 milliards de dollars, soit une augmentation de 3,1 pour cent (+/- 0,4 pour cent) par rapport au premier trimestre 2026 et en hausse de 7,7 pour cent (+/- 0,6 pour cent) par rapport au deuxième trimestre 2025. 2e trimestre 2026 : +3,1 % de variation au 1er trimestre 2026 (r) : +1,1 % Variation"
+        }
+      }
+    },
     {
       "title": "U.S. Treasury Proposes Common Sense and Low-Cost Investment Rules for Trump Accounts",
       "link": "https://home.treasury.gov/news/press-releases/sb0609",
@@ -843,7 +881,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -877,78 +915,78 @@
       }
     },
     {
-      "title": "Housing Vacancies and Homeownership",
+      "title": "Rental Vacancy Rate",
       "link": "https://www.census.gov/housing/hvs/",
-      "summary": "The homeownership rate of 65.0 percent was virtually the same as the rate in the second quarter 2025. The homeownership rates in the Northeast, Midwest, South, and West were not statistically different from second quarter 2025 rates. 2nd Qtr 2026: +0.0* Percentage Points 2nd Qtr 2025: -0.6* Percentage Points",
+      "summary": "The rental vacancy rate of 7.3 percent was not statistically different from the rate in the second quarter 2025. Compared to the second quarter 2025, the rental vacancy rate was higher in the Northeast and not statistically different in the Midwest, South, and West. 2nd Qtr 2026: +0.3* Percentage Points 2nd Qtr 2025: +0.4 Percentage Points",
       "published_at": "Tue, 28 Jul 2026 10:00:00 -0400",
       "source": "census",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "b246e36a35b4f89cb35dd67eee7aef3a31535708968ed021aee387e07e270b61",
+      "_translation_hash": "d85f7fad6c3281152c95383462001ac9642c955d5beedd518340c16d34baf2e1",
       "translations": {
         "ja": {
-          "title": "住宅の空室と住宅所有権",
-          "summary": "65.0% という住宅所有率は、2025 年第 2 四半期の住宅所有率と実質的に同じでした。北東部、中西部、南部、西部の住宅所有率は、2025 年第 2 四半期の住宅所有率と統計的には変わりませんでした。 2026 年第 2 四半期: +0.0* パーセント ポイント 2025 年第 2 四半期: -0.6* パーセント ポイント"
+          "title": "賃貸空室率",
+          "summary": "7.3% という賃貸空室率は、2025 年第 2 四半期の空室率と統計的には変わりませんでした。2025 年第 2 四半期と比較して、賃貸空室率は北東部で高く、中西部、南部、西部では統計的に違いはありませんでした。 2026 年第 2 四半期: +0.3* パーセンテージ ポイント 2025 年第 2 四半期: +0.4 パーセンテージ ポイント"
         },
         "zh-CN": {
-          "title": "住房空置和住房拥有率",
-          "summary": "65.0%的住房拥有率与 2025 年第二季度的住房拥有率几乎相同。东北部、中西部、南部和西部的住房拥有率与 2025 年第二季度没有统计差异。 2026 年第二季度：+0.0* 百分点 2025 年第二季度：-0.6* 百分点"
+          "title": "出租空置率",
+          "summary": "7.3%的出租房空置率与2025年第二季度没有统计差异。与2025年第二季度相比，东北部的出租房空置率较高，中西部、南部和西部没有统计差异。 2026 年第二季度：+0.3* 个百分点 2025 年第二季度：+0.4 个百分点"
         },
         "zh-TW": {
-          "title": "住房空置和住房擁有率",
-          "summary": "65.0%的住房擁有率與 2025 年第二季的住房擁有率幾乎相同。東北部、中西部、南部和西部的住房擁有率與 2025 年第二季沒有統計差異。 2026 年第二季：+0.0* 百分點 2025 年第二季：-0.6* 百分點"
+          "title": "出租空置率",
+          "summary": "7.3%的出租房屋空置率與2025年第二季沒有統計差異。與2025年第二季相比，東北部的出租房間空置率較高，中西部、南部和西部沒有統計差異。 2026 年第二季：+0.3* 個百分點 2025 年第二季：+0.4 個百分點"
         },
         "de": {
-          "title": "Wohnungsleerstand und Wohneigentum",
-          "summary": "Die Wohneigentumsquote von 65,0 Prozent entsprach praktisch der Quote im zweiten Quartal 2025. Die Wohneigentumsquoten im Nordosten, Mittleren Westen, Süden und Westen unterschieden sich statistisch gesehen nicht von den Quoten im zweiten Quartal 2025. 2. Quartal 2026: +0,0* Prozentpunkte 2. Quartal 2025: -0,6* Prozentpunkte"
+          "title": "Mietleerstandsquote",
+          "summary": "Die Mietleerstandsquote von 7,3 Prozent unterschied sich statistisch gesehen nicht von der Quote im zweiten Quartal 2025. Im Vergleich zum zweiten Quartal 2025 war die Mietleerstandsquote im Nordosten höher und statistisch gesehen nicht unterschiedlich im Mittleren Westen, Süden und Westen. 2. Quartal 2026: +0,3* Prozentpunkte 2. Quartal 2025: +0,4 Prozentpunkte"
         },
         "ko": {
-          "title": "주택 공실 및 주택 소유",
-          "summary": "주택보유율은 65.0%로 2025년 2분기 주택보유율과 사실상 같았다. 북동부, 중서부, 남부, 서부 지역의 주택보유율은 2025년 2분기 주택보유율과 통계적으로 다르지 않았다. 2026년 2분기: +0.0* 백분율 포인트 2025년 2분기: -0.6* 백분율 포인트"
+          "title": "임대 공실률",
+          "summary": "7.3%의 임대 공실률은 2025년 2분기 공실률과 통계적으로 다르지 않았습니다. 2025년 2분기와 비교하면 임대 공실률은 북동부 지역이 더 높았고 중서부, 남부, 서부에서는 통계적으로 차이가 없었습니다. 2026년 2분기: +0.3* 백분율 포인트 2025년 2분기: +0.4 백분율 포인트"
         },
         "fr": {
-          "title": "Offres de logements vacants et accession à la propriété",
-          "summary": "Le taux d'accession à la propriété de 65,0 pour cent était pratiquement le même que celui du deuxième trimestre 2025. Les taux d'accession à la propriété dans le Nord-Est, le Midwest, le Sud et l'Ouest n'étaient pas statistiquement différents des taux du deuxième trimestre 2025. 2e trimestre 2026 : +0,0* points de pourcentage 2e trimestre 2025 : -0,6* points de pourcentage"
+          "title": "Taux d'inoccupation des logements locatifs",
+          "summary": "Le taux d'inoccupation des logements locatifs de 7,3 % n'était pas statistiquement différent du taux du deuxième trimestre 2025. Par rapport au deuxième trimestre 2025, le taux d'inoccupation des logements locatifs était plus élevé dans le Nord-Est et n'était pas statistiquement différent dans le Midwest, le Sud et l'Ouest. 2e trimestre 2026 : +0,3* points de pourcentage 2e trimestre 2025 : +0,4 points de pourcentage"
         }
       }
     },
     {
-      "title": "Advance U.S. International Trade in Goods",
+      "title": "Advance Wholesale Inventories",
       "link": "https://www.census.gov/econ/indicators/index.html",
-      "summary": "The advance international trade deficit in goods decreased to $101.5 billion in June from $105.9 billion in May as imports decreased more than exports. June 2026: -4.2° % Change May 2026: 28.8° % Change",
+      "summary": "June end-of-month inventories were $945.9 billion, up 0.3 percent (+/- 0.2 percent) from last month. June 2026: +0.3 % Change in Inventories May 2026 (r): +0.3 % Change in Inventories",
       "published_at": "Tue, 28 Jul 2026 08:30:00 -0400",
       "source": "census",
-      "category": "trade",
-      "impact": "medium",
+      "category": "other",
+      "impact": "low",
       "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "4593c72c3974f6da5b164e6e9f5212a06df58955dddb2fdf823fcc63bb7c303d",
+      "why_key": "other_neutral",
+      "_translation_hash": "519e5ece534b80c937491ca003ba4ddbb8852de450ae934ed6e272cb64486955",
       "translations": {
         "ja": {
-          "title": "米国の国際商品貿易を前進させる",
-          "summary": "輸出よりも輸入の減少が大きかったため、モノの事前国際貿易赤字は6月の1,015億ドルと、5月の1,059億ドルから減少した。 2026年6月: -4.2° %変化 2026年5月: 28.8° %変化"
+          "title": "事前の卸売在庫",
+          "summary": "６月の月末在庫は９４５９億ドルで、前月比０．３％（±０．２％）増加した。 2026年6月: +0.3 % 在庫変動 2026年5月(r): +0.3 % 在庫変動"
         },
         "zh-CN": {
-          "title": "推进美国国际货物贸易",
-          "summary": "由于进口降幅大于出口降幅，6 月份预付国际货物贸易逆差从 5 月份的 1,059 亿美元降至 1,015 亿美元。 2026 年 6 月：-4.2° 变化百分比 2026 年 5 月：28.8° 变化百分比"
+          "title": "预付批发库存",
+          "summary": "6 月末库存为 9,459 亿美元，较上月增长 0.3%（+/- 0.2%）。 2026 年 6 月：库存变化 +0.3% 2026 年 5 月 (r)：库存变化 +0.3%"
         },
         "zh-TW": {
-          "title": "推動美國國際貨物貿易",
-          "summary": "由於進口降幅大於出口降幅，6 月預付國際貨物貿易逆差從 5 月的 1,059 億美元降至 1,015 億美元。 2026 年 6 月：-4.2° 變化百分比 2026 年 5 月：28.8° 變化百分比"
+          "title": "預付批發庫存",
+          "summary": "6 月底庫存為 9,459 億美元，較上月增長 0.3%（+/- 0.2%）。 2026 年 6 月：庫存變化 +0.3% 2026 年 5 月 (r)：庫存變化 +0.3%"
         },
         "de": {
-          "title": "Förderung des internationalen Warenhandels der USA",
-          "summary": "Das vorläufige Defizit im internationalen Warenhandel sank von 105,9 Milliarden US-Dollar im Mai auf 101,5 Milliarden US-Dollar im Juni, da die Importe stärker zurückgingen als die Exporte. Juni 2026: -4,2° % Veränderung Mai 2026: 28,8° % Veränderung"
+          "title": "Erweiterte Lagerbestände im Großhandel",
+          "summary": "Die Lagerbestände zum Monatsende beliefen sich im Juni auf 945,9 Milliarden US-Dollar, ein Plus von 0,3 Prozent (+/- 0,2 Prozent) gegenüber dem Vormonat. Juni 2026: +0,3 % Bestandsveränderung Mai 2026 (r): +0,3 % Bestandsveränderung"
         },
         "ko": {
-          "title": "미국의 국제 상품 무역 증진",
-          "summary": "수입이 수출보다 더 많이 감소함에 따라 상품 부문의 국제 무역 적자는 5월 1,059억 달러에서 6월 1,015억 달러로 감소했습니다. 2026년 6월: -4.2° % 변화 2026년 5월: 28.8° % 변화"
+          "title": "사전 도매 재고",
+          "summary": "6월말 재고는 9459억 달러로 전월 대비 0.3%(+/-0.2%) 증가했다. 2026년 6월: 재고 변동 +0.3% 2026년 5월(r): 재고 변동 +0.3%"
         },
         "fr": {
-          "title": "Faire progresser le commerce international des marchandises aux États-Unis",
-          "summary": "Le déficit anticipé du commerce international de biens a diminué à 101,5 milliards de dollars en juin contre 105,9 milliards de dollars en mai, les importations ayant diminué plus que les exportations. Juin 2026 : -4,2° % Variation Mai 2026 : 28,8° % Variation"
+          "title": "Avancer les stocks en gros",
+          "summary": "Les stocks de fin de mois de juin s'élevaient à 945,9 milliards de dollars, en hausse de 0,3 pour cent (+/- 0,2 pour cent) par rapport au mois dernier. Juin 2026 : +0,3 % Variation des Stocks Mai 2026 (r) : +0,3 % Variation des Stocks"
         }
       }
     },
@@ -1147,7 +1185,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1337,7 +1375,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
@@ -1583,18 +1621,6 @@
       "gold_bias": "neutral",
       "why_key": "monetary_policy_neutral",
       "_translation_hash": "1a1af3cea5eec364078d94a6fb136d13d02892ad03abbb74de6098e21d26bb32"
-    },
-    {
-      "title": "Quarterly Services Survey",
-      "link": "https://www.census.gov/services/index.html",
-      "summary": "U.S. selected services total revenue for the first quarter of 2026, adjusted for seasonal variation but not for price changes, was $6,223.1 billion, an increase of 1.1 percent (+/- 0.4 percent) from the fourth quarter of 2025 and up 6.5 percent (+/- 0.4 percent) from the first quarter of 2025. The fourth quarter of 2025 to first quarter of 2026 percentage change was revised from the advance estimate of 0.9 percent (+/- 0.4 percent). 1st Qtr 2026: +1.1 % Change 4th Qtr 2025 (r): +0.8 % Change",
-      "published_at": "Thu, 11 Jun 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "79b6d2773102419dff83b48579837e7219b71d9ac1bbce0ca96aa4a6814b58b7"
     },
     {
       "title": "PPI for final demand advances 1.1% in May; goods rise 2.8%, services increase 0.3%",

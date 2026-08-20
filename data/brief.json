@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-20T13:49:00.762368+00:00",
+  "generated_at": "2026-08-20T14:08:35.994702+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
   "confidence": 92,
-  "score": -52,
+  "score": -53,
   "drivers": [
     "warsh",
     "fedwatch",
@@ -33,8 +33,8 @@
   ],
   "next_event": {
     "event_key": "bls_release",
-    "title": "Summer Youth Labor Force",
-    "starts_at": "2026-08-20T14:00:00+00:00",
+    "title": "State Employment and Unemployment (Monthly)",
+    "starts_at": "2026-08-21T14:00:00+00:00",
     "impact": "medium",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
