@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-08-20T12:33:37.190000+00:00",
+  "fetched_at": "2026-08-20T12:59:43.228594+00:00",
   "total": 122,
   "items": [
+    {
+      "title": "U.S. Treasury Proposes Common Sense and Low-Cost Investment Rules for Trump Accounts",
+      "link": "https://home.treasury.gov/news/press-releases/sb0609",
+      "summary": "U.S. Treasury Proposes Common Sense and Low-Cost Investment Rules for Trump Accounts",
+      "published_at": "2026-08-20T12:45:59Z",
+      "source": "treasury",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "528544cc3c500341f34d82a416fff381da6374a982715ee066b9f491eb0d4e4d",
+      "translations": {
+        "zh-CN": {
+          "title": "美国财政部为特朗普账户提出常识和低成本投资规则",
+          "summary": "美国财政部为特朗普账户提出常识和低成本投资规则"
+        },
+        "zh-TW": {
+          "title": "美國財政部為川普帳戶提出常識和低成本投資規則",
+          "summary": "美國財政部為川普帳戶提出常識和低成本投資規則"
+        },
+        "ja": {
+          "title": "米財務省、トランプ口座向けの常識的で低コストの投資ルールを提案",
+          "summary": "米財務省、トランプ口座向けの常識的で低コストの投資ルールを提案"
+        },
+        "ko": {
+          "title": "미 재무부, 트럼프 계좌에 대한 상식과 저비용 투자 규칙 제안",
+          "summary": "미 재무부, 트럼프 계좌에 대한 상식과 저비용 투자 규칙 제안"
+        },
+        "de": {
+          "title": "Das US-Finanzministerium schlägt Regeln für vernünftige und kostengünstige Investitionen für Trump-Konten vor",
+          "summary": "Das US-Finanzministerium schlägt Regeln für vernünftige und kostengünstige Investitionen für Trump-Konten vor"
+        },
+        "fr": {
+          "title": "Le Trésor américain propose des règles d’investissement sensées et à faible coût pour les comptes Trump",
+          "summary": "Le Trésor américain propose des règles d’investissement sensées et à faible coût pour les comptes Trump"
+        }
+      }
+    },
     {
       "title": "President Trump’s Trade Agenda Is Rebuilding the American Auto Industry",
       "link": "https://www.whitehouse.gov/releases/2026/08/president-trumps-trade-agenda-is-rebuilding-the-american-auto-industry/",
@@ -189,44 +227,6 @@
         "fr": {
           "title": "Nouvelle construction résidentielle",
           "summary": "En juillet 2026, les mises en chantier de logements privés se sont établies à un taux annuel désaisonnalisé de 1 239 000. Cela représente 12,4 % (+/- 9,5 %) de moins que l'estimation révisée de juin 2026 de 1 415 000. Juillet 2026 : -12,4 % Variation Juin 2026 (r) : +19,7 % Variation"
-        }
-      }
-    },
-    {
-      "title": "Treasury International Capital Data for June",
-      "link": "https://home.treasury.gov/news/press-releases/sb0606",
-      "summary": "Treasury International Capital Data for June",
-      "published_at": "2026-08-17T20:00:00Z",
-      "source": "treasury",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "a6f4867d511e65b7019488eff7bc2e68db27e5d941a31b8624cbd9b57a7466b3",
-      "translations": {
-        "zh-CN": {
-          "title": "六月份财政部国际资本数据",
-          "summary": "六月份财政部国际资本数据"
-        },
-        "zh-TW": {
-          "title": "六月財政部國際資本數據",
-          "summary": "六月財政部國際資本數據"
-        },
-        "ja": {
-          "title": "6月の財務省国際資本データ",
-          "summary": "6月の財務省国際資本データ"
-        },
-        "ko": {
-          "title": "6월 재무부 국제자본 데이터",
-          "summary": "6월 재무부 국제자본 데이터"
-        },
-        "de": {
-          "title": "Treasury International Capital Data für Juni",
-          "summary": "Treasury International Capital Data für Juni"
-        },
-        "fr": {
-          "title": "Données du Trésor sur les capitaux internationaux pour juin",
-          "summary": "Données du Trésor sur les capitaux internationaux pour juin"
         }
       }
     },
