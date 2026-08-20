@@ -1,7 +1,83 @@
 {
-  "fetched_at": "2026-08-20T17:18:47.098348+00:00",
+  "fetched_at": "2026-08-20T17:36:54.772620+00:00",
   "total": 122,
   "items": [
+    {
+      "title": "Treasury Increases Sanctions on Hizballah and Targets Network Smuggling Millions in Cash for Hizballah",
+      "link": "https://home.treasury.gov/news/press-releases/sb0611",
+      "summary": "Treasury Increases Sanctions on Hizballah and Targets Network Smuggling Millions in Cash for Hizballah",
+      "published_at": "2026-08-20T17:30:00Z",
+      "source": "treasury",
+      "category": "geopolitics",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "geopolitics_bullish",
+      "_translation_hash": "80ac7b7a45e1eefd3365e810e111c7a31e1da5e2dafeda85635f7ab47dbc4f64",
+      "translations": {
+        "zh-CN": {
+          "title": "财政部加大对真主党的制裁力度，并打击为真主党走私数百万现金的网络",
+          "summary": "财政部加大对真主党的制裁力度，并打击为真主党走私数百万现金的网络"
+        },
+        "zh-TW": {
+          "title": "財政部加強對真主黨的製裁力度，並打擊為真主黨走私數百萬現金的網絡",
+          "summary": "財政部加強對真主黨的製裁力度，並打擊為真主黨走私數百萬現金的網絡"
+        },
+        "ja": {
+          "title": "財務省、ヒズボラへの制裁を強化、ヒズボラのために数百万ドルの現金を密輸するネットワークを標的に",
+          "summary": "財務省、ヒズボラへの制裁を強化、ヒズボラのために数百万ドルの現金を密輸するネットワークを標的に"
+        },
+        "de": {
+          "title": "Das Finanzministerium verschärft die Sanktionen gegen die Hisbollah und nimmt Netzwerk ins Visier, das Millionen von Bargeld für die Hisbollah schmuggelt",
+          "summary": "Das Finanzministerium verschärft die Sanktionen gegen die Hisbollah und nimmt Netzwerk ins Visier, das Millionen von Bargeld für die Hisbollah schmuggelt"
+        },
+        "fr": {
+          "title": "Le Trésor augmente les sanctions contre le Hezbollah et cible le réseau qui fait passer des millions de dollars en espèces au profit du Hezbollah",
+          "summary": "Le Trésor augmente les sanctions contre le Hezbollah et cible le réseau qui fait passer des millions de dollars en espèces au profit du Hezbollah"
+        },
+        "ko": {
+          "title": "재무부는 Hizballah에 대한 제재를 강화하고 Hizballah를 위해 수백만 달러의 현금을 네트워크로 밀수하는 것을 목표로 삼았습니다.",
+          "summary": "재무부는 Hizballah에 대한 제재를 강화하고 Hizballah를 위해 수백만 달러의 현금을 네트워크로 밀수하는 것을 목표로 삼았습니다."
+        }
+      }
+    },
+    {
+      "title": "Treasury Sanctions Major Ecuador-Based Cocaine Network Linked to Violent Gangs and Mexican Cartels",
+      "link": "https://home.treasury.gov/news/press-releases/sb0610",
+      "summary": "Treasury Sanctions Major Ecuador-Based Cocaine Network Linked to Violent Gangs and Mexican Cartels",
+      "published_at": "2026-08-20T17:30:00Z",
+      "source": "treasury",
+      "category": "geopolitics",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "geopolitics_bullish",
+      "_translation_hash": "930712a48fb6820449dc05187d4e5c9e1515f72f5e87f5c3768f20526ccc3d16",
+      "translations": {
+        "zh-CN": {
+          "title": "财政部制裁与暴力团伙和墨西哥卡特尔有关的厄瓜多尔主要可卡因网络",
+          "summary": "财政部制裁与暴力团伙和墨西哥卡特尔有关的厄瓜多尔主要可卡因网络"
+        },
+        "zh-TW": {
+          "title": "財政部製裁與暴力團夥和墨西哥卡特爾有關的厄瓜多爾主要可卡因網絡",
+          "summary": "財政部製裁與暴力團夥和墨西哥卡特爾有關的厄瓜多爾主要可卡因網絡"
+        },
+        "ja": {
+          "title": "財務省、暴力団とメキシコのカルテルに関連したエクアドル拠点の大手コカインネットワークを制裁",
+          "summary": "財務省、暴力団とメキシコのカルテルに関連したエクアドル拠点の大手コカインネットワークを制裁"
+        },
+        "de": {
+          "title": "Finanzministerium sanktioniert großes in Ecuador ansässiges Kokainnetzwerk, das mit gewalttätigen Banden und mexikanischen Kartellen in Verbindung steht",
+          "summary": "Finanzministerium sanktioniert großes in Ecuador ansässiges Kokainnetzwerk, das mit gewalttätigen Banden und mexikanischen Kartellen in Verbindung steht"
+        },
+        "fr": {
+          "title": "Le Trésor sanctionne un important réseau de cocaïne basé en Équateur et lié à des gangs violents et à des cartels mexicains",
+          "summary": "Le Trésor sanctionne un important réseau de cocaïne basé en Équateur et lié à des gangs violents et à des cartels mexicains"
+        },
+        "ko": {
+          "title": "재무부는 폭력 갱단 및 멕시코 카르텔과 연결된 주요 에콰도르 기반 코카인 네트워크를 제재했습니다.",
+          "summary": "재무부는 폭력 갱단 및 멕시코 카르텔과 연결된 주요 에콰도르 기반 코카인 네트워크를 제재했습니다."
+        }
+      }
+    },
     {
       "title": "Quarterly Services Survey",
       "link": "https://www.census.gov/services/index.html",
@@ -151,82 +227,6 @@
         "fr": {
           "title": "Procès-verbal du Comité fédéral de l’open market, 28 et 29 juillet 2026",
           "summary": "Procès-verbal du Comité fédéral de l’open market, 28 et 29 juillet 2026"
-        }
-      }
-    },
-    {
-      "title": "Treasury, IRS Propose Rules to Protect Refundable Tax Credits from Abuse by Illegal Aliens",
-      "link": "https://home.treasury.gov/news/press-releases/sb0608",
-      "summary": "Treasury, IRS Propose Rules to Protect Refundable Tax Credits from Abuse by Illegal Aliens",
-      "published_at": "2026-08-19T13:00:25Z",
-      "source": "treasury",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "de61cdf7e1a17d9d038c75ab90bf35a2b5671e6b2db10dd10c9fb3571b478a74",
-      "translations": {
-        "zh-CN": {
-          "title": "财政部、国税局提出规则，保护可退还税收抵免免遭非法外国人滥用",
-          "summary": "财政部、国税局提出规则，保护可退还税收抵免免遭非法外国人滥用"
-        },
-        "zh-TW": {
-          "title": "財政部、國稅局提出規則，保護可退還稅收抵免免於非法外國人濫用",
-          "summary": "財政部、國稅局提出規則，保護可退還稅收抵免免於非法外國人濫用"
-        },
-        "ja": {
-          "title": "財務省とIRSが還付可能な税額控除を不法外国人による乱用から守る規則を提案",
-          "summary": "財務省とIRSが還付可能な税額控除を不法外国人による乱用から守る規則を提案"
-        },
-        "ko": {
-          "title": "재무부와 IRS, 불법 외국인에 의한 남용으로부터 환급 가능한 세금 공제를 보호하기 위한 규칙 제안",
-          "summary": "재무부와 IRS, 불법 외국인에 의한 남용으로부터 환급 가능한 세금 공제를 보호하기 위한 규칙 제안"
-        },
-        "de": {
-          "title": "Finanzministerium und IRS schlagen Regeln zum Schutz erstattungsfähiger Steuergutschriften vor Missbrauch durch illegale Ausländer vor",
-          "summary": "Finanzministerium und IRS schlagen Regeln zum Schutz erstattungsfähiger Steuergutschriften vor Missbrauch durch illegale Ausländer vor"
-        },
-        "fr": {
-          "title": "Le Trésor et l'IRS proposent des règles pour protéger les crédits d'impôt remboursables contre les abus commis par des étrangers illégaux",
-          "summary": "Le Trésor et l'IRS proposent des règles pour protéger les crédits d'impôt remboursables contre les abus commis par des étrangers illégaux"
-        }
-      }
-    },
-    {
-      "title": "Treasury Announces Increased Sizes of Nominal Long-End Liquidity Support Buybacks Beginning September 9",
-      "link": "https://home.treasury.gov/news/press-releases/sb0607",
-      "summary": "Treasury Announces Increased Sizes of Nominal Long-End Liquidity Support Buybacks Beginning September 9",
-      "published_at": "2026-08-19T12:30:00Z",
-      "source": "treasury",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "576278923540fe7fecd66cc0d5a3211ce3140a6fd7a3afcf21a7d0b2a92c42ba",
-      "translations": {
-        "zh-CN": {
-          "title": "财政部宣布从 9 月 9 日开始扩大名义长期流动性支持回购规模",
-          "summary": "财政部宣布从 9 月 9 日开始扩大名义长期流动性支持回购规模"
-        },
-        "ko": {
-          "title": "재무부, 9월 9일부터 명목 장기 유동성 지원 자사주 매입 규모 확대 발표",
-          "summary": "재무부, 9월 9일부터 명목 장기 유동성 지원 자사주 매입 규모 확대 발표"
-        },
-        "ja": {
-          "title": "財務省、9月9日から名目長期流動性サポート買い戻し規模の拡大を発表",
-          "summary": "財務省、9月9日から名目長期流動性サポート買い戻し規模の拡大を発表"
-        },
-        "zh-TW": {
-          "title": "財政部宣布從 9 月 9 日開始擴大名目長期流動性支持回購規模",
-          "summary": "財政部宣布從 9 月 9 日開始擴大名目長期流動性支持回購規模"
-        },
-        "de": {
-          "title": "Das Finanzministerium kündigt ab dem 9. September größere Mengen an nominalen langfristigen Liquiditätsunterstützungsrückkäufen an",
-          "summary": "Das Finanzministerium kündigt ab dem 9. September größere Mengen an nominalen langfristigen Liquiditätsunterstützungsrückkäufen an"
-        },
-        "fr": {
-          "title": "Le Trésor annonce une augmentation du volume des rachats nominaux de soutien à la liquidité à long terme à partir du 9 septembre",
-          "summary": "Le Trésor annonce une augmentation du volume des rachats nominaux de soutien à la liquidité à long terme à partir du 9 septembre"
         }
       }
     },
