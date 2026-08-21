@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "score": -22,
+  "score": -41,
   "direction": "bearish",
-  "label_key": "mild_bearish",
-  "signal": "mild_bearish",
+  "label_key": "strong_bearish",
+  "signal": "strong_bearish",
   "action": "wait_for_confirmation",
-  "confidence": 74,
+  "confidence": 72,
   "components": [
     {
       "key": "warsh",
@@ -13,47 +13,44 @@
       "direction": "bearish",
       "value": "STRONG_HAWK",
       "reason_key": "warsh_strong_hawk",
-      "updated_at": "2026-08-21T13:00:34.769166+00:00"
+      "updated_at": "2026-08-21T13:26:17.139921+00:00"
     },
     {
       "key": "fedwatch",
-      "score": -10,
+      "score": -11,
       "direction": "bearish",
-      "value": "cut 0.0% / hike 34.6%",
+      "value": "cut 0.0% / hike 36.6%",
       "reason_key": "fedwatch_path",
-      "updated_at": "2026-08-21T13:00:36.582188+00:00"
+      "updated_at": "2026-08-21T13:26:19.999091+00:00"
     },
     {
       "key": "xau",
-      "score": 16,
-      "direction": "bullish",
-      "value": "+1.30%",
-      "reason_key": "xau_momentum",
-      "updated_at": "2026-08-21T13:00:33.347639+00:00"
+      "score": 0,
+      "direction": "neutral",
+      "value": "unavailable",
+      "reason_key": "xau_missing",
+      "updated_at": "2026-08-21T13:26:13.917Z"
     },
     {
       "key": "dxy",
-      "score": 2,
-      "direction": "bullish",
-      "value": "-0.11%",
-      "reason_key": "dxy_momentum",
-      "updated_at": "2026-08-21T13:00:33.508984+00:00"
+      "score": 0,
+      "direction": "neutral",
+      "value": "unavailable",
+      "reason_key": "dxy_missing",
+      "updated_at": "2026-08-21T13:26:15.798528+00:00"
     }
   ],
   "supporting": [
     "warsh",
     "fedwatch"
   ],
-  "opposing": [
-    "xau",
-    "dxy"
-  ],
-  "reason": "warsh_strong_hawk · fedwatch_path · xau_momentum · dxy_momentum",
+  "opposing": [],
+  "reason": "warsh_strong_hawk · fedwatch_path · xau_missing · dxy_missing",
   "reasons": [
     "warsh_strong_hawk",
     "fedwatch_path",
-    "xau_momentum",
-    "dxy_momentum"
+    "xau_missing",
+    "dxy_missing"
   ],
-  "generated_at": "2026-08-21T13:00:46.147877+00:00"
+  "generated_at": "2026-08-21T13:26:31.055241+00:00"
 }
