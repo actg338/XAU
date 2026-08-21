@@ -1,15 +1,7 @@
 {
-  "fetched_at": "2026-08-21T13:49:28.482875+00:00",
+  "fetched_at": "2026-08-21T14:08:20.215301+00:00",
   "timezone": "UTC",
   "events": [
-    {
-      "event_key": "bls_release",
-      "title": "State Employment and Unemployment (Monthly)",
-      "starts_at": "2026-08-21T14:00:00+00:00",
-      "impact": "medium",
-      "source": "BLS",
-      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
-    },
     {
       "event_key": "bls_release",
       "title": "Access to and Use of Leave",
@@ -191,6 +183,14 @@
       "title": "Employment Situation",
       "starts_at": "2026-10-02T12:30:00+00:00",
       "impact": "high",
+      "source": "BLS",
+      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
+    },
+    {
+      "event_key": "bls_release",
+      "title": "Real Earnings",
+      "starts_at": "2026-10-14T12:30:00+00:00",
+      "impact": "medium",
       "source": "BLS",
       "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
     }
