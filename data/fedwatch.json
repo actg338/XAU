@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-08-24T07:02:56+00:00",
-  "source_updated_at": "2026-08-24T07:02:56+00:00",
+  "as_of": "2026-08-24T07:23:16+00:00",
+  "source_updated_at": "2026-08-24T07:23:16+00:00",
   "source": "CME FedWatch via QuikStrike",
   "source_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
   "current_rate": "3.50-3.75%",
@@ -34,5 +34,5 @@
       "cut": 0.0
     }
   ],
-  "fetched_at": "2026-08-24T19:16:05.834538+00:00"
+  "fetched_at": "2026-08-24T19:33:26.325824+00:00"
 }
