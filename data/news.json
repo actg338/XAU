@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-08-24T19:33:36.935091+00:00",
-  "total": 114,
+  "fetched_at": "2026-08-24T19:49:02.317928+00:00",
+  "total": 115,
   "items": [
+    {
+      "title": "Operation Economic Outcast: Total Isolation of the Iranian Regime",
+      "link": "https://www.whitehouse.gov/releases/2026/08/operation-economic-outcast-total-isolation-of-the-iranian-regime/",
+      "summary": "Today, the Trump Administration unleashed Operation Economic Outcast, an unprecedented campaign to sever every remaining economic lifeline sustaining the Islamic Republic of Iran. After President Trump and the overwhelming might of the U.S. military dismantled Iran’s military capabilities and crippled its nuclear program, America is entering the endgame with the single greatest financial offensive ever […] The post Operation Economic Outcast: Total Isolation of the Iranian Regime appeared first ",
+      "published_at": "Mon, 24 Aug 2026 19:15:08 +0000",
+      "source": "white_house",
+      "category": "geopolitics",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "geopolitics_neutral",
+      "_translation_hash": "ed19c07c34ae1b6a60091791238fb6cb54b0642654a766ed49ab90f7639f4ae5"
+    },
     {
       "title": "Quarterly Services Survey",
       "link": "https://www.census.gov/services/index.html",
@@ -615,7 +627,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -919,7 +931,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1109,7 +1121,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
@@ -1885,18 +1897,6 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "b913e2014a1c590a06230e201b743e6ef224d6a5a356c51addaeb7d4912bd47e"
-    },
-    {
-      "title": "CPI for all items rises 0.3% in September; gasoline up",
-      "link": "https://www.bls.gov/news.release/archives/cpi_10242025.htm",
-      "summary": "",
-      "published_at": "2025-10-24T08:30:00-04:00",
-      "source": "bls_cpi",
-      "category": "inflation",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "044af1e69df439dcfbdc5335fa821579e6cc7c52c8d2171caae18d4fc2ca7848"
     }
   ]
 }
