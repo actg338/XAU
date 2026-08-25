@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-08-25T13:05:51.631174+00:00",
-  "total": 115,
+  "fetched_at": "2026-08-25T13:31:00.248396+00:00",
+  "total": 116,
   "items": [
+    {
+      "title": "Presidential Message on Overdose and Drug Poisoning Awareness Week",
+      "link": "https://www.whitehouse.gov/briefings-statements/2026/08/presidential-message-on-overdose-and-drug-poisoning-awareness-week/",
+      "summary": "During Overdose and Drug Poisoning Awareness Week, our Nation renews its resolve to defeat the scourge of illicit drugs and synthetic poisons that have devastated hundreds of thousands of American lives. My Administration is relentlessly confronting this threat at every source, and we will always put our national security and the safety, health, and well-being […] The post Presidential Message on Overdose and Drug Poisoning Awareness Week appeared first on The White House .",
+      "published_at": "Tue, 25 Aug 2026 02:00:00 +0000",
+      "source": "white_house",
+      "category": "geopolitics",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "geopolitics_bullish",
+      "_translation_hash": "6aee8aa17377aa98c58b915c80cdf042f0f38021bdc9735ea5885fadca4367e0"
+    },
     {
       "title": "Operation Economic Outcast: Total Isolation of the Iranian Regime",
       "link": "https://www.whitehouse.gov/releases/2026/08/operation-economic-outcast-total-isolation-of-the-iranian-regime/",
@@ -627,7 +639,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -931,7 +943,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1121,7 +1133,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
@@ -1885,18 +1897,6 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "4580557ddb6ea1d4834c1b15c41a3149ef83d749f8ae34cb0c4cceec56f369f8"
-    },
-    {
-      "title": "Payroll employment edges up 119,000 in September; unemployment rate changes little at 4.4%",
-      "link": "https://www.bls.gov/news.release/archives/empsit_11202025.htm",
-      "summary": "",
-      "published_at": "2025-11-20T08:30:00-05:00",
-      "source": "bls_jobs",
-      "category": "labor",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "b913e2014a1c590a06230e201b743e6ef224d6a5a356c51addaeb7d4912bd47e"
     }
   ]
 }
