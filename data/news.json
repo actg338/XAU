@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-08-25T17:55:28.813128+00:00",
+  "fetched_at": "2026-08-25T18:11:46.169966+00:00",
   "total": 116,
   "items": [
+    {
+      "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
+      "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+      "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
+      "source": "fed_policy",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "dd5d159e9c1fd5bed085dcb8bf43a87656afeee696ee599d4cb1b0075627cfbe"
+    },
     {
       "title": "New Home Sales",
       "link": "https://www.census.gov/construction/nrs/",
@@ -651,7 +663,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -917,7 +929,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1107,7 +1119,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
@@ -1715,18 +1727,6 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "186674e2f10431d69027b6f118f0bbb11e976b860c3cf5b740f03086a8b5ef56"
-    },
-    {
-      "title": "Minutes of the Board's discount rate meetings on January 20 and 28, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260224a.htm",
-      "summary": "Minutes of the Board's discount rate meetings on January 20 and 28, 2026",
-      "published_at": "Tue, 24 Feb 2026 19:00:00 GMT",
-      "source": "fed_policy",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "e89d8ef97a2ffdebc38f974f461ebf6da6e2b381a1d2ff81ad33040d7692e588"
     },
     {
       "title": "CPI for all items rises 0.2% in January; shelter up",
