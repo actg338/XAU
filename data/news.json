@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-08-25T13:55:43.181257+00:00",
+  "fetched_at": "2026-08-25T14:19:37.366015+00:00",
   "total": 116,
   "items": [
+    {
+      "title": "New Home Sales",
+      "link": "https://www.census.gov/construction/nrs/",
+      "summary": "Sales of new single-family houses in July 2026 were at a seasonally adjusted annual rate of 607,000. This is 10.5 percent (+/- 14.0%)* below the revised June 2026 estimate of 678,000. July 2026: -10.5* % Change June 2026 (r): +7.6* % Change",
+      "published_at": "Tue, 25 Aug 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "5df620dd3d41b04f38a57bc409dd554466994d15af9bd0d15f6840d0e7eb42b6"
+    },
     {
       "title": "Presidential Message on Overdose and Drug Poisoning Awareness Week",
       "link": "https://www.whitehouse.gov/briefings-statements/2026/08/presidential-message-on-overdose-and-drug-poisoning-awareness-week/",
@@ -639,7 +651,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -745,44 +757,6 @@
         "fr": {
           "title": "Avancer les stocks en gros",
           "summary": "Les stocks de fin de mois de juin s'élevaient à 945,9 milliards de dollars, en hausse de 0,3 pour cent (+/- 0,2 pour cent) par rapport au mois dernier. Juin 2026 : +0,3 % Variation des Stocks Mai 2026 (r) : +0,3 % Variation des Stocks"
-        }
-      }
-    },
-    {
-      "title": "New Home Sales",
-      "link": "https://www.census.gov/construction/nrs/",
-      "summary": "Sales of new single-family houses in June 2026 were at a seasonally adjusted annual rate of 628,000. This is 1.6 percent (+/- 14.8%)* above the revised May 2026 estimate of 618,000. June 2026: +1.6* % Change May 2026 (r): -4.3* % Change",
-      "published_at": "Fri, 24 Jul 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "e85d62fd6c2bfb9af1cd67495cbfbf91b4d3368b4ea71112ece8e4e47027ee0a",
-      "translations": {
-        "zh-CN": {
-          "title": "新屋销售",
-          "summary": "2026 年 6 月新建单户住宅销量经季节性调整后的年增长率为 628,000 套。这比 2026 年 5 月修订后的估计数 618,000 人高出 1.6% (+/- 14.8%)*。 2026 年 6 月：+1.6* 变化百分比 2026 年 5 月 (r)：-4.3* 变化百分比"
-        },
-        "zh-TW": {
-          "title": "新屋銷售",
-          "summary": "2026 年 6 月新建單戶住宅銷售經季節性調整後的年增率為 628,000 套。這比 2026 年 5 月修訂後的估計數 618,000 人高出 1.6% (+/- 14.8%)*。 2026 年 6 月：+1.6* 變化百分比 2026 年 5 月 (r)：-4.3* 變化百分比"
-        },
-        "ja": {
-          "title": "新築住宅販売",
-          "summary": "2026年6月の新築一戸建て住宅の販売戸数（季節調整後）は年率62万8,000戸となった。これは、2026 年 5 月の改訂予測値 618,000 を 1.6 パーセント (+/- 14.8 %)* 上回っています。 2026 年 6 月: +1.6* % 変化 2026 年 5 月 (r): -4.3* % 変化"
-        },
-        "ko": {
-          "title": "신규 주택 판매",
-          "summary": "2026년 6월 신규 단독주택 매매는 계절조정 연율 628,000건이었습니다. 이는 2026년 5월 수정된 추정치인 618,000보다 1.6%(+/- 14.8%)* 높은 수치입니다. 2026년 6월: +1.6* % 변화 2026년 5월(r): -4.3* % 변화"
-        },
-        "de": {
-          "title": "Verkauf neuer Häuser",
-          "summary": "Der Verkauf neuer Einfamilienhäuser lag im Juni 2026 bei einer saisonbereinigten Jahresrate von 628.000. Das sind 1,6 Prozent (+/- 14,8 %)* über der revidierten Schätzung vom Mai 2026 von 618.000. Juni 2026: +1,6* % Veränderung Mai 2026 (r): -4,3* % Veränderung"
-        },
-        "fr": {
-          "title": "Ventes de maisons neuves",
-          "summary": "Les ventes de maisons unifamiliales neuves en juin 2026 se sont établies à un rythme annuel désaisonnalisé de 628 000. Cela représente 1,6 pour cent (+/- 14,8%)* au-dessus de l'estimation révisée de mai 2026 de 618 000. Juin 2026 : +1,6* % Variation Mai 2026 (r) : -4,3* % Variation"
         }
       }
     },
@@ -943,7 +917,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1133,7 +1107,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
