@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-26T13:36:20.215620+00:00",
+  "generated_at": "2026-08-26T14:00:58.253300+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
   "confidence": 92,
-  "score": -57,
+  "score": -53,
   "drivers": [
     "warsh",
     "fedwatch",
@@ -33,8 +33,8 @@
   ],
   "next_event": {
     "event_key": "bls_release",
-    "title": "Access to and Use of Leave",
-    "starts_at": "2026-08-26T14:00:00+00:00",
+    "title": "Worker Displacement",
+    "starts_at": "2026-08-27T14:00:00+00:00",
     "impact": "medium",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"

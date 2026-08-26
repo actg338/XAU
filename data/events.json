@@ -1,15 +1,7 @@
 {
-  "fetched_at": "2026-08-26T13:36:20.011779+00:00",
+  "fetched_at": "2026-08-26T14:00:58.141798+00:00",
   "timezone": "UTC",
   "events": [
-    {
-      "event_key": "bls_release",
-      "title": "Access to and Use of Leave",
-      "starts_at": "2026-08-26T14:00:00+00:00",
-      "impact": "medium",
-      "source": "BLS",
-      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
-    },
     {
       "event_key": "bls_release",
       "title": "Worker Displacement",
@@ -191,6 +183,14 @@
       "title": "Real Earnings",
       "starts_at": "2026-10-14T12:30:00+00:00",
       "impact": "medium",
+      "source": "BLS",
+      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
+    },
+    {
+      "event_key": "cpi",
+      "title": "Consumer Price Index",
+      "starts_at": "2026-10-14T12:30:00+00:00",
+      "impact": "high",
       "source": "BLS",
       "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
     }
