@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-27T13:07:17.552726+00:00",
+  "generated_at": "2026-08-27T16:52:42.343214+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
-  "confidence": 92,
-  "score": -42,
+  "confidence": 81,
+  "score": -35,
   "drivers": [
     "warsh",
-    "fedwatch",
-    "xau",
-    "dxy"
+    "fedwatch"
   ],
-  "counter_risks": [],
+  "counter_risks": [
+    "xau"
+  ],
   "top_news": [
     {
       "title": "Fact Sheet: President Donald J. Trump Bolsters National Security and Strengthens U.S. Supply Chains by Imposing Tariffs on Drones and Their Parts and Components",
@@ -33,8 +33,8 @@
   ],
   "next_event": {
     "event_key": "bls_release",
-    "title": "Worker Displacement",
-    "starts_at": "2026-08-27T14:00:00+00:00",
+    "title": "County Employment and Wages",
+    "starts_at": "2026-08-28T14:00:00+00:00",
     "impact": "medium",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
