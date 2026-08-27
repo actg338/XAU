@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-08-27T16:52:24.976084+00:00",
-  "total": 117,
+  "fetched_at": "2026-08-27T20:22:57.152882+00:00",
+  "total": 116,
   "items": [
     {
       "title": "Advance Retail Inventories",
@@ -31,7 +31,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -417,44 +417,6 @@
       }
     },
     {
-      "title": "Fact Sheet: President Donald J. Trump Bolsters National Security and Strengthens U.S. Supply Chains by Imposing Tariffs on Drones and Their Parts and Components",
-      "link": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-bolsters-national-security-and-strengthens-u-s-supply-chains-by-imposing-tariffs-on-drones-and-their-parts-and-components/",
-      "summary": "SECURING AMERICAN DRONE DOMINANCE: Today, President Donald J. Trump signed a Proclamation to address the national security threat posed by imports of drones and their components, including by strengthening America’s drone industry and supply chain. STRENGTHENING NATIONAL SECURITY: President Trump’s drone tariff program will protect the national security of the United States and its defense and defense-adjacent […] The post Fact Sheet: President Donald J. Trump Bolsters National Security and Stre",
-      "published_at": "Thu, 13 Aug 2026 21:22:01 +0000",
-      "source": "white_house",
-      "category": "trade",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "ca1f11acea7fa3f93665264b241ab4b6db8c7170098b5ecfebec68847a60a1e1",
-      "translations": {
-        "zh-CN": {
-          "title": "情况说明书：唐纳德·J·特朗普总统通过对无人机及其零部件征收关税来支持国家安全并加强美国供应链",
-          "summary": "确保美国无人机的主导地位：今天，唐纳德·J·特朗普总统签署了一项公告，以解决进口无人机及其零部件造成的国家安全威胁，包括加强美国的无人机产业和供应链。加强国家安全：特朗普总统的无人机关税计划将保护美国及其国防和国防邻近地区的国家安全 [...] 后情况说明书：唐纳德·J·特朗普总统支持国家安全和战略"
-        },
-        "ja": {
-          "title": "ファクトシート: ドナルド・J・トランプ大統領、ドローンとその部品に関税を課すことで国家安全保障を強化し、米国のサプライチェーンを強化",
-          "summary": "米国のドローン優位性の確保：本日、ドナルド・J・トランプ大統領は、米国のドローン産業とサプライチェーンの強化など、ドローンとその部品の輸入によってもたらされる国家安全保障の脅威に対処する宣言に署名した。国家安全保障の強化：トランプ大統領の無人機関税プログラムは、米国とその防衛および防衛隣接国の国家安全保障を保護する […] ポストファクトシート：ドナルド・J・トランプ大統領、国家安全保障と国家安全保障を強化"
-        },
-        "zh-TW": {
-          "title": "情況說明書：唐納德·J·特朗普總統通過對無人機及其零件徵收關稅來支持國家安全並加強美國供應鏈",
-          "summary": "確保美國無人機的主導地位：今天，唐納德·J·川普總統簽署了一項公告，以解決進口無人機及其零件造成的國家安全威脅，包括加強美國的無人機產業和供應鏈。加強國家安全：川普總統的無人機關稅計畫將保護美國及其國防和國防鄰近地區的國家安全 [...] 後情況說明書：唐納德·J·川普總統支持國家安全和戰略"
-        },
-        "ko": {
-          "title": "팩트 시트: 도널드 J. 트럼프 대통령은 드론과 그 부품에 관세를 부과하여 국가 안보를 강화하고 미국 공급망을 강화합니다.",
-          "summary": "미국 드론 우위 확보: 오늘 도널드 J. 트럼프 대통령은 미국의 드론 산업과 공급망 강화를 포함해 드론과 그 부품 수입으로 인한 국가 안보 위협을 해결하기 위한 선언문에 서명했습니다. 국가 안보 강화: 트럼프 대통령의 드론 관세 프로그램은 미국의 국가 안보와 국방 및 국방 인접 국가를 보호할 것입니다. […] 포스트 팩트 시트: 도널드 J. 트럼프 대통령이 국가 안보와 보안을 강화합니다."
-        },
-        "de": {
-          "title": "Faktenblatt: Präsident Donald J. Trump stärkt die nationale Sicherheit und stärkt die US-Lieferketten, indem er Zölle auf Drohnen und deren Teile und Komponenten erhebt",
-          "summary": "SICHERN DER AMERIKANISCHEN DROHNENDOMINANZ: Heute unterzeichnete Präsident Donald J. Trump eine Proklamation, um der Bedrohung der nationalen Sicherheit durch den Import von Drohnen und deren Komponenten zu begegnen, unter anderem durch die Stärkung der amerikanischen Drohnenindustrie und Lieferkette. STÄRKUNG DER NATIONALEN SICHERHEIT: Das Drohnen-Zöllprogramm von Präsident Trump wird die nationale Sicherheit der Vereinigten Staaten und ihrer Verteidigungs- und Verteidigungsgrenzen schützen"
-        },
-        "fr": {
-          "title": "Fiche d'information : Le président Donald J. Trump renforce la sécurité nationale et renforce les chaînes d'approvisionnement américaines en imposant des droits de douane sur les drones et leurs pièces et composants",
-          "summary": "GARANTIR LA DOMINANCE AMÉRICAINE DES DRONES : Aujourd'hui, le président Donald J. Trump a signé une proclamation pour répondre à la menace pour la sécurité nationale posée par les importations de drones et de leurs composants, notamment en renforçant l'industrie américaine des drones et la chaîne d'approvisionnement. RENFORCEMENT DE LA SÉCURITÉ NATIONALE : le programme tarifaire sur les drones du président Trump protégera la sécurité nationale des États-Unis, ainsi que sa défense et ses zones adjacentes […] L'article Fiche d'information : Le président Donald J. Trump renforce la sécurité nationale et la sécurité"
-        }
-      }
-    },
-    {
       "title": "Business Formation Statistics",
       "link": "https://www.census.gov/econ/bfs/",
       "summary": "Total U.S. Business Applications were 578,926 in July 2026, up 8.1% from June 2026. July 2026: +8.1° % Change June 2026 (r): +1.3° % Change",
@@ -649,7 +611,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -877,7 +839,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1067,7 +1029,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
@@ -1819,6 +1781,18 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "4580557ddb6ea1d4834c1b15c41a3149ef83d749f8ae34cb0c4cceec56f369f8"
+    },
+    {
+      "title": "Payroll employment edges up 119,000 in September; unemployment rate changes little at 4.4%",
+      "link": "https://www.bls.gov/news.release/archives/empsit_11202025.htm",
+      "summary": "",
+      "published_at": "2025-11-20T08:30:00-05:00",
+      "source": "bls_jobs",
+      "category": "labor",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "b913e2014a1c590a06230e201b743e6ef224d6a5a356c51addaeb7d4912bd47e"
     }
   ]
 }
