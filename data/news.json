@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-27T23:42:42.146879+00:00",
+  "fetched_at": "2026-08-28T02:20:51.793910+00:00",
   "total": 116,
   "items": [
     {
@@ -12,7 +12,33 @@
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "4324356d2f6e325c66ba8a5c7c718abb6a48e49e430d8f8c65375e051d57a2da"
+      "_translation_hash": "4324356d2f6e325c66ba8a5c7c718abb6a48e49e430d8f8c65375e051d57a2da",
+      "translations": {
+        "zh-CN": {
+          "title": "预付零售库存",
+          "summary": "2026 年 7 月月末库存为 8,385 亿美元，比上月增长 0.7% (+/-0.2%)。 2026 年 7 月：+0.7% 库存变化 2026 年 6 月 (r)：-0.2* 库存变化%"
+        },
+        "ja": {
+          "title": "事前小売在庫",
+          "summary": "２０２６年７月の月末在庫は８３８５億ドルで、前月比０．７％（±０．２％）増加した。 2026 年 7 月: +0.7 % 在庫変動率 2026 年 6 月 (r): -0.2* % 在庫変動率"
+        },
+        "zh-TW": {
+          "title": "預付零售庫存",
+          "summary": "2026 年 7 月月底庫存為 8,385 億美元，比上月增長 0.7% (+/-0.2%)。 2026 年 7 月：+0.7% 庫存變動 2026 年 6 月 (r)：-0.2* 庫存變動%"
+        },
+        "ko": {
+          "title": "사전 소매 재고",
+          "summary": "2026년 7월 월말 재고는 8,385억 달러로 전월 대비 0.7%(+/-0.2%) 증가했습니다. 2026년 7월: 재고 변동률 +0.7% 2026년 6월(r): 재고 변동률 -0.2*%"
+        },
+        "de": {
+          "title": "Vorab Lagerbestände im Einzelhandel",
+          "summary": "Die Lagerbestände zum Monatsende im Juli 2026 beliefen sich auf 838,5 Milliarden US-Dollar, ein Plus von 0,7 Prozent (+/-0,2 Prozent) gegenüber dem Vormonat. Juli 2026: +0,7 % Bestandsveränderung Juni 2026 (r): -0,2* % Bestandsveränderung"
+        },
+        "fr": {
+          "title": "Avancer les stocks de détail",
+          "summary": "Les stocks de fin de mois de juillet 2026 s'élevaient à 838,5 milliards de dollars, en hausse de 0,7 % (+/-0,2 %) par rapport au mois dernier. Juillet 2026 : +0,7 % de variation des stocks Juin 2026 (r) : -0,2* % de variation des stocks"
+        }
+      }
     },
     {
       "title": "Advance Monthly Manufacturers' Shipments, Inventories, and Orders",
@@ -24,19 +50,71 @@
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "ed3489899f828ca41098e865f531e45f0aefd0d3b0fd8d5d1d9e30e0fcd3a953"
+      "_translation_hash": "ed3489899f828ca41098e865f531e45f0aefd0d3b0fd8d5d1d9e30e0fcd3a953",
+      "translations": {
+        "zh-CN": {
+          "title": "预付每月制造商的发货量、库存和订单",
+          "summary": "7 月份耐用品制成品新订单增加 36 亿美元，即 1.1%，达到 3,393 亿美元，是过去五个月中的四个月。 2026 年 7 月：+1.1° % 变化 2026 年 6 月 (r)：+0.5° % 变化"
+        },
+        "ja": {
+          "title": "メーカーの毎月の出荷、在庫、注文を前倒しする",
+          "summary": "７月の耐久財新規受注は過去５カ月中４カ月増加し、３６億ドル（１．１％）増の３３９３億ドルとなった。 2026年7月: +1.1° %変化 2026年6月(r): +0.5° %変化"
+        },
+        "zh-TW": {
+          "title": "預付每月製造商的出貨量、庫存和訂單",
+          "summary": "7 月耐用品製成品新訂單增加 36 億美元，或 1.1%，達到 3,393 億美元，是過去五個月的四個月。 2026 年 7 月：+1.1° % 變化 2026 年 6 月 (r)：+0.5° % 變化"
+        },
+        "ko": {
+          "title": "월별 제조업체의 선적, 재고 및 주문 사전",
+          "summary": "7월 내구재 제조 신규 주문은 지난 5개월 중 4개월 증가해 36억 달러(1.1%) 증가한 3,393억 달러를 기록했습니다. 2026년 7월: +1.1° % 변화 2026년 6월(r): +0.5° % 변화"
+        },
+        "de": {
+          "title": "Vorausschauende monatliche Herstellerlieferungen, Lagerbestände und Bestellungen",
+          "summary": "Die Auftragseingänge für langlebige Industriegüter stiegen im Juli um vier der letzten fünf Monate um 3,6 Milliarden US-Dollar oder 1,1 Prozent auf 339,3 Milliarden US-Dollar. Juli 2026: +1,1° % Veränderung Juni 2026 (r): +0,5° % Veränderung"
+        },
+        "fr": {
+          "title": "Avancer les expéditions, les stocks et les commandes mensuelles des fabricants",
+          "summary": "Les nouvelles commandes de biens manufacturés durables en juillet, en hausse sur quatre des cinq derniers mois, ont augmenté de 3,6 milliards de dollars, soit 1,1%, à 339,3 milliards de dollars. Juillet 2026 : +1,1° % Variation Juin 2026 (r) : +0,5° % Variation"
+        }
+      }
     },
     {
       "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "dd5d159e9c1fd5bed085dcb8bf43a87656afeee696ee599d4cb1b0075627cfbe"
+      "_translation_hash": "dd5d159e9c1fd5bed085dcb8bf43a87656afeee696ee599d4cb1b0075627cfbe",
+      "translations": {
+        "zh-CN": {
+          "title": "2026年7月20日和2026年7月29日董事会贴现率会议纪要",
+          "summary": "2026年7月20日和2026年7月29日董事会贴现率会议纪要"
+        },
+        "ja": {
+          "title": "2026 年 7 月 20 日および 7 月 29 日の取締役会の割引率会議の議事録",
+          "summary": "2026 年 7 月 20 日および 7 月 29 日の取締役会の割引率会議の議事録"
+        },
+        "zh-TW": {
+          "title": "2026年7月20日及2026年7月29日董事會貼現率會議紀錄",
+          "summary": "2026年7月20日及2026年7月29日董事會貼現率會議紀錄"
+        },
+        "ko": {
+          "title": "2026년 7월 20일 및 7월 29일 이사회 할인율 회의 회의록",
+          "summary": "2026년 7월 20일 및 7월 29일 이사회 할인율 회의 회의록"
+        },
+        "de": {
+          "title": "Protokolle der Diskontsatzsitzungen des Vorstands am 20. und 29. Juli 2026",
+          "summary": "Protokolle der Diskontsatzsitzungen des Vorstands am 20. und 29. Juli 2026"
+        },
+        "fr": {
+          "title": "Procès-verbaux des séances d'actualisation du Conseil des 20 et 29 juillet 2026",
+          "summary": "Procès-verbaux des séances d'actualisation du Conseil des 20 et 29 juillet 2026"
+        }
+      }
     },
     {
       "title": "New Home Sales",
@@ -48,7 +126,33 @@
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "5df620dd3d41b04f38a57bc409dd554466994d15af9bd0d15f6840d0e7eb42b6"
+      "_translation_hash": "5df620dd3d41b04f38a57bc409dd554466994d15af9bd0d15f6840d0e7eb42b6",
+      "translations": {
+        "zh-CN": {
+          "title": "新屋销售",
+          "summary": "2026 年 7 月新建单户住宅销量经季节性调整后的年增长率为 607,000 套。这比修订后的 2026 年 6 月估计数 678,000 低 10.5% (+/- 14.0%)*。 2026 年 7 月：-10.5* 变化百分比 2026 年 6 月 (r)：+7.6* 变化百分比"
+        },
+        "ja": {
+          "title": "新築住宅販売",
+          "summary": "2026年7月の新築一戸建て住宅の販売戸数（季節調整後）は年率60万7,000戸となった。これは、2026 年 6 月の改訂予測値 678,000 を 10.5 パーセント (+/- 14.0 %)* 下回っています。 2026 年 7 月: -10.5* % 変化 2026 年 6 月 (r): +7.6* % 変化"
+        },
+        "zh-TW": {
+          "title": "新屋銷售",
+          "summary": "2026 年 7 月新建單戶住宅銷售經季節性調整後的年增率為 607,000 套。這比修訂後的 2026 年 6 月估計數 678,000 低 10.5% (+/- 14.0%)*。 2026 年 7 月：-10.5* 變化百分比 2026 年 6 月 (r)：+7.6* 變化百分比"
+        },
+        "ko": {
+          "title": "신규 주택 판매",
+          "summary": "2026년 7월 신규 단독주택 매매는 계절조정 연율 607,000건이었습니다. 이는 2026년 6월 수정된 추정치인 678,000보다 10.5%(+/- 14.0%)* 낮은 수치입니다. 2026년 7월: -10.5* % 변화 2026년 6월(r): +7.6* % 변화"
+        },
+        "de": {
+          "title": "Verkauf neuer Häuser",
+          "summary": "Der Verkauf neuer Einfamilienhäuser lag im Juli 2026 bei einer saisonbereinigten Jahresrate von 607.000. Das sind 10,5 Prozent (+/- 14,0 %)* weniger als die revidierte Schätzung vom Juni 2026 von 678.000. Juli 2026: -10,5* % Veränderung Juni 2026 (r): +7,6* % Veränderung"
+        },
+        "fr": {
+          "title": "Ventes de maisons neuves",
+          "summary": "Les ventes de maisons unifamiliales neuves en juillet 2026 se sont établies à un rythme annuel désaisonnalisé de 607 000. Cela représente 10,5 pour cent (+/- 14,0%)* de moins que l'estimation révisée de juin 2026 de 678 000. Juillet 2026 : -10,5* % de variation Juin 2026 (r) : +7,6* % de variation"
+        }
+      }
     },
     {
       "title": "Presidential Message on Overdose and Drug Poisoning Awareness Week",
@@ -60,7 +164,33 @@
       "impact": "medium",
       "gold_bias": "bullish",
       "why_key": "geopolitics_bullish",
-      "_translation_hash": "6aee8aa17377aa98c58b915c80cdf042f0f38021bdc9735ea5885fadca4367e0"
+      "_translation_hash": "6aee8aa17377aa98c58b915c80cdf042f0f38021bdc9735ea5885fadca4367e0",
+      "translations": {
+        "zh-CN": {
+          "title": "关于服药过量和药物中毒意识周的总统致辞",
+          "summary": "在药物过量和药物中毒意识周期间，我们的国家重申了战胜非法药物和合成毒物的祸害的决心，这些毒物已经摧毁了数十万美国人的生命。我的政府正在不懈地应对来自各个方面的威胁，我们将始终将我们的国家安全以及安全、健康和福祉放在首位。关于服药过量和药物中毒意识周的总统致辞首先出现在白宫。"
+        },
+        "ja": {
+          "title": "過剰摂取および薬物中毒啓発週間に関する大統領メッセージ",
+          "summary": "過剰摂取と薬物中毒啓発週間中、我が国は、数十万人のアメリカ人の命を破壊した違法薬物と合成毒物の惨劇に打ち勝つ決意を新たにします。私の政権は、あらゆる情報源でこの脅威に容赦なく対峙しており、常に国家安全保障と安全、健康、福祉を優先していきます。 […] 過剰摂取と薬物中毒啓発週間に関する大統領のメッセージは、最初にホワイトハウスに掲載されました。"
+        },
+        "zh-TW": {
+          "title": "關於服藥過量和藥物中毒意識週的總統致辭",
+          "summary": "在藥物過量和藥物中毒意識週期間，我們的國家重申了戰勝非法藥物和合成毒物的禍害的決心，這些毒物已經摧毀了數十萬美國人的生命。我的政府正在不懈地應對來自各個方面的威脅，我們將始終將我們的國家安全以及安全、健康和福祉放在首位。關於服藥過量和藥物中毒意識週的總統致詞首先出現在白宮。"
+        },
+        "ko": {
+          "title": "과다 복용 및 약물 중독 인식 주간에 관한 대통령 메시지",
+          "summary": "과다 복용 및 약물 중독 인식 주간 동안 미국은 수십만 명의 미국인의 삶을 황폐화시킨 불법 약물과 합성 독극물의 재앙을 물리치겠다는 결의를 새롭게 합니다. 우리 정부는 모든 소스에서 이 위협에 가차없이 맞서고 있으며, 우리는 항상 국가 안보와 안전, 건강, 복지를 최우선으로 삼을 것입니다. […] 과다복용 및 약물 중독 인식 주간에 관한 대통령 메시지가 백악관에 처음 게재되었습니다."
+        },
+        "de": {
+          "title": "Botschaft des Präsidenten zur Woche der Aufklärung über Überdosierung und Drogenvergiftung",
+          "summary": "Während der Woche der Aufklärung über Überdosierung und Drogenvergiftung bekräftigt unsere Nation ihre Entschlossenheit, die Geißel der illegalen Drogen und synthetischen Gifte zu besiegen, die das Leben Hunderttausender Amerikaner zerstört hat. Meine Regierung stellt sich dieser Bedrohung an jeder Quelle unerbittlich, und wir werden stets unsere nationale Sicherheit sowie die Sicherheit, Gesundheit und das Wohlergehen in den Mittelpunkt stellen. […] Der Beitrag „Botschaft des Präsidenten zur Aufklärungswoche über Überdosierung und Drogenvergiftung“ erschien zuerst im Weißen Haus."
+        },
+        "fr": {
+          "title": "Message présidentiel à l'occasion de la Semaine de sensibilisation aux surdoses et aux intoxications médicamenteuses",
+          "summary": "Au cours de la Semaine de sensibilisation aux surdoses et aux intoxications médicamenteuses, notre nation renouvelle sa détermination à vaincre le fléau des drogues illicites et des poisons synthétiques qui ont dévasté des centaines de milliers de vies américaines. Mon administration affronte sans relâche cette menace, quelle qu'en soit la source, et nous mettrons toujours notre sécurité nationale ainsi que la sécurité, la santé et le bien-être à l'avant-plan. […] Le message post-présidentiel sur la Semaine de sensibilisation aux surdoses et aux intoxications médicamenteuses est apparu en premier à la Maison Blanche."
+        }
+      }
     },
     {
       "title": "Operation Economic Outcast: Total Isolation of the Iranian Regime",
@@ -72,7 +202,33 @@
       "impact": "medium",
       "gold_bias": "neutral",
       "why_key": "geopolitics_neutral",
-      "_translation_hash": "ed19c07c34ae1b6a60091791238fb6cb54b0642654a766ed49ab90f7639f4ae5"
+      "_translation_hash": "ed19c07c34ae1b6a60091791238fb6cb54b0642654a766ed49ab90f7639f4ae5",
+      "translations": {
+        "zh-CN": {
+          "title": "经济弃儿行动：伊朗政权的彻底孤立",
+          "summary": "今天，特朗普政府发起了“经济放逐者行动”，这是一场史无前例的行动，旨在切断支撑伊朗伊斯兰共和国的所有剩余经济命脉。在特朗普总统和美国军队的压倒性力量摧毁了伊朗的军事能力并削弱了其核计划之后，美国正在以有史以来最大规模的金融攻势进入最后阶段 […] 经济放逐者行动后：伊朗政权的全面孤立首先出现"
+        },
+        "zh-TW": {
+          "title": "經濟棄兒行動：伊朗政權的徹底孤立",
+          "summary": "今天，川普政府發起了“經濟放逐者行動”，這是一場史無前例的行動，旨在切斷支撐伊朗伊斯蘭共和國的所有剩餘經濟命脈。在川普總統和美國軍隊的壓倒性力量摧毀了伊朗的軍事能力並削弱了其核計劃之後，美國正在以有史以來最大規模的金融攻勢進入最後階段 […] 經濟放逐者行動後：伊朗政權的全面孤立首先出現"
+        },
+        "ja": {
+          "title": "経済的追放作戦: イラン政権の完全な孤立",
+          "summary": "本日、トランプ政権は、イラン・イスラム共和国を支えるあらゆる経済的ライフラインを遮断する前例のない作戦である「経済的アウトキャスト作戦」を発動した。トランプ大統領と米軍の圧倒的な力がイランの軍事能力を解体し、その核開発計画を無力化した後、アメリカは史上最大の金融攻撃で最終局面を迎えている […] 経済的追放作戦: イラン体制の完全な孤立後の記事が最初に登場した"
+        },
+        "ko": {
+          "title": "경제적 추방 작전: 이란 정권의 완전한 고립",
+          "summary": "오늘 트럼프 행정부는 이란 이슬람 공화국을 지탱하는 모든 경제적 생명선을 끊기 위한 전례 없는 캠페인인 경제 추방 작전(Operation Economic Outcast)을 시작했습니다. 트럼프 대통령과 미군의 압도적인 위력이 이란의 군사력을 해체하고 핵 프로그램을 무력화시킨 이후, 미국은 역대 최대 규모의 금융 공세로 최종전을 치르고 있다."
+        },
+        "de": {
+          "title": "Operation Economic Outcast: Totale Isolation des iranischen Regimes",
+          "summary": "Heute hat die Trump-Administration die Operation Economic Outcast gestartet, eine beispiellose Kampagne, um alle verbleibenden wirtschaftlichen Lebensadern der Islamischen Republik Iran abzuschneiden. Nachdem Präsident Trump und die überwältigende Macht des US-Militärs die militärischen Fähigkeiten Irans demontiert und sein Atomprogramm lahmgelegt haben, tritt Amerika mit der größten Finanzoffensive aller Zeiten in das Endspiel ein. […] Der Beitrag „Operation Economic Outcast: Total Isolation of the Iranian Regime“ erschien zuerst"
+        },
+        "fr": {
+          "title": "Opération Paria économique : isolement total du régime iranien",
+          "summary": "Aujourd’hui, l’administration Trump a lancé l’Opération Economic Outcast, une campagne sans précédent visant à couper toutes les bouées de sauvetage économiques qui soutiennent la République islamique d’Iran. Après que le président Trump et la puissance écrasante de l’armée américaine ont démantelé les capacités militaires de l’Iran et paralysé son programme nucléaire, l’Amérique entre dans la phase finale avec la plus grande offensive financière jamais vue. […] L’après-Opération Paria économique : isolement total du régime iranien est apparu en premier."
+        }
+      }
     },
     {
       "title": "Quarterly Services Survey",
@@ -611,7 +767,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -839,7 +995,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1029,7 +1185,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
