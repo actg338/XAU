@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-28T12:00:28.481849+00:00",
+  "generated_at": "2026-08-28T16:20:36.404578+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
   "confidence": 92,
-  "score": -44,
+  "score": -83,
   "drivers": [
     "warsh",
     "fedwatch",
@@ -32,10 +32,10 @@
     }
   ],
   "next_event": {
-    "event_key": "bls_release",
-    "title": "County Employment and Wages",
-    "starts_at": "2026-08-28T14:00:00+00:00",
-    "impact": "medium",
+    "event_key": "jolts",
+    "title": "Job Openings and Labor Turnover Survey",
+    "starts_at": "2026-09-01T14:00:00+00:00",
+    "impact": "high",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
   }
