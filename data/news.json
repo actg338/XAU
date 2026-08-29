@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-29T10:24:21.108287+00:00",
+  "fetched_at": "2026-08-29T10:33:54.535072+00:00",
   "total": 115,
   "items": [
     {
@@ -12,7 +12,33 @@
       "impact": "medium",
       "gold_bias": "bullish",
       "why_key": "monetary_policy_bullish",
-      "_translation_hash": "674b94c7077acde1f44072976339518d007a101a8f744783f9974cf136ad6eb0"
+      "_translation_hash": "674b94c7077acde1f44072976339518d007a101a8f744783f9974cf136ad6eb0",
+      "translations": {
+        "zh-CN": {
+          "title": "沃什，《我们的时代》",
+          "summary": "在怀俄明州杰克逊霍尔堪萨斯城联邦储备银行主办的经济政策研讨会“金融创新：对支付和政策的影响”上的演讲"
+        },
+        "ja": {
+          "title": "ウォーシュ、私たちの時代に",
+          "summary": "ワイオミング州ジャクソンホールのカンザスシティ連邦準備銀行主催の経済政策シンポジウム「金融イノベーション：支払いと政策への影響」での講演"
+        },
+        "zh-TW": {
+          "title": "沃什，《我們的時代》",
+          "summary": "在懷俄明州傑克遜霍爾堪薩斯城聯邦儲備銀行主辦的經濟政策研討會「金融創新：對支付和政策的影響」上的演講"
+        },
+        "fr": {
+          "title": "Warsh, à notre époque",
+          "summary": "Discours prononcé lors de « Innovation financière : implications pour les paiements et la politique », un symposium de politique économique parrainé par la Banque de réserve fédérale de Kansas City, Jackson Hole, Wyoming"
+        },
+        "ko": {
+          "title": "워시, 우리 시대에",
+          "summary": "와이오밍주 잭슨홀에서 캔자스시티 연방준비은행이 후원하는 경제 정책 심포지엄인 \"금융 혁신: 지불 및 정책에 대한 시사점\"에서 연설"
+        },
+        "de": {
+          "title": "Warsh, in unserer Zeit",
+          "summary": "Rede bei „Financial Innovation: Implications for Payments and Policy“, einem wirtschaftspolitischen Symposium, gesponsert von der Federal Reserve Bank of Kansas City, Jackson Hole, Wyoming"
+        }
+      }
     },
     {
       "title": "Advance Retail Inventories",
@@ -95,7 +121,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -741,7 +767,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -969,7 +995,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1159,7 +1185,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
