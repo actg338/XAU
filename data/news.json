@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-08-31T19:27:23.169950+00:00",
+  "fetched_at": "2026-08-31T19:38:58.395800+00:00",
   "total": 114,
   "items": [
+    {
+      "title": "Fact Sheet: President Donald J. Trump Announces Deal with Nine Additional Pharmaceutical Manufacturers to Lower Drug Prices for Americans",
+      "link": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-announces-deal-with-nine-additional-pharmaceutical-manufacturers-to-lower-drug-prices-for-americans/",
+      "summary": "ADVANCING MOST-FAVORED-NATION (MFN) PRICING: Today, President Donald J. Trump announced nine new agreements with pharmaceutical manufacturers to lower prescription drug prices for Americans in line with the lowest prices paid by other developed nations (known as the most-favored-nation, or MFN, price). The agreements bring the total number of pharmaceutical manufacturers with MFN deals to 26, covering […] The post Fact Sheet: President Donald J. Trump Announces Deal with Nine Additional Pharmace",
+      "published_at": "Mon, 31 Aug 2026 19:14:29 +0000",
+      "source": "white_house",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "de598cd5dace67c230965d8d33cd95e98767ff2068688b7c6633ef5eab10d787"
+    },
     {
       "title": "Warsh, In Our Time",
       "link": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm",
@@ -121,7 +133,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -421,44 +433,6 @@
       }
     },
     {
-      "title": "President Trump Delivers Largest Prescription Drug Price Drop in Over 60 Years",
-      "link": "https://www.whitehouse.gov/releases/2026/08/president-trump-delivers-largest-prescription-drug-price-drop-in-over-60-years/",
-      "summary": "President Donald J. Trump promised to slash prescription drug prices — and he has delivered. New data confirms prescription drug prices just recorded their largest annual decline in more than 60 years, the steepest drop since 1963, as the Trump Administration’s landmark Most Favored Nation policies take hold. President Trump is the first President to […] The post President Trump Delivers Largest Prescription Drug Price Drop in Over 60 Years appeared first on The White House .",
-      "published_at": "Mon, 17 Aug 2026 14:03:07 +0000",
-      "source": "white_house",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "f3d48a94f07e8147b14456a271879b3099575cfde153926dce295e8777aed342",
-      "translations": {
-        "zh-CN": {
-          "title": "特朗普总统实现处方药价格 60 多年来最大降幅",
-          "summary": "唐纳德·J·特朗普总统承诺大幅削减处方药价格——他已经兑现了承诺。新数据证实，随着特朗普政府具有里程碑意义的最惠国政策的实施，处方药价格刚刚录得 60 多年来最大年度跌幅，这是自 1963 年以来的最大跌幅。特朗普总统是第一位 […] 特朗普总统实现 60 多年来处方药价格最大降幅的帖子首先出现在白宫。"
-        },
-        "zh-TW": {
-          "title": "特朗普总统实现处方药价格 60 多年来最大降幅",
-          "summary": "唐納德·J·特朗普總統承諾大幅削減處方藥價格——他已經兌現了承諾。新數據證實，隨著川普政府具有里程碑意義的最惠國政策的實施，處方藥價格剛剛錄得 60 多年來最大年度跌幅，這是自 1963 年以來的最大跌幅。特朗普总统是第一位 […] 特朗普总统实现 60 多年来处方药价格最大降幅的帖子首先出现在白宫。"
-        },
-        "ja": {
-          "title": "トランプ大統領、過去60年間で最大の処方薬価格下落を実現",
-          "summary": "ドナルド・J・トランプ大統領は処方薬の価格を引き下げると約束し、それを実現した。トランプ政権の画期的な最恵国政策が定着する中、処方薬価格が過去60年以上で最大の年間下落幅を記録したことが新たなデータで確認され、1963年以来の大幅な下落となった。トランプ大統領は、[…] トランプ大統領、過去60年間で最大の処方薬価格下落を実現したという投稿 first appeared on The White House ."
-        },
-        "ko": {
-          "title": "트럼프 대통령, 60년 만에 최대 처방약 가격 인하",
-          "summary": "도널드 J. 트럼프 대통령은 처방약 가격을 인하하겠다고 약속했고 실제로 이를 실현했습니다. 새로운 데이터에 따르면 트럼프 행정부의 랜드마크인 최혜국 정책이 시행되면서 처방약 가격이 60여년 만에 가장 큰 연간 하락세를 기록했으며, 이는 1963년 이후 가장 가파른 하락세를 기록했습니다. 트럼프 대통령은 […] 트럼프 대통령이 60년 만에 최대 규모의 처방약 가격 인하를 달성했다는 게시물이 백악관에 처음 등장했습니다."
-        },
-        "fr": {
-          "title": "Le président Trump provoque la plus forte baisse du prix des médicaments sur ordonnance depuis plus de 60 ans",
-          "summary": "Le président Donald J. Trump a promis de réduire les prix des médicaments sur ordonnance – et il a tenu ses promesses. De nouvelles données confirment que les prix des médicaments sur ordonnance viennent d’enregistrer leur plus forte baisse annuelle depuis plus de 60 ans, la plus forte baisse depuis 1963, alors que les politiques historiques de la nation la plus favorisée de l’administration Trump s’imposent. Le président Trump est le premier président à […] L'article Le président Trump entraîne la plus forte baisse du prix des médicaments sur ordonnance depuis plus de 60 ans est apparu en premier sur la Maison Blanche."
-        },
-        "de": {
-          "title": "Präsident Trump sorgt für den größten Preisverfall bei verschreibungspflichtigen Medikamenten seit über 60 Jahren",
-          "summary": "Präsident Donald J. Trump hat versprochen, die Preise für verschreibungspflichtige Medikamente zu senken – und er hat gehalten. Neue Daten bestätigen, dass die Preise für verschreibungspflichtige Medikamente gerade ihren größten jährlichen Rückgang seit mehr als 60 Jahren verzeichneten, den stärksten Rückgang seit 1963, da die bahnbrechende Meistbegünstigungspolitik der Trump-Administration in Kraft tritt. Präsident Trump ist der erste Präsident, der […] Der Beitrag „Präsident Trump sorgt für den größten Preisverfall bei verschreibungspflichtigen Medikamenten seit über 60 Jahren“ erschien zuerst im Weißen Haus."
-        }
-      }
-    },
-    {
       "title": "Manufacturing and Trade Inventories and Sales",
       "link": "https://www.census.gov/mtis/index.html",
       "summary": "U.S. total business end-of-month inventories for June 2026 were $2,740.2 billion, virtually unchanged (+/- 0.1 percent)* from last month. U.S. total business sales were $2,111.3 billion, down 1.1 percent (+/- 0.2 percent) from last month. June 2026: 0.0* % Change in Inventories May 2026 (r): +0.4 % Change in Inventories",
@@ -729,7 +703,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -957,7 +931,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1147,7 +1121,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
