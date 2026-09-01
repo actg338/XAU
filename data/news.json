@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-09-01T16:59:03.891447+00:00",
+  "fetched_at": "2026-09-01T17:18:26.491698+00:00",
   "total": 116,
   "items": [
     {
-      "title": "Boris Vujčić: Household expectations and monetary policy: The importance of high-quality surveys and evidence-based research",
+      "title": "Boris Vujčić: Listening to households: expectations, behaviour and monetary policy",
       "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html",
       "summary": "",
       "published_at": "Tue, 01 Sep 2026 18:00:00 +0200",
@@ -12,7 +12,7 @@
       "impact": "medium",
       "gold_bias": "neutral",
       "why_key": "monetary_policy_neutral",
-      "_translation_hash": "7b1057e064e367babecff83c3ff20b1c60cd63fd33df450676b878eec0b2c447"
+      "_translation_hash": "c4c79b23d769bdca81261ceeb52925fe80a052c6f8cece9bd57bffecaf45f4bf"
     },
     {
       "title": "Construction Spending",
@@ -285,7 +285,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -817,7 +817,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1045,7 +1045,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1235,7 +1235,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
