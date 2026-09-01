@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-08-31T23:57:01.941272+00:00",
-  "total": 114,
+  "fetched_at": "2026-09-01T01:03:57.155676+00:00",
+  "total": 115,
   "items": [
+    {
+      "title": "Fact Sheet: President Donald J. Trump Announces Historic Oil Agreement to Secure American Energy Dominance and Drive Venezuela’s Economic Recovery",
+      "link": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-announces-historic-oil-agreement-to-secure-american-energy-dominance-and-drive-venezuelas-economic-recovery/",
+      "summary": "SECURING STABLE & LOW-COST OIL SUPPLY IN OUR HEMISPHERE: In the biggest oil deal in world history, President Donald J. Trump has secured U.S. majority control of more than 65 billion barrels of proven oil reserves in Venezuela – vastly expanding our current U.S. territorial proven reserves of roughly 46 billion barrels. This deal secures […] The post Fact Sheet: President Donald J. Trump Announces Historic Oil Agreement to Secure American Energy Dominance and Drive Venezuela’s Economic Recovery ",
+      "published_at": "Mon, 31 Aug 2026 23:55:33 +0000",
+      "source": "white_house",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "95a3d79e31a03ead6c8747fe6791f74b7fc818bb9e31fb0c4359d47ac3974a2a"
+    },
     {
       "title": "Fact Sheet: President Donald J. Trump Announces Deal with Nine Additional Pharmaceutical Manufacturers to Lower Drug Prices for Americans",
       "link": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-announces-deal-with-nine-additional-pharmaceutical-manufacturers-to-lower-drug-prices-for-americans/",
@@ -133,7 +145,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -703,7 +715,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -931,7 +943,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1121,7 +1133,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
@@ -1885,18 +1897,6 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "044af1e69df439dcfbdc5335fa821579e6cc7c52c8d2171caae18d4fc2ca7848"
-    },
-    {
-      "title": "August job openings unchanged; hires and total separations change little",
-      "link": "https://www.bls.gov/news.release/archives/jolts_09302025.htm",
-      "summary": "",
-      "published_at": "2025-09-30T10:00:00-04:00",
-      "source": "bls_jolts",
-      "category": "labor",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "50e8f44815ed60c51b21db238e068a8e70f181f62df21728e13080844889b30e"
     }
   ]
 }
