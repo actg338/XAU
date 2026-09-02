@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-02T19:53:57.608630+00:00",
-  "total": 117,
+  "fetched_at": "2026-09-02T20:07:42.112406+00:00",
+  "total": 116,
   "items": [
     {
       "title": "Presidential Message on National Childhood Cancer Awareness Month",
@@ -297,7 +297,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -481,18 +481,6 @@
           "summary": "Le chiffre d'affaires total des services sélectionnés aux États-Unis pour le deuxième trimestre 2026, ajusté des variations saisonnières mais pas des changements de prix, s'est élevé à 6 421,9 milliards de dollars, soit une augmentation de 3,1 pour cent (+/- 0,4 pour cent) par rapport au premier trimestre 2026 et en hausse de 7,7 pour cent (+/- 0,6 pour cent) par rapport au deuxième trimestre 2025. 2e trimestre 2026 : +3,1 % de variation au 1er trimestre 2026 (r) : +1,1 % Variation"
         }
       }
-    },
-    {
-      "title": "President Trump’s Trade Agenda Is Rebuilding the American Auto Industry",
-      "link": "https://www.whitehouse.gov/releases/2026/08/president-trumps-trade-agenda-is-rebuilding-the-american-auto-industry/",
-      "summary": "Ford Motor Company announced it will reshore production of its Lincoln models to the United States — phasing out imports from China and creating thousands of new American jobs. This is the latest proof that President Donald J. Trump’s America First trade agenda is delivering exactly as designed: rewarding domestic manufacturing, protecting American workers, and […] The post President Trump’s Trade Agenda Is Rebuilding the American Auto Industry appeared first on The White House .",
-      "published_at": "Wed, 19 Aug 2026 21:42:19 +0000",
-      "source": "white_house",
-      "category": "trade",
-      "impact": "medium",
-      "gold_bias": "bullish",
-      "why_key": "trade_bullish",
-      "_translation_hash": "7739de6e3f0fe9b9c8f093bf78e3434fbb98d9e708b2246f8aeae76b6dfce367"
     },
     {
       "title": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
@@ -803,7 +791,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1031,7 +1019,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1221,7 +1209,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
@@ -1949,6 +1937,18 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "4580557ddb6ea1d4834c1b15c41a3149ef83d749f8ae34cb0c4cceec56f369f8"
+    },
+    {
+      "title": "Payroll employment edges up 119,000 in September; unemployment rate changes little at 4.4%",
+      "link": "https://www.bls.gov/news.release/archives/empsit_11202025.htm",
+      "summary": "",
+      "published_at": "2025-11-20T08:30:00-05:00",
+      "source": "bls_jobs",
+      "category": "labor",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "b913e2014a1c590a06230e201b743e6ef224d6a5a356c51addaeb7d4912bd47e"
     }
   ]
 }
