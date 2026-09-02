@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-09-02T16:01:17.485792+00:00",
-  "total": 116,
+  "fetched_at": "2026-09-02T16:25:06.343136+00:00",
+  "total": 117,
   "items": [
+    {
+      "title": "Presidential Message on National Childhood Cancer Awareness Month",
+      "link": "https://www.whitehouse.gov/briefings-statements/2026/09/presidential-message-on-national-childhood-cancer-awareness-month/",
+      "summary": "This National Childhood Cancer Awareness Month, my Administration stands with the countless children facing the devastating effects of cancer. We recognize the love, strength, and care of the families who walk beside them through every step of their journeys. Above all, we commit to advancing lifesaving innovation and accelerating cures, giving every child the chance […] The post Presidential Message on National Childhood Cancer Awareness Month appeared first on The White House .",
+      "published_at": "Wed, 02 Sep 2026 15:59:31 +0000",
+      "source": "white_house",
+      "category": "geopolitics",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "geopolitics_bullish",
+      "_translation_hash": "589d50828bac503ea62720f915468661b096e9eae7c82c8b6d5898caf04f0bd8"
+    },
     {
       "title": "Manufacturers' Shipments, Inventories, and Orders",
       "link": "https://www.census.gov/manufacturing/m3/",
@@ -1963,18 +1975,6 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "4580557ddb6ea1d4834c1b15c41a3149ef83d749f8ae34cb0c4cceec56f369f8"
-    },
-    {
-      "title": "Payroll employment edges up 119,000 in September; unemployment rate changes little at 4.4%",
-      "link": "https://www.bls.gov/news.release/archives/empsit_11202025.htm",
-      "summary": "",
-      "published_at": "2025-11-20T08:30:00-05:00",
-      "source": "bls_jobs",
-      "category": "labor",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "b913e2014a1c590a06230e201b743e6ef224d6a5a356c51addaeb7d4912bd47e"
     }
   ]
 }
