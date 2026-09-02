@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-02T22:29:57.801946+00:00",
+  "fetched_at": "2026-09-02T22:40:23.094121+00:00",
   "total": 116,
   "items": [
     {
@@ -12,7 +12,33 @@
       "impact": "medium",
       "gold_bias": "bullish",
       "why_key": "geopolitics_bullish",
-      "_translation_hash": "589d50828bac503ea62720f915468661b096e9eae7c82c8b6d5898caf04f0bd8"
+      "_translation_hash": "589d50828bac503ea62720f915468661b096e9eae7c82c8b6d5898caf04f0bd8",
+      "translations": {
+        "zh-CN": {
+          "title": "全国儿童癌症宣传月总统致辞",
+          "summary": "在这个全国儿童癌症宣传月，我的政府与无数面临癌症破坏性影响的儿童站在一起。我们认识到陪伴他们走过每一步的家人的爱、力量和关怀。最重要的是，我们致力于推进拯救生命的创新并加速治疗，让每个孩子都有机会[…]总统关于全国儿童癌症宣传月的致辞首先出现在白宫。"
+        },
+        "ja": {
+          "title": "全国小児がん啓発月間に関する大統領メッセージ",
+          "summary": "この全国小児がん啓発月間において、私の政府は、がんの壊滅的な影響に直面している無数の子どもたちを支援します。私たちは、旅のあらゆる段階で寄り添って歩む家族の愛、強さ、思いやりを認識しています。何よりも、私たちは救命のイノベーションを推進し、治療を加速し、すべての子供たちにチャンスを与えることに尽力します。 […] 全国小児がん啓発月間に関する大統領メッセージが最初にホワイトハウスに掲載されました。"
+        },
+        "zh-TW": {
+          "title": "全國兒童癌症宣傳月總統致辭",
+          "summary": "在這個全國兒童癌症宣傳月，我的政府與無數面臨癌症破壞性影響的兒童站在一起。我們體認到陪伴他們走過每一步的家人的愛、力量和關懷。最重要的是，我們致力於推動拯救生命的創新並加速治療，讓每個孩子都有機會[…]總統關於全國兒童癌症宣傳月的致詞首先出現在白宮。"
+        },
+        "ko": {
+          "title": "전국 아동암 인식의 달 대통령 메시지",
+          "summary": "이번 전국 아동 암 인식의 달을 맞아 우리 정부는 암의 파괴적인 영향에 직면한 수많은 어린이들과 함께합니다. 우리는 여행의 모든 ​​단계에서 옆에서 걸어가는 가족들의 사랑, 힘, 보살핌을 인식합니다. 무엇보다도 우리는 생명을 구하는 혁신을 발전시키고 치료를 가속화하여 모든 어린이에게 기회를 제공하기 위해 최선을 다하고 있습니다. [...] 전국 아동 암 인식의 달에 관한 대통령 메시지가 백악관에 처음 게재되었습니다."
+        },
+        "de": {
+          "title": "Botschaft des Präsidenten zum Nationalen Monat der Aufklärung über Kinderkrebs",
+          "summary": "In diesem Nationalen Monat der Aufklärung über Kinderkrebs steht meine Regierung an der Seite der unzähligen Kinder, die mit den verheerenden Auswirkungen von Krebs konfrontiert sind. Wir erkennen die Liebe, Stärke und Fürsorge der Familien an, die sie auf jedem Schritt ihrer Reise begleiten. Vor allem setzen wir uns dafür ein, lebensrettende Innovationen voranzutreiben und Heilungen zu beschleunigen und jedem Kind die Chance zu geben. […] Die Botschaft des Präsidenten zum National Childhood Cancer Awareness Month erschien zuerst im Weißen Haus."
+        },
+        "fr": {
+          "title": "Message présidentiel à l'occasion du Mois national de sensibilisation au cancer infantile",
+          "summary": "En ce Mois national de sensibilisation au cancer infantile, mon administration se tient aux côtés des innombrables enfants confrontés aux effets dévastateurs du cancer. Nous reconnaissons l’amour, la force et l’attention des familles qui les accompagnent à chaque étape de leur voyage. Par-dessus tout, nous nous engageons à faire progresser l'innovation qui sauve des vies et à accélérer les guérisons, en donnant à chaque enfant sa chance. […] Le message post-présidentiel sur le Mois national de sensibilisation au cancer chez l'enfant est apparu en premier à la Maison Blanche."
+        }
+      }
     },
     {
       "title": "Manufacturers' Shipments, Inventories, and Orders",
@@ -24,7 +50,33 @@
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "323853ef9fd48355a00626bde71484874a20a70ebe61207517d0c0d50023ca54"
+      "_translation_hash": "323853ef9fd48355a00626bde71484874a20a70ebe61207517d0c0d50023ca54",
+      "translations": {
+        "zh-CN": {
+          "title": "制造商的出货量、库存和订单",
+          "summary": "7 月份制成品新订单继连续两个月下降后增加 58 亿美元，即 0.9%，至 6,636 亿美元。 2026 年 7 月：+0.9° 变化百分比 2026 年 6 月 (r)：-0.2° 变化百分比"
+        },
+        "ja": {
+          "title": "メーカー出荷・在庫・受注状況",
+          "summary": "７月の製造品新規受注は２カ月連続の減少から増加し、５８億ドル（０．９％）増の６６３６億ドルとなった。 2026年7月: +0.9° %変化 2026年6月(r): -0.2° %変化"
+        },
+        "zh-TW": {
+          "title": "製造商的出貨量、庫存和訂單",
+          "summary": "7 月製成品新訂單繼連續兩個月下降後增加 58 億美元，即 0.9%，至 6,636 億美元。 2026 年 7 月：+0.9° 變化百分比 2026 年 6 月 (r)：-0.2° 變化百分比"
+        },
+        "ko": {
+          "title": "제조업체의 배송, 재고 및 주문",
+          "summary": "7월 공산품 신규 주문은 두 달 연속 감소한 후 증가하여 58억 달러(0.9%) 증가한 6,636억 달러를 기록했습니다. 2026년 7월: +0.9° % 변동 2026년 6월(r): -0.2° % 변동"
+        },
+        "de": {
+          "title": "Lieferungen, Bestände und Bestellungen der Hersteller",
+          "summary": "Die Auftragseingänge für Industriegüter stiegen im Juli nach zwei aufeinanderfolgenden monatlichen Rückgängen um 5,8 Milliarden US-Dollar oder 0,9 Prozent auf 663,6 Milliarden US-Dollar. Juli 2026: +0,9° % Veränderung Juni 2026 (r): -0,2° % Veränderung"
+        },
+        "fr": {
+          "title": "Expéditions, stocks et commandes des fabricants",
+          "summary": "Les nouvelles commandes de produits manufacturés en juillet, en hausse après deux baisses mensuelles consécutives, ont augmenté de 5,8 milliards de dollars, ou 0,9 pour cent, à 663,6 milliards de dollars. Juillet 2026 : +0,9° % Variation Juin 2026 (r) : -0,2° % Variation"
+        }
+      }
     },
     {
       "title": "Boris Vujčić: Listening to households: expectations, behaviour and monetary policy",
@@ -297,7 +349,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -791,7 +843,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1019,7 +1071,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1209,7 +1261,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
