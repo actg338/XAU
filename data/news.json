@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-09-02T13:51:55.437331+00:00",
+  "fetched_at": "2026-09-02T14:00:26.615625+00:00",
   "total": 116,
   "items": [
+    {
+      "title": "Manufacturers' Shipments, Inventories, and Orders",
+      "link": "https://www.census.gov/manufacturing/m3/",
+      "summary": "New orders for manufactured goods in July, up following two consecutive monthly decreases, increased $5.8 billion or 0.9 percent to $663.6 billion. July 2026: +0.9° % Change June 2026 (r): -0.2° % Change",
+      "published_at": "Wed, 02 Sep 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "323853ef9fd48355a00626bde71484874a20a70ebe61207517d0c0d50023ca54"
+    },
     {
       "title": "Boris Vujčić: Listening to households: expectations, behaviour and monetary policy",
       "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html",
@@ -265,44 +277,6 @@
         "fr": {
           "title": "Avancer les stocks de détail",
           "summary": "Les stocks de fin de mois de juillet 2026 s'élevaient à 838,5 milliards de dollars, en hausse de 0,7 % (+/-0,2 %) par rapport au mois dernier. Juillet 2026 : +0,7 % de variation des stocks Juin 2026 (r) : -0,2* % de variation des stocks"
-        }
-      }
-    },
-    {
-      "title": "Advance Monthly Manufacturers' Shipments, Inventories, and Orders",
-      "link": "https://www.census.gov/manufacturing/m3/",
-      "summary": "New orders for manufactured durable goods in July, up four of the last five months, increased $3.6 billion or 1.1 percent to $339.3 billion. July 2026: +1.1° % Change June 2026 (r): +0.5° % Change",
-      "published_at": "Wed, 26 Aug 2026 08:30:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "ed3489899f828ca41098e865f531e45f0aefd0d3b0fd8d5d1d9e30e0fcd3a953",
-      "translations": {
-        "zh-CN": {
-          "title": "预付每月制造商的发货量、库存和订单",
-          "summary": "7 月份耐用品制成品新订单增加 36 亿美元，即 1.1%，达到 3,393 亿美元，是过去五个月中的四个月。 2026 年 7 月：+1.1° % 变化 2026 年 6 月 (r)：+0.5° % 变化"
-        },
-        "ja": {
-          "title": "メーカーの毎月の出荷、在庫、注文を前倒しする",
-          "summary": "７月の耐久財新規受注は過去５カ月中４カ月増加し、３６億ドル（１．１％）増の３３９３億ドルとなった。 2026年7月: +1.1° %変化 2026年6月(r): +0.5° %変化"
-        },
-        "zh-TW": {
-          "title": "預付每月製造商的出貨量、庫存和訂單",
-          "summary": "7 月耐用品製成品新訂單增加 36 億美元，或 1.1%，達到 3,393 億美元，是過去五個月的四個月。 2026 年 7 月：+1.1° % 變化 2026 年 6 月 (r)：+0.5° % 變化"
-        },
-        "ko": {
-          "title": "월별 제조업체의 선적, 재고 및 주문 사전",
-          "summary": "7월 내구재 제조 신규 주문은 지난 5개월 중 4개월 증가해 36억 달러(1.1%) 증가한 3,393억 달러를 기록했습니다. 2026년 7월: +1.1° % 변화 2026년 6월(r): +0.5° % 변화"
-        },
-        "de": {
-          "title": "Vorausschauende monatliche Herstellerlieferungen, Lagerbestände und Bestellungen",
-          "summary": "Die Auftragseingänge für langlebige Industriegüter stiegen im Juli um vier der letzten fünf Monate um 3,6 Milliarden US-Dollar oder 1,1 Prozent auf 339,3 Milliarden US-Dollar. Juli 2026: +1,1° % Veränderung Juni 2026 (r): +0,5° % Veränderung"
-        },
-        "fr": {
-          "title": "Avancer les expéditions, les stocks et les commandes mensuelles des fabricants",
-          "summary": "Les nouvelles commandes de biens manufacturés durables en juillet, en hausse sur quatre des cinq derniers mois, ont augmenté de 3,6 milliards de dollars, soit 1,1%, à 339,3 milliards de dollars. Juillet 2026 : +1,1° % Variation Juin 2026 (r) : +0,5° % Variation"
         }
       }
     },
