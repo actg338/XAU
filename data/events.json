@@ -1,15 +1,7 @@
 {
-  "fetched_at": "2026-09-03T11:58:10.913492+00:00",
+  "fetched_at": "2026-09-03T12:31:32.012066+00:00",
   "timezone": "UTC",
   "events": [
-    {
-      "event_key": "bls_release",
-      "title": "Productivity and Costs",
-      "starts_at": "2026-09-03T12:30:00+00:00",
-      "impact": "medium",
-      "source": "BLS",
-      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
-    },
     {
       "event_key": "nfp",
       "title": "Employment Situation",
@@ -193,6 +185,14 @@
       "impact": "high",
       "source": "CME/Federal Reserve",
       "source_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
+    },
+    {
+      "event_key": "bls_release",
+      "title": "Consumer Expenditures",
+      "starts_at": "2026-10-29T14:00:00+00:00",
+      "impact": "medium",
+      "source": "BLS",
+      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
     }
   ]
 }

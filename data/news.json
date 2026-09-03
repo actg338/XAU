@@ -1,7 +1,83 @@
 {
-  "fetched_at": "2026-09-03T11:58:10.683307+00:00",
+  "fetched_at": "2026-09-03T12:31:28.116076+00:00",
   "total": 117,
   "items": [
+    {
+      "title": "Waller, The Economic Outlook and Some Comments on My Policy Communication",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm",
+      "summary": "Speech At Reuters NEXT Newsmaker Interview, Washington, D.C.",
+      "published_at": "Thu, 3 Sep 2026 12:30:00 GMT",
+      "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "8db6f56e7f0c1113bf0927ae8461d3c6e63c77c8ff43fd9a81b587c6f4f60cd2",
+      "translations": {
+        "zh-CN": {
+          "title": "沃勒，《经济展望》以及对我的政策沟通的一些评论",
+          "summary": "在路透社 NEXT Newsmaker 采访中的演讲，华盛顿特区"
+        },
+        "ja": {
+          "title": "ウォーラー氏の経済見通しと私の政策コミュニケーションに対するコメント",
+          "summary": "ワシントンD.C.でのロイターNEXTニュースメーカーインタビューでのスピーチ"
+        },
+        "ko": {
+          "title": "Waller, 경제 전망 및 내 정책 커뮤니케이션에 대한 몇 가지 의견",
+          "summary": "Reuters NEXT Newsmaker 인터뷰에서 연설(워싱턴 D.C.)"
+        },
+        "zh-TW": {
+          "title": "沃勒，《經濟展望》以及對我的政策溝通的一些評論",
+          "summary": "在路透社 NEXT Newsmaker 採訪中的演講，華盛頓特區"
+        },
+        "de": {
+          "title": "Waller, The Economic Outlook und einige Kommentare zu meiner politischen Kommunikation",
+          "summary": "Rede beim Reuters NEXT Newsmaker-Interview, Washington, D.C."
+        },
+        "fr": {
+          "title": "Waller, Les perspectives économiques et quelques commentaires sur ma communication politique",
+          "summary": "Discours lors de l'interview de Reuters NEXT Newsmaker, Washington, D.C."
+        }
+      }
+    },
+    {
+      "title": "U.S. International Trade in Goods and Services",
+      "link": "https://www.census.gov/foreign-trade/index.html",
+      "summary": "The nation's international trade deficit in goods and services increased to $88.6 billion in July from $71.2 billion in June (revised), as exports decreased and imports increased. July 2026: 24.4° % Change June 2026 (r): -6.0° % Change",
+      "published_at": "Thu, 03 Sep 2026 08:30:00 -0400",
+      "source": "census",
+      "category": "trade",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "trade_neutral",
+      "_translation_hash": "3c24050ac2acde529ef831eac02096241c456fd96ed6d06cc15f75cbb4eacdaf",
+      "translations": {
+        "zh-CN": {
+          "title": "美国国际商品和服务贸易",
+          "summary": "由于出口减少和进口增加，该国 7 月份商品和服务国际贸易逆差从 6 月份的 712 亿美元（修正后）增至 886 亿美元。 2026 年 7 月：24.4° 变化百分比 2026 年 6 月 (r)：-6.0° 变化百分比"
+        },
+        "ja": {
+          "title": "米国の商品とサービスの国際貿易",
+          "summary": "同国の財とサービスの国際貿易赤字は、輸出が減少し輸入が増加したため、6月の712億ドル（改定値）から7月には886億ドルに増加した。 2026 年 7 月: 24.4° % 変化 2026 年 6 月 (r): -6.0° % 変化"
+        },
+        "ko": {
+          "title": "미국의 상품 및 서비스 국제 무역",
+          "summary": "상품 및 서비스 부문의 국가 국제 무역 적자는 수출이 감소하고 수입이 증가함에 따라 6월(개정)의 712억 달러에서 7월 886억 달러로 증가했습니다. 2026년 7월: 24.4° % 변화 2026년 6월(r): -6.0° % 변화"
+        },
+        "zh-TW": {
+          "title": "美國國際商品與服務貿易",
+          "summary": "由於出口減少和進口增加，該國 7 月商品和服務國際貿易逆差從 6 月的 712 億美元（修正後）增加到 886 億美元。 2026 年 7 月：24.4° 變化百分比 2026 年 6 月 (r)：-6.0° 變化百分比"
+        },
+        "de": {
+          "title": "Internationaler Handel der USA mit Waren und Dienstleistungen",
+          "summary": "Das internationale Handelsdefizit des Landes bei Waren und Dienstleistungen stieg im Juli von 71,2 Milliarden US-Dollar im Juni (revidiert) auf 88,6 Milliarden US-Dollar, da die Exporte zurückgingen und die Importe zunahmen. Juli 2026: 24,4° % Veränderung. Juni 2026 (r): -6,0° % Veränderung"
+        },
+        "fr": {
+          "title": "Commerce international des biens et services des États-Unis",
+          "summary": "Le déficit du commerce international des biens et services du pays a augmenté pour atteindre 88,6 milliards de dollars en juillet, contre 71,2 milliards de dollars en juin (révisé), alors que les exportations ont diminué et que les importations ont augmenté. Juillet 2026 : 24,4° % Variation Juin 2026 (r) : -6,0° % Variation"
+        }
+      }
+    },
     {
       "title": "President Trump Secures the Biggest Oil Deal in World History",
       "link": "https://www.whitehouse.gov/releases/2026/09/president-trump-secures-the-biggest-oil-deal-in-world-history/",
@@ -345,40 +421,40 @@
       }
     },
     {
-      "title": "Advance Retail Inventories",
+      "title": "Advance U.S. International Trade in Goods",
       "link": "https://www.census.gov/econ/indicators/index.html",
-      "summary": "July 2026 end-of-month inventories were $838.5 billion, up 0.7 percent (+/-0.2 percent) from last month. July 2026: +0.7 % Change in Inventories June 2026 (r): -0.2* % Change in Inventories",
+      "summary": "The advance international trade deficit in goods increased to $118.8 billion in July from $101.4 billion in June as exports decreased and imports increased. July 2026: 17.2° % Change June 2026: -3.7° % Change",
       "published_at": "Thu, 27 Aug 2026 08:30:00 -0400",
       "source": "census",
-      "category": "other",
-      "impact": "low",
+      "category": "trade",
+      "impact": "medium",
       "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "4324356d2f6e325c66ba8a5c7c718abb6a48e49e430d8f8c65375e051d57a2da",
+      "why_key": "trade_neutral",
+      "_translation_hash": "0fd1cf7eecaffe1516ad8b62875e657b69ebc628bda97f3694616282ad81ee61",
       "translations": {
         "zh-CN": {
-          "title": "预付零售库存",
-          "summary": "2026 年 7 月月末库存为 8,385 亿美元，比上月增长 0.7% (+/-0.2%)。 2026 年 7 月：+0.7% 库存变化 2026 年 6 月 (r)：-0.2* 库存变化%"
+          "title": "推进美国国际货物贸易",
+          "summary": "由于出口减少和进口增加，7 月预付国际货物贸易逆差从 6 月的 1014 亿美元增至 1188 亿美元。 2026 年 7 月：17.2° 变化百分比 2026 年 6 月：-3.7° 变化百分比"
         },
         "ja": {
-          "title": "事前小売在庫",
-          "summary": "２０２６年７月の月末在庫は８３８５億ドルで、前月比０．７％（±０．２％）増加した。 2026 年 7 月: +0.7 % 在庫変動率 2026 年 6 月 (r): -0.2* % 在庫変動率"
-        },
-        "zh-TW": {
-          "title": "預付零售庫存",
-          "summary": "2026 年 7 月月底庫存為 8,385 億美元，比上月增長 0.7% (+/-0.2%)。 2026 年 7 月：+0.7% 庫存變動 2026 年 6 月 (r)：-0.2* 庫存變動%"
+          "title": "米国の国際商品貿易を前進させる",
+          "summary": "輸出が減少し輸入が増加したため、モノの事前国際貿易赤字は6月の1,014億ドルから7月には1,188億ドルに増加した。 2026 年 7 月: 17.2° % 変化 2026 年 6 月: -3.7° % 変化"
         },
         "ko": {
-          "title": "사전 소매 재고",
-          "summary": "2026년 7월 월말 재고는 8,385억 달러로 전월 대비 0.7%(+/-0.2%) 증가했습니다. 2026년 7월: 재고 변동률 +0.7% 2026년 6월(r): 재고 변동률 -0.2*%"
+          "title": "미국의 국제 상품 무역 증진",
+          "summary": "수출이 감소하고 수입이 증가함에 따라 상품 부문의 국제 무역 적자는 6월의 1,014억 달러에서 7월 1,188억 달러로 증가했습니다. 2026년 7월: 17.2° % 변화 2026년 6월: -3.7° % 변화"
+        },
+        "zh-TW": {
+          "title": "推動美國國際貨物貿易",
+          "summary": "由於出口減少和進口增加，7 月預付國際貨物貿易逆差從 6 月的 1,014 億美元增加到 1,188 億美元。 2026 年 7 月：17.2° 變化百分比 2026 年 6 月：-3.7° 變化百分比"
         },
         "de": {
-          "title": "Vorab Lagerbestände im Einzelhandel",
-          "summary": "Die Lagerbestände zum Monatsende im Juli 2026 beliefen sich auf 838,5 Milliarden US-Dollar, ein Plus von 0,7 Prozent (+/-0,2 Prozent) gegenüber dem Vormonat. Juli 2026: +0,7 % Bestandsveränderung Juni 2026 (r): -0,2* % Bestandsveränderung"
+          "title": "Förderung des internationalen Warenhandels der USA",
+          "summary": "Das vorläufige Defizit im internationalen Warenhandel stieg im Juli von 101,4 Milliarden US-Dollar im Juni auf 118,8 Milliarden US-Dollar, da die Exporte zurückgingen und die Importe zunahmen. Juli 2026: 17,2° % Veränderung Juni 2026: -3,7° % Veränderung"
         },
         "fr": {
-          "title": "Avancer les stocks de détail",
-          "summary": "Les stocks de fin de mois de juillet 2026 s'élevaient à 838,5 milliards de dollars, en hausse de 0,7 % (+/-0,2 %) par rapport au mois dernier. Juillet 2026 : +0,7 % de variation des stocks Juin 2026 (r) : -0,2* % de variation des stocks"
+          "title": "Faire progresser le commerce international des marchandises aux États-Unis",
+          "summary": "Le déficit du commerce international des biens a augmenté pour atteindre 118,8 milliards de dollars en juillet, contre 101,4 milliards de dollars en juin, les exportations ayant diminué et les importations augmentant. Juillet 2026 : 17,2° % d’évolution Juin 2026 : -3,7° % d’évolution"
         }
       }
     },
@@ -387,7 +463,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -839,49 +915,11 @@
       }
     },
     {
-      "title": "U.S. International Trade in Goods and Services",
-      "link": "https://www.census.gov/foreign-trade/index.html",
-      "summary": "The nation's international trade deficit in goods and services decreased to $73.3 billion in June from $77.6 billion in May (revised), as imports decreased more than exports. June 2026: -5.6° % Change May 2026 (r): 42.3° % Change",
-      "published_at": "Tue, 04 Aug 2026 08:30:00 -0400",
-      "source": "census",
-      "category": "trade",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "df560cc1616d3b3462ee3295658dc0b73042f72d43be04c968f25a4e7cc6995c",
-      "translations": {
-        "zh-CN": {
-          "title": "美国国际商品和服务贸易",
-          "summary": "由于进口降幅大于出口降幅，美国 6 月份商品和服务国际贸易逆差从 5 月份的 776 亿美元（修正后）降至 733 亿美元。 2026 年 6 月：-5.6° 变化百分比 2026 年 5 月 (r)：42.3° 变化百分比"
-        },
-        "zh-TW": {
-          "title": "美國國際商品與服務貿易",
-          "summary": "由於進口降幅大於出口降幅，美國 6 月商品與服務國際貿易逆差從 5 月的 776 億美元（修正後）降至 733 億美元。 2026 年 6 月：-5.6° 變化百分比 2026 年 5 月 (r)：42.3° 變化百分比"
-        },
-        "ja": {
-          "title": "米国の商品とサービスの国際貿易",
-          "summary": "輸入が輸出を上回ったため、6月の財とサービスの国際貿易赤字は5月の776億ドル（改定値）から733億ドルに減少した。 2026 年 6 月: -5.6° % 変化 2026 年 5 月 (r): 42.3° % 変化"
-        },
-        "ko": {
-          "title": "미국의 상품 및 서비스 국제 무역",
-          "summary": "상품 및 서비스 부문의 국내 국제 무역 적자는 수입이 수출보다 더 많이 감소함에 따라 5월(개정)의 776억 달러에서 6월 733억 달러로 감소했습니다. 2026년 6월: -5.6° % 변화 2026년 5월(r): 42.3° % 변화"
-        },
-        "de": {
-          "title": "Internationaler Handel der USA mit Waren und Dienstleistungen",
-          "summary": "Das internationale Handelsdefizit des Landes bei Waren und Dienstleistungen sank von 77,6 Milliarden US-Dollar im Mai (revidiert) auf 73,3 Milliarden US-Dollar im Juni, da die Importe stärker zurückgingen als die Exporte. Juni 2026: -5,6° % Veränderung Mai 2026 (r): 42,3° % Veränderung"
-        },
-        "fr": {
-          "title": "Commerce international des biens et services des États-Unis",
-          "summary": "Le déficit du commerce international des biens et services du pays a diminué à 73,3 milliards de dollars en juin contre 77,6 milliards de dollars en mai (révisé), les importations ayant diminué plus que les exportations. Juin 2026 : -5,6° % Variation Mai 2026 (r) : 42,3° % Variation"
-        }
-      }
-    },
-    {
       "title": "Federal Reserve issues FOMC statement",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1109,7 +1147,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1299,7 +1337,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
@@ -1607,18 +1645,6 @@
       "gold_bias": "neutral",
       "why_key": "other_neutral",
       "_translation_hash": "ee61db96eb5c2dee68b4eeced8f9eab8b1df483649e92778230f340872611d20"
-    },
-    {
-      "title": "Barr, Deregulating in a Financial Boom: What Could Go Wrong?",
-      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260606a.htm",
-      "summary": "Speech At American University, Washington, D.C.",
-      "published_at": "Sat, 6 Jun 2026 16:00:00 GMT",
-      "source": "fed_remarks",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "823fb7975446cd576cdaa0f0a531521de74ad2e840a455dc14c6b9c7026fe7fb"
     },
     {
       "title": "Payroll employment increases by 172,000 in May; unemployment rate unchanged at 4.3%",
