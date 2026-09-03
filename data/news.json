@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-09-03T00:45:53.189343+00:00",
-  "total": 116,
+  "fetched_at": "2026-09-03T01:13:57.474920+00:00",
+  "total": 117,
   "items": [
+    {
+      "title": "President Trump Secures the Biggest Oil Deal in World History",
+      "link": "https://www.whitehouse.gov/releases/2026/09/president-trump-secures-the-biggest-oil-deal-in-world-history/",
+      "summary": "President Trump has secured the biggest oil deal in world history, delivering U.S. majority control of more than 65 billion barrels of proven oil reserves in Venezuela – vastly expanding our current U.S. territorial proven reserves of roughly 46 billion barrels. President Trump’s bold foreign policy is driving America First wins: this deal greatly increases America’s oil […] The post President Trump Secures the Biggest Oil Deal in World History appeared first on The White House .",
+      "published_at": "Thu, 03 Sep 2026 00:35:13 +0000",
+      "source": "white_house",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "afa79264efd0e5e620d9a01dd7323a4650e904c4928a36b8544e1ae599ef69aa"
+    },
     {
       "title": "Presidential Message on National Childhood Cancer Awareness Month",
       "link": "https://www.whitehouse.gov/briefings-statements/2026/09/presidential-message-on-national-childhood-cancer-awareness-month/",
@@ -349,7 +361,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -843,7 +855,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1071,7 +1083,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1261,7 +1273,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
@@ -1989,18 +2001,6 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "4580557ddb6ea1d4834c1b15c41a3149ef83d749f8ae34cb0c4cceec56f369f8"
-    },
-    {
-      "title": "Payroll employment edges up 119,000 in September; unemployment rate changes little at 4.4%",
-      "link": "https://www.bls.gov/news.release/archives/empsit_11202025.htm",
-      "summary": "",
-      "published_at": "2025-11-20T08:30:00-05:00",
-      "source": "bls_jobs",
-      "category": "labor",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "b913e2014a1c590a06230e201b743e6ef224d6a5a356c51addaeb7d4912bd47e"
     }
   ]
 }
