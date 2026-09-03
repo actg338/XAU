@@ -1,45 +1,7 @@
 {
-  "fetched_at": "2026-09-03T16:05:39.641674+00:00",
+  "fetched_at": "2026-09-03T16:24:59.297548+00:00",
   "total": 117,
   "items": [
-    {
-      "title": "Waller, The Economic Outlook and Some Comments on My Policy Communication",
-      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm",
-      "summary": "Speech At Reuters NEXT Newsmaker Interview, Washington, D.C.",
-      "published_at": "Thu, 3 Sep 2026 12:30:00 GMT",
-      "source": "fed_remarks",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "8db6f56e7f0c1113bf0927ae8461d3c6e63c77c8ff43fd9a81b587c6f4f60cd2",
-      "translations": {
-        "zh-CN": {
-          "title": "沃勒，《经济展望》以及对我的政策沟通的一些评论",
-          "summary": "在路透社 NEXT Newsmaker 采访中的演讲，华盛顿特区"
-        },
-        "ja": {
-          "title": "ウォーラー氏の経済見通しと私の政策コミュニケーションに対するコメント",
-          "summary": "ワシントンD.C.でのロイターNEXTニュースメーカーインタビューでのスピーチ"
-        },
-        "ko": {
-          "title": "Waller, 경제 전망 및 내 정책 커뮤니케이션에 대한 몇 가지 의견",
-          "summary": "Reuters NEXT Newsmaker 인터뷰에서 연설(워싱턴 D.C.)"
-        },
-        "zh-TW": {
-          "title": "沃勒，《經濟展望》以及對我的政策溝通的一些評論",
-          "summary": "在路透社 NEXT Newsmaker 採訪中的演講，華盛頓特區"
-        },
-        "de": {
-          "title": "Waller, The Economic Outlook und einige Kommentare zu meiner politischen Kommunikation",
-          "summary": "Rede beim Reuters NEXT Newsmaker-Interview, Washington, D.C."
-        },
-        "fr": {
-          "title": "Waller, Les perspectives économiques et quelques commentaires sur ma communication politique",
-          "summary": "Discours lors de l'interview de Reuters NEXT Newsmaker, Washington, D.C."
-        }
-      }
-    },
     {
       "title": "U.S. International Trade in Goods and Services",
       "link": "https://www.census.gov/foreign-trade/index.html",
@@ -75,6 +37,44 @@
         "fr": {
           "title": "Commerce international des biens et services des États-Unis",
           "summary": "Le déficit du commerce international des biens et services du pays a augmenté pour atteindre 88,6 milliards de dollars en juillet, contre 71,2 milliards de dollars en juin (révisé), alors que les exportations ont diminué et que les importations ont augmenté. Juillet 2026 : 24,4° % Variation Juin 2026 (r) : -6,0° % Variation"
+        }
+      }
+    },
+    {
+      "title": "Waller, The Economic Outlook and Some Comments on My Policy Communication",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm",
+      "summary": "Speech At Reuters NEXT Newsmaker Interview, Washington, D.C.",
+      "published_at": "Thu, 3 Sep 2026 12:30:00 GMT",
+      "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "8db6f56e7f0c1113bf0927ae8461d3c6e63c77c8ff43fd9a81b587c6f4f60cd2",
+      "translations": {
+        "zh-CN": {
+          "title": "沃勒，《经济展望》以及对我的政策沟通的一些评论",
+          "summary": "在路透社 NEXT Newsmaker 采访中的演讲，华盛顿特区"
+        },
+        "ja": {
+          "title": "ウォーラー氏の経済見通しと私の政策コミュニケーションに対するコメント",
+          "summary": "ワシントンD.C.でのロイターNEXTニュースメーカーインタビューでのスピーチ"
+        },
+        "ko": {
+          "title": "Waller, 경제 전망 및 내 정책 커뮤니케이션에 대한 몇 가지 의견",
+          "summary": "Reuters NEXT Newsmaker 인터뷰에서 연설(워싱턴 D.C.)"
+        },
+        "zh-TW": {
+          "title": "沃勒，《經濟展望》以及對我的政策溝通的一些評論",
+          "summary": "在路透社 NEXT Newsmaker 採訪中的演講，華盛頓特區"
+        },
+        "de": {
+          "title": "Waller, The Economic Outlook und einige Kommentare zu meiner politischen Kommunikation",
+          "summary": "Rede beim Reuters NEXT Newsmaker-Interview, Washington, D.C."
+        },
+        "fr": {
+          "title": "Waller, Les perspectives économiques et quelques commentaires sur ma communication politique",
+          "summary": "Discours lors de l'interview de Reuters NEXT Newsmaker, Washington, D.C."
         }
       }
     },
