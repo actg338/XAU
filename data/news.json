@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-04T03:09:29.909893+00:00",
+  "fetched_at": "2026-09-04T03:29:08.211228+00:00",
   "total": 117,
   "items": [
     {
@@ -463,7 +463,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -919,7 +919,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1147,7 +1147,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1337,7 +1337,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
