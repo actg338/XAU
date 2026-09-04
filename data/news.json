@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-04T08:54:22.595104+00:00",
-  "total": 117,
+  "fetched_at": "2026-09-04T09:11:52.983768+00:00",
+  "total": 116,
   "items": [
     {
       "title": "Waller, The Economic Outlook and Some Comments on My Policy Communication",
@@ -987,44 +987,6 @@
         "fr": {
           "title": "Taux d'inoccupation des logements locatifs",
           "summary": "Le taux d'inoccupation des logements locatifs de 7,3 % n'était pas statistiquement différent du taux du deuxième trimestre 2025. Par rapport au deuxième trimestre 2025, le taux d'inoccupation des logements locatifs était plus élevé dans le Nord-Est et n'était pas statistiquement différent dans le Midwest, le Sud et l'Ouest. 2e trimestre 2026 : +0,3* points de pourcentage 2e trimestre 2025 : +0,4 points de pourcentage"
-        }
-      }
-    },
-    {
-      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
-      "link": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260724~eebbc30622.en.html",
-      "summary": "",
-      "published_at": "Fri, 24 Jul 2026 15:00:00 +0200",
-      "source": "ecb",
-      "category": "monetary_policy",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "74c37c553fb251a4c8ef04f315442854fbadcdcad82db485b52b5feb0085ea55",
-      "translations": {
-        "zh-CN": {
-          "title": "欧洲央行管理委员会做出的决定（除了设定利率的决定之外）",
-          "summary": ""
-        },
-        "ja": {
-          "title": "ECB理事会による決定（金利設定の決定に加えて）",
-          "summary": ""
-        },
-        "de": {
-          "title": "Entscheidungen des EZB-Rats (zusätzlich zu Entscheidungen zur Festlegung der Zinssätze)",
-          "summary": ""
-        },
-        "zh-TW": {
-          "title": "歐洲央行管理委員會所做的決定（除了設定利率的決定之外）",
-          "summary": ""
-        },
-        "ko": {
-          "title": "ECB 이사회의 결정(이자율 설정 결정에 추가)",
-          "summary": ""
-        },
-        "fr": {
-          "title": "Décisions prises par le Conseil des gouverneurs de la BCE (en plus des décisions fixant les taux d'intérêt)",
-          "summary": ""
         }
       }
     },
@@ -2053,6 +2015,18 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "4580557ddb6ea1d4834c1b15c41a3149ef83d749f8ae34cb0c4cceec56f369f8"
+    },
+    {
+      "title": "Payroll employment edges up 119,000 in September; unemployment rate changes little at 4.4%",
+      "link": "https://www.bls.gov/news.release/archives/empsit_11202025.htm",
+      "summary": "",
+      "published_at": "2025-11-20T08:30:00-05:00",
+      "source": "bls_jobs",
+      "category": "labor",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "b913e2014a1c590a06230e201b743e6ef224d6a5a356c51addaeb7d4912bd47e"
     }
   ]
 }
