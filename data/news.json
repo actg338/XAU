@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-04T19:41:39.089698+00:00",
-  "total": 116,
+  "fetched_at": "2026-09-04T19:50:04.083109+00:00",
+  "total": 115,
   "items": [
     {
       "title": "Waller, The Economic Outlook and Some Comments on My Policy Communication",
@@ -569,44 +569,6 @@
         "fr": {
           "title": "Message présidentiel à l'occasion de la Semaine de sensibilisation aux surdoses et aux intoxications médicamenteuses",
           "summary": "Au cours de la Semaine de sensibilisation aux surdoses et aux intoxications médicamenteuses, notre nation renouvelle sa détermination à vaincre le fléau des drogues illicites et des poisons synthétiques qui ont dévasté des centaines de milliers de vies américaines. Mon administration affronte sans relâche cette menace, quelle qu'en soit la source, et nous mettrons toujours notre sécurité nationale ainsi que la sécurité, la santé et le bien-être à l'avant-plan. […] Le message post-présidentiel sur la Semaine de sensibilisation aux surdoses et aux intoxications médicamenteuses est apparu en premier à la Maison Blanche."
-        }
-      }
-    },
-    {
-      "title": "Operation Economic Outcast: Total Isolation of the Iranian Regime",
-      "link": "https://www.whitehouse.gov/releases/2026/08/operation-economic-outcast-total-isolation-of-the-iranian-regime/",
-      "summary": "Today, the Trump Administration unleashed Operation Economic Outcast, an unprecedented campaign to sever every remaining economic lifeline sustaining the Islamic Republic of Iran. After President Trump and the overwhelming might of the U.S. military dismantled Iran’s military capabilities and crippled its nuclear program, America is entering the endgame with the single greatest financial offensive ever […] The post Operation Economic Outcast: Total Isolation of the Iranian Regime appeared first ",
-      "published_at": "Mon, 24 Aug 2026 19:15:08 +0000",
-      "source": "white_house",
-      "category": "geopolitics",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "geopolitics_neutral",
-      "_translation_hash": "ed19c07c34ae1b6a60091791238fb6cb54b0642654a766ed49ab90f7639f4ae5",
-      "translations": {
-        "zh-CN": {
-          "title": "经济弃儿行动：伊朗政权的彻底孤立",
-          "summary": "今天，特朗普政府发起了“经济放逐者行动”，这是一场史无前例的行动，旨在切断支撑伊朗伊斯兰共和国的所有剩余经济命脉。在特朗普总统和美国军队的压倒性力量摧毁了伊朗的军事能力并削弱了其核计划之后，美国正在以有史以来最大规模的金融攻势进入最后阶段 […] 经济放逐者行动后：伊朗政权的全面孤立首先出现"
-        },
-        "zh-TW": {
-          "title": "經濟棄兒行動：伊朗政權的徹底孤立",
-          "summary": "今天，川普政府發起了“經濟放逐者行動”，這是一場史無前例的行動，旨在切斷支撐伊朗伊斯蘭共和國的所有剩餘經濟命脈。在川普總統和美國軍隊的壓倒性力量摧毀了伊朗的軍事能力並削弱了其核計劃之後，美國正在以有史以來最大規模的金融攻勢進入最後階段 […] 經濟放逐者行動後：伊朗政權的全面孤立首先出現"
-        },
-        "ja": {
-          "title": "経済的追放作戦: イラン政権の完全な孤立",
-          "summary": "本日、トランプ政権は、イラン・イスラム共和国を支えるあらゆる経済的ライフラインを遮断する前例のない作戦である「経済的アウトキャスト作戦」を発動した。トランプ大統領と米軍の圧倒的な力がイランの軍事能力を解体し、その核開発計画を無力化した後、アメリカは史上最大の金融攻撃で最終局面を迎えている […] 経済的追放作戦: イラン体制の完全な孤立後の記事が最初に登場した"
-        },
-        "ko": {
-          "title": "경제적 추방 작전: 이란 정권의 완전한 고립",
-          "summary": "오늘 트럼프 행정부는 이란 이슬람 공화국을 지탱하는 모든 경제적 생명선을 끊기 위한 전례 없는 캠페인인 경제 추방 작전(Operation Economic Outcast)을 시작했습니다. 트럼프 대통령과 미군의 압도적인 위력이 이란의 군사력을 해체하고 핵 프로그램을 무력화시킨 이후, 미국은 역대 최대 규모의 금융 공세로 최종전을 치르고 있다."
-        },
-        "de": {
-          "title": "Operation Economic Outcast: Totale Isolation des iranischen Regimes",
-          "summary": "Heute hat die Trump-Administration die Operation Economic Outcast gestartet, eine beispiellose Kampagne, um alle verbleibenden wirtschaftlichen Lebensadern der Islamischen Republik Iran abzuschneiden. Nachdem Präsident Trump und die überwältigende Macht des US-Militärs die militärischen Fähigkeiten Irans demontiert und sein Atomprogramm lahmgelegt haben, tritt Amerika mit der größten Finanzoffensive aller Zeiten in das Endspiel ein. […] Der Beitrag „Operation Economic Outcast: Total Isolation of the Iranian Regime“ erschien zuerst"
-        },
-        "fr": {
-          "title": "Opération Paria économique : isolement total du régime iranien",
-          "summary": "Aujourd’hui, l’administration Trump a lancé l’Opération Economic Outcast, une campagne sans précédent visant à couper toutes les bouées de sauvetage économiques qui soutiennent la République islamique d’Iran. Après que le président Trump et la puissance écrasante de l’armée américaine ont démantelé les capacités militaires de l’Iran et paralysé son programme nucléaire, l’Amérique entre dans la phase finale avec la plus grande offensive financière jamais vue. […] L’après-Opération Paria économique : isolement total du régime iranien est apparu en premier."
         }
       }
     },
@@ -2027,6 +1989,18 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "b913e2014a1c590a06230e201b743e6ef224d6a5a356c51addaeb7d4912bd47e"
+    },
+    {
+      "title": "CPI for all items rises 0.3% in September; gasoline up",
+      "link": "https://www.bls.gov/news.release/archives/cpi_10242025.htm",
+      "summary": "",
+      "published_at": "2025-10-24T08:30:00-04:00",
+      "source": "bls_cpi",
+      "category": "inflation",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
+      "_translation_hash": "044af1e69df439dcfbdc5335fa821579e6cc7c52c8d2171caae18d4fc2ca7848"
     }
   ]
 }
