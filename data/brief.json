@@ -1,12 +1,13 @@
 {
-  "generated_at": "2026-09-04T12:29:52.955774+00:00",
+  "generated_at": "2026-09-04T12:49:11.047050+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
-  "confidence": 91,
-  "score": -47,
+  "confidence": 92,
+  "score": -76,
   "drivers": [
     "warsh",
     "fedwatch",
+    "xau",
     "dxy"
   ],
   "counter_risks": [],
@@ -31,10 +32,10 @@
     }
   ],
   "next_event": {
-    "event_key": "nfp",
-    "title": "Employment Situation",
-    "starts_at": "2026-09-04T12:30:00+00:00",
-    "impact": "high",
+    "event_key": "bls_release",
+    "title": "Employer Costs for Employee Compensation",
+    "starts_at": "2026-09-09T14:00:00+00:00",
+    "impact": "medium",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
   }
