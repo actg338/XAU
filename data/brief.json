@@ -1,12 +1,13 @@
 {
-  "generated_at": "2026-09-04T10:59:32.407103+00:00",
+  "generated_at": "2026-09-04T11:18:24.384206+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
-  "confidence": 91,
-  "score": -47,
+  "confidence": 92,
+  "score": -48,
   "drivers": [
     "warsh",
     "fedwatch",
+    "xau",
     "dxy"
   ],
   "counter_risks": [],
