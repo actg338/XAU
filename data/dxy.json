@@ -1,6 +1,7 @@
 {
-  "value": 99.16,
-  "change_pct": 0.16,
-  "source": "TradingView TVC:DXY",
-  "fetched_at": "2026-09-06T09:47:29.905365+00:00"
+  "value": 99.07,
+  "change_pct": null,
+  "source": "ECB FX reference rates via Frankfurter",
+  "source_date": "2026-09-04",
+  "fetched_at": "2026-09-06T09:55:52.065874+00:00"
 }
