@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-07T15:58:43.875157+00:00",
-  "total": 115,
+  "fetched_at": "2026-09-07T16:21:08.295342+00:00",
+  "total": 114,
   "items": [
     {
       "title": "Waller, The Economic Outlook and Some Comments on My Policy Communication",
@@ -463,7 +463,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -531,44 +531,6 @@
         "fr": {
           "title": "Ventes de maisons neuves",
           "summary": "Les ventes de maisons unifamiliales neuves en juillet 2026 se sont établies à un rythme annuel désaisonnalisé de 607 000. Cela représente 10,5 pour cent (+/- 14,0%)* de moins que l'estimation révisée de juin 2026 de 678 000. Juillet 2026 : -10,5* % de variation Juin 2026 (r) : +7,6* % de variation"
-        }
-      }
-    },
-    {
-      "title": "Presidential Message on Overdose and Drug Poisoning Awareness Week",
-      "link": "https://www.whitehouse.gov/briefings-statements/2026/08/presidential-message-on-overdose-and-drug-poisoning-awareness-week/",
-      "summary": "During Overdose and Drug Poisoning Awareness Week, our Nation renews its resolve to defeat the scourge of illicit drugs and synthetic poisons that have devastated hundreds of thousands of American lives. My Administration is relentlessly confronting this threat at every source, and we will always put our national security and the safety, health, and well-being […] The post Presidential Message on Overdose and Drug Poisoning Awareness Week appeared first on The White House .",
-      "published_at": "Tue, 25 Aug 2026 02:00:00 +0000",
-      "source": "white_house",
-      "category": "geopolitics",
-      "impact": "medium",
-      "gold_bias": "bullish",
-      "why_key": "geopolitics_bullish",
-      "_translation_hash": "6aee8aa17377aa98c58b915c80cdf042f0f38021bdc9735ea5885fadca4367e0",
-      "translations": {
-        "zh-CN": {
-          "title": "关于服药过量和药物中毒意识周的总统致辞",
-          "summary": "在药物过量和药物中毒意识周期间，我们的国家重申了战胜非法药物和合成毒物的祸害的决心，这些毒物已经摧毁了数十万美国人的生命。我的政府正在不懈地应对来自各个方面的威胁，我们将始终把我们的国家安全以及安全、健康和福祉放在首位。关于服药过量和药物中毒意识周的总统致辞首先出现在白宫。"
-        },
-        "ja": {
-          "title": "過剰摂取および薬物中毒啓発週間に関する大統領メッセージ",
-          "summary": "過剰摂取と薬物中毒啓発週間中、我が国は、数十万人のアメリカ人の命を破壊した違法薬物と合成毒物の惨劇に打ち勝つ決意を新たにします。私の政権は、あらゆる情報源でこの脅威に容赦なく対峙しており、常に国家安全保障と安全、健康、福祉を優先していきます。 […] 過剰摂取と薬物中毒啓発週間に関する大統領のポストメッセージは、最初にホワイトハウスに掲載されました。"
-        },
-        "zh-TW": {
-          "title": "關於服藥過量和藥物中毒意識週的總統致辭",
-          "summary": "在藥物過量和藥物中毒意識週期間，我們的國家重申了戰勝非法藥物和合成毒物的禍害的決心，這些毒物已經摧毀了數十萬美國人的生命。我的政府正在不懈地應對來自各個方面的威脅，我們將始終把我們的國家安全以及安全、健康和福祉放在首位。關於服藥過量和藥物中毒意識週的總統致詞首先出現在白宮。"
-        },
-        "ko": {
-          "title": "과다 복용 및 약물 중독 인식 주간에 관한 대통령 메시지",
-          "summary": "과다 복용 및 약물 중독 인식 주간 동안 미국은 수십만 명의 미국인의 삶을 황폐화시킨 불법 약물과 합성 독극물의 재앙을 물리치겠다는 결의를 새롭게 합니다. 우리 정부는 모든 소스에서 이 위협에 가차없이 맞서고 있으며, 우리는 항상 국가 안보와 안전, 건강, 복지를 최우선으로 삼을 것입니다. […] 과다복용 및 약물 중독 인식 주간에 관한 대통령 메시지가 백악관에 처음 게재되었습니다."
-        },
-        "de": {
-          "title": "Botschaft des Präsidenten zur Woche der Aufklärung über Überdosierung und Drogenvergiftung",
-          "summary": "Während der Woche der Aufklärung über Überdosierung und Drogenvergiftung bekräftigt unsere Nation ihre Entschlossenheit, die Geißel der illegalen Drogen und synthetischen Gifte zu besiegen, die Hunderttausende amerikanische Leben verwüstet haben. Meine Regierung stellt sich dieser Bedrohung an jeder Quelle unerbittlich, und wir werden stets unsere nationale Sicherheit sowie die Sicherheit, Gesundheit und das Wohlergehen in den Mittelpunkt stellen. […] Der Beitrag „Botschaft des Präsidenten zur Aufklärungswoche über Überdosierung und Drogenvergiftung“ erschien zuerst im Weißen Haus."
-        },
-        "fr": {
-          "title": "Message présidentiel à l'occasion de la Semaine de sensibilisation aux surdoses et aux intoxications médicamenteuses",
-          "summary": "Au cours de la Semaine de sensibilisation aux surdoses et aux intoxications médicamenteuses, notre nation renouvelle sa détermination à vaincre le fléau des drogues illicites et des poisons synthétiques qui ont dévasté des centaines de milliers de vies américaines. Mon administration affronte sans relâche cette menace, quelle qu'en soit la source, et nous mettrons toujours notre sécurité nationale ainsi que la sécurité, la santé et le bien-être à l'avant-plan. […] Le message post-présidentiel sur la Semaine de sensibilisation aux surdoses et aux intoxications médicamenteuses est apparu en premier à la Maison Blanche."
         }
       }
     },
@@ -881,7 +843,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1071,7 +1033,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1261,7 +1223,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
@@ -2001,6 +1963,18 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "044af1e69df439dcfbdc5335fa821579e6cc7c52c8d2171caae18d4fc2ca7848"
+    },
+    {
+      "title": "August job openings unchanged; hires and total separations change little",
+      "link": "https://www.bls.gov/news.release/archives/jolts_09302025.htm",
+      "summary": "",
+      "published_at": "2025-09-30T10:00:00-04:00",
+      "source": "bls_jolts",
+      "category": "labor",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "50e8f44815ed60c51b21db238e068a8e70f181f62df21728e13080844889b30e"
     }
   ]
 }
