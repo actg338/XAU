@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-09-08T13:51:53.353362+00:00",
+  "fetched_at": "2026-09-08T14:00:17.702474+00:00",
   "total": 114,
   "items": [
+    {
+      "title": "Quarterly Financial Report",
+      "link": "https://www.census.gov/econ/qfr/",
+      "summary": "Manufacturing corporations' not seasonally adjusted after-tax profits were $370.1 billion for the second quarter of 2026, up $82.8 (+/- 1.2) billion from first quarter of 2026. 2nd Qtr 2026: +82.8 Billions of Dollars 1st Qtr 2026 (r): +50.6 Billions of Dollars",
+      "published_at": "Tue, 08 Sep 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "bf08e7e849ef61cc8a1923a74e5201e63eb3bd6c8f00f6778504c7e4840228f7"
+    },
     {
       "title": "Waller, The Economic Outlook and Some Comments on My Policy Communication",
       "link": "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm",
@@ -421,42 +433,16 @@
       }
     },
     {
-      "title": "Advance U.S. International Trade in Goods",
+      "title": "Advance Wholesale Inventories",
       "link": "https://www.census.gov/econ/indicators/index.html",
-      "summary": "The advance international trade deficit in goods increased to $118.8 billion in July from $101.4 billion in June as exports decreased and imports increased. July 2026: 17.2° % Change June 2026: -3.7° % Change",
+      "summary": "July end-of-month inventories were $959.1 billion, up 1.3 percent (+/- 0.2 percent) from last month. July 2026: +1.3 % Change in Inventories June 2026 (r): +0.3 % Change in Inventories",
       "published_at": "Thu, 27 Aug 2026 08:30:00 -0400",
       "source": "census",
-      "category": "trade",
-      "impact": "medium",
+      "category": "other",
+      "impact": "low",
       "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "0fd1cf7eecaffe1516ad8b62875e657b69ebc628bda97f3694616282ad81ee61",
-      "translations": {
-        "zh-CN": {
-          "title": "推进美国国际货物贸易",
-          "summary": "由于出口减少和进口增加，7 月预付国际货物贸易逆差从 6 月的 1014 亿美元增至 1188 亿美元。 2026 年 7 月：17.2° 变化百分比 2026 年 6 月：-3.7° 变化百分比"
-        },
-        "ja": {
-          "title": "米国の国際商品貿易を前進させる",
-          "summary": "輸出が減少し輸入が増加したため、モノの事前国際貿易赤字は6月の1,014億ドルから7月には1,188億ドルに増加した。 2026 年 7 月: 17.2° % 変化 2026 年 6 月: -3.7° % 変化"
-        },
-        "ko": {
-          "title": "미국의 국제 상품 무역 증진",
-          "summary": "수출이 감소하고 수입이 증가함에 따라 상품 부문의 국제 무역 적자는 6월의 1,014억 달러에서 7월 1,188억 달러로 증가했습니다. 2026년 7월: 17.2° % 변화 2026년 6월: -3.7° % 변화"
-        },
-        "zh-TW": {
-          "title": "推動美國國際貨物貿易",
-          "summary": "由於出口減少和進口增加，7 月預付國際貨物貿易逆差從 6 月的 1,014 億美元增加到 1,188 億美元。 2026 年 7 月：17.2° 變化百分比 2026 年 6 月：-3.7° 變化百分比"
-        },
-        "de": {
-          "title": "Förderung des internationalen Warenhandels der USA",
-          "summary": "Das vorläufige Defizit im internationalen Warenhandel stieg im Juli von 101,4 Milliarden US-Dollar im Juni auf 118,8 Milliarden US-Dollar, da die Exporte zurückgingen und die Importe zunahmen. Juli 2026: 17,2° % Veränderung Juni 2026: -3,7° % Veränderung"
-        },
-        "fr": {
-          "title": "Faire progresser le commerce international des marchandises aux États-Unis",
-          "summary": "Le déficit du commerce international des biens a augmenté pour atteindre 118,8 milliards de dollars en juillet, contre 101,4 milliards de dollars en juin, les exportations ayant diminué et les importations augmentant. Juillet 2026 : 17,2° % d’évolution Juin 2026 : -3,7° % d’évolution"
-        }
-      }
+      "why_key": "other_neutral",
+      "_translation_hash": "aa180d3e16357e2f3b503113c3167d65af8bd4357a0b0ac4d57b4933eea171a3"
     },
     {
       "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
@@ -877,42 +863,16 @@
       }
     },
     {
-      "title": "Rental Vacancy Rate",
+      "title": "Housing Vacancies and Homeownership",
       "link": "https://www.census.gov/housing/hvs/",
-      "summary": "The rental vacancy rate of 7.3 percent was not statistically different from the rate in the second quarter 2025. Compared to the second quarter 2025, the rental vacancy rate was higher in the Northeast and not statistically different in the Midwest, South, and West. 2nd Qtr 2026: +0.3* Percentage Points 2nd Qtr 2025: +0.4 Percentage Points",
+      "summary": "The homeownership rate of 65.0 percent was virtually the same as the rate in the second quarter 2025. The homeownership rates in the Northeast, Midwest, South, and West were not statistically different from second quarter 2025 rates. 2nd Qtr 2026: +0.0* Percentage Points 2nd Qtr 2025: -0.6* Percentage Points",
       "published_at": "Tue, 28 Jul 2026 10:00:00 -0400",
       "source": "census",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "d85f7fad6c3281152c95383462001ac9642c955d5beedd518340c16d34baf2e1",
-      "translations": {
-        "zh-CN": {
-          "title": "出租空置率",
-          "summary": "7.3%的出租房空置率与2025年第二季度没有统计差异。与2025年第二季度相比，东北部的出租房空置率较高，中西部、南部和西部没有统计差异。 2026 年第二季度：+0.3* 个百分点 2025 年第二季度：+0.4 个百分点"
-        },
-        "zh-TW": {
-          "title": "出租空置率",
-          "summary": "7.3%的出租房屋空置率與2025年第二季沒有統計差異。與2025年第二季相比，東北部的出租房間空置率較高，中西部、南部和西部沒有統計差異。 2026 年第二季：+0.3* 個百分點 2025 年第二季：+0.4 個百分點"
-        },
-        "ja": {
-          "title": "賃貸空室率",
-          "summary": "7.3% という賃貸空室率は、2025 年第 2 四半期の空室率と統計的には変わりませんでした。2025 年第 2 四半期と比較して、賃貸空室率は北東部で高く、中西部、南部、西部では統計的に違いはありませんでした。 2026 年第 2 四半期: +0.3* パーセント ポイント 2025 年第 2 四半期: +0.4 パーセント ポイント"
-        },
-        "ko": {
-          "title": "임대 공실률",
-          "summary": "7.3%의 임대 공실률은 2025년 2분기 공실률과 통계적으로 다르지 않았습니다. 2025년 2분기와 비교하면 임대 공실률은 북동부 지역이 더 높았고 중서부, 남부, 서부에서는 통계적으로 차이가 없었습니다. 2026년 2분기: +0.3* 백분율 포인트 2025년 2분기: +0.4 백분율 포인트"
-        },
-        "de": {
-          "title": "Mietleerstandsquote",
-          "summary": "Die Mietleerstandsquote von 7,3 Prozent unterschied sich statistisch gesehen nicht von der Quote im zweiten Quartal 2025. Im Vergleich zum zweiten Quartal 2025 war die Mietleerstandsquote im Nordosten höher und statistisch gesehen nicht unterschiedlich im Mittleren Westen, Süden und Westen. 2. Quartal 2026: +0,3* Prozentpunkte 2. Quartal 2025: +0,4 Prozentpunkte"
-        },
-        "fr": {
-          "title": "Taux d'inoccupation des logements locatifs",
-          "summary": "Le taux d'inoccupation des logements locatifs de 7,3 % n'était pas statistiquement différent du taux du deuxième trimestre 2025. Par rapport au deuxième trimestre 2025, le taux d'inoccupation des logements locatifs était plus élevé dans le Nord-Est et n'était pas statistiquement différent dans le Midwest, le Sud et l'Ouest. 2e trimestre 2026 : +0,3* points de pourcentage 2e trimestre 2025 : +0,4 points de pourcentage"
-        }
-      }
+      "_translation_hash": "b246e36a35b4f89cb35dd67eee7aef3a31535708968ed021aee387e07e270b61"
     },
     {
       "title": "Jefferson, Navigating Economic Shocks: A Monetary Policymaker’s Perspective",
@@ -1519,18 +1479,6 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "d917f648bbf1a2e8e83bb8b39d2b15adc9637314fb0f4a894223b884a93ce823"
-    },
-    {
-      "title": "Quarterly Financial Report - Retail",
-      "link": "https://www.census.gov/econ/qfr/",
-      "summary": "Not seasonally adjusted after-tax profits for retail corporations with assets of $50 million and over were $62.6 billion for the first quarter 2026 (the 3 months ending April 30, 2026), down $0.3 (+/- 0.1) billion from fourth quarter 2025 (the 3 months ending January 31, 2026). 1st Qtr 2026: -0.3 Billions of Dollars 4th Qtr 2025 (r): +9.5 Billions of Dollars",
-      "published_at": "Mon, 08 Jun 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "ee61db96eb5c2dee68b4eeced8f9eab8b1df483649e92778230f340872611d20"
     },
     {
       "title": "Payroll employment increases by 172,000 in May; unemployment rate unchanged at 4.3%",
