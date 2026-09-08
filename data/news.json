@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-08T14:54:53.786432+00:00",
+  "fetched_at": "2026-09-08T15:12:57.810428+00:00",
   "total": 114,
   "items": [
     {
@@ -12,7 +12,33 @@
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "bf08e7e849ef61cc8a1923a74e5201e63eb3bd6c8f00f6778504c7e4840228f7"
+      "_translation_hash": "bf08e7e849ef61cc8a1923a74e5201e63eb3bd6c8f00f6778504c7e4840228f7",
+      "translations": {
+        "zh-CN": {
+          "title": "季度财务报告",
+          "summary": "2026 年第二季度，制造企业未经季节性调整的税后利润为 3,701 亿美元，较 2026 年第一季度增长 828 (+/- 12) 亿美元。 2026 年第二季度：+828 亿美元 2026 年第一季度 (r)：+506 亿美元"
+        },
+        "ja": {
+          "title": "四半期財務報告書",
+          "summary": "製造業企業の季節調整されていない税引後利益は、2026 年第 2 四半期に 3,701 億ドルとなり、2026 年第 1 四半期から 828 億ドル (+/- 12 億ドル) 増加しました。 2026 年第 2 四半期: +828 億ドル 2026 年第 1 四半期 (r): +506 億ドル"
+        },
+        "ko": {
+          "title": "분기별 재무 보고서",
+          "summary": "제조 기업의 계절 조정되지 않은 세후 이익은 2026년 2분기에 3,701억 달러로 2026년 1분기보다 828억 달러(+/- 12억 달러) 증가했습니다. 2026년 2분기: +828억 달러 2026년 1분기(r): +506억 달러"
+        },
+        "zh-TW": {
+          "title": "季度財務報告",
+          "summary": "2026 年第二季度，製造企業未經季節性調整的稅後利潤為 3,701 億美元，較 2026 年第一季增長 828 (+/- 12) 億美元。 2026 年第二季：+828 億美元 2026 年第一季 (r)：+506 億美元"
+        },
+        "de": {
+          "title": "Vierteljährlicher Finanzbericht",
+          "summary": "Die nicht saisonbereinigten Gewinne nach Steuern der produzierenden Unternehmen beliefen sich im zweiten Quartal 2026 auf 370,1 Milliarden US-Dollar, was einem Anstieg von 82,8 (+/- 1,2) Milliarden US-Dollar gegenüber dem ersten Quartal 2026 entspricht. 2. Quartal 2026: +82,8 Milliarden Dollar 1. Quartal 2026 (r): +50,6 Milliarden Dollar"
+        },
+        "fr": {
+          "title": "Rapport financier trimestriel",
+          "summary": "Les bénéfices après impôts non désaisonnalisés des sociétés manufacturières s'élevaient à 370,1 milliards de dollars pour le deuxième trimestre 2026, en hausse de 82,8 (+/- 1,2) milliards de dollars par rapport au premier trimestre 2026. 2e trimestre 2026 : +82,8 milliards de dollars 1er trimestre 2026 (r) : +50,6 milliards de dollars"
+        }
+      }
     },
     {
       "title": "Waller, The Economic Outlook and Some Comments on My Policy Communication",
@@ -442,14 +468,40 @@
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "aa180d3e16357e2f3b503113c3167d65af8bd4357a0b0ac4d57b4933eea171a3"
+      "_translation_hash": "aa180d3e16357e2f3b503113c3167d65af8bd4357a0b0ac4d57b4933eea171a3",
+      "translations": {
+        "zh-CN": {
+          "title": "预付批发库存",
+          "summary": "7 月末库存为 9,591 亿美元，较上月增长 1.3%（+/- 0.2%）。 2026 年 7 月：库存变化 +1.3% 2026 年 6 月 (r)：库存变化 +0.3%"
+        },
+        "ja": {
+          "title": "事前の卸売在庫",
+          "summary": "７月の月末在庫は９５９１億ドルで、前月比１．３％（±０．２％）増加した。 2026年7月: +1.3 % 在庫変動 2026年6月(r): +0.3 % 在庫変動"
+        },
+        "ko": {
+          "title": "사전 도매 재고",
+          "summary": "7월말 재고는 9,591억 달러로 전월 대비 1.3%(+/-0.2%) 증가했다. 2026년 7월: 재고 변동 +1.3% 2026년 6월(r): 재고 변동 +0.3%"
+        },
+        "zh-TW": {
+          "title": "預付批發庫存",
+          "summary": "7 月底庫存為 9,591 億美元，比上月增長 1.3%（+/- 0.2%）。 2026 年 7 月：庫存變化 +1.3% 2026 年 6 月 (r)：庫存變化 +0.3%"
+        },
+        "de": {
+          "title": "Erweiterte Lagerbestände im Großhandel",
+          "summary": "Die Lagerbestände zum Monatsende beliefen sich im Juli auf 959,1 Milliarden US-Dollar, ein Plus von 1,3 Prozent (+/- 0,2 Prozent) gegenüber dem Vormonat. Juli 2026: +1,3 % Bestandsveränderung Juni 2026 (r): +0,3 % Bestandsveränderung"
+        },
+        "fr": {
+          "title": "Avancer les stocks en gros",
+          "summary": "Les stocks de fin de mois de juillet s'élevaient à 959,1 milliards de dollars, en hausse de 1,3 pour cent (+/- 0,2 pour cent) par rapport au mois dernier. Juillet 2026 : +1,3 % Variation des Stocks Juin 2026 (r) : +0,3 % Variation des Stocks"
+        }
+      }
     },
     {
       "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -829,7 +881,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -872,7 +924,33 @@
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "b246e36a35b4f89cb35dd67eee7aef3a31535708968ed021aee387e07e270b61"
+      "_translation_hash": "b246e36a35b4f89cb35dd67eee7aef3a31535708968ed021aee387e07e270b61",
+      "translations": {
+        "zh-CN": {
+          "title": "住房空置和住房拥有率",
+          "summary": "65.0%的住房拥有率与 2025 年第二季度的住房拥有率几乎相同。东北部、中西部、南部和西部的住房拥有率与 2025 年第二季度没有统计差异。 2026 年第二季度：+0.0* 百分点 2025 年第二季度：-0.6* 百分点"
+        },
+        "ja": {
+          "title": "住宅の空室と住宅所有権",
+          "summary": "65.0% という住宅所有率は、2025 年第 2 四半期の住宅所有率と実質的に同じでした。北東部、中西部、南部、西部の住宅所有率は、2025 年第 2 四半期の住宅所有率と統計的には変わりませんでした。 2026 年第 2 四半期: +0.0* パーセント ポイント 2025 年第 2 四半期: -0.6* パーセント ポイント"
+        },
+        "ko": {
+          "title": "주택 공실 및 주택 소유",
+          "summary": "주택보유율은 65.0%로 2025년 2분기 주택보유율과 사실상 같았다. 북동부, 중서부, 남부, 서부 지역의 주택보유율은 2025년 2분기 주택보유율과 통계적으로 다르지 않았다. 2026년 2분기: +0.0* 백분율 포인트 2025년 2분기: -0.6* 백분율 포인트"
+        },
+        "zh-TW": {
+          "title": "住房空置和住房擁有率",
+          "summary": "65.0%的住房擁有率與 2025 年第二季的住房擁有率幾乎相同。東北部、中西部、南部和西部的住房擁有率與 2025 年第二季沒有統計差異。 2026 年第二季：+0.0* 百分點 2025 年第二季：-0.6* 百分點"
+        },
+        "de": {
+          "title": "Wohnungsleerstand und Wohneigentum",
+          "summary": "Die Wohneigentumsquote von 65,0 Prozent entsprach praktisch der Quote im zweiten Quartal 2025. Die Wohneigentumsquoten im Nordosten, Mittleren Westen, Süden und Westen unterschieden sich statistisch gesehen nicht von den Quoten im zweiten Quartal 2025. 2. Quartal 2026: +0,0* Prozentpunkte 2. Quartal 2025: -0,6* Prozentpunkte"
+        },
+        "fr": {
+          "title": "Offres de logements vacants et accession à la propriété",
+          "summary": "Le taux d'accession à la propriété de 65,0 pour cent était pratiquement le même que celui du deuxième trimestre 2025. Les taux d'accession à la propriété dans le Nord-Est, le Midwest, le Sud et l'Ouest n'étaient pas statistiquement différents des taux du deuxième trimestre 2025. 2e trimestre 2026 : +0,0* points de pourcentage 2e trimestre 2025 : -0,6* points de pourcentage"
+        }
+      }
     },
     {
       "title": "Jefferson, Navigating Economic Shocks: A Monetary Policymaker’s Perspective",
@@ -993,7 +1071,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1183,7 +1261,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
