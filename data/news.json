@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-09T10:20:42.545085+00:00",
+  "fetched_at": "2026-09-09T10:32:21.104502+00:00",
   "total": 116,
   "items": [
     {
@@ -12,7 +12,33 @@
       "impact": "medium",
       "gold_bias": "bullish",
       "why_key": "labor_bullish",
-      "_translation_hash": "8cc4151b87a99f68604022165012c64ff97642db5f76e13492a15cf85e364885"
+      "_translation_hash": "8cc4151b87a99f68604022165012c64ff97642db5f76e13492a15cf85e364885",
+      "translations": {
+        "zh-CN": {
+          "title": "情况说明书：唐纳德·J·特朗普总统加速退伍军人获得福利和就业机会",
+          "summary": "扩大访问范围并创造机会：今天，唐纳德·J·特朗普总统签署了一项行政命令，对战争部和退伍军人事务部之间的数据管理和数据共享进行现代化改造，以加快退伍军人获得福利的速度。消除陈旧的系统障碍以取得成果：特朗普总统正在消除阻碍我们服役人员的低效率和延误问题[……]后情况说明书：唐纳德·J·特朗普总统加速退伍军人获得福利和就业"
+        },
+        "ja": {
+          "title": "ファクトシート: ドナルド・J・トランプ大統領、退役軍人の福利厚生と雇用機会へのアクセスを加速",
+          "summary": "アクセスの拡大と機会の創出：本日、ドナルド・J・トランプ大統領は、退役軍人の給付金へのアクセスを促進するために、陸軍省と退役軍人省の間でのデータ管理とデータ共有を最新化する大統領令に署名した。結果をもたらすために時代遅れの制度の障壁を取り除く：トランプ大統領は、軍人の妨げとなる非効率性と遅れを取り除きつつある […] ポストファクトシート：ドナルド・J・トランプ大統領、退役軍人の福利厚生と雇用へのアクセスを加速"
+        },
+        "ko": {
+          "title": "팩트 시트: 도널드 J. 트럼프 대통령, 퇴역군인의 혜택 및 고용 기회 접근 가속화",
+          "summary": "접근 확대 및 기회 창출: 오늘 도널드 J. 트럼프(Donald J. Trump) 대통령은 재향군인의 혜택 접근을 촉진하기 위해 전쟁부와 재향군인회 간의 데이터 관리 및 데이터 공유를 현대화하는 행정명령에 서명했습니다. 결과 제공을 위한 낡은 시스템 장벽 제거: 트럼프 대통령은 우리 군인들을 방해하는 비효율성과 지연을 제거하고 있습니다. [...] 포스트 팩트 시트: 도널드 J. 트럼프 대통령은 퇴역군인의 혜택 및 고용에 대한 접근을 가속화합니다."
+        },
+        "zh-TW": {
+          "title": "情況說明書：唐納德·J·特朗普總統加速退伍軍人獲得福利和就業機會",
+          "summary": "擴大訪問範圍並創造機會：今天，唐納德·J·特朗普總統簽署了一項行政命令，對戰爭部和退伍軍人事務部之間的數據管理和數據共享進行現代化改造，以加快退伍軍人獲得福利的速度。消除陳舊的系統障礙以取得成果：川普總統正在消除阻礙我們服役人員的低效率和延誤問題[……]後情況說明書：唐納德·J·特朗普總統加速退伍軍人獲得福利和就業"
+        },
+        "de": {
+          "title": "Faktenblatt: Präsident Donald J. Trump beschleunigt den Zugang von Veteranen zu Sozialleistungen und Beschäftigungsmöglichkeiten",
+          "summary": "ERWEITERUNG DES ZUGANGS UND SCHAFFUNG VON CHANCEN: Heute unterzeichnete Präsident Donald J. Trump eine Executive Order zur Modernisierung der Datenverwaltung und des Datenaustauschs zwischen den Ministerien für Kriegs- und Veteranenangelegenheiten, um den Zugang von Veteranen zu Leistungen zu beschleunigen. ANTIQUIERTE SYSTEMHINDERNISSE ENTFERNEN, UM ERGEBNISSE ZU LIEFERN: Präsident Trump beseitigt die Ineffizienzen und Verzögerungen, die unsere Militärangehörigen behindern. […] Der Beitrag Fact Sheet: Präsident Donald J. Trump beschleunigt den Zugang von Veteranen zu Sozialleistungen und Beschäftigung"
+        },
+        "fr": {
+          "title": "Fiche d'information : Le président Donald J. Trump accélère l'accès des anciens combattants aux avantages sociaux et aux opportunités d'emploi",
+          "summary": "ÉLARGIR L'ACCÈS ET CRÉER DES OPPORTUNITÉS : Aujourd'hui, le président Donald J. Trump a signé un décret visant à moderniser la gestion et le partage des données entre les ministères de la Guerre et des Anciens Combattants afin d'accélérer l'accès des anciens combattants aux prestations. SUPPRIMER LES BARRIÈRES DU SYSTÈME ANCIEN POUR OBTENIR DES RÉSULTATS : Le président Trump supprime les inefficacités et les retards qui entravent nos militaires […] La fiche d'information post : Le président Donald J. Trump accélère l'accès des anciens combattants aux avantages sociaux et à l'emploi"
+        }
+      }
     },
     {
       "title": "Accelerating Access To Veterans’ Benefits And Employment Opportunities",
@@ -24,7 +50,33 @@
       "impact": "medium",
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
-      "_translation_hash": "b546e367c89efb23cbb8fbb0550353fe634c7bb4bfd5f08b247cbe2ec8954e0a"
+      "_translation_hash": "b546e367c89efb23cbb8fbb0550353fe634c7bb4bfd5f08b247cbe2ec8954e0a",
+      "translations": {
+        "zh-CN": {
+          "title": "加快获得退伍军人福利和就业机会",
+          "summary": "根据美利坚合众国宪法和法律赋予我作为总统的权力，特此命令： 第 1 节：目的和政策。数以百万计勇敢的男女军人以勇气、承诺和牺牲在我们的武装部队服役，保障了我们的安全、繁荣和自由。这些退伍军人应该[...]加速获得退伍军人福利和就业机会的帖子首先出现在白宫。"
+        },
+        "ja": {
+          "title": "退役軍人の福利厚生と雇用機会へのアクセスを加速する",
+          "summary": "アメリカ合衆国憲法および法律により大統領として私に与えられた権限により、ここに次のように命じられます: 第 1 節 目的と政策。何百万人もの勇敢な男女が勇気、献身、犠牲を払って軍隊に勤務し、私たちの安全、繁栄、自由を保証してきました。これらの退役軍人は、その資格がある […]退役軍人の福利厚生と雇用機会へのアクセスを加速するという投稿は、最初にホワイトハウスに掲載されました。"
+        },
+        "ko": {
+          "title": "재향군인의 혜택과 고용 기회에 대한 접근 가속화",
+          "summary": "미국 헌법과 법률에 따라 대통령으로서 나에게 부여된 권한에 따라 다음과 같이 명령합니다. 섹션 1. 목적 및 정책. 수백만 명의 용감한 남녀가 우리 군대에서 용기와 헌신, 희생으로 복무하여 우리의 안보, 번영, 자유를 보장했습니다. 이 퇴역 군인들은 […] 퇴역 군인의 혜택 및 고용 기회에 대한 접근 가속화 게시물이 백악관에 처음 게재되었습니다."
+        },
+        "zh-TW": {
+          "title": "加速獲得退伍軍人福利和就業機會",
+          "summary": "根據美利堅合眾國憲法和法律賦予我作為總統的權力，特此命令： 第 1 節：目的和政策。數以百萬計勇敢的男女軍人以勇氣、承諾和犧牲在我們的武裝部隊服役，保障了我們的安全、繁榮和自由。這些退伍軍人應該[...]加速獲得退伍軍人福利和就業機會的貼文首先出現在白宮。"
+        },
+        "de": {
+          "title": "Beschleunigung des Zugangs zu Leistungen und Beschäftigungsmöglichkeiten für Veteranen",
+          "summary": "Aufgrund der mir als Präsident durch die Verfassung und die Gesetze der Vereinigten Staaten von Amerika verliehenen Befugnisse wird hiermit angeordnet: Abschnitt 1. Zweck und Politik. Millionen mutiger Männer und Frauen haben mit Mut, Engagement und Opferbereitschaft in unseren Streitkräften gedient und unsere Sicherheit, unseren Wohlstand und unsere Freiheit garantiert. Diese Veteranen verdienen […] Der Beitrag Beschleunigung des Zugangs zu Leistungen und Beschäftigungsmöglichkeiten für Veteranen erschien zuerst im Weißen Haus."
+        },
+        "fr": {
+          "title": "Accélérer l’accès aux avantages sociaux et aux opportunités d’emploi des anciens combattants",
+          "summary": "En vertu de l'autorité qui m'est conférée en tant que président par la Constitution et les lois des États-Unis d'Amérique, il est ordonné par la présente : Section 1. Objectif et politique. Des millions d’hommes et de femmes courageux ont servi dans nos forces armées avec courage, engagement et sacrifice, garantissant notre sécurité, notre prospérité et notre liberté. Ces anciens combattants méritent […] L’article Accélérer l’accès aux avantages sociaux et aux opportunités d’emploi des anciens combattants est apparu en premier sur The White House."
+        }
+      }
     },
     {
       "title": "Quarterly Financial Report",
@@ -525,7 +577,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -905,7 +957,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1095,7 +1147,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1285,7 +1337,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
