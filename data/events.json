@@ -1,15 +1,7 @@
 {
-  "fetched_at": "2026-09-09T13:51:36.076938+00:00",
+  "fetched_at": "2026-09-09T14:00:25.208256+00:00",
   "timezone": "UTC",
   "events": [
-    {
-      "event_key": "bls_release",
-      "title": "Employer Costs for Employee Compensation",
-      "starts_at": "2026-09-09T14:00:00+00:00",
-      "impact": "medium",
-      "source": "BLS",
-      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
-    },
     {
       "event_key": "ppi",
       "title": "Producer Price Index",
@@ -190,6 +182,14 @@
       "event_key": "eci",
       "title": "Employment Cost Index",
       "starts_at": "2026-10-30T12:30:00+00:00",
+      "impact": "high",
+      "source": "BLS",
+      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
+    },
+    {
+      "event_key": "jolts",
+      "title": "Job Openings and Labor Turnover Survey",
+      "starts_at": "2026-11-03T15:00:00+00:00",
       "impact": "high",
       "source": "BLS",
       "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"

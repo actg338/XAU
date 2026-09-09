@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-09-09T13:51:35.854327+00:00",
+  "fetched_at": "2026-09-09T14:00:16.481741+00:00",
   "total": 116,
   "items": [
+    {
+      "title": "Quarterly Services Survey",
+      "link": "https://www.census.gov/services/index.html",
+      "summary": "U.S. selected services total revenue for the second quarter of 2026, adjusted for seasonal variation but not for price changes, was $6,418.7 billion, an increase of 3.0 percent (+/- 0.4 percent) from the first quarter of 2026 and up 7.6 percent (+/- 0.6 percent) from the second quarter of 2025. The first quarter of 2026 to second quarter of 2026 percentage change was revised from the advance estimate of 3.1 percent (+/- 0.4 percent). 2nd Qtr 2026: +3.0 % Change 1st Qtr 2026 (r): +1.1 % Change",
+      "published_at": "Wed, 09 Sep 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "2b03f6c3c608d5da0a224e003b69d9387cafcb3e785a917071eb82bd21af6640"
+    },
     {
       "title": "Fact Sheet: President Donald J. Trump Accelerates Veterans’ Access to Benefits and Employment Opportunities",
       "link": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-accelerates-veterans-access-to-benefits-and-employment-opportunities/",
@@ -577,7 +589,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -645,44 +657,6 @@
         "fr": {
           "title": "Ventes de maisons neuves",
           "summary": "Les ventes de maisons unifamiliales neuves en juillet 2026 se sont établies à un rythme annuel désaisonnalisé de 607 000. Cela représente 10,5 pour cent (+/- 14,0%)* de moins que l'estimation révisée de juin 2026 de 678 000. Juillet 2026 : -10,5* % de variation Juin 2026 (r) : +7,6* % de variation"
-        }
-      }
-    },
-    {
-      "title": "Quarterly Services Survey",
-      "link": "https://www.census.gov/services/index.html",
-      "summary": "Advance U.S. selected services total revenue for the second quarter of 2026, adjusted for seasonal variation but not for price changes, was $6,421.9 billion, an increase of 3.1 percent (+/- 0.4 percent) from the first quarter of 2026 and up 7.7 percent (+/- 0.6 percent) from the second quarter of 2025. 2nd Qtr 2026: +3.1 % Change 1st Qtr 2026 (r): +1.1 % Change",
-      "published_at": "Thu, 20 Aug 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "354385384c29962012a40936cd932acd23278e4bf9b5d701d3ecf676b6526f50",
-      "translations": {
-        "zh-CN": {
-          "title": "季度服务调查",
-          "summary": "美国高级精选服务 2026 年第二季度的总收入（根据季节性变化但未根据价格变化进行调整）为 64,219 亿美元，比 2026 年第一季度增长 3.1%（+/- 0.4%），比 2025 年第二季度增长 7.7%（+/- 0.6%）。 2026 年第二季度：第一季度变化 +3.1% 2026 年 (r)：+1.1% 变化"
-        },
-        "zh-TW": {
-          "title": "季度服務調查",
-          "summary": "美國高級精選服務 2026 年第二季度的總收入（根據季節性變化但未根據價格變化進行調整）為 64,219 億美元，比 2026 年第一季增長 3.1%（+/- 0.4%），比 2025 年第二季度增長 7.7%（+/- 0.6%）。 2026 年第二季：第一季變動 +3.1% 2026 年 (r)：+1.1% 變化"
-        },
-        "ja": {
-          "title": "四半期サービス調査",
-          "summary": "2026 年第 2 四半期の米国アドバンストの特定サービスの総収益は、季節変動を調整後、価格変動は調整せず、6 兆 4,219 億ドルで、2026 年第 1 四半期から 3.1 パーセント (+/- 0.4 パーセント) 増加し、2025 年第 2 四半期から 7.7 パーセント (+/- 0.6 パーセント) 増加しました。 2026 年第 2 四半期: +3.1 % 変化2026 年第 1 四半期 (r): +1.1 % 変化"
-        },
-        "ko": {
-          "title": "분기별 서비스 설문조사",
-          "summary": "2026년 2분기 사전 미국 선별 서비스 총 수익은 계절적 변동을 조정했지만 가격 변동은 조정하지 않은 6조 4,219억 달러로, 2026년 1분기보다 3.1%(+/- 0.4%) 증가했고 2025년 2분기보다 7.7%(+/- 0.6%) 증가했습니다. 2026년 2분기: +3.1% 변화 2026년 4분기(r): +1.1% 변화"
-        },
-        "de": {
-          "title": "Vierteljährliche Dienstleistungsumfrage",
-          "summary": "Der Gesamtumsatz von Advance US-Auswahldiensten belief sich im zweiten Quartal 2026, bereinigt um saisonale Schwankungen, aber nicht um Preisänderungen, auf 6.421,9 Milliarden US-Dollar, ein Anstieg von 3,1 Prozent (+/- 0,4 Prozent) gegenüber dem ersten Quartal 2026 und ein Anstieg von 7,7 Prozent (+/- 0,6 Prozent) gegenüber dem zweiten Quartal 2025. 2. Quartal 2026: +3,1 % Veränderung 1. Quartal 2026 (r): +1,1 % Veränderung"
-        },
-        "fr": {
-          "title": "Enquête trimestrielle sur les services",
-          "summary": "Le chiffre d'affaires total des services sélectionnés aux États-Unis pour le deuxième trimestre 2026, ajusté des variations saisonnières mais pas des changements de prix, s'est élevé à 6 421,9 milliards de dollars, soit une augmentation de 3,1 pour cent (+/- 0,4 pour cent) par rapport au premier trimestre 2026 et en hausse de 7,7 pour cent (+/- 0,6 pour cent) par rapport au deuxième trimestre 2025. 2e trimestre 2026 : +3,1 % de variation au 1er trimestre 2026 (r) : +1,1 % Variation"
         }
       }
     },
@@ -957,7 +931,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1147,7 +1121,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1337,7 +1311,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",

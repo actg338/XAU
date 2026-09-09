@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-09T13:51:36.201510+00:00",
+  "generated_at": "2026-09-09T14:00:25.308014+00:00",
   "direction": "bearish",
   "label_key": "mild_bearish",
-  "confidence": 75,
-  "score": -26,
+  "confidence": 76,
+  "score": -29,
   "drivers": [
     "warsh",
     "fedwatch"
@@ -33,10 +33,10 @@
     }
   ],
   "next_event": {
-    "event_key": "bls_release",
-    "title": "Employer Costs for Employee Compensation",
-    "starts_at": "2026-09-09T14:00:00+00:00",
-    "impact": "medium",
+    "event_key": "ppi",
+    "title": "Producer Price Index",
+    "starts_at": "2026-09-10T12:30:00+00:00",
+    "impact": "high",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
   }
