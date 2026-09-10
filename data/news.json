@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-10T10:20:44.709239+00:00",
+  "fetched_at": "2026-09-10T10:32:17.964465+00:00",
   "total": 116,
   "items": [
     {
@@ -12,7 +12,33 @@
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "2b03f6c3c608d5da0a224e003b69d9387cafcb3e785a917071eb82bd21af6640"
+      "_translation_hash": "2b03f6c3c608d5da0a224e003b69d9387cafcb3e785a917071eb82bd21af6640",
+      "translations": {
+        "ja": {
+          "title": "四半期サービス調査",
+          "summary": "2026 年第 2 四半期の米国の特定サービスの総収益は、季節変動を調整したが価格変動は調整せず、6 兆 4,187 億ドルで、2026 年第 1 四半期から 3.0 パーセント (+/- 0.4 パーセント) 増加し、2025 年第 2 四半期から 7.6 パーセント (+/- 0.6 パーセント) 増加しました。2026 年第 1 四半期から 2026 年第 2 四半期までの変化率は、事前予想の３．１％（±０．４％）から修正された。 2026 年第 2 四半期: +3.0 % 変化 2026 年第 1 四半期 (r): +1.1 % 変化"
+        },
+        "zh-CN": {
+          "title": "季度服务调查",
+          "summary": "2026 年第二季度美国特定服务总收入（经季节性变化但未经价格变化调整后）为 64,187 亿美元，较 2026 年第一季度增长 3.0%（+/- 0.4%），较 2025 年第二季度增长 7.6%（+/- 0.6%）。2026 年第一季度至 2026 年第二季度的百分比变化是根据提前修正的估计为 3.1%（+/- 0.4%）。 2026 年第二季度：+3.0% 变化 2026 年第一季度 (r)：+1.1% 变化"
+        },
+        "ko": {
+          "title": "분기별 서비스 설문조사",
+          "summary": "계절 변화를 조정하고 가격 변동은 적용하지 않은 2026년 2분기 미국의 선별 서비스 총 수익은 6조 4,187억 달러로 2026년 1분기보다 3.0%(+/- 0.4%) 증가했고 2025년 2분기보다 7.6%(+/- 0.6%) 증가했습니다. 2026년 1분기부터 2026년 2분기까지의 백분율 변화는 다음과 같습니다. 사전 추정치 3.1%(+/- 0.4%)에서 수정되었습니다. 2026년 2분기: +3.0% 변동률 2026년 1분기(r): +1.1% 변동률"
+        },
+        "de": {
+          "title": "Vierteljährliche Dienstleistungsumfrage",
+          "summary": "Der Gesamtumsatz mit ausgewählten Dienstleistungen in den USA betrug im zweiten Quartal 2026, bereinigt um saisonale Schwankungen, aber nicht um Preisänderungen, 6.418,7 Milliarden US-Dollar, ein Anstieg von 3,0 Prozent (+/- 0,4 Prozent) gegenüber dem ersten Quartal 2026 und ein Anstieg von 7,6 Prozent (+/- 0,6 Prozent) gegenüber dem zweiten Quartal 2025. Die prozentuale Veränderung vom ersten Quartal 2026 zum zweiten Quartal 2026 wurde von revidiert die Vorabschätzung liegt bei 3,1 Prozent (+/- 0,4 Prozent). 2. Quartal 2026: +3,0 % Veränderung 1. Quartal 2026 (r): +1,1 % Veränderung"
+        },
+        "zh-TW": {
+          "title": "季度服務調查",
+          "summary": "2026 年第二季美國特定服務總收入（經季節性變動但未經價格變動調整後）為 64,187 億美元，較 2026 年第一季成長 3.0%（+/- 0.4%），較 2025 年第二季成長 7.6%（+/- 0.6%）。 2026 年第一季至 2026 年第二季的百分比變化是根據提前修正的估計為 3.1%（+/- 0.4%）。 2026 年第二季：+3.0% 變化 2026 年第一季 (r)：+1.1% 變化"
+        },
+        "fr": {
+          "title": "Enquête trimestrielle sur les services",
+          "summary": "Le chiffre d'affaires total des services sélectionnés aux États-Unis pour le deuxième trimestre 2026, corrigé des variations saisonnières mais pas des changements de prix, s'est élevé à 6 418,7 milliards de dollars, soit une augmentation de 3,0 % (+/- 0,4 %) par rapport au premier trimestre 2026 et de 7,6 % (+/- 0,6 %) par rapport au deuxième trimestre 2025. La variation en pourcentage du premier trimestre 2026 au deuxième trimestre 2026 a été révisée par rapport à l’estimation anticipée de 3,1 pour cent (+/- 0,4 pour cent). 2e trimestre 2026 : +3,0 % variation 1er trimestre 2026 (r) : +1,1 % variation"
+        }
+      }
     },
     {
       "title": "Fact Sheet: President Donald J. Trump Accelerates Veterans’ Access to Benefits and Employment Opportunities",
@@ -589,7 +615,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -931,7 +957,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1121,7 +1147,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1311,7 +1337,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
