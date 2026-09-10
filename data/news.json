@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-09-10T13:57:18.072933+00:00",
+  "fetched_at": "2026-09-10T14:18:51.978950+00:00",
   "total": 118,
   "items": [
+    {
+      "title": "Monthly Wholesale Trade: Sales and Inventories",
+      "link": "https://www.census.gov/wholesale/index.html",
+      "summary": "July 2026 sales of merchant wholesalers were $801.3 billion, up 0.8 percent (+/- 0.4 percent) from last month. End-of-month inventories were $958.9 billion, up 1.3 percent (+/- 0.2 percent) from last month. July 2026: +1.3 % Change in Inventories June 2026 (r): +0.4 % Change in Inventories",
+      "published_at": "Thu, 10 Sep 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "trade",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "trade_neutral",
+      "_translation_hash": "172505caf23a5b51af0aaed6b490e9805752fd4621cce879a75a2520b7eb49a4"
+    },
     {
       "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement",
       "link": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
@@ -639,7 +651,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -901,44 +913,6 @@
       }
     },
     {
-      "title": "Monthly Wholesale Trade: Sales and Inventories",
-      "link": "https://www.census.gov/wholesale/index.html",
-      "summary": "June 2026 sales of merchant wholesalers were $794.1 billion, down 3.0 percent (+/- 0.5 percent) from last month. End-of-month inventories were $944.7 billion, up 0.2 percent (+/- 0.2 percent)* from last month. June 2026: +0.2* % Change in Inventories May 2026 (r): +0.3 % Change in Inventories",
-      "published_at": "Thu, 06 Aug 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "trade",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "fdfd5a6c859f729c0511c02ea33314e4fcc3563dc806d2e65bbdee79cde57d92",
-      "translations": {
-        "zh-CN": {
-          "title": "月度批发贸易：销售和库存",
-          "summary": "2026 年 6 月商业批发商销售额为 7,941 亿美元，比上月下降 3.0%（+/- 0.5%）。月末库存为 9,447 亿美元，较上月增长 0.2% (+/- 0.2%)*。 2026 年 6 月：+0.2* 库存变化百分比 2026 年 5 月 (r)：+0.3% 库存变化"
-        },
-        "zh-TW": {
-          "title": "月度批發貿易：銷售和庫存",
-          "summary": "2026 年 6 月商業批發商銷售額為 7,941 億美元，較上月下降 3.0%（+/- 0.5%）。月末庫存為 9,447 億美元，較上月增長 0.2% (+/- 0.2%)*。 2026 年 6 月：+0.2* 庫存變化百分比 2026 年 5 月 (r)：+0.3% 庫存變化"
-        },
-        "ja": {
-          "title": "月次卸売業の売上と在庫",
-          "summary": "2026 年 6 月の商業卸売業者の売上高は 7,941 億ドルで、前月比 3.0% (+/- 0.5%) 減少しました。月末の在庫は 9,447 億ドルで、前月比 0.2% (+/- 0.2%)* 増加しました。 2026 年 6 月: +0.2* % 在庫変動率 2026 年 5 月 (r): +0.3 % 在庫変動率"
-        },
-        "ko": {
-          "title": "월별 도매 거래: 판매 및 재고",
-          "summary": "2026년 6월 도매상 매출은 7,941억 달러로 전월 대비 3.0%(+/-0.5%) 감소했습니다. 월말 재고는 9,447억 달러로 전월 대비 0.2%(+/- 0.2%)* 증가했습니다. 2026년 6월: +0.2* 재고 변동률 2026년 5월(r): 재고 변동률 +0.3%"
-        },
-        "de": {
-          "title": "Monatlicher Großhandel: Verkäufe und Lagerbestände",
-          "summary": "Der Umsatz der Handelsgroßhändler belief sich im Juni 2026 auf 794,1 Milliarden US-Dollar, was einem Rückgang von 3,0 Prozent (+/- 0,5 Prozent) gegenüber dem Vormonat entspricht. Die Lagerbestände zum Monatsende beliefen sich auf 944,7 Milliarden US-Dollar, ein Plus von 0,2 Prozent (+/- 0,2 Prozent)* gegenüber dem Vormonat. Juni 2026: +0,2* % Bestandsveränderung Mai 2026 (r): +0,3 % Bestandsveränderung"
-        },
-        "fr": {
-          "title": "Commerce de gros mensuel : ventes et stocks",
-          "summary": "En juin 2026, les ventes des grossistes marchands s'élevaient à 794,1 milliards de dollars, en baisse de 3,0 % (+/- 0,5 %) par rapport au mois dernier. Les stocks de fin de mois s'élevaient à 944,7 milliards de dollars, en hausse de 0,2 pour cent (+/- 0,2 pour cent)* par rapport au mois dernier. Juin 2026 : +0,2* % de variation des stocks Mai 2026 (r) : +0,3 % de variation des stocks"
-        }
-      }
-    },
-    {
       "title": "Cook, Outlook for the U.S. and Alaskan Economies",
       "link": "https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm",
       "summary": "Speech At the 2026 Economic Luncheon of the Anchorage Economic Development Corporation, Anchorage, Alaska",
@@ -981,7 +955,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1171,7 +1145,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
       "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
       "published_at": "Tue, 14 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1361,7 +1335,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
       "summary": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
       "published_at": "Thu, 9 Jul 2026 19:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "medium",
       "gold_bias": "neutral",
