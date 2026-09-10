@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-09-10T12:57:32.723854+00:00",
-  "total": 117,
+  "fetched_at": "2026-09-10T13:18:14.641200+00:00",
+  "total": 118,
   "items": [
+    {
+      "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement",
+      "link": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
+      "summary": "",
+      "published_at": "Thu, 10 Sep 2026 15:00:00 +0200",
+      "source": "ecb",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "41d21200cf4a5a67fcebe33ea4bbbbbf53fad63ee3e72add7592bfdf22eb388f"
+    },
     {
       "title": "Monetary policy decisions",
       "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
@@ -2041,18 +2053,6 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
-    },
-    {
-      "title": "PPI for final demand advances 0.3% in September; goods rise 0.9%, services unchanged",
-      "link": "https://www.bls.gov/news.release/archives/ppi_11252025.htm",
-      "summary": "",
-      "published_at": "2025-11-25T08:30:00-05:00",
-      "source": "bls_ppi",
-      "category": "inflation",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "4580557ddb6ea1d4834c1b15c41a3149ef83d749f8ae34cb0c4cceec56f369f8"
     }
   ]
 }
