@@ -1,13 +1,12 @@
 {
-  "generated_at": "2026-09-11T12:29:08.745373+00:00",
+  "generated_at": "2026-09-11T12:47:36.765016+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
-  "confidence": 87,
-  "score": -46,
+  "confidence": 81,
+  "score": -37,
   "drivers": [
     "warsh",
-    "fedwatch",
-    "dxy"
+    "fedwatch"
   ],
   "counter_risks": [
     "xau"
@@ -34,8 +33,8 @@
   ],
   "next_event": {
     "event_key": "bls_release",
-    "title": "Real Earnings",
-    "starts_at": "2026-09-11T12:30:00+00:00",
+    "title": "U.S. Import and Export Price Indexes",
+    "starts_at": "2026-09-16T12:30:00+00:00",
     "impact": "medium",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
