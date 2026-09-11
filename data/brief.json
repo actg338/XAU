@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-11T03:54:33.541920+00:00",
+  "generated_at": "2026-09-11T04:13:12.559145+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
-  "confidence": 92,
-  "score": -57,
+  "confidence": 84,
+  "score": -50,
   "drivers": [
     "warsh",
-    "fedwatch",
-    "xau",
-    "dxy"
+    "fedwatch"
   ],
-  "counter_risks": [],
+  "counter_risks": [
+    "xau"
+  ],
   "top_news": [
     {
       "title": "Federal Reserve issues FOMC statement",
