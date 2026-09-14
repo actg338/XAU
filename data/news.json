@@ -1,7 +1,31 @@
 {
-  "fetched_at": "2026-09-14T09:46:07.628387+00:00",
-  "total": 103,
+  "fetched_at": "2026-09-14T09:55:31.516868+00:00",
+  "total": 116,
   "items": [
+    {
+      "title": "Business Formation Statistics",
+      "link": "https://www.census.gov/econ/bfs/",
+      "summary": "Total U.S. Business Applications were 531,728 in August 2026, down 7.8% from July 2026. August 2026: -7.8° % Change July 2026 (r): +8.1° % Change",
+      "published_at": "Fri, 11 Sep 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "d98fbfc6bcf77244e45ed2b275fbd3af530dcbc3010b0ad4f92cfa173aec5915"
+    },
+    {
+      "title": "Monthly Wholesale Trade: Sales and Inventories",
+      "link": "https://www.census.gov/wholesale/index.html",
+      "summary": "July 2026 sales of merchant wholesalers were $801.3 billion, up 0.8 percent (+/- 0.4 percent) from last month. End-of-month inventories were $958.9 billion, up 1.3 percent (+/- 0.2 percent) from last month. July 2026: +1.3 % Change in Inventories June 2026 (r): +0.4 % Change in Inventories",
+      "published_at": "Thu, 10 Sep 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "trade",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "trade_neutral",
+      "_translation_hash": "172505caf23a5b51af0aaed6b490e9805752fd4621cce879a75a2520b7eb49a4"
+    },
     {
       "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
       "link": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
@@ -77,6 +101,18 @@
           "summary": ""
         }
       }
+    },
+    {
+      "title": "Quarterly Services Survey",
+      "link": "https://www.census.gov/services/index.html",
+      "summary": "U.S. selected services total revenue for the second quarter of 2026, adjusted for seasonal variation but not for price changes, was $6,418.7 billion, an increase of 3.0 percent (+/- 0.4 percent) from the first quarter of 2026 and up 7.6 percent (+/- 0.6 percent) from the second quarter of 2025. The first quarter of 2026 to second quarter of 2026 percentage change was revised from the advance estimate of 3.1 percent (+/- 0.4 percent). 2nd Qtr 2026: +3.0 % Change 1st Qtr 2026 (r): +1.1 % Change",
+      "published_at": "Wed, 09 Sep 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "2b03f6c3c608d5da0a224e003b69d9387cafcb3e785a917071eb82bd21af6640"
     },
     {
       "title": "Fact Sheet: President Donald J. Trump Accelerates Veterans’ Access to Benefits and Employment Opportunities",
@@ -155,6 +191,18 @@
       }
     },
     {
+      "title": "Quarterly Financial Report",
+      "link": "https://www.census.gov/econ/qfr/",
+      "summary": "Manufacturing corporations' not seasonally adjusted after-tax profits were $370.1 billion for the second quarter of 2026, up $82.8 (+/- 1.2) billion from first quarter of 2026. 2nd Qtr 2026: +82.8 Billions of Dollars 1st Qtr 2026 (r): +50.6 Billions of Dollars",
+      "published_at": "Tue, 08 Sep 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "bf08e7e849ef61cc8a1923a74e5201e63eb3bd6c8f00f6778504c7e4840228f7"
+    },
+    {
       "title": "Waller, The Economic Outlook and Some Comments on My Policy Communication",
       "link": "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm",
       "summary": "Speech At Reuters NEXT Newsmaker Interview, Washington, D.C.",
@@ -191,6 +239,18 @@
           "summary": "Discours lors de l'interview de Reuters NEXT Newsmaker, Washington, D.C."
         }
       }
+    },
+    {
+      "title": "U.S. International Trade in Goods and Services",
+      "link": "https://www.census.gov/foreign-trade/index.html",
+      "summary": "The nation's international trade deficit in goods and services increased to $88.6 billion in July from $71.2 billion in June (revised), as exports decreased and imports increased. July 2026: 24.4° % Change June 2026 (r): -6.0° % Change",
+      "published_at": "Thu, 03 Sep 2026 08:30:00 -0400",
+      "source": "census",
+      "category": "trade",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "trade_neutral",
+      "_translation_hash": "3c24050ac2acde529ef831eac02096241c456fd96ed6d06cc15f75cbb4eacdaf"
     },
     {
       "title": "President Trump Secures the Biggest Oil Deal in World History",
@@ -269,6 +329,18 @@
       }
     },
     {
+      "title": "Manufacturers' Shipments, Inventories, and Orders",
+      "link": "https://www.census.gov/manufacturing/m3/",
+      "summary": "New orders for manufactured goods in July, up following two consecutive monthly decreases, increased $5.8 billion or 0.9 percent to $663.6 billion. July 2026: +0.9° % Change June 2026 (r): -0.2° % Change",
+      "published_at": "Wed, 02 Sep 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "323853ef9fd48355a00626bde71484874a20a70ebe61207517d0c0d50023ca54"
+    },
+    {
       "title": "Boris Vujčić: Listening to households: expectations, behaviour and monetary policy",
       "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html",
       "summary": "",
@@ -305,6 +377,18 @@
           "summary": ""
         }
       }
+    },
+    {
+      "title": "Construction Spending",
+      "link": "https://www.census.gov/construction/c30/c30index.html",
+      "summary": "Total construction spending for July 2026 ($2,157.6 billion) was 0.5 percent (+/- 0.8 percent)* below the revised June 2026 ($2,167.7 billion) estimate. July 2026: -0.5* % Change June 2026 (r): 0.0* % Change",
+      "published_at": "Tue, 01 Sep 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "06ee8e1191c82d21a5057f2beae0b2a0a828478556fd43e2242cd5ca5f0ed051"
     },
     {
       "title": "Barr, Unlocking Opportunities for Workers and Entrepreneurs with a Criminal Record",
@@ -383,6 +467,18 @@
       }
     },
     {
+      "title": "Advance Wholesale Inventories",
+      "link": "https://www.census.gov/econ/indicators/index.html",
+      "summary": "July end-of-month inventories were $959.1 billion, up 1.3 percent (+/- 0.2 percent) from last month. July 2026: +1.3 % Change in Inventories June 2026 (r): +0.3 % Change in Inventories",
+      "published_at": "Thu, 27 Aug 2026 08:30:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "aa180d3e16357e2f3b503113c3167d65af8bd4357a0b0ac4d57b4933eea171a3"
+    },
+    {
       "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
@@ -421,6 +517,18 @@
       }
     },
     {
+      "title": "New Home Sales",
+      "link": "https://www.census.gov/construction/nrs/",
+      "summary": "Sales of new single-family houses in July 2026 were at a seasonally adjusted annual rate of 607,000. This is 10.5 percent (+/- 14.0%)* below the revised June 2026 estimate of 678,000. July 2026: -10.5* % Change June 2026 (r): +7.6* % Change",
+      "published_at": "Tue, 25 Aug 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "5df620dd3d41b04f38a57bc409dd554466994d15af9bd0d15f6840d0e7eb42b6"
+    },
+    {
       "title": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",
       "summary": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
@@ -457,6 +565,42 @@
           "summary": "Procès-verbal du Comité fédéral de l’open market, 28 et 29 juillet 2026"
         }
       }
+    },
+    {
+      "title": "New Residential Construction",
+      "link": "https://www.census.gov/construction/nrc/index.html",
+      "summary": "Privately-owned housing starts in July 2026 were at a seasonally adjusted annual rate of 1,239,000. This is 12.4 percent (+/- 9.5%) below the revised June 2026 estimate of 1,415,000. July 2026: -12.4 % Change June 2026 (r): +19.7 % Change",
+      "published_at": "Tue, 18 Aug 2026 08:30:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "b788fc10e538d66a6703bddc8032216539b9f2a89184e3a62afcf93eeef86076"
+    },
+    {
+      "title": "Manufacturing and Trade Inventories and Sales",
+      "link": "https://www.census.gov/mtis/index.html",
+      "summary": "U.S. total business end-of-month inventories for June 2026 were $2,740.2 billion, virtually unchanged (+/- 0.1 percent)* from last month. U.S. total business sales were $2,111.3 billion, down 1.1 percent (+/- 0.2 percent) from last month. June 2026: 0.0* % Change in Inventories May 2026 (r): +0.4 % Change in Inventories",
+      "published_at": "Fri, 14 Aug 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "trade",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "trade_neutral",
+      "_translation_hash": "99f7510a2324aa4a4d4f52516be2c2d75247c622e5e194f1b736bd8698ce3b00"
+    },
+    {
+      "title": "Advance Monthly Sales for Retail and Food Services",
+      "link": "https://www.census.gov/retail/index.html",
+      "summary": "U.S. retail and food services sales for July 2026 were $763.6 billion, down 0.6 percent (+/-0.4 percent) from the previous month. July 2026: -0.6 % Change June 2026 (r): +0.2* % Change",
+      "published_at": "Fri, 14 Aug 2026 08:30:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "1bbfbd906a1a6db79d235c2e801063e364b0ef6cd9fc479cf168708326080ac2"
     },
     {
       "title": "Cook, Outlook for the U.S. and Alaskan Economies",
@@ -533,6 +677,18 @@
           "summary": "La Réserve fédérale publie une déclaration du FOMC"
         }
       }
+    },
+    {
+      "title": "Housing Vacancies and Homeownership",
+      "link": "https://www.census.gov/housing/hvs/",
+      "summary": "The homeownership rate of 65.0 percent was virtually the same as the rate in the second quarter 2025. The homeownership rates in the Northeast, Midwest, South, and West were not statistically different from second quarter 2025 rates. 2nd Qtr 2026: +0.0* Percentage Points 2nd Qtr 2025: -0.6* Percentage Points",
+      "published_at": "Tue, 28 Jul 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "b246e36a35b4f89cb35dd67eee7aef3a31535708968ed021aee387e07e270b61"
     },
     {
       "title": "Jefferson, Navigating Economic Shocks: A Monetary Policymaker’s Perspective",
@@ -1559,162 +1715,6 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "b913e2014a1c590a06230e201b743e6ef224d6a5a356c51addaeb7d4912bd47e"
-    },
-    {
-      "title": "CPI for all items rises 0.3% in September; gasoline up",
-      "link": "https://www.bls.gov/news.release/archives/cpi_10242025.htm",
-      "summary": "",
-      "published_at": "2025-10-24T08:30:00-04:00",
-      "source": "bls_cpi",
-      "category": "inflation",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "044af1e69df439dcfbdc5335fa821579e6cc7c52c8d2171caae18d4fc2ca7848"
-    },
-    {
-      "title": "August job openings unchanged; hires and total separations change little",
-      "link": "https://www.bls.gov/news.release/archives/jolts_09302025.htm",
-      "summary": "",
-      "published_at": "2025-09-30T10:00:00-04:00",
-      "source": "bls_jolts",
-      "category": "labor",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "50e8f44815ed60c51b21db238e068a8e70f181f62df21728e13080844889b30e"
-    },
-    {
-      "title": "CPI for all items rises 0.4% in August; shelter and food up",
-      "link": "https://www.bls.gov/news.release/archives/cpi_09112025.htm",
-      "summary": "",
-      "published_at": "2025-09-11T08:30:00-04:00",
-      "source": "bls_cpi",
-      "category": "inflation",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "dcc4c3f6fcabe746e3475b84a88ca883228a5a37aa7ce8f33869fa2ff10ef920"
-    },
-    {
-      "title": "PPI for final demand declines 0.1% in August; services fall 0.2%, goods increase 0.1%",
-      "link": "https://www.bls.gov/news.release/archives/ppi_09102025.htm",
-      "summary": "",
-      "published_at": "2025-09-10T08:30:00-04:00",
-      "source": "bls_ppi",
-      "category": "inflation",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "2d63234f42ccec42943aaf811f237af0041ece5d9c945b9b5b3427b4bc09b138"
-    },
-    {
-      "title": "Both payroll employment (+22,000) and unemployment rate (4.3%) change little in August",
-      "link": "https://www.bls.gov/news.release/archives/empsit_09052025.htm",
-      "summary": "",
-      "published_at": "2025-09-05T08:30:00-04:00",
-      "source": "bls_jobs",
-      "category": "labor",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "25104201d9e4a282aab1e9ff171c130e5a1bc5abb51c7f09d98c7e351796b21b"
-    },
-    {
-      "title": "July job openings change little; hires and total separations unchanged",
-      "link": "https://www.bls.gov/news.release/archives/jolts_09032025.htm",
-      "summary": "",
-      "published_at": "2025-09-03T10:00:00-04:00",
-      "source": "bls_jolts",
-      "category": "labor",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "273d12d1e66beec9684aa0f56a77dd95c4aafd585630c92dde62898c7a5cd83b"
-    },
-    {
-      "title": "CPI for all items increases 0.4% in August; gasoline rises",
-      "link": "https://www.bls.gov/news.release/archives/cpi_09112026.htm",
-      "summary": "",
-      "published_at": "2026-09-11T07:50:40.968-04:00",
-      "source": "bls_cpi",
-      "category": "inflation",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "16821baf0c127102bd383d0e61fff0c55916961de3535902f98a08a38ea62de5"
-    },
-    {
-      "title": "CPI for all items increases 0.1% in July; shelter rises",
-      "link": "https://www.bls.gov/news.release/archives/cpi_08122026.htm",
-      "summary": "",
-      "published_at": "2026-08-12T07:51:16.21-04:00",
-      "source": "bls_cpi",
-      "category": "inflation",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "d6b584203bb264bc2059d11979937dc1fd2e9dd0dd808175543d81d029af6502"
-    },
-    {
-      "title": "CPI for all items falls 0.4% in June; gasoline down",
-      "link": "https://www.bls.gov/news.release/archives/cpi_07142026.htm",
-      "summary": "",
-      "published_at": "2026-07-14T07:50:27.969-04:00",
-      "source": "bls_cpi",
-      "category": "inflation",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "08dca143e2e8c65c1767c4eeef1159cc40eaadd4ad1abce466eb3fd02fb6a679"
-    },
-    {
-      "title": "Payroll employment increases by 162,000 in August; unemployment rate unchanged at 4.1%",
-      "link": "https://www.bls.gov/news.release/archives/empsit_09042026.htm",
-      "summary": "",
-      "published_at": "2026-09-04T07:51:08.695-04:00",
-      "source": "bls_jobs",
-      "category": "labor",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "49b1542c52b1f8034e8ab011771940c7a52f53795abb67536de62c040206f247"
-    },
-    {
-      "title": "Both payroll employment (-23,000) and unemployment rate (4.1%) change little in July",
-      "link": "https://www.bls.gov/news.release/archives/empsit_08072026.htm",
-      "summary": "",
-      "published_at": "2026-08-07T07:50:34.021-04:00",
-      "source": "bls_jobs",
-      "category": "labor",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "2fea409a8f0ce6ef44be9fa047cb23023b83659a75711cfa6dc325a532e2e4c0"
-    },
-    {
-      "title": "Both payroll employment (+57,000) and unemployment rate (4.2%) change little in June",
-      "link": "https://www.bls.gov/news.release/archives/empsit_07022026.htm",
-      "summary": "",
-      "published_at": "2026-07-02T07:50:52.662-04:00",
-      "source": "bls_jobs",
-      "category": "labor",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "eb18da463121b0d2c9cd94121ed8c59b235586218cc502f3c4f35ddf2611ec44"
-    },
-    {
-      "title": "Job openings, hires, and total separations change little in July",
-      "link": "https://www.bls.gov/news.release/archives/jolts_09012026.htm",
-      "summary": "",
-      "published_at": "2026-09-01T09:20:29.31-04:00",
-      "source": "bls_jolts",
-      "category": "labor",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "500db7192b8fd428df83835fd500eb408147dab1fb52d83ef80ada6036db7c8d"
     }
   ]
 }
