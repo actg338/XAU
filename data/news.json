@@ -1,83 +1,7 @@
 {
-  "fetched_at": "2026-09-14T09:29:04.099818+00:00",
-  "total": 116,
+  "fetched_at": "2026-09-14T09:46:07.628387+00:00",
+  "total": 103,
   "items": [
-    {
-      "title": "Business Formation Statistics",
-      "link": "https://www.census.gov/econ/bfs/",
-      "summary": "Total U.S. Business Applications were 531,728 in August 2026, down 7.8% from July 2026. August 2026: -7.8° % Change July 2026 (r): +8.1° % Change",
-      "published_at": "Fri, 11 Sep 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "d98fbfc6bcf77244e45ed2b275fbd3af530dcbc3010b0ad4f92cfa173aec5915",
-      "translations": {
-        "ja": {
-          "title": "企業形成統計",
-          "summary": "2026 年 8 月の米国ビジネスアプリケーションの総数は 531,728 件で、2026 年 7 月から 7.8% 減少しました。 2026 年 8 月: -7.8° % 変化 2026 年 7 月 (r): +8.1° % 変化"
-        },
-        "zh-CN": {
-          "title": "企业组建统计",
-          "summary": "2026 年 8 月美国商业申请总数为 531,728 件，比 2026 年 7 月下降 7.8%。 2026 年 8 月：-7.8° 变化百分比 2026 年 7 月 (r)：+8.1° 变化百分比"
-        },
-        "ko": {
-          "title": "사업형성통계",
-          "summary": "2026년 8월 미국 비즈니스 신청 건수는 531,728건으로 2026년 7월 대비 7.8% 감소했습니다. 2026년 8월: -7.8° % 변화 2026년 7월(r): +8.1° % 변화"
-        },
-        "zh-TW": {
-          "title": "企業組成統計",
-          "summary": "2026 年 8 月美國商業申請總數為 531,728 件，較 2026 年 7 月下降 7.8%。 2026 年 8 月：-7.8° 變化百分比 2026 年 7 月 (r)：+8.1° 變化百分比"
-        },
-        "de": {
-          "title": "Statistik der Unternehmensgründung",
-          "summary": "Die Gesamtzahl der Geschäftsanträge in den USA belief sich im August 2026 auf 531.728, ein Rückgang von 7,8 % gegenüber Juli 2026. August 2026: -7,8° % Veränderung. Juli 2026 (r): +8,1° % Veränderung"
-        },
-        "fr": {
-          "title": "Statistiques sur la création d'entreprises",
-          "summary": "Le nombre total d'applications commerciales aux États-Unis était de 531 728 en août 2026, en baisse de 7,8 % par rapport à juillet 2026. Août 2026 : -7,8° % de variation Juillet 2026 (d) : +8,1° % de variation"
-        }
-      }
-    },
-    {
-      "title": "Monthly Wholesale Trade: Sales and Inventories",
-      "link": "https://www.census.gov/wholesale/index.html",
-      "summary": "July 2026 sales of merchant wholesalers were $801.3 billion, up 0.8 percent (+/- 0.4 percent) from last month. End-of-month inventories were $958.9 billion, up 1.3 percent (+/- 0.2 percent) from last month. July 2026: +1.3 % Change in Inventories June 2026 (r): +0.4 % Change in Inventories",
-      "published_at": "Thu, 10 Sep 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "trade",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "172505caf23a5b51af0aaed6b490e9805752fd4621cce879a75a2520b7eb49a4",
-      "translations": {
-        "zh-CN": {
-          "title": "月度批发贸易：销售和库存",
-          "summary": "2026 年 7 月商业批发商销售额为 8013 亿美元，比上月增长 0.8%（+/- 0.4%）。月末库存为 9,589 亿美元，较上月增长 1.3%（+/- 0.2%）。 2026 年 7 月：库存变化 +1.3% 2026 年 6 月 (r)：库存变化 +0.4%"
-        },
-        "ja": {
-          "title": "月次卸売業の売上と在庫",
-          "summary": "2026年7月の商業卸売業者の売上高は8,013億ドルで、前月比0.8％（+/-0.4％）増加した。月末の在庫は9,589億ドルで、前月比1.3％（±0.2％）増加した。 2026年7月: +1.3 % 在庫変動 2026年6月(r): +0.4 % 在庫変動"
-        },
-        "ko": {
-          "title": "월별 도매 거래: 판매 및 재고",
-          "summary": "2026년 7월 종합도매상 매출은 8,013억 달러로 전월 대비 0.8%(+/-0.4%) 증가했다. 월말 재고자산은 9,589억 달러로 전월 대비 1.3%(+/-0.2%) 증가했다. 2026년 7월: 재고 변동 +1.3% 2026년 6월(r): 재고 변동 +0.4%"
-        },
-        "zh-TW": {
-          "title": "月度批發貿易：銷售和庫存",
-          "summary": "2026 年 7 月商業批發商銷售額為 8,013 億美元，較上月成長 0.8%（+/- 0.4%）。月末庫存為 9,589 億美元，較上月增長 1.3%（+/- 0.2%）。 2026 年 7 月：庫存變化 +1.3% 2026 年 6 月 (r)：庫存變化 +0.4%"
-        },
-        "fr": {
-          "title": "Commerce de gros mensuel : ventes et stocks",
-          "summary": "En juillet 2026, les ventes des grossistes marchands s'élevaient à 801,3 milliards de dollars, en hausse de 0,8 % (+/- 0,4 %) par rapport au mois dernier. Les stocks de fin de mois s'élevaient à 958,9 milliards de dollars, en hausse de 1,3 pour cent (+/- 0,2 pour cent) par rapport au mois dernier. Juillet 2026 : +1,3 % Variation des Stocks Juin 2026 (r) : +0,4 % Variation des Stocks"
-        },
-        "de": {
-          "title": "Monatlicher Großhandel: Verkäufe und Lagerbestände",
-          "summary": "Der Umsatz der Handelsgroßhändler belief sich im Juli 2026 auf 801,3 Milliarden US-Dollar, ein Plus von 0,8 Prozent (+/- 0,4 Prozent) gegenüber dem Vormonat. Die Lagerbestände zum Monatsende beliefen sich auf 958,9 Milliarden US-Dollar, ein Plus von 1,3 Prozent (+/- 0,2 Prozent) gegenüber dem Vormonat. Juli 2026: +1,3 % Bestandsveränderung Juni 2026 (r): +0,4 % Bestandsveränderung"
-        }
-      }
-    },
     {
       "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
       "link": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
@@ -151,44 +75,6 @@
         "de": {
           "title": "Geldpolitische Entscheidungen",
           "summary": ""
-        }
-      }
-    },
-    {
-      "title": "Quarterly Services Survey",
-      "link": "https://www.census.gov/services/index.html",
-      "summary": "U.S. selected services total revenue for the second quarter of 2026, adjusted for seasonal variation but not for price changes, was $6,418.7 billion, an increase of 3.0 percent (+/- 0.4 percent) from the first quarter of 2026 and up 7.6 percent (+/- 0.6 percent) from the second quarter of 2025. The first quarter of 2026 to second quarter of 2026 percentage change was revised from the advance estimate of 3.1 percent (+/- 0.4 percent). 2nd Qtr 2026: +3.0 % Change 1st Qtr 2026 (r): +1.1 % Change",
-      "published_at": "Wed, 09 Sep 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "2b03f6c3c608d5da0a224e003b69d9387cafcb3e785a917071eb82bd21af6640",
-      "translations": {
-        "ja": {
-          "title": "四半期サービス調査",
-          "summary": "2026 年第 2 四半期の米国の特定サービスの総収益は、季節変動を調整したが価格変動は調整せず、6 兆 4,187 億ドルで、2026 年第 1 四半期から 3.0 パーセント (+/- 0.4 パーセント) 増加し、2025 年第 2 四半期から 7.6 パーセント (+/- 0.6 パーセント) 増加しました。2026 年第 1 四半期から 2026 年第 2 四半期までの変化率は、事前予想の３．１％（±０．４％）から修正された。 2026 年第 2 四半期: +3.0 % 変化 2026 年第 1 四半期 (r): +1.1 % 変化"
-        },
-        "zh-CN": {
-          "title": "季度服务调查",
-          "summary": "2026 年第二季度美国特定服务总收入（经季节性变化但未经价格变化调整后）为 64,187 亿美元，较 2026 年第一季度增长 3.0%（+/- 0.4%），较 2025 年第二季度增长 7.6%（+/- 0.6%）。2026 年第一季度至 2026 年第二季度的百分比变化是根据提前修正的估计为 3.1%（+/- 0.4%）。 2026 年第二季度：+3.0% 变化 2026 年第一季度 (r)：+1.1% 变化"
-        },
-        "ko": {
-          "title": "분기별 서비스 설문조사",
-          "summary": "계절 변화를 조정하고 가격 변동은 적용하지 않은 2026년 2분기 미국의 선별 서비스 총 수익은 6조 4,187억 달러로 2026년 1분기보다 3.0%(+/- 0.4%) 증가했고 2025년 2분기보다 7.6%(+/- 0.6%) 증가했습니다. 2026년 1분기부터 2026년 2분기까지의 백분율 변화는 다음과 같습니다. 사전 추정치 3.1%(+/- 0.4%)에서 수정되었습니다. 2026년 2분기: +3.0% 변동률 2026년 1분기(r): +1.1% 변동률"
-        },
-        "de": {
-          "title": "Vierteljährliche Dienstleistungsumfrage",
-          "summary": "Der Gesamtumsatz mit ausgewählten Dienstleistungen in den USA betrug im zweiten Quartal 2026, bereinigt um saisonale Schwankungen, aber nicht um Preisänderungen, 6.418,7 Milliarden US-Dollar, ein Anstieg von 3,0 Prozent (+/- 0,4 Prozent) gegenüber dem ersten Quartal 2026 und ein Anstieg von 7,6 Prozent (+/- 0,6 Prozent) gegenüber dem zweiten Quartal 2025. Die prozentuale Veränderung vom ersten Quartal 2026 zum zweiten Quartal 2026 wurde von revidiert die Vorabschätzung liegt bei 3,1 Prozent (+/- 0,4 Prozent). 2. Quartal 2026: +3,0 % Veränderung 1. Quartal 2026 (r): +1,1 % Veränderung"
-        },
-        "zh-TW": {
-          "title": "季度服務調查",
-          "summary": "2026 年第二季美國特定服務總收入（經季節性變動但未經價格變動調整後）為 64,187 億美元，較 2026 年第一季成長 3.0%（+/- 0.4%），較 2025 年第二季成長 7.6%（+/- 0.6%）。 2026 年第一季至 2026 年第二季的百分比變化是根據提前修正的估計為 3.1%（+/- 0.4%）。 2026 年第二季：+3.0% 變化 2026 年第一季 (r)：+1.1% 變化"
-        },
-        "fr": {
-          "title": "Enquête trimestrielle sur les services",
-          "summary": "Le chiffre d'affaires total des services sélectionnés aux États-Unis pour le deuxième trimestre 2026, corrigé des variations saisonnières mais pas des changements de prix, s'est élevé à 6 418,7 milliards de dollars, soit une augmentation de 3,0 % (+/- 0,4 %) par rapport au premier trimestre 2026 et de 7,6 % (+/- 0,6 %) par rapport au deuxième trimestre 2025. La variation en pourcentage du premier trimestre 2026 au deuxième trimestre 2026 a été révisée par rapport à l’estimation anticipée de 3,1 pour cent (+/- 0,4 pour cent). 2e trimestre 2026 : +3,0 % variation 1er trimestre 2026 (r) : +1,1 % variation"
         }
       }
     },
@@ -269,44 +155,6 @@
       }
     },
     {
-      "title": "Quarterly Financial Report",
-      "link": "https://www.census.gov/econ/qfr/",
-      "summary": "Manufacturing corporations' not seasonally adjusted after-tax profits were $370.1 billion for the second quarter of 2026, up $82.8 (+/- 1.2) billion from first quarter of 2026. 2nd Qtr 2026: +82.8 Billions of Dollars 1st Qtr 2026 (r): +50.6 Billions of Dollars",
-      "published_at": "Tue, 08 Sep 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "bf08e7e849ef61cc8a1923a74e5201e63eb3bd6c8f00f6778504c7e4840228f7",
-      "translations": {
-        "zh-CN": {
-          "title": "季度财务报告",
-          "summary": "2026 年第二季度，制造企业未经季节性调整的税后利润为 3,701 亿美元，较 2026 年第一季度增长 828 (+/- 12) 亿美元。 2026 年第二季度：+828 亿美元 2026 年第一季度 (r)：+506 亿美元"
-        },
-        "ja": {
-          "title": "四半期財務報告書",
-          "summary": "製造業企業の季節調整されていない税引後利益は、2026 年第 2 四半期に 3,701 億ドルとなり、2026 年第 1 四半期から 828 億ドル (+/- 12 億ドル) 増加しました。 2026 年第 2 四半期: +828 億ドル 2026 年第 1 四半期 (r): +506 億ドル"
-        },
-        "ko": {
-          "title": "분기별 재무 보고서",
-          "summary": "제조 기업의 계절 조정되지 않은 세후 이익은 2026년 2분기에 3,701억 달러로 2026년 1분기보다 828억 달러(+/- 12억 달러) 증가했습니다. 2026년 2분기: +828억 달러 2026년 1분기(r): +506억 달러"
-        },
-        "zh-TW": {
-          "title": "季度財務報告",
-          "summary": "2026 年第二季度，製造企業未經季節性調整的稅後利潤為 3,701 億美元，較 2026 年第一季增長 828 (+/- 12) 億美元。 2026 年第二季：+828 億美元 2026 年第一季 (r)：+506 億美元"
-        },
-        "de": {
-          "title": "Vierteljährlicher Finanzbericht",
-          "summary": "Die nicht saisonbereinigten Gewinne nach Steuern der produzierenden Unternehmen beliefen sich im zweiten Quartal 2026 auf 370,1 Milliarden US-Dollar, was einem Anstieg von 82,8 (+/- 1,2) Milliarden US-Dollar gegenüber dem ersten Quartal 2026 entspricht. 2. Quartal 2026: +82,8 Milliarden Dollar 1. Quartal 2026 (r): +50,6 Milliarden Dollar"
-        },
-        "fr": {
-          "title": "Rapport financier trimestriel",
-          "summary": "Les bénéfices après impôts non désaisonnalisés des sociétés manufacturières s'élevaient à 370,1 milliards de dollars pour le deuxième trimestre 2026, en hausse de 82,8 (+/- 1,2) milliards de dollars par rapport au premier trimestre 2026. 2e trimestre 2026 : +82,8 milliards de dollars 1er trimestre 2026 (r) : +50,6 milliards de dollars"
-        }
-      }
-    },
-    {
       "title": "Waller, The Economic Outlook and Some Comments on My Policy Communication",
       "link": "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm",
       "summary": "Speech At Reuters NEXT Newsmaker Interview, Washington, D.C.",
@@ -341,44 +189,6 @@
         "fr": {
           "title": "Waller, Les perspectives économiques et quelques commentaires sur ma communication politique",
           "summary": "Discours lors de l'interview de Reuters NEXT Newsmaker, Washington, D.C."
-        }
-      }
-    },
-    {
-      "title": "U.S. International Trade in Goods and Services",
-      "link": "https://www.census.gov/foreign-trade/index.html",
-      "summary": "The nation's international trade deficit in goods and services increased to $88.6 billion in July from $71.2 billion in June (revised), as exports decreased and imports increased. July 2026: 24.4° % Change June 2026 (r): -6.0° % Change",
-      "published_at": "Thu, 03 Sep 2026 08:30:00 -0400",
-      "source": "census",
-      "category": "trade",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "3c24050ac2acde529ef831eac02096241c456fd96ed6d06cc15f75cbb4eacdaf",
-      "translations": {
-        "zh-CN": {
-          "title": "美国国际商品和服务贸易",
-          "summary": "由于出口减少和进口增加，该国 7 月份商品和服务国际贸易逆差从 6 月份的 712 亿美元（修正后）增至 886 亿美元。 2026 年 7 月：24.4° 变化百分比 2026 年 6 月 (r)：-6.0° 变化百分比"
-        },
-        "ja": {
-          "title": "米国の商品とサービスの国際貿易",
-          "summary": "同国の財とサービスの国際貿易赤字は、輸出が減少し輸入が増加したため、6月の712億ドル（改定値）から7月には886億ドルに増加した。 2026 年 7 月: 24.4° % 変化 2026 年 6 月 (r): -6.0° % 変化"
-        },
-        "ko": {
-          "title": "미국의 상품 및 서비스 국제 무역",
-          "summary": "상품 및 서비스 부문의 국가 국제 무역 적자는 수출이 감소하고 수입이 증가함에 따라 6월(개정)의 712억 달러에서 7월 886억 달러로 증가했습니다. 2026년 7월: 24.4° % 변화 2026년 6월(r): -6.0° % 변화"
-        },
-        "zh-TW": {
-          "title": "美國國際商品與服務貿易",
-          "summary": "由於出口減少和進口增加，該國 7 月商品和服務國際貿易逆差從 6 月的 712 億美元（修正後）增加到 886 億美元。 2026 年 7 月：24.4° 變化百分比 2026 年 6 月 (r)：-6.0° 變化百分比"
-        },
-        "de": {
-          "title": "Internationaler Handel der USA mit Waren und Dienstleistungen",
-          "summary": "Das internationale Handelsdefizit des Landes bei Waren und Dienstleistungen stieg im Juli von 71,2 Milliarden US-Dollar im Juni (revidiert) auf 88,6 Milliarden US-Dollar, da die Exporte zurückgingen und die Importe zunahmen. Juli 2026: 24,4° % Veränderung. Juni 2026 (r): -6,0° % Veränderung"
-        },
-        "fr": {
-          "title": "Commerce international des biens et services des États-Unis",
-          "summary": "Le déficit du commerce international des biens et services du pays a augmenté pour atteindre 88,6 milliards de dollars en juillet, contre 71,2 milliards de dollars en juin (révisé), alors que les exportations ont diminué et que les importations ont augmenté. Juillet 2026 : 24,4° % Variation Juin 2026 (r) : -6,0° % Variation"
         }
       }
     },
@@ -459,44 +269,6 @@
       }
     },
     {
-      "title": "Manufacturers' Shipments, Inventories, and Orders",
-      "link": "https://www.census.gov/manufacturing/m3/",
-      "summary": "New orders for manufactured goods in July, up following two consecutive monthly decreases, increased $5.8 billion or 0.9 percent to $663.6 billion. July 2026: +0.9° % Change June 2026 (r): -0.2° % Change",
-      "published_at": "Wed, 02 Sep 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "323853ef9fd48355a00626bde71484874a20a70ebe61207517d0c0d50023ca54",
-      "translations": {
-        "zh-CN": {
-          "title": "制造商的出货量、库存和订单",
-          "summary": "7 月份制成品新订单继连续两个月下降后增加 58 亿美元，即 0.9%，至 6,636 亿美元。 2026 年 7 月：+0.9° 变化百分比 2026 年 6 月 (r)：-0.2° 变化百分比"
-        },
-        "ja": {
-          "title": "メーカー出荷・在庫・受注状況",
-          "summary": "７月の製造品新規受注は２カ月連続の減少から増加し、５８億ドル（０．９％）増の６６３６億ドルとなった。 2026年7月: +0.9° %変化 2026年6月(r): -0.2° %変化"
-        },
-        "zh-TW": {
-          "title": "製造商的出貨量、庫存和訂單",
-          "summary": "7 月製成品新訂單繼連續兩個月下降後增加 58 億美元，即 0.9%，至 6,636 億美元。 2026 年 7 月：+0.9° 變化百分比 2026 年 6 月 (r)：-0.2° 變化百分比"
-        },
-        "ko": {
-          "title": "제조업체의 배송, 재고 및 주문",
-          "summary": "7월 공산품 신규 주문은 두 달 연속 감소한 후 증가하여 58억 달러(0.9%) 증가한 6,636억 달러를 기록했습니다. 2026년 7월: +0.9° % 변동 2026년 6월(r): -0.2° % 변동"
-        },
-        "de": {
-          "title": "Lieferungen, Bestände und Bestellungen der Hersteller",
-          "summary": "Die Auftragseingänge für Industriegüter stiegen im Juli nach zwei aufeinanderfolgenden monatlichen Rückgängen um 5,8 Milliarden US-Dollar oder 0,9 Prozent auf 663,6 Milliarden US-Dollar. Juli 2026: +0,9° % Veränderung Juni 2026 (r): -0,2° % Veränderung"
-        },
-        "fr": {
-          "title": "Expéditions, stocks et commandes des fabricants",
-          "summary": "Les nouvelles commandes de produits manufacturés en juillet, en hausse après deux baisses mensuelles consécutives, ont augmenté de 5,8 milliards de dollars, ou 0,9 pour cent, à 663,6 milliards de dollars. Juillet 2026 : +0,9° % Variation Juin 2026 (r) : -0,2° % Variation"
-        }
-      }
-    },
-    {
       "title": "Boris Vujčić: Listening to households: expectations, behaviour and monetary policy",
       "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html",
       "summary": "",
@@ -531,44 +303,6 @@
         "fr": {
           "title": "Boris Vujčić : À l'écoute des ménages : attentes, comportements et politique monétaire",
           "summary": ""
-        }
-      }
-    },
-    {
-      "title": "Construction Spending",
-      "link": "https://www.census.gov/construction/c30/c30index.html",
-      "summary": "Total construction spending for July 2026 ($2,157.6 billion) was 0.5 percent (+/- 0.8 percent)* below the revised June 2026 ($2,167.7 billion) estimate. July 2026: -0.5* % Change June 2026 (r): 0.0* % Change",
-      "published_at": "Tue, 01 Sep 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "06ee8e1191c82d21a5057f2beae0b2a0a828478556fd43e2242cd5ca5f0ed051",
-      "translations": {
-        "zh-CN": {
-          "title": "建筑开支",
-          "summary": "2026 年 7 月的总建筑支出（21,576 亿美元）比 2026 年 6 月修订后的估计值（21,677 亿美元）低 0.5% (+/- 0.8%)*。 2026 年 7 月：-0.5* 变化百分比 2026 年 6 月 (r)：0.0* 变化百分比"
-        },
-        "ja": {
-          "title": "建設支出",
-          "summary": "2026 年 7 月の建設支出総額 (2 兆 1,576 億ドル) は、2026 年 6 月の修正予測値 (2 兆 1,677 億ドル) を 0.5 パーセント (+/- 0.8 パーセント)*下回りました。 2026 年 7 月: -0.5* % 変化 2026 年 6 月 (r): 0.0* % 変化"
-        },
-        "zh-TW": {
-          "title": "建筑开支",
-          "summary": "2026 年 7 月的總建築支出（21,576 億美元）比 2026 年 6 月修訂後的估計值（21,677 億美元）低 0.5% (+/- 0.8%)*。 2026 年 7 月：-0.5* 變化百分比 2026 年 6 月 (r)：0.0* 變化百分比"
-        },
-        "ko": {
-          "title": "건설비",
-          "summary": "2026년 7월 총 건설 지출(2조 1,576억 달러)은 수정된 2026년 6월 추정치(2조 1,677억 달러)보다 0.5%(+/- 0.8%)* 낮았습니다. 2026년 7월: -0.5* % 변화 2026년 6월(r): 0.0* % 변화"
-        },
-        "de": {
-          "title": "Bauausgaben",
-          "summary": "Die gesamten Bauausgaben für Juli 2026 (2.157,6 Milliarden US-Dollar) lagen 0,5 Prozent (+/- 0,8 Prozent)* unter der revidierten Schätzung vom Juni 2026 (2.167,7 Milliarden US-Dollar). Juli 2026: -0,5* % Veränderung Juni 2026 (r): 0,0* % Veränderung"
-        },
-        "fr": {
-          "title": "Dépenses de construction",
-          "summary": "Les dépenses totales de construction pour juillet 2026 (2 157,6 milliards de dollars) étaient inférieures de 0,5 % (+/- 0,8 %)* à l'estimation révisée de juin 2026 (2 167,7 milliards de dollars). Juillet 2026 : -0,5* % de variation Juin 2026 (r) : 0,0* % de variation"
         }
       }
     },
@@ -649,49 +383,11 @@
       }
     },
     {
-      "title": "Advance Wholesale Inventories",
-      "link": "https://www.census.gov/econ/indicators/index.html",
-      "summary": "July end-of-month inventories were $959.1 billion, up 1.3 percent (+/- 0.2 percent) from last month. July 2026: +1.3 % Change in Inventories June 2026 (r): +0.3 % Change in Inventories",
-      "published_at": "Thu, 27 Aug 2026 08:30:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "aa180d3e16357e2f3b503113c3167d65af8bd4357a0b0ac4d57b4933eea171a3",
-      "translations": {
-        "zh-CN": {
-          "title": "预付批发库存",
-          "summary": "7 月末库存为 9,591 亿美元，较上月增长 1.3%（+/- 0.2%）。 2026 年 7 月：库存变化 +1.3% 2026 年 6 月 (r)：库存变化 +0.3%"
-        },
-        "ja": {
-          "title": "事前の卸売在庫",
-          "summary": "７月の月末在庫は９５９１億ドルで、前月比１．３％（±０．２％）増加した。 2026年7月: +1.3 % 在庫変動 2026年6月(r): +0.3 % 在庫変動"
-        },
-        "ko": {
-          "title": "사전 도매 재고",
-          "summary": "7월말 재고는 9,591억 달러로 전월 대비 1.3%(+/-0.2%) 증가했다. 2026년 7월: 재고 변동 +1.3% 2026년 6월(r): 재고 변동 +0.3%"
-        },
-        "zh-TW": {
-          "title": "預付批發庫存",
-          "summary": "7 月底庫存為 9,591 億美元，比上月增長 1.3%（+/- 0.2%）。 2026 年 7 月：庫存變化 +1.3% 2026 年 6 月 (r)：庫存變化 +0.3%"
-        },
-        "de": {
-          "title": "Erweiterte Lagerbestände im Großhandel",
-          "summary": "Die Lagerbestände zum Monatsende beliefen sich im Juli auf 959,1 Milliarden US-Dollar, ein Plus von 1,3 Prozent (+/- 0,2 Prozent) gegenüber dem Vormonat. Juli 2026: +1,3 % Bestandsveränderung Juni 2026 (r): +0,3 % Bestandsveränderung"
-        },
-        "fr": {
-          "title": "Avancer les stocks en gros",
-          "summary": "Les stocks de fin de mois de juillet s'élevaient à 959,1 milliards de dollars, en hausse de 1,3 pour cent (+/- 0,2 pour cent) par rapport au mois dernier. Juillet 2026 : +1,3 % Variation des Stocks Juin 2026 (r) : +0,3 % Variation des Stocks"
-        }
-      }
-    },
-    {
       "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -721,44 +417,6 @@
         "fr": {
           "title": "Procès-verbaux des séances d'actualisation du Conseil des 20 et 29 juillet 2026",
           "summary": "Procès-verbaux des séances d'actualisation du Conseil des 20 et 29 juillet 2026"
-        }
-      }
-    },
-    {
-      "title": "New Home Sales",
-      "link": "https://www.census.gov/construction/nrs/",
-      "summary": "Sales of new single-family houses in July 2026 were at a seasonally adjusted annual rate of 607,000. This is 10.5 percent (+/- 14.0%)* below the revised June 2026 estimate of 678,000. July 2026: -10.5* % Change June 2026 (r): +7.6* % Change",
-      "published_at": "Tue, 25 Aug 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "5df620dd3d41b04f38a57bc409dd554466994d15af9bd0d15f6840d0e7eb42b6",
-      "translations": {
-        "zh-CN": {
-          "title": "新屋销售",
-          "summary": "2026 年 7 月新建单户住宅销量经季节性调整后的年增长率为 607,000 套。这比修订后的 2026 年 6 月估计数 678,000 低 10.5% (+/- 14.0%)*。 2026 年 7 月：-10.5* 变化百分比 2026 年 6 月 (r)：+7.6* 变化百分比"
-        },
-        "ja": {
-          "title": "新築住宅販売",
-          "summary": "2026年7月の新築一戸建て住宅の販売戸数（季節調整後）は年率60万7,000戸となった。これは、2026 年 6 月の改訂予測値 678,000 を 10.5 パーセント (+/- 14.0 %)* 下回っています。 2026 年 7 月: -10.5* % 変化 2026 年 6 月 (r): +7.6* % 変化"
-        },
-        "zh-TW": {
-          "title": "新屋銷售",
-          "summary": "2026 年 7 月新建單戶住宅銷售經季節性調整後的年增率為 607,000 套。這比修訂後的 2026 年 6 月估計數 678,000 低 10.5% (+/- 14.0%)*。 2026 年 7 月：-10.5* 變化百分比 2026 年 6 月 (r)：+7.6* 變化百分比"
-        },
-        "ko": {
-          "title": "신규 주택 판매",
-          "summary": "2026년 7월 신규 단독주택 매매는 계절조정 연율 607,000건이었습니다. 이는 2026년 6월 수정된 추정치인 678,000보다 10.5%(+/- 14.0%)* 낮은 수치입니다. 2026년 7월: -10.5* % 변화 2026년 6월(r): +7.6* % 변화"
-        },
-        "de": {
-          "title": "Verkauf neuer Häuser",
-          "summary": "Der Verkauf neuer Einfamilienhäuser lag im Juli 2026 bei einer saisonbereinigten Jahresrate von 607.000. Das sind 10,5 Prozent (+/- 14,0 %)* weniger als die revidierte Schätzung vom Juni 2026 von 678.000. Juli 2026: -10,5* % Veränderung Juni 2026 (r): +7,6* % Veränderung"
-        },
-        "fr": {
-          "title": "Ventes de maisons neuves",
-          "summary": "Les ventes de maisons unifamiliales neuves en juillet 2026 se sont établies à un rythme annuel désaisonnalisé de 607 000. Cela représente 10,5 pour cent (+/- 14,0%)* de moins que l'estimation révisée de juin 2026 de 678 000. Juillet 2026 : -10,5* % de variation Juin 2026 (r) : +7,6* % de variation"
         }
       }
     },
@@ -797,120 +455,6 @@
         "fr": {
           "title": "Procès-verbal du Comité fédéral de l’open market, 28 et 29 juillet 2026",
           "summary": "Procès-verbal du Comité fédéral de l’open market, 28 et 29 juillet 2026"
-        }
-      }
-    },
-    {
-      "title": "New Residential Construction",
-      "link": "https://www.census.gov/construction/nrc/index.html",
-      "summary": "Privately-owned housing starts in July 2026 were at a seasonally adjusted annual rate of 1,239,000. This is 12.4 percent (+/- 9.5%) below the revised June 2026 estimate of 1,415,000. July 2026: -12.4 % Change June 2026 (r): +19.7 % Change",
-      "published_at": "Tue, 18 Aug 2026 08:30:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "b788fc10e538d66a6703bddc8032216539b9f2a89184e3a62afcf93eeef86076",
-      "translations": {
-        "zh-CN": {
-          "title": "新住宅建设",
-          "summary": "2026 年 7 月，经季节调整后的私人住房开工量年率为 1,239,000 套。这比修订后的 2026 年 6 月估计数 1,415,000 低 12.4% (+/- 9.5%)。 2026 年 7 月：-12.4% 变化 2026 年 6 月 (r)：+19.7% 变化"
-        },
-        "zh-TW": {
-          "title": "新住宅建設",
-          "summary": "2026 年 7 月，經季節調整後的私人住宅開工量年率為 1,239,000 套。這比修訂後的 2026 年 6 月估計數 1,415,000 低 12.4% (+/- 9.5%)。 2026 年 7 月：-12.4% 變化 2026 年 6 月 (r)：+19.7% 變化"
-        },
-        "ja": {
-          "title": "新築住宅建設",
-          "summary": "２０２６年７月の民間住宅着工件数は季節調整済み年率１２３万９０００戸だった。これは、2026 年 6 月の改訂予測値 1,415,000 を 12.4 パーセント (+/- 9.5 %) 下回っています。 2026年7月: -12.4 %変化 2026年6月(r): +19.7 %変化"
-        },
-        "ko": {
-          "title": "새로운 주거 건설",
-          "summary": "2026년 7월 개인 소유 주택 착공은 계절 조정 연율 1,239,000건이었습니다. 이는 2026년 6월 수정된 추정치인 1,415,000보다 12.4%(+/- 9.5%) 낮은 수치입니다. 2026년 7월: -12.4% 변동 2026년 6월(r): +19.7% 변동"
-        },
-        "de": {
-          "title": "Neubau von Wohngebäuden",
-          "summary": "Im Juli 2026 wurden saisonbereinigt 1.239.000 Wohnungen in Privatwohnungen neu gebaut. Das sind 12,4 Prozent (+/- 9,5 %) weniger als die revidierte Schätzung vom Juni 2026 von 1.415.000. Juli 2026: -12,4 % Veränderung Juni 2026 (r): +19,7 % Veränderung"
-        },
-        "fr": {
-          "title": "Nouvelle construction résidentielle",
-          "summary": "En juillet 2026, les mises en chantier de logements privés se sont établies à un taux annuel désaisonnalisé de 1 239 000. Cela représente 12,4 % (+/- 9,5 %) de moins que l'estimation révisée de juin 2026 de 1 415 000. Juillet 2026 : -12,4 % Variation Juin 2026 (r) : +19,7 % Variation"
-        }
-      }
-    },
-    {
-      "title": "Manufacturing and Trade Inventories and Sales",
-      "link": "https://www.census.gov/mtis/index.html",
-      "summary": "U.S. total business end-of-month inventories for June 2026 were $2,740.2 billion, virtually unchanged (+/- 0.1 percent)* from last month. U.S. total business sales were $2,111.3 billion, down 1.1 percent (+/- 0.2 percent) from last month. June 2026: 0.0* % Change in Inventories May 2026 (r): +0.4 % Change in Inventories",
-      "published_at": "Fri, 14 Aug 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "trade",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "99f7510a2324aa4a4d4f52516be2c2d75247c622e5e194f1b736bd8698ce3b00",
-      "translations": {
-        "zh-CN": {
-          "title": "制造和贸易库存和销售",
-          "summary": "2026 年 6 月美国企业月末库存总额为 27,402 亿美元，与上个月基本持平（+/- 0.1%）*。美国企业总销售额为 21,113 亿美元，较上月下降 1.1%（+/- 0.2%）。 2026 年 6 月：0.0* 库存变化百分比 2026 年 5 月 (r)：库存变化 +0.4%"
-        },
-        "zh-TW": {
-          "title": "製造和貿易庫存和銷售",
-          "summary": "2026 年 6 月美國企業月末庫存總額為 27,402 億美元，與上個月基本持平（+/- 0.1%）*。美國企業總銷售額為 21,113 億美元，較上月下降 1.1%（+/- 0.2%）。 2026 年 6 月：0.0* 庫存變化百分比 2026 年 5 月 (r)：庫存變化 +0.4%"
-        },
-        "ja": {
-          "title": "製造および貿易の在庫および販売",
-          "summary": "2026 年 6 月の米国企業の月末在庫総額は 2 兆 7,402 億ドルで、前月から実質的に変化なし (+/- 0.1%)* でした。米国の総事業売上高は２兆１１１３億ドルで、前月比１．１％（±０．２％）減少した。 2026 年 6 月: 0.0* % 在庫変動率 2026 年 5 月 (r): +0.4 % 在庫変動率"
-        },
-        "ko": {
-          "title": "제조 및 무역 재고 및 판매",
-          "summary": "2026년 6월 미국의 총 기업 월말 재고는 2조 7,402억 달러로 지난달과 거의 변동이 없었습니다(+/- 0.1%)*. 미국 전체 기업 매출은 2조1113억 달러로 전월보다 1.1%(+/-0.2%) 감소했다. 2026년 6월: 0.0* 재고 변동률 % 2026년 5월(r): 재고 변동률 +0.4%"
-        },
-        "de": {
-          "title": "Produktions- und Handelsbestände und -verkäufe",
-          "summary": "Die gesamten Lagerbestände der US-Unternehmen zum Monatsende beliefen sich im Juni 2026 auf 2.740,2 Milliarden US-Dollar, praktisch unverändert (+/- 0,1 Prozent)* gegenüber dem Vormonat. Der Gesamtumsatz der US-Unternehmen belief sich auf 2.111,3 Milliarden US-Dollar, was einem Rückgang von 1,1 Prozent (+/- 0,2 Prozent) gegenüber dem Vormonat entspricht. Juni 2026: 0,0* % Bestandsveränderung Mai 2026 (r): +0,4 % Bestandsveränderung"
-        },
-        "fr": {
-          "title": "Stocks et ventes de fabrication et commerciaux",
-          "summary": "Les stocks totaux des entreprises américaines de fin de mois pour juin 2026 s'élevaient à 2 740,2 milliards de dollars, pratiquement inchangés (+/- 0,1 %)* par rapport au mois dernier. Le chiffre d'affaires total des entreprises aux États-Unis s'est élevé à 2.111,3 milliards de dollars, en baisse de 1,1 pour cent (+/- 0,2 pour cent) par rapport au mois dernier. Juin 2026 : 0,0* % de variation des stocks Mai 2026 (r) : +0,4 % de variation des stocks"
-        }
-      }
-    },
-    {
-      "title": "Advance Monthly Sales for Retail and Food Services",
-      "link": "https://www.census.gov/retail/index.html",
-      "summary": "U.S. retail and food services sales for July 2026 were $763.6 billion, down 0.6 percent (+/-0.4 percent) from the previous month. July 2026: -0.6 % Change June 2026 (r): +0.2* % Change",
-      "published_at": "Fri, 14 Aug 2026 08:30:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "1bbfbd906a1a6db79d235c2e801063e364b0ef6cd9fc479cf168708326080ac2",
-      "translations": {
-        "zh-CN": {
-          "title": "零售和食品服务的月销售额预付款",
-          "summary": "2026 年 7 月美国零售和食品服务销售额为 7,636 亿美元，环比下降 0.6% (+/-0.4%)。 2026 年 7 月：-0.6% 变化 2026 年 6 月 (r)：+0.2* % 变化"
-        },
-        "zh-TW": {
-          "title": "零售和食品服務的月銷售額預付款",
-          "summary": "2026 年 7 月美國零售與食品服務銷售額為 7,636 億美元，較上季下降 0.6% (+/-0.4%)。 2026 年 7 月：-0.6% 變化 2026 年 6 月 (r)：+0.2* % 變化"
-        },
-        "ja": {
-          "title": "小売および食品サービスの前月次売上高",
-          "summary": "2026年7月の米国の小売・食品サービス売上高は7,636億ドルで、前月比0.6％（±0.4％）減少した。 2026 年 7 月: -0.6 % 変化 2026 年 6 月 (r): +0.2* % 変化"
-        },
-        "ko": {
-          "title": "소매 및 식품 서비스에 대한 월별 사전 판매",
-          "summary": "2026년 7월 미국 소매 및 식품 서비스 매출은 7,636억 달러로 전월보다 0.6%(+/-0.4%) 감소했습니다. 2026년 7월: -0.6% 변동 2026년 6월(r): +0.2*% 변동"
-        },
-        "de": {
-          "title": "Monatliche Vorverkäufe für Einzelhandel und Lebensmitteldienstleistungen",
-          "summary": "Der US-Einzelhandels- und Lebensmitteldienstleistungsumsatz belief sich im Juli 2026 auf 763,6 Milliarden US-Dollar, 0,6 Prozent (+/-0,4 Prozent) weniger als im Vormonat. Juli 2026: -0,6 % Veränderung Juni 2026 (r): +0,2* % Veränderung"
-        },
-        "fr": {
-          "title": "Avancer les ventes mensuelles pour le commerce de détail et les services alimentaires",
-          "summary": "Les ventes du commerce de détail et des services alimentaires aux États-Unis pour juillet 2026 se sont élevées à 763,6 milliards de dollars, en baisse de 0,6 % (+/-0,4 %) par rapport au mois précédent. Juillet 2026 : -0,6 % Variation Juin 2026 (r) : +0,2* % Variation"
         }
       }
     },
@@ -957,7 +501,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -987,44 +531,6 @@
         "fr": {
           "title": "La Réserve fédérale publie une déclaration du FOMC",
           "summary": "La Réserve fédérale publie une déclaration du FOMC"
-        }
-      }
-    },
-    {
-      "title": "Housing Vacancies and Homeownership",
-      "link": "https://www.census.gov/housing/hvs/",
-      "summary": "The homeownership rate of 65.0 percent was virtually the same as the rate in the second quarter 2025. The homeownership rates in the Northeast, Midwest, South, and West were not statistically different from second quarter 2025 rates. 2nd Qtr 2026: +0.0* Percentage Points 2nd Qtr 2025: -0.6* Percentage Points",
-      "published_at": "Tue, 28 Jul 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "b246e36a35b4f89cb35dd67eee7aef3a31535708968ed021aee387e07e270b61",
-      "translations": {
-        "zh-CN": {
-          "title": "住房空置和住房拥有率",
-          "summary": "65.0%的住房拥有率与 2025 年第二季度的住房拥有率几乎相同。东北部、中西部、南部和西部的住房拥有率与 2025 年第二季度没有统计差异。 2026 年第二季度：+0.0* 百分点 2025 年第二季度：-0.6* 百分点"
-        },
-        "ja": {
-          "title": "住宅の空室と住宅所有権",
-          "summary": "65.0% という住宅所有率は、2025 年第 2 四半期の住宅所有率と実質的に同じでした。北東部、中西部、南部、西部の住宅所有率は、2025 年第 2 四半期の住宅所有率と統計的には変わりませんでした。 2026 年第 2 四半期: +0.0* パーセント ポイント 2025 年第 2 四半期: -0.6* パーセント ポイント"
-        },
-        "ko": {
-          "title": "주택 공실 및 주택 소유",
-          "summary": "주택보유율은 65.0%로 2025년 2분기 주택보유율과 사실상 같았다. 북동부, 중서부, 남부, 서부 지역의 주택보유율은 2025년 2분기 주택보유율과 통계적으로 다르지 않았다. 2026년 2분기: +0.0* 백분율 포인트 2025년 2분기: -0.6* 백분율 포인트"
-        },
-        "zh-TW": {
-          "title": "住房空置和住房擁有率",
-          "summary": "65.0%的住房擁有率與 2025 年第二季的住房擁有率幾乎相同。東北部、中西部、南部和西部的住房擁有率與 2025 年第二季沒有統計差異。 2026 年第二季：+0.0* 百分點 2025 年第二季：-0.6* 百分點"
-        },
-        "de": {
-          "title": "Wohnungsleerstand und Wohneigentum",
-          "summary": "Die Wohneigentumsquote von 65,0 Prozent entsprach praktisch der Quote im zweiten Quartal 2025. Die Wohneigentumsquoten im Nordosten, Mittleren Westen, Süden und Westen unterschieden sich statistisch gesehen nicht von den Quoten im zweiten Quartal 2025. 2. Quartal 2026: +0,0* Prozentpunkte 2. Quartal 2025: -0,6* Prozentpunkte"
-        },
-        "fr": {
-          "title": "Offres de logements vacants et accession à la propriété",
-          "summary": "Le taux d'accession à la propriété de 65,0 pour cent était pratiquement le même que celui du deuxième trimestre 2025. Les taux d'accession à la propriété dans le Nord-Est, le Midwest, le Sud et l'Ouest n'étaient pas statistiquement différents des taux du deuxième trimestre 2025. 2e trimestre 2026 : +0,0* points de pourcentage 2e trimestre 2025 : -0,6* points de pourcentage"
         }
       }
     },
@@ -2053,6 +1559,162 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "b913e2014a1c590a06230e201b743e6ef224d6a5a356c51addaeb7d4912bd47e"
+    },
+    {
+      "title": "CPI for all items rises 0.3% in September; gasoline up",
+      "link": "https://www.bls.gov/news.release/archives/cpi_10242025.htm",
+      "summary": "",
+      "published_at": "2025-10-24T08:30:00-04:00",
+      "source": "bls_cpi",
+      "category": "inflation",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
+      "_translation_hash": "044af1e69df439dcfbdc5335fa821579e6cc7c52c8d2171caae18d4fc2ca7848"
+    },
+    {
+      "title": "August job openings unchanged; hires and total separations change little",
+      "link": "https://www.bls.gov/news.release/archives/jolts_09302025.htm",
+      "summary": "",
+      "published_at": "2025-09-30T10:00:00-04:00",
+      "source": "bls_jolts",
+      "category": "labor",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "50e8f44815ed60c51b21db238e068a8e70f181f62df21728e13080844889b30e"
+    },
+    {
+      "title": "CPI for all items rises 0.4% in August; shelter and food up",
+      "link": "https://www.bls.gov/news.release/archives/cpi_09112025.htm",
+      "summary": "",
+      "published_at": "2025-09-11T08:30:00-04:00",
+      "source": "bls_cpi",
+      "category": "inflation",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
+      "_translation_hash": "dcc4c3f6fcabe746e3475b84a88ca883228a5a37aa7ce8f33869fa2ff10ef920"
+    },
+    {
+      "title": "PPI for final demand declines 0.1% in August; services fall 0.2%, goods increase 0.1%",
+      "link": "https://www.bls.gov/news.release/archives/ppi_09102025.htm",
+      "summary": "",
+      "published_at": "2025-09-10T08:30:00-04:00",
+      "source": "bls_ppi",
+      "category": "inflation",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
+      "_translation_hash": "2d63234f42ccec42943aaf811f237af0041ece5d9c945b9b5b3427b4bc09b138"
+    },
+    {
+      "title": "Both payroll employment (+22,000) and unemployment rate (4.3%) change little in August",
+      "link": "https://www.bls.gov/news.release/archives/empsit_09052025.htm",
+      "summary": "",
+      "published_at": "2025-09-05T08:30:00-04:00",
+      "source": "bls_jobs",
+      "category": "labor",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "25104201d9e4a282aab1e9ff171c130e5a1bc5abb51c7f09d98c7e351796b21b"
+    },
+    {
+      "title": "July job openings change little; hires and total separations unchanged",
+      "link": "https://www.bls.gov/news.release/archives/jolts_09032025.htm",
+      "summary": "",
+      "published_at": "2025-09-03T10:00:00-04:00",
+      "source": "bls_jolts",
+      "category": "labor",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "273d12d1e66beec9684aa0f56a77dd95c4aafd585630c92dde62898c7a5cd83b"
+    },
+    {
+      "title": "CPI for all items increases 0.4% in August; gasoline rises",
+      "link": "https://www.bls.gov/news.release/archives/cpi_09112026.htm",
+      "summary": "",
+      "published_at": "2026-09-11T07:50:40.968-04:00",
+      "source": "bls_cpi",
+      "category": "inflation",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
+      "_translation_hash": "16821baf0c127102bd383d0e61fff0c55916961de3535902f98a08a38ea62de5"
+    },
+    {
+      "title": "CPI for all items increases 0.1% in July; shelter rises",
+      "link": "https://www.bls.gov/news.release/archives/cpi_08122026.htm",
+      "summary": "",
+      "published_at": "2026-08-12T07:51:16.21-04:00",
+      "source": "bls_cpi",
+      "category": "inflation",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
+      "_translation_hash": "d6b584203bb264bc2059d11979937dc1fd2e9dd0dd808175543d81d029af6502"
+    },
+    {
+      "title": "CPI for all items falls 0.4% in June; gasoline down",
+      "link": "https://www.bls.gov/news.release/archives/cpi_07142026.htm",
+      "summary": "",
+      "published_at": "2026-07-14T07:50:27.969-04:00",
+      "source": "bls_cpi",
+      "category": "inflation",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
+      "_translation_hash": "08dca143e2e8c65c1767c4eeef1159cc40eaadd4ad1abce466eb3fd02fb6a679"
+    },
+    {
+      "title": "Payroll employment increases by 162,000 in August; unemployment rate unchanged at 4.1%",
+      "link": "https://www.bls.gov/news.release/archives/empsit_09042026.htm",
+      "summary": "",
+      "published_at": "2026-09-04T07:51:08.695-04:00",
+      "source": "bls_jobs",
+      "category": "labor",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "49b1542c52b1f8034e8ab011771940c7a52f53795abb67536de62c040206f247"
+    },
+    {
+      "title": "Both payroll employment (-23,000) and unemployment rate (4.1%) change little in July",
+      "link": "https://www.bls.gov/news.release/archives/empsit_08072026.htm",
+      "summary": "",
+      "published_at": "2026-08-07T07:50:34.021-04:00",
+      "source": "bls_jobs",
+      "category": "labor",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "2fea409a8f0ce6ef44be9fa047cb23023b83659a75711cfa6dc325a532e2e4c0"
+    },
+    {
+      "title": "Both payroll employment (+57,000) and unemployment rate (4.2%) change little in June",
+      "link": "https://www.bls.gov/news.release/archives/empsit_07022026.htm",
+      "summary": "",
+      "published_at": "2026-07-02T07:50:52.662-04:00",
+      "source": "bls_jobs",
+      "category": "labor",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "eb18da463121b0d2c9cd94121ed8c59b235586218cc502f3c4f35ddf2611ec44"
+    },
+    {
+      "title": "Job openings, hires, and total separations change little in July",
+      "link": "https://www.bls.gov/news.release/archives/jolts_09012026.htm",
+      "summary": "",
+      "published_at": "2026-09-01T09:20:29.31-04:00",
+      "source": "bls_jolts",
+      "category": "labor",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "500db7192b8fd428df83835fd500eb408147dab1fb52d83ef80ada6036db7c8d"
     }
   ]
 }
