@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T13:52:50.026972+00:00",
+  "generated_at": "2026-09-15T14:03:36.591211+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
   "confidence": 92,
@@ -7,7 +7,6 @@
   "drivers": [
     "warsh",
     "fedwatch",
-    "xau",
     "dxy"
   ],
   "counter_risks": [],
