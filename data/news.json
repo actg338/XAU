@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-16T14:06:35.089332+00:00",
+  "fetched_at": "2026-09-16T14:24:39.767250+00:00",
   "total": 116,
   "items": [
     {
@@ -12,7 +12,33 @@
       "impact": "medium",
       "gold_bias": "neutral",
       "why_key": "trade_neutral",
-      "_translation_hash": "e7e1d914390fcf849121ecd51eadbbbda7544e296dd907a4041a42bcdfe210e2"
+      "_translation_hash": "e7e1d914390fcf849121ecd51eadbbbda7544e296dd907a4041a42bcdfe210e2",
+      "translations": {
+        "ja": {
+          "title": "製造および貿易の在庫および販売",
+          "summary": "2026年7月の米国企業の月末在庫総額は2兆7,647億ドルで、前月比0.8％（±0.1％）増加した。米国の総事業売上高は２兆１２０７億ドルで、前月比０．３％（±０．２％）増加した。 2026 年 7 月: +0.8 % 在庫変動率 2026 年 6 月 (r): +0.1* % 在庫変動率"
+        },
+        "zh-CN": {
+          "title": "制造和贸易库存和销售",
+          "summary": "2026 年 7 月美国企业月末库存总额为 27,647 亿美元，比上月增长 0.8%（+/- 0.1%）。美国企业总销售额为 21,207 亿美元，较上月增长 0.3%（+/- 0.2%）。 2026 年 7 月：库存变化 +0.8% 2026 年 6 月 (r)：库存变化 +0.1*%"
+        },
+        "de": {
+          "title": "Produktions- und Handelsbestände und -verkäufe",
+          "summary": "Die gesamten Lagerbestände der US-Unternehmen zum Monatsende beliefen sich im Juli 2026 auf 2.764,7 Milliarden US-Dollar, ein Plus von 0,8 Prozent (+/- 0,1 Prozent) gegenüber dem Vormonat. Der Gesamtumsatz der US-Unternehmen belief sich auf 2.120,7 Milliarden US-Dollar, ein Plus von 0,3 Prozent (+/- 0,2 Prozent) gegenüber dem Vormonat. Juli 2026: +0,8 % Bestandsveränderung Juni 2026 (r): +0,1* % Bestandsveränderung"
+        },
+        "zh-TW": {
+          "title": "製造和貿易庫存和銷售",
+          "summary": "2026 年 7 月美國企業月末庫存總額為 27,647 億美元，較上月成長 0.8%（+/- 0.1%）。美國企業總銷售額為 21,207 億美元，較上月成長 0.3%（+/- 0.2%）。 2026 年 7 月：庫存變動 +0.8% 2026 年 6 月 (r)：庫存變動 +0.1*%"
+        },
+        "fr": {
+          "title": "Stocks et ventes de fabrication et commerciaux",
+          "summary": "Les stocks totaux des entreprises américaines de fin de mois pour juillet 2026 s'élevaient à 2 764,7 milliards de dollars, en hausse de 0,8 % (+/- 0,1 %) par rapport au mois dernier. Le chiffre d'affaires total des entreprises aux États-Unis s'est élevé à 2.120,7 milliards de dollars, en hausse de 0,3 pour cent (+/- 0,2 pour cent) par rapport au mois dernier. Juillet 2026 : +0,8 % de variation des stocks Juin 2026 (r) : +0,1* % de variation des stocks"
+        },
+        "ko": {
+          "title": "제조 및 무역 재고 및 판매",
+          "summary": "2026년 7월 미국의 총 기업 월말 재고는 2조 7,647억 달러로 지난달보다 0.8%(+/- 0.1%) 증가했습니다. 미국 전체 기업 매출은 2조1207억 달러로 전월보다 0.3%(+/-0.2%) 증가했다. 2026년 7월: 재고 변동률 +0.8% 2026년 6월(r): 재고 변동률 +0.1*%"
+        }
+      }
     },
     {
       "title": "Advance Monthly Sales for Retail and Food Services",
@@ -741,7 +767,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -931,7 +957,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
