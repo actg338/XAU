@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-09-16T13:53:25.861135+00:00",
+  "fetched_at": "2026-09-16T14:06:35.089332+00:00",
   "total": 116,
   "items": [
+    {
+      "title": "Manufacturing and Trade Inventories and Sales",
+      "link": "https://www.census.gov/mtis/index.html",
+      "summary": "U.S. total business end-of-month inventories for July 2026 were $2,764.7 billion, up 0.8 percent (+/- 0.1 percent) from last month. U.S. total business sales were $2,120.7 billion, up 0.3 percent (+/- 0.2 percent) from last month. July 2026: +0.8 % Change in Inventories June 2026 (r): +0.1* % Change in Inventories",
+      "published_at": "Wed, 16 Sep 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "trade",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "trade_neutral",
+      "_translation_hash": "e7e1d914390fcf849121ecd51eadbbbda7544e296dd907a4041a42bcdfe210e2"
+    },
     {
       "title": "Advance Monthly Sales for Retail and Food Services",
       "link": "https://www.census.gov/retail/index.html",
@@ -873,44 +885,6 @@
         "fr": {
           "title": "Nouvelle construction résidentielle",
           "summary": "En juillet 2026, les mises en chantier de logements privés se sont établies à un taux annuel désaisonnalisé de 1 239 000. Cela représente 12,4 % (+/- 9,5 %) de moins que l'estimation révisée de juin 2026 de 1 415 000. Juillet 2026 : -12,4 % Variation Juin 2026 (r) : +19,7 % Variation"
-        }
-      }
-    },
-    {
-      "title": "Manufacturing and Trade Inventories and Sales",
-      "link": "https://www.census.gov/mtis/index.html",
-      "summary": "U.S. total business end-of-month inventories for June 2026 were $2,740.2 billion, virtually unchanged (+/- 0.1 percent)* from last month. U.S. total business sales were $2,111.3 billion, down 1.1 percent (+/- 0.2 percent) from last month. June 2026: 0.0* % Change in Inventories May 2026 (r): +0.4 % Change in Inventories",
-      "published_at": "Fri, 14 Aug 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "trade",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "99f7510a2324aa4a4d4f52516be2c2d75247c622e5e194f1b736bd8698ce3b00",
-      "translations": {
-        "zh-CN": {
-          "title": "制造和贸易库存和销售",
-          "summary": "2026 年 6 月美国企业月末库存总额为 27,402 亿美元，与上个月基本持平（+/- 0.1%）*。美国企业总销售额为 21,113 亿美元，较上月下降 1.1%（+/- 0.2%）。 2026 年 6 月：0.0* 库存变化百分比 2026 年 5 月 (r)：库存变化 +0.4%"
-        },
-        "zh-TW": {
-          "title": "製造和貿易庫存和銷售",
-          "summary": "2026 年 6 月美國企業月末庫存總額為 27,402 億美元，與上個月基本持平（+/- 0.1%）*。美國企業總銷售額為 21,113 億美元，較上月下降 1.1%（+/- 0.2%）。 2026 年 6 月：0.0* 庫存變化百分比 2026 年 5 月 (r)：庫存變化 +0.4%"
-        },
-        "ja": {
-          "title": "製造および貿易の在庫および販売",
-          "summary": "2026 年 6 月の米国企業の月末在庫総額は 2 兆 7,402 億ドルで、前月から実質的に変化なし (+/- 0.1%)* でした。米国の総事業売上高は２兆１１１３億ドルで、前月比１．１％（±０．２％）減少した。 2026 年 6 月: 0.0* % 在庫変動率 2026 年 5 月 (r): +0.4 % 在庫変動率"
-        },
-        "ko": {
-          "title": "제조 및 무역 재고 및 판매",
-          "summary": "2026년 6월 미국의 총 기업 월말 재고는 2조 7,402억 달러로 지난달과 거의 변동이 없었습니다(+/- 0.1%)*. 미국 전체 기업 매출은 2조1113억 달러로 전월보다 1.1%(+/-0.2%) 감소했다. 2026년 6월: 0.0* 재고 변동률 % 2026년 5월(r): 재고 변동률 +0.4%"
-        },
-        "de": {
-          "title": "Produktions- und Handelsbestände und -verkäufe",
-          "summary": "Die gesamten Lagerbestände der US-Unternehmen zum Monatsende beliefen sich im Juni 2026 auf 2.740,2 Milliarden US-Dollar, praktisch unverändert (+/- 0,1 Prozent)* gegenüber dem Vormonat. Der Gesamtumsatz der US-Unternehmen belief sich auf 2.111,3 Milliarden US-Dollar, was einem Rückgang von 1,1 Prozent (+/- 0,2 Prozent) gegenüber dem Vormonat entspricht. Juni 2026: 0,0* % Bestandsveränderung Mai 2026 (r): +0,4 % Bestandsveränderung"
-        },
-        "fr": {
-          "title": "Stocks et ventes de fabrication et commerciaux",
-          "summary": "Les stocks totaux des entreprises américaines de fin de mois pour juin 2026 s'élevaient à 2 740,2 milliards de dollars, pratiquement inchangés (+/- 0,1 %)* par rapport au mois dernier. Le chiffre d'affaires total des entreprises aux États-Unis s'est élevé à 2.111,3 milliards de dollars, en baisse de 1,1 pour cent (+/- 0,2 pour cent) par rapport au mois dernier. Juin 2026 : 0,0* % de variation des stocks Mai 2026 (r) : +0,4 % de variation des stocks"
         }
       }
     },
