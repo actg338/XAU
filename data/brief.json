@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-16T12:00:22.333541+00:00",
+  "generated_at": "2026-09-16T12:31:52.450550+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
   "confidence": 87,
-  "score": -45,
+  "score": -47,
   "drivers": [
     "warsh",
     "fedwatch",
@@ -33,11 +33,11 @@
     }
   ],
   "next_event": {
-    "event_key": "bls_release",
-    "title": "U.S. Import and Export Price Indexes",
-    "starts_at": "2026-09-16T12:30:00+00:00",
-    "impact": "medium",
-    "source": "BLS",
-    "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
+    "event_key": "fomc",
+    "title": "FOMC Rate Decision",
+    "starts_at": "2026-09-16T18:00:00+00:00",
+    "impact": "high",
+    "source": "CME/Federal Reserve",
+    "source_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
   }
 }

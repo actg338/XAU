@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-09-16T12:00:21.931914+00:00",
+  "fetched_at": "2026-09-16T12:31:48.920634+00:00",
   "total": 116,
   "items": [
+    {
+      "title": "Advance Monthly Sales for Retail and Food Services",
+      "link": "https://www.census.gov/retail/index.html",
+      "summary": "U.S. retail and food services sales for August 2026 were $773.9 billion, up 1.2 percent (+/-0.4 percent) from the previous month. August 2026: +1.2 % Change July 2026 (r): -0.5 % Change",
+      "published_at": "Wed, 16 Sep 2026 08:30:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "384eeb37719079d7d458531873de070d497e20e51e01b34b256ee7912f5cb389",
+      "translations": {
+        "zh-CN": {
+          "title": "零售和食品服务的月销售额预付款",
+          "summary": "2026 年 8 月美国零售和食品服务销售额为 7,739 亿美元，环比增长 1.2% (+/-0.4%)。 2026 年 8 月：+1.2% 变化 2026 年 7 月 (r)：-0.5% 变化"
+        },
+        "ja": {
+          "title": "小売および食品サービスの前月次売上高",
+          "summary": "2026年8月の米国の小売および食品サービス売上高は7,739億ドルで、前月比1.2パーセント（±0.4パーセント）増加しました。 2026年8月: +1.2 %変化 2026年7月(r): -0.5 %変化"
+        },
+        "ko": {
+          "title": "소매 및 식품 서비스에 대한 월별 사전 판매",
+          "summary": "2026년 8월 미국 소매 및 식품 서비스 매출은 7,739억 달러로 전월보다 1.2%(+/-0.4%) 증가했습니다. 2026년 8월: +1.2% 변동 2026년 7월(r): -0.5% 변동"
+        },
+        "de": {
+          "title": "Monatliche Vorverkäufe für Einzelhandel und Lebensmitteldienstleistungen",
+          "summary": "Der US-Einzelhandels- und Lebensmitteldienstleistungsumsatz belief sich im August 2026 auf 773,9 Milliarden US-Dollar, ein Plus von 1,2 Prozent (+/-0,4 Prozent) gegenüber dem Vormonat. August 2026: +1,2 % Veränderung. Juli 2026 (r): -0,5 % Veränderung"
+        },
+        "zh-TW": {
+          "title": "零售和食品服務的月銷售額預付款",
+          "summary": "2026 年 8 月美國零售和食品服務銷售額為 7,739 億美元，季增 1.2% (+/-0.4%)。 2026 年 8 月：+1.2% 變化 2026 年 7 月 (r)：-0.5% 變化"
+        },
+        "fr": {
+          "title": "Avancer les ventes mensuelles pour le commerce de détail et les services alimentaires",
+          "summary": "Les ventes du commerce de détail et des services alimentaires aux États-Unis pour août 2026 se sont élevées à 773,9 milliards de dollars, en hausse de 1,2 % (+/-0,4 %) par rapport au mois précédent. Août 2026 : +1,2 % Variation Juillet 2026 (r) : -0,5 % Variation"
+        }
+      }
+    },
     {
       "title": "Warrior Ethos in Action: DUDE 44 Bravo’s Incredible Story",
       "link": "https://www.whitehouse.gov/releases/2026/09/warrior-ethos-in-action-dude-44-bravos-incredible-story/",
@@ -877,44 +915,6 @@
       }
     },
     {
-      "title": "Advance Monthly Sales for Retail and Food Services",
-      "link": "https://www.census.gov/retail/index.html",
-      "summary": "U.S. retail and food services sales for July 2026 were $763.6 billion, down 0.6 percent (+/-0.4 percent) from the previous month. July 2026: -0.6 % Change June 2026 (r): +0.2* % Change",
-      "published_at": "Fri, 14 Aug 2026 08:30:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "1bbfbd906a1a6db79d235c2e801063e364b0ef6cd9fc479cf168708326080ac2",
-      "translations": {
-        "zh-CN": {
-          "title": "零售和食品服务的月销售额预付款",
-          "summary": "2026 年 7 月美国零售和食品服务销售额为 7,636 亿美元，环比下降 0.6% (+/-0.4%)。 2026 年 7 月：-0.6% 变化 2026 年 6 月 (r)：+0.2* % 变化"
-        },
-        "zh-TW": {
-          "title": "零售和食品服務的月銷售額預付款",
-          "summary": "2026 年 7 月美國零售和食品服務銷售額為 7,636 億美元，季減 0.6% (+/-0.4%)。 2026 年 7 月：-0.6% 變化 2026 年 6 月 (r)：+0.2* % 變化"
-        },
-        "ja": {
-          "title": "小売および食品サービスの前月次売上高",
-          "summary": "2026年7月の米国の小売・食品サービス売上高は7,636億ドルで、前月比0.6％（±0.4％）減少した。 2026 年 7 月: -0.6 % 変化 2026 年 6 月 (r): +0.2* % 変化"
-        },
-        "ko": {
-          "title": "소매 및 식품 서비스에 대한 월별 사전 판매",
-          "summary": "2026년 7월 미국 소매 및 식품 서비스 매출은 7,636억 달러로 전월보다 0.6%(+/-0.4%) 감소했습니다. 2026년 7월: -0.6% 변동 2026년 6월(r): +0.2*% 변동"
-        },
-        "de": {
-          "title": "Monatliche Vorverkäufe für Einzelhandel und Lebensmitteldienstleistungen",
-          "summary": "Der US-Einzelhandels- und Lebensmitteldienstleistungsumsatz belief sich im Juli 2026 auf 763,6 Milliarden US-Dollar, was einem Rückgang von 0,6 Prozent (+/-0,4 Prozent) gegenüber dem Vormonat entspricht. Juli 2026: -0,6 % Veränderung. Juni 2026 (r): +0,2* % Veränderung"
-        },
-        "fr": {
-          "title": "Avancer les ventes mensuelles pour le commerce de détail et les services alimentaires",
-          "summary": "Les ventes du commerce de détail et des services alimentaires aux États-Unis pour juillet 2026 se sont élevées à 763,6 milliards de dollars, en baisse de 0,6 % (+/-0,4 %) par rapport au mois précédent. Juillet 2026 : -0,6 % Variation Juin 2026 (r) : +0,2* % Variation"
-        }
-      }
-    },
-    {
       "title": "Cook, Outlook for the U.S. and Alaskan Economies",
       "link": "https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm",
       "summary": "Speech At the 2026 Economic Luncheon of the Anchorage Economic Development Corporation, Anchorage, Alaska",
@@ -991,40 +991,40 @@
       }
     },
     {
-      "title": "Housing Vacancies and Homeownership",
+      "title": "Rental Vacancy Rate",
       "link": "https://www.census.gov/housing/hvs/",
-      "summary": "The homeownership rate of 65.0 percent was virtually the same as the rate in the second quarter 2025. The homeownership rates in the Northeast, Midwest, South, and West were not statistically different from second quarter 2025 rates. 2nd Qtr 2026: +0.0* Percentage Points 2nd Qtr 2025: -0.6* Percentage Points",
+      "summary": "The rental vacancy rate of 7.3 percent was not statistically different from the rate in the second quarter 2025. Compared to the second quarter 2025, the rental vacancy rate was higher in the Northeast and not statistically different in the Midwest, South, and West. 2nd Qtr 2026: +0.3* Percentage Points 2nd Qtr 2025: +0.4 Percentage Points",
       "published_at": "Tue, 28 Jul 2026 10:00:00 -0400",
       "source": "census",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "b246e36a35b4f89cb35dd67eee7aef3a31535708968ed021aee387e07e270b61",
+      "_translation_hash": "d85f7fad6c3281152c95383462001ac9642c955d5beedd518340c16d34baf2e1",
       "translations": {
         "zh-CN": {
-          "title": "住房空置和住房拥有率",
-          "summary": "65.0%的住房拥有率与 2025 年第二季度的住房拥有率几乎相同。东北部、中西部、南部和西部的住房拥有率与 2025 年第二季度没有统计差异。 2026 年第二季度：+0.0* 百分点 2025 年第二季度：-0.6* 百分点"
-        },
-        "zh-TW": {
-          "title": "住房空置和住房擁有率",
-          "summary": "65.0%的住房擁有率與 2025 年第二季的住房擁有率幾乎相同。東北部、中西部、南部和西部的住房擁有率與 2025 年第二季沒有統計差異。 2026 年第二季：+0.0* 百分點 2025 年第二季：-0.6* 百分點"
+          "title": "出租空置率",
+          "summary": "7.3%的出租房空置率与2025年第二季度没有统计差异。与2025年第二季度相比，东北部的出租房空置率较高，中西部、南部和西部没有统计差异。 2026 年第二季度：+0.3* 个百分点 2025 年第二季度：+0.4 个百分点"
         },
         "ja": {
-          "title": "住宅の空室と住宅所有権",
-          "summary": "65.0% という住宅所有率は、2025 年第 2 四半期の住宅所有率と実質的に同じでした。北東部、中西部、南部、西部の住宅所有率は、2025 年第 2 四半期の住宅所有率と統計的には変わりませんでした。 2026 年第 2 四半期: +0.0* パーセント ポイント 2025 年第 2 四半期: -0.6* パーセント ポイント"
+          "title": "賃貸空室率",
+          "summary": "7.3% という賃貸空室率は、2025 年第 2 四半期の空室率と統計的には変わりませんでした。2025 年第 2 四半期と比較して、賃貸空室率は北東部で高く、中西部、南部、西部では統計的に違いはありませんでした。 2026 年第 2 四半期: +0.3* パーセント ポイント 2025 年第 2 四半期: +0.4 パーセント ポイント"
         },
         "ko": {
-          "title": "주택 공실 및 주택 소유",
-          "summary": "주택보유율은 65.0%로 2025년 2분기 주택보유율과 사실상 같았다. 북동부, 중서부, 남부, 서부 지역의 주택보유율은 2025년 2분기 주택보유율과 통계적으로 다르지 않았다. 2026년 2분기: +0.0* 백분율 포인트 2025년 2분기: -0.6* 백분율 포인트"
+          "title": "임대 공실률",
+          "summary": "임대 공실률 7.3%는 2025년 2분기 공실률과 통계적으로 다르지 않았다. 2025년 2분기와 비교하면 임대 공실률은 북동부 지역이 높았고 중서부, 남부, 서부 지역에서는 통계적으로 차이가 없었다. 2026년 2분기: +0.3* 백분율 포인트 2025년 2분기: +0.4 백분율 포인트"
         },
         "de": {
-          "title": "Wohnungsleerstand und Wohneigentum",
-          "summary": "Die Wohneigentumsquote von 65,0 Prozent entsprach praktisch der Quote im zweiten Quartal 2025. Die Wohneigentumsquoten im Nordosten, Mittleren Westen, Süden und Westen unterschieden sich statistisch gesehen nicht von den Quoten im zweiten Quartal 2025. 2. Quartal 2026: +0,0* Prozentpunkte 2. Quartal 2025: -0,6* Prozentpunkte"
+          "title": "Mietleerstandsquote",
+          "summary": "Die Mietleerstandsquote von 7,3 Prozent unterschied sich statistisch gesehen nicht von der Quote im zweiten Quartal 2025. Im Vergleich zum zweiten Quartal 2025 war die Mietleerstandsquote im Nordosten höher und statistisch gesehen nicht unterschiedlich im Mittleren Westen, Süden und Westen. 2. Quartal 2026: +0,3* Prozentpunkte 2. Quartal 2025: +0,4 Prozentpunkte"
+        },
+        "zh-TW": {
+          "title": "出租空置率",
+          "summary": "7.3%的出租房屋空置率與2025年第二季沒有統計差異。與2025年第二季相比，東北部的出租房間空置率較高，中西部、南部和西部沒有統計差異。 2026 年第二季：+0.3* 個百分點 2025 年第二季：+0.4 個百分點"
         },
         "fr": {
-          "title": "Offres de logements vacants et accession à la propriété",
-          "summary": "Le taux d'accession à la propriété de 65,0 pour cent était pratiquement le même que celui du deuxième trimestre 2025. Les taux d'accession à la propriété dans le Nord-Est, le Midwest, le Sud et l'Ouest n'étaient pas statistiquement différents des taux du deuxième trimestre 2025. 2e trimestre 2026 : +0,0* points de pourcentage 2e trimestre 2025 : -0,6* points de pourcentage"
+          "title": "Taux d'inoccupation des logements locatifs",
+          "summary": "Le taux d'inoccupation des logements locatifs de 7,3 % n'était pas statistiquement différent du taux du deuxième trimestre 2025. Par rapport au deuxième trimestre 2025, le taux d'inoccupation des logements locatifs était plus élevé dans le Nord-Est et n'était pas statistiquement différent dans le Midwest, le Sud et l'Ouest. 2e trimestre 2026 : +0,3* points de pourcentage 2e trimestre 2025 : +0,4 points de pourcentage"
         }
       }
     },
