@@ -1,15 +1,7 @@
 {
-  "fetched_at": "2026-09-16T17:58:46.403193+00:00",
+  "fetched_at": "2026-09-16T18:23:51.789289+00:00",
   "timezone": "UTC",
   "events": [
-    {
-      "event_key": "fomc",
-      "title": "FOMC Rate Decision",
-      "starts_at": "2026-09-16T18:00:00+00:00",
-      "impact": "high",
-      "source": "CME/Federal Reserve",
-      "source_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
-    },
     {
       "event_key": "bls_release",
       "title": "State Employment and Unemployment (Monthly)",
@@ -190,6 +182,14 @@
       "event_key": "cpi",
       "title": "Consumer Price Index",
       "starts_at": "2026-11-10T13:30:00+00:00",
+      "impact": "high",
+      "source": "BLS",
+      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
+    },
+    {
+      "event_key": "ppi",
+      "title": "Producer Price Index",
+      "starts_at": "2026-11-13T13:30:00+00:00",
       "impact": "high",
       "source": "BLS",
       "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-16T17:58:46.569195+00:00",
+  "generated_at": "2026-09-16T18:23:51.943883+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
-  "confidence": 86,
-  "score": -42,
+  "confidence": 90,
+  "score": -61,
   "drivers": [
     "warsh",
     "fedwatch",
@@ -15,29 +15,29 @@
   "top_news": [
     {
       "title": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "category": "monetary_policy",
+      "bias": "neutral"
+    },
+    {
+      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "category": "monetary_policy",
       "bias": "neutral"
     },
     {
       "title": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-      "category": "monetary_policy",
-      "bias": "neutral"
-    },
-    {
-      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "category": "monetary_policy",
       "bias": "neutral"
     }
   ],
   "next_event": {
-    "event_key": "fomc",
-    "title": "FOMC Rate Decision",
-    "starts_at": "2026-09-16T18:00:00+00:00",
-    "impact": "high",
-    "source": "CME/Federal Reserve",
-    "source_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
+    "event_key": "bls_release",
+    "title": "State Employment and Unemployment (Monthly)",
+    "starts_at": "2026-09-18T14:00:00+00:00",
+    "impact": "medium",
+    "source": "BLS",
+    "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
   }
 }

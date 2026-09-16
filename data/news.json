@@ -1,7 +1,31 @@
 {
-  "fetched_at": "2026-09-16T17:58:46.159557+00:00",
-  "total": 116,
+  "fetched_at": "2026-09-16T18:23:42.999789+00:00",
+  "total": 115,
   "items": [
+    {
+      "title": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "summary": "Federal Reserve issues FOMC statement",
+      "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
+      "source": "fed_press",
+      "category": "monetary_policy",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "290e75caada0bd9ff13e5e910adcf7e75770b6638cd0e4e72f478e4de342e680"
+    },
+    {
+      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+      "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+      "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
+      "source": "fed_press",
+      "category": "monetary_policy",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "4b381e223c9fb0cfa57ba9199e3c614f4728e570133ffda7e6534dc4f2eb59d4"
+    },
     {
       "title": "Manufacturing and Trade Inventories and Sales",
       "link": "https://www.census.gov/mtis/index.html",
@@ -493,44 +517,6 @@
         "fr": {
           "title": "Commerce international des biens et services des États-Unis",
           "summary": "Le déficit du commerce international des biens et services du pays a augmenté pour atteindre 88,6 milliards de dollars en juillet, contre 71,2 milliards de dollars en juin (révisé), alors que les exportations ont diminué et les importations ont augmenté. Juillet 2026 : 24,4° % Variation Juin 2026 (r) : -6,0° % Variation"
-        }
-      }
-    },
-    {
-      "title": "President Trump Secures the Biggest Oil Deal in World History",
-      "link": "https://www.whitehouse.gov/releases/2026/09/president-trump-secures-the-biggest-oil-deal-in-world-history/",
-      "summary": "President Trump has secured the biggest oil deal in world history, delivering U.S. majority control of more than 65 billion barrels of proven oil reserves in Venezuela – vastly expanding our current U.S. territorial proven reserves of roughly 46 billion barrels. President Trump’s bold foreign policy is driving America First wins: this deal greatly increases America’s oil […] The post President Trump Secures the Biggest Oil Deal in World History appeared first on The White House .",
-      "published_at": "Thu, 03 Sep 2026 00:35:13 +0000",
-      "source": "white_house",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "afa79264efd0e5e620d9a01dd7323a4650e904c4928a36b8544e1ae599ef69aa",
-      "translations": {
-        "zh-CN": {
-          "title": "特朗普总统达成世界历史上最大的石油协议",
-          "summary": "特朗普总统达成了世界历史上最大的石油协议，使美国对委内瑞拉超过 650 亿桶已探明石油储量拥有多数控制权，这大大扩大了美国目前约 460 亿桶的领土探明储量。特朗普总统大胆的外交政策正在推动“美国优先”的胜利：这项协议大大增加了美国的石油产量……特朗普总统达成世界历史上最大的石油协议的帖子首先出现在白宫。"
-        },
-        "ja": {
-          "title": "トランプ大統領、世界史上最大の石油取引を確保",
-          "summary": "トランプ大統領は世界史上最大の石油取引を確保し、ベネズエラの650億バレル以上の確認石油埋蔵量を米国が過半数管理することを実現し、現在の米国領土の確認埋蔵量約460億バレルを大幅に拡大した。トランプ大統領の大胆な外交政策がアメリカファーストの勝利を後押ししている：この協定によりアメリカの石油は大幅に増加 […] The post トランプ大統領が世界史上最大の石油協定を確保 最初にホワイトハウスに掲載されました。"
-        },
-        "zh-TW": {
-          "title": "川普總統達成世界史上最大的石油協議",
-          "summary": "川普總統達成了世界史上最大的石油協議，使美國對委內瑞拉超過 650 億桶已探明石油儲量擁有多數控制權，這大大擴大了美國目前約 460 億桶的領土探明儲量。川普總統大膽的外交政策正在推動「美國優先」的勝利：這項協議大大增加了美國的石油產量……川普總統達成世界歷史上最大的石油協議的帖子首先出現在白宮。"
-        },
-        "ko": {
-          "title": "트럼프 대통령, 세계 역사상 최대 규모의 석유 거래 성사",
-          "summary": "트럼프 대통령은 베네수엘라의 확인 석유 매장량 650억 배럴 이상에 대한 미국의 다수 통제권을 확보함으로써 세계 역사상 최대 규모의 석유 거래를 성사시켰습니다. 이는 현재 미국 영토의 확인 매장량 약 460억 배럴을 크게 확대한 것입니다. 트럼프 대통령의 대담한 외교 정책은 미국 우선주의 승리를 이끌고 있습니다. 이 거래는 미국의 석유를 크게 증가시킵니다. […] 트럼프 대통령이 세계 역사상 가장 큰 석유 거래를 확보했다는 게시물이 백악관에 처음 등장했습니다."
-        },
-        "de": {
-          "title": "Präsident Trump sichert sich den größten Ölvertrag der Weltgeschichte",
-          "summary": "Präsident Trump hat sich den größten Ölvertrag in der Weltgeschichte gesichert und den USA die Mehrheitskontrolle über mehr als 65 Milliarden Barrel nachgewiesener Ölreserven in Venezuela verschafft – was unsere aktuellen territorialen nachgewiesenen Reserven der USA von rund 46 Milliarden Barrel erheblich erweitert. Die mutige Außenpolitik von Präsident Trump treibt die Siege von America First voran: Dieser Deal erhöht Amerikas Öl erheblich. […] Der Beitrag „Präsident Trump sichert sich den größten Ölvertrag der Weltgeschichte“ erschien zuerst im Weißen Haus."
-        },
-        "fr": {
-          "title": "Le président Trump conclut le plus gros accord pétrolier de l’histoire mondiale",
-          "summary": "Le président Trump a conclu le plus grand accord pétrolier de l’histoire mondiale, permettant aux États-Unis de contrôler majoritairement plus de 65 milliards de barils de réserves prouvées de pétrole au Venezuela, augmentant ainsi considérablement nos réserves prouvées territoriales américaines actuelles, qui s’élèvent à environ 46 milliards de barils. La politique étrangère audacieuse du président Trump est à l’origine des victoires de l’Amérique d’abord : cet accord augmente considérablement le pétrole américain […] L’article Le président Trump conclut le plus grand accord pétrolier de l’histoire mondiale est apparu en premier sur La Maison Blanche."
         }
       }
     },
@@ -1815,30 +1801,6 @@
       "_translation_hash": "88e3029408c4ea73119f84b0e20950ec10363e6520e3602791cd7cf9abd42b82"
     },
     {
-      "title": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
-      "summary": "Federal Reserve issues FOMC statement",
-      "published_at": "Wed, 18 Mar 2026 18:00:00 GMT",
-      "source": "fed_policy",
-      "category": "monetary_policy",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "290e75caada0bd9ff13e5e910adcf7e75770b6638cd0e4e72f478e4de342e680"
-    },
-    {
-      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the March 17-18 FOMC meeting",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318b.htm",
-      "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the March 17-18 FOMC meeting",
-      "published_at": "Wed, 18 Mar 2026 18:00:00 GMT",
-      "source": "fed_policy",
-      "category": "monetary_policy",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "69c11b2b4de33e47960bfe18ca1a1508bb803dc49af20ade9344d7f426dccca8"
-    },
-    {
       "title": "PPI for final demand advances 0.7% in February; services rise 0.5%, goods increase 1.1%",
       "link": "https://www.bls.gov/news.release/archives/ppi_03182026.htm",
       "summary": "",
@@ -2053,6 +2015,18 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "b913e2014a1c590a06230e201b743e6ef224d6a5a356c51addaeb7d4912bd47e"
+    },
+    {
+      "title": "CPI for all items rises 0.3% in September; gasoline up",
+      "link": "https://www.bls.gov/news.release/archives/cpi_10242025.htm",
+      "summary": "",
+      "published_at": "2025-10-24T08:30:00-04:00",
+      "source": "bls_cpi",
+      "category": "inflation",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
+      "_translation_hash": "044af1e69df439dcfbdc5335fa821579e6cc7c52c8d2171caae18d4fc2ca7848"
     }
   ]
 }
