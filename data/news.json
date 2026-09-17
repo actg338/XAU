@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-17T15:49:41.750650+00:00",
-  "total": 114,
+  "fetched_at": "2026-09-17T15:58:20.710392+00:00",
+  "total": 113,
   "items": [
     {
       "title": "New Residential Construction",
@@ -45,7 +45,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -83,7 +83,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -417,44 +417,6 @@
         "fr": {
           "title": "Enquête trimestrielle sur les services",
           "summary": "Le chiffre d'affaires total des services sélectionnés aux États-Unis pour le deuxième trimestre 2026, corrigé des variations saisonnières mais pas des changements de prix, s'est élevé à 6 418,7 milliards de dollars, soit une augmentation de 3,0 % (+/- 0,4 %) par rapport au premier trimestre 2026 et de 7,6 % (+/- 0,6 %) par rapport au deuxième trimestre 2025. La variation en pourcentage du premier trimestre 2026 au deuxième trimestre 2026 a été révisée par rapport à l’estimation anticipée de 3,1 pour cent (+/- 0,4 pour cent). 2e trimestre 2026 : +3,0 % variation 1er trimestre 2026 (r) : +1,1 % variation"
-        }
-      }
-    },
-    {
-      "title": "Fact Sheet: President Donald J. Trump Accelerates Veterans’ Access to Benefits and Employment Opportunities",
-      "link": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-accelerates-veterans-access-to-benefits-and-employment-opportunities/",
-      "summary": "EXPANDING ACCESS AND CREATING OPPORTUNITY: Today, President Donald J. Trump signed an Executive Order to modernize data management and data sharing between the Departments of War and Veterans Affairs in order to expedite veterans’ access to benefits. REMOVING ANTIQUATED SYSTEM BARRIERS TO DELIVER RESULTS: President Trump is removing the inefficiencies and delays that hinder our service members […] The post Fact Sheet: President Donald J. Trump Accelerates Veterans’ Access to Benefits and Employm",
-      "published_at": "Tue, 08 Sep 2026 19:02:42 +0000",
-      "source": "white_house",
-      "category": "labor",
-      "impact": "medium",
-      "gold_bias": "bullish",
-      "why_key": "labor_bullish",
-      "_translation_hash": "8cc4151b87a99f68604022165012c64ff97642db5f76e13492a15cf85e364885",
-      "translations": {
-        "zh-CN": {
-          "title": "情况说明书：唐纳德·J·特朗普总统加速退伍军人获得福利和就业机会",
-          "summary": "扩大访问范围并创造机会：今天，唐纳德·J·特朗普总统签署了一项行政命令，对战争部和退伍军人事务部之间的数据管理和数据共享进行现代化改造，以加快退伍军人获得福利的速度。消除陈旧的系统障碍以取得成果：特朗普总统正在消除阻碍我们服役人员的低效率和延误问题[……]后情况说明书：唐纳德·J·特朗普总统加速退伍军人获得福利和就业"
-        },
-        "ja": {
-          "title": "ファクトシート: ドナルド・J・トランプ大統領、退役軍人の福利厚生と雇用機会へのアクセスを加速",
-          "summary": "アクセスの拡大と機会の創出：本日、ドナルド・J・トランプ大統領は、退役軍人の給付金へのアクセスを促進するために、陸軍省と退役軍人省の間でのデータ管理とデータ共有を最新化する大統領令に署名した。結果をもたらすために時代遅れの制度の障壁を取り除く：トランプ大統領は、軍人の妨げとなる非効率性と遅れを取り除きつつある […] ポストファクトシート：ドナルド・J・トランプ大統領、退役軍人の福利厚生と雇用へのアクセスを加速"
-        },
-        "ko": {
-          "title": "팩트 시트: 도널드 J. 트럼프 대통령, 퇴역군인의 혜택 및 고용 기회 접근 가속화",
-          "summary": "접근 확대 및 기회 창출: 오늘 도널드 J. 트럼프(Donald J. Trump) 대통령은 재향군인의 혜택 접근을 촉진하기 위해 전쟁부와 재향군인회 간의 데이터 관리 및 데이터 공유를 현대화하는 행정명령에 서명했습니다. 결과 제공을 위한 낡은 시스템 장벽 제거: 트럼프 대통령은 우리 군인들을 방해하는 비효율성과 지연을 제거하고 있습니다. [...] 포스트 팩트 시트: 도널드 J. 트럼프 대통령은 퇴역군인의 혜택 및 고용에 대한 접근을 가속화합니다."
-        },
-        "zh-TW": {
-          "title": "情況說明書：唐納德·J·特朗普總統加速退伍軍人獲得福利和就業機會",
-          "summary": "擴大訪問範圍並創造機會：今天，唐納德·J·特朗普總統簽署了一項行政命令，對戰爭部和退伍軍人事務部之間的數據管理和數據共享進行現代化改造，以加快退伍軍人獲得福利的速度。消除陳舊的系統障礙以取得成果：川普總統正在消除阻礙我們服役人員的低效率和延誤問題[……]後情況說明書：唐納德·J·特朗普總統加速退伍軍人獲得福利和就業"
-        },
-        "de": {
-          "title": "Faktenblatt: Präsident Donald J. Trump beschleunigt den Zugang von Veteranen zu Sozialleistungen und Beschäftigungsmöglichkeiten",
-          "summary": "ERWEITERUNG DES ZUGANGS UND SCHAFFUNG VON CHANCEN: Heute unterzeichnete Präsident Donald J. Trump eine Executive Order zur Modernisierung der Datenverwaltung und des Datenaustauschs zwischen den Ministerien für Kriegs- und Veteranenangelegenheiten, um den Zugang von Veteranen zu Leistungen zu beschleunigen. ANTIQUIERTE SYSTEMHINDERNISSE ENTFERNEN, UM ERGEBNISSE ZU LIEFERN: Präsident Trump beseitigt die Ineffizienzen und Verzögerungen, die unsere Militärangehörigen behindern. […] Der Beitrag Fact Sheet: Präsident Donald J. Trump beschleunigt den Zugang von Veteranen zu Sozialleistungen und Beschäftigung"
-        },
-        "fr": {
-          "title": "Fiche d'information : Le président Donald J. Trump accélère l'accès des anciens combattants aux avantages sociaux et aux opportunités d'emploi",
-          "summary": "ÉLARGIR L'ACCÈS ET CRÉER DES OPPORTUNITÉS : Aujourd'hui, le président Donald J. Trump a signé un décret visant à moderniser la gestion et le partage des données entre les ministères de la Guerre et des Anciens Combattants afin d'accélérer l'accès des anciens combattants aux prestations. SUPPRIMER LES BARRIÈRES DU SYSTÈME ANCIEN POUR OBTENIR DES RÉSULTATS : Le président Trump supprime les inefficacités et les retards qui entravent nos militaires […] La fiche d'information post : Le président Donald J. Trump accélère l'accès des anciens combattants aux avantages sociaux et à l'emploi"
         }
       }
     },
@@ -805,7 +767,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -957,7 +919,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -2053,6 +2015,18 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "50e8f44815ed60c51b21db238e068a8e70f181f62df21728e13080844889b30e"
+    },
+    {
+      "title": "CPI for all items rises 0.4% in August; shelter and food up",
+      "link": "https://www.bls.gov/news.release/archives/cpi_09112025.htm",
+      "summary": "",
+      "published_at": "2025-09-11T08:30:00-04:00",
+      "source": "bls_cpi",
+      "category": "inflation",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
+      "_translation_hash": "dcc4c3f6fcabe746e3475b84a88ca883228a5a37aa7ce8f33869fa2ff10ef920"
     }
   ]
 }
