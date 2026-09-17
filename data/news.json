@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-17T04:49:14.500794+00:00",
+  "fetched_at": "2026-09-17T04:57:34.548849+00:00",
   "total": 115,
   "items": [
     {
@@ -12,7 +12,33 @@
       "impact": "high",
       "gold_bias": "neutral",
       "why_key": "monetary_policy_neutral",
-      "_translation_hash": "290e75caada0bd9ff13e5e910adcf7e75770b6638cd0e4e72f478e4de342e680"
+      "_translation_hash": "290e75caada0bd9ff13e5e910adcf7e75770b6638cd0e4e72f478e4de342e680",
+      "translations": {
+        "zh-CN": {
+          "title": "美联储发表联邦公开市场委员会声明",
+          "summary": "美联储发表联邦公开市场委员会声明"
+        },
+        "ja": {
+          "title": "FRBがFOMC声明を発表",
+          "summary": "FRBがFOMC声明を発表"
+        },
+        "ko": {
+          "title": "연준, FOMC 성명 발표",
+          "summary": "연준, FOMC 성명 발표"
+        },
+        "zh-TW": {
+          "title": "聯準會發表聯邦公開市場委員會聲明",
+          "summary": "聯準會發表聯邦公開市場委員會聲明"
+        },
+        "fr": {
+          "title": "La Réserve fédérale publie une déclaration du FOMC",
+          "summary": "La Réserve fédérale publie une déclaration du FOMC"
+        },
+        "de": {
+          "title": "Federal Reserve gibt FOMC-Erklärung heraus",
+          "summary": "Federal Reserve gibt FOMC-Erklärung heraus"
+        }
+      }
     },
     {
       "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
@@ -24,7 +50,33 @@
       "impact": "high",
       "gold_bias": "neutral",
       "why_key": "monetary_policy_neutral",
-      "_translation_hash": "4b381e223c9fb0cfa57ba9199e3c614f4728e570133ffda7e6534dc4f2eb59d4"
+      "_translation_hash": "4b381e223c9fb0cfa57ba9199e3c614f4728e570133ffda7e6534dc4f2eb59d4",
+      "translations": {
+        "zh-CN": {
+          "title": "美联储和联邦公开市场委员会发布 9 月 15 日至 16 日 FOMC 会议的经济预测",
+          "summary": "美联储和联邦公开市场委员会发布 9 月 15 日至 16 日 FOMC 会议的经济预测"
+        },
+        "ja": {
+          "title": "米連邦準備制度理事会と連邦公開市場委員会が9月15～16日のFOMC会合での経済予測を発表",
+          "summary": "米連邦準備制度理事会と連邦公開市場委員会が9月15～16日のFOMC会合での経済予測を発表"
+        },
+        "ko": {
+          "title": "연방준비제도이사회(Federal Reserve Board)와 연방공개시장위원회(Federal Open Market Committee)는 9월 15~16일 FOMC 회의에서 경제 전망을 발표합니다.",
+          "summary": "연방준비제도이사회(Federal Reserve Board)와 연방공개시장위원회(Federal Open Market Committee)는 9월 15~16일 FOMC 회의에서 경제 전망을 발표합니다."
+        },
+        "zh-TW": {
+          "title": "聯準會和聯邦公開市場委員會發布 9 月 15 日至 16 日 FOMC 會議的經濟預測",
+          "summary": "聯準會和聯邦公開市場委員會發布 9 月 15 日至 16 日 FOMC 會議的經濟預測"
+        },
+        "fr": {
+          "title": "Le Conseil de la Réserve fédérale et le Comité fédéral de l'Open Market publient les projections économiques de la réunion du FOMC des 15 et 16 septembre.",
+          "summary": "Le Conseil de la Réserve fédérale et le Comité fédéral de l'Open Market publient les projections économiques de la réunion du FOMC des 15 et 16 septembre."
+        },
+        "de": {
+          "title": "Federal Reserve Board und Federal Open Market Committee veröffentlichen Wirtschaftsprognosen von der FOMC-Sitzung vom 15. bis 16. September",
+          "summary": "Federal Reserve Board und Federal Open Market Committee veröffentlichen Wirtschaftsprognosen von der FOMC-Sitzung vom 15. bis 16. September"
+        }
+      }
     },
     {
       "title": "Manufacturing and Trade Inventories and Sales",
