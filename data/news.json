@@ -1,13 +1,51 @@
 {
-  "fetched_at": "2026-09-17T11:59:27.324039+00:00",
+  "fetched_at": "2026-09-17T12:31:08.799012+00:00",
   "total": 115,
   "items": [
+    {
+      "title": "New Residential Construction",
+      "link": "https://www.census.gov/construction/nrc/index.html",
+      "summary": "Privately-owned housing starts in August 2026 were at a seasonally adjusted annual rate of 1,275,000. This is 2.6 percent (+/- 12.0%)* below the revised July 2026 estimate of 1,309,000. August 2026: -2.6* % Change July 2026 (r): -9.0* % Change",
+      "published_at": "Thu, 17 Sep 2026 08:30:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "6f5a39f1aeb295f66f0f19b6fbbf617fb49e831bd3642fb7c8ae157a88aa6b75",
+      "translations": {
+        "zh-CN": {
+          "title": "新住宅建设",
+          "summary": "2026 年 8 月，经季节调整后的私人住房开工量年率为 1,275,000 套。这比修订后的 2026 年 7 月估计数 1,309,000 低 2.6% (+/- 12.0%)*。 2026 年 8 月：-2.6* 变化百分比 2026 年 7 月 (r)：-9.0* 变化百分比"
+        },
+        "ja": {
+          "title": "新築住宅建設",
+          "summary": "２０２６年８月の民間住宅着工件数は季節調整済み年率１２７万５０００戸だった。これは、2026 年 7 月の改訂予測値 1,309,000 を 2.6 パーセント (+/- 12.0 %)* 下回っています。 2026 年 8 月: -2.6* % 変化 2026 年 7 月 (r): -9.0* % 変化"
+        },
+        "ko": {
+          "title": "새로운 주거 건설",
+          "summary": "2026년 8월 개인 소유 주택 착공은 계절 조정 연율 1,275,000건이었습니다. 이는 2026년 7월 수정된 추정치인 1,309,000보다 2.6%(+/- 12.0%)* 낮은 수치입니다. 2026년 8월: -2.6* % 변화 2026년 7월(r): -9.0* % 변화"
+        },
+        "zh-TW": {
+          "title": "新住宅建设",
+          "summary": "2026 年 8 月，經季節調整後的私人住宅開工量年率為 1,275,000 套。這比修訂後的 2026 年 7 月估計數 1,309,000 低 2.6% (+/- 12.0%)*。 2026 年 8 月：-2.6* 變化百分比 2026 年 7 月 (r)：-9.0* 變化百分比"
+        },
+        "de": {
+          "title": "Neubau von Wohngebäuden",
+          "summary": "Die Baubeginne im privaten Wohnungsbau lagen im August 2026 saisonbereinigt bei 1.275.000 pro Jahr. Das sind 2,6 Prozent (+/- 12,0 %)* weniger als die revidierte Schätzung vom Juli 2026 von 1.309.000. August 2026: -2,6* % Veränderung Juli 2026 (r): -9,0* % Veränderung"
+        },
+        "fr": {
+          "title": "Nouvelle construction résidentielle",
+          "summary": "En août 2026, les mises en chantier de logements privés se sont établies à un taux annuel désaisonnalisé de 1 275 000. Cela représente 2,6 % (+/- 12,0 %)* en dessous de l'estimation révisée de juillet 2026 de 1 309 000. Août 2026 : -2,6* % de variation Juillet 2026 (r) : -9,0* % de variation"
+        }
+      }
+    },
     {
       "title": "Federal Reserve issues FOMC statement",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -45,7 +83,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -805,7 +843,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -915,44 +953,6 @@
       }
     },
     {
-      "title": "New Residential Construction",
-      "link": "https://www.census.gov/construction/nrc/index.html",
-      "summary": "Privately-owned housing starts in July 2026 were at a seasonally adjusted annual rate of 1,239,000. This is 12.4 percent (+/- 9.5%) below the revised June 2026 estimate of 1,415,000. July 2026: -12.4 % Change June 2026 (r): +19.7 % Change",
-      "published_at": "Tue, 18 Aug 2026 08:30:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "b788fc10e538d66a6703bddc8032216539b9f2a89184e3a62afcf93eeef86076",
-      "translations": {
-        "zh-CN": {
-          "title": "新住宅建设",
-          "summary": "2026 年 7 月私人住房开工量经季节性调整后的年增长率为 1,239,000 套。这比修订后的 2026 年 6 月估计数 1,415,000 低 12.4% (+/- 9.5%)。 2026 年 7 月：-12.4% 变化 2026 年 6 月 (r)：+19.7% 变化"
-        },
-        "zh-TW": {
-          "title": "新住宅建設",
-          "summary": "2026 年 7 月私人住宅開工量經季節性調整後的年增率為 1,239,000 套。這比修訂後的 2026 年 6 月估計數 1,415,000 低 12.4% (+/- 9.5%)。 2026 年 7 月：-12.4% 變化 2026 年 6 月 (r)：+19.7% 變化"
-        },
-        "ja": {
-          "title": "新築住宅建設",
-          "summary": "２０２６年７月の民間住宅着工件数は季節調整済み年率１２３万９０００戸だった。これは、2026 年 6 月の改訂予測値 1,415,000 を 12.4 パーセント (+/- 9.5 %) 下回っています。 2026年7月: -12.4 %変化 2026年6月(r): +19.7 %変化"
-        },
-        "ko": {
-          "title": "새로운 주거 건설",
-          "summary": "2026년 7월 개인 소유 주택 착공은 계절 조정 연율 1,239,000건이었습니다. 이는 2026년 6월 수정된 추정치인 1,415,000보다 12.4%(+/- 9.5%) 낮은 수치입니다. 2026년 7월: -12.4% 변동 2026년 6월(r): +19.7% 변동"
-        },
-        "de": {
-          "title": "Neubau von Wohngebäuden",
-          "summary": "Im Juli 2026 wurden saisonbereinigt 1.239.000 Wohnungen im Privatbesitz neu gebaut. Das sind 12,4 Prozent (+/- 9,5 %) weniger als die revidierte Schätzung vom Juni 2026 von 1.415.000. Juli 2026: -12,4 % Veränderung Juni 2026 (r): +19,7 % Veränderung"
-        },
-        "fr": {
-          "title": "Nouvelle construction résidentielle",
-          "summary": "En juillet 2026, les mises en chantier de logements privés se sont établies à un taux annuel désaisonnalisé de 1 239 000. Cela représente 12,4 % (+/- 9,5 %) de moins que l'estimation révisée de juin 2026 de 1 415 000. Juillet 2026 : -12,4 % Variation Juin 2026 (r) : +19,7 % Variation"
-        }
-      }
-    },
-    {
       "title": "Cook, Outlook for the U.S. and Alaskan Economies",
       "link": "https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm",
       "summary": "Speech At the 2026 Economic Luncheon of the Anchorage Economic Development Corporation, Anchorage, Alaska",
@@ -995,7 +995,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 29 Jul 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
