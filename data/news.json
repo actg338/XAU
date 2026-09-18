@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-09-18T19:55:43.130783+00:00",
-  "total": 113,
+  "fetched_at": "2026-09-18T20:15:58.023764+00:00",
+  "total": 114,
   "items": [
+    {
+      "title": "Fact Sheet: President Donald J. Trump Announces Lower Drug Prices for All 50 State Medicaid Programs",
+      "link": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-announces-lower-drug-prices-for-all-50-state-medicaid-programs/",
+      "summary": "ADVANCING MOST-FAVORED-NATION (MFN) PRICING IN MEDICAID: Today, President Donald J. Trump announced that all 50 States’ Medicaid programs will benefit from lower prescription drug prices under his agreements with pharmaceutical manufacturers to match the lowest prices paid by other developed nations (known as the most-favored-nation, or MFN, prices). SAVING TAXPAYER DOLLARS WHILE MAINTAINING COVERAGE FOR THE […] The post Fact Sheet: President Donald J. Trump Announces Lower Drug Prices for All 5",
+      "published_at": "Fri, 18 Sep 2026 19:47:36 +0000",
+      "source": "white_house",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "72a5c48358a3a21785f24bdffd2a7ae8d983c964e99210bf0ccb92e541a0aaa5",
+      "translations": {
+        "ja": {
+          "title": "ファクトシート: ドナルド・J・トランプ大統領、50州のメディケイドプログラムすべての薬価引き下げを発表",
+          "summary": "メディケイドにおける最恵国待遇（MFN）価格設定の推進：本日、ドナルド・J・トランプ大統領は、他の先進国が支払う最低価格（最恵国待遇、すなわちMFN価格として知られる）に匹敵する製薬メーカーとの協定に基づき、50州すべてのメディケイドプログラムが処方薬価格の引き下げから恩恵を受けると発表した。保険適用範囲を維持しながら納税者のお金を節約 […] ポストファクトシート: ドナルド・J・トランプ大統領、5種類すべての薬価引き下げを発表"
+        },
+        "zh-CN": {
+          "title": "情况说明书：唐纳德·J·特朗普总统宣布降低所有 50 个州医疗补助计划的药品价格",
+          "summary": "推进医疗补助最惠国 (MFN) 定价：今天，唐纳德·J·特朗普总统宣布，根据他与制药商达成的协议，所有 50 个州的医疗补助计划都将受益于较低的处方药价格，以匹配其他发达国家支付的最低价格（称为最惠国或最惠国价格）。节省纳税人的钱，同时维持 [...] 后情况说明书：唐纳德·J·特朗普总统宣布降低所有 5 种药品的价格"
+        },
+        "zh-TW": {
+          "title": "情況說明書：唐納德·J·特朗普總統宣布降低所有 50 個州醫療補助計劃的藥品價格",
+          "summary": "推進醫療補助最惠國 (MFN) 定價：今天，唐納德·J·特朗普總統宣布，根據他與製藥商達成的協議，所有 50 個州的醫療補助計劃都將受益於較低的處方藥價格，以匹配其他已開發國家支付的最低價格（稱為最惠國或最惠國價格）。節省納稅人的錢，同時維持 [...] 後情況說明書：唐納德·J·特朗普總統宣布降低所有 5 種藥品的價格"
+        },
+        "ko": {
+          "title": "팩트 시트: 도널드 J. 트럼프 대통령, 50개 주 Medicaid 프로그램 전체에 대한 약값 인하 발표",
+          "summary": "MEDICAID의 최혜국(MFN) 가격 책정 개선: 오늘 Donald J. Trump 대통령은 다른 선진국이 지불하는 최저 가격(최혜국 또는 MFN 가격으로 알려짐)과 일치하도록 제약 제조업체와의 계약에 따라 50개 주의 모든 Medicaid 프로그램이 처방약 가격 인하의 혜택을 누릴 것이라고 발표했습니다. [...]에 대한 보장을 유지하면서 납세자 비용을 절약합니다. 포스트 자료표: 도널드 J. 트럼프 대통령, 모든 5에 대한 약가 인하 발표"
+        },
+        "de": {
+          "title": "Faktenblatt: Präsident Donald J. Trump kündigt niedrigere Arzneimittelpreise für alle 50 staatlichen Medicaid-Programme an",
+          "summary": "FORTSCHRITTLICHE MEISTBEFÖRDERUNGSPREISE (MFN) BEI MEDICAID: Präsident Donald J. Trump gab heute bekannt, dass die Medicaid-Programme aller 50 Bundesstaaten im Rahmen seiner Vereinbarungen mit Pharmaherstellern von niedrigeren Preisen für verschreibungspflichtige Medikamente profitieren werden, um den niedrigsten Preisen anderer entwickelter Länder (sogenannte Meistbegünstigungspreise oder MFN) zu entsprechen. STEUERZAHLER-DOLLAR SPAREN UND GLEICHZEITIG DIE ABDECKUNG FÜR DIE […] aufrechterhalten. Der Beitrag Faktenblatt: Präsident Donald J. Trump kündigt niedrigere Arzneimittelpreise für alle 5 an"
+        },
+        "fr": {
+          "title": "Fiche d'information : Le président Donald J. Trump annonce une baisse des prix des médicaments pour les 50 programmes d'État Medicaid",
+          "summary": "AVANCER LES PRIX DE LA NATION LA PLUS FAVORISÉE (NPF) DANS MEDICAID : Aujourd'hui, le président Donald J. Trump a annoncé que les programmes Medicaid des 50 États bénéficieront de prix de médicaments sur ordonnance plus bas dans le cadre de ses accords avec les fabricants de produits pharmaceutiques pour égaler les prix les plus bas payés par d'autres pays développés (connus sous le nom de prix de la nation la plus favorisée, ou NPF). ÉCONOMISER LES DOLLARS DES CONTRIBUABLES TOUT EN MAINTENANT LA COUVERTURE DES […] La fiche d'information post : Le président Donald J. Trump annonce une baisse des prix des médicaments pour tous les 5"
+        }
+      }
+    },
     {
       "title": "Bowman, Initial Findings from Independent Review of Silicon Valley Bank",
       "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260918b.htm",
@@ -2015,18 +2053,6 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "50e8f44815ed60c51b21db238e068a8e70f181f62df21728e13080844889b30e"
-    },
-    {
-      "title": "CPI for all items rises 0.4% in August; shelter and food up",
-      "link": "https://www.bls.gov/news.release/archives/cpi_09112025.htm",
-      "summary": "",
-      "published_at": "2025-09-11T08:30:00-04:00",
-      "source": "bls_cpi",
-      "category": "inflation",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "dcc4c3f6fcabe746e3475b84a88ca883228a5a37aa7ce8f33869fa2ff10ef920"
     }
   ]
 }
