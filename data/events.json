@@ -1,15 +1,7 @@
 {
-  "fetched_at": "2026-09-18T13:59:06.835137+00:00",
+  "fetched_at": "2026-09-18T14:20:54.046123+00:00",
   "timezone": "UTC",
   "events": [
-    {
-      "event_key": "bls_release",
-      "title": "State Employment and Unemployment (Monthly)",
-      "starts_at": "2026-09-18T14:00:00+00:00",
-      "impact": "medium",
-      "source": "BLS",
-      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
-    },
     {
       "event_key": "bls_release",
       "title": "Employee Tenure",
@@ -191,6 +183,14 @@
       "title": "Producer Price Index",
       "starts_at": "2026-11-13T13:30:00+00:00",
       "impact": "high",
+      "source": "BLS",
+      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
+    },
+    {
+      "event_key": "bls_release",
+      "title": "U.S. Import and Export Price Indexes",
+      "starts_at": "2026-11-17T13:30:00+00:00",
+      "impact": "medium",
       "source": "BLS",
       "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
     }

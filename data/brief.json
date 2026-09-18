@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-18T13:59:06.958967+00:00",
+  "generated_at": "2026-09-18T14:20:54.301343+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
   "confidence": 88,
-  "score": -50,
+  "score": -51,
   "drivers": [
     "warsh",
     "fedwatch",
@@ -34,8 +34,8 @@
   ],
   "next_event": {
     "event_key": "bls_release",
-    "title": "State Employment and Unemployment (Monthly)",
-    "starts_at": "2026-09-18T14:00:00+00:00",
+    "title": "Employee Tenure",
+    "starts_at": "2026-09-24T14:00:00+00:00",
     "impact": "medium",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
