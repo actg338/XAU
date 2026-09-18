@@ -1,7 +1,83 @@
 {
-  "fetched_at": "2026-09-18T13:30:05.772132+00:00",
+  "fetched_at": "2026-09-18T13:41:32.421355+00:00",
   "total": 113,
   "items": [
+    {
+      "title": "Bowman, Initial Findings from Independent Review of Silicon Valley Bank",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260918b.htm",
+      "summary": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom",
+      "published_at": "Fri, 18 Sep 2026 13:30:00 GMT",
+      "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "14fa4748585cd9be9b32cb0135d16b48dd5db7cbeed4e3fe2d2ee2766ec9be77",
+      "translations": {
+        "ja": {
+          "title": "ボウマン、シリコンバレー銀行の独立したレビューからの最初の調査結果",
+          "summary": "英国ロンドンのマンションハウスでのロンドン市長の昼食会でのスピーチ"
+        },
+        "zh-CN": {
+          "title": "鲍曼，硅谷银行独立审查的初步调查结果",
+          "summary": "在英国伦敦 Mansion House 伦敦市市长午餐会上的讲话"
+        },
+        "zh-TW": {
+          "title": "鮑曼，矽谷銀行獨立審查的初步調查結果",
+          "summary": "在英國倫敦 Mansion House 倫敦市長午餐會上的講話"
+        },
+        "ko": {
+          "title": "Bowman, Silicon Valley Bank의 독립 검토에서 얻은 초기 조사 결과",
+          "summary": "영국 런던 맨션 하우스에서 열린 런던 시장 오찬 연설"
+        },
+        "de": {
+          "title": "Bowman, erste Ergebnisse einer unabhängigen Überprüfung der Silicon Valley Bank",
+          "summary": "Rede beim Mittagessen des Oberbürgermeisters der Stadt London im Mansion House, London, Vereinigtes Königreich"
+        },
+        "fr": {
+          "title": "Bowman, premières conclusions de l'examen indépendant de la Silicon Valley Bank",
+          "summary": "Discours lors du déjeuner du lord-maire de la ville de Londres à Mansion House, Londres, Royaume-Uni"
+        }
+      }
+    },
+    {
+      "title": "Bowman, The Final Chapter on Modernizing Bank Regulatory Stress Testing",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260918a.htm",
+      "summary": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom",
+      "published_at": "Fri, 18 Sep 2026 13:30:00 GMT",
+      "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "480e1107231a2eb38239520d6145e8f3574477c795c19321344debb8cadd3255",
+      "translations": {
+        "ja": {
+          "title": "ボウマン著『銀行規制ストレステストの近代化に関する最終章』",
+          "summary": "英国ロンドンのマンションハウスでのロンドン市長の昼食会でのスピーチ"
+        },
+        "zh-CN": {
+          "title": "鲍曼，银行监管压力测试现代化的最后一章",
+          "summary": "在英国伦敦 Mansion House 伦敦市市长午餐会上的讲话"
+        },
+        "zh-TW": {
+          "title": "鮑曼，銀行監理壓力測試現代化的最後一章",
+          "summary": "在英國倫敦 Mansion House 倫敦市長午餐會上的講話"
+        },
+        "ko": {
+          "title": "Bowman, 은행 규제 스트레스 테스트 현대화의 마지막 장",
+          "summary": "영국 런던 맨션 하우스에서 열린 런던 시장 오찬 연설"
+        },
+        "de": {
+          "title": "Bowman, Das letzte Kapitel zur Modernisierung der regulatorischen Stresstests für Banken",
+          "summary": "Rede beim Mittagessen des Oberbürgermeisters der Stadt London im Mansion House, London, Vereinigtes Königreich"
+        },
+        "fr": {
+          "title": "Bowman, Le dernier chapitre sur la modernisation des tests de résistance réglementaires bancaires",
+          "summary": "Discours lors du déjeuner du lord-maire de la ville de Londres à Mansion House, Londres, Royaume-Uni"
+        }
+      }
+    },
     {
       "title": "New Residential Construction",
       "link": "https://www.census.gov/construction/nrc/index.html",
@@ -1443,82 +1519,6 @@
         "de": {
           "title": "Waller, Zwei Gedanken zur Transmission der Geldpolitik",
           "summary": "Rede auf der Konferenz „Challenges for Monetary Policy Transmission in a Changing World“, einer von der Bank von Italien gesponserten Konferenz für das vom Europäischen System der Zentralbanken initiierte Forschungsnetzwerk, Rom, Italien"
-        }
-      }
-    },
-    {
-      "title": "Cook, Welcome Remarks",
-      "link": "https://www.federalreserve.gov/newsevents/speech/cook20260624a.htm",
-      "summary": "Speech At the State of Small Business Symposium hosted by the Federal Reserve Bank of Cleveland (via pre-recorded video)",
-      "published_at": "Wed, 24 Jun 2026 18:00:00 GMT",
-      "source": "fed_remarks",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "1a752e0402ca3bfccc4df12f3f771296d0fe171988eca50bb601202ed2a5a78f",
-      "translations": {
-        "zh-CN": {
-          "title": "库克，欢迎致辞",
-          "summary": "在克利夫兰联邦储备银行主办的小企业状况研讨会上的讲话（通过预先录制的视频）"
-        },
-        "zh-TW": {
-          "title": "庫克，歡迎致辭",
-          "summary": "在克利夫蘭聯邦儲備銀行主辦的小型企業狀況研討會上的演講（透過預先錄製的影片）"
-        },
-        "ja": {
-          "title": "クック氏、歓迎の挨拶",
-          "summary": "クリーブランド連邦準備銀行主催の中小企業情勢シンポジウムでの講演（録画済みビデオによる）"
-        },
-        "ko": {
-          "title": "쿡, 환영사",
-          "summary": "클리블랜드 연방준비은행 주최 중소기업 현황 심포지엄 연설(사전 녹화된 영상을 통해)"
-        },
-        "de": {
-          "title": "Cook, Begrüßungsworte",
-          "summary": "Rede beim State of Small Business Symposium, veranstaltet von der Federal Reserve Bank of Cleveland (über aufgezeichnetes Video)"
-        },
-        "fr": {
-          "title": "Cuisinier, mot de bienvenue",
-          "summary": "Discours lors du symposium sur l'état des petites entreprises organisé par la Banque de réserve fédérale de Cleveland (via vidéo préenregistrée)"
-        }
-      }
-    },
-    {
-      "title": "Waller, Welcoming Remarks on the International Role of the U.S. Dollar",
-      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260622a.htm",
-      "summary": "Speech At the Fifth Conference on the International Roles of the Dollar, Board of Governors of the Federal Reserve System, Washington, D.C.",
-      "published_at": "Mon, 22 Jun 2026 13:00:00 GMT",
-      "source": "fed_remarks",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "9b5526dd0b68ece33cd0e66ad7016bc1eef51be6d1304103e67a64bc1446e344",
-      "translations": {
-        "zh-CN": {
-          "title": "沃勒，关于美元国际角色的欢迎辞",
-          "summary": "在第五届美元国际作用会议上的讲话，美联储理事会，华盛顿特区"
-        },
-        "zh-TW": {
-          "title": "沃勒，關於美元國際角色的歡迎辭",
-          "summary": "在第五屆美元國際作用會議上的講話，美聯儲理事會，華盛頓特區"
-        },
-        "ja": {
-          "title": "ウォーラー氏、米ドルの国際的役割について歓迎の発言",
-          "summary": "ワシントンD.C.の連邦準備制度理事会、ドルの国際的役割に関する第5回会議でのスピーチ"
-        },
-        "ko": {
-          "title": "월러, 미국 달러의 국제적 역할에 대한 환영사",
-          "summary": "워싱턴 D.C.에서 열린 미국 연방준비은행 이사회에서 열린 달러의 국제적 역할에 관한 제5차 회의에서 연설합니다."
-        },
-        "de": {
-          "title": "Waller, Begrüßende Bemerkungen zur internationalen Rolle des US-Dollars",
-          "summary": "Rede auf der Fünften Konferenz über die internationalen Rollen des Dollars, Gouverneursrat des Federal Reserve Systems, Washington, D.C."
-        },
-        "fr": {
-          "title": "Waller, discours de bienvenue sur le rôle international du dollar américain",
-          "summary": "Discours prononcé lors de la cinquième conférence sur les rôles internationaux du dollar, Conseil des gouverneurs de la Réserve fédérale, Washington, D.C."
         }
       }
     },
