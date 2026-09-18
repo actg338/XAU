@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-09-18T07:05:52+00:00",
-  "source_updated_at": "2026-09-18T07:05:52+00:00",
+  "as_of": "2026-09-18T07:20:40+00:00",
+  "source_updated_at": "2026-09-18T07:20:40+00:00",
   "source": "CME FedWatch via QuikStrike",
   "source_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
   "current_rate": "3.75-4.00%",
@@ -15,8 +15,8 @@
     {
       "date": "2026-12-09",
       "label": "2026-12",
-      "hold": 11.6,
-      "hike": 88.4,
+      "hold": 11.9,
+      "hike": 88.1,
       "cut": 0.0
     },
     {
@@ -29,10 +29,10 @@
     {
       "date": "2027-03-17",
       "label": "2027-03",
-      "hold": 2.9,
-      "hike": 97.1,
+      "hold": 2.8,
+      "hike": 97.2,
       "cut": 0.0
     }
   ],
-  "fetched_at": "2026-09-18T07:18:53.940259+00:00"
+  "fetched_at": "2026-09-18T07:33:12.490144+00:00"
 }
