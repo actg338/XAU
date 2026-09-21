@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-21T09:55:49.310255+00:00",
-  "total": 114,
+  "fetched_at": "2026-09-21T10:18:35.205110+00:00",
+  "total": 113,
   "items": [
     {
       "title": "Fact Sheet: President Donald J. Trump Announces Lower Drug Prices for All 50 State Medicaid Programs",
@@ -683,44 +683,6 @@
         "fr": {
           "title": "Expéditions, stocks et commandes des fabricants",
           "summary": "Les nouvelles commandes de produits manufacturés en juillet, en hausse après deux baisses mensuelles consécutives, ont augmenté de 5,8 milliards de dollars, ou 0,9 pour cent, à 663,6 milliards de dollars. Juillet 2026 : +0,9° % Variation Juin 2026 (r) : -0,2° % Variation"
-        }
-      }
-    },
-    {
-      "title": "Boris Vujčić: Listening to households: expectations, behaviour and monetary policy",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html",
-      "summary": "",
-      "published_at": "Tue, 01 Sep 2026 18:00:00 +0200",
-      "source": "ecb",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "c4c79b23d769bdca81261ceeb52925fe80a052c6f8cece9bd57bffecaf45f4bf",
-      "translations": {
-        "zh-CN": {
-          "title": "Boris Vujčić：倾听家庭的声音：期望、行为和货币政策",
-          "summary": ""
-        },
-        "ja": {
-          "title": "ボリス・ヴァイチッチ: 家計の声に耳を傾ける: 期待、行動、金融政策",
-          "summary": ""
-        },
-        "de": {
-          "title": "Boris Vujčić: Den Haushalten zuhören: Erwartungen, Verhalten und Geldpolitik",
-          "summary": ""
-        },
-        "zh-TW": {
-          "title": "Boris Vujčić：傾聽家庭的聲音：期望、行為和貨幣政策",
-          "summary": ""
-        },
-        "ko": {
-          "title": "Boris Vujčić: 가계의 의견 듣기: 기대, 행동 및 통화 정책",
-          "summary": ""
-        },
-        "fr": {
-          "title": "Boris Vujčić : À l'écoute des ménages : attentes, comportements et politique monétaire",
-          "summary": ""
         }
       }
     },
@@ -2053,6 +2015,18 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "50e8f44815ed60c51b21db238e068a8e70f181f62df21728e13080844889b30e"
+    },
+    {
+      "title": "CPI for all items rises 0.4% in August; shelter and food up",
+      "link": "https://www.bls.gov/news.release/archives/cpi_09112025.htm",
+      "summary": "",
+      "published_at": "2025-09-11T08:30:00-04:00",
+      "source": "bls_cpi",
+      "category": "inflation",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
+      "_translation_hash": "dcc4c3f6fcabe746e3475b84a88ca883228a5a37aa7ce8f33869fa2ff10ef920"
     }
   ]
 }
