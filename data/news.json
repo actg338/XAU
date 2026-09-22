@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-09-22T13:53:15.007286+00:00",
+  "fetched_at": "2026-09-22T14:24:43.917752+00:00",
   "total": 114,
   "items": [
+    {
+      "title": "Jefferson, Discount Window Modernization and Treasury Market Functioning",
+      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260922a.htm",
+      "summary": "Speech At the 2026 U.S. Treasury Market Conference, Federal Reserve Bank of New York, New York, New York",
+      "published_at": "Tue, 22 Sep 2026 14:20:00 GMT",
+      "source": "fed_remarks",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "033507a2013c13d921cd7827a10035f4a6f17ab8e7f6b7ec7254beca6d40a5d0",
+      "translations": {
+        "zh-CN": {
+          "title": "杰斐逊，贴现窗口现代化和国债市场运作",
+          "summary": "在2026年美国国债市场会议上的演讲，纽约联邦储备银行，纽约州，纽约"
+        },
+        "ja": {
+          "title": "ジェファーソン氏、割引窓口の近代化と国債市場の機能",
+          "summary": "2026年米国債市場会議でのスピーチ、ニューヨーク連邦準備銀行、ニューヨーク州ニューヨーク"
+        },
+        "de": {
+          "title": "Jefferson, Modernisierung des Diskontfensters und Funktionsweise des Treasury-Marktes",
+          "summary": "Rede auf der U.S. Treasury Market Conference 2026, Federal Reserve Bank of New York, New York, New York"
+        },
+        "ko": {
+          "title": "Jefferson, 할인 창구 현대화 및 국채 시장 기능",
+          "summary": "2026년 미국 국채시장 컨퍼런스 연설, 뉴욕 연방준비은행, 뉴욕, 뉴욕"
+        },
+        "fr": {
+          "title": "Jefferson, Modernisation des guichets d’escompte et fonctionnement du marché du Trésor",
+          "summary": "Discours prononcé lors de la conférence 2026 sur le marché du Trésor américain, Banque de réserve fédérale de New York, New York, New York"
+        },
+        "zh-TW": {
+          "title": "傑佛遜，貼現窗口現代化與國債市場運作",
+          "summary": "在2026年美國國債市場會議上的演講，紐約聯邦儲備銀行，紐約州，紐約"
+        }
+      }
+    },
     {
       "title": "G20 Energy Abundance Ministerial Concludes with Four Consensus Outcomes",
       "link": "https://www.whitehouse.gov/releases/2026/09/g20-energy-abundance-ministerial-concludes-with-four-consensus-outcomes/",
@@ -235,7 +273,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -273,7 +311,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -881,7 +919,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1519,44 +1557,6 @@
         "fr": {
           "title": "Bowman, discours d'ouverture sur les bonnes pratiques en matière d'intelligence artificielle",
           "summary": "Discours lors de l'événement de sensibilisation virtuel du Conseil de stabilité financière"
-        }
-      }
-    },
-    {
-      "title": "Waller, Two Thoughts on the Transmission of Monetary Policy",
-      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260706a.htm",
-      "summary": "Speech At \"Challenges for Monetary Policy Transmission in a Changing World,\" a conference sponsored by the Bank of Italy for the research network initiated by the European System of Central Banks, Rome, Italy",
-      "published_at": "Mon, 6 Jul 2026 15:00:00 GMT",
-      "source": "fed_remarks",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "366cfae5bbe7173ddebd5f02b00179a2d25e76432f50efd1a9c5c0fd87df49d1",
-      "translations": {
-        "ja": {
-          "title": "ウォーラー、金融政策の伝達に関する2つの考え",
-          "summary": "欧州中央銀行システムが開始した研究ネットワークのためにイタリア銀行が主催する会議「変化する世界における金融政策の伝達への挑戦」（イタリア、ローマ）での講演"
-        },
-        "zh-CN": {
-          "title": "沃勒，关于货币政策传导的两种想法",
-          "summary": "在“变化世界中货币政策传导的挑战”会议上的演讲，该会议由意大利银行为欧洲中央银行系统发起的研究网络主办，意大利罗马"
-        },
-        "zh-TW": {
-          "title": "沃勒，關於貨幣政策傳導的兩個想法",
-          "summary": "在「變化世界中貨幣政策傳導的挑戰」會議上的演講，該會議由義大利銀行為歐洲中央銀行系統發起的研究網絡主辦，義大利羅馬"
-        },
-        "fr": {
-          "title": "Waller, Deux réflexions sur la transmission de la politique monétaire",
-          "summary": "Discours prononcé lors de « Les défis de la transmission de la politique monétaire dans un monde en mutation », une conférence parrainée par la Banque d'Italie pour le réseau de recherche initié par le Système européen de banques centrales, Rome, Italie"
-        },
-        "ko": {
-          "title": "월러, 통화정책 전달에 대한 두 가지 생각",
-          "summary": "이탈리아 로마에서 유럽 중앙은행 시스템이 시작한 연구 네트워크를 위해 이탈리아 은행이 후원하는 컨퍼런스인 \"변화하는 세계에서 통화 정책 전달을 위한 도전\"에서 연설"
-        },
-        "de": {
-          "title": "Waller, Zwei Gedanken zur Transmission der Geldpolitik",
-          "summary": "Rede auf der Konferenz „Challenges for Monetary Policy Transmission in a Changing World“, einer von der Bank von Italien gesponserten Konferenz für das vom Europäischen System der Zentralbanken initiierte Forschungsnetzwerk, Rom, Italien"
         }
       }
     },
