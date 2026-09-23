@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-23T16:27:16.927735+00:00",
-  "total": 113,
+  "fetched_at": "2026-09-23T16:43:20.487121+00:00",
+  "total": 112,
   "items": [
     {
       "title": "Barr, A Long-Term View on the Costs of Shelter",
@@ -531,44 +531,6 @@
         "fr": {
           "title": "Commerce de gros mensuel : ventes et stocks",
           "summary": "En juillet 2026, les ventes des grossistes marchands s'élevaient à 801,3 milliards de dollars, en hausse de 0,8 % (+/- 0,4 %) par rapport au mois dernier. Les stocks de fin de mois s'élevaient à 958,9 milliards de dollars, en hausse de 1,3 pour cent (+/- 0,2 pour cent) par rapport au mois dernier. Juillet 2026 : +1,3 % Variation des Stocks Juin 2026 (r) : +0,4 % Variation des Stocks"
-        }
-      }
-    },
-    {
-      "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
-      "link": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
-      "summary": "",
-      "published_at": "Thu, 10 Sep 2026 15:00:00 +0200",
-      "source": "ecb",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "f069dc1250bc05bc9b9015550638a08d93cef1efb3a0d3e8b2df31b2288f5a5f",
-      "translations": {
-        "zh-CN": {
-          "title": "克里斯蒂娜·拉加德 (Christine Lagarde)、鲍里斯·武伊契奇 (Boris Vujčić)：货币政策声明（含问答）",
-          "summary": ""
-        },
-        "zh-TW": {
-          "title": "克里斯蒂娜‧拉加德 (Christine Lagarde)、鮑里斯‧武伊契奇 (Boris Vujčić)：貨幣政策聲明（含問答）",
-          "summary": ""
-        },
-        "ja": {
-          "title": "クリスティーヌ・ラガルド氏、ボリス・ヴァイチッチ氏：金融政策声明（質疑応答付き）",
-          "summary": ""
-        },
-        "ko": {
-          "title": "Christine Lagarde, Boris Vujčić: 통화 정책 성명(Q&A 포함)",
-          "summary": ""
-        },
-        "de": {
-          "title": "Christine Lagarde, Boris Vujčić: Erklärung zur Geldpolitik (mit Fragen und Antworten)",
-          "summary": ""
-        },
-        "fr": {
-          "title": "Christine Lagarde, Boris Vujčić : Déclaration de politique monétaire (avec questions-réponses)",
-          "summary": ""
         }
       }
     },
@@ -2027,6 +1989,18 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "dcc4c3f6fcabe746e3475b84a88ca883228a5a37aa7ce8f33869fa2ff10ef920"
+    },
+    {
+      "title": "PPI for final demand declines 0.1% in August; services fall 0.2%, goods increase 0.1%",
+      "link": "https://www.bls.gov/news.release/archives/ppi_09102025.htm",
+      "summary": "",
+      "published_at": "2025-09-10T08:30:00-04:00",
+      "source": "bls_ppi",
+      "category": "inflation",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
+      "_translation_hash": "2d63234f42ccec42943aaf811f237af0041ece5d9c945b9b5b3427b4bc09b138"
     }
   ]
 }
