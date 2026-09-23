@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-23T15:53:29.754941+00:00",
-  "total": 114,
+  "fetched_at": "2026-09-23T16:07:13.890882+00:00",
+  "total": 113,
   "items": [
     {
       "title": "Barr, A Long-Term View on the Costs of Shelter",
@@ -311,7 +311,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -349,7 +349,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -568,44 +568,6 @@
         },
         "fr": {
           "title": "Christine Lagarde, Boris Vujčić : Déclaration de politique monétaire (avec questions-réponses)",
-          "summary": ""
-        }
-      }
-    },
-    {
-      "title": "Monetary policy decisions",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
-      "summary": "",
-      "published_at": "Thu, 10 Sep 2026 14:15:00 +0200",
-      "source": "ecb",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "d6c8601c58efe148c5d3e41e8bf36e6b8e9e50bba576b3fdb43527c824f612d0",
-      "translations": {
-        "zh-CN": {
-          "title": "货币政策决策",
-          "summary": ""
-        },
-        "ja": {
-          "title": "金融政策決定",
-          "summary": ""
-        },
-        "ko": {
-          "title": "통화 정책 결정",
-          "summary": ""
-        },
-        "zh-TW": {
-          "title": "貨幣政策決策",
-          "summary": ""
-        },
-        "fr": {
-          "title": "Décisions de politique monétaire",
-          "summary": ""
-        },
-        "de": {
-          "title": "Geldpolitische Entscheidungen",
           "summary": ""
         }
       }
@@ -957,7 +919,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -2053,6 +2015,18 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "50e8f44815ed60c51b21db238e068a8e70f181f62df21728e13080844889b30e"
+    },
+    {
+      "title": "CPI for all items rises 0.4% in August; shelter and food up",
+      "link": "https://www.bls.gov/news.release/archives/cpi_09112025.htm",
+      "summary": "",
+      "published_at": "2025-09-11T08:30:00-04:00",
+      "source": "bls_cpi",
+      "category": "inflation",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
+      "_translation_hash": "dcc4c3f6fcabe746e3475b84a88ca883228a5a37aa7ce8f33869fa2ff10ef920"
     }
   ]
 }
