@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-09-23T13:53:20.665476+00:00",
+  "fetched_at": "2026-09-23T14:05:37.588890+00:00",
   "total": 114,
   "items": [
+    {
+      "title": "Barr, A Long-Term View on the Costs of Shelter",
+      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260923a.htm",
+      "summary": "Speech At “Housing Affordability 2026: A Community Development Summit,” hosted by the Federal Reserve Bank of Chicago, Chicago, Illinois",
+      "published_at": "Wed, 23 Sep 2026 14:05:00 GMT",
+      "source": "fed_remarks",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "f6ef623dddbe65c385f582c881556c214315f2d6df203918ec271db1e86dffae",
+      "translations": {
+        "zh-CN": {
+          "title": "巴尔，对住房成本的长期看法",
+          "summary": "在芝加哥联邦储备银行主办的“2026 年住房负担能力：社区发展峰会”上的演讲，伊利诺伊州芝加哥"
+        },
+        "ja": {
+          "title": "バー氏、避難所のコストに関する長期的見解",
+          "summary": "イリノイ州シカゴ、シカゴ連邦準備銀行主催「住宅価格負担2026：地域開発サミット」での講演"
+        },
+        "zh-TW": {
+          "title": "巴爾，對住房成本的長期看法",
+          "summary": "在芝加哥聯邦儲備銀行主辦的「2026 年住房負擔能力：社區發展高峰會」上的演講，伊利諾伊州芝加哥"
+        },
+        "ko": {
+          "title": "Barr, 보호소 비용에 대한 장기적인 관점",
+          "summary": "일리노이주 시카고 연방준비은행이 주최한 \"2026년 주택 경제성: 지역사회 개발 서밋\"에서 연설"
+        },
+        "fr": {
+          "title": "Barr, Une vision à long terme des coûts du logement",
+          "summary": "Discours prononcé lors du « Housing Affordability 2026 : A Community Development Summit », organisé par la Federal Reserve Bank of Chicago, Chicago, Illinois"
+        },
+        "de": {
+          "title": "Barr, Eine langfristige Sicht auf die Kosten von Unterkünften",
+          "summary": "Rede beim „Housing Affordability 2026: A Community Development Summit“, veranstaltet von der Federal Reserve Bank of Chicago, Chicago, Illinois"
+        }
+      }
+    },
     {
       "title": "Jefferson, Discount Window Modernization and Treasury Market Functioning",
       "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260922a.htm",
@@ -273,7 +311,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -311,7 +349,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -919,7 +957,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1519,44 +1557,6 @@
         "fr": {
           "title": "Procès-verbal du Comité fédéral de l'open market, 16-17 juin 2026",
           "summary": "Procès-verbal du Comité fédéral de l'open market, 16-17 juin 2026"
-        }
-      }
-    },
-    {
-      "title": "Bowman, Opening Remarks on Sound Practices for Artificial Intelligence",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260707a.htm",
-      "summary": "Speech At the Financial Stability Board Virtual Outreach Event",
-      "published_at": "Tue, 7 Jul 2026 11:00:00 GMT",
-      "source": "fed_remarks",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "e1014e8f851be1f201d1eda37a228c0c2a0415978b02832f6ff3135a945e5580",
-      "translations": {
-        "zh-CN": {
-          "title": "鲍曼，关于人工智能良好实践的开场白",
-          "summary": "在金融稳定委员会虚拟外展活动上的讲话"
-        },
-        "zh-TW": {
-          "title": "鮑曼，關於人工智慧良好實踐的開場白",
-          "summary": "在金融穩定委員會虛擬外展活動的講話"
-        },
-        "ja": {
-          "title": "ボウマン氏、人工知能の健全な実践に関する冒頭の挨拶",
-          "summary": "金融安定理事会のバーチャルアウトリーチイベントでのスピーチ"
-        },
-        "ko": {
-          "title": "Bowman, 인공 지능의 건전한 관행에 대한 개회사",
-          "summary": "금융안정위원회 가상 지원 행사에서의 연설"
-        },
-        "de": {
-          "title": "Bowman, Eröffnungsrede zu soliden Praktiken für künstliche Intelligenz",
-          "summary": "Rede bei der virtuellen Outreach-Veranstaltung des Financial Stability Board"
-        },
-        "fr": {
-          "title": "Bowman, discours d'ouverture sur les bonnes pratiques en matière d'intelligence artificielle",
-          "summary": "Discours lors de l'événement de sensibilisation virtuel du Conseil de stabilité financière"
         }
       }
     },
