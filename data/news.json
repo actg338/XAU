@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-09-25T20:18:02.232175+00:00",
-  "total": 113,
+  "fetched_at": "2026-09-25T20:30:51.198541+00:00",
+  "total": 114,
   "items": [
+    {
+      "title": "President Trump, First Lady Conclude Historic China State Visit",
+      "link": "https://www.whitehouse.gov/releases/2026/09/president-trump-first-lady-conclude-historic-china-state-visit/",
+      "summary": "Today, President Donald J. Trump and First Lady Melania Trump concluded a historic state visit with His Excellency Xi Jinping, President of the People’s Republic of China, and Madame Peng Liyuan. This marked the first visit to the White House by a Chinese President in more than a decade — and the first time a […] The post President Trump, First Lady Conclude Historic China State Visit appeared first on The White House .",
+      "published_at": "Fri, 25 Sep 2026 20:10:42 +0000",
+      "source": "white_house",
+      "category": "geopolitics",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "geopolitics_neutral",
+      "_translation_hash": "9249c447661698182a51fe242a1d944ec7eab315cebb0b379a3eab8da0631266",
+      "translations": {
+        "zh-CN": {
+          "title": "特朗普总统和第一夫人结束对中国的历史性国事访问",
+          "summary": "今天，唐纳德·J·特朗普总统和第一夫人梅拉尼娅·特朗普结束了对中华人民共和国主席习近平阁下和彭丽媛女士的历史性国事访问。这是十多年来中国国家主席首次访问白宫，也是特朗普总统、第一夫人结束历史性对华国事访问后首次出现在白宫。"
+        },
+        "ja": {
+          "title": "トランプ大統領とファーストレディ、歴史的な中国国賓訪問を終了",
+          "summary": "本日、ドナルド・J・トランプ大統領とメラニア・トランプ大統領夫人は、中華人民共和国習近平国家主席および彭麗源夫人との歴史的な国賓訪問を終えた。これは、中国大統領による10年以上ぶりのホワイトハウス訪問であり、初めての […]ポスト・トランプ大統領、ファーストレディが歴史的な中国国賓訪問を終了 最初にホワイトハウスに掲載された。"
+        },
+        "zh-TW": {
+          "title": "川普總統和第一夫人結束對中國的歷史性國事訪問",
+          "summary": "今天，唐納德·J·特朗普總統和第一夫人梅拉尼婭·特朗普結束了對中華人民共和國主席習近平閣下和彭麗媛女士的歷史性國事訪問。這是十多年來中國國家主席首次訪問白宮，也是川普總統、第一夫人結束歷史性對華國事訪問後首次出現在白宮。"
+        },
+        "ko": {
+          "title": "트럼프 대통령과 영부인, 역사적인 중국 국빈 방문을 마무리하다",
+          "summary": "오늘 도널드 J. 트럼프 대통령과 멜라니아 트럼프 영부인은 시진핑 중국 국가주석, 펑리위안 여사와 함께 역사적인 국빈 방문을 마쳤습니다. 이는 10여년 만에 중국 국가주석의 백악관 방문이었으며, 처음으로 […] 트럼프 대통령과 영부인의 역사적인 중국 국빈방문이 백악관에 처음으로 등장했습니다."
+        },
+        "de": {
+          "title": "Präsident Trump und First Lady schließen historischen Staatsbesuch in China ab",
+          "summary": "Heute haben Präsident Donald J. Trump und First Lady Melania Trump einen historischen Staatsbesuch mit Seiner Exzellenz Xi Jinping, dem Präsidenten der Volksrepublik China, und Madame Peng Liyuan abgeschlossen. Dies war der erste Besuch eines chinesischen Präsidenten im Weißen Haus seit mehr als einem Jahrzehnt – und das erste Mal, dass ein […] Der Beitrag „Präsident Trump und First Lady schließen historischen China-Staatsbesuch ab“ erschien zuerst auf „Das Weiße Haus“."
+        },
+        "fr": {
+          "title": "Le président Trump et la Première dame concluent une visite d'État historique en Chine",
+          "summary": "Aujourd'hui, le président Donald J. Trump et la première dame Melania Trump ont conclu une visite d'État historique avec Son Excellence Xi Jinping, président de la République populaire de Chine, et Madame Peng Liyuan. Il s'agissait de la première visite à la Maison Blanche d'un président chinois depuis plus d'une décennie – et la première fois qu'un […] The post Le président Trump et la Première dame concluent une visite d'État historique en Chine sont apparus en premier sur La Maison Blanche."
+        }
+      }
+    },
     {
       "title": "Advance Monthly Manufacturers' Shipments, Inventories, and Orders",
       "link": "https://www.census.gov/manufacturing/m3/",
@@ -2015,18 +2053,6 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "50e8f44815ed60c51b21db238e068a8e70f181f62df21728e13080844889b30e"
-    },
-    {
-      "title": "CPI for all items rises 0.4% in August; shelter and food up",
-      "link": "https://www.bls.gov/news.release/archives/cpi_09112025.htm",
-      "summary": "",
-      "published_at": "2025-09-11T08:30:00-04:00",
-      "source": "bls_cpi",
-      "category": "inflation",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "dcc4c3f6fcabe746e3475b84a88ca883228a5a37aa7ce8f33869fa2ff10ef920"
     }
   ]
 }
