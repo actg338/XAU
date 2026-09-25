@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-25T13:54:40.296674+00:00",
+  "generated_at": "2026-09-25T14:13:22.289253+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
-  "confidence": 78,
-  "score": -42,
+  "confidence": 87,
+  "score": -47,
   "drivers": [
     "warsh",
-    "fedwatch"
+    "fedwatch",
+    "xau"
   ],
   "counter_risks": [
-    "xau",
     "dxy"
   ],
   "top_news": [
@@ -33,10 +33,10 @@
     }
   ],
   "next_event": {
-    "event_key": "bls_release",
-    "title": "Employee Benefits in the United States",
-    "starts_at": "2026-09-25T14:00:00+00:00",
-    "impact": "medium",
+    "event_key": "jolts",
+    "title": "Job Openings and Labor Turnover Survey",
+    "starts_at": "2026-09-29T14:00:00+00:00",
+    "impact": "high",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
   }
