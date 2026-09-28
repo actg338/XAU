@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-28T16:40:13.085908+00:00",
+  "generated_at": "2026-09-28T16:52:09.446626+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
   "confidence": 92,
-  "score": -78,
+  "score": -77,
   "drivers": [
     "warsh",
     "fedwatch",
@@ -13,6 +13,12 @@
   "counter_risks": [],
   "top_news": [
     {
+      "title": "U.S.-China Board of Trade",
+      "link": "https://www.whitehouse.gov/releases/2026/09/u-s-china-board-of-trade/",
+      "category": "trade",
+      "bias": "bullish"
+    },
+    {
       "title": "Federal Reserve issues FOMC statement",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "category": "monetary_policy",
@@ -21,12 +27,6 @@
     {
       "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
-      "category": "monetary_policy",
-      "bias": "neutral"
-    },
-    {
-      "title": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "category": "monetary_policy",
       "bias": "neutral"
     }
