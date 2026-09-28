@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-09-28T17:21:05.063377+00:00",
+  "fetched_at": "2026-09-28T17:33:10.871569+00:00",
   "total": 116,
   "items": [
+    {
+      "title": "Cook, An Update on AI and the Economy",
+      "link": "https://www.federalreserve.gov/newsevents/speech/cook20260928a.htm",
+      "summary": "Speech At the Oakland Tech Week Opening Keynote, cohosted by the Kapor Center, Oakland, California",
+      "published_at": "Mon, 28 Sep 2026 17:25:00 GMT",
+      "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "ef46adc0aa628200ee6a06df9b7339b6007f34e180f62b48b07c17bc40271f39",
+      "translations": {
+        "zh-CN": {
+          "title": "库克，人工智能与经济的最新进展",
+          "summary": "在奥克兰科技周开幕主题演讲上的演讲，由加利福尼亚州奥克兰卡普尔中心联合主办"
+        },
+        "ja": {
+          "title": "クック氏、AI と経済に関する最新情報",
+          "summary": "カリフォルニア州オークランドの Kapor Center が共催した Oakland Tech Week オープニング基調講演でのスピーチ"
+        },
+        "ko": {
+          "title": "Cook, AI와 경제에 대한 업데이트",
+          "summary": "캘리포니아주 오클랜드 Kapor Center가 공동 주최한 Oakland Tech Week 개회식 기조연설"
+        },
+        "zh-TW": {
+          "title": "庫克，人工智慧與經濟的最新進展",
+          "summary": "在奧克蘭科技週開幕主題演講上的演講，由加州奧克蘭卡普爾中心共同主辦"
+        },
+        "de": {
+          "title": "Cook, Ein Update zu KI und Wirtschaft",
+          "summary": "Rede bei der Eröffnungsrede der Oakland Tech Week, gemeinsam moderiert vom Kapor Center, Oakland, Kalifornien"
+        },
+        "fr": {
+          "title": "Cook, une mise à jour sur l'IA et l'économie",
+          "summary": "Discours lors de la conférence d'ouverture de la Oakland Tech Week, co-organisée par le Kapor Center, Oakland, Californie"
+        }
+      }
+    },
     {
       "title": "U.S.-China Board of Trade",
       "link": "https://www.whitehouse.gov/releases/2026/09/u-s-china-board-of-trade/",
@@ -1519,44 +1557,6 @@
         "fr": {
           "title": "Waller, La politique monétaire à la croisée des chemins",
           "summary": "Discours à la New York Association for Business Economics, New York, New York"
-        }
-      }
-    },
-    {
-      "title": "Bowman, Modernizing Financial Regulation",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260713a.htm",
-      "summary": "Speech At a Bank Policy Institute London Conference, London, United Kingdom",
-      "published_at": "Mon, 13 Jul 2026 09:25:00 GMT",
-      "source": "fed_remarks",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "cb066f2074ca98535faafc584220193f5ded7ff689c112d7c9bea00776eafd67",
-      "translations": {
-        "zh-CN": {
-          "title": "鲍曼，《金融监管现代化》",
-          "summary": "在英国伦敦银行政策研究所伦敦会议上的演讲"
-        },
-        "zh-TW": {
-          "title": "鮑曼，《金融監理現代化》",
-          "summary": "在英國倫敦銀行政策研究所倫敦會議的演講"
-        },
-        "ja": {
-          "title": "ボウマン氏、金融規制の近代化",
-          "summary": "英国ロンドンの銀行政策研究所ロンドン会議での講演"
-        },
-        "ko": {
-          "title": "Bowman, 금융 규제 현대화",
-          "summary": "영국 런던 은행정책연구소 런던 컨퍼런스에서의 연설"
-        },
-        "de": {
-          "title": "Bowman, Modernisierung der Finanzregulierung",
-          "summary": "Rede auf einer Konferenz des Bank Policy Institute London, London, Vereinigtes Königreich"
-        },
-        "fr": {
-          "title": "Bowman, Moderniser la réglementation financière",
-          "summary": "Discours prononcé lors d'une conférence du Bank Policy Institute à Londres, Londres, Royaume-Uni"
         }
       }
     },
