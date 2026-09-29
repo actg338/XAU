@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-09-29T14:59:40.461110+00:00",
-  "total": 117,
+  "fetched_at": "2026-09-29T15:22:58.983306+00:00",
+  "total": 116,
   "items": [
+    {
+      "title": "Bowman, Opening Remarks",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260929a.htm",
+      "summary": "Speech At the Community Bank Cyber Workshop, Denver, Colorado (via pre-recorded video)",
+      "published_at": "Tue, 29 Sep 2026 15:00:00 GMT",
+      "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "873d6983a147ccf7fd1c315cda5839f7624ed83125d04ff7c23a0aa7dc7025aa",
+      "translations": {
+        "zh-CN": {
+          "title": "鲍曼，开幕致辞",
+          "summary": "在科罗拉多州丹佛社区银行网络研讨会上的演讲（通过预先录制的视频）"
+        },
+        "ja": {
+          "title": "ボーマン氏、開会の挨拶",
+          "summary": "コロラド州デンバーのコミュニティバンクサイバーワークショップでのスピーチ（録画済みビデオによる）"
+        },
+        "zh-TW": {
+          "title": "鮑曼，開幕致辭",
+          "summary": "在科羅拉多州丹佛社區銀行網路研討會上的演講（透過預先錄製的影片）"
+        },
+        "ko": {
+          "title": "Bowman, 개회사",
+          "summary": "콜로라도주 덴버에서 열린 Community Bank Cyber Workshop에서의 연설(사전 녹화된 비디오를 통해)"
+        },
+        "de": {
+          "title": "Bowman, Eröffnungsrede",
+          "summary": "Rede beim Community Bank Cyber Workshop, Denver, Colorado (über aufgezeichnetes Video)"
+        },
+        "fr": {
+          "title": "Bowman, mot d’ouverture",
+          "summary": "Discours au Community Bank Cyber Workshop, Denver, Colorado (via vidéo préenregistrée)"
+        }
+      }
+    },
     {
       "title": "ECB amends monetary policy implementation guidelines as part of regular review",
       "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260929~050089e922.en.html",
@@ -459,40 +497,40 @@
       }
     },
     {
-      "title": "Fact Sheet: President Donald J. Trump Announces Lower Drug Prices for All 50 State Medicaid Programs",
-      "link": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-announces-lower-drug-prices-for-all-50-state-medicaid-programs/",
-      "summary": "ADVANCING MOST-FAVORED-NATION (MFN) PRICING IN MEDICAID: Today, President Donald J. Trump announced that all 50 States’ Medicaid programs will benefit from lower prescription drug prices under his agreements with pharmaceutical manufacturers to match the lowest prices paid by other developed nations (known as the most-favored-nation, or MFN, prices). SAVING TAXPAYER DOLLARS WHILE MAINTAINING COVERAGE FOR THE […] The post Fact Sheet: President Donald J. Trump Announces Lower Drug Prices for All 5",
-      "published_at": "Fri, 18 Sep 2026 19:47:36 +0000",
-      "source": "white_house",
+      "title": "Bowman, The Final Chapter on Modernizing Bank Regulatory Stress Testing",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260918a.htm",
+      "summary": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom",
+      "published_at": "Fri, 18 Sep 2026 13:30:00 GMT",
+      "source": "fed_remarks",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "72a5c48358a3a21785f24bdffd2a7ae8d983c964e99210bf0ccb92e541a0aaa5",
+      "_translation_hash": "480e1107231a2eb38239520d6145e8f3574477c795c19321344debb8cadd3255",
       "translations": {
+        "ja": {
+          "title": "ボウマン著『銀行規制ストレステストの近代化に関する最終章』",
+          "summary": "英国ロンドンのマンションハウスでのロンドン市長の昼食会でのスピーチ"
+        },
         "zh-CN": {
-          "title": "情况说明书：唐纳德·J·特朗普总统宣布降低所有 50 个州医疗补助计划的药品价格",
-          "summary": "推进医疗补助最惠国 (MFN) 定价：今天，唐纳德·J·特朗普总统宣布，根据他与制药商达成的协议，所有 50 个州的医疗补助计划都将受益于较低的处方药价格，以匹配其他发达国家支付的最低价格（称为最惠国或最惠国价格）。节省纳税人的钱，同时维持 [...] 后情况说明书：唐纳德·J·特朗普总统宣布降低所有 5 种药品的价格"
+          "title": "鲍曼，银行监管压力测试现代化的最后一章",
+          "summary": "在英国伦敦 Mansion House 伦敦市市长午餐会上的讲话"
         },
         "zh-TW": {
-          "title": "情況說明書：唐納德·J·特朗普總統宣布降低所有 50 個州醫療補助計劃的藥品價格",
-          "summary": "推進醫療補助最惠國 (MFN) 定價：今天，唐納德·J·特朗普總統宣布，根據他與製藥商達成的協議，所有 50 個州的醫療補助計劃都將受益於較低的處方藥價格，以匹配其他已開發國家支付的最低價格（稱為最惠國或最惠國價格）。節省納稅人的錢，同時維持 [...] 後情況說明書：唐納德·J·特朗普總統宣布降低所有 5 種藥品的價格"
-        },
-        "ja": {
-          "title": "ファクトシート: ドナルド・J・トランプ大統領、50州のメディケイドプログラムすべての薬価引き下げを発表",
-          "summary": "メディケイドにおける最恵国待遇（MFN）価格設定の推進：本日、ドナルド・J・トランプ大統領は、他の先進国が支払う最低価格（最恵国待遇、すなわちMFN価格として知られる）に匹敵する製薬メーカーとの協定に基づき、50州すべてのメディケイドプログラムが処方薬価格の引き下げから恩恵を受けると発表した。保険適用範囲を維持しながら納税者のお金を節約 […] ポストファクトシート: ドナルド・J・トランプ大統領、5種類すべての薬価引き下げを発表"
-        },
-        "de": {
-          "title": "Faktenblatt: Präsident Donald J. Trump kündigt niedrigere Arzneimittelpreise für alle 50 staatlichen Medicaid-Programme an",
-          "summary": "FORTSCHRITTLICHE MEISTBEFÖRDERUNGSPREISE (MFN) BEI MEDICAID: Präsident Donald J. Trump gab heute bekannt, dass die Medicaid-Programme aller 50 Bundesstaaten im Rahmen seiner Vereinbarungen mit Pharmaherstellern von niedrigeren Preisen für verschreibungspflichtige Medikamente profitieren werden, um den niedrigsten Preisen anderer entwickelter Länder (sogenannte Meistbegünstigungspreise oder MFN) zu entsprechen. STEUERZAHLER-DOLLAR SPAREN UND GLEICHZEITIG DIE ABDECKUNG FÜR DIE […] aufrechterhalten. Der Beitrag Faktenblatt: Präsident Donald J. Trump kündigt niedrigere Arzneimittelpreise für alle 5 an"
-        },
-        "fr": {
-          "title": "Fiche d'information : Le président Donald J. Trump annonce une baisse des prix des médicaments pour les 50 programmes d'État Medicaid",
-          "summary": "AVANCER LES PRIX DE LA NATION LA PLUS FAVORISÉE (NPF) DANS MEDICAID : Aujourd'hui, le président Donald J. Trump a annoncé que les programmes Medicaid des 50 États bénéficieront de prix de médicaments sur ordonnance plus bas dans le cadre de ses accords avec les fabricants de produits pharmaceutiques pour égaler les prix les plus bas payés par d'autres pays développés (connus sous le nom de prix de la nation la plus favorisée, ou NPF). ÉCONOMISER LES DOLLARS DES CONTRIBUABLES TOUT EN MAINTENANT LA COUVERTURE DES […] La fiche d'information post : Le président Donald J. Trump annonce une baisse des prix des médicaments pour tous les 5"
+          "title": "鮑曼，銀行監理壓力測試現代化的最後一章",
+          "summary": "在英國倫敦 Mansion House 倫敦市長午餐會上的講話"
         },
         "ko": {
-          "title": "팩트 시트: 도널드 J. 트럼프 대통령, 50개 주 Medicaid 프로그램 전체에 대한 약값 인하 발표",
-          "summary": "MEDICAID의 최혜국(MFN) 가격 책정 개선: 오늘 Donald J. Trump 대통령은 다른 선진국이 지불하는 최저 가격(최혜국 또는 MFN 가격으로 알려짐)과 일치하도록 제약 제조업체와의 계약에 따라 50개 주의 모든 Medicaid 프로그램이 처방약 가격 인하의 혜택을 누릴 것이라고 발표했습니다. [...]에 대한 보장을 유지하면서 납세자 비용을 절약합니다. 포스트 자료표: 도널드 J. 트럼프 대통령, 모든 5에 대한 약가 인하 발표"
+          "title": "Bowman, 은행 규제 스트레스 테스트 현대화의 마지막 장",
+          "summary": "영국 런던 맨션 하우스에서 열린 런던 시장 오찬 연설"
+        },
+        "de": {
+          "title": "Bowman, Das letzte Kapitel zur Modernisierung der regulatorischen Stresstests für Banken",
+          "summary": "Rede beim Mittagessen des Oberbürgermeisters der Stadt London im Mansion House, London, Vereinigtes Königreich"
+        },
+        "fr": {
+          "title": "Bowman, Le dernier chapitre sur la modernisation des tests de résistance réglementaires bancaires",
+          "summary": "Discours lors du déjeuner du lord-maire de la ville de Londres à Mansion House, Londres, Royaume-Uni"
         }
       }
     },
@@ -530,44 +568,6 @@
         },
         "fr": {
           "title": "Bowman, premières conclusions de l'examen indépendant de la Silicon Valley Bank",
-          "summary": "Discours lors du déjeuner du lord-maire de la ville de Londres à Mansion House, Londres, Royaume-Uni"
-        }
-      }
-    },
-    {
-      "title": "Bowman, The Final Chapter on Modernizing Bank Regulatory Stress Testing",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260918a.htm",
-      "summary": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom",
-      "published_at": "Fri, 18 Sep 2026 13:30:00 GMT",
-      "source": "fed_remarks",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "480e1107231a2eb38239520d6145e8f3574477c795c19321344debb8cadd3255",
-      "translations": {
-        "ja": {
-          "title": "ボウマン著『銀行規制ストレステストの近代化に関する最終章』",
-          "summary": "英国ロンドンのマンションハウスでのロンドン市長の昼食会でのスピーチ"
-        },
-        "zh-CN": {
-          "title": "鲍曼，银行监管压力测试现代化的最后一章",
-          "summary": "在英国伦敦 Mansion House 伦敦市市长午餐会上的讲话"
-        },
-        "zh-TW": {
-          "title": "鮑曼，銀行監理壓力測試現代化的最後一章",
-          "summary": "在英國倫敦 Mansion House 倫敦市長午餐會上的講話"
-        },
-        "ko": {
-          "title": "Bowman, 은행 규제 스트레스 테스트 현대화의 마지막 장",
-          "summary": "영국 런던 맨션 하우스에서 열린 런던 시장 오찬 연설"
-        },
-        "de": {
-          "title": "Bowman, Das letzte Kapitel zur Modernisierung der regulatorischen Stresstests für Banken",
-          "summary": "Rede beim Mittagessen des Oberbürgermeisters der Stadt London im Mansion House, London, Vereinigtes Königreich"
-        },
-        "fr": {
-          "title": "Bowman, Le dernier chapitre sur la modernisation des tests de résistance réglementaires bancaires",
           "summary": "Discours lors du déjeuner du lord-maire de la ville de Londres à Mansion House, Londres, Royaume-Uni"
         }
       }
@@ -615,7 +615,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -653,7 +653,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1147,7 +1147,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1557,44 +1557,6 @@
         "de": {
           "title": "Warsh, halbjährlicher geldpolitischer Bericht an den Kongress",
           "summary": "Aussage vor dem Ausschuss für Finanzdienstleistungen des US-Repräsentantenhauses"
-        }
-      }
-    },
-    {
-      "title": "Waller, Monetary Policy at a Crossroads",
-      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260713a.htm",
-      "summary": "Speech At the New York Association for Business Economics, New York, New York",
-      "published_at": "Mon, 13 Jul 2026 16:30:00 GMT",
-      "source": "fed_remarks",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "69f1b86d0a3edeb5410849d51dd428bc534cbc3d32391dc4a389942a3e2c146b",
-      "translations": {
-        "zh-CN": {
-          "title": "沃勒，货币政策处于十字路口",
-          "summary": "在纽约商业经济协会的演讲，纽约，纽约"
-        },
-        "zh-TW": {
-          "title": "沃勒，貨幣政策處於十字路口",
-          "summary": "在紐約商業經濟協會的演講，紐約，紐約"
-        },
-        "ja": {
-          "title": "ウォーラー氏、岐路に立つ金融政策",
-          "summary": "ニューヨーク州ニューヨークのニューヨーク経営経済協会での講演"
-        },
-        "ko": {
-          "title": "월러, 기로에 선 통화정책",
-          "summary": "뉴욕 비즈니스 경제 협회(New York Association for Business Economics)에서 연설(뉴욕, 뉴욕)"
-        },
-        "de": {
-          "title": "Waller, Geldpolitik am Scheideweg",
-          "summary": "Rede bei der New York Association for Business Economics, New York, New York"
-        },
-        "fr": {
-          "title": "Waller, La politique monétaire à la croisée des chemins",
-          "summary": "Discours à la New York Association for Business Economics, New York, New York"
         }
       }
     },
@@ -2131,6 +2093,18 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "4580557ddb6ea1d4834c1b15c41a3149ef83d749f8ae34cb0c4cceec56f369f8"
+    },
+    {
+      "title": "Payroll employment edges up 119,000 in September; unemployment rate changes little at 4.4%",
+      "link": "https://www.bls.gov/news.release/archives/empsit_11202025.htm",
+      "summary": "",
+      "published_at": "2025-11-20T08:30:00-05:00",
+      "source": "bls_jobs",
+      "category": "labor",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "b913e2014a1c590a06230e201b743e6ef224d6a5a356c51addaeb7d4912bd47e"
     }
   ]
 }
