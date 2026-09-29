@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-09-29T18:59:13.729036+00:00",
+  "fetched_at": "2026-09-29T19:18:53.276338+00:00",
   "total": 116,
   "items": [
+    {
+      "title": "Waller, Payments in the Age of AI Agents",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260928a.htm",
+      "summary": "Speech At Sibos 2026, Miami, Florida",
+      "published_at": "Tue, 29 Sep 2026 19:00:00 GMT",
+      "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "1c921ed1dcfb1940392c2b9f9736255f3cfdbb0911f3fc315db3f433e30d8052",
+      "translations": {
+        "zh-CN": {
+          "title": "Waller，人工智能代理时代的支付",
+          "summary": "在 Sibos 2026（佛罗里达州迈阿密）上的演讲"
+        },
+        "ko": {
+          "title": "Waller, AI 에이전트 시대의 결제",
+          "summary": "플로리다주 마이애미, Sibos 2026에서의 연설"
+        },
+        "zh-TW": {
+          "title": "Waller，人工智慧代理時代的支付",
+          "summary": "在 Sibos 2026（佛羅裡達州邁阿密）上的演講"
+        },
+        "ja": {
+          "title": "Waller、AI エージェント時代の支払い",
+          "summary": "フロリダ州マイアミのSibos 2026でのスピーチ"
+        },
+        "de": {
+          "title": "Waller, Zahlungen im Zeitalter der KI-Agenten",
+          "summary": "Rede bei Sibos 2026, Miami, Florida"
+        },
+        "fr": {
+          "title": "Waller, Les paiements à l'ère des agents IA",
+          "summary": "Discours au Sibos 2026, Miami, Floride"
+        }
+      }
+    },
     {
       "title": "Barr, Economic Conditions and Monetary Policy",
       "link": "https://www.federalreserve.gov/newsevents/speech/barr20260929a.htm",
@@ -1519,44 +1557,6 @@
         "de": {
           "title": "Protokolle der Diskontsatzsitzungen des Vorstands am 8. und 17. Juni 2026",
           "summary": "Protokolle der Diskontsatzsitzungen des Vorstands am 8. und 17. Juni 2026"
-        }
-      }
-    },
-    {
-      "title": "Barr, Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?",
-      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260714a.htm",
-      "summary": "Speech At “Next-Gen Financial Inclusion,” the third annual Financial Inclusion Conference hosted by the Federal Reserve Board",
-      "published_at": "Tue, 14 Jul 2026 16:40:00 GMT",
-      "source": "fed_remarks",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "4e45fae278ef0bb5d7b4496612864fa8443a8796916e14adfc7e6b05cbaacd2e",
-      "translations": {
-        "zh-CN": {
-          "title": "巴尔，人工智能会广泛提高生活水平或推动收入和财富不平等吗？",
-          "summary": "在美联储主办的第三届普惠金融年度会议“下一代普惠金融”上的演讲"
-        },
-        "zh-TW": {
-          "title": "巴爾，人工智慧會廣泛提高生活水平或推動收入和財富不平等嗎？",
-          "summary": "在聯準會主辦的第三屆普惠金融年度會議「下一代普惠金融」上的演講"
-        },
-        "ja": {
-          "title": "バー氏、人工知能は生活水準を広範囲に引き上げるのか、それとも所得や富の不平等を促進するのか?",
-          "summary": "連邦準備制度理事会主催の第3回金融包摂年次会議「次世代金融包摂」での講演"
-        },
-        "ko": {
-          "title": "Barr, 인공 지능이 생활 수준을 광범위하게 향상시킬 것인가, 아니면 소득과 부의 불평등을 촉진할 것인가?",
-          "summary": "연방준비제도이사회(FRB)가 주최한 제3차 연례 금융포용 컨퍼런스 “차세대 금융포용”에서 연설"
-        },
-        "de": {
-          "title": "Barr, wird künstliche Intelligenz den Lebensstandard allgemein erhöhen oder die Einkommens- und Vermögensungleichheit verstärken?",
-          "summary": "Rede bei „Next-Gen Financial Inclusion“, der dritten jährlichen Konferenz zur finanziellen Integration, die vom Federal Reserve Board veranstaltet wird"
-        },
-        "fr": {
-          "title": "Barr, L'intelligence artificielle augmentera-t-elle largement le niveau de vie ou entraînera-t-elle des inégalités de revenus et de richesse ?",
-          "summary": "Discours lors de « Next-Gen Financial Inclusion », la troisième conférence annuelle sur l'inclusion financière organisée par la Réserve fédérale"
         }
       }
     },
