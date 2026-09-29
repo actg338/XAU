@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-29T13:58:53.182743+00:00",
+  "generated_at": "2026-09-29T14:22:06.179324+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
-  "confidence": 86,
-  "score": -42,
+  "confidence": 85,
+  "score": -37,
   "drivers": [
     "warsh",
     "fedwatch",
@@ -33,10 +33,10 @@
     }
   ],
   "next_event": {
-    "event_key": "jolts",
-    "title": "Job Openings and Labor Turnover Survey",
-    "starts_at": "2026-09-29T14:00:00+00:00",
-    "impact": "high",
+    "event_key": "bls_release",
+    "title": "Metropolitan Area Employment and Unemployment (Monthly)",
+    "starts_at": "2026-09-30T14:00:00+00:00",
+    "impact": "medium",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
   }
