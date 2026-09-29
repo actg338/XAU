@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-09-29T16:25:40.269727+00:00",
+  "fetched_at": "2026-09-29T16:43:50.762849+00:00",
   "total": 116,
   "items": [
+    {
+      "title": "Barr, Economic Conditions and Monetary Policy",
+      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260929a.htm",
+      "summary": "Speech At the Detroit Economic Club, Detroit, Michigan",
+      "published_at": "Tue, 29 Sep 2026 16:40:00 GMT",
+      "source": "fed_remarks",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "d676ef489a6b4d04189053fc11a41264556768f9dd0ae63d400f750c570b7c0a",
+      "translations": {
+        "ja": {
+          "title": "バール氏、経済情勢と金融政策",
+          "summary": "ミシガン州デトロイトのデトロイト・エコノミック・クラブでのスピーチ"
+        },
+        "zh-CN": {
+          "title": "巴尔，经济状况和货币政策",
+          "summary": "在密歇根州底特律底特律经济俱乐部的演讲"
+        },
+        "ko": {
+          "title": "Barr, 경제 상황 및 통화 정책",
+          "summary": "미시간 주 디트로이트 디트로이트 경제 클럽에서의 연설"
+        },
+        "fr": {
+          "title": "Barr, Conditions économiques et politique monétaire",
+          "summary": "Discours au Detroit Economic Club, Detroit, Michigan"
+        },
+        "zh-TW": {
+          "title": "巴爾，經濟狀況和貨幣政策",
+          "summary": "在密西根州底特律底特律經濟俱樂部的演講"
+        },
+        "de": {
+          "title": "Barr, Wirtschaftsbedingungen und Geldpolitik",
+          "summary": "Rede im Detroit Economic Club, Detroit, Michigan"
+        }
+      }
+    },
     {
       "title": "Bowman, Opening Remarks",
       "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260929a.htm",
@@ -615,7 +653,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -653,7 +691,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1147,7 +1185,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1519,44 +1557,6 @@
         "fr": {
           "title": "Barr, L'intelligence artificielle augmentera-t-elle largement le niveau de vie ou entraînera-t-elle des inégalités de revenus et de richesse ?",
           "summary": "Discours lors de « Next-Gen Financial Inclusion », la troisième conférence annuelle sur l'inclusion financière organisée par la Réserve fédérale"
-        }
-      }
-    },
-    {
-      "title": "Warsh, Semiannual Monetary Policy Report to the Congress",
-      "link": "https://www.federalreserve.gov/newsevents/testimony/warsh20260714a.htm",
-      "summary": "Testimony Before the Committee on Financial Services, U.S. House of Representatives",
-      "published_at": "Tue, 14 Jul 2026 12:30:00 GMT",
-      "source": "fed_remarks",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "bullish",
-      "why_key": "monetary_policy_bullish",
-      "_translation_hash": "47784f805710e9c2864bda600ce891c68e264b7f3c1e32b82d167cf56cc5e952",
-      "translations": {
-        "zh-CN": {
-          "title": "Warsh，向国会提交的半年度货币政策报告",
-          "summary": "在美国众议院金融服务委员会作证"
-        },
-        "zh-TW": {
-          "title": "Warsh，向國會提交的半年度貨幣政策報告",
-          "summary": "在美國眾議院金融服務委員會作證"
-        },
-        "ja": {
-          "title": "ウォーシュ氏、議会への半期金融政策報告書",
-          "summary": "米国下院金融サービス委員会での証言"
-        },
-        "ko": {
-          "title": "Warsh, 의회에 반기 통화 정책 보고서",
-          "summary": "미국 하원 금융서비스위원회 증언"
-        },
-        "fr": {
-          "title": "Warsh, Rapport semestriel sur la politique monétaire au Congrès",
-          "summary": "Témoignage devant le Comité des services financiers de la Chambre des représentants des États-Unis"
-        },
-        "de": {
-          "title": "Warsh, halbjährlicher geldpolitischer Bericht an den Kongress",
-          "summary": "Aussage vor dem Ausschuss für Finanzdienstleistungen des US-Repräsentantenhauses"
         }
       }
     },
