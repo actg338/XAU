@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-09-29T07:59:35.906763+00:00",
-  "total": 116,
+  "fetched_at": "2026-09-29T08:31:10.288890+00:00",
+  "total": 117,
   "items": [
+    {
+      "title": "ECB amends monetary policy implementation guidelines as part of regular review",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260929~050089e922.en.html",
+      "summary": "",
+      "published_at": "Tue, 29 Sep 2026 10:00:00 +0200",
+      "source": "ecb",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "b00f2475be9ac14b1ef029d153960932f1653ed70ac929221d93ce419429ffb5",
+      "translations": {
+        "zh-CN": {
+          "title": "作为定期审查的一部分，欧洲央行修订货币政策实施指南",
+          "summary": ""
+        },
+        "ja": {
+          "title": "ECB、定期見直しの一環として金融政策実施ガイドラインを修正",
+          "summary": ""
+        },
+        "zh-TW": {
+          "title": "作為定期審查的一部分，歐洲央行修訂貨幣政策實施指南",
+          "summary": ""
+        },
+        "ko": {
+          "title": "ECB, 정기 검토 일환으로 통화정책 시행지침 개정",
+          "summary": ""
+        },
+        "de": {
+          "title": "EZB ändert im Rahmen der regelmäßigen Überprüfung die Leitlinien zur Umsetzung der Geldpolitik",
+          "summary": ""
+        },
+        "fr": {
+          "title": "La BCE modifie les lignes directrices de mise en œuvre de la politique monétaire dans le cadre de son examen régulier",
+          "summary": ""
+        }
+      }
+    },
     {
       "title": "Cook, An Update on AI and the Economy",
       "link": "https://www.federalreserve.gov/newsevents/speech/cook20260928a.htm",
@@ -2093,18 +2131,6 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "4580557ddb6ea1d4834c1b15c41a3149ef83d749f8ae34cb0c4cceec56f369f8"
-    },
-    {
-      "title": "Payroll employment edges up 119,000 in September; unemployment rate changes little at 4.4%",
-      "link": "https://www.bls.gov/news.release/archives/empsit_11202025.htm",
-      "summary": "",
-      "published_at": "2025-11-20T08:30:00-05:00",
-      "source": "bls_jobs",
-      "category": "labor",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "b913e2014a1c590a06230e201b743e6ef224d6a5a356c51addaeb7d4912bd47e"
     }
   ]
 }
