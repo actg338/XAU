@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-09-30T15:35:56.410336+00:00",
-  "total": 116,
+  "fetched_at": "2026-09-30T15:50:19.297701+00:00",
+  "total": 117,
   "items": [
+    {
+      "title": "Isabel Schnabel: Monetary policy in a world of overlapping shocks",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260930_1~7c6c120482.en.html",
+      "summary": "",
+      "published_at": "Wed, 30 Sep 2026 17:45:00 +0200",
+      "source": "ecb",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "58c67a11ceda26a9fb7e6e28809b13fef124901d1bed5cf5fe37176a5d247095",
+      "translations": {
+        "zh-CN": {
+          "title": "伊莎贝尔·施纳贝尔：冲击重叠的世界中的货币政策",
+          "summary": ""
+        },
+        "ja": {
+          "title": "イザベル・シュナーベル：衝撃が重なる世界における金融政策",
+          "summary": ""
+        },
+        "zh-TW": {
+          "title": "伊莎貝爾·施納貝爾：衝擊重疊的世界中的貨幣政策",
+          "summary": ""
+        },
+        "ko": {
+          "title": "이사벨 슈나벨: 충격이 겹치는 세계의 통화 정책",
+          "summary": ""
+        },
+        "de": {
+          "title": "Isabel Schnabel: Geldpolitik in einer Welt überlappender Schocks",
+          "summary": ""
+        },
+        "fr": {
+          "title": "Isabel Schnabel : La politique monétaire dans un monde de chocs superposés",
+          "summary": ""
+        }
+      }
+    },
     {
       "title": "Advance Retail Inventories",
       "link": "https://www.census.gov/econ/indicators/index.html",
@@ -2067,18 +2105,6 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "b913e2014a1c590a06230e201b743e6ef224d6a5a356c51addaeb7d4912bd47e"
-    },
-    {
-      "title": "CPI for all items rises 0.3% in September; gasoline up",
-      "link": "https://www.bls.gov/news.release/archives/cpi_10242025.htm",
-      "summary": "",
-      "published_at": "2025-10-24T08:30:00-04:00",
-      "source": "bls_cpi",
-      "category": "inflation",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "044af1e69df439dcfbdc5335fa821579e6cc7c52c8d2171caae18d4fc2ca7848"
     }
   ]
 }
