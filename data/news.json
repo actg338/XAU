@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-09-30T19:20:21.281394+00:00",
+  "fetched_at": "2026-09-30T19:32:00.743729+00:00",
   "total": 116,
   "items": [
+    {
+      "title": "Cook, The Dual Mandate in Rural America",
+      "link": "https://www.federalreserve.gov/newsevents/speech/cook20260930a.htm",
+      "summary": "Speech At the 2026 Investing in Rural America Conference, Federal Reserve Bank of Richmond, Asheville, North Carolina",
+      "published_at": "Wed, 30 Sep 2026 19:25:00 GMT",
+      "source": "fed_remarks",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "d409832a789d60c5e77527604604a857baf60c46df4a6539809dc90c657d6170",
+      "translations": {
+        "zh-CN": {
+          "title": "库克，《美国农村的双重使命》",
+          "summary": "在北卡罗来纳州阿什维尔里士满联邦储备银行 2026 年美国农村投资会议上的演讲"
+        },
+        "ja": {
+          "title": "クック、アメリカの田舎における二重の使命",
+          "summary": "ノースカロライナ州アッシュビル、リッチモンド連邦準備銀行の2026年アメリカ農村地域投資カンファレンスでのスピーチ"
+        },
+        "ko": {
+          "title": "쿡, 미국 시골 지역의 이중 권한",
+          "summary": "노스캐롤라이나주 애슈빌 리치먼드 연방준비은행에서 열린 2026년 미국 농촌 투자 컨퍼런스에서 연설"
+        },
+        "zh-TW": {
+          "title": "庫克，《美國農村的雙重使命》",
+          "summary": "在北卡羅來納州阿什維爾里士滿聯邦儲備銀行 2026 年美國農村投資會議上的演講"
+        },
+        "de": {
+          "title": "Cook, Das Doppelmandat im ländlichen Amerika",
+          "summary": "Rede auf der Investing in Rural America Conference 2026, Federal Reserve Bank of Richmond, Asheville, North Carolina"
+        },
+        "fr": {
+          "title": "Cook, Le double mandat en Amérique rurale",
+          "summary": "Discours prononcé lors de la conférence Investing in Rural America 2026, Federal Reserve Bank of Richmond, Asheville, Caroline du Nord"
+        }
+      }
+    },
     {
       "title": "Isabel Schnabel: Monetary policy in a world of overlapping shocks",
       "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260930_1~7c6c120482.en.html",
@@ -573,44 +611,6 @@
       }
     },
     {
-      "title": "Bowman, The Final Chapter on Modernizing Bank Regulatory Stress Testing",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260918a.htm",
-      "summary": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom",
-      "published_at": "Fri, 18 Sep 2026 13:30:00 GMT",
-      "source": "fed_remarks",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "480e1107231a2eb38239520d6145e8f3574477c795c19321344debb8cadd3255",
-      "translations": {
-        "ja": {
-          "title": "ボウマン著『銀行規制ストレステストの近代化に関する最終章』",
-          "summary": "英国ロンドンのマンションハウスでのロンドン市長の昼食会でのスピーチ"
-        },
-        "zh-CN": {
-          "title": "鲍曼，银行监管压力测试现代化的最后一章",
-          "summary": "在英国伦敦 Mansion House 伦敦市市长午餐会上的讲话"
-        },
-        "zh-TW": {
-          "title": "鮑曼，銀行監理壓力測試現代化的最後一章",
-          "summary": "在英國倫敦 Mansion House 倫敦市長午餐會上的講話"
-        },
-        "ko": {
-          "title": "Bowman, 은행 규제 스트레스 테스트 현대화의 마지막 장",
-          "summary": "영국 런던 맨션 하우스에서 열린 런던 시장 오찬 연설"
-        },
-        "de": {
-          "title": "Bowman, Das letzte Kapitel zur Modernisierung der regulatorischen Stresstests für Banken",
-          "summary": "Rede beim Mittagessen des Oberbürgermeisters der Stadt London im Mansion House, London, Vereinigtes Königreich"
-        },
-        "fr": {
-          "title": "Bowman, Le dernier chapitre sur la modernisation des tests de résistance réglementaires bancaires",
-          "summary": "Discours lors du déjeuner du lord-maire de la ville de Londres à Mansion House, Londres, Royaume-Uni"
-        }
-      }
-    },
-    {
       "title": "Bowman, Initial Findings from Independent Review of Silicon Valley Bank",
       "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260918b.htm",
       "summary": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom",
@@ -644,6 +644,44 @@
         },
         "fr": {
           "title": "Bowman, premières conclusions de l'examen indépendant de la Silicon Valley Bank",
+          "summary": "Discours lors du déjeuner du lord-maire de la ville de Londres à Mansion House, Londres, Royaume-Uni"
+        }
+      }
+    },
+    {
+      "title": "Bowman, The Final Chapter on Modernizing Bank Regulatory Stress Testing",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260918a.htm",
+      "summary": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom",
+      "published_at": "Fri, 18 Sep 2026 13:30:00 GMT",
+      "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "480e1107231a2eb38239520d6145e8f3574477c795c19321344debb8cadd3255",
+      "translations": {
+        "ja": {
+          "title": "ボウマン著『銀行規制ストレステストの近代化に関する最終章』",
+          "summary": "英国ロンドンのマンションハウスでのロンドン市長の昼食会でのスピーチ"
+        },
+        "zh-CN": {
+          "title": "鲍曼，银行监管压力测试现代化的最后一章",
+          "summary": "在英国伦敦 Mansion House 伦敦市市长午餐会上的讲话"
+        },
+        "zh-TW": {
+          "title": "鮑曼，銀行監理壓力測試現代化的最後一章",
+          "summary": "在英國倫敦 Mansion House 倫敦市長午餐會上的講話"
+        },
+        "ko": {
+          "title": "Bowman, 은행 규제 스트레스 테스트 현대화의 마지막 장",
+          "summary": "영국 런던 맨션 하우스에서 열린 런던 시장 오찬 연설"
+        },
+        "de": {
+          "title": "Bowman, Das letzte Kapitel zur Modernisierung der regulatorischen Stresstests für Banken",
+          "summary": "Rede beim Mittagessen des Oberbürgermeisters der Stadt London im Mansion House, London, Vereinigtes Königreich"
+        },
+        "fr": {
+          "title": "Bowman, Le dernier chapitre sur la modernisation des tests de résistance réglementaires bancaires",
           "summary": "Discours lors du déjeuner du lord-maire de la ville de Londres à Mansion House, Londres, Royaume-Uni"
         }
       }
@@ -691,7 +729,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -729,7 +767,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1185,7 +1223,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1443,44 +1481,6 @@
         "fr": {
           "title": "Cook, Perspectives économiques",
           "summary": "Discours prononcé à l'Exchequer Club de Washington D.C., Washington, D.C."
-        }
-      }
-    },
-    {
-      "title": "Bowman, Responsible Innovation and Financial Inclusion",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260714a.htm",
-      "summary": "Speech At “Next-Gen Financial Inclusion,” the third annual Financial Inclusion Conference hosted by the Federal Reserve Board, Washington, D.C. (via pre-recorded video)",
-      "published_at": "Tue, 14 Jul 2026 18:55:00 GMT",
-      "source": "fed_remarks",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "c4c1a3d12f6985dd4d0cfb380179af5fc9a01b9a71b08d6df226bc561c7507a6",
-      "translations": {
-        "zh-CN": {
-          "title": "鲍曼，负责任的创新和金融包容性",
-          "summary": "在华盛顿特区联邦储备委员会主办的第三届年度金融普惠大会“下一代金融普惠”上的演讲（通过预先录制的视频）"
-        },
-        "zh-TW": {
-          "title": "鮑曼，負責任的創新和金融包容性",
-          "summary": "在華盛頓特區聯邦儲備委員會主辦的第三屆年度金融普惠大會「下一代金融普惠」上的演講（透過預先錄製的影片）"
-        },
-        "ja": {
-          "title": "ボーマン氏、責任あるイノベーションと金融包摂",
-          "summary": "ワシントンD.C.の連邦準備理事会が主催する第3回年次金融包摂会議「次世代金融包摂」でのスピーチ（事前録画ビデオによる）"
-        },
-        "ko": {
-          "title": "Bowman, 책임 있는 혁신 및 금융 포용",
-          "summary": "워싱턴 D.C.에서 열린 연방준비제도이사회(Federal Reserve Board)가 주최한 제3차 연례 금융포용 컨퍼런스인 “차세대 금융포용(Next-Gen Financial Inclusion)”에서 연설(사전 녹화된 영상을 통해)"
-        },
-        "de": {
-          "title": "Bowman, Verantwortungsvolle Innovation und finanzielle Inklusion",
-          "summary": "Rede bei „Next-Gen Financial Inclusion“, der dritten jährlichen Financial Inclusion Conference, veranstaltet vom Federal Reserve Board, Washington, D.C. (über vorab aufgezeichnetes Video)"
-        },
-        "fr": {
-          "title": "Bowman, Innovation responsable et inclusion financière",
-          "summary": "Discours lors de « Next-Gen Financial Inclusion », la troisième conférence annuelle sur l'inclusion financière organisée par la Réserve fédérale, Washington, D.C. (via vidéo préenregistrée)"
         }
       }
     },
