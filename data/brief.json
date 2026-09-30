@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-09-30T02:00:08.291887+00:00",
+  "generated_at": "2026-09-30T02:33:26.321542+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
-  "confidence": 91,
-  "score": -47,
+  "confidence": 87,
+  "score": -46,
   "drivers": [
     "warsh",
     "fedwatch",
     "xau"
   ],
-  "counter_risks": [],
+  "counter_risks": [
+    "dxy"
+  ],
   "top_news": [
     {
       "title": "U.S.-China Board of Trade",
