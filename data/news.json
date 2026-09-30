@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-09-30T12:26:36.950326+00:00",
+  "fetched_at": "2026-09-30T12:59:31.019373+00:00",
   "total": 116,
   "items": [
+    {
+      "title": "Advance Retail Inventories",
+      "link": "https://www.census.gov/econ/indicators/index.html",
+      "summary": "August 2026 end-of-month inventories were $881.6 billion, up 0.3 percent (+/-0.2 percent) from last month. August 2026: +0.3 % Change in Inventories July 2026 (r): +0.8 % Change in Inventories",
+      "published_at": "Wed, 30 Sep 2026 08:30:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "f18b5b41c9508d0eb6959c4d136377a47105a9755b3e9099c96dcb0b679b039f",
+      "translations": {
+        "zh-CN": {
+          "title": "预付零售库存",
+          "summary": "2026 年 8 月月末库存为 8,816 亿美元，比上月增长 0.3% (+/-0.2%)。 2026 年 8 月：库存变化 +0.3% 2026 年 7 月 (r)：库存变化 +0.8%"
+        },
+        "ja": {
+          "title": "事前小売在庫",
+          "summary": "２０２６年８月の月末在庫は８８１６億ドルで、前月比０．３％（±０．２％）増加した。 2026年8月: +0.3 % 在庫変動 2026年7月(r): +0.8 % 在庫変動"
+        },
+        "ko": {
+          "title": "사전 소매 재고",
+          "summary": "2026년 8월 월말 재고는 8,816억 달러로 전월 대비 0.3%(+/-0.2%) 증가했습니다. 2026년 8월: 재고 변동 +0.3% 2026년 7월(r): 재고 변동 +0.8%"
+        },
+        "de": {
+          "title": "Vorab Lagerbestände im Einzelhandel",
+          "summary": "Die Lagerbestände zum Monatsende im August 2026 beliefen sich auf 881,6 Milliarden US-Dollar, ein Plus von 0,3 Prozent (+/-0,2 Prozent) gegenüber dem Vormonat. August 2026: +0,3 % Bestandsveränderung Juli 2026 (r): +0,8 % Bestandsveränderung"
+        },
+        "zh-TW": {
+          "title": "預付零售庫存",
+          "summary": "2026 年 8 月月底庫存為 8,816 億美元，比上月增長 0.3% (+/-0.2%)。 2026 年 8 月：庫存變化 +0.3% 2026 年 7 月 (r)：庫存變化 +0.8%"
+        },
+        "fr": {
+          "title": "Avancer les stocks de détail",
+          "summary": "Les stocks de fin de mois d'août 2026 s'élevaient à 881,6 milliards de dollars, en hausse de 0,3 % (+/-0,2 %) par rapport au mois dernier. Août 2026 : +0,3 % Variation des Stocks Juillet 2026 (r) : +0,8 % Variation des Stocks"
+        }
+      }
+    },
     {
       "title": "Waller, Payments in the Age of AI Agents",
       "link": "https://www.federalreserve.gov/newsevents/speech/waller20260928a.htm",
@@ -535,44 +573,6 @@
       }
     },
     {
-      "title": "First Lady Melania Trump Releases Details Ahead of His Excellency Xi Jinping, President of The People’s Republic of China, and Madame Peng Liyuan’s Visit to The White House",
-      "link": "https://www.whitehouse.gov/briefings-statements/2026/09/first-lady-melania-trump-releases-details-ahead-of-his-excellency-xi-jinping-president-of-the-peoples-republic-of-china-and-madame-peng-liyuans-visit-to-the-white-house/",
-      "summary": "President Donald J. Trump and First Lady Melania Trump will welcome His Excellency Xi Jinping, President of the People’s Republic of China and Madame Peng Liyuan to the White House on Thursday, September 24, 2026, for an official state visit. This visit comes more than a decade since President Xi and Madame Peng’s last visit […] The post First Lady Melania Trump Releases Details Ahead of His Excellency Xi Jinping, President of The People’s Republic of China, and Madame Peng Liyuan’s Visit to The",
-      "published_at": "Mon, 21 Sep 2026 13:17:18 +0000",
-      "source": "white_house",
-      "category": "geopolitics",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "geopolitics_neutral",
-      "_translation_hash": "09476e13e645c45509c68791ec5699eaf3029e3a7ebca0fda9da4d39f34e06e6",
-      "translations": {
-        "zh-CN": {
-          "title": "第一夫人梅拉尼娅·特朗普在中华人民共和国主席习近平阁下和彭丽媛女士访问白宫之前发布细节",
-          "summary": "唐纳德·J·特朗普总统和第一夫人梅拉尼娅·特朗普将于 2026 年 9 月 24 日星期四欢迎中华人民共和国主席习近平阁下和彭丽媛女士前往白宫进行正式国事访问。这次访问距习主席和彭丽媛女士上次访问已有十多年了 […] 后第一夫人梅拉尼娅·特朗普在中华人民共和国主席习近平阁下和彭丽媛女士访问中国之前发布了详细信息"
-        },
-        "zh-TW": {
-          "title": "第一夫人梅拉尼婭·川普在中華人民共和國主席習近平閣下和彭麗媛女士訪問白宮之前發布細節",
-          "summary": "唐納德·J·特朗普總統和第一夫人梅拉尼婭·特朗普將於 2026 年 9 月 24 日星期四歡迎中華人民共和國主席習近平閣下和彭麗媛女士前往白宮進行正式國事訪問。這次訪問距習主席和彭麗媛女士上次訪問已有十多年了 […] 後第一夫人梅拉尼婭·特朗普在中華人民共和國主席習近平閣下和彭麗媛女士訪問中國之前發布了詳細信息"
-        },
-        "ja": {
-          "title": "メラニア・トランプ大統領夫人、習近平中華人民共和国国家主席と彭麗源夫人のホワイトハウス訪問に先立ち詳細を発表",
-          "summary": "ドナルド・J・トランプ大統領とメラニア・トランプ大統領夫人は、2026年9月24日木曜日、公式国賓訪問のため、習近平中華人民共和国国家主席と彭麗源夫人をホワイトハウスに迎える。今回の訪問は、習近平国家主席と彭麗源夫人の前回の訪問から10年以上ぶりとなる[…] メラニア・トランプ大統領夫人、習近平中華人民共和国国家主席と彭麗源夫人の訪問に先立って詳細を発表"
-        },
-        "de": {
-          "title": "First Lady Melania Trump veröffentlicht Einzelheiten im Vorfeld des Besuchs Seiner Exzellenz Xi Jinping, Präsident der Volksrepublik China, und Madame Peng Liyuan im Weißen Haus",
-          "summary": "Präsident Donald J. Trump und First Lady Melania Trump werden Seine Exzellenz Xi Jinping, den Präsidenten der Volksrepublik China, und Madame Peng Liyuan am Donnerstag, dem 24. September 2026, zu einem offiziellen Staatsbesuch im Weißen Haus begrüßen. Dieser Besuch liegt mehr als ein Jahrzehnt seit dem letzten Besuch von Präsident Xi und Madame Peng zurück"
-        },
-        "fr": {
-          "title": "La Première Dame Melania Trump publie des détails avant la visite de Son Excellence Xi Jinping, président de la République populaire de Chine, et de Madame Peng Liyuan à la Maison Blanche",
-          "summary": "Le président Donald J. Trump et la Première dame Melania Trump accueilleront Son Excellence Xi Jinping, président de la République populaire de Chine, et Madame Peng Liyuan à la Maison Blanche le jeudi 24 septembre 2026, pour une visite d'État officielle. Cette visite intervient plus d'une décennie après la dernière visite du président Xi et de Madame Peng […] La première dame Melania Trump publie des détails avant la visite de Son Excellence Xi Jinping, président de la République populaire de Chine, et de Madame Peng Liyuan au"
-        },
-        "ko": {
-          "title": "영부인 멜라니아 트럼프가 시진핑 중화인민공화국 국가주석과 펑리위안 여사의 백악관 방문을 앞두고 자세한 내용을 공개했습니다.",
-          "summary": "도널드 J. 트럼프 대통령과 영부인 멜라니아 트럼프 여사는 공식 국빈 방문을 위해 2026년 9월 24일 목요일 백악관을 방문하는 시진핑 중국 국가주석과 펑리위안 여사를 환영할 예정입니다. 이번 방문은 시 주석과 펑 여사의 마지막 방문 이후 10여년 만에 이루어졌습니다. […] 멜라니아 트럼프 영부인은 시진핑 중국 국가주석과 펑리위안 여사의 중국 방문을 앞두고 세부 사항을 공개했습니다"
-        }
-      }
-    },
-    {
       "title": "Bowman, The Final Chapter on Modernizing Bank Regulatory Stress Testing",
       "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260918a.htm",
       "summary": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom",
@@ -691,7 +691,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -729,7 +729,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1181,49 +1181,11 @@
       }
     },
     {
-      "title": "Advance Wholesale Inventories",
-      "link": "https://www.census.gov/econ/indicators/index.html",
-      "summary": "July end-of-month inventories were $959.1 billion, up 1.3 percent (+/- 0.2 percent) from last month. July 2026: +1.3 % Change in Inventories June 2026 (r): +0.3 % Change in Inventories",
-      "published_at": "Thu, 27 Aug 2026 08:30:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "aa180d3e16357e2f3b503113c3167d65af8bd4357a0b0ac4d57b4933eea171a3",
-      "translations": {
-        "zh-CN": {
-          "title": "预付批发库存",
-          "summary": "7 月末库存为 9,591 亿美元，比上月增长 1.3%（+/- 0.2%）。 2026 年 7 月：库存变化 +1.3% 2026 年 6 月 (r)：库存变化 +0.3%"
-        },
-        "zh-TW": {
-          "title": "預付批發庫存",
-          "summary": "7 月底庫存為 9,591 億美元，比上月增長 1.3%（+/- 0.2%）。 2026 年 7 月：庫存變化 +1.3% 2026 年 6 月 (r)：庫存變化 +0.3%"
-        },
-        "ja": {
-          "title": "事前の卸売在庫",
-          "summary": "７月の月末在庫は９５９１億ドルで、前月比１．３％（±０．２％）増加した。 2026年7月: +1.3 % 在庫変動 2026年6月(r): +0.3 % 在庫変動"
-        },
-        "ko": {
-          "title": "사전 도매 재고",
-          "summary": "7월말 재고는 9,591억 달러로 전월 대비 1.3%(+/-0.2%) 증가했다. 2026년 7월: 재고 변동 +1.3% 2026년 6월(r): 재고 변동 +0.3%"
-        },
-        "de": {
-          "title": "Erweiterte Lagerbestände im Großhandel",
-          "summary": "Die Lagerbestände zum Monatsende beliefen sich im Juli auf 959,1 Milliarden US-Dollar, ein Plus von 1,3 Prozent (+/- 0,2 Prozent) gegenüber dem Vormonat. Juli 2026: +1,3 % Bestandsveränderung Juni 2026 (r): +0,3 % Bestandsveränderung"
-        },
-        "fr": {
-          "title": "Avancer les stocks en gros",
-          "summary": "Les stocks de fin de mois de juillet s'élevaient à 959,1 milliards de dollars, en hausse de 1,3 pour cent (+/- 0,2 pour cent) par rapport au mois dernier. Juillet 2026 : +1,3 % Variation des Stocks Juin 2026 (r) : +0,3 % Variation des Stocks"
-        }
-      }
-    },
-    {
       "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -2105,6 +2067,18 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "b913e2014a1c590a06230e201b743e6ef224d6a5a356c51addaeb7d4912bd47e"
+    },
+    {
+      "title": "CPI for all items rises 0.3% in September; gasoline up",
+      "link": "https://www.bls.gov/news.release/archives/cpi_10242025.htm",
+      "summary": "",
+      "published_at": "2025-10-24T08:30:00-04:00",
+      "source": "bls_cpi",
+      "category": "inflation",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
+      "_translation_hash": "044af1e69df439dcfbdc5335fa821579e6cc7c52c8d2171caae18d4fc2ca7848"
     }
   ]
 }
