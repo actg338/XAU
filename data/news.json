@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-10-01T18:54:56.745729+00:00",
+  "fetched_at": "2026-10-01T19:11:31.582880+00:00",
   "total": 116,
   "items": [
+    {
+      "title": "Bowman, Modernizing Financial Regulation: Initial Observations from eSLR",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm",
+      "summary": "Speech At the Atlantic Council 2026 CEO & Senior Management Summit, Washington, D.C.",
+      "published_at": "Thu, 1 Oct 2026 19:00:00 GMT",
+      "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "e2f864d14db9a07babdac48d1333009f84fba2f6544a2df690dd7eaa767fce11",
+      "translations": {
+        "zh-CN": {
+          "title": "Bowman，《金融监管现代化：eSLR 的初步观察》",
+          "summary": "在大西洋理事会 2026 年首席执行官和高级管理人员峰会上的演讲，华盛顿特区"
+        },
+        "zh-TW": {
+          "title": "Bowman，《金融監理現代化：eSLR 的初步觀察》",
+          "summary": "在大西洋理事會 2026 年首席執行官和高級管理人員峰會上的演講，華盛頓特區"
+        },
+        "ko": {
+          "title": "Bowman, 금융 규제 현대화: eSLR의 초기 관찰",
+          "summary": "워싱턴 D.C.에서 열린 Atlantic Council 2026 CEO 및 고위 경영진 서밋에서 연설"
+        },
+        "ja": {
+          "title": "Bowman 氏、金融規制の近代化: eSLR からの初期の見解",
+          "summary": "ワシントンD.C.で開催されたAtlantic Council 2026 CEO & Senior Management Summitでのスピーチ"
+        },
+        "fr": {
+          "title": "Bowman, Moderniser la réglementation financière : premières observations de l'eSLR",
+          "summary": "Discours prononcé lors du Sommet des PDG et des cadres supérieurs de l'Atlantic Council 2026, Washington, D.C."
+        },
+        "de": {
+          "title": "Bowman, Modernisierung der Finanzregulierung: Erste Beobachtungen von eSLR",
+          "summary": "Rede beim Atlantic Council 2026 CEO & Senior Management Summit, Washington, D.C."
+        }
+      }
+    },
     {
       "title": "Jefferson, The U.S. Economy and Monetary Policy",
       "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
@@ -1367,44 +1405,6 @@
         "fr": {
           "title": "Procès-verbal du Comité fédéral de l’open market, 28 et 29 juillet 2026",
           "summary": "Procès-verbal du Comité fédéral de l’open market, 28 et 29 juillet 2026"
-        }
-      }
-    },
-    {
-      "title": "Cook, Outlook for the U.S. and Alaskan Economies",
-      "link": "https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm",
-      "summary": "Speech At the 2026 Economic Luncheon of the Anchorage Economic Development Corporation, Anchorage, Alaska",
-      "published_at": "Wed, 5 Aug 2026 20:05:00 GMT",
-      "source": "fed_remarks",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "c31a0856028f5de1b049d1b6e812086a2fba9ad3168a520f1a5536cb7ca010be",
-      "translations": {
-        "zh-CN": {
-          "title": "库克，美国和阿拉斯加经济展望",
-          "summary": "在阿拉斯加州安克雷奇安克雷奇经济发展公司 2026 年经济午餐会上的讲话"
-        },
-        "ja": {
-          "title": "クック氏、米国とアラスカ経済の見通し",
-          "summary": "アラスカ州アンカレッジのアンカレッジ経済開発公社の2026年経済昼食会でのスピーチ"
-        },
-        "zh-TW": {
-          "title": "庫克，美國和阿拉斯加經濟展望",
-          "summary": "在阿拉斯加州安克雷奇安克雷奇經濟發展公司 2026 年經濟午餐會上的講話"
-        },
-        "ko": {
-          "title": "쿡, 미국 및 알래스카 경제 전망",
-          "summary": "알래스카 앵커리지에서 열린 앵커리지 경제 개발 공사의 2026년 경제 오찬에서 연설"
-        },
-        "fr": {
-          "title": "Cook, Perspectives des économies des États-Unis et de l'Alaska",
-          "summary": "Discours prononcé lors du déjeuner économique 2026 de l'Anchorage Economic Development Corporation, Anchorage, Alaska"
-        },
-        "de": {
-          "title": "Cook, Ausblick für die Volkswirtschaften der USA und Alaskas",
-          "summary": "Rede beim Economic Luncheon 2026 der Anchorage Economic Development Corporation, Anchorage, Alaska"
         }
       }
     },
