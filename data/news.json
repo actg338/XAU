@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-10-01T17:19:34.174964+00:00",
+  "fetched_at": "2026-10-01T17:32:55.783321+00:00",
   "total": 116,
   "items": [
+    {
+      "title": "Jefferson, The U.S. Economy and Monetary Policy",
+      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+      "summary": "Speech At the Darden School of Business, University of Virginia, Charlottesville, Virginia",
+      "published_at": "Thu, 1 Oct 2026 17:30:00 GMT",
+      "source": "fed_remarks",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "73bc7885f65b3f4b70c1b28ca8a926b2f4a711d920983b7e14bbe6523509f979",
+      "translations": {
+        "zh-CN": {
+          "title": "杰斐逊，《美国经济与货币政策》",
+          "summary": "在弗吉尼亚大学达顿商学院的演讲，弗吉尼亚州夏洛茨维尔"
+        },
+        "ja": {
+          "title": "ジェファーソン、米国経済と金融政策",
+          "summary": "バージニア州シャーロッツビルのバージニア大学ダーデン・スクール・オブ・ビジネスでのスピーチ"
+        },
+        "ko": {
+          "title": "제퍼슨, 미국 경제와 통화 정책",
+          "summary": "버지니아주 샬러츠빌에 위치한 버지니아대학교 다든 경영대학원에서의 연설"
+        },
+        "zh-TW": {
+          "title": "傑佛遜，《美國經濟與貨幣政策》",
+          "summary": "在維吉尼亞大學達頓商學院的演講，維吉尼亞州夏洛特斯維爾"
+        },
+        "de": {
+          "title": "Jefferson, Die US-Wirtschaft und Geldpolitik",
+          "summary": "Rede an der Darden School of Business, University of Virginia, Charlottesville, Virginia"
+        },
+        "fr": {
+          "title": "Jefferson, L'économie et la politique monétaire des États-Unis",
+          "summary": "Discours prononcé à la Darden School of Business, Université de Virginie, Charlottesville, Virginie"
+        }
+      }
+    },
     {
       "title": "Waller, The Data Version of Godzilla versus Kong: FRED Takes on AI",
       "link": "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm",
@@ -1443,44 +1481,6 @@
         "fr": {
           "title": "Taux d'inoccupation des logements locatifs",
           "summary": "Le taux d'inoccupation des logements locatifs de 7,3 % n'était pas statistiquement différent du taux du deuxième trimestre 2025. Par rapport au deuxième trimestre 2025, le taux d'inoccupation des logements locatifs était plus élevé dans le Nord-Est et n'était pas statistiquement différent dans le Midwest, le Sud et l'Ouest. 2e trimestre 2026 : +0,3* points de pourcentage 2e trimestre 2025 : +0,4 points de pourcentage"
-        }
-      }
-    },
-    {
-      "title": "Jefferson, Navigating Economic Shocks: A Monetary Policymaker’s Perspective",
-      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260716a.htm",
-      "summary": "Speech At the Stanford Institute for Economic Policy Research, Stanford University, Stanford, California",
-      "published_at": "Thu, 16 Jul 2026 23:00:00 GMT",
-      "source": "fed_remarks",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "6d29eb2f0ab1b25137c61233ab111f88fcd283769ced4a9f3a5a6eedf2a51bdf",
-      "translations": {
-        "zh-CN": {
-          "title": "杰斐逊，应对经济冲击：货币政策制定者的视角",
-          "summary": "在加利福尼亚州斯坦福大学斯坦福经济政策研究所的演讲"
-        },
-        "zh-TW": {
-          "title": "傑佛遜，應對經濟衝擊：貨幣政策制定者的視角",
-          "summary": "在加州史丹佛大學史丹佛經濟政策研究所的演講"
-        },
-        "ja": {
-          "title": "ジェファーソン、経済ショックを乗り越える：金融政策立案者の視点",
-          "summary": "カリフォルニア州スタンフォードのスタンフォード大学スタンフォード経済政策研究所での講演"
-        },
-        "ko": {
-          "title": "제퍼슨, 경제적 충격 탐색: 통화 정책 입안자의 관점",
-          "summary": "캘리포니아주 스탠포드 소재 스탠포드대학교 경제정책연구소 스탠포드 연설"
-        },
-        "de": {
-          "title": "Jefferson, Navigating Economic Shocks: Die Perspektive eines geldpolitischen Entscheidungsträgers",
-          "summary": "Rede am Stanford Institute for Economic Policy Research, Stanford University, Stanford, Kalifornien"
-        },
-        "fr": {
-          "title": "Jefferson, Faire face aux chocs économiques : le point de vue d’un décideur monétaire",
-          "summary": "Discours prononcé au Stanford Institute for Economic Policy Research, Stanford University, Stanford, Californie"
         }
       }
     },
