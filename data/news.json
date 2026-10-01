@@ -1,7 +1,83 @@
 {
-  "fetched_at": "2026-10-01T13:58:01.923267+00:00",
+  "fetched_at": "2026-10-01T14:24:02.290284+00:00",
   "total": 116,
   "items": [
+    {
+      "title": "Waller, The Data Version of Godzilla versus Kong: FRED Takes on AI",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm",
+      "summary": "Speech At \"Navigating Trust, AI and Storytelling in a World of Data,\" FRED Con 2026, Federal Reserve Bank of St. Louis, St. Louis, Missouri",
+      "published_at": "Thu, 1 Oct 2026 14:00:00 GMT",
+      "source": "fed_remarks",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "f734465e20c124b0f24c24fe7c5025cc281343737fd45e87555243affd6cbff9",
+      "translations": {
+        "ja": {
+          "title": "ウォーラー『ゴジラ対コングのデータ版: フレッドが AI に挑む』",
+          "summary": "ミズーリ州セントルイス、セントルイス連邦準備銀行、FRED Con 2026「データの世界における信頼、AI、ストーリーテリングのナビゲート」でのスピーチ"
+        },
+        "zh-CN": {
+          "title": "Waller，《哥斯拉大战金刚》的数据版本：FRED 挑战人工智能",
+          "summary": "在“数据世界中导航信任、人工智能和讲故事”上的演讲，FRED Con 2026，圣路易斯联邦储备银行，密苏里州圣路易斯"
+        },
+        "ko": {
+          "title": "Waller, Godzilla 대 Kong의 데이터 버전: FRED가 AI에 도전하다",
+          "summary": "\"데이터 세계에서 신뢰, AI 및 스토리텔링 탐색\"에서 연설, FRED Con 2026, 미주리주 세인트루이스 연방준비은행 세인트루이스 연방준비은행"
+        },
+        "zh-TW": {
+          "title": "Waller，《哥吉拉大戰金剛》的數據版本：FRED 挑戰人工智慧",
+          "summary": "在「數據世界中導航信任、人工智慧和說故事」上的演講，FRED Con 2026，聖路易斯聯邦儲備銀行，密蘇裡州聖路易斯"
+        },
+        "de": {
+          "title": "Waller, Die Datenversion von Godzilla vs. Kong: FRED nimmt es mit KI auf",
+          "summary": "Rede bei „Navigating Trust, AI and Storytelling in a World of Data“, FRED Con 2026, Federal Reserve Bank of St. Louis, St. Louis, Missouri"
+        },
+        "fr": {
+          "title": "Waller, La version données de Godzilla contre Kong : FRED s'attaque à l'IA",
+          "summary": "Discours prononcé lors de l'événement « Navigating Trust, AI and Storytelling in a World of Data », FRED Con 2026, Federal Reserve Bank of St. Louis, St. Louis, Missouri"
+        }
+      }
+    },
+    {
+      "title": "Construction Spending",
+      "link": "https://www.census.gov/construction/c30/c30index.html",
+      "summary": "Total construction spending for August 2026 ($2,203.1 billion) was 0.9 percent (+/- 1.0 percent)* above the revised July 2026 ($2,184.5 billion) estimate. August 2026: 0.9* % Change July 2026 (r): -0.1* % Change",
+      "published_at": "Thu, 01 Oct 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "455e0e15cc435a1ae51b022b95ecaeffdf54c82e88e7aa71a4132f25286ce4c9",
+      "translations": {
+        "ja": {
+          "title": "建設支出",
+          "summary": "2026 年 8 月の総建設支出 (2 兆 2,031 億ドル) は、2026 年 7 月の修正予測 (2 兆 1,845 億ドル) を 0.9 パーセント (+/- 1.0 パーセント)*上回りました。 2026 年 8 月: 0.9* % 変化 2026 年 7 月 (r): -0.1* % 変化"
+        },
+        "zh-CN": {
+          "title": "建筑开支",
+          "summary": "2026 年 8 月的总建筑支出（22,031 亿美元）比 2026 年 7 月修订后的估计值（21,845 亿美元）高出 0.9%（+/- 1.0%）*。 2026 年 8 月：0.9* 变化百分比 2026 年 7 月 (r)：-0.1* 变化百分比"
+        },
+        "ko": {
+          "title": "건설비",
+          "summary": "2026년 8월 총 건설 지출(2조 2,031억 달러)은 수정된 2026년 7월 추정치(2조 1,845억 달러)보다 0.9%(+/- 1.0%)* 높았습니다. 2026년 8월: 0.9* % 변동 2026년 7월(r): -0.1* % 변동"
+        },
+        "zh-TW": {
+          "title": "建築開支",
+          "summary": "2026 年 8 月的總建築支出（22,031 億美元）比 2026 年 7 月修訂後的估計值（21,845 億美元）高出 0.9%（+/- 1.0%）*。 2026 年 8 月：0.9* 變化百分比 2026 年 7 月 (r)：-0.1* 變化百分比"
+        },
+        "de": {
+          "title": "Bauausgaben",
+          "summary": "Die Gesamtbauausgaben für August 2026 (2.203,1 Milliarden US-Dollar) lagen 0,9 Prozent (+/- 1,0 Prozent)* über der revidierten Schätzung vom Juli 2026 (2.184,5 Milliarden US-Dollar). August 2026: 0,9* % Veränderung Juli 2026 (r): -0,1* % Veränderung"
+        },
+        "fr": {
+          "title": "Dépenses de construction",
+          "summary": "Les dépenses totales de construction pour août 2026 (2 203,1 milliards de dollars) étaient de 0,9 % (+/- 1,0 %)* supérieures à l'estimation révisée de juillet 2026 (2 184,5 milliards de dollars). Août 2026 : 0,9* % de variation Juillet 2026 (r) : -0,1* % de variation"
+        }
+      }
+    },
     {
       "title": "Cook, The Dual Mandate in Rural America",
       "link": "https://www.federalreserve.gov/newsevents/speech/cook20260930a.htm",
@@ -729,7 +805,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -767,7 +843,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1105,44 +1181,6 @@
       }
     },
     {
-      "title": "Construction Spending",
-      "link": "https://www.census.gov/construction/c30/c30index.html",
-      "summary": "Total construction spending for July 2026 ($2,157.6 billion) was 0.5 percent (+/- 0.8 percent)* below the revised June 2026 ($2,167.7 billion) estimate. July 2026: -0.5* % Change June 2026 (r): 0.0* % Change",
-      "published_at": "Tue, 01 Sep 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "06ee8e1191c82d21a5057f2beae0b2a0a828478556fd43e2242cd5ca5f0ed051",
-      "translations": {
-        "zh-CN": {
-          "title": "建筑开支",
-          "summary": "2026 年 7 月的总建筑支出（21,576 亿美元）比 2026 年 6 月修订后的估计值（21,677 亿美元）低 0.5% (+/- 0.8%)*。 2026 年 7 月：-0.5* 变化百分比 2026 年 6 月 (r)：0.0* 变化百分比"
-        },
-        "zh-TW": {
-          "title": "建築開支",
-          "summary": "2026 年 7 月的總建築支出（21,576 億美元）比 2026 年 6 月修訂後的估計值（21,677 億美元）低 0.5% (+/- 0.8%)*。 2026 年 7 月：-0.5* 變化百分比 2026 年 6 月 (r)：0.0* 變化百分比"
-        },
-        "ja": {
-          "title": "建設支出",
-          "summary": "2026 年 7 月の建設支出総額 (2 兆 1,576 億ドル) は、2026 年 6 月の修正予測値 (2 兆 1,677 億ドル) を 0.5 パーセント (+/- 0.8 パーセント)*下回りました。 2026 年 7 月: -0.5* % 変化 2026 年 6 月 (r): 0.0* % 変化"
-        },
-        "ko": {
-          "title": "건설비",
-          "summary": "2026년 7월 총 건설 지출(2조 1,576억 달러)은 수정된 2026년 6월 추정치(2조 1,677억 달러)보다 0.5%(+/- 0.8%)* 낮았습니다. 2026년 7월: -0.5* % 변화 2026년 6월(r): 0.0* % 변화"
-        },
-        "de": {
-          "title": "Bauausgaben",
-          "summary": "Die gesamten Bauausgaben für Juli 2026 (2.157,6 Milliarden US-Dollar) lagen 0,5 Prozent (+/- 0,8 Prozent)* unter der revidierten Schätzung vom Juni 2026 (2.167,7 Milliarden US-Dollar). Juli 2026: -0,5* % Veränderung Juni 2026 (r): 0,0* % Veränderung"
-        },
-        "fr": {
-          "title": "Dépenses de construction",
-          "summary": "Les dépenses totales de construction pour juillet 2026 (2 157,6 milliards de dollars) étaient inférieures de 0,5 % (+/- 0,8 %)* à l'estimation révisée de juin 2026 (2 167,7 milliards de dollars). Juillet 2026 : -0,5* % de variation Juin 2026 (r) : 0,0* % de variation"
-        }
-      }
-    },
-    {
       "title": "Barr, Unlocking Opportunities for Workers and Entrepreneurs with a Criminal Record",
       "link": "https://www.federalreserve.gov/newsevents/speech/barr20260901a.htm",
       "summary": "Speech At the Second-Chance Lending Forum, Developing Evidence-Based Policy on Creditworthiness and Criminal History, Washington, D.C.",
@@ -1223,7 +1261,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1443,44 +1481,6 @@
         "fr": {
           "title": "Jefferson, Faire face aux chocs économiques : le point de vue d’un décideur monétaire",
           "summary": "Discours prononcé au Stanford Institute for Economic Policy Research, Stanford University, Stanford, Californie"
-        }
-      }
-    },
-    {
-      "title": "Cook, Economic Outlook",
-      "link": "https://www.federalreserve.gov/newsevents/speech/cook20260715a.htm",
-      "summary": "Speech At The Exchequer Club of Washington D.C., Washington, D.C.",
-      "published_at": "Wed, 15 Jul 2026 17:00:00 GMT",
-      "source": "fed_remarks",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "fe80970e60f60f449a9fb936200c1686d54bb4e04279621c532e6830839a1e41",
-      "translations": {
-        "zh-CN": {
-          "title": "库克，《经济展望》",
-          "summary": "在华盛顿特区财政俱乐部的演讲，华盛顿特区"
-        },
-        "zh-TW": {
-          "title": "庫克，《經濟展望》",
-          "summary": "在華盛頓特區財政俱樂部的演講，華盛頓特區"
-        },
-        "ja": {
-          "title": "クック氏、経済見通し",
-          "summary": "ワシントンD.C.の財務省ワシントンD.C.クラブでのスピーチ"
-        },
-        "ko": {
-          "title": "쿡, 경제전망",
-          "summary": "워싱턴 D.C.의 재무 클럽(Exchequer Club)에서의 연설, 워싱턴 D.C."
-        },
-        "de": {
-          "title": "Cook, Wirtschaftsausblick",
-          "summary": "Rede im Exchequer Club of Washington D.C., Washington, D.C."
-        },
-        "fr": {
-          "title": "Cook, Perspectives économiques",
-          "summary": "Discours prononcé à l'Exchequer Club de Washington D.C., Washington, D.C."
         }
       }
     },
