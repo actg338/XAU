@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-10-02T13:51:57.657494+00:00",
+  "fetched_at": "2026-10-02T14:00:18.724485+00:00",
   "total": 117,
   "items": [
+    {
+      "title": "Manufacturers' Shipments, Inventories, and Orders",
+      "link": "https://www.census.gov/manufacturing/m3/",
+      "summary": "New orders for manufactured goods in August, up two consecutive months, increased $0.7 billion or 0.1 percent to $663.5 billion. August 2026: +0.1° % Change July 2026 (r): +0.8° % Change",
+      "published_at": "Fri, 02 Oct 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "383bca2b1c7a3e17e89c6df23e988f25415116f69e24313e4e87c32101a0dd43",
+      "translations": {
+        "zh-CN": {
+          "title": "制造商的出货量、库存和订单",
+          "summary": "8月份制成品新订单连续两个月增长，增加7亿美元，增幅0.1%，达到6635亿美元。 2026 年 8 月：+0.1° % 变化 2026 年 7 月 (r)：+0.8° % 变化"
+        },
+        "ja": {
+          "title": "メーカー出荷・在庫・受注状況",
+          "summary": "８月の工業製品の新規受注は２カ月連続で増加し、７億ドル（０．１％）増の６６３５億ドルとなった。 2026年8月: +0.1° %変化 2026年7月(r): +0.8° %変化"
+        },
+        "ko": {
+          "title": "제조업체의 배송, 재고 및 주문",
+          "summary": "8월 제조품 신규 주문은 2개월 연속 증가한 7억 달러(0.1%) 증가한 6,635억 달러를 기록했습니다. 2026년 8월: +0.1° % 변동 2026년 7월(r): +0.8° % 변동"
+        },
+        "de": {
+          "title": "Lieferungen, Bestände und Bestellungen der Hersteller",
+          "summary": "Die Auftragseingänge für Industriegüter stiegen im August zwei Monate in Folge um 0,7 Milliarden US-Dollar oder 0,1 Prozent auf 663,5 Milliarden US-Dollar. August 2026: +0,1° % Veränderung Juli 2026 (r): +0,8° % Veränderung"
+        },
+        "fr": {
+          "title": "Expéditions, stocks et commandes des fabricants",
+          "summary": "Les nouvelles commandes de produits manufacturés en août, en hausse sur deux mois consécutifs, ont augmenté de 0,7 milliard de dollars ou 0,1 pour cent à 663,5 milliards de dollars. Août 2026 : +0,1° % Variation Juillet 2026 (r) : +0,8° % Variation"
+        },
+        "zh-TW": {
+          "title": "製造商的出貨量、庫存和訂單",
+          "summary": "8月製成品新訂單連續兩個月成長，增加7億美元，成長0.1%，達6635億美元。 2026 年 8 月：+0.1° % 變化 2026 年 7 月 (r)：+0.8° % 變化"
+        }
+      }
+    },
     {
       "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
       "link": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261002~54c6b5672b.en.html",
@@ -607,44 +645,6 @@
         "fr": {
           "title": "Le président Trump et la Première dame concluent une visite d'État historique en Chine",
           "summary": "Aujourd'hui, le président Donald J. Trump et la première dame Melania Trump ont conclu une visite d'État historique avec Son Excellence Xi Jinping, président de la République populaire de Chine, et Madame Peng Liyuan. Il s'agissait de la première visite à la Maison Blanche d'un président chinois depuis plus d'une décennie – et la première fois qu'un […] The post Le président Trump et la Première dame concluent une visite d'État historique en Chine sont apparus en premier sur La Maison Blanche."
-        }
-      }
-    },
-    {
-      "title": "Advance Monthly Manufacturers' Shipments, Inventories, and Orders",
-      "link": "https://www.census.gov/manufacturing/m3/",
-      "summary": "New orders for manufactured durable goods in August, down following two consecutive monthly increases, decreased $0.1 billion or virtually unchanged to $338.6 billion. August 2026: -0.0° % Change July 2026 (r): +0.9° % Change",
-      "published_at": "Fri, 25 Sep 2026 08:30:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "2834711aaabe53cc5b39640930e39866846419d274557389b442405e2733f1f3",
-      "translations": {
-        "zh-CN": {
-          "title": "预付每月制造商的发货量、库存和订单",
-          "summary": "8 月份耐用品制成品新订单继连续两个月增长后下降，减少 1 亿美元，基本持平，至 3,386 亿美元。 2026 年 8 月：-0.0° 变化百分比 2026 年 7 月 (r)：+0.9° 变化百分比"
-        },
-        "zh-TW": {
-          "title": "預付每月製造商的出貨量、庫存和訂單",
-          "summary": "8 月耐久財製成品新訂單繼連續兩個月成長後下降，減少 1 億美元，基本持平，至 3,386 億美元。 2026 年 8 月：-0.0° 變化百分比 2026 年 7 月 (r)：+0.9° 變化百分比"
-        },
-        "ja": {
-          "title": "メーカーの毎月の出荷、在庫、注文を事前に把握",
-          "summary": "8月の耐久財新規受注は2カ月連続の増加から減少し、1億ドル減少かほぼ横ばいの3,386億ドルとなった。 2026年8月: -0.0° %変化 2026年7月(r): +0.9° %変化"
-        },
-        "ko": {
-          "title": "월간 제조업체의 선적, 재고 및 주문을 사전에 처리합니다.",
-          "summary": "8월 내구재 제조 신규 주문은 2개월 연속 증가 이후 감소하여 1억 달러 감소하여 3,386억 달러로 거의 변화가 없었습니다. 2026년 8월: -0.0° % 변동 2026년 7월(r): +0.9° % 변동"
-        },
-        "de": {
-          "title": "Vorausschauende monatliche Herstellerlieferungen, Lagerbestände und Bestellungen",
-          "summary": "Die Auftragseingänge für langlebige Industriegüter sanken im August nach zwei aufeinanderfolgenden monatlichen Zuwächsen um 0,1 Milliarden US-Dollar oder blieben nahezu unverändert auf 338,6 Milliarden US-Dollar. August 2026: -0,0° % Veränderung Juli 2026 (r): +0,9° % Veränderung"
-        },
-        "fr": {
-          "title": "Avancer les expéditions, les stocks et les commandes mensuelles des fabricants",
-          "summary": "En août, les nouvelles commandes de biens manufacturés durables, en baisse après deux hausses mensuelles consécutives, ont diminué de 0,1 milliard de dollars, soit pratiquement inchangé, pour s'établir à 338,6 milliards de dollars. Août 2026 : -0,0° % Variation Juillet 2026 (r) : +0,9° % Variation"
         }
       }
     },
