@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-02T12:23:20.811391+00:00",
+  "generated_at": "2026-10-02T12:47:40.988919+00:00",
   "direction": "bearish",
-  "label_key": "strong_bearish",
-  "confidence": 86,
-  "score": -38,
+  "label_key": "mild_bearish",
+  "confidence": 74,
+  "score": -21,
   "drivers": [
     "warsh",
-    "fedwatch",
-    "dxy"
+    "fedwatch"
   ],
   "counter_risks": [
-    "xau"
+    "xau",
+    "dxy"
   ],
   "top_news": [
     {
@@ -33,10 +33,10 @@
     }
   ],
   "next_event": {
-    "event_key": "nfp",
-    "title": "Employment Situation",
-    "starts_at": "2026-10-02T12:30:00+00:00",
-    "impact": "high",
+    "event_key": "bls_release",
+    "title": "Real Earnings",
+    "starts_at": "2026-10-14T12:30:00+00:00",
+    "impact": "medium",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
   }
