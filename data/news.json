@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-10-02T18:28:19.223631+00:00",
-  "total": 117,
+  "fetched_at": "2026-10-02T18:47:11.950946+00:00",
+  "total": 118,
   "items": [
+    {
+      "title": "Presidential Message on National Breast Cancer Awareness Month",
+      "link": "https://www.whitehouse.gov/briefings-statements/2026/10/presidential-message-on-national-breast-cancer-awareness-month-a680/",
+      "summary": "During National Breast Cancer Awareness Month, we celebrate the resilience and courage of our Nation’s four million breast cancer survivors, extend our unwavering support to those currently in the fight, and honor the memory of beloved family members and friends lost to this terrible disease. In an instant, a breast cancer diagnosis forever changes the […] The post Presidential Message on National Breast Cancer Awareness Month appeared first on The White House .",
+      "published_at": "Fri, 02 Oct 2026 18:20:21 +0000",
+      "source": "white_house",
+      "category": "geopolitics",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "geopolitics_bullish",
+      "_translation_hash": "11e476e74f0f4b90f7e04df1ef07994e47d97e39575005127ee42a7570432b03",
+      "translations": {
+        "zh-CN": {
+          "title": "全国乳腺癌宣传月总统致辞",
+          "summary": "在全国乳腺癌宣传月期间，我们庆祝我国四百万乳腺癌幸存者的坚韧和勇气，向目前正在战斗的人们提供坚定不移的支持，并缅怀因这种可怕疾病而去世的挚爱家人和朋友。刹那间，乳腺癌的诊断永远改变了……国家乳腺癌意识月的总统致辞首先出现在白宫。"
+        },
+        "ja": {
+          "title": "全国乳がん啓発月間に関する大統領メッセージ",
+          "summary": "全国乳がん啓発月間中、私たちは国内の400万人の乳がん生存者の回復力と勇気を祝い、現在闘病中の人々に揺るぎない支援を差し伸べ、この恐ろしい病気で失われた最愛の家族や友人の記憶に敬意を表します。乳がんの診断は、一瞬のうちに状況を永遠に変えてしまいます。 […] 全国乳がん啓発月間に関する大統領メッセージの投稿は、最初にホワイトハウスに掲載されました。"
+        },
+        "ko": {
+          "title": "전국 유방암 인식의 달 대통령 메시지",
+          "summary": "전국 유방암 인식의 달 동안 우리는 우리나라의 400만 유방암 생존자들의 회복력과 용기를 기념하고, 현재 싸우고 있는 사람들에게 변함없는 지지를 보내며, 이 끔찍한 질병으로 인해 목숨을 잃은 사랑하는 가족과 친구들의 기억을 기립니다. 순식간에 유방암 진단이 세상을 영원히 바꿔 놓습니다. […] 전국 유방암 인식의 달을 기념하는 대통령 메시지가 백악관에 처음으로 게재되었습니다."
+        },
+        "de": {
+          "title": "Botschaft des Präsidenten zum Nationalen Monat der Aufklärung über Brustkrebs",
+          "summary": "Während des National Breast Cancer Awareness Month feiern wir die Widerstandsfähigkeit und den Mut der vier Millionen Brustkrebsüberlebenden unseres Landes, unterstützen diejenigen, die sich derzeit im Kampf befinden, unerschütterlich und ehren die Erinnerung an geliebte Familienmitglieder und Freunde, die dieser schrecklichen Krankheit zum Opfer gefallen sind. Eine Brustkrebsdiagnose verändert in einem Augenblick die Situation für immer. […] Die Botschaft des Präsidenten zum National Breast Cancer Awareness Month erschien zuerst im Weißen Haus."
+        },
+        "zh-TW": {
+          "title": "全国乳腺癌宣传月总统致辞",
+          "summary": "在全國乳癌宣傳月期間，我們慶祝我國四百萬乳癌倖存者的堅韌和勇氣，向目前正在戰鬥的人們提供堅定不移的支持，並緬懷因這種可怕疾病而去世的摯愛家人和朋友。刹那间，乳腺癌的诊断永远改变了……国家乳腺癌意识月的总统致辞首先出现在白宫。"
+        },
+        "fr": {
+          "title": "Message présidentiel à l'occasion du Mois national de sensibilisation au cancer du sein",
+          "summary": "Au cours du Mois national de sensibilisation au cancer du sein, nous célébrons la résilience et le courage des quatre millions de survivants du cancer du sein dans notre pays, exprimons notre soutien indéfectible à ceux qui luttent actuellement et honorons la mémoire des membres bien-aimés de la famille et des amis perdus à cause de cette terrible maladie. En un instant, un diagnostic de cancer du sein change à jamais la […] Le message post-présidentiel sur le Mois national de sensibilisation au cancer du sein est apparu en premier sur La Maison Blanche."
+        }
+      }
+    },
     {
       "title": "Manufacturers' Shipments, Inventories, and Orders",
       "link": "https://www.census.gov/manufacturing/m3/",
@@ -2093,18 +2131,6 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "4580557ddb6ea1d4834c1b15c41a3149ef83d749f8ae34cb0c4cceec56f369f8"
-    },
-    {
-      "title": "Payroll employment edges up 119,000 in September; unemployment rate changes little at 4.4%",
-      "link": "https://www.bls.gov/news.release/archives/empsit_11202025.htm",
-      "summary": "",
-      "published_at": "2025-11-20T08:30:00-05:00",
-      "source": "bls_jobs",
-      "category": "labor",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "b913e2014a1c590a06230e201b743e6ef224d6a5a356c51addaeb7d4912bd47e"
     }
   ]
 }
