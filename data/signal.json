@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "score": -33,
+  "score": -39,
   "direction": "bearish",
-  "label_key": "mild_bearish",
-  "signal": "mild_bearish",
+  "label_key": "strong_bearish",
+  "signal": "strong_bearish",
   "action": "wait_for_confirmation",
-  "confidence": 77,
+  "confidence": 90,
   "components": [
     {
       "key": "warsh",
@@ -13,41 +13,39 @@
       "direction": "bearish",
       "value": "STRONG_HAWK",
       "reason_key": "warsh_strong_hawk",
-      "updated_at": "2026-10-02T10:00:10.296582+00:00"
+      "updated_at": "2026-10-02T10:22:38.358208+00:00"
     },
     {
       "key": "fedwatch",
-      "score": -7,
+      "score": -6,
       "direction": "bearish",
-      "value": "cut 0.0% / hike 23.8%",
+      "value": "cut 0.0% / hike 21.6%",
       "reason_key": "fedwatch_path",
-      "updated_at": "2026-10-02T10:00:12.787416+00:00"
+      "updated_at": "2026-10-02T10:22:40.380936+00:00"
     },
     {
       "key": "xau",
-      "score": 2,
-      "direction": "bullish",
-      "value": "+0.16%",
+      "score": -3,
+      "direction": "bearish",
+      "value": "-0.24%",
       "reason_key": "xau_momentum",
-      "updated_at": "2026-10-02T10:00:08.460840+00:00"
+      "updated_at": "2026-10-02T10:22:36.276139+00:00"
     },
     {
       "key": "dxy",
-      "score": 2,
-      "direction": "bullish",
-      "value": "-0.12%",
+      "score": 0,
+      "direction": "neutral",
+      "value": "+0.01%",
       "reason_key": "dxy_momentum",
-      "updated_at": "2026-10-02T10:00:08.612877+00:00"
+      "updated_at": "2026-10-02T10:22:36.529542+00:00"
     }
   ],
   "supporting": [
     "warsh",
-    "fedwatch"
+    "fedwatch",
+    "xau"
   ],
-  "opposing": [
-    "xau",
-    "dxy"
-  ],
+  "opposing": [],
   "reason": "warsh_strong_hawk · fedwatch_path · xau_momentum · dxy_momentum",
   "reasons": [
     "warsh_strong_hawk",
@@ -55,5 +53,5 @@
     "xau_momentum",
     "dxy_momentum"
   ],
-  "generated_at": "2026-10-02T10:00:23.724087+00:00"
+  "generated_at": "2026-10-02T10:22:50.146000+00:00"
 }
