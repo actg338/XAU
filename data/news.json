@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-10-02T12:47:40.035835+00:00",
-  "total": 116,
+  "fetched_at": "2026-10-02T13:01:46.931923+00:00",
+  "total": 117,
   "items": [
+    {
+      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+      "link": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261002~54c6b5672b.en.html",
+      "summary": "",
+      "published_at": "Fri, 02 Oct 2026 15:00:00 +0200",
+      "source": "ecb",
+      "category": "monetary_policy",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "74c37c553fb251a4c8ef04f315442854fbadcdcad82db485b52b5feb0085ea55",
+      "translations": {
+        "zh-CN": {
+          "title": "欧洲央行管理委员会做出的决定（除了设定利率的决定之外）",
+          "summary": ""
+        },
+        "ja": {
+          "title": "ECB理事会による決定（金利設定の決定に加えて）",
+          "summary": ""
+        },
+        "ko": {
+          "title": "ECB 이사회의 결정(이자율 설정 결정에 추가)",
+          "summary": ""
+        },
+        "zh-TW": {
+          "title": "歐洲央行管理委員會所做的決定（除了設定利率的決定之外）",
+          "summary": ""
+        },
+        "de": {
+          "title": "Entscheidungen des EZB-Rats (zusätzlich zu Entscheidungen zur Festlegung der Zinssätze)",
+          "summary": ""
+        },
+        "fr": {
+          "title": "Décisions prises par le Conseil des gouverneurs de la BCE (en plus des décisions fixant les taux d'intérêt)",
+          "summary": ""
+        }
+      }
+    },
     {
       "title": "Bowman, Modernizing Financial Regulation: Initial Observations from eSLR",
       "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm",
@@ -2067,18 +2105,6 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "b913e2014a1c590a06230e201b743e6ef224d6a5a356c51addaeb7d4912bd47e"
-    },
-    {
-      "title": "CPI for all items rises 0.3% in September; gasoline up",
-      "link": "https://www.bls.gov/news.release/archives/cpi_10242025.htm",
-      "summary": "",
-      "published_at": "2025-10-24T08:30:00-04:00",
-      "source": "bls_cpi",
-      "category": "inflation",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "044af1e69df439dcfbdc5335fa821579e6cc7c52c8d2171caae18d4fc2ca7848"
     }
   ]
 }
