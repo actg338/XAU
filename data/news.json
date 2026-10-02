@@ -1,7 +1,121 @@
 {
-  "fetched_at": "2026-10-02T18:47:11.950946+00:00",
-  "total": 118,
+  "fetched_at": "2026-10-02T18:57:44.085550+00:00",
+  "total": 120,
   "items": [
+    {
+      "title": "Presidential Message on National Cybersecurity Awareness Month",
+      "link": "https://www.whitehouse.gov/briefings-statements/2026/10/presidential-message-on-national-cybersecurity-awareness-month/",
+      "summary": "In an age of rapid digital advancement, cyberspace has emerged as the new frontier of American innovation, prosperity, and strength. As new technologies open doors to discovery and opportunity that were once unimaginable, a secure cyberspace is essential to ensuring that America continues to lead the world in finance, military power, emerging technology, and manufacturing. […] The post Presidential Message on National Cybersecurity Awareness Month appeared first on The White House .",
+      "published_at": "Fri, 02 Oct 2026 18:28:12 +0000",
+      "source": "white_house",
+      "category": "geopolitics",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "geopolitics_bullish",
+      "_translation_hash": "bacf1c37d4573866e3775490987aa6eb45df4ba19a173aad9bcbe530c0b11582",
+      "translations": {
+        "zh-CN": {
+          "title": "国家网络安全意识月总统致辞",
+          "summary": "在数字化快速发展的时代，网络空间已成为美国创新、繁荣和实力的新前沿。随着新技术打开了曾经难以想象的发现和机遇之门，安全的网络空间对于确保美国在金融、军事力量、新兴技术和制造业方面继续领先世界至关重要。 […]关于国家网络安全意识月的总统致辞首先出现在白宫。"
+        },
+        "ja": {
+          "title": "国家サイバーセキュリティ啓発月間に関する大統領メッセージ",
+          "summary": "デジタルが急速に進歩する時代において、サイバースペースは米国のイノベーション、繁栄、強さの新たなフロンティアとして浮上しています。新しいテクノロジーが、かつては想像もできなかった発見と機会への扉を開く中、アメリカが金融、軍事力、新興テクノロジー、製造業で世界をリードし続けるためには、安全なサイバースペースが不可欠です。 […]国家サイバーセキュリティ啓発月間に関する大統領メッセージは、最初にホワイトハウスに掲載されました。"
+        },
+        "de": {
+          "title": "Botschaft des Präsidenten zum National Cybersecurity Awareness Month",
+          "summary": "In einer Zeit des rasanten digitalen Fortschritts hat sich der Cyberspace zur neuen Grenze für amerikanische Innovation, Wohlstand und Stärke entwickelt. Da neue Technologien Türen zu Entdeckungen und Möglichkeiten öffnen, die einst unvorstellbar waren, ist ein sicherer Cyberspace von entscheidender Bedeutung, um sicherzustellen, dass Amerika weiterhin weltweit führend in den Bereichen Finanzen, Militärmacht, neue Technologien und Fertigung ist. […] Der Beitrag „Botschaft des Präsidenten zum National Cybersecurity Awareness Month“ erschien zuerst im Weißen Haus."
+        },
+        "zh-TW": {
+          "title": "國家網路安全意識月總統致辭",
+          "summary": "在數位化快速發展的時代，網路空間已成為美國創新、繁榮和實力的新前沿。隨著新技術打開了曾經難以想像的發現和機會之門，安全的網路空間對於確保美國在金融、軍事力量、新興技術和製造業方面繼續領先世界至關重要。 [……]關於國家網路安全意識月的總統演講首先出現在白宮。"
+        },
+        "ko": {
+          "title": "국가 사이버 보안 인식의 달에 대한 대통령 메시지",
+          "summary": "급속한 디지털 발전 시대에 사이버 공간은 미국의 혁신, 번영, 힘의 새로운 개척지로 부상했습니다. 새로운 기술이 한때 상상할 수 없었던 발견과 기회의 문을 열어줌에 따라, 미국이 금융, 군사력, 신흥 기술 및 제조 분야에서 계속해서 세계를 주도할 수 있도록 안전한 사이버 공간이 필수적입니다. [...] 국가 사이버 보안 인식의 달에 대한 대통령 메시지가 백악관에 처음으로 게재되었습니다."
+        },
+        "fr": {
+          "title": "Message présidentiel à l'occasion du Mois national de sensibilisation à la cybersécurité",
+          "summary": "À une époque de progrès numérique rapide, le cyberespace est devenu la nouvelle frontière de l’innovation, de la prospérité et de la force des États-Unis. Alors que les nouvelles technologies ouvrent des portes à des découvertes et à des opportunités autrefois inimaginables, un cyberespace sécurisé est essentiel pour garantir que l’Amérique continue de dominer le monde en matière de finance, de puissance militaire, de technologies émergentes et de fabrication. […] Le message post-présidentiel sur le Mois national de sensibilisation à la cybersécurité est apparu en premier à la Maison Blanche."
+        }
+      }
+    },
+    {
+      "title": "Presidential Message on National Domestic Violence Awareness Month",
+      "link": "https://www.whitehouse.gov/briefings-statements/2026/10/presidential-message-on-national-domestic-violence-awareness-month/",
+      "summary": "In communities across our great Nation, domestic violence destroys families, harms innocent children, and leaves lasting pain in our neighborhoods. For America to be strong, children must feel safe in their homes, spouses and significant others must be respected, and it must be a universal truth that violence in any form is unacceptable. This National […] The post Presidential Message on National Domestic Violence Awareness Month appeared first on The White House .",
+      "published_at": "Fri, 02 Oct 2026 18:25:08 +0000",
+      "source": "white_house",
+      "category": "geopolitics",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "geopolitics_bullish",
+      "_translation_hash": "1e55df7a26b4d6adfb6e7636bcf32420cd3ae90aecc82b4ad5d1a7684f7af0d8",
+      "translations": {
+        "zh-CN": {
+          "title": "全国家庭暴力意识月总统致辞",
+          "summary": "在我们伟大国家的各个社区中，家庭暴力摧毁了家庭，伤害了无辜的儿童，并给我们的社区带来了持久的痛苦。为了让美国强大，孩子们必须在家里感到安全，配偶和其他重要的人必须受到尊重，而且任何形式的暴力都是不可接受的，这必须是一个普遍的真理。这个国家[...]关于全国家庭暴力意识月的总统致辞首先出现在白宫。"
+        },
+        "ja": {
+          "title": "全国家庭内暴力啓発月間に関する大統領メッセージ",
+          "summary": "私たちの偉大な国中のコミュニティでは、家庭内暴力が家族を破壊し、罪のない子供たちに危害を与え、近隣に永続的な苦痛を残しています。アメリカが強くなるためには、子供たちが家で安全だと感じなければならず、配偶者や大切な人が尊重されなければならず、また、いかなる形態の暴力も容認できないという普遍的な真実でなければなりません。この全国 […] 全国家庭内暴力啓発月間に関する大統領メッセージは、最初にホワイトハウスに掲載された。"
+        },
+        "de": {
+          "title": "Botschaft des Präsidenten zum Nationalen Monat der Aufklärung über häusliche Gewalt",
+          "summary": "In Gemeinden in unserem großen Land zerstört häusliche Gewalt Familien, schadet unschuldigen Kindern und hinterlässt in unserer Nachbarschaft anhaltende Schmerzen. Damit Amerika stark ist, müssen sich Kinder in ihren Häusern sicher fühlen, Ehepartner und Bezugspersonen müssen respektiert werden und es muss eine universelle Wahrheit sein, dass Gewalt in jeder Form inakzeptabel ist. Diese nationale […] Die Botschaft des Präsidenten zum Nationalen Monat zur Aufklärung über häusliche Gewalt erschien zuerst im Weißen Haus."
+        },
+        "zh-TW": {
+          "title": "全國家庭暴力意識月總統致辭",
+          "summary": "在我們偉大國家的各個社區中，家庭暴力摧毀了家庭，傷害了無辜的兒童，並給我們的社區帶來了持久的痛苦。為了讓美國強大，孩子們必須在家裡感到安全，配偶和其他重要的人必須受到尊重，而且任何形式的暴力都是不可接受的，這必須是一個普遍的真理。這個國家[...]關於全國家庭暴力意識月的總統致詞首先出現在白宮。"
+        },
+        "ko": {
+          "title": "전국 가정폭력 인식의 달에 대한 대통령 메시지",
+          "summary": "우리 위대한 국가 전역의 지역사회에서 가정 폭력은 가족을 파괴하고, 무고한 어린이들에게 해를 끼치며, 우리 이웃에 지속적인 고통을 남깁니다. 미국이 강해지려면 아이들이 집에서 안전함을 느껴야 하고, 배우자와 중요한 사람들이 존중받아야 하며, 어떤 형태의 폭력도 용납될 수 없다는 것이 보편적인 진실이 되어야 합니다. 이번 전국 [...] 전국 가정 폭력 인식의 달에 관한 대통령 메시지가 백악관에 처음 게재되었습니다."
+        },
+        "fr": {
+          "title": "Message présidentiel à l'occasion du Mois national de sensibilisation à la violence domestique",
+          "summary": "Dans les communautés de notre grande nation, la violence domestique détruit des familles, nuit à des enfants innocents et laisse des souffrances durables dans nos quartiers. Pour que l’Amérique soit forte, les enfants doivent se sentir en sécurité dans leur foyer, les conjoints et les proches doivent être respectés, et il doit être une vérité universelle que la violence sous toutes ses formes est inacceptable. Ce message national […] Le message post-présidentiel sur le Mois national de sensibilisation à la violence domestique est apparu en premier à la Maison Blanche."
+        }
+      }
+    },
+    {
+      "title": "Presidential Message on Down Syndrome Awareness Month",
+      "link": "https://www.whitehouse.gov/briefings-statements/2026/10/presidential-message-on-down-syndrome-awareness-month-b663/",
+      "summary": "From the moment a child is conceived, they are a gift from God, created in His image and likeness, bringing hope, love, and a future filled with promise to our Nation and the world. This Down Syndrome Awareness Month, I join millions of Americans in celebrating the lives, accomplishments, and contributions of people with Down […] The post Presidential Message on Down Syndrome Awareness Month appeared first on The White House .",
+      "published_at": "Fri, 02 Oct 2026 18:21:53 +0000",
+      "source": "white_house",
+      "category": "geopolitics",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "geopolitics_bullish",
+      "_translation_hash": "d848ac16be2065504c7506432b132d161734cd10e3bcc8626f65442863a37293",
+      "translations": {
+        "zh-CN": {
+          "title": "唐氏综合症意识月总统致辞",
+          "summary": "从孩子受孕的那一刻起，他们就是上帝的礼物，按照他的形象和样式创造，为我们的国家和世界带来希望、爱和充满希望的未来。在这个唐氏综合症意识月，我与数百万美国人一起庆祝唐氏综合症患者的生活、成就和贡献……关于唐氏综合症意识月的总统致辞首先出现在白宫。"
+        },
+        "ja": {
+          "title": "ダウン症啓発月間に関する大統領メッセージ",
+          "summary": "子供は妊娠した瞬間から神からの贈り物であり、神の姿と似姿に創造され、私たちの国と世界に希望、愛、そして約束に満ちた未来をもたらします。このダウン症啓発月間、私も何百万人ものアメリカ人に加わり、ダウン症の人々の人生、功績、貢献を祝います。 […] ダウン症啓発月間に関する大統領メッセージの投稿は、最初にホワイトハウスに掲載されました。"
+        },
+        "de": {
+          "title": "Botschaft des Präsidenten zum Monat der Aufklärung über das Down-Syndrom",
+          "summary": "Von dem Moment an, in dem ein Kind gezeugt wird, ist es ein Geschenk Gottes, das nach seinem Bild und Gleichnis geschaffen wurde und unserer Nation und der Welt Hoffnung, Liebe und eine vielversprechende Zukunft bringt. In diesem Monat der Aufklärung über das Down-Syndrom feiere ich gemeinsam mit Millionen von Amerikanern das Leben, die Erfolge und die Beiträge von Menschen mit Down […] Die Botschaft des Präsidenten zum Monat der Aufklärung über das Down-Syndrom erschien zuerst im Weißen Haus."
+        },
+        "zh-TW": {
+          "title": "唐氏症意識月總統致辭",
+          "summary": "從孩子受孕的那一刻起，他們就是上帝的禮物，按照祂的形象和樣式創造，為我們的國家和世界帶來希望、愛和充滿希望的未來。在這個唐氏症意識月，我與數百萬美國人一起慶祝唐氏症患者的生活、成就和貢獻……關於唐氏症意識月的總統致詞首先出現在白宮。"
+        },
+        "ko": {
+          "title": "다운증후군 인식의 달에 대한 대통령 메시지",
+          "summary": "아이가 잉태되는 순간부터, 아이는 하나님의 형상과 모양대로 창조된 하나님의 선물이며 우리 나라와 세계에 희망과 사랑, 그리고 약속으로 가득 찬 미래를 가져다줍니다. 이번 다운증후군 인식의 달에 저는 수백만 명의 미국인과 함께 다운 환자들의 삶, 업적, 공헌을 축하합니다. […] 다운 증후군 인식의 달에 관한 대통령 메시지가 백악관에 처음으로 게재되었습니다."
+        },
+        "fr": {
+          "title": "Message présidentiel à l'occasion du Mois de la sensibilisation au syndrome de Down",
+          "summary": "Dès le moment où un enfant est conçu, il est un don de Dieu, créé à son image et ressemblance, apportant espoir, amour et un avenir rempli de promesses à notre nation et au monde. En ce mois de sensibilisation au syndrome de Down, je me joins à des millions d'Américains pour célébrer la vie, les réalisations et les contributions des personnes atteintes du syndrome de Down. […] Le message post-présidentiel sur le mois de sensibilisation au syndrome de Down est apparu en premier à la Maison Blanche."
+        }
+      }
+    },
     {
       "title": "Presidential Message on National Breast Cancer Awareness Month",
       "link": "https://www.whitehouse.gov/briefings-statements/2026/10/presidential-message-on-national-breast-cancer-awareness-month-a680/",
@@ -721,44 +835,6 @@
         "de": {
           "title": "Verkauf neuer Häuser",
           "summary": "Der Verkauf neuer Einfamilienhäuser lag im August 2026 bei einer saisonbereinigten Jahresrate von 684.000. Das sind 6,4 Prozent (+/- 19,5 %)* über der revidierten Schätzung vom Juli 2026 von 643.000. August 2026: +6,4* % Veränderung Juli 2026 (r): -4,3* % Veränderung"
-        }
-      }
-    },
-    {
-      "title": "First Lady Melania Trump Releases Details on the State Dinner with His Excellency Xi Jinping, President of The People’s Republic of China, and Madame Peng Liyuan",
-      "link": "https://www.whitehouse.gov/briefings-statements/2026/09/first-lady-melania-trump-releases-details-on-the-state-dinner-with-his-excellency-xi-jinping-president-of-the-peoples-republic-of-china-and-madame-peng-liyuan/",
-      "summary": "President Donald J. Trump and First Lady Melania Trump will welcome His Excellency Xi Jinping, President of The People’s Republic of China, and Madame Peng Liyuan for a State Dinner in the East Room of the White House this evening. The First Lady led the preparations for the dinner, which will be attended by the […] The post First Lady Melania Trump Releases Details on the State Dinner with His Excellency Xi Jinping, President of The People’s Republic of China, and Madame Peng Liyuan appeared fi",
-      "published_at": "Thu, 24 Sep 2026 12:21:19 +0000",
-      "source": "white_house",
-      "category": "geopolitics",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "geopolitics_neutral",
-      "_translation_hash": "ad44dcd99bb737c3c2c0a860d34e274729f1979dce5690e5236b8b49f5e0662a",
-      "translations": {
-        "zh-TW": {
-          "title": "第一夫人梅拉尼婭·川普公佈了與中華人民共和國主席習近平和彭麗媛女士舉行國宴的詳細信息",
-          "summary": "唐納德·J·特朗普總統和第一夫人梅拉尼婭·特朗普將於今晚在白宮東廳舉行國宴，歡迎中華人民共和國主席習近平閣下和彭麗媛女士。第一夫人主持了晚宴的準備工作，出席晚宴的有[…]第一夫人梅拉尼婭·特朗普發布了與中華人民共和國主席習近平和彭麗媛女士舉行國宴的詳細信息。"
-        },
-        "zh-CN": {
-          "title": "第一夫人梅拉尼娅·特朗普公布了与中华人民共和国主席习近平和彭丽媛女士举行国宴的详细信息",
-          "summary": "唐纳德·J·特朗普总统和第一夫人梅拉尼娅·特朗普将于今晚在白宫东厅举行国宴，欢迎中华人民共和国主席习近平阁下和彭丽媛女士。第一夫人主持了晚宴的筹备工作，出席晚宴的有[…]第一夫人梅拉尼娅·特朗普发布了与中华人民共和国主席习近平和彭丽媛女士举行国宴的详细信息。"
-        },
-        "ja": {
-          "title": "メラニア・トランプ大統領夫人、習近平中華人民共和国国家主席閣下および彭麗源夫人との国賓晩餐会の詳細を発表",
-          "summary": "ドナルド・J・トランプ大統領とメラニア・トランプ大統領夫人は今夜、ホワイトハウスの東の部屋で習近平中華人民共和国国家主席と彭麗源夫人を公式晩餐会に招待する予定だ。大統領夫人は晩餐会の準備を主導し、その晩餐会には次のような人たちも出席する […]"
-        },
-        "de": {
-          "title": "First Lady Melania Trump veröffentlicht Einzelheiten zum Staatsessen mit Seiner Exzellenz Xi Jinping, dem Präsidenten der Volksrepublik China, und Madame Peng Liyuan",
-          "summary": "Präsident Donald J. Trump und First Lady Melania Trump werden heute Abend Seine Exzellenz Xi Jinping, Präsident der Volksrepublik China, und Madame Peng Liyuan zu einem Staatsessen im East Room des Weißen Hauses begrüßen. Die First Lady leitete die Vorbereitungen für das Abendessen, an dem die […] Der Beitrag First Lady Melania Trump veröffentlicht Details zum Staatsessen mit Seiner Exzellenz Xi Jinping, dem Präsidenten der Volksrepublik China, und Madame Peng Liyuan erschien fi"
-        },
-        "ko": {
-          "title": "멜라니아 트럼프 영부인이 시진핑 중화인민공화국 국가주석과 펑리위안 여사와 함께한 국빈만찬 세부사항을 공개했다.",
-          "summary": "도널드 J. 트럼프 대통령과 영부인 멜라니아 트럼프 여사는 오늘 저녁 백악관 동쪽 방에서 국빈 만찬을 위해 시진핑 중국 국가주석과 펑리위안 여사를 환영할 예정입니다. 영부인이 참석할 만찬 준비를 주도했으며 […"
-        },
-        "fr": {
-          "title": "La Première Dame Melania Trump publie des détails sur le dîner d'État avec Son Excellence Xi Jinping, président de la République populaire de Chine, et Madame Peng Liyuan.",
-          "summary": "Le président Donald J. Trump et la Première dame Melania Trump accueilleront ce soir Son Excellence Xi Jinping, président de la République populaire de Chine, et Madame Peng Liyuan pour un dîner d'État dans la salle Est de la Maison Blanche. La Première Dame a dirigé les préparatifs du dîner, auquel participeront les […] The post La Première Dame Melania Trump publie des détails sur le dîner d'État avec Son Excellence Xi Jinping, Président de la République populaire de Chine, et Madame Peng Liyuan est apparue fi"
         }
       }
     },
@@ -2107,30 +2183,6 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "b6b48fb53a5a62da2133cb4e82ec3cb623a572b1b617a52fed45d717559fdd99"
-    },
-    {
-      "title": "October job openings unchanged; hires and total separations change little",
-      "link": "https://www.bls.gov/news.release/archives/jolts_12092025.htm",
-      "summary": "",
-      "published_at": "2025-12-09T10:00:00-05:00",
-      "source": "bls_jolts",
-      "category": "labor",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
-    },
-    {
-      "title": "PPI for final demand advances 0.3% in September; goods rise 0.9%, services unchanged",
-      "link": "https://www.bls.gov/news.release/archives/ppi_11252025.htm",
-      "summary": "",
-      "published_at": "2025-11-25T08:30:00-05:00",
-      "source": "bls_ppi",
-      "category": "inflation",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "4580557ddb6ea1d4834c1b15c41a3149ef83d749f8ae34cb0c4cceec56f369f8"
     }
   ]
 }
