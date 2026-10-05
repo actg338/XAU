@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-10-05T07:29:24.573283+00:00",
-  "total": 119,
+  "fetched_at": "2026-10-05T08:02:17.585027+00:00",
+  "total": 120,
   "items": [
+    {
+      "title": "Philip R. Lane: Diagnostic Challenges for ECB Monetary Policy",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261005~1d8d998ef4.en.html",
+      "summary": "",
+      "published_at": "Mon, 05 Oct 2026 10:00:00 +0200",
+      "source": "ecb",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "037aed2081307154b6b64dcb9a6e95c6d8f405dddcb36a50640d8fafa148167e",
+      "translations": {
+        "zh-CN": {
+          "title": "Philip R. Lane：欧洲央行货币政策面临的诊断挑战",
+          "summary": ""
+        },
+        "ja": {
+          "title": "フィリップ・R・レーン: ECB金融政策の診断上の課題",
+          "summary": ""
+        },
+        "ko": {
+          "title": "Philip R. Lane: ECB 통화 정책의 진단적 과제",
+          "summary": ""
+        },
+        "zh-TW": {
+          "title": "Philip R. Lane：歐洲央行貨幣政策面臨的診斷挑戰",
+          "summary": ""
+        },
+        "de": {
+          "title": "Philip R. Lane: Diagnostische Herausforderungen für die Geldpolitik der EZB",
+          "summary": ""
+        },
+        "fr": {
+          "title": "Philip R. Lane : Défis diagnostiques pour la politique monétaire de la BCE",
+          "summary": ""
+        }
+      }
+    },
     {
       "title": "Presidential Message on National Cybersecurity Awareness Month",
       "link": "https://www.whitehouse.gov/briefings-statements/2026/10/presidential-message-on-national-cybersecurity-awareness-month/",
@@ -995,7 +1033,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1033,7 +1071,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1451,7 +1489,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -2145,18 +2183,6 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "b6b48fb53a5a62da2133cb4e82ec3cb623a572b1b617a52fed45d717559fdd99"
-    },
-    {
-      "title": "October job openings unchanged; hires and total separations change little",
-      "link": "https://www.bls.gov/news.release/archives/jolts_12092025.htm",
-      "summary": "",
-      "published_at": "2025-12-09T10:00:00-05:00",
-      "source": "bls_jolts",
-      "category": "labor",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
     }
   ]
 }
