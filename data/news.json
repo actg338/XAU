@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-06T16:40:51.772881+00:00",
-  "total": 118,
+  "fetched_at": "2026-10-06T16:53:38.942813+00:00",
+  "total": 117,
   "items": [
     {
       "title": "Bowman, Modernizing the Regulatory and Supervisory Landscape",
@@ -801,44 +801,6 @@
       }
     },
     {
-      "title": "U.S.-China Board of Trade",
-      "link": "https://www.whitehouse.gov/releases/2026/09/u-s-china-board-of-trade/",
-      "summary": "U.S.-China Board of Trade “30-FOR-30” Lists of Products Recommended for Reduced Tariff Treatment The United States and China will consider the following list of U.S. products for import into China and list of Chinese products for import into the United States with a view toward providing reduced tariff treatment to those goods in a reciprocal manner, […] The post U.S.-China Board of Trade appeared first on The White House .",
-      "published_at": "Mon, 28 Sep 2026 01:59:36 +0000",
-      "source": "white_house",
-      "category": "trade",
-      "impact": "high",
-      "gold_bias": "bullish",
-      "why_key": "trade_bullish",
-      "_translation_hash": "a6a0390cab5d823ad61990a53faff69e694565f26a1096c7f559fc8bdeac7a11",
-      "translations": {
-        "zh-CN": {
-          "title": "美中贸易委员会",
-          "summary": "美中贸易委员会“30-FOR-30”建议降低关税待遇的产品清单美国和中国将考虑以下进口到中国的美国产品清单和进口到美国的中国产品清单，以期以互惠的方式为这些商品提供降低关税待遇，[…]后美中贸易委员会首先出现在白宫。"
-        },
-        "ja": {
-          "title": "米中貿易委員会",
-          "summary": "米中貿易委員会の「30対30」関税軽減措置を推奨する製品リスト 米国と中国は、これらの製品に相互的な方法で軽減関税措置を提供することを目的として、以下の中国への輸入のための米国製品のリストと、米国への輸入のための中国製品のリストを検討することになる。"
-        },
-        "zh-TW": {
-          "title": "美中貿易委員會",
-          "summary": "美中貿易委員會「30-FOR-30」建議降低關稅待遇的產品清單美國和中國將考慮以下進口到中國的美國產品清單和進口到美國的中國產品清單，以期以互惠的方式為這些商品提供降低關稅待遇，[…]後美中貿易委員會首先出現在白宮。"
-        },
-        "ko": {
-          "title": "미중 무역위원회",
-          "summary": "미중 무역위원회 “30-FOR-30” 관세 인하 권장 제품 목록 미국과 중국은 상호적인 방식으로 해당 상품에 관세 인하 혜택을 제공하기 위해 다음과 같은 중국 수입용 미국 제품 목록과 미국으로 수입되는 중국 제품 목록을 고려할 예정입니다. [...] 미중 무역위원회 게시물이 백악관에 처음 게재되었습니다."
-        },
-        "de": {
-          "title": "US-China Board of Trade",
-          "summary": "U.S.-China Board of Trade „30-FOR-30“-Listen von Produkten, die für eine ermäßigte Zollbehandlung empfohlen werden Die Vereinigten Staaten und China werden die folgende Liste von US-Produkten für den Import nach China und Liste chinesischer Produkte für den Import in die Vereinigten Staaten in Betracht ziehen, um im Gegenzug eine ermäßigte Zollbehandlung für diese Waren zu ermöglichen, […] Der Beitrag U.S.-China Board of Trade erschien zuerst im Weißen Haus."
-        },
-        "fr": {
-          "title": "Chambre de commerce américano-chinoise",
-          "summary": "Listes « 30-FOR-30 » du Conseil de commerce États-Unis-Chine de produits recommandés pour un traitement tarifaire réduit Les États-Unis et la Chine examineront la liste suivante de produits américains à importer en Chine et la liste de produits chinois à importer aux États-Unis en vue d'accorder un traitement tarifaire réduit à ces marchandises de manière réciproque, […] L'article du Conseil de commerce États-Unis-Chine est apparu en premier sur la Maison Blanche."
-        }
-      }
-    },
-    {
       "title": "New Home Sales",
       "link": "https://www.census.gov/construction/nrs/",
       "summary": "Sales of new single-family houses in August 2026 were at a seasonally adjusted annual rate of 684,000. This is 6.4 percent (+/- 19.5%)* above the revised July 2026 estimate of 643,000. August 2026: +6.4* % Change July 2026 (r): -4.3* % Change",
@@ -1071,7 +1033,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1109,7 +1071,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1425,7 +1387,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -2131,6 +2093,18 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
+    },
+    {
+      "title": "PPI for final demand advances 0.3% in September; goods rise 0.9%, services unchanged",
+      "link": "https://www.bls.gov/news.release/archives/ppi_11252025.htm",
+      "summary": "",
+      "published_at": "2025-11-25T08:30:00-05:00",
+      "source": "bls_ppi",
+      "category": "inflation",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
+      "_translation_hash": "4580557ddb6ea1d4834c1b15c41a3149ef83d749f8ae34cb0c4cceec56f369f8"
     }
   ]
 }
