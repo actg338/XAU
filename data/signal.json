@@ -1,59 +1,59 @@
 {
   "schema_version": 2,
-  "score": -30,
-  "direction": "bearish",
-  "label_key": "mild_bearish",
-  "signal": "mild_bearish",
+  "score": 1,
+  "direction": "neutral",
+  "label_key": "balanced",
+  "signal": "balanced",
   "action": "wait_for_confirmation",
-  "confidence": 76,
+  "confidence": 74,
   "components": [
     {
       "key": "warsh",
-      "score": -30,
-      "direction": "bearish",
-      "value": "STRONG_HAWK",
-      "reason_key": "warsh_strong_hawk",
-      "updated_at": "2026-10-06T14:35:15.014603+00:00"
+      "score": 0,
+      "direction": "neutral",
+      "value": "NEUTRAL",
+      "reason_key": "warsh_neutral",
+      "updated_at": "2026-10-06T14:49:16.036130+00:00"
     },
     {
       "key": "fedwatch",
       "score": -6,
       "direction": "bearish",
-      "value": "cut 0.0% / hike 21.6%",
+      "value": "cut 0.0% / hike 19.4%",
       "reason_key": "fedwatch_path",
-      "updated_at": "2026-10-06T14:35:16.107687+00:00"
+      "updated_at": "2026-10-06T14:49:17.704272+00:00"
     },
     {
       "key": "xau",
       "score": 3,
       "direction": "bullish",
-      "value": "+0.25%",
+      "value": "+0.23%",
       "reason_key": "xau_momentum",
-      "updated_at": "2026-10-06T14:35:13.168931+00:00"
+      "updated_at": "2026-10-06T14:49:14.058365+00:00"
     },
     {
       "key": "dxy",
-      "score": 3,
+      "score": 4,
       "direction": "bullish",
-      "value": "-0.16%",
+      "value": "-0.20%",
       "reason_key": "dxy_momentum",
-      "updated_at": "2026-10-06T14:35:13.361113+00:00"
+      "updated_at": "2026-10-06T14:49:14.234203+00:00"
     }
   ],
   "supporting": [
-    "warsh",
-    "fedwatch"
+    "warsh"
   ],
   "opposing": [
+    "fedwatch",
     "xau",
     "dxy"
   ],
-  "reason": "warsh_strong_hawk · fedwatch_path · xau_momentum · dxy_momentum",
+  "reason": "warsh_neutral · fedwatch_path · xau_momentum · dxy_momentum",
   "reasons": [
-    "warsh_strong_hawk",
+    "warsh_neutral",
     "fedwatch_path",
     "xau_momentum",
     "dxy_momentum"
   ],
-  "generated_at": "2026-10-06T14:35:24.778790+00:00"
+  "generated_at": "2026-10-06T14:49:29.052437+00:00"
 }
