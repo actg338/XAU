@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-10-06T11:56:18.127788+00:00",
-  "total": 119,
+  "fetched_at": "2026-10-06T12:30:30.217665+00:00",
+  "total": 118,
   "items": [
+    {
+      "title": "U.S. International Trade in Goods and Services",
+      "link": "https://www.census.gov/foreign-trade/index.html",
+      "summary": "The nation's international trade deficit in goods and services increased to $105.6 billion in August from $92.8 billion in July (revised), as imports increased more than exports. August 2026: 13.7° % Change July 2026 (r): 30.4° % Change",
+      "published_at": "Tue, 06 Oct 2026 08:30:00 -0400",
+      "source": "census",
+      "category": "trade",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "trade_neutral",
+      "_translation_hash": "57a78a38ef0f679f37e5cc5059575429f0c113e3db19bf6961feb52876b1b4d6",
+      "translations": {
+        "zh-CN": {
+          "title": "美国国际商品和服务贸易",
+          "summary": "由于进口增幅超过出口增幅，8 月份该国商品和服务国际贸易逆差从 7 月份的 928 亿美元（修正后）增至 1056 亿美元。 2026 年 8 月：13.7° 变化百分比 2026 年 7 月 (r)：30.4° 变化百分比"
+        },
+        "ja": {
+          "title": "米国の商品とサービスの国際貿易",
+          "summary": "輸入が輸出を上回ったため、同国の商品とサービスの国際貿易赤字は、７月の９２８億ドル（改定値）から８月には１０５６億ドルに増加した。 2026年8月: 13.7° %変化 2026年7月(r): 30.4° %変化"
+        },
+        "ko": {
+          "title": "미국의 상품 및 서비스 국제 무역",
+          "summary": "상품 및 서비스 부문의 국가 국제 무역 적자는 수출보다 수입이 더 많이 증가함에 따라 7월(개정)의 928억 달러에서 8월 1,056억 달러로 증가했습니다. 2026년 8월: 13.7° % 변화 2026년 7월(r): 30.4° % 변화"
+        },
+        "zh-TW": {
+          "title": "美國國際商品與服務貿易",
+          "summary": "由於進口增幅超過出口增幅，8 月該國商品和服務國際貿易逆差從 7 月的 928 億美元（修正後）增加至 1,056 億美元。 2026 年 8 月：13.7° 變化百分比 2026 年 7 月 (r)：30.4° 變化百分比"
+        },
+        "de": {
+          "title": "Internationaler Handel der USA mit Waren und Dienstleistungen",
+          "summary": "Das internationale Handelsdefizit des Landes bei Waren und Dienstleistungen stieg im August von 92,8 Milliarden US-Dollar im Juli (revidiert) auf 105,6 Milliarden US-Dollar, da die Importe stärker zunahmen als die Exporte. August 2026: 13,7° % Veränderung Juli 2026 (r): 30,4° % Veränderung"
+        },
+        "fr": {
+          "title": "Commerce international des biens et services des États-Unis",
+          "summary": "Le déficit du commerce international des biens et services du pays a augmenté pour atteindre 105,6 milliards de dollars en août, contre 92,8 milliards de dollars en juillet (révisé), les importations ayant augmenté plus que les exportations. Août 2026 : 13,7° % Variation Juillet 2026 (r) : 30,4° % Variation"
+        }
+      }
+    },
     {
       "title": "Philip R. Lane: Diagnostic Challenges for ECB Monetary Policy",
       "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261005~1d8d998ef4.en.html",
@@ -497,40 +535,40 @@
       }
     },
     {
-      "title": "Advance Retail Inventories",
+      "title": "Advance U.S. International Trade in Goods",
       "link": "https://www.census.gov/econ/indicators/index.html",
-      "summary": "August 2026 end-of-month inventories were $881.6 billion, up 0.3 percent (+/-0.2 percent) from last month. August 2026: +0.3 % Change in Inventories July 2026 (r): +0.8 % Change in Inventories",
+      "summary": "The advance international trade deficit in goods increased to $132.6 billion in August from $118.9 billion in July as imports increased more than exports. August 2026: 11.5° % Change July 2026: 17.7° % Change",
       "published_at": "Wed, 30 Sep 2026 08:30:00 -0400",
       "source": "census",
-      "category": "other",
-      "impact": "low",
+      "category": "trade",
+      "impact": "medium",
       "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "f18b5b41c9508d0eb6959c4d136377a47105a9755b3e9099c96dcb0b679b039f",
+      "why_key": "trade_neutral",
+      "_translation_hash": "e28cc15319fcd47a7b9fd2e399ddf1b08d0ec8d8beaa99a0713caedc74296fa6",
       "translations": {
         "zh-CN": {
-          "title": "预付零售库存",
-          "summary": "2026 年 8 月月末库存为 8,816 亿美元，比上月增长 0.3% (+/-0.2%)。 2026 年 8 月：库存变化 +0.3% 2026 年 7 月 (r)：库存变化 +0.8%"
+          "title": "推进美国国际货物贸易",
+          "summary": "由于进口增幅大于出口增幅，8 月份预付国际货物贸易逆差从 7 月份的 1,189 亿美元增至 1,326 亿美元。 2026 年 8 月：11.5° % 变化 2026 年 7 月：17.7° % 变化"
         },
         "ja": {
-          "title": "事前小売在庫",
-          "summary": "２０２６年８月の月末在庫は８８１６億ドルで、前月比０．３％（±０．２％）増加した。 2026年8月: +0.3 % 在庫変動 2026年7月(r): +0.8 % 在庫変動"
+          "title": "米国の国際商品貿易を前進させる",
+          "summary": "輸入の増加が輸出を上回ったため、モノの事前国際貿易赤字は、7月の1,189億ドルから8月の1,326億ドルに増加した。 2026年8月: 11.5° %変化 2026年7月: 17.7° %変化"
         },
         "ko": {
-          "title": "사전 소매 재고",
-          "summary": "2026년 8월 월말 재고는 8,816억 달러로 전월 대비 0.3%(+/-0.2%) 증가했습니다. 2026년 8월: 재고 변동 +0.3% 2026년 7월(r): 재고 변동 +0.8%"
-        },
-        "de": {
-          "title": "Vorab Lagerbestände im Einzelhandel",
-          "summary": "Die Lagerbestände zum Monatsende im August 2026 beliefen sich auf 881,6 Milliarden US-Dollar, ein Plus von 0,3 Prozent (+/-0,2 Prozent) gegenüber dem Vormonat. August 2026: +0,3 % Bestandsveränderung Juli 2026 (r): +0,8 % Bestandsveränderung"
+          "title": "미국의 국제 상품 무역 증진",
+          "summary": "수출보다 수입이 더 많이 증가하면서 상품 부문의 국제 무역 적자는 7월 1,189억 달러에서 8월 1,326억 달러로 증가했습니다. 2026년 8월: 11.5° % 변화 2026년 7월: 17.7° % 변화"
         },
         "zh-TW": {
-          "title": "預付零售庫存",
-          "summary": "2026 年 8 月月底庫存為 8,816 億美元，比上月增長 0.3% (+/-0.2%)。 2026 年 8 月：庫存變化 +0.3% 2026 年 7 月 (r)：庫存變化 +0.8%"
+          "title": "推動美國國際貨物貿易",
+          "summary": "由於進口增幅大於出口增幅，8 月預付國際貨物貿易逆差從 7 月的 1,189 億美元增加到 1,326 億美元。 2026 年 8 月：11.5° % 變化 2026 年 7 月：17.7° % 變化"
+        },
+        "de": {
+          "title": "Förderung des internationalen Warenhandels der USA",
+          "summary": "Das vorläufige Defizit im internationalen Warenhandel stieg im August auf 132,6 Milliarden US-Dollar, von 118,9 Milliarden US-Dollar im Juli, da die Importe stärker zunahmen als die Exporte. August 2026: 11,5° % Veränderung Juli 2026: 17,7° % Veränderung"
         },
         "fr": {
-          "title": "Avancer les stocks de détail",
-          "summary": "Les stocks de fin de mois d'août 2026 s'élevaient à 881,6 milliards de dollars, en hausse de 0,3 % (+/-0,2 %) par rapport au mois dernier. Août 2026 : +0,3 % Variation des Stocks Juillet 2026 (r) : +0,8 % Variation des Stocks"
+          "title": "Faire progresser le commerce international des marchandises aux États-Unis",
+          "summary": "Le déficit du commerce international des biens a augmenté à 132,6 milliards de dollars en août contre 118,9 milliards de dollars en juillet, les importations ayant augmenté plus que les exportations. Août 2026 : 11,5° % d’évolution Juillet 2026 : 17,7° % d’évolution"
         }
       }
     },
@@ -1257,42 +1295,16 @@
       }
     },
     {
-      "title": "Quarterly Financial Report",
+      "title": "Quarterly Financial Report - Retail",
       "link": "https://www.census.gov/econ/qfr/",
-      "summary": "Manufacturing corporations' not seasonally adjusted after-tax profits were $370.1 billion for the second quarter of 2026, up $82.8 (+/- 1.2) billion from first quarter of 2026. 2nd Qtr 2026: +82.8 Billions of Dollars 1st Qtr 2026 (r): +50.6 Billions of Dollars",
+      "summary": "Not seasonally adjusted after-tax profits for retail corporations with assets of $50 million and over were $112.3 billion for the second quarter 2026 (the 3 months ending July 31, 2026), up $47.2 (+/- 0.5) billion from first quarter 2026 (the 3 months ending April 30, 2026). 2nd Qtr 2026: +47.2 Billions of Dollars 1st Qtr 2026 (r): +1.7 Billions of Dollars",
       "published_at": "Tue, 08 Sep 2026 10:00:00 -0400",
       "source": "census",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "bf08e7e849ef61cc8a1923a74e5201e63eb3bd6c8f00f6778504c7e4840228f7",
-      "translations": {
-        "zh-CN": {
-          "title": "季度财务报告",
-          "summary": "2026 年第二季度，制造企业未经季节性调整的税后利润为 3,701 亿美元，较 2026 年第一季度增长 828 (+/- 12) 亿美元。 2026 年第二季度：+828 亿美元 2026 年第一季度 (r)：+506 亿美元"
-        },
-        "zh-TW": {
-          "title": "季度財務報告",
-          "summary": "2026 年第二季度，製造企業未經季節性調整的稅後利潤為 3,701 億美元，較 2026 年第一季增長 828 (+/- 12) 億美元。 2026 年第二季：+828 億美元 2026 年第一季 (r)：+506 億美元"
-        },
-        "ja": {
-          "title": "四半期財務報告書",
-          "summary": "製造業企業の季節調整されていない税引後利益は、2026 年第 2 四半期に 3,701 億ドルとなり、2026 年第 1 四半期から 828 億ドル (+/- 12 億ドル) 増加しました。 2026 年第 2 四半期: +828 億ドル 2026 年第 1 四半期 (r): +506 億ドル"
-        },
-        "ko": {
-          "title": "분기별 재무 보고서",
-          "summary": "제조 기업의 계절 조정되지 않은 세후 이익은 2026년 2분기에 3,701억 달러로 2026년 1분기보다 828억 달러(+/- 12억 달러) 증가했습니다. 2026년 2분기: +828억 달러 2026년 1분기(r): +506억 달러"
-        },
-        "de": {
-          "title": "Vierteljährlicher Finanzbericht",
-          "summary": "Die nicht saisonbereinigten Gewinne nach Steuern der produzierenden Unternehmen beliefen sich im zweiten Quartal 2026 auf 370,1 Milliarden US-Dollar, was einem Anstieg von 82,8 (+/- 1,2) Milliarden US-Dollar gegenüber dem ersten Quartal 2026 entspricht. 2. Quartal 2026: +82,8 Milliarden Dollar 1. Quartal 2026 (r): +50,6 Milliarden Dollar"
-        },
-        "fr": {
-          "title": "Rapport financier trimestriel",
-          "summary": "Les bénéfices après impôts non désaisonnalisés des sociétés manufacturières s'élevaient à 370,1 milliards de dollars pour le deuxième trimestre 2026, en hausse de 82,8 (+/- 1,2) milliards de dollars par rapport au premier trimestre 2026. 2e trimestre 2026 : +82,8 milliards de dollars 1er trimestre 2026 (r) : +50,6 milliards de dollars"
-        }
-      }
+      "_translation_hash": "a9ea78155c2a20e2cd0432f27385c29a98529759872bb83ac39c2c6c943a4662"
     },
     {
       "title": "Waller, The Economic Outlook and Some Comments on My Policy Communication",
@@ -1329,44 +1341,6 @@
         "fr": {
           "title": "Waller, Les perspectives économiques et quelques commentaires sur ma communication politique",
           "summary": "Discours lors de l'interview de Reuters NEXT Newsmaker, Washington, D.C."
-        }
-      }
-    },
-    {
-      "title": "U.S. International Trade in Goods and Services",
-      "link": "https://www.census.gov/foreign-trade/index.html",
-      "summary": "The nation's international trade deficit in goods and services increased to $88.6 billion in July from $71.2 billion in June (revised), as exports decreased and imports increased. July 2026: 24.4° % Change June 2026 (r): -6.0° % Change",
-      "published_at": "Thu, 03 Sep 2026 08:30:00 -0400",
-      "source": "census",
-      "category": "trade",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "3c24050ac2acde529ef831eac02096241c456fd96ed6d06cc15f75cbb4eacdaf",
-      "translations": {
-        "zh-CN": {
-          "title": "美国国际商品和服务贸易",
-          "summary": "由于出口减少和进口增加，该国 7 月份商品和服务国际贸易逆差从 6 月份的 712 亿美元（修正后）增至 886 亿美元。 2026 年 7 月：24.4° 变化百分比 2026 年 6 月 (r)：-6.0° 变化百分比"
-        },
-        "zh-TW": {
-          "title": "美國國際商品與服務貿易",
-          "summary": "由於出口減少和進口增加，該國 7 月商品和服務國際貿易逆差從 6 月的 712 億美元（修正後）增加到 886 億美元。 2026 年 7 月：24.4° 變化百分比 2026 年 6 月 (r)：-6.0° 變化百分比"
-        },
-        "ja": {
-          "title": "米国の商品とサービスの国際貿易",
-          "summary": "同国の財とサービスの国際貿易赤字は、輸出が減少し輸入が増加したため、6月の712億ドル（改定値）から7月には886億ドルに増加した。 2026 年 7 月: 24.4° % 変化 2026 年 6 月 (r): -6.0° % 変化"
-        },
-        "ko": {
-          "title": "미국의 상품 및 서비스 국제 무역",
-          "summary": "상품 및 서비스 부문의 국가 국제 무역 적자는 수출이 감소하고 수입이 증가함에 따라 6월(개정)의 712억 달러에서 7월 886억 달러로 증가했습니다. 2026년 7월: 24.4° % 변화 2026년 6월(r): -6.0° % 변화"
-        },
-        "de": {
-          "title": "Internationaler Handel der USA mit Waren und Dienstleistungen",
-          "summary": "Das internationale Handelsdefizit des Landes bei Waren und Dienstleistungen stieg im Juli von 71,2 Milliarden US-Dollar im Juni (revidiert) auf 88,6 Milliarden US-Dollar, da die Exporte zurückgingen und die Importe zunahmen. Juli 2026: 24,4° % Veränderung Juni 2026 (r): -6,0° % Veränderung"
-        },
-        "fr": {
-          "title": "Commerce international des biens et services des États-Unis",
-          "summary": "Le déficit du commerce international des biens et services du pays a augmenté pour atteindre 88,6 milliards de dollars en juillet, contre 71,2 milliards de dollars en juin (révisé), alors que les exportations ont diminué et les importations ont augmenté. Juillet 2026 : 24,4° % Variation Juin 2026 (r) : -6,0° % Variation"
         }
       }
     },
