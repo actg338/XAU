@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-10-07T17:55:31.747887+00:00",
+  "fetched_at": "2026-10-07T18:21:11.984695+00:00",
   "total": 117,
   "items": [
+    {
+      "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
+      "summary": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
+      "published_at": "Wed, 7 Oct 2026 18:00:00 GMT",
+      "source": "fed_policy",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "ccc0eec93d0ab8e713f91381ae05cdbe53fc0771f1f6ba283ced8b732273bf5d",
+      "translations": {
+        "zh-CN": {
+          "title": "联邦公开市场委员会会议纪要，2026 年 9 月 15 日至 16 日",
+          "summary": "联邦公开市场委员会会议纪要，2026 年 9 月 15 日至 16 日"
+        },
+        "ja": {
+          "title": "連邦公開市場委員会の議事録、2026 年 9 月 15 ～ 16 日",
+          "summary": "連邦公開市場委員会の議事録、2026 年 9 月 15 ～ 16 日"
+        },
+        "zh-TW": {
+          "title": "聯邦公開市場委員會會議紀要，2026 年 9 月 15 日至 16 日",
+          "summary": "聯邦公開市場委員會會議紀要，2026 年 9 月 15 日至 16 日"
+        },
+        "ko": {
+          "title": "연방공개시장위원회 회의록, 2026년 9월 15~16일",
+          "summary": "연방공개시장위원회 회의록, 2026년 9월 15~16일"
+        },
+        "de": {
+          "title": "Protokoll des Federal Open Market Committee, 15.–16. September 2026",
+          "summary": "Protokoll des Federal Open Market Committee, 15.–16. September 2026"
+        },
+        "fr": {
+          "title": "Procès-verbal du Comité fédéral de l'open market, 15-16 septembre 2026",
+          "summary": "Procès-verbal du Comité fédéral de l'open market, 15-16 septembre 2026"
+        }
+      }
+    },
     {
       "title": "Bowman, Modernizing the Regulatory and Supervisory Landscape",
       "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261006a.htm",
@@ -1033,7 +1071,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1071,7 +1109,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1387,7 +1425,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1865,18 +1903,6 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "fc4f5f95b252fcdfbe5bf99014f8e166acae76a60954c923faaa06e3ba82ad29"
-    },
-    {
-      "title": "Minutes of the Federal Open Market Committee, March 17–18, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260408a.htm",
-      "summary": "Minutes of the Federal Open Market Committee, March 17–18, 2026",
-      "published_at": "Wed, 8 Apr 2026 18:00:00 GMT",
-      "source": "fed_policy",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "efb617292e669e49e8313fdad791dfc871482bec6092eb3b8e4444ae64167806"
     },
     {
       "title": "Payroll employment increases by 178,000 in March; unemployment rate changes little at 4.3%",
