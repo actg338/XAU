@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "score": -29,
+  "score": -30,
   "direction": "bearish",
   "label_key": "mild_bearish",
   "signal": "mild_bearish",
@@ -13,7 +13,7 @@
       "direction": "neutral",
       "value": "NEUTRAL",
       "reason_key": "warsh_neutral",
-      "updated_at": "2026-10-07T19:32:43.367241+00:00"
+      "updated_at": "2026-10-07T19:44:37.825218+00:00"
     },
     {
       "key": "fedwatch",
@@ -21,15 +21,15 @@
       "direction": "bearish",
       "value": "cut 0.0% / hike 17.2%",
       "reason_key": "fedwatch_path",
-      "updated_at": "2026-10-07T19:32:45.227255+00:00"
+      "updated_at": "2026-10-07T19:44:39.782642+00:00"
     },
     {
       "key": "xau",
-      "score": -16,
+      "score": -17,
       "direction": "bearish",
-      "value": "-1.37%",
+      "value": "-1.43%",
       "reason_key": "xau_momentum",
-      "updated_at": "2026-10-07T19:32:41.469434+00:00"
+      "updated_at": "2026-10-07T19:44:35.869348+00:00"
     },
     {
       "key": "dxy",
@@ -37,7 +37,7 @@
       "direction": "bearish",
       "value": "+0.42%",
       "reason_key": "dxy_momentum",
-      "updated_at": "2026-10-07T19:32:41.661210+00:00"
+      "updated_at": "2026-10-07T19:44:36.105664+00:00"
     }
   ],
   "supporting": [
@@ -53,5 +53,5 @@
     "xau_momentum",
     "dxy_momentum"
   ],
-  "generated_at": "2026-10-07T19:32:54.818821+00:00"
+  "generated_at": "2026-10-07T19:44:48.514402+00:00"
 }
