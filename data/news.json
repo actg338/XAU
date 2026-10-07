@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-07T10:21:23.258552+00:00",
+  "fetched_at": "2026-10-07T10:35:48.503831+00:00",
   "total": 117,
   "items": [
     {
@@ -421,44 +421,6 @@
       }
     },
     {
-      "title": "Construction Spending",
-      "link": "https://www.census.gov/construction/c30/c30index.html",
-      "summary": "Total construction spending for August 2026 ($2,203.1 billion) was 0.9 percent (+/- 1.0 percent)* above the revised July 2026 ($2,184.5 billion) estimate. August 2026: 0.9* % Change July 2026 (r): -0.1* % Change",
-      "published_at": "Thu, 01 Oct 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "455e0e15cc435a1ae51b022b95ecaeffdf54c82e88e7aa71a4132f25286ce4c9",
-      "translations": {
-        "ja": {
-          "title": "建設支出",
-          "summary": "2026 年 8 月の総建設支出 (2 兆 2,031 億ドル) は、2026 年 7 月の修正予測 (2 兆 1,845 億ドル) を 0.9 パーセント (+/- 1.0 パーセント)*上回りました。 2026 年 8 月: 0.9* % 変化 2026 年 7 月 (r): -0.1* % 変化"
-        },
-        "zh-CN": {
-          "title": "建筑开支",
-          "summary": "2026 年 8 月的总建筑支出（22,031 亿美元）比 2026 年 7 月修订后的估计值（21,845 亿美元）高出 0.9%（+/- 1.0%）*。 2026 年 8 月：0.9* 变化百分比 2026 年 7 月 (r)：-0.1* 变化百分比"
-        },
-        "ko": {
-          "title": "건설비",
-          "summary": "2026년 8월 총 건설 지출(2조 2,031억 달러)은 수정된 2026년 7월 추정치(2조 1,845억 달러)보다 0.9%(+/- 1.0%)* 높았습니다. 2026년 8월: 0.9* % 변동 2026년 7월(r): -0.1* % 변동"
-        },
-        "zh-TW": {
-          "title": "建築開支",
-          "summary": "2026 年 8 月的總建築支出（22,031 億美元）比 2026 年 7 月修訂後的估計值（21,845 億美元）高出 0.9%（+/- 1.0%）*。 2026 年 8 月：0.9* 變化百分比 2026 年 7 月 (r)：-0.1* 變化百分比"
-        },
-        "de": {
-          "title": "Bauausgaben",
-          "summary": "Die Gesamtbauausgaben für August 2026 (2.203,1 Milliarden US-Dollar) lagen 0,9 Prozent (+/- 1,0 Prozent)* über der revidierten Schätzung vom Juli 2026 (2.184,5 Milliarden US-Dollar). August 2026: 0,9* % Veränderung Juli 2026 (r): -0,1* % Veränderung"
-        },
-        "fr": {
-          "title": "Dépenses de construction",
-          "summary": "Les dépenses totales de construction pour août 2026 (2 203,1 milliards de dollars) étaient de 0,9 % (+/- 1,0 %)* supérieures à l'estimation révisée de juillet 2026 (2 184,5 milliards de dollars). Août 2026 : 0,9* % de variation Juillet 2026 (r) : -0,1* % de variation"
-        }
-      }
-    },
-    {
       "title": "Waller, The Data Version of Godzilla versus Kong: FRED Takes on AI",
       "link": "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm",
       "summary": "Speech At \"Navigating Trust, AI and Storytelling in a World of Data,\" FRED Con 2026, Federal Reserve Bank of St. Louis, St. Louis, Missouri",
@@ -493,6 +455,44 @@
         "fr": {
           "title": "Waller, La version données de Godzilla contre Kong : FRED s'attaque à l'IA",
           "summary": "Discours prononcé lors de l'événement « Navigating Trust, AI and Storytelling in a World of Data », FRED Con 2026, Federal Reserve Bank of St. Louis, St. Louis, Missouri"
+        }
+      }
+    },
+    {
+      "title": "Construction Spending",
+      "link": "https://www.census.gov/construction/c30/c30index.html",
+      "summary": "Total construction spending for August 2026 ($2,203.1 billion) was 0.9 percent (+/- 1.0 percent)* above the revised July 2026 ($2,184.5 billion) estimate. August 2026: 0.9* % Change July 2026 (r): -0.1* % Change",
+      "published_at": "Thu, 01 Oct 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "455e0e15cc435a1ae51b022b95ecaeffdf54c82e88e7aa71a4132f25286ce4c9",
+      "translations": {
+        "ja": {
+          "title": "建設支出",
+          "summary": "2026 年 8 月の総建設支出 (2 兆 2,031 億ドル) は、2026 年 7 月の修正予測 (2 兆 1,845 億ドル) を 0.9 パーセント (+/- 1.0 パーセント)*上回りました。 2026 年 8 月: 0.9* % 変化 2026 年 7 月 (r): -0.1* % 変化"
+        },
+        "zh-CN": {
+          "title": "建筑开支",
+          "summary": "2026 年 8 月的总建筑支出（22,031 亿美元）比 2026 年 7 月修订后的估计值（21,845 亿美元）高出 0.9%（+/- 1.0%）*。 2026 年 8 月：0.9* 变化百分比 2026 年 7 月 (r)：-0.1* 变化百分比"
+        },
+        "ko": {
+          "title": "건설비",
+          "summary": "2026년 8월 총 건설 지출(2조 2,031억 달러)은 수정된 2026년 7월 추정치(2조 1,845억 달러)보다 0.9%(+/- 1.0%)* 높았습니다. 2026년 8월: 0.9* % 변동 2026년 7월(r): -0.1* % 변동"
+        },
+        "zh-TW": {
+          "title": "建築開支",
+          "summary": "2026 年 8 月的總建築支出（22,031 億美元）比 2026 年 7 月修訂後的估計值（21,845 億美元）高出 0.9%（+/- 1.0%）*。 2026 年 8 月：0.9* 變化百分比 2026 年 7 月 (r)：-0.1* 變化百分比"
+        },
+        "de": {
+          "title": "Bauausgaben",
+          "summary": "Die Gesamtbauausgaben für August 2026 (2.203,1 Milliarden US-Dollar) lagen 0,9 Prozent (+/- 1,0 Prozent)* über der revidierten Schätzung vom Juli 2026 (2.184,5 Milliarden US-Dollar). August 2026: 0,9* % Veränderung Juli 2026 (r): -0,1* % Veränderung"
+        },
+        "fr": {
+          "title": "Dépenses de construction",
+          "summary": "Les dépenses totales de construction pour août 2026 (2 203,1 milliards de dollars) étaient de 0,9 % (+/- 1,0 %)* supérieures à l'estimation révisée de juillet 2026 (2 184,5 milliards de dollars). Août 2026 : 0,9* % de variation Juillet 2026 (r) : -0,1* % de variation"
         }
       }
     },
