@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-10-07T20:08:27.402477+00:00",
-  "total": 117,
+  "fetched_at": "2026-10-07T20:28:13.464090+00:00",
+  "total": 118,
   "items": [
+    {
+      "title": "National Energy Dominance Month, 2026",
+      "link": "https://www.whitehouse.gov/presidential-actions/2026/10/national-energy-dominance-month-2026/",
+      "summary": "BY THE PRESIDENT OF THE UNITED STATES OF AMERICA A PROCLAMATION America’s abundant energy resources are the backbone of our booming economy and the foundation of our enduring prosperity. During National Energy Dominance Month, we recommit to unleashing the full might of America’s vast natural resources, strengthening our Nation’s energy independence, and ushering in a […] The post National Energy Dominance Month, 2026 appeared first on The White House .",
+      "published_at": "Wed, 07 Oct 2026 20:05:21 +0000",
+      "source": "white_house",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "2090ae093a6258de794f8c7edfbbd9136824cb7a2953e532dc39b0df0d897174",
+      "translations": {
+        "zh-CN": {
+          "title": "2026 年国家能源主导月",
+          "summary": "美利坚合众国总统公告 美国丰富的能源资源是我们蓬勃发展的经济的支柱和我们持久繁荣的基础。在国家能源主导月期间，我们再次承诺释放美国丰富自然资源的全部力量，加强我们国家的能源独立性，并迎来 [...] 2026 年国家能源主导月后首先出现在白宫。"
+        },
+        "ja": {
+          "title": "2026 年国家エネルギー優位月間",
+          "summary": "アメリカ合衆国大統領による宣言 アメリカの豊富なエネルギー資源は、急成長する経済の根幹であり、永続する繁栄の基盤です。国家エネルギー支配月間中、私たちはアメリカの膨大な天然資源を最大限に発揮し、国家のエネルギー自立を強化し、[…]ポスト国家エネルギー支配月間、2026 年が最初にホワイトハウスに掲載されました。"
+        },
+        "de": {
+          "title": "Nationaler Monat der Energiedominanz, 2026",
+          "summary": "VOM PRÄSIDENT DER VEREINIGTEN STAATEN VON AMERIKA EINE PROKLAMATION Amerikas reichlich vorhandene Energieressourcen sind das Rückgrat unserer boomenden Wirtschaft und die Grundlage unseres dauerhaften Wohlstands. Während des National Energy Dominance Month verpflichten wir uns erneut, die volle Macht der riesigen natürlichen Ressourcen Amerikas freizusetzen, die Energieunabhängigkeit unserer Nation zu stärken und eine […] einzuleiten. Der Beitrag „National Energy Dominance Month 2026“ erschien zuerst im Weißen Haus."
+        },
+        "zh-TW": {
+          "title": "2026 年国家能源主导月",
+          "summary": "美利坚合众国总统公告 美国丰富的能源资源是我们蓬勃发展的经济的支柱和我们持久繁荣的基础。在國家能源主導月期間，我們再次承諾釋放美國豐富自然資源的全部力量，加強我們國家的能源獨立性，並迎來 [...] 2026 年國家能源主導月後首先出現在白宮。"
+        },
+        "ko": {
+          "title": "2026년 국가 에너지 지배의 달",
+          "summary": "미국 대통령 선언문 미국의 풍부한 에너지 자원은 우리 경제 호황의 중추이자 지속적인 번영의 기초입니다. 국가 에너지 지배의 달(National Energy Dominance Month) 동안 우리는 미국의 광대한 천연 자원을 최대한 활용하고, 국가의 에너지 독립을 강화하며, […"
+        },
+        "fr": {
+          "title": "Mois national de la domination énergétique, 2026",
+          "summary": "DU PRÉSIDENT DES ÉTATS-UNIS D’AMÉRIQUE UNE PROCLAMATION Les abondantes ressources énergétiques de l’Amérique sont l’épine dorsale de notre économie en plein essor et le fondement de notre prospérité durable. Au cours du Mois de la domination énergétique nationale, nous nous engageons à nouveau à libérer toute la puissance des vastes ressources naturelles de l’Amérique, à renforcer l’indépendance énergétique de notre nation et à inaugurer un […] L’après Mois de la domination énergétique nationale, 2026, est apparu en premier sur la Maison Blanche."
+        }
+      }
+    },
     {
       "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
@@ -2119,18 +2157,6 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
-    },
-    {
-      "title": "PPI for final demand advances 0.3% in September; goods rise 0.9%, services unchanged",
-      "link": "https://www.bls.gov/news.release/archives/ppi_11252025.htm",
-      "summary": "",
-      "published_at": "2025-11-25T08:30:00-05:00",
-      "source": "bls_ppi",
-      "category": "inflation",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "4580557ddb6ea1d4834c1b15c41a3149ef83d749f8ae34cb0c4cceec56f369f8"
     }
   ]
 }
