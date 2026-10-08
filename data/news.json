@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-10-08T13:58:35.596797+00:00",
+  "fetched_at": "2026-10-08T14:24:23.201281+00:00",
   "total": 118,
   "items": [
+    {
+      "title": "Monthly Wholesale Trade: Sales and Inventories",
+      "link": "https://www.census.gov/wholesale/index.html",
+      "summary": "August 2026 sales of merchant wholesalers were $817.5 billion, up 1.8 percent (+/- 0.2 percent) from last month. End-of-month inventories were $964.2 billion, up 0.5 percent (+/- 0.2 percent) from last month. August 2026: +0.5 % Change in Inventories July 2026 (r): +1.4 % Change in Inventories",
+      "published_at": "Thu, 08 Oct 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "trade",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "trade_neutral",
+      "_translation_hash": "7c72da31854c2ded39aa9bf8071544302fb2ca42521f7a0cfafbcebe21441cb0",
+      "translations": {
+        "zh-CN": {
+          "title": "月度批发贸易：销售和库存",
+          "summary": "2026 年 8 月商业批发商的销售额为 8,175 亿美元，比上个月增长 1.8%（+/- 0.2%）。月末库存为 9,642 亿美元，较上月增长 0.5%（+/- 0.2%）。 2026 年 8 月：库存变化 +0.5% 2026 年 7 月 (r)：库存变化 +1.4%"
+        },
+        "ja": {
+          "title": "月次卸売業の売上高と在庫状況",
+          "summary": "2026 年 8 月の商業卸売業者の売上高は 8,175 億ドルで、前月比 1.8% (+/- 0.2%) 増加しました。月末の在庫は9,642億ドルで、前月比0.5％（±0.2％）増加した。 2026年8月: +0.5 % 在庫変動 2026年7月(r): +1.4 % 在庫変動"
+        },
+        "zh-TW": {
+          "title": "月度批發貿易：銷售和庫存",
+          "summary": "2026 年 8 月商業批發商的銷售額為 8,175 億美元，比上個月成長 1.8%（+/- 0.2%）。月末庫存為 9,642 億美元，比上月增長 0.5%（+/- 0.2%）。 2026 年 8 月：庫存變化 +0.5% 2026 年 7 月 (r)：庫存變化 +1.4%"
+        },
+        "ko": {
+          "title": "월별 도매 거래: 판매 및 재고",
+          "summary": "2026년 8월 도매상 매출은 8,175억 달러로 전월 대비 1.8%(+/-0.2%) 증가했습니다. 월말 재고자산은 9,642억 달러로 전월 대비 0.5%(+/-0.2%) 증가했다. 2026년 8월: 재고 변동 +0.5% 2026년 7월(r): 재고 변동 +1.4%"
+        },
+        "de": {
+          "title": "Monatlicher Großhandel: Verkäufe und Lagerbestände",
+          "summary": "Der Umsatz der Handelsgroßhändler belief sich im August 2026 auf 817,5 Milliarden US-Dollar, ein Plus von 1,8 Prozent (+/- 0,2 Prozent) gegenüber dem Vormonat. Die Lagerbestände zum Monatsende beliefen sich auf 964,2 Milliarden US-Dollar, ein Plus von 0,5 Prozent (+/- 0,2 Prozent) gegenüber dem Vormonat. August 2026: +0,5 % Bestandsveränderung Juli 2026 (r): +1,4 % Bestandsveränderung"
+        },
+        "fr": {
+          "title": "Commerce de gros mensuel : ventes et stocks",
+          "summary": "Les ventes des grossistes marchands en août 2026 s'élevaient à 817,5 milliards de dollars, en hausse de 1,8 % (+/- 0,2 %) par rapport au mois dernier. Les stocks de fin de mois s'élevaient à 964,2 milliards de dollars, en hausse de 0,5 pour cent (+/- 0,2 pour cent) par rapport au mois dernier. Août 2026 : +0,5 % Variation des Stocks Juillet 2026 (r) : +1,4 % Variation des Stocks"
+        }
+      }
+    },
     {
       "title": "Waller, The Signaling Value of the Summary of Economic Projections",
       "link": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm",
@@ -1329,44 +1367,6 @@
         "fr": {
           "title": "Statistiques sur la création d'entreprises",
           "summary": "Le nombre total d'applications commerciales aux États-Unis était de 531 728 en août 2026, en baisse de 7,8 % par rapport à juillet 2026. Août 2026 : -7,8° % de variation Juillet 2026 (d) : +8,1° % de variation"
-        }
-      }
-    },
-    {
-      "title": "Monthly Wholesale Trade: Sales and Inventories",
-      "link": "https://www.census.gov/wholesale/index.html",
-      "summary": "July 2026 sales of merchant wholesalers were $801.3 billion, up 0.8 percent (+/- 0.4 percent) from last month. End-of-month inventories were $958.9 billion, up 1.3 percent (+/- 0.2 percent) from last month. July 2026: +1.3 % Change in Inventories June 2026 (r): +0.4 % Change in Inventories",
-      "published_at": "Thu, 10 Sep 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "trade",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "172505caf23a5b51af0aaed6b490e9805752fd4621cce879a75a2520b7eb49a4",
-      "translations": {
-        "zh-CN": {
-          "title": "月度批发贸易：销售和库存",
-          "summary": "2026 年 7 月商业批发商销售额为 8013 亿美元，比上月增长 0.8%（+/- 0.4%）。月末库存为 9,589 亿美元，较上月增长 1.3%（+/- 0.2%）。 2026 年 7 月：库存变化 +1.3% 2026 年 6 月 (r)：库存变化 +0.4%"
-        },
-        "zh-TW": {
-          "title": "月度批發貿易：銷售和庫存",
-          "summary": "2026 年 7 月商業批發商銷售額為 8,013 億美元，較上月成長 0.8%（+/- 0.4%）。月末庫存為 9,589 億美元，較上月增長 1.3%（+/- 0.2%）。 2026 年 7 月：庫存變化 +1.3% 2026 年 6 月 (r)：庫存變化 +0.4%"
-        },
-        "ja": {
-          "title": "月次卸売業の売上と在庫",
-          "summary": "2026年7月の商業卸売業者の売上高は8,013億ドルで、前月比0.8%(+/-0.4%)増加しました。月末在庫は9,589億ドルで、前月比1.3％（±0.2％）増加した。 2026年7月: +1.3 % 在庫変動 2026年6月(r): +0.4 % 在庫変動"
-        },
-        "ko": {
-          "title": "월별 도매 거래: 판매 및 재고",
-          "summary": "2026년 7월 종합도매상 매출은 8,013억 달러로 전월 대비 0.8%(+/-0.4%) 증가했다. 월말 재고자산은 9,589억 달러로 전월 대비 1.3%(+/-0.2%) 증가했다. 2026년 7월: 재고 변동 +1.3% 2026년 6월(r): 재고 변동 +0.4%"
-        },
-        "de": {
-          "title": "Monatlicher Großhandel: Verkäufe und Lagerbestände",
-          "summary": "Der Umsatz der Handelsgroßhändler belief sich im Juli 2026 auf 801,3 Milliarden US-Dollar, ein Plus von 0,8 Prozent (+/- 0,4 Prozent) gegenüber dem Vormonat. Die Lagerbestände zum Monatsende beliefen sich auf 958,9 Milliarden US-Dollar, ein Plus von 1,3 Prozent (+/- 0,2 Prozent) gegenüber dem Vormonat. Juli 2026: +1,3 % Bestandsveränderung Juni 2026 (r): +0,4 % Bestandsveränderung"
-        },
-        "fr": {
-          "title": "Commerce de gros mensuel : ventes et stocks",
-          "summary": "En juillet 2026, les ventes des grossistes marchands s'élevaient à 801,3 milliards de dollars, en hausse de 0,8 % (+/- 0,4 %) par rapport au mois dernier. Les stocks de fin de mois s'élevaient à 958,9 milliards de dollars, en hausse de 1,3 pour cent (+/- 0,2 pour cent) par rapport au mois dernier. Juillet 2026 : +1,3 % Variation des Stocks Juin 2026 (r) : +0,4 % Variation des Stocks"
         }
       }
     },
