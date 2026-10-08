@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-10-08T08:17:23.748294+00:00",
+  "fetched_at": "2026-10-08T08:43:59.816060+00:00",
   "total": 118,
   "items": [
+    {
+      "title": "Waller, The Signaling Value of the Summary of Economic Projections",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm",
+      "summary": "Speech At the Istanbul Economic Forum, Central Bank of the Republic of Türkiye, Istanbul, Türkiye",
+      "published_at": "Thu, 8 Oct 2026 08:30:00 GMT",
+      "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "f4f2f37f6d6e1a1f42ede10aadd01ea9a703c6f10d7076c703a3250fc2d10a62",
+      "translations": {
+        "zh-CN": {
+          "title": "沃勒，经济预测摘要的信号价值",
+          "summary": "在土耳其共和国中央银行伊斯坦布尔经济论坛上的演讲，土耳其伊斯坦布尔"
+        },
+        "ja": {
+          "title": "ウォーラー、経済予測の概要が示す価値",
+          "summary": "トゥルキエ共和国イスタンブール中央銀行イスタンブール経済フォーラムでのスピーチ"
+        },
+        "zh-TW": {
+          "title": "沃勒，经济预测摘要的信号价值",
+          "summary": "在土耳其共和國中央銀行伊斯坦堡經濟論壇上的演講，土耳其伊斯坦堡"
+        },
+        "ko": {
+          "title": "Waller, 경제 전망 요약의 신호 가치",
+          "summary": "터키 이스탄불 중앙은행, 이스탄불 경제 포럼에서 연설"
+        },
+        "de": {
+          "title": "Waller, Der Signalwert der Zusammenfassung der Wirtschaftsprognosen",
+          "summary": "Rede beim Istanbul Economic Forum, Zentralbank der Republik Türkiye, Istanbul, Türkiye"
+        },
+        "fr": {
+          "title": "Waller, La valeur signalétique du résumé des projections économiques",
+          "summary": "Discours au Forum économique d'Istanbul, Banque centrale de la République de Turquie, Istanbul, Turquie"
+        }
+      }
+    },
     {
       "title": "National Energy Dominance Month, 2026",
       "link": "https://www.whitehouse.gov/presidential-actions/2026/10/national-energy-dominance-month-2026/",
@@ -991,44 +1029,6 @@
       }
     },
     {
-      "title": "Bowman, Initial Findings from Independent Review of Silicon Valley Bank",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260918b.htm",
-      "summary": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom",
-      "published_at": "Fri, 18 Sep 2026 13:30:00 GMT",
-      "source": "fed_remarks",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "14fa4748585cd9be9b32cb0135d16b48dd5db7cbeed4e3fe2d2ee2766ec9be77",
-      "translations": {
-        "ja": {
-          "title": "ボウマン、シリコンバレー銀行の独立したレビューからの最初の調査結果",
-          "summary": "英国ロンドンのマンションハウスでのロンドン市長の昼食会でのスピーチ"
-        },
-        "zh-CN": {
-          "title": "鲍曼，硅谷银行独立审查的初步调查结果",
-          "summary": "在英国伦敦 Mansion House 伦敦市市长午餐会上的讲话"
-        },
-        "zh-TW": {
-          "title": "鮑曼，矽谷銀行獨立審查的初步調查結果",
-          "summary": "在英國倫敦 Mansion House 倫敦市長午餐會上的講話"
-        },
-        "ko": {
-          "title": "Bowman, Silicon Valley Bank의 독립 검토에서 얻은 초기 조사 결과",
-          "summary": "영국 런던 맨션 하우스에서 열린 런던 시장 오찬 연설"
-        },
-        "de": {
-          "title": "Bowman, erste Ergebnisse einer unabhängigen Überprüfung der Silicon Valley Bank",
-          "summary": "Rede beim Mittagessen des Oberbürgermeisters der Stadt London im Mansion House, London, Vereinigtes Königreich"
-        },
-        "fr": {
-          "title": "Bowman, premières conclusions de l'examen indépendant de la Silicon Valley Bank",
-          "summary": "Discours lors du déjeuner du lord-maire de la ville de Londres à Mansion House, Londres, Royaume-Uni"
-        }
-      }
-    },
-    {
       "title": "Bowman, The Final Chapter on Modernizing Bank Regulatory Stress Testing",
       "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260918a.htm",
       "summary": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom",
@@ -1062,6 +1062,44 @@
         },
         "fr": {
           "title": "Bowman, Le dernier chapitre sur la modernisation des tests de résistance réglementaires bancaires",
+          "summary": "Discours lors du déjeuner du lord-maire de la ville de Londres à Mansion House, Londres, Royaume-Uni"
+        }
+      }
+    },
+    {
+      "title": "Bowman, Initial Findings from Independent Review of Silicon Valley Bank",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260918b.htm",
+      "summary": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom",
+      "published_at": "Fri, 18 Sep 2026 13:30:00 GMT",
+      "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "14fa4748585cd9be9b32cb0135d16b48dd5db7cbeed4e3fe2d2ee2766ec9be77",
+      "translations": {
+        "ja": {
+          "title": "ボウマン、シリコンバレー銀行の独立したレビューからの最初の調査結果",
+          "summary": "英国ロンドンのマンションハウスでのロンドン市長の昼食会でのスピーチ"
+        },
+        "zh-CN": {
+          "title": "鲍曼，硅谷银行独立审查的初步调查结果",
+          "summary": "在英国伦敦 Mansion House 伦敦市市长午餐会上的讲话"
+        },
+        "zh-TW": {
+          "title": "鮑曼，矽谷銀行獨立審查的初步調查結果",
+          "summary": "在英國倫敦 Mansion House 倫敦市長午餐會上的講話"
+        },
+        "ko": {
+          "title": "Bowman, Silicon Valley Bank의 독립 검토에서 얻은 초기 조사 결과",
+          "summary": "영국 런던 맨션 하우스에서 열린 런던 시장 오찬 연설"
+        },
+        "de": {
+          "title": "Bowman, erste Ergebnisse einer unabhängigen Überprüfung der Silicon Valley Bank",
+          "summary": "Rede beim Mittagessen des Oberbürgermeisters der Stadt London im Mansion House, London, Vereinigtes Königreich"
+        },
+        "fr": {
+          "title": "Bowman, premières conclusions de l'examen indépendant de la Silicon Valley Bank",
           "summary": "Discours lors du déjeuner du lord-maire de la ville de Londres à Mansion House, Londres, Royaume-Uni"
         }
       }
@@ -1109,7 +1147,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1147,7 +1185,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1421,49 +1459,11 @@
       }
     },
     {
-      "title": "Barr, Unlocking Opportunities for Workers and Entrepreneurs with a Criminal Record",
-      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260901a.htm",
-      "summary": "Speech At the Second-Chance Lending Forum, Developing Evidence-Based Policy on Creditworthiness and Criminal History, Washington, D.C.",
-      "published_at": "Tue, 1 Sep 2026 13:05:00 GMT",
-      "source": "fed_remarks",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "68985db5839d129968fdda73d3700a3a877b7ec1ca977cfa3c1ac2bdffeb28e1",
-      "translations": {
-        "zh-CN": {
-          "title": "巴尔，为有犯罪记录的工人和企业家释放机会",
-          "summary": "在第二次贷款论坛上的演讲，制定关于信用度和犯罪历史的循证政策，华盛顿特区"
-        },
-        "ja": {
-          "title": "バー氏、犯罪歴のある労働者や起業家にチャンスを与える",
-          "summary": "ワシントンD.C.で開催されたセカンドチャンス融資フォーラムでのスピーチ、信用力と犯罪歴に関する証拠に基づく政策の開発"
-        },
-        "zh-TW": {
-          "title": "巴爾，為有犯罪記錄的工人和企業家釋放機會",
-          "summary": "在第二次貸款論壇上的演講，制定關於信用度和犯罪歷史的循證政策，華盛頓特區"
-        },
-        "ko": {
-          "title": "Barr, 범죄 기록이 있는 근로자 및 기업가에게 기회 제공",
-          "summary": "두 번째 기회 대출 포럼에서 연설, 신용도 및 범죄 이력에 대한 증거 기반 정책 개발, 워싱턴 D.C."
-        },
-        "de": {
-          "title": "Barr, Erschließung von Chancen für Arbeitnehmer und Unternehmer mit Vorstrafen",
-          "summary": "Rede beim Second-Chance Lending Forum, Entwicklung einer evidenzbasierten Politik zu Kreditwürdigkeit und Kriminalgeschichte, Washington, D.C."
-        },
-        "fr": {
-          "title": "Barr, Ouvrir des opportunités aux travailleurs et aux entrepreneurs ayant un casier judiciaire",
-          "summary": "Discours prononcé lors du Second-Chance Lending Forum, Developing Evidence-Based Policy on Creditworthiness and Criminal History, Washington, D.C."
-        }
-      }
-    },
-    {
       "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
       "summary": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
       "published_at": "Tue, 25 Aug 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
