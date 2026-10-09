@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-09T16:53:14.896050+00:00",
+  "fetched_at": "2026-10-09T17:04:32.716165+00:00",
   "total": 118,
   "items": [
     {
@@ -1185,7 +1185,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1223,7 +1223,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
