@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-10-09T08:46:03.742833+00:00",
-  "direction": "bullish",
-  "label_key": "mild_bullish",
+  "generated_at": "2026-10-09T09:01:09.705928+00:00",
+  "direction": "neutral",
+  "label_key": "balanced",
   "confidence": 76,
-  "score": 12,
+  "score": 10,
   "drivers": [
-    "xau",
-    "dxy"
+    "warsh"
   ],
   "counter_risks": [
-    "fedwatch"
+    "fedwatch",
+    "xau",
+    "dxy"
   ],
   "top_news": [
     {
