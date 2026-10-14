@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-10-14T13:55:40.814804+00:00",
+  "fetched_at": "2026-10-14T14:16:52.096381+00:00",
   "total": 114,
   "items": [
+    {
+      "title": "Business Formation Statistics",
+      "link": "https://www.census.gov/econ/bfs/",
+      "summary": "Total U.S. Business Applications were 534,947 in September 2026, up 0.5% from August 2026. September 2026: +0.5° % Change August 2026 (r): -7.7° % Change",
+      "published_at": "Wed, 14 Oct 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "ce8b2fe47e2d02b0c2dd6439f5785a032f7edfbc1320a0bb84e5c616bebd9940",
+      "translations": {
+        "zh-CN": {
+          "title": "企业组建统计",
+          "summary": "2026 年 9 月美国商业申请总数为 534,947 份，较 2026 年 8 月增长 0.5%。 2026 年 9 月：+0.5° 变化百分比 2026 年 8 月 (r)：-7.7° 变化百分比"
+        },
+        "ja": {
+          "title": "企業形成統計",
+          "summary": "2026 年 9 月の米国ビジネスアプリケーションの合計は 534,947 件で、2026 年 8 月から 0.5% 増加しました。 2026 年 9 月: +0.5° % 変化 2026 年 8 月 (r): -7.7° % 変化"
+        },
+        "zh-TW": {
+          "title": "企業組成統計",
+          "summary": "2026 年 9 月美國商業申請總數為 534,947 份，較 2026 年 8 月成長 0.5%。 2026 年 9 月：+0.5° 變化百分比 2026 年 8 月 (r)：-7.7° 變化百分比"
+        },
+        "ko": {
+          "title": "사업형성통계",
+          "summary": "2026년 9월 미국 비즈니스 신청 건수는 534,947건으로 2026년 8월보다 0.5% 증가했습니다. 2026년 9월: +0.5° % 변화 2026년 8월(r): -7.7° % 변화"
+        },
+        "de": {
+          "title": "Statistik der Unternehmensgründung",
+          "summary": "Die Gesamtzahl der Geschäftsanträge in den USA belief sich im September 2026 auf 534.947, ein Anstieg von 0,5 % gegenüber August 2026. September 2026: +0,5° % Veränderung. August 2026 (r): -7,7° % Veränderung"
+        },
+        "fr": {
+          "title": "Statistiques sur la création d'entreprises",
+          "summary": "Le nombre total d'applications commerciales aux États-Unis s'élevait à 534 947 en septembre 2026, en hausse de 0,5 % par rapport à août 2026. Septembre 2026 : +0,5° % de variation Août 2026 (r) : -7,7° % de variation"
+        }
+      }
+    },
     {
       "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
@@ -1215,44 +1253,6 @@
         "fr": {
           "title": "Avancer les ventes mensuelles pour le commerce de détail et les services alimentaires",
           "summary": "Les ventes du commerce de détail et des services alimentaires aux États-Unis pour août 2026 se sont élevées à 773,9 milliards de dollars, en hausse de 1,2 % (+/-0,4 %) par rapport au mois précédent. Août 2026 : +1,2 % Variation Juillet 2026 (r) : -0,5 % Variation"
-        }
-      }
-    },
-    {
-      "title": "Business Formation Statistics",
-      "link": "https://www.census.gov/econ/bfs/",
-      "summary": "Total U.S. Business Applications were 531,728 in August 2026, down 7.8% from July 2026. August 2026: -7.8° % Change July 2026 (r): +8.1° % Change",
-      "published_at": "Fri, 11 Sep 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "d98fbfc6bcf77244e45ed2b275fbd3af530dcbc3010b0ad4f92cfa173aec5915",
-      "translations": {
-        "zh-CN": {
-          "title": "企业组建统计",
-          "summary": "2026 年 8 月美国商业申请总数为 531,728 件，比 2026 年 7 月下降 7.8%。 2026 年 8 月：-7.8° 变化百分比 2026 年 7 月 (r)：+8.1° 变化百分比"
-        },
-        "zh-TW": {
-          "title": "企業組成統計",
-          "summary": "2026 年 8 月美國商業申請總數為 531,728 件，較 2026 年 7 月下降 7.8%。 2026 年 8 月：-7.8° 變化百分比 2026 年 7 月 (r)：+8.1° 變化百分比"
-        },
-        "ja": {
-          "title": "企業形成統計",
-          "summary": "2026 年 8 月の米国ビジネスアプリケーションの総数は 531,728 件で、2026 年 7 月から 7.8% 減少しました。 2026 年 8 月: -7.8° % 変化 2026 年 7 月 (r): +8.1° % 変化"
-        },
-        "ko": {
-          "title": "사업형성통계",
-          "summary": "2026년 8월 미국 비즈니스 신청 건수는 531,728건으로 2026년 7월 대비 7.8% 감소했습니다. 2026년 8월: -7.8° % 변화 2026년 7월(r): +8.1° % 변화"
-        },
-        "de": {
-          "title": "Statistik der Unternehmensgründung",
-          "summary": "Die Gesamtzahl der Geschäftsanträge in den USA belief sich im August 2026 auf 531.728, ein Rückgang von 7,8 % gegenüber Juli 2026. August 2026: -7,8° % Veränderung. Juli 2026 (r): +8,1° % Veränderung"
-        },
-        "fr": {
-          "title": "Statistiques sur la création d'entreprises",
-          "summary": "Le nombre total d'applications commerciales aux États-Unis était de 531 728 en août 2026, en baisse de 7,8 % par rapport à juillet 2026. Août 2026 : -7,8° % de variation Juillet 2026 (d) : +8,1° % de variation"
         }
       }
     },
