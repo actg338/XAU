@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-15T12:03:41.955259+00:00",
+  "generated_at": "2026-10-15T12:33:36.251623+00:00",
   "direction": "neutral",
   "label_key": "balanced",
-  "confidence": 76,
-  "score": 10,
+  "confidence": 75,
+  "score": 5,
   "drivers": [
     "warsh"
   ],
@@ -33,10 +33,10 @@
     }
   ],
   "next_event": {
-    "event_key": "ppi",
-    "title": "Producer Price Index",
-    "starts_at": "2026-10-15T12:30:00+00:00",
-    "impact": "high",
+    "event_key": "bls_release",
+    "title": "U.S. Import and Export Price Indexes",
+    "starts_at": "2026-10-16T12:30:00+00:00",
+    "impact": "medium",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
   }

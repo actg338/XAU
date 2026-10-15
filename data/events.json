@@ -1,15 +1,7 @@
 {
-  "fetched_at": "2026-10-15T12:03:41.713849+00:00",
+  "fetched_at": "2026-10-15T12:33:36.160672+00:00",
   "timezone": "UTC",
   "events": [
-    {
-      "event_key": "ppi",
-      "title": "Producer Price Index",
-      "starts_at": "2026-10-15T12:30:00+00:00",
-      "impact": "high",
-      "source": "BLS",
-      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
-    },
     {
       "event_key": "bls_release",
       "title": "U.S. Import and Export Price Indexes",
@@ -193,6 +185,14 @@
       "impact": "high",
       "source": "CME/Federal Reserve",
       "source_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
+    },
+    {
+      "event_key": "cpi",
+      "title": "Consumer Price Index",
+      "starts_at": "2026-12-10T13:30:00+00:00",
+      "impact": "high",
+      "source": "BLS",
+      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
     }
   ]
 }
