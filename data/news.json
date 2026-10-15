@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-10-15T02:48:48.609941+00:00",
+  "fetched_at": "2026-10-15T02:57:47.654180+00:00",
   "total": 113,
   "items": [
+    {
+      "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
+      "summary": "Speech At the Bangkok Economic Festival, Reinventing Bretton Woods Committee, Bangkok, Thailand",
+      "published_at": "Thu, 15 Oct 2026 02:55:00 GMT",
+      "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "8ef64fe6487de3a524d0a208c82c7ca270edaa95e929da5aa1b69ef31544adfd",
+      "translations": {
+        "zh-CN": {
+          "title": "鲍曼，硅谷银行之后的监管现代化",
+          "summary": "在曼谷经济节上的演讲，重塑布雷顿森林委员会，泰国曼谷"
+        },
+        "ja": {
+          "title": "ボウマン氏、シリコンバレー銀行後の監督近代化",
+          "summary": "タイ、バンコクのバンコク経済フェスティバル、ブレトンウッズ再発明委員会でのスピーチ"
+        },
+        "zh-TW": {
+          "title": "鮑曼，矽谷銀行之後的監理現代化",
+          "summary": "在曼谷經濟節的演講，重塑布雷頓森林委員會，泰國曼谷"
+        },
+        "ko": {
+          "title": "Bowman, Silicon Valley Bank 이후 감독 현대화",
+          "summary": "방콕 경제 페스티벌, 브레튼 우즈 위원회 재창조, 태국 방콕에서 연설"
+        },
+        "fr": {
+          "title": "Bowman, modernisation de la surveillance après la Silicon Valley Bank",
+          "summary": "Discours au Bangkok Economic Festival, Reinventing Bretton Woods Committee, Bangkok, Thaïlande"
+        },
+        "de": {
+          "title": "Bowman, Aufsichtsmodernisierung nach der Silicon Valley Bank",
+          "summary": "Rede beim Bangkok Economic Festival, Reinventing Bretton Woods Committee, Bangkok, Thailand"
+        }
+      }
+    },
     {
       "title": "Business Formation Statistics",
       "link": "https://www.census.gov/econ/bfs/",
@@ -45,7 +83,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
       "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
       "published_at": "Tue, 13 Oct 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -953,44 +991,6 @@
       }
     },
     {
-      "title": "Bowman, The Final Chapter on Modernizing Bank Regulatory Stress Testing",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260918a.htm",
-      "summary": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom",
-      "published_at": "Fri, 18 Sep 2026 13:30:00 GMT",
-      "source": "fed_remarks",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "480e1107231a2eb38239520d6145e8f3574477c795c19321344debb8cadd3255",
-      "translations": {
-        "ja": {
-          "title": "ボウマン著『銀行規制ストレステストの近代化に関する最終章』",
-          "summary": "英国ロンドンのマンションハウスでのロンドン市長の昼食会でのスピーチ"
-        },
-        "zh-CN": {
-          "title": "鲍曼，银行监管压力测试现代化的最后一章",
-          "summary": "在英国伦敦 Mansion House 伦敦市市长午餐会上的讲话"
-        },
-        "zh-TW": {
-          "title": "鮑曼，銀行監理壓力測試現代化的最後一章",
-          "summary": "在英國倫敦 Mansion House 倫敦市長午餐會上的講話"
-        },
-        "ko": {
-          "title": "Bowman, 은행 규제 스트레스 테스트 현대화의 마지막 장",
-          "summary": "영국 런던 맨션 하우스에서 열린 런던 시장 오찬 연설"
-        },
-        "de": {
-          "title": "Bowman, Das letzte Kapitel zur Modernisierung der regulatorischen Stresstests für Banken",
-          "summary": "Rede beim Mittagessen des Oberbürgermeisters der Stadt London im Mansion House, London, Vereinigtes Königreich"
-        },
-        "fr": {
-          "title": "Bowman, Le dernier chapitre sur la modernisation des tests de résistance réglementaires bancaires",
-          "summary": "Discours lors du déjeuner du lord-maire de la ville de Londres à Mansion House, Londres, Royaume-Uni"
-        }
-      }
-    },
-    {
       "title": "Bowman, Initial Findings from Independent Review of Silicon Valley Bank",
       "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260918b.htm",
       "summary": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom",
@@ -1024,6 +1024,44 @@
         },
         "fr": {
           "title": "Bowman, premières conclusions de l'examen indépendant de la Silicon Valley Bank",
+          "summary": "Discours lors du déjeuner du lord-maire de la ville de Londres à Mansion House, Londres, Royaume-Uni"
+        }
+      }
+    },
+    {
+      "title": "Bowman, The Final Chapter on Modernizing Bank Regulatory Stress Testing",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260918a.htm",
+      "summary": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom",
+      "published_at": "Fri, 18 Sep 2026 13:30:00 GMT",
+      "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "480e1107231a2eb38239520d6145e8f3574477c795c19321344debb8cadd3255",
+      "translations": {
+        "ja": {
+          "title": "ボウマン著『銀行規制ストレステストの近代化に関する最終章』",
+          "summary": "英国ロンドンのマンションハウスでのロンドン市長の昼食会でのスピーチ"
+        },
+        "zh-CN": {
+          "title": "鲍曼，银行监管压力测试现代化的最后一章",
+          "summary": "在英国伦敦 Mansion House 伦敦市市长午餐会上的讲话"
+        },
+        "zh-TW": {
+          "title": "鮑曼，銀行監理壓力測試現代化的最後一章",
+          "summary": "在英國倫敦 Mansion House 倫敦市長午餐會上的講話"
+        },
+        "ko": {
+          "title": "Bowman, 은행 규제 스트레스 테스트 현대화의 마지막 장",
+          "summary": "영국 런던 맨션 하우스에서 열린 런던 시장 오찬 연설"
+        },
+        "de": {
+          "title": "Bowman, Das letzte Kapitel zur Modernisierung der regulatorischen Stresstests für Banken",
+          "summary": "Rede beim Mittagessen des Oberbürgermeisters der Stadt London im Mansion House, London, Vereinigtes Königreich"
+        },
+        "fr": {
+          "title": "Bowman, Le dernier chapitre sur la modernisation des tests de résistance réglementaires bancaires",
           "summary": "Discours lors du déjeuner du lord-maire de la ville de Londres à Mansion House, Londres, Royaume-Uni"
         }
       }
@@ -1071,7 +1109,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1109,7 +1147,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1267,44 +1305,6 @@
       "gold_bias": "neutral",
       "why_key": "other_neutral",
       "_translation_hash": "a9ea78155c2a20e2cd0432f27385c29a98529759872bb83ac39c2c6c943a4662"
-    },
-    {
-      "title": "Waller, The Economic Outlook and Some Comments on My Policy Communication",
-      "link": "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm",
-      "summary": "Speech At Reuters NEXT Newsmaker Interview, Washington, D.C.",
-      "published_at": "Thu, 3 Sep 2026 12:30:00 GMT",
-      "source": "fed_remarks",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "8db6f56e7f0c1113bf0927ae8461d3c6e63c77c8ff43fd9a81b587c6f4f60cd2",
-      "translations": {
-        "zh-CN": {
-          "title": "沃勒，《经济展望》以及对我的政策沟通的一些评论",
-          "summary": "在路透社 NEXT Newsmaker 采访中的演讲，华盛顿特区"
-        },
-        "ja": {
-          "title": "ウォーラー氏の経済見通しと私の政策コミュニケーションに対するコメント",
-          "summary": "ワシントンD.C.でのロイターNEXTニュースメーカーインタビューでのスピーチ"
-        },
-        "ko": {
-          "title": "Waller, 경제 전망 및 내 정책 커뮤니케이션에 대한 몇 가지 의견",
-          "summary": "Reuters NEXT Newsmaker 인터뷰에서 연설(워싱턴 D.C.)"
-        },
-        "zh-TW": {
-          "title": "沃勒，《經濟展望》以及對我的政策溝通的一些評論",
-          "summary": "在路透社 NEXT Newsmaker 採訪中的演講，華盛頓特區"
-        },
-        "de": {
-          "title": "Waller, The Economic Outlook und einige Kommentare zu meiner politischen Kommunikation",
-          "summary": "Rede beim Reuters NEXT Newsmaker-Interview, Washington, D.C."
-        },
-        "fr": {
-          "title": "Waller, Les perspectives économiques et quelques commentaires sur ma communication politique",
-          "summary": "Discours lors de l'interview de Reuters NEXT Newsmaker, Washington, D.C."
-        }
-      }
     },
     {
       "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
