@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-16T11:40:36.469535+00:00",
+  "updatedAt": "2026-10-16T11:49:40.842763+00:00",
   "treasuryDate": "2026-10-15T00:00:00",
   "us2y": 4.77,
   "us10y": 5.1,
   "real10y": 2.78,
-  "xauusd": 4177.73,
-  "dxy": 101.68,
+  "xauusd": 4176.29,
+  "dxy": 101.69,
   "source": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml",
   "note": "Treasury yields are end-of-day; XAUUSD and DXY use the latest site snapshot."
 }
