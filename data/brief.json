@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-16T11:58:15.986796+00:00",
+  "generated_at": "2026-10-16T12:30:12.046645+00:00",
   "direction": "neutral",
   "label_key": "balanced",
-  "confidence": 70,
+  "confidence": 74,
   "score": 2,
   "drivers": [
-    "warsh",
-    "xau"
+    "warsh"
   ],
   "counter_risks": [
     "fedwatch",
+    "xau",
     "dxy"
   ],
   "top_news": [
@@ -34,8 +34,8 @@
   ],
   "next_event": {
     "event_key": "bls_release",
-    "title": "U.S. Import and Export Price Indexes",
-    "starts_at": "2026-10-16T12:30:00+00:00",
+    "title": "State Employment and Unemployment (Monthly)",
+    "starts_at": "2026-10-20T14:00:00+00:00",
     "impact": "medium",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
