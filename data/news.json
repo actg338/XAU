@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-10-16T19:30:00.061800+00:00",
-  "total": 113,
+  "fetched_at": "2026-10-16T19:41:32.512035+00:00",
+  "total": 114,
   "items": [
+    {
+      "title": "Trump-Vance Administration Leads Nationwide Coalition in Fighting War on Fraud",
+      "link": "https://www.whitehouse.gov/releases/2026/10/trump-vance-administration-leads-nationwide-coalition-in-fighting-war-on-fraud/",
+      "summary": "President Donald J. Trump and Vice President JD Vance are aggressively shutting down the waste, fraud, and abuse that has drained billions from American taxpayers. As head of the White House Task Force to Eliminate Fraud, Vice President Vance this week called on officials at every level of government to join him in a pledge […] The post Trump-Vance Administration Leads Nationwide Coalition in Fighting War on Fraud appeared first on The White House .",
+      "published_at": "Fri, 16 Oct 2026 19:25:01 +0000",
+      "source": "white_house",
+      "category": "geopolitics",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "geopolitics_bullish",
+      "_translation_hash": "b399cf6a9a5437d6edcc49f650cc7536e03f38a98ae8b8938e17ee652ebab2f6",
+      "translations": {
+        "zh-CN": {
+          "title": "特朗普-万斯政府领导全国反欺诈联盟",
+          "summary": "唐纳德·J·特朗普总统和副总统 J·D·万斯正在积极制止浪费、欺诈和滥用行为，这些行为导致美国纳税人损失了数十亿美元。作为白宫消除欺诈工作组的负责人，副总统万斯本周呼吁各级政府官员与他一起做出承诺……后特朗普-万斯政府领导全国反欺诈联盟首先出现在白宫。"
+        },
+        "ja": {
+          "title": "トランプ・バンス政権が詐欺との戦いで全国規模の連合を主導",
+          "summary": "ドナルド・J・トランプ大統領とJD・バンス副大統領は、アメリカの納税者から数十億ドルを流出させた無駄遣い、詐欺、虐待を積極的に阻止しようとしている。ホワイトハウスの不正撲滅特別委員会の責任者として、ヴァンス副大統領は今週、政府のあらゆるレベルの当局者に対し、自らの誓約に加わるよう呼び掛けた […]ポスト・トランプ・バンス政権が不正との戦いで全国規模の連合を主導 appeared first on ホワイトハウス 。"
+        },
+        "zh-TW": {
+          "title": "川普-萬斯政府領導全國反詐欺聯盟",
+          "summary": "唐納德·J·特朗普總統和副總統 J·D·萬斯正在積極制止浪費、欺詐和濫用行為，這些行為導緻美國納稅人損失了數十億美元。身為白宮消除詐欺工作小組的負責人，副總統萬斯本週呼籲各級政府官員與他一起做出承諾…後川普-萬斯政府領導全國反詐欺聯盟首先出現在白宮。"
+        },
+        "ko": {
+          "title": "트럼프-밴스 행정부, 사기와의 전쟁에서 전국 연합 주도",
+          "summary": "도널드 J. 트럼프(Donald J. Trump) 대통령과 JD 밴스(JD Vance) 부통령은 미국 납세자들로부터 수십억 달러의 손실을 가져온 낭비, 사기, 남용을 적극적으로 근절하고 있습니다. 사기 척결을 위한 백악관 태스크포스의 수장인 밴스 부통령은 이번 주 정부 각계 관료들에게 약속에 동참할 것을 촉구했습니다."
+        },
+        "de": {
+          "title": "Die Trump-Vance-Administration führt die landesweite Koalition im Kampf gegen Betrug an",
+          "summary": "Präsident Donald J. Trump und Vizepräsident JD Vance bekämpfen energisch die Verschwendung, den Betrug und den Missbrauch, die den amerikanischen Steuerzahlern Milliarden entzogen haben. Als Leiter der Task Force des Weißen Hauses zur Betrugsbekämpfung forderte Vizepräsident Vance diese Woche Beamte auf allen Regierungsebenen auf, sich ihm bei einem Versprechen anzuschließen."
+        },
+        "fr": {
+          "title": "L’administration Trump-Vance dirige une coalition nationale dans la lutte contre la fraude",
+          "summary": "Le président Donald J. Trump et le vice-président JD Vance mettent un terme de manière agressive au gaspillage, à la fraude et aux abus qui ont coûté des milliards aux contribuables américains. En tant que chef du groupe de travail de la Maison Blanche pour éliminer la fraude, le vice-président Vance a appelé cette semaine les responsables de tous les niveaux du gouvernement à se joindre à lui dans un engagement […] L'article L'administration Trump-Vance dirige une coalition nationale dans la lutte contre la fraude est apparu en premier sur La Maison Blanche."
+        }
+      }
+    },
     {
       "title": "Manufacturing and Trade Inventories and Sales",
       "link": "https://www.census.gov/mtis/index.html",
@@ -1963,18 +2001,6 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "50e8f44815ed60c51b21db238e068a8e70f181f62df21728e13080844889b30e"
-    },
-    {
-      "title": "U.S. International Trade in Goods and Services, August 2026",
-      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
-      "summary": "The U.S. goods and services trade deficit increased in August 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $92.8 billion in July (revised) to $105.6 billion in August, as imports increased more than exports. The goods deficit increased $12.8 billion in August to $136.6 billion. The services surplus increased less than $0.1 billion in August to $31.0 billion.",
-      "published_at": "Tue, 06 Oct 2026 08:30:00 EDT",
-      "source": "bea",
-      "category": "trade",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "4c621441db07326225c322c04f128788ef5bb20dffe68c37060a02d678163456"
     }
   ]
 }
