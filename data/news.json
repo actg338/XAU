@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-10-20T11:59:35.526899+00:00",
+  "fetched_at": "2026-10-20T12:31:07.055457+00:00",
   "total": 114,
   "items": [
+    {
+      "title": "New Residential Construction",
+      "link": "https://www.census.gov/construction/nrc/index.html",
+      "summary": "Privately-owned housing starts in September 2026 were at a seasonally adjusted annual rate of 1,221,000. This is 5.2 percent (+/- 11.8%)* below the revised August 2026 estimate of 1,288,000. September 2026: -5.2* % Change August 2026 (r): -5.9* % Change",
+      "published_at": "Tue, 20 Oct 2026 08:30:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "eda86328ea3c0a9fad0c7b3693e65e35428a690f8759cf9f3b876ab3ceaff680",
+      "translations": {
+        "zh-CN": {
+          "title": "新住宅建设",
+          "summary": "2026 年 9 月私人住房开工量经季节性调整后的年增长率为 1,221,000 套。这比修订后的 2026 年 8 月估计数 1,288,000 低 5.2% (+/- 11.8%)*。 2026 年 9 月：-5.2* 变化百分比 2026 年 8 月 (r)：-5.9* 变化百分比"
+        },
+        "ja": {
+          "title": "新築住宅建設",
+          "summary": "2026年9月の民間住宅着工件数は季節調整済み年率122万1,000件となった。これは、2026 年 8 月の改訂予測値 1,288,000 を 5.2 パーセント (+/- 11.8 %)* 下回っています。 2026 年 9 月: -5.2* % 変化 2026 年 8 月 (r): -5.9* % 変化"
+        },
+        "zh-TW": {
+          "title": "新住宅建設",
+          "summary": "2026 年 9 月私人住宅開工量經季節性調整後的年增率為 1,221,000 套。這比修訂後的 2026 年 8 月估計數 1,288,000 低 5.2% (+/- 11.8%)*。 2026 年 9 月：-5.2* 變化百分比 2026 年 8 月 (r)：-5.9* 變化百分比"
+        },
+        "de": {
+          "title": "Neubau von Wohngebäuden",
+          "summary": "Die Baubeginne im privaten Wohnungsbau lagen im September 2026 saisonbereinigt bei 1.221.000 pro Jahr. Das sind 5,2 Prozent (+/- 11,8 %)* weniger als die revidierte Schätzung vom August 2026 von 1.288.000. September 2026: -5,2* % Veränderung August 2026 (r): -5,9* % Veränderung"
+        },
+        "ko": {
+          "title": "새로운 주거 건설",
+          "summary": "2026년 9월 개인 소유 주택 착공은 계절 조정 연율 1,221,000건이었습니다. 이는 2026년 8월 수정된 추정치인 1,288,000보다 5.2%(+/- 11.8%)* 낮은 수치입니다. 2026년 9월: -5.2* % 변화 2026년 8월(r): -5.9* % 변화"
+        },
+        "fr": {
+          "title": "Nouvelle construction résidentielle",
+          "summary": "En septembre 2026, les mises en chantier de logements privés se sont établies à un taux annuel désaisonnalisé de 1 221 000. Cela représente 5,2 % (+/- 11,8 %)* en dessous de l'estimation révisée d'août 2026 de 1 288 000. Septembre 2026 : -5,2* % de variation Août 2026 (r) : -5,9* % de variation"
+        }
+      }
+    },
     {
       "title": "Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026",
       "link": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/",
@@ -235,7 +273,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
       "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
       "published_at": "Tue, 13 Oct 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -687,44 +725,6 @@
       }
     },
     {
-      "title": "Waller, The Data Version of Godzilla versus Kong: FRED Takes on AI",
-      "link": "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm",
-      "summary": "Speech At \"Navigating Trust, AI and Storytelling in a World of Data,\" FRED Con 2026, Federal Reserve Bank of St. Louis, St. Louis, Missouri",
-      "published_at": "Thu, 1 Oct 2026 14:00:00 GMT",
-      "source": "fed_remarks",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "f734465e20c124b0f24c24fe7c5025cc281343737fd45e87555243affd6cbff9",
-      "translations": {
-        "ja": {
-          "title": "ウォーラー『ゴジラ対コングのデータ版: フレッドが AI に挑む』",
-          "summary": "ミズーリ州セントルイス、セントルイス連邦準備銀行、FRED Con 2026「データの世界における信頼、AI、ストーリーテリングのナビゲート」でのスピーチ"
-        },
-        "zh-CN": {
-          "title": "Waller，《哥斯拉大战金刚》的数据版本：FRED 挑战人工智能",
-          "summary": "在“数据世界中导航信任、人工智能和讲故事”上的演讲，FRED Con 2026，圣路易斯联邦储备银行，密苏里州圣路易斯"
-        },
-        "ko": {
-          "title": "Waller, Godzilla 대 Kong의 데이터 버전: FRED가 AI에 도전하다",
-          "summary": "\"데이터 세계에서 신뢰, AI 및 스토리텔링 탐색\"에서 연설, FRED Con 2026, 미주리주 세인트루이스 연방준비은행 세인트루이스 연방준비은행"
-        },
-        "zh-TW": {
-          "title": "Waller，《哥吉拉大戰金剛》的數據版本：FRED 挑戰人工智慧",
-          "summary": "在「數據世界中導航信任、人工智慧和說故事」上的演講，FRED Con 2026，聖路易斯聯邦儲備銀行，密蘇裡州聖路易斯"
-        },
-        "de": {
-          "title": "Waller, Die Datenversion von Godzilla vs. Kong: FRED nimmt es mit KI auf",
-          "summary": "Rede bei „Navigating Trust, AI and Storytelling in a World of Data“, FRED Con 2026, Federal Reserve Bank of St. Louis, St. Louis, Missouri"
-        },
-        "fr": {
-          "title": "Waller, La version données de Godzilla contre Kong : FRED s'attaque à l'IA",
-          "summary": "Discours prononcé lors de l'événement « Navigating Trust, AI and Storytelling in a World of Data », FRED Con 2026, Federal Reserve Bank of St. Louis, St. Louis, Missouri"
-        }
-      }
-    },
-    {
       "title": "Construction Spending",
       "link": "https://www.census.gov/construction/c30/c30index.html",
       "summary": "Total construction spending for August 2026 ($2,203.1 billion) was 0.9 percent (+/- 1.0 percent)* above the revised July 2026 ($2,184.5 billion) estimate. August 2026: 0.9* % Change July 2026 (r): -0.1* % Change",
@@ -759,6 +759,44 @@
         "fr": {
           "title": "Dépenses de construction",
           "summary": "Les dépenses totales de construction pour août 2026 (2 203,1 milliards de dollars) étaient de 0,9 % (+/- 1,0 %)* supérieures à l'estimation révisée de juillet 2026 (2 184,5 milliards de dollars). Août 2026 : 0,9* % de variation Juillet 2026 (r) : -0,1* % de variation"
+        }
+      }
+    },
+    {
+      "title": "Waller, The Data Version of Godzilla versus Kong: FRED Takes on AI",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm",
+      "summary": "Speech At \"Navigating Trust, AI and Storytelling in a World of Data,\" FRED Con 2026, Federal Reserve Bank of St. Louis, St. Louis, Missouri",
+      "published_at": "Thu, 1 Oct 2026 14:00:00 GMT",
+      "source": "fed_remarks",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "f734465e20c124b0f24c24fe7c5025cc281343737fd45e87555243affd6cbff9",
+      "translations": {
+        "ja": {
+          "title": "ウォーラー『ゴジラ対コングのデータ版: フレッドが AI に挑む』",
+          "summary": "ミズーリ州セントルイス、セントルイス連邦準備銀行、FRED Con 2026「データの世界における信頼、AI、ストーリーテリングのナビゲート」でのスピーチ"
+        },
+        "zh-CN": {
+          "title": "Waller，《哥斯拉大战金刚》的数据版本：FRED 挑战人工智能",
+          "summary": "在“数据世界中导航信任、人工智能和讲故事”上的演讲，FRED Con 2026，圣路易斯联邦储备银行，密苏里州圣路易斯"
+        },
+        "ko": {
+          "title": "Waller, Godzilla 대 Kong의 데이터 버전: FRED가 AI에 도전하다",
+          "summary": "\"데이터 세계에서 신뢰, AI 및 스토리텔링 탐색\"에서 연설, FRED Con 2026, 미주리주 세인트루이스 연방준비은행 세인트루이스 연방준비은행"
+        },
+        "zh-TW": {
+          "title": "Waller，《哥吉拉大戰金剛》的數據版本：FRED 挑戰人工智慧",
+          "summary": "在「數據世界中導航信任、人工智慧和說故事」上的演講，FRED Con 2026，聖路易斯聯邦儲備銀行，密蘇裡州聖路易斯"
+        },
+        "de": {
+          "title": "Waller, Die Datenversion von Godzilla vs. Kong: FRED nimmt es mit KI auf",
+          "summary": "Rede bei „Navigating Trust, AI and Storytelling in a World of Data“, FRED Con 2026, Federal Reserve Bank of St. Louis, St. Louis, Missouri"
+        },
+        "fr": {
+          "title": "Waller, La version données de Godzilla contre Kong : FRED s'attaque à l'IA",
+          "summary": "Discours prononcé lors de l'événement « Navigating Trust, AI and Storytelling in a World of Data », FRED Con 2026, Federal Reserve Bank of St. Louis, St. Louis, Missouri"
         }
       }
     },
@@ -1181,23 +1219,11 @@
       }
     },
     {
-      "title": "New Residential Construction",
-      "link": "https://www.census.gov/construction/nrc/index.html",
-      "summary": "Privately-owned housing starts in August 2026 were at a seasonally adjusted annual rate of 1,275,000. This is 2.6 percent (+/- 12.0%)* below the revised July 2026 estimate of 1,309,000. August 2026: -2.6* % Change July 2026 (r): -9.0* % Change",
-      "published_at": "Thu, 17 Sep 2026 08:30:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "6f5a39f1aeb295f66f0f19b6fbbf617fb49e831bd3642fb7c8ae157a88aa6b75"
-    },
-    {
       "title": "Federal Reserve issues FOMC statement",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1235,7 +1261,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
