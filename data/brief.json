@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T13:54:57.866833+00:00",
+  "generated_at": "2026-10-20T14:13:14.053889+00:00",
   "direction": "neutral",
   "label_key": "balanced",
   "confidence": 75,
@@ -34,8 +34,8 @@
   ],
   "next_event": {
     "event_key": "bls_release",
-    "title": "State Employment and Unemployment (Monthly)",
-    "starts_at": "2026-10-20T14:00:00+00:00",
+    "title": "Usual Weekly Earnings of Wage and Salary Workers",
+    "starts_at": "2026-10-21T14:00:00+00:00",
     "impact": "medium",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
