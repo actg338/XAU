@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "score": -3,
+  "score": -6,
   "direction": "neutral",
   "label_key": "balanced",
   "signal": "balanced",
@@ -13,7 +13,7 @@
       "direction": "neutral",
       "value": "NEUTRAL",
       "reason_key": "warsh_neutral",
-      "updated_at": "2026-10-20T07:25:06.749614+00:00"
+      "updated_at": "2026-10-20T07:43:44.571365+00:00"
     },
     {
       "key": "fedwatch",
@@ -21,23 +21,23 @@
       "direction": "bearish",
       "value": "cut 0.0% / hike 17.2%",
       "reason_key": "fedwatch_path",
-      "updated_at": "2026-10-20T07:25:08.958267+00:00"
+      "updated_at": "2026-10-20T07:43:45.694283+00:00"
     },
     {
       "key": "xau",
-      "score": -2,
+      "score": -5,
       "direction": "bearish",
-      "value": "-0.17%",
+      "value": "-0.42%",
       "reason_key": "xau_momentum",
-      "updated_at": "2026-10-20T07:25:04.957182+00:00"
+      "updated_at": "2026-10-20T07:43:43.051876+00:00"
     },
     {
       "key": "dxy",
       "score": 4,
       "direction": "bullish",
-      "value": "-0.22%",
+      "value": "-0.20%",
       "reason_key": "dxy_momentum",
-      "updated_at": "2026-10-20T07:25:05.149792+00:00"
+      "updated_at": "2026-10-20T07:43:43.258133+00:00"
     }
   ],
   "supporting": [
@@ -55,5 +55,5 @@
     "xau_momentum",
     "dxy_momentum"
   ],
-  "generated_at": "2026-10-20T07:25:19.418918+00:00"
+  "generated_at": "2026-10-20T07:43:56.342992+00:00"
 }
