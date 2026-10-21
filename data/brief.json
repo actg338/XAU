@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-21T05:20:35.115752+00:00",
+  "generated_at": "2026-10-21T05:35:16.447428+00:00",
   "direction": "neutral",
   "label_key": "balanced",
-  "confidence": 83,
-  "score": -6,
+  "confidence": 79,
+  "score": -5,
   "drivers": [
-    "warsh"
+    "warsh",
+    "xau"
   ],
   "counter_risks": [
     "fedwatch",
-    "xau",
     "dxy"
   ],
   "top_news": [
