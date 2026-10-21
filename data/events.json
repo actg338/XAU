@@ -1,15 +1,7 @@
 {
-  "fetched_at": "2026-10-21T13:57:54.551269+00:00",
+  "fetched_at": "2026-10-21T14:21:56.884101+00:00",
   "timezone": "UTC",
   "events": [
-    {
-      "event_key": "bls_release",
-      "title": "Usual Weekly Earnings of Wage and Salary Workers",
-      "starts_at": "2026-10-21T14:00:00+00:00",
-      "impact": "medium",
-      "source": "BLS",
-      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
-    },
     {
       "event_key": "bls_release",
       "title": "Quarterly Data Series on Business Employment Dynamics",
@@ -191,6 +183,14 @@
       "title": "Producer Price Index",
       "starts_at": "2026-12-15T13:30:00+00:00",
       "impact": "high",
+      "source": "BLS",
+      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
+    },
+    {
+      "event_key": "bls_release",
+      "title": "Census of Fatal Occupational Injuries",
+      "starts_at": "2026-12-16T15:00:00+00:00",
+      "impact": "medium",
       "source": "BLS",
       "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
     }

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-21T13:57:54.687845+00:00",
+  "generated_at": "2026-10-21T14:21:57.017898+00:00",
   "direction": "neutral",
   "label_key": "balanced",
-  "confidence": 74,
-  "score": -1,
+  "confidence": 75,
+  "score": -4,
   "drivers": [
     "warsh"
   ],
@@ -34,8 +34,8 @@
   ],
   "next_event": {
     "event_key": "bls_release",
-    "title": "Usual Weekly Earnings of Wage and Salary Workers",
-    "starts_at": "2026-10-21T14:00:00+00:00",
+    "title": "Quarterly Data Series on Business Employment Dynamics",
+    "starts_at": "2026-10-28T14:00:00+00:00",
     "impact": "medium",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
