@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T19:50:28.748448+00:00",
+  "generated_at": "2026-10-23T19:59:11.670878+00:00",
   "direction": "bearish",
   "label_key": "mild_bearish",
   "confidence": 85,
@@ -12,6 +12,12 @@
   "counter_risks": [],
   "top_news": [
     {
+      "title": "Fact Sheet: President Donald J. Trump Further Modifies Canadian Products Subject to Tariffs Under Section 338",
+      "link": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-further-modifies-canadian-products-subject-to-tariffs-under-section-338/",
+      "category": "trade",
+      "bias": "neutral"
+    },
+    {
       "title": "Federal Reserve issues FOMC statement",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "category": "monetary_policy",
@@ -20,12 +26,6 @@
     {
       "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
-      "category": "monetary_policy",
-      "bias": "neutral"
-    },
-    {
-      "title": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
       "category": "monetary_policy",
       "bias": "neutral"
     }
