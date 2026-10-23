@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-10-23T14:39:59.989045+00:00",
-  "direction": "bearish",
-  "label_key": "mild_bearish",
-  "confidence": 85,
-  "score": -15,
+  "generated_at": "2026-10-23T14:53:08.540567+00:00",
+  "direction": "neutral",
+  "label_key": "balanced",
+  "confidence": 84,
+  "score": -11,
   "drivers": [
+    "warsh"
+  ],
+  "counter_risks": [
     "fedwatch",
     "xau",
     "dxy"
   ],
-  "counter_risks": [],
   "top_news": [
     {
       "title": "Federal Reserve issues FOMC statement",
