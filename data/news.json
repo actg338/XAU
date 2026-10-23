@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-23T19:59:02.747895+00:00",
+  "fetched_at": "2026-10-23T20:20:37.788049+00:00",
   "total": 114,
   "items": [
     {
@@ -12,7 +12,33 @@
       "impact": "high",
       "gold_bias": "neutral",
       "why_key": "trade_neutral",
-      "_translation_hash": "bd42031813ce53370e4cfc61fe4a3f0968f351fbfa2819f9d30254b1fef0f984"
+      "_translation_hash": "bd42031813ce53370e4cfc61fe4a3f0968f351fbfa2819f9d30254b1fef0f984",
+      "translations": {
+        "zh-CN": {
+          "title": "情况说明书：唐纳德·J·特朗普总统进一步修改了根据第 338 条征收关税的加拿大产品",
+          "summary": "进一步反对加拿大对美国出口产品的歧视性待遇：今天，为了继续解决加拿大对美国商业的歧视性待遇，唐纳德·J·特朗普总统根据 1930 年关税法第 338 条签署了一项公告，进一步细化先前于 2026 年 7 月 20 日宣布并于 9 月 8 日修改的对某些加拿大产品的关税范围， 2026. 捍卫利益 […] 后情况说明书：唐纳德·J·特朗普总统进一步修改加拿大"
+        },
+        "zh-TW": {
+          "title": "情況說明書：唐納德·J·特朗普總統進一步修改了根據第 338 條徵收關稅的加拿大產品",
+          "summary": "進一步反對加拿大對美國出口產品的歧視性待遇：今天，為了繼續解決加拿大對美國商業的歧視性待遇，唐納德·J·特朗普總統根據 1930 年關稅法第 338 條簽署了一項公告，進一步細化先前於 2026 年 7 月 20 日宣布並於 9 月 8 日修改後對某些對唐納德·特朗普·唐納德·特朗普總統的關稅。"
+        },
+        "ja": {
+          "title": "ファクトシート: ドナルド・J・トランプ大統領、第338条に基づく関税の対象となるカナダ製品をさらに修正",
+          "summary": "アメリカ輸出品に対するカナダの差別的扱いへのさらなる対抗：本日、ドナルド・J・トランプ大統領は、米国通商に対するカナダの差別的扱いに引き続き対処するため、2026年7月20日に発表され、9月に修正された特定のカナダ製品に対する関税の範囲をさらに精緻化する1930年関税法第338条に基づく宣言に署名した。 2026 年 8 日。利益の擁護 […] ポストファクトシート: ドナルド・J・トランプ大統領がカナダの政策をさらに修正"
+        },
+        "ko": {
+          "title": "팩트 시트: 도널드 J. 트럼프 대통령, 338항에 따라 관세가 부과되는 캐나다 제품을 추가로 수정",
+          "summary": "미국 수출에 대한 캐나다의 차별적 대우에 대한 추가 대응: 오늘, 도널드 J. 트럼프 대통령은 미국 상업에 대한 캐나다의 차별적 대우를 계속해서 다루기 위해 이전에 2026년 7월 20일에 발표되고 9월 8일에 수정된 특정 캐나다 제품에 대한 관세 범위를 더욱 구체화하는 1930년 관세법 제338조에 따른 선언문에 서명했습니다. 2026. 이익 방어 [...] 포스트 팩트 시트: 도널드 J. 트럼프 대통령이 캐나다를 추가로 수정합니다."
+        },
+        "fr": {
+          "title": "Fiche d'information : Le président Donald J. Trump modifie davantage les produits canadiens assujettis aux tarifs en vertu de l'article 338",
+          "summary": "CONTRER ENCORE LE TRAITEMENT DISCRIMINATOIRE DES EXPORTATIONS AMÉRICAINES PAR LE CANADA : Aujourd'hui, pour continuer de lutter contre le traitement discriminatoire du Canada à l'égard du commerce américain, le président Donald J. Trump a signé une proclamation en vertu de l'article 338 de la Loi douanière de 1930 pour affiner davantage la portée des tarifs sur certains produits canadiens annoncés précédemment le 20 juillet 2026 et modifiés le 8 septembre 2026. DÉFENDRE LES INTÉRÊTS […] La fiche d'information post : Le président Donald J. Trump modifie encore"
+        },
+        "de": {
+          "title": "Faktenblatt: Präsident Donald J. Trump ändert weitere kanadische Produkte, die gemäß Abschnitt 338 Zöllen unterliegen",
+          "summary": "WEITERE BEKÄMPFUNG DER DISKRIMINIERENDEN BEHANDLUNG AMERIKANISCHER EXPORTE IN KANADA: Um weiterhin gegen Kanadas diskriminierende Behandlung des US-Handels vorzugehen, unterzeichnete Präsident Donald J. Trump heute eine Proklamation gemäß Abschnitt 338 des Zollgesetzes von 1930, um den Umfang der Zölle auf bestimmte kanadische Produkte weiter zu verfeinern, die zuvor am 20. Juli 2026 angekündigt und am 8. September geändert wurden. 2026. VERTEIDIGUNG DER INTERESSEN […] Der Beitrag Fact Sheet: Präsident Donald J. Trump modifiziert Canadian weiter"
+        }
+      }
     },
     {
       "title": "First Lady Melania Trump Secures Ceasefire Between Russia and Ukraine, Localized to Oleshky",
