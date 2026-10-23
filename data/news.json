@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-23T11:52:10.140958+00:00",
+  "fetched_at": "2026-10-23T12:00:43.187684+00:00",
   "total": 112,
   "items": [
     {
@@ -1953,28 +1953,28 @@
       "_translation_hash": "50e8f44815ed60c51b21db238e068a8e70f181f62df21728e13080844889b30e"
     },
     {
-      "title": "Both payroll employment (+29,000) and unemployment rate (4.2%) change little in September",
-      "link": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
+      "title": "August job openings and hires change little; total separations unchanged",
+      "link": "https://www.bls.gov/news.release/archives/jolts_09292026.htm",
       "summary": "",
-      "published_at": "2026-10-02T07:51:08.289-04:00",
-      "source": "bls_jobs",
+      "published_at": "2026-09-29T09:20:32.09-04:00",
+      "source": "bls_jolts",
       "category": "labor",
-      "impact": "high",
+      "impact": "medium",
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
-      "_translation_hash": "96841db93c0b04c1b65eabfa6b25531e2ea9b14f1619ecf8beef34b102ef9ef5"
+      "_translation_hash": "ae4643776403e9edf0d3aa5d8e13271c518393a47f56aa095daf1f73b02a8e61"
     },
     {
-      "title": "Payroll employment increases by 162,000 in August; unemployment rate unchanged at 4.1%",
-      "link": "https://www.bls.gov/news.release/archives/empsit_09042026.htm",
+      "title": "Job openings, hires, and total separations change little in July",
+      "link": "https://www.bls.gov/news.release/archives/jolts_09012026.htm",
       "summary": "",
-      "published_at": "2026-09-04T07:51:08.695-04:00",
-      "source": "bls_jobs",
+      "published_at": "2026-09-01T09:20:29.31-04:00",
+      "source": "bls_jolts",
       "category": "labor",
-      "impact": "high",
+      "impact": "medium",
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
-      "_translation_hash": "49b1542c52b1f8034e8ab011771940c7a52f53795abb67536de62c040206f247"
+      "_translation_hash": "500db7192b8fd428df83835fd500eb408147dab1fb52d83ef80ada6036db7c8d"
     }
   ]
 }
