@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-24T16:19:24.532924+00:00",
+  "fetched_at": "2026-10-24T16:32:37.068980+00:00",
   "total": 113,
   "items": [
     {
@@ -349,7 +349,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
       "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
       "published_at": "Tue, 13 Oct 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1185,7 +1185,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1223,7 +1223,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -2017,16 +2017,16 @@
       "_translation_hash": "50e8f44815ed60c51b21db238e068a8e70f181f62df21728e13080844889b30e"
     },
     {
-      "title": "CPI for all items increases 0.6% in September; gasoline rises",
-      "link": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+      "title": "PPI for final demand increases 1.3% in September; goods advance 2.6%, services rise 0.8%",
+      "link": "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
       "summary": "",
-      "published_at": "2026-10-14T07:50:31.2-04:00",
-      "source": "bls_cpi",
+      "published_at": "2026-10-15T07:50:51.146-04:00",
+      "source": "bls_ppi",
       "category": "inflation",
-      "impact": "high",
+      "impact": "medium",
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
-      "_translation_hash": "7fef741aac2905fa4409098c1ff216f28dca8a73df99fa4b092c6807717f5588"
+      "_translation_hash": "8664b1562ed6090060f871b5acf8ca52f23a18c0161d2cf3015acbb3d55c6dad"
     }
   ]
 }
