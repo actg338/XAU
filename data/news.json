@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-10-27T13:56:13.439299+00:00",
+  "fetched_at": "2026-10-27T14:21:21.714531+00:00",
   "total": 114,
   "items": [
+    {
+      "title": "New Home Sales",
+      "link": "https://www.census.gov/construction/nrs/",
+      "summary": "Sales of new single-family houses in September 2026 were at a seasonally adjusted annual rate of 676,000. This is 0.6 percent (+/- 13.8%)* below the revised August 2026 estimate of 680,000. September 2026: -0.6* % Change August 2026 (r): +5.1* % Change",
+      "published_at": "Tue, 27 Oct 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "416d6695fdf13a4b7ecbaa701f3b8e502cf8b5333b87ea4390ba72698a5c24de",
+      "translations": {
+        "zh-CN": {
+          "title": "新屋销售",
+          "summary": "2026 年 9 月新建单户住宅销量经季节性调整后的年增长率为 676,000 套。这比修订后的 2026 年 8 月估计数 680,000 低 0.6% (+/- 13.8%)*。 2026 年 9 月：-0.6* 变化百分比 2026 年 8 月 (r)：+5.1* 变化百分比"
+        },
+        "ja": {
+          "title": "新築住宅販売",
+          "summary": "２０２６年９月の新築一戸建て住宅販売は季節調整済み年率６７万６０００戸となった。これは、2026 年 8 月の改訂予測値 680,000 を 0.6 パーセント (+/- 13.8 %)* 下回っています。 2026 年 9 月: -0.6* % 変化 2026 年 8 月 (r): +5.1* % 変化"
+        },
+        "ko": {
+          "title": "신규 주택 판매",
+          "summary": "2026년 9월 신규 단독주택 매매는 계절조정 연율 676,000건이었습니다. 이는 2026년 8월 수정된 추정치인 680,000보다 0.6%(+/- 13.8%)* 낮은 수치입니다. 2026년 9월: -0.6* % 변화 2026년 8월(r): +5.1* % 변화"
+        },
+        "zh-TW": {
+          "title": "新屋銷售",
+          "summary": "2026 年 9 月新建單戶住宅銷售經季節性調整後的年增率為 676,000 套。這比修訂後的 2026 年 8 月估計數 680,000 低 0.6% (+/- 13.8%)*。 2026 年 9 月：-0.6* 變化百分比 2026 年 8 月 (r)：+5.1* 變化百分比"
+        },
+        "de": {
+          "title": "Verkauf neuer Häuser",
+          "summary": "Der Verkauf neuer Einfamilienhäuser lag im September 2026 bei einer saisonbereinigten Jahresrate von 676.000. Das sind 0,6 Prozent (+/- 13,8 %)* weniger als die revidierte Schätzung vom August 2026 von 680.000. September 2026: -0,6* % Veränderung August 2026 (r): +5,1* % Veränderung"
+        },
+        "fr": {
+          "title": "Ventes de maisons neuves",
+          "summary": "Les ventes de maisons unifamiliales neuves en septembre 2026 se sont établies à un rythme annuel désaisonnalisé de 676 000. Cela représente 0,6 pour cent (+/- 13,8%)* en dessous de l'estimation révisée d'août 2026 de 680 000. Septembre 2026 : -0,6* % de variation Août 2026 (r) : +5,1* % de variation"
+        }
+      }
+    },
     {
       "title": "Advance Monthly Manufacturers' Shipments, Inventories, and Orders",
       "link": "https://www.census.gov/manufacturing/m3/",
@@ -1025,44 +1063,6 @@
         "fr": {
           "title": "Cook, une mise à jour sur l'IA et l'économie",
           "summary": "Discours lors de la conférence d'ouverture de la Oakland Tech Week, co-organisée par le Kapor Center, Oakland, Californie"
-        }
-      }
-    },
-    {
-      "title": "New Home Sales",
-      "link": "https://www.census.gov/construction/nrs/",
-      "summary": "Sales of new single-family houses in August 2026 were at a seasonally adjusted annual rate of 684,000. This is 6.4 percent (+/- 19.5%)* above the revised July 2026 estimate of 643,000. August 2026: +6.4* % Change July 2026 (r): -4.3* % Change",
-      "published_at": "Thu, 24 Sep 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "00e0b4e85cd90acd7b795484a526ed4bdd00096d486b198046f82d72b6b713c5",
-      "translations": {
-        "zh-CN": {
-          "title": "新屋销售",
-          "summary": "2026 年 8 月新建单户住宅销量经季节性调整后的年增长率为 684,000 套。这比 2026 年 7 月修订后的估计数 643,000 人高出 6.4% (+/- 19.5%)*。 2026 年 8 月：+6.4* 变化百分比 2026 年 7 月 (r)：-4.3* 变化百分比"
-        },
-        "zh-TW": {
-          "title": "新屋銷售",
-          "summary": "2026 年 8 月新建單戶住宅銷售經季節性調整後的年增率為 684,000 套。這比 2026 年 7 月修訂後的估計數 643,000 人高出 6.4% (+/- 19.5%)*。 2026 年 8 月：+6.4* 變化百分比 2026 年 7 月 (r)：-4.3* 變化百分比"
-        },
-        "ja": {
-          "title": "新築住宅販売",
-          "summary": "２０２６年８月の新築一戸建て住宅販売は季節調整済み年率６８万４０００戸となった。これは、2026 年 7 月の改訂予測値 643,000 を 6.4 パーセント (+/- 19.5 %)* 上回っています。 2026 年 8 月: +6.4* % 変化 2026 年 7 月 (r): -4.3* % 変化"
-        },
-        "ko": {
-          "title": "신규 주택 판매",
-          "summary": "2026년 8월 신규 단독주택 매매는 계절조정 연율 684,000건이었습니다. 이는 2026년 7월 수정된 추정치인 643,000보다 6.4%(+/- 19.5%)* 높은 수치입니다. 2026년 8월: +6.4* % 변화 2026년 7월(r): -4.3* % 변화"
-        },
-        "de": {
-          "title": "Verkauf neuer Häuser",
-          "summary": "Der Verkauf neuer Einfamilienhäuser lag im August 2026 bei einer saisonbereinigten Jahresrate von 684.000. Das sind 6,4 Prozent (+/- 19,5 %)* über der revidierten Schätzung vom Juli 2026 von 643.000. August 2026: +6,4* % Veränderung Juli 2026 (r): -4,3* % Veränderung"
-        },
-        "fr": {
-          "title": "Ventes de maisons neuves",
-          "summary": "En août 2026, les ventes de maisons unifamiliales neuves se sont établies à un taux annuel désaisonnalisé de 684 000. Cela représente 6,4 pour cent (+/- 19,5%)* au-dessus de l'estimation révisée de juillet 2026 de 643 000. Août 2026 : +6,4* % de variation Juillet 2026 (r) : -4,3* % de variation"
         }
       }
     },
