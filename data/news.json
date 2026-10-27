@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-10-27T11:58:08.381590+00:00",
+  "fetched_at": "2026-10-27T12:31:09.870337+00:00",
   "total": 114,
   "items": [
+    {
+      "title": "Advance Monthly Manufacturers' Shipments, Inventories, and Orders",
+      "link": "https://www.census.gov/manufacturing/m3/",
+      "summary": "New orders for manufactured durable goods in September, up six of the last seven months, increased $6.3 billion or 1.8 percent to $345.4 billion. September 2026: +1.8° % Change August 2026 (r): +0.1° % Change",
+      "published_at": "Tue, 27 Oct 2026 08:30:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "fa84d42bfa332a8ff32e06bb3a70aa339c1f86e4172c8c486f8185c83a5a990c",
+      "translations": {
+        "zh-CN": {
+          "title": "预付每月制造商的发货量、库存和订单",
+          "summary": "9 月份耐用品制成品新订单增加 63 亿美元，即 1.8%，达到 3,454 亿美元，是过去 7 个月中的 6 个月有所增长。 2026 年 9 月：+1.8° % 变化 2026 年 8 月 (r)：+0.1° % 变化"
+        },
+        "ja": {
+          "title": "Advance Monthly Manufacturers' Shipments, Inventories, and Orders",
+          "summary": "９月の耐久財新規受注は過去７カ月のうち６カ月増加し、６３億ドル（１．８％）増の３４５４億ドルとなった。 September 2026: +1.8° % Change August 2026 (r): +0.1° % Change"
+        },
+        "zh-TW": {
+          "title": "預付每月製造商的出貨量、庫存和訂單",
+          "summary": "9 月耐用品製成品新訂單增加 63 億美元，或 1.8%，達到 3,454 億美元，是過去 7 個月中的 6 個月有所增長。 2026 年 9 月：+1.8° % 變化 2026 年 8 月 (r)：+0.1° % 變化"
+        },
+        "ko": {
+          "title": "월간 제조업체의 선적, 재고 및 주문을 사전에 처리합니다.",
+          "summary": "지난 7개월 중 6개월 동안 증가한 9월 내구재 제조 신규 주문은 63억 달러(1.8%) 증가한 3,454억 달러를 기록했습니다. 2026년 9월: +1.8° % 변동 2026년 8월(r): +0.1° % 변동"
+        },
+        "de": {
+          "title": "Vorausschauende monatliche Herstellerlieferungen, Lagerbestände und Bestellungen",
+          "summary": "Die Auftragseingänge für langlebige Industriegüter stiegen im September um sechs der letzten sieben Monate um 6,3 Milliarden US-Dollar oder 1,8 Prozent auf 345,4 Milliarden US-Dollar. September 2026: +1,8° % Veränderung August 2026 (r): +0,1° % Veränderung"
+        },
+        "fr": {
+          "title": "Avancer les expéditions, les stocks et les commandes mensuelles des fabricants",
+          "summary": "Les nouvelles commandes de biens manufacturés durables en septembre, en hausse sur six des sept derniers mois, ont augmenté de 6,3 milliards de dollars, ou 1,8 pour cent, à 345,4 milliards de dollars. Septembre 2026 : +1,8° % Variation Août 2026 (r) : +0,1° % Variation"
+        }
+      }
+    },
     {
       "title": "President Trump Secures Major Deals to Unleash American Energy and Cut Gas Prices at the Pump",
       "link": "https://www.whitehouse.gov/releases/2026/10/president-trump-secures-major-deals-to-unleash-american-energy-and-cut-gas-prices-at-the-pump/",
@@ -387,7 +425,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
       "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
       "published_at": "Tue, 13 Oct 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -607,44 +645,6 @@
         "fr": {
           "title": "Commerce international des biens et services des États-Unis",
           "summary": "Le déficit du commerce international des biens et services du pays a augmenté pour atteindre 105,6 milliards de dollars en août, contre 92,8 milliards de dollars en juillet (révisé), les importations ayant augmenté plus que les exportations. Août 2026 : 13,7° % Variation Juillet 2026 (r) : 30,4° % Variation"
-        }
-      }
-    },
-    {
-      "title": "Manufacturers' Shipments, Inventories, and Orders",
-      "link": "https://www.census.gov/manufacturing/m3/",
-      "summary": "New orders for manufactured goods in August, up two consecutive months, increased $0.7 billion or 0.1 percent to $663.5 billion. August 2026: +0.1° % Change July 2026 (r): +0.8° % Change",
-      "published_at": "Fri, 02 Oct 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "383bca2b1c7a3e17e89c6df23e988f25415116f69e24313e4e87c32101a0dd43",
-      "translations": {
-        "zh-CN": {
-          "title": "制造商的出货量、库存和订单",
-          "summary": "8月份制成品新订单连续两个月增长，增加7亿美元，增幅0.1%，至6635亿美元。 2026 年 8 月：+0.1° % 变化 2026 年 7 月 (r)：+0.8° % 变化"
-        },
-        "zh-TW": {
-          "title": "製造商的出貨量、庫存和訂單",
-          "summary": "8月製成品新訂單連續兩個月成長，增加7億美元，成長0.1%，至6635億美元。 2026 年 8 月：+0.1° % 變化 2026 年 7 月 (r)：+0.8° % 變化"
-        },
-        "ja": {
-          "title": "メーカー出荷・在庫・受注状況",
-          "summary": "８月の工業製品の新規受注は２カ月連続で増加し、７億ドル（０．１％）増の６６３５億ドルとなった。 2026年8月: +0.1° %変化 2026年7月(r): +0.8° %変化"
-        },
-        "ko": {
-          "title": "제조업체의 배송, 재고 및 주문",
-          "summary": "8월 공산품 신규 주문은 2개월 연속 증가한 7억 달러(0.1%) 증가한 6,635억 달러를 기록했습니다. 2026년 8월: +0.1° % 변동 2026년 7월(r): +0.8° % 변동"
-        },
-        "de": {
-          "title": "Lieferungen, Bestände und Bestellungen der Hersteller",
-          "summary": "Die Auftragseingänge für Industriegüter stiegen im August zwei Monate in Folge um 0,7 Milliarden US-Dollar oder 0,1 Prozent auf 663,5 Milliarden US-Dollar. August 2026: +0,1° % Veränderung Juli 2026 (r): +0,8° % Veränderung"
-        },
-        "fr": {
-          "title": "Expéditions, stocks et commandes des fabricants",
-          "summary": "Les nouvelles commandes de produits manufacturés en août, en hausse sur deux mois consécutifs, ont augmenté de 0,7 milliard de dollars ou 0,1 pour cent à 663,5 milliards de dollars. Août 2026 : +0,1° % Variation Juillet 2026 (r) : +0,8° % Variation"
         }
       }
     },
@@ -1223,7 +1223,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1261,7 +1261,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
