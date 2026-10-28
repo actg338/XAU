@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-28T16:47:00.231781+00:00",
+  "fetched_at": "2026-10-28T16:55:34.470603+00:00",
   "total": 113,
   "items": [
     {
@@ -2043,16 +2043,16 @@
       "_translation_hash": "50e8f44815ed60c51b21db238e068a8e70f181f62df21728e13080844889b30e"
     },
     {
-      "title": "Both payroll employment (+29,000) and unemployment rate (4.2%) change little in September",
-      "link": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
-      "summary": "",
-      "published_at": "2026-10-02T07:51:08.289-04:00",
-      "source": "bls_jobs",
-      "category": "labor",
-      "impact": "high",
+      "title": "U.S. International Trade in Goods and Services, August 2026",
+      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
+      "summary": "The U.S. goods and services trade deficit increased in August 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $92.8 billion in July (revised) to $105.6 billion in August, as imports increased more than exports. The goods deficit increased $12.8 billion in August to $136.6 billion. The services surplus increased less than $0.1 billion in August to $31.0 billion.",
+      "published_at": "Tue, 06 Oct 2026 08:30:00 EDT",
+      "source": "bea",
+      "category": "trade",
+      "impact": "medium",
       "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "96841db93c0b04c1b65eabfa6b25531e2ea9b14f1619ecf8beef34b102ef9ef5"
+      "why_key": "trade_neutral",
+      "_translation_hash": "4c621441db07326225c322c04f128788ef5bb20dffe68c37060a02d678163456"
     }
   ]
 }
