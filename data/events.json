@@ -1,23 +1,7 @@
 {
-  "fetched_at": "2026-10-28T13:56:20.501546+00:00",
+  "fetched_at": "2026-10-28T14:14:39.609436+00:00",
   "timezone": "UTC",
   "events": [
-    {
-      "event_key": "bls_release",
-      "title": "Quarterly Data Series on Business Employment Dynamics",
-      "starts_at": "2026-10-28T14:00:00+00:00",
-      "impact": "medium",
-      "source": "BLS",
-      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
-    },
-    {
-      "event_key": "bls_release",
-      "title": "Metropolitan Area Employment and Unemployment (Monthly)",
-      "starts_at": "2026-10-28T14:00:00+00:00",
-      "impact": "medium",
-      "source": "BLS",
-      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
-    },
     {
       "event_key": "fomc",
       "title": "FOMC Rate Decision",
@@ -190,6 +174,22 @@
       "event_key": "bls_release",
       "title": "Census of Fatal Occupational Injuries",
       "starts_at": "2026-12-16T15:00:00+00:00",
+      "impact": "medium",
+      "source": "BLS",
+      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
+    },
+    {
+      "event_key": "bls_release",
+      "title": "Employer Costs for Employee Compensation",
+      "starts_at": "2026-12-16T15:00:00+00:00",
+      "impact": "medium",
+      "source": "BLS",
+      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
+    },
+    {
+      "event_key": "bls_release",
+      "title": "U.S. Import and Export Price Indexes",
+      "starts_at": "2026-12-17T13:30:00+00:00",
       "impact": "medium",
       "source": "BLS",
       "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"

@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-10-28T13:56:20.283795+00:00",
-  "total": 113,
+  "fetched_at": "2026-10-28T14:14:35.888885+00:00",
+  "total": 95,
   "items": [
+    {
+      "title": "Housing Vacancies and Homeownership",
+      "link": "https://www.census.gov/housing/hvs/",
+      "summary": "The homeownership rate of 65.5 percent was not statistically different from the rate in the third quarter 2025. The homeownership rates in the Northeast, Midwest, South, and West were not statistically different from third quarter 2025 rates. 3rd Qtr 2026: +0.2* Percentage Points 3rd Qtr 2025: -0.3* Percentage Points",
+      "published_at": "Wed, 28 Oct 2026 10:00:00 -0400",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "b06049b7e47f91f0113ff3fb0c8011f9db71d4ba98d395b099d7f1e2474d5a30",
+      "translations": {
+        "zh-CN": {
+          "title": "住房空置和住房拥有率",
+          "summary": "65.5% 的住房拥有率与 2025 年第三季度的住房拥有率没有统计差异。东北部、中西部、南部和西部的住房拥有率与 2025 年第三季度的住房拥有率没有统计差异。 2026 年第三季度：+0.2* 百分点 2025 年第三季度：-0.3* 百分点"
+        },
+        "ja": {
+          "title": "住宅の空室と住宅所有権",
+          "summary": "65.5% という住宅所有率は、2025 年第 3 四半期の住宅所有率と統計的に違いはありませんでした。北東部、中西部、南部、西部の住宅所有率は、2025 年第 3 四半期の住宅所有率と統計的に違いはありませんでした。 2026 年第 3 四半期: +0.2* パーセント ポイント 2025 年第 3 四半期: -0.3* パーセント ポイント"
+        },
+        "zh-TW": {
+          "title": "住房空置和住房擁有率",
+          "summary": "65.5% 的住房擁有率與 2025 年第三季的住房擁有率沒有統計差異。東北部、中西部、南部和西部的住房擁有率與 2025 年第三季的住房擁有率沒有統計差異。 2026 年第三季：+0.2* 百分點 2025 年第三季：-0.3* 百分點"
+        },
+        "de": {
+          "title": "Wohnungsleerstand und Wohneigentum",
+          "summary": "Die Wohneigentumsquote von 65,5 Prozent unterschied sich statistisch gesehen nicht von der Quote im dritten Quartal 2025. Die Wohneigentumsquote im Nordosten, Mittleren Westen, Süden und Westen unterschied sich statistisch gesehen nicht von der Quote im dritten Quartal 2025. 3. Quartal 2026: +0,2* Prozentpunkte 3. Quartal 2025: -0,3* Prozentpunkte"
+        },
+        "ko": {
+          "title": "주택 공실 및 주택 소유",
+          "summary": "65.5%의 주택 소유율은 2025년 3분기 주택 소유율과 통계적으로 다르지 않았습니다. 북동부, 중서부, 남부, 서부 지역의 주택 소유율은 2025년 3분기 주택 소유율과 통계적으로 다르지 않았습니다. 2026년 3분기: +0.2* 백분율 포인트 2025년 3분기: -0.3* 백분율 포인트"
+        },
+        "fr": {
+          "title": "Offres de logements vacants et accession à la propriété",
+          "summary": "Le taux d'accession à la propriété de 65,5 % n'était pas statistiquement différent du taux du troisième trimestre 2025. Les taux d'accession à la propriété dans le Nord-Est, le Midwest, le Sud et l'Ouest n'étaient pas statistiquement différents des taux du troisième trimestre 2025. 3e trimestre 2026 : +0,2* points de pourcentage 3e trimestre 2025 : -0,3* points de pourcentage"
+        }
+      }
+    },
     {
       "title": "Advance U.S. International Trade in Goods",
       "link": "https://www.census.gov/econ/indicators/index.html",
@@ -43,34 +81,34 @@
     {
       "title": "President Trump Announces Arrival of First One Million Barrels of Oil in Texas Thanks to Historic Oil Deal",
       "link": "https://www.whitehouse.gov/releases/2026/10/president-trump-announces-arrival-of-first-one-million-barrels-of-oil-in-texas-thanks-to-historic-oil-deal/",
-      "summary": "“This historic win gives us control over a massive part of the world’s oil supply.” – President Donald J. Trump Yesterday in Corpus Christi, Texas, President Donald J. Trump announced the arrival of the first million barrels of oil secured by the Trump Administration as part of the President’s historic Venezuela oil deal – with all oil coming to America […] The post President Trump Announces Arrival of First One Million Barrels of Oil in Texas Thanks to Historic Oil Deal appeared first on The Wh",
+      "summary": "“This historic win gives us control over a massive part of the world’s oil supply.” – President Donald J. Trump Yesterday in Corpus Christi, Texas, President Donald J. Trump announced the arrival of the first million barrels of oil secured by the Trump Administration as part of the President’s historic Venezuela oil deal — with all oil coming to America […] The post President Trump Announces Arrival of First One Million Barrels of Oil in Texas Thanks to Historic Oil Deal appeared first on The Wh",
       "published_at": "Wed, 28 Oct 2026 12:29:46 +0000",
       "source": "white_house",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "43ef5d48f730790166f3936879be537f3a40422cc8f6432ffbe93c182d45748e",
+      "_translation_hash": "100234bd70dbf4adea0553c4ff0356b670803731a636aa708ede8939952bfd14",
       "translations": {
         "zh-CN": {
           "title": "特朗普总统宣布，由于历史性的石油交易，首批 100 万桶石油抵达德克萨斯州",
-          "summary": "“这一历史性的胜利使我们能够控制世界石油供应的很大一部分。” – 唐纳德·J·特朗普总统 昨天，在德克萨斯州科珀斯克里斯蒂，唐纳德·J·特朗普总统宣布，作为总统历史性的委内瑞拉石油协议的一部分，特朗普政府确保的第一批 100 万桶石油已抵达——所有石油都将运往美国 […] 特朗普总统宣布由于历史性石油协议，第一批 100 万桶石油抵达德克萨斯州的帖子首先出现在《The Wh》上"
-        },
-        "zh-TW": {
-          "title": "川普總統宣布，由於歷史性的石油交易，首批 100 萬桶石油抵達德州",
-          "summary": "「這場歷史性的勝利使我們控制了世界石油供應的很大一部分。」– 唐納德·J·特朗普總統 昨天，在德克薩斯州科珀斯克里斯蒂，唐納德·J·特朗普總統宣布，作為總統歷史性的委內瑞拉石油協議的一部分，特朗普政府確保的第一批 100 萬桶石油已抵達——所有石油都將運往美國 [The 70 萬桶”"
+          "summary": "“这一历史性的胜利使我们能够控制世界石油供应的很大一部分。” – 唐纳德·J·特朗普总统 昨天，在德克萨斯州科珀斯克里斯蒂，唐纳德·J·特朗普总统宣布，作为总统历史性的委内瑞拉石油协议的一部分，特朗普政府确保的第一批 100 万桶石油已抵达——所有石油均运往美国 […] 特朗普总统宣布由于历史性石油协议，第一批 100 万桶石油已抵达德克萨斯州。"
         },
         "ja": {
           "title": "トランプ大統領、歴史的な石油取引のおかげでテキサス州に最初の100万バレルの石油が到着したと発表",
-          "summary": "「この歴史的な勝利により、私たちは世界の石油供給の大部分を制御できるようになりました。」 – ドナルド・J・トランプ大統領 昨日、テキサス州コーパスクリスティで、ドナルド・J・トランプ大統領は、大統領の歴史的なベネズエラ石油取引の一環として、トランプ政権が確保した最初の100万バレルの石油が到着したと発表した - 石油はすべてアメリカに送られる […] The post トランプ大統領、歴史的な石油取引のおかげでテキサスに最初の100万バレルの石油が到着すると発表 appeared first on The Wh"
+          "summary": "「この歴史的な勝利により、私たちは世界の石油供給の大部分を制御できるようになりました。」 – ドナルド・J・トランプ大統領 昨日、テキサス州コーパスクリスティで、ドナルド・J・トランプ大統領は、大統領の歴史的なベネズエラ石油取引の一環として、トランプ政権が確保した最初の100万バレルの石油が到着したと発表した - すべての石油はアメリカに来る […] The post トランプ大統領、歴史的な石油取引のおかげでテキサスに最初の100万バレルの石油が到着すると発表 appeared first on The Wh"
         },
-        "ko": {
-          "title": "트럼프 대통령, 역사적인 석유 거래 덕분에 텍사스에 처음으로 100만 배럴의 석유가 도착했다고 발표",
-          "summary": "\"이 역사적인 승리로 우리는 세계 석유 공급의 상당 부분을 통제할 수 있게 되었습니다.\" – 도널드 J. 트럼프 대통령 어제 텍사스주 코퍼스 크리스티에서 도널드 J. 트럼프 대통령은 대통령의 역사적인 베네수엘라 석유 거래의 일환으로 트럼프 행정부가 확보한 최초의 100만 배럴의 석유가 도착했다고 발표했습니다. 모든 석유는 미국으로 공급됩니다."
+        "zh-TW": {
+          "title": "川普總統宣布，由於歷史性的石油交易，首批 100 萬桶石油抵達德州",
+          "summary": "「這場歷史性的勝利使我們能夠控制世界石油供應的很大一部分。」– 唐納德·J·特朗普總統 昨天，在德克薩斯州科珀斯克里斯蒂，唐納德·J·特朗普總統宣布，作為總統歷史性的委內瑞拉石油協議的一部分，特朗普政府確保的第一批 100 萬桶石油已抵達——所有石油均運往美國 […] 特朗普總統已宣布由於歷史性石油協議，特朗普已宣布 10 萬桶已抵達美國 […] 特朗普總統已宣布由於歷史性石油協議。"
         },
         "de": {
           "title": "Präsident Trump kündigt dank des historischen Ölabkommens die Ankunft der ersten einer Million Barrel Öl in Texas an",
           "summary": "„Dieser historische Sieg gibt uns die Kontrolle über einen riesigen Teil der weltweiten Ölversorgung.“ – Präsident Donald J. Trump Gestern gab Präsident Donald J. Trump in Corpus Christi, Texas, die Ankunft der ersten Million Barrel Öl bekannt, die sich die Trump-Administration im Rahmen des historischen Ölabkommens des Präsidenten mit Venezuela gesichert hat – wobei das gesamte Öl nach Amerika kommt […] Der Beitrag Präsident Trump kündigt die Ankunft der ersten eine Million Barrel Öl in Texas dank des historischen Ölabkommens an erschien zuerst auf The Wh"
+        },
+        "ko": {
+          "title": "트럼프 대통령, 역사적인 석유 거래 덕분에 텍사스에 처음으로 100만 배럴의 석유가 도착했다고 발표",
+          "summary": "\"이 역사적인 승리로 우리는 세계 석유 공급의 상당 부분을 통제할 수 있게 되었습니다.\" – 도널드 J. 트럼프 대통령 어제 텍사스주 코퍼스 크리스티에서 도널드 J. 트럼프 대통령은 대통령의 역사적인 베네수엘라 석유 거래의 일환으로 트럼프 행정부가 확보한 최초의 100만 배럴의 석유가 도착했다고 발표했습니다. 모든 석유는 미국으로 공급됩니다."
         },
         "fr": {
           "title": "Le président Trump annonce l’arrivée d’un premier million de barils de pétrole au Texas grâce à un accord pétrolier historique",
@@ -1393,18 +1431,6 @@
           "summary": "La Réserve fédérale publie une déclaration du FOMC"
         }
       }
-    },
-    {
-      "title": "Rental Vacancy Rate",
-      "link": "https://www.census.gov/housing/hvs/",
-      "summary": "The rental vacancy rate of 7.3 percent was not statistically different from the rate in the second quarter 2025. Compared to the second quarter 2025, the rental vacancy rate was higher in the Northeast and not statistically different in the Midwest, South, and West. 2nd Qtr 2026: +0.3* Percentage Points 2nd Qtr 2025: +0.4 Percentage Points",
-      "published_at": "Tue, 28 Jul 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "d85f7fad6c3281152c95383462001ac9642c955d5beedd518340c16d34baf2e1"
     },
     {
       "title": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",

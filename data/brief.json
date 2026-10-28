@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-28T13:56:20.652060+00:00",
+  "generated_at": "2026-10-28T14:14:39.764782+00:00",
   "direction": "neutral",
   "label_key": "balanced",
   "confidence": 79,
-  "score": -6,
+  "score": -7,
   "drivers": [
     "warsh",
     "dxy"
@@ -33,11 +33,11 @@
     }
   ],
   "next_event": {
-    "event_key": "bls_release",
-    "title": "Quarterly Data Series on Business Employment Dynamics",
-    "starts_at": "2026-10-28T14:00:00+00:00",
-    "impact": "medium",
-    "source": "BLS",
-    "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
+    "event_key": "fomc",
+    "title": "FOMC Rate Decision",
+    "starts_at": "2026-10-28T18:00:00+00:00",
+    "impact": "high",
+    "source": "CME/Federal Reserve",
+    "source_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
   }
 }
