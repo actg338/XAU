@@ -1,11 +1,10 @@
 {
-  "generated_at": "2026-10-28T19:55:54.281765+00:00",
-  "direction": "neutral",
-  "label_key": "balanced",
-  "confidence": 79,
-  "score": 5,
+  "generated_at": "2026-10-28T20:13:16.533235+00:00",
+  "direction": "bearish",
+  "label_key": "mild_bearish",
+  "confidence": 78,
+  "score": -18,
   "drivers": [
-    "warsh",
     "fedwatch"
   ],
   "counter_risks": [
