@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-10-28T05:36:00.526055+00:00",
-  "direction": "bearish",
-  "label_key": "mild_bearish",
+  "generated_at": "2026-10-28T05:44:21.874586+00:00",
+  "direction": "neutral",
+  "label_key": "balanced",
   "confidence": 84,
-  "score": -12,
+  "score": -11,
   "drivers": [
+    "warsh"
+  ],
+  "counter_risks": [
     "fedwatch",
     "xau",
     "dxy"
   ],
-  "counter_risks": [],
   "top_news": [
     {
       "title": "Fact Sheet: President Donald J. Trump Further Modifies Canadian Products Subject to Tariffs Under Section 338",
