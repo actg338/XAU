@@ -1,15 +1,7 @@
 {
-  "fetched_at": "2026-10-28T17:57:34.318876+00:00",
+  "fetched_at": "2026-10-28T18:18:21.749356+00:00",
   "timezone": "UTC",
   "events": [
-    {
-      "event_key": "fomc",
-      "title": "FOMC Rate Decision",
-      "starts_at": "2026-10-28T18:00:00+00:00",
-      "impact": "high",
-      "source": "CME/Federal Reserve",
-      "source_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
-    },
     {
       "event_key": "bls_release",
       "title": "Consumer Expenditures",
@@ -190,6 +182,14 @@
       "event_key": "bls_release",
       "title": "U.S. Import and Export Price Indexes",
       "starts_at": "2026-12-17T13:30:00+00:00",
+      "impact": "medium",
+      "source": "BLS",
+      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
+    },
+    {
+      "event_key": "bls_release",
+      "title": "Work Experience of the Population (Annual)",
+      "starts_at": "2026-12-18T15:00:00+00:00",
       "impact": "medium",
       "source": "BLS",
       "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"

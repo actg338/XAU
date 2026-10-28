@@ -1,18 +1,24 @@
 {
-  "generated_at": "2026-10-28T17:57:34.427823+00:00",
+  "generated_at": "2026-10-28T18:18:21.920569+00:00",
   "direction": "neutral",
   "label_key": "balanced",
-  "confidence": 80,
+  "confidence": 76,
   "score": -8,
   "drivers": [
     "warsh",
+    "fedwatch",
     "dxy"
   ],
   "counter_risks": [
-    "fedwatch",
     "xau"
   ],
   "top_news": [
+    {
+      "title": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "category": "monetary_policy",
+      "bias": "neutral"
+    },
     {
       "title": "Fact Sheet: President Donald J. Trump Further Modifies Canadian Products Subject to Tariffs Under Section 338",
       "link": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-further-modifies-canadian-products-subject-to-tariffs-under-section-338/",
@@ -24,20 +30,14 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "category": "monetary_policy",
       "bias": "neutral"
-    },
-    {
-      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
-      "category": "monetary_policy",
-      "bias": "neutral"
     }
   ],
   "next_event": {
-    "event_key": "fomc",
-    "title": "FOMC Rate Decision",
-    "starts_at": "2026-10-28T18:00:00+00:00",
-    "impact": "high",
-    "source": "CME/Federal Reserve",
-    "source_url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
+    "event_key": "bls_release",
+    "title": "Consumer Expenditures",
+    "starts_at": "2026-10-29T14:00:00+00:00",
+    "impact": "medium",
+    "source": "BLS",
+    "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
   }
 }
