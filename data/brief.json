@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T13:53:18.217742+00:00",
+  "generated_at": "2026-10-29T14:05:07.187134+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
   "confidence": 90,
@@ -31,10 +31,10 @@
     }
   ],
   "next_event": {
-    "event_key": "bls_release",
-    "title": "Consumer Expenditures",
-    "starts_at": "2026-10-29T14:00:00+00:00",
-    "impact": "medium",
+    "event_key": "eci",
+    "title": "Employment Cost Index",
+    "starts_at": "2026-10-30T12:30:00+00:00",
+    "impact": "high",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
   }

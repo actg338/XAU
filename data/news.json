@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-10-29T13:53:17.894448+00:00",
-  "total": 115,
+  "fetched_at": "2026-10-29T14:05:04.982368+00:00",
+  "total": 116,
   "items": [
+    {
+      "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement",
+      "link": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
+      "summary": "",
+      "published_at": "Thu, 29 Oct 2026 15:00:00 +0100",
+      "source": "ecb",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "41d21200cf4a5a67fcebe33ea4bbbbbf53fad63ee3e72add7592bfdf22eb388f",
+      "translations": {
+        "zh-CN": {
+          "title": "克里斯蒂娜·拉加德、鲍里斯·武伊契奇：货币政策声明",
+          "summary": ""
+        },
+        "ja": {
+          "title": "クリスティーヌ・ラガルド氏、ボリス・ヴァイチッチ氏：金融政策声明",
+          "summary": ""
+        },
+        "ko": {
+          "title": "Christine Lagarde, Boris Vujčić: 통화 정책 성명",
+          "summary": ""
+        },
+        "zh-TW": {
+          "title": "克里斯蒂娜·拉加德、鮑里斯·武伊契奇：貨幣政策聲明",
+          "summary": ""
+        },
+        "de": {
+          "title": "Christine Lagarde, Boris Vujčić: Erklärung zur Geldpolitik",
+          "summary": ""
+        },
+        "fr": {
+          "title": "Christine Lagarde, Boris Vujčić : Déclaration de politique monétaire",
+          "summary": ""
+        }
+      }
+    },
     {
       "title": "Monetary policy decisions",
       "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
@@ -2093,18 +2131,6 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "044af1e69df439dcfbdc5335fa821579e6cc7c52c8d2171caae18d4fc2ca7848"
-    },
-    {
-      "title": "August job openings unchanged; hires and total separations change little",
-      "link": "https://www.bls.gov/news.release/archives/jolts_09302025.htm",
-      "summary": "",
-      "published_at": "2025-09-30T10:00:00-04:00",
-      "source": "bls_jolts",
-      "category": "labor",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "50e8f44815ed60c51b21db238e068a8e70f181f62df21728e13080844889b30e"
     }
   ]
 }
