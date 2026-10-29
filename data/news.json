@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-29T09:46:42.960546+00:00",
+  "fetched_at": "2026-10-29T09:55:12.211879+00:00",
   "total": 113,
   "items": [
     {
@@ -2069,16 +2069,16 @@
       "_translation_hash": "50e8f44815ed60c51b21db238e068a8e70f181f62df21728e13080844889b30e"
     },
     {
-      "title": "U.S. International Trade in Goods and Services, August 2026",
-      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
-      "summary": "The U.S. goods and services trade deficit increased in August 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $92.8 billion in July (revised) to $105.6 billion in August, as imports increased more than exports. The goods deficit increased $12.8 billion in August to $136.6 billion. The services surplus increased less than $0.1 billion in August to $31.0 billion.",
-      "published_at": "Tue, 06 Oct 2026 08:30:00 EDT",
-      "source": "bea",
-      "category": "trade",
+      "title": "PPI for final demand increases 1.3% in September; goods advance 2.6%, services rise 0.8%",
+      "link": "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
+      "summary": "",
+      "published_at": "2026-10-15T07:50:51.146-04:00",
+      "source": "bls_ppi",
+      "category": "inflation",
       "impact": "medium",
       "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "4c621441db07326225c322c04f128788ef5bb20dffe68c37060a02d678163456"
+      "why_key": "inflation_neutral",
+      "_translation_hash": "8664b1562ed6090060f871b5acf8ca52f23a18c0161d2cf3015acbb3d55c6dad"
     }
   ]
 }
