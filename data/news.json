@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-29T20:26:35.986214+00:00",
+  "fetched_at": "2026-10-29T20:37:08.500576+00:00",
   "total": 117,
   "items": [
     {
@@ -1413,7 +1413,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
