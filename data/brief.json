@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T16:40:16.544727+00:00",
+  "generated_at": "2026-10-29T16:49:08.213073+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
   "confidence": 81,
@@ -13,6 +13,12 @@
   ],
   "top_news": [
     {
+      "title": "President Trump Unleashes the American Economy: GDP Surges as Investment Hits Multi-Year High",
+      "link": "https://www.whitehouse.gov/releases/2026/10/president-trump-unleashes-the-american-economy-gdp-surges-as-investment-hits-multi-year-high/",
+      "category": "growth",
+      "bias": "neutral"
+    },
+    {
       "title": "Federal Reserve issues FOMC statement",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "category": "monetary_policy",
@@ -22,12 +28,6 @@
       "title": "Fact Sheet: President Donald J. Trump Further Modifies Canadian Products Subject to Tariffs Under Section 338",
       "link": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-further-modifies-canadian-products-subject-to-tariffs-under-section-338/",
       "category": "trade",
-      "bias": "neutral"
-    },
-    {
-      "title": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-      "category": "monetary_policy",
       "bias": "neutral"
     }
   ],
