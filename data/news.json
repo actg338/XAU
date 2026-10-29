@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-29T08:50:56.990277+00:00",
+  "fetched_at": "2026-10-29T08:59:30.265218+00:00",
   "total": 113,
   "items": [
     {
@@ -2069,16 +2069,16 @@
       "_translation_hash": "50e8f44815ed60c51b21db238e068a8e70f181f62df21728e13080844889b30e"
     },
     {
-      "title": "Both payroll employment (+29,000) and unemployment rate (4.2%) change little in September",
-      "link": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
+      "title": "CPI for all items increases 0.6% in September; gasoline rises",
+      "link": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
       "summary": "",
-      "published_at": "2026-10-02T07:51:08.289-04:00",
-      "source": "bls_jobs",
-      "category": "labor",
+      "published_at": "2026-10-14T07:50:31.2-04:00",
+      "source": "bls_cpi",
+      "category": "inflation",
       "impact": "high",
       "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "96841db93c0b04c1b65eabfa6b25531e2ea9b14f1619ecf8beef34b102ef9ef5"
+      "why_key": "inflation_neutral",
+      "_translation_hash": "7fef741aac2905fa4409098c1ff216f28dca8a73df99fa4b092c6807717f5588"
     }
   ]
 }
