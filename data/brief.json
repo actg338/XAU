@@ -1,16 +1,15 @@
 {
-  "generated_at": "2026-10-29T23:44:11.072095+00:00",
+  "generated_at": "2026-10-29T23:52:50.854176+00:00",
   "direction": "bearish",
   "label_key": "mild_bearish",
-  "confidence": 78,
-  "score": -20,
+  "confidence": 87,
+  "score": -26,
   "drivers": [
     "fedwatch",
-    "xau"
-  ],
-  "counter_risks": [
+    "xau",
     "dxy"
   ],
+  "counter_risks": [],
   "top_news": [
     {
       "title": "President Trump Unleashes the American Economy: GDP Surges as Investment Hits Multi-Year High",
