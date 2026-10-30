@@ -1,26 +1,26 @@
 {
   "market": "COMEX Gold Futures",
   "marketCode": "088691",
-  "reportDate": "2026-10-20",
-  "previousReportDate": "2026-10-13",
-  "publishedAt": "2026-10-30T19:29:22.691852+00:00",
-  "openInterest": 402279,
+  "reportDate": "2026-10-27",
+  "previousReportDate": "2026-10-20",
+  "publishedAt": "2026-10-30T19:37:59.417341+00:00",
+  "openInterest": 396810,
   "producer": {
-    "long": 19715,
-    "short": 34498,
-    "net": -14783
+    "long": 20487,
+    "short": 30061,
+    "net": -9574
   },
   "swapDealer": {
-    "long": 17737,
-    "short": 238536,
-    "net": -220799
+    "long": 20230,
+    "short": 226280,
+    "net": -206050
   },
   "managedMoney": {
-    "long": 120970,
-    "short": 16764,
-    "net": 104206
+    "long": 122508,
+    "short": 16946,
+    "net": 105562
   },
-  "managedMoneyWeeklyChange": -2883,
+  "managedMoneyWeeklyChange": 1356,
   "source": "https://www.cftc.gov/files/dea/history/fut_disagg_txt_2026.zip",
   "frequency": "weekly"
 }
