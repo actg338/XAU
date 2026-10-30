@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-30T05:14:36.766275+00:00",
+  "fetched_at": "2026-10-30T05:25:29.628655+00:00",
   "total": 117,
   "items": [
     {
@@ -121,7 +121,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 28 Oct 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -653,7 +653,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
       "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
       "published_at": "Tue, 13 Oct 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1375,7 +1375,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
