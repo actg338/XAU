@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-30T12:21:58.217777+00:00",
+  "generated_at": "2026-10-30T12:36:40.900842+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
   "confidence": 81,
-  "score": -36,
+  "score": -35,
   "drivers": [
     "fedwatch",
     "xau"
@@ -32,9 +32,9 @@
     }
   ],
   "next_event": {
-    "event_key": "eci",
-    "title": "Employment Cost Index",
-    "starts_at": "2026-10-30T12:30:00+00:00",
+    "event_key": "jolts",
+    "title": "Job Openings and Labor Turnover Survey",
+    "starts_at": "2026-11-03T15:00:00+00:00",
     "impact": "high",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
