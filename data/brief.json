@@ -1,17 +1,15 @@
 {
-  "generated_at": "2026-11-02T16:58:45.534959+00:00",
-  "direction": "neutral",
-  "label_key": "balanced",
-  "confidence": 75,
-  "score": 7,
+  "generated_at": "2026-11-03T19:37:10.324316+00:00",
+  "direction": "bearish",
+  "label_key": "mild_bearish",
+  "confidence": 88,
+  "score": -32,
   "drivers": [
-    "warsh"
-  ],
-  "counter_risks": [
     "fedwatch",
     "xau",
     "dxy"
   ],
+  "counter_risks": [],
   "top_news": [
     {
       "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
@@ -33,10 +31,10 @@
     }
   ],
   "next_event": {
-    "event_key": "jolts",
-    "title": "Job Openings and Labor Turnover Survey",
-    "starts_at": "2026-11-03T15:00:00+00:00",
-    "impact": "high",
+    "event_key": "bls_release",
+    "title": "Productivity and Costs",
+    "starts_at": "2026-11-05T13:30:00+00:00",
+    "impact": "medium",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
   }
