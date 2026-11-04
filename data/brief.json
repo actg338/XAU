@@ -1,16 +1,23 @@
 {
-  "generated_at": "2026-11-03T19:37:10.324316+00:00",
+  "generated_at": "2026-11-04T00:11:40.541472+00:00",
   "direction": "bearish",
   "label_key": "mild_bearish",
-  "confidence": 88,
-  "score": -32,
+  "confidence": 79,
+  "score": -24,
   "drivers": [
     "fedwatch",
-    "xau",
     "dxy"
   ],
-  "counter_risks": [],
+  "counter_risks": [
+    "xau"
+  ],
   "top_news": [
+    {
+      "title": "ICYMI: Drug Prices Are Falling at the Fastest Rate in Over 60 Years Under President Trump",
+      "link": "https://www.whitehouse.gov/releases/2026/11/icymi-drug-prices-are-falling-at-the-fastest-rate-in-over-60-years-under-president-trump/",
+      "category": "inflation",
+      "bias": "neutral"
+    },
     {
       "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
       "link": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html",
@@ -21,12 +28,6 @@
       "title": "President Trump Unleashes the American Economy: GDP Surges as Investment Hits Multi-Year High",
       "link": "https://www.whitehouse.gov/releases/2026/10/president-trump-unleashes-the-american-economy-gdp-surges-as-investment-hits-multi-year-high/",
       "category": "growth",
-      "bias": "neutral"
-    },
-    {
-      "title": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-      "category": "monetary_policy",
       "bias": "neutral"
     }
   ],
