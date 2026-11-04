@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-11-04T06:30:14.872370+00:00",
+  "fetched_at": "2026-11-04T14:49:59.434221+00:00",
   "total": 119,
   "items": [
+    {
+      "title": "U.S. International Trade in Goods and Services",
+      "link": "https://www.census.gov/foreign-trade/index.html",
+      "summary": "The nation's international trade deficit in goods and services decreased to $105.0 billion in September from $105.7 billion in August (revised), as exports increased more than imports. September 2026: -0.7° % Change August 2026 (r): 13.9° % Change",
+      "published_at": "Wed, 04 Nov 2026 08:30:00 -0500",
+      "source": "census",
+      "category": "trade",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "trade_neutral",
+      "_translation_hash": "d5ed42711abc8449b4cfdac83bc612cd8e55408d1481ae6b3ca93b972ce09920",
+      "translations": {
+        "zh-CN": {
+          "title": "美国国际商品和服务贸易",
+          "summary": "由于出口增幅超过进口增幅，该国 9 月份商品和服务国际贸易逆差从 8 月份的 1,057 亿美元（修正后）降至 1,050 亿美元。 2026 年 9 月：-0.7° 变化百分比 2026 年 8 月 (r)：13.9° 变化百分比"
+        },
+        "ja": {
+          "title": "米国の商品とサービスの国際貿易",
+          "summary": "輸出の増加が輸入を上回ったため、同国の商品とサービスの国際貿易赤字は、8月の1,057億ドル（改定値）から9月には1,050億ドルに減少した。 2026年9月: -0.7° %変化 2026年8月(r): 13.9° %変化"
+        },
+        "zh-TW": {
+          "title": "美國國際商品與服務貿易",
+          "summary": "由於出口增幅超過進口增幅，該國 9 月商品和服務國際貿易逆差從 8 月的 1,057 億美元（修正後）降至 1,050 億美元。 2026 年 9 月：-0.7° 變化百分比 2026 年 8 月 (r)：13.9° 變化百分比"
+        },
+        "de": {
+          "title": "Internationaler Handel der USA mit Waren und Dienstleistungen",
+          "summary": "Das internationale Handelsdefizit des Landes bei Waren und Dienstleistungen sank von 105,7 Milliarden US-Dollar im August (revidiert) auf 105,0 Milliarden US-Dollar im September, da die Exporte stärker zunahmen als die Importe. September 2026: -0,7° % Veränderung August 2026 (r): 13,9° % Veränderung"
+        },
+        "ko": {
+          "title": "미국의 상품 및 서비스 국제 무역",
+          "summary": "수출이 수입보다 더 많이 증가함에 따라 상품 및 서비스 분야의 국가 국제 무역 적자는 8월(개정)의 1,057억 달러에서 9월 1,050억 달러로 감소했습니다. 2026년 9월: -0.7° % 변화 2026년 8월(r): 13.9° % 변화"
+        },
+        "fr": {
+          "title": "Commerce international des biens et services des États-Unis",
+          "summary": "Le déficit du commerce international des biens et services du pays a diminué à 105,0 milliards de dollars en septembre contre 105,7 milliards de dollars en août (révisé), les exportations ayant augmenté plus que les importations. Septembre 2026 : -0,7° % Variation Août 2026 (r) : 13,9° % Variation"
+        }
+      }
+    },
     {
       "title": "ICYMI: Drug Prices Are Falling at the Fastest Rate in Over 60 Years Under President Trump",
       "link": "https://www.whitehouse.gov/releases/2026/11/icymi-drug-prices-are-falling-at-the-fastest-rate-in-over-60-years-under-president-trump/",
@@ -311,7 +349,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 28 Oct 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -767,7 +805,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
       "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
       "published_at": "Tue, 13 Oct 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -949,44 +987,6 @@
         "de": {
           "title": "Bowman, Modernisierung der Regulierungs- und Aufsichtslandschaft",
           "summary": "Rede auf der Community Banking Research Conference 2026, gesponsert vom Federal Reserve System, der Conference of State Bank Supervisors und der Federal Deposit Insurance Corporation, St. Louis, Missouri"
-        }
-      }
-    },
-    {
-      "title": "U.S. International Trade in Goods and Services",
-      "link": "https://www.census.gov/foreign-trade/index.html",
-      "summary": "The nation's international trade deficit in goods and services increased to $105.6 billion in August from $92.8 billion in July (revised), as imports increased more than exports. August 2026: 13.7° % Change July 2026 (r): 30.4° % Change",
-      "published_at": "Tue, 06 Oct 2026 08:30:00 -0400",
-      "source": "census",
-      "category": "trade",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "57a78a38ef0f679f37e5cc5059575429f0c113e3db19bf6961feb52876b1b4d6",
-      "translations": {
-        "zh-CN": {
-          "title": "美国国际商品和服务贸易",
-          "summary": "由于进口增幅超过出口增幅，8 月份该国商品和服务国际贸易逆差从 7 月份的 928 亿美元（修正后）增至 1056 亿美元。 2026 年 8 月：13.7° 变化百分比 2026 年 7 月 (r)：30.4° 变化百分比"
-        },
-        "zh-TW": {
-          "title": "美國國際商品與服務貿易",
-          "summary": "由於進口增幅超過出口增幅，8 月該國商品和服務國際貿易逆差從 7 月的 928 億美元（修正後）增加至 1,056 億美元。 2026 年 8 月：13.7° 變化百分比 2026 年 7 月 (r)：30.4° 變化百分比"
-        },
-        "ja": {
-          "title": "米国の商品とサービスの国際貿易",
-          "summary": "The nation's international trade deficit in goods and services increased to $105.6 billion in August from $92.8 billion in July (revised), as imports increased more than exports. 2026年8月: 13.7° %変化 2026年7月(r): 30.4° %変化"
-        },
-        "ko": {
-          "title": "미국의 상품 및 서비스 국제 무역",
-          "summary": "상품 및 서비스 부문의 국가 국제 무역 적자는 수출보다 수입이 더 많이 증가함에 따라 7월(개정)의 928억 달러에서 8월 1,056억 달러로 증가했습니다. 2026년 8월: 13.7° % 변화 2026년 7월(r): 30.4° % 변화"
-        },
-        "de": {
-          "title": "Internationaler Handel der USA mit Waren und Dienstleistungen",
-          "summary": "Das internationale Handelsdefizit des Landes bei Waren und Dienstleistungen stieg im August von 92,8 Milliarden US-Dollar im Juli (revidiert) auf 105,6 Milliarden US-Dollar, da die Importe stärker zunahmen als die Exporte. August 2026: 13,7° % Veränderung Juli 2026 (r): 30,4° % Veränderung"
-        },
-        "fr": {
-          "title": "Commerce international des biens et services des États-Unis",
-          "summary": "Le déficit du commerce international des biens et services du pays a augmenté pour atteindre 105,6 milliards de dollars en août, contre 92,8 milliards de dollars en juillet (révisé), les importations ayant augmenté plus que les exportations. Août 2026 : 13,7° % Variation Juillet 2026 (r) : 30,4° % Variation"
         }
       }
     },
@@ -1451,7 +1451,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
