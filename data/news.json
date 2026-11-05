@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-11-05T01:25:23.212135+00:00",
-  "total": 118,
+  "fetched_at": "2026-11-05T08:18:15.691340+00:00",
+  "total": 119,
   "items": [
+    {
+      "title": "Isabel Schnabel: Navigating stormy waters: reflections on monetary policy",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html",
+      "summary": "",
+      "published_at": "Thu, 05 Nov 2026 09:00:00 +0100",
+      "source": "ecb",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "63978c499a3e32a2ec076298a7d1c4cd256608f1d27079d21df044a62891fed6",
+      "translations": {
+        "ja": {
+          "title": "イザベル・シュナーベル: 荒波を乗り越える: 金融政策についての考察",
+          "summary": ""
+        },
+        "zh-CN": {
+          "title": "伊莎贝尔·施纳贝尔：渡过惊涛骇浪：对货币政策的反思",
+          "summary": ""
+        },
+        "ko": {
+          "title": "이사벨 슈나벨: 폭풍우를 헤쳐나가기: 통화 정책에 대한 성찰",
+          "summary": ""
+        },
+        "zh-TW": {
+          "title": "伊莎貝爾·施納貝爾：渡過驚濤駭浪：對貨幣政策的反思",
+          "summary": ""
+        },
+        "de": {
+          "title": "Isabel Schnabel: Durch stürmische Gewässer navigieren: Überlegungen zur Geldpolitik",
+          "summary": ""
+        },
+        "fr": {
+          "title": "Isabel Schnabel : Naviguer en eaux tumultueuses : réflexions sur la politique monétaire",
+          "summary": ""
+        }
+      }
+    },
     {
       "title": "U.S. International Trade in Goods and Services",
       "link": "https://www.census.gov/foreign-trade/index.html",
@@ -349,7 +387,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 28 Oct 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -767,7 +805,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
       "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
       "published_at": "Tue, 13 Oct 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1413,7 +1451,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 16 Sep 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -2171,18 +2209,6 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
-    },
-    {
-      "title": "PPI for final demand advances 0.3% in September; goods rise 0.9%, services unchanged",
-      "link": "https://www.bls.gov/news.release/archives/ppi_11252025.htm",
-      "summary": "",
-      "published_at": "2025-11-25T08:30:00-05:00",
-      "source": "bls_ppi",
-      "category": "inflation",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "4580557ddb6ea1d4834c1b15c41a3149ef83d749f8ae34cb0c4cceec56f369f8"
     }
   ]
 }
