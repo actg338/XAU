@@ -1,16 +1,15 @@
 {
-  "generated_at": "2026-11-05T22:14:48.631481+00:00",
+  "generated_at": "2026-11-06T02:33:56.182930+00:00",
   "direction": "bearish",
   "label_key": "mild_bearish",
-  "confidence": 77,
-  "score": -15,
+  "confidence": 88,
+  "score": -30,
   "drivers": [
     "fedwatch",
+    "xau",
     "dxy"
   ],
-  "counter_risks": [
-    "xau"
-  ],
+  "counter_risks": [],
   "top_news": [
     {
       "title": "ICYMI: Drug Prices Are Falling at the Fastest Rate in Over 60 Years Under President Trump",
