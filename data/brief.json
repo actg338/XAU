@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-06T09:49:13.064903+00:00",
+  "generated_at": "2026-11-06T16:58:28.723949+00:00",
   "direction": "bearish",
-  "label_key": "mild_bearish",
-  "confidence": 88,
-  "score": -32,
+  "label_key": "strong_bearish",
+  "confidence": 90,
+  "score": -40,
   "drivers": [
     "fedwatch",
     "xau",
@@ -11,6 +11,12 @@
   ],
   "counter_risks": [],
   "top_news": [
+    {
+      "title": "President Trump Was Right: Tariffs and Tax Cuts Are Reshoring Manufacturing, Creating Jobs",
+      "link": "https://www.whitehouse.gov/releases/2026/11/president-trump-was-right-tariffs-and-tax-cuts-are-reshoring-manufacturing-creating-jobs/",
+      "category": "trade",
+      "bias": "neutral"
+    },
     {
       "title": "ICYMI: Drug Prices Are Falling at the Fastest Rate in Over 60 Years Under President Trump",
       "link": "https://www.whitehouse.gov/releases/2026/11/icymi-drug-prices-are-falling-at-the-fastest-rate-in-over-60-years-under-president-trump/",
@@ -22,19 +28,13 @@
       "link": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html",
       "category": "monetary_policy",
       "bias": "neutral"
-    },
-    {
-      "title": "President Trump Unleashes the American Economy: GDP Surges as Investment Hits Multi-Year High",
-      "link": "https://www.whitehouse.gov/releases/2026/10/president-trump-unleashes-the-american-economy-gdp-surges-as-investment-hits-multi-year-high/",
-      "category": "growth",
-      "bias": "neutral"
     }
   ],
   "next_event": {
-    "event_key": "nfp",
-    "title": "Employment Situation",
-    "starts_at": "2026-11-06T13:30:00+00:00",
-    "impact": "high",
+    "event_key": "bls_release",
+    "title": "Real Earnings",
+    "starts_at": "2026-11-10T13:30:00+00:00",
+    "impact": "medium",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
   }
