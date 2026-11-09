@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-11-08T23:27:37.804699+00:00",
-  "direction": "bearish",
-  "label_key": "mild_bearish",
-  "confidence": 79,
-  "score": -24,
+  "generated_at": "2026-11-09T02:55:36.909865+00:00",
+  "direction": "neutral",
+  "label_key": "balanced",
+  "confidence": 75,
+  "score": -7,
   "drivers": [
-    "fedwatch",
-    "xau"
+    "warsh"
   ],
   "counter_risks": [
+    "fedwatch",
+    "xau",
     "dxy"
   ],
   "top_news": [
