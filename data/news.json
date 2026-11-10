@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-11-10T03:43:36.150958+00:00",
+  "fetched_at": "2026-11-10T11:51:01.058441+00:00",
   "total": 119,
   "items": [
+    {
+      "title": "Waller, The Economic Outlook and Some Thoughts on Labor Market Dynamism",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
+      "summary": "Speech At the Bank of England Watchers Conference King’s Business School and Money, Macro and Finance Society, London, United Kingdom",
+      "published_at": "Tue, 10 Nov 2026 09:00:00 GMT",
+      "source": "fed_remarks",
+      "category": "labor",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "0144fe38b195de012cd930d48b2836db74a5c9478ea5426d19756f5f65a96f0e"
+    },
     {
       "title": "Monthly Wholesale Trade: Sales and Inventories",
       "link": "https://www.census.gov/wholesale/index.html",
@@ -1378,44 +1390,6 @@
         },
         "fr": {
           "title": "Bowman, premières conclusions de l'examen indépendant de la Silicon Valley Bank",
-          "summary": "Discours lors du déjeuner du lord-maire de la ville de Londres à Mansion House, Londres, Royaume-Uni"
-        }
-      }
-    },
-    {
-      "title": "Bowman, The Final Chapter on Modernizing Bank Regulatory Stress Testing",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260918a.htm",
-      "summary": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom",
-      "published_at": "Fri, 18 Sep 2026 13:30:00 GMT",
-      "source": "fed_remarks",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "480e1107231a2eb38239520d6145e8f3574477c795c19321344debb8cadd3255",
-      "translations": {
-        "ja": {
-          "title": "ボウマン著『銀行規制ストレステストの近代化に関する最終章』",
-          "summary": "英国ロンドンのマンションハウスでのロンドン市長の昼食会でのスピーチ"
-        },
-        "zh-CN": {
-          "title": "鲍曼，银行监管压力测试现代化的最后一章",
-          "summary": "在英国伦敦 Mansion House 伦敦市市长午餐会上的讲话"
-        },
-        "zh-TW": {
-          "title": "鮑曼，銀行監理壓力測試現代化的最後一章",
-          "summary": "在英國倫敦 Mansion House 倫敦市長午餐會上的講話"
-        },
-        "ko": {
-          "title": "Bowman, 은행 규제 스트레스 테스트 현대화의 마지막 장",
-          "summary": "영국 런던 맨션 하우스에서 열린 런던 시장 오찬 연설"
-        },
-        "de": {
-          "title": "Bowman, Das letzte Kapitel zur Modernisierung der regulatorischen Stresstests für Banken",
-          "summary": "Rede beim Mittagessen des Oberbürgermeisters der Stadt London im Mansion House, London, Vereinigtes Königreich"
-        },
-        "fr": {
-          "title": "Bowman, Le dernier chapitre sur la modernisation des tests de résistance réglementaires bancaires",
           "summary": "Discours lors du déjeuner du lord-maire de la ville de Londres à Mansion House, Londres, Royaume-Uni"
         }
       }
