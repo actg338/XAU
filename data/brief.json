@@ -1,17 +1,14 @@
 {
-  "generated_at": "2026-11-09T21:25:15.941210+00:00",
-  "direction": "neutral",
-  "label_key": "balanced",
-  "confidence": 75,
-  "score": 6,
+  "generated_at": "2026-11-10T03:43:45.261078+00:00",
+  "direction": "bearish",
+  "label_key": "mild_bearish",
+  "confidence": 85,
+  "score": -33,
   "drivers": [
-    "warsh"
-  ],
-  "counter_risks": [
     "fedwatch",
-    "xau",
-    "dxy"
+    "xau"
   ],
+  "counter_risks": [],
   "top_news": [
     {
       "title": "President Trump Was Right: Tariffs and Tax Cuts Are Reshoring Manufacturing, Creating Jobs",
