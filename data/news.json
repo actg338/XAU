@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-11-10T19:03:56.908673+00:00",
-  "total": 120,
+  "fetched_at": "2026-11-10T23:59:44.186032+00:00",
+  "total": 119,
   "items": [
+    {
+      "title": "Bowman, The U.S. Economy and Considerations for Monetary Policy",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm",
+      "summary": "Speech At the C. Peter McColough Series on International Economics Council on Foreign Relations, Washington, D.C.",
+      "published_at": "Tue, 10 Nov 2026 20:30:00 GMT",
+      "source": "fed_remarks",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "f001259bc01299e499b3ec5e27cb75284ef3fb41d3d123935ee4429473e21094",
+      "translations": {
+        "ja": {
+          "title": "ボウマン、米国経済と金融政策の考察",
+          "summary": "ワシントンD.C.の外交問題評議会の国際経済に関するC.ピーター・マッコロー・シリーズでのスピーチ"
+        },
+        "zh-CN": {
+          "title": "鲍曼，美国经济和货币政策考虑",
+          "summary": "在外交关系委员会国际经济委员会 C. Peter McColough 系列会议上的演讲，华盛顿特区"
+        },
+        "de": {
+          "title": "Bowman, Die US-Wirtschaft und Überlegungen zur Geldpolitik",
+          "summary": "Rede bei der C. Peter McColough Series on International Economics Council on Foreign Relations, Washington, D.C."
+        },
+        "zh-TW": {
+          "title": "鮑曼，美國經濟與貨幣政策考慮",
+          "summary": "在外交關係委員會國際經濟委員會 C. Peter McColough 系列會議上的演講，華盛頓特區"
+        },
+        "ko": {
+          "title": "Bowman, 미국경제와 통화정책에 대한 고찰",
+          "summary": "워싱턴 DC에서 열린 국제경제협의회(International Economics Council on Foreign Relations)에서 C. Peter McColough 시리즈 연설"
+        },
+        "fr": {
+          "title": "Bowman, L'économie américaine et les considérations relatives à la politique monétaire",
+          "summary": "Discours prononcé lors de la série C. Peter McColough sur l'économie internationale du Conseil des relations étrangères, Washington, D.C."
+        }
+      }
+    },
     {
       "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
       "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html",
@@ -12,7 +50,33 @@
       "impact": "medium",
       "gold_bias": "neutral",
       "why_key": "monetary_policy_neutral",
-      "_translation_hash": "8fa124ff65ebb010f0f87b518b092283adf71bc62745fe079354d33fb5f5b187"
+      "_translation_hash": "8fa124ff65ebb010f0f87b518b092283adf71bc62745fe079354d33fb5f5b187",
+      "translations": {
+        "ja": {
+          "title": "フィリップ・R・レーン: 金融政策コミュニケーションの科学と実践: ECB の経験",
+          "summary": ""
+        },
+        "zh-CN": {
+          "title": "Philip R. Lane：货币政策沟通的科学与实践：欧洲央行的经验",
+          "summary": ""
+        },
+        "de": {
+          "title": "Philip R. Lane: Wissenschaft und Praxis der geldpolitischen Kommunikation: die Erfahrung der EZB",
+          "summary": ""
+        },
+        "zh-TW": {
+          "title": "Philip R. Lane：貨幣政策溝通的科學與實踐：歐洲央行的經驗",
+          "summary": ""
+        },
+        "ko": {
+          "title": "Philip R. Lane: 통화 정책 커뮤니케이션의 과학과 실제: ECB 경험",
+          "summary": ""
+        },
+        "fr": {
+          "title": "Philip R. Lane : La science et la pratique de la communication sur la politique monétaire : l'expérience de la BCE",
+          "summary": ""
+        }
+      }
     },
     {
       "title": "Waller, The Economic Outlook and Some Thoughts on Labor Market Dynamism",
@@ -24,7 +88,33 @@
       "impact": "medium",
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
-      "_translation_hash": "0144fe38b195de012cd930d48b2836db74a5c9478ea5426d19756f5f65a96f0e"
+      "_translation_hash": "0144fe38b195de012cd930d48b2836db74a5c9478ea5426d19756f5f65a96f0e",
+      "translations": {
+        "ja": {
+          "title": "ウォーラー、経済見通しと労働市場のダイナミズムに関する考察",
+          "summary": "英国、ロンドンのキングス・ビジネス・スクールとマネー・マクロ・金融協会でのイングランド銀行ウォッチャー会議での講演"
+        },
+        "zh-CN": {
+          "title": "沃勒，经济展望和对劳动力市场动态的一些思考",
+          "summary": "在英国伦敦国王商学院和货币、宏观与金融学会英格兰银行观察者会议上的演讲"
+        },
+        "de": {
+          "title": "Waller, The Economic Outlook und einige Gedanken zur Arbeitsmarktdynamik",
+          "summary": "Rede auf der Bank of England Watchers Conference der King’s Business School und der Money, Macro and Finance Society, London, Vereinigtes Königreich"
+        },
+        "zh-TW": {
+          "title": "沃勒，經濟展望與對勞動市場動態的一些思考",
+          "summary": "在英國倫敦國王商學院和貨幣、宏觀與金融學會英格蘭銀行觀察者會議上的演講"
+        },
+        "ko": {
+          "title": "Waller, 경제 전망과 노동 시장 역동성에 대한 몇 가지 생각",
+          "summary": "영국 런던에서 열린 영국 은행 감시자 회의(Bank of England Watchers Conference)에서 연설"
+        },
+        "fr": {
+          "title": "Waller, Les perspectives économiques et quelques réflexions sur le dynamisme du marché du travail",
+          "summary": "Discours prononcé à la conférence des observateurs de la Banque d'Angleterre, King's Business School et Money, Macro and Finance Society, Londres, Royaume-Uni"
+        }
+      }
     },
     {
       "title": "Monthly Wholesale Trade: Sales and Inventories",
@@ -36,7 +126,33 @@
       "impact": "medium",
       "gold_bias": "neutral",
       "why_key": "trade_neutral",
-      "_translation_hash": "eff736178547ca4897903e0a909cc8796206ad51ea29de70fad76243da37343b"
+      "_translation_hash": "eff736178547ca4897903e0a909cc8796206ad51ea29de70fad76243da37343b",
+      "translations": {
+        "ja": {
+          "title": "月次卸売業の売上と在庫",
+          "summary": "2026年9月の商業卸売業者の売上高は8,401億ドルで、前月比2.8パーセント（±0.4パーセント）増加しました。月末の在庫は１兆０１３１億ドルで、前月比０．７％（±０．２％）増加した。 2026年9月: +0.7 % 在庫変動 2026年8月(r): +0.6 % 在庫変動"
+        },
+        "zh-CN": {
+          "title": "月度批发贸易：销售和库存",
+          "summary": "2026 年 9 月商业批发商销售额为 8,401 亿美元，比上月增长 2.8%（+/- 0.4%）。月末库存为 10,131 亿美元，比上月增长 0.7%（+/- 0.2%）。 2026 年 9 月：库存变化 +0.7% 2026 年 8 月 (r)：库存变化 +0.6%"
+        },
+        "de": {
+          "title": "Monatlicher Großhandel: Verkäufe und Lagerbestände",
+          "summary": "Der Umsatz der Handelsgroßhändler belief sich im September 2026 auf 840,1 Milliarden US-Dollar, ein Plus von 2,8 Prozent (+/- 0,4 Prozent) gegenüber dem Vormonat. Die Lagerbestände zum Monatsende beliefen sich auf 1.013,1 Milliarden US-Dollar, ein Plus von 0,7 Prozent (+/- 0,2 Prozent) gegenüber dem Vormonat. September 2026: +0,7 % Bestandsveränderung August 2026 (r): +0,6 % Bestandsveränderung"
+        },
+        "zh-TW": {
+          "title": "月度批發貿易：銷售和庫存",
+          "summary": "2026 年 9 月商業批發商銷售額為 8,401 億美元，較上月成長 2.8%（+/- 0.4%）。月末庫存為 10,131 億美元，比上月增長 0.7%（+/- 0.2%）。 2026 年 9 月：庫存變化 +0.7% 2026 年 8 月 (r)：庫存變化 +0.6%"
+        },
+        "ko": {
+          "title": "월별 도매 무역: 판매 및 재고",
+          "summary": "2026년 9월 도매상 매출은 8,401억 달러로 전월 대비 2.8%(+/-0.4%) 증가했습니다. 월말 재고자산은 1조131억 달러로 전월 대비 0.7%(+/-0.2%) 증가했다. 2026년 9월: 재고 변동 +0.7% 2026년 8월(r): 재고 변동 +0.6%"
+        },
+        "fr": {
+          "title": "Commerce de gros mensuel : ventes et stocks",
+          "summary": "En septembre 2026, les ventes des grossistes marchands s'élevaient à 840,1 milliards de dollars, en hausse de 2,8 % (+/- 0,4 %) par rapport au mois dernier. Les stocks de fin de mois s'élevaient à 1.013,1 milliards de dollars, en hausse de 0,7 pour cent (+/- 0,2 pour cent) par rapport au mois dernier. Septembre 2026 : +0,7 % variation des stocks Août 2026 (r) : +0,6 % variation des stocks"
+        }
+      }
     },
     {
       "title": "President Trump Was Right: Tariffs and Tax Cuts Are Reshoring Manufacturing, Creating Jobs",
@@ -381,44 +497,6 @@
       }
     },
     {
-      "title": "President Trump Unleashes the American Economy: GDP Surges as Investment Hits Multi-Year High",
-      "link": "https://www.whitehouse.gov/releases/2026/10/president-trump-unleashes-the-american-economy-gdp-surges-as-investment-hits-multi-year-high/",
-      "summary": "The U.S. economy grew at a strong annual rate of 3.4% in the third quarter of 2026 — the strongest pace in a year. President Donald J. Trump’s America First agenda is delivering as promised: faster growth, historic levels of investment, and an economy that continues to outperform the so-called “experts.” Here’s what you need […] The post President Trump Unleashes the American Economy: GDP Surges as Investment Hits Multi-Year High appeared first on The White House .",
-      "published_at": "Thu, 29 Oct 2026 16:27:20 +0000",
-      "source": "white_house",
-      "category": "growth",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "growth_neutral",
-      "_translation_hash": "39d40112d2061062f23f29d8e7aa48205a2679c93b6bd9776a7b572fa0a3330d",
-      "translations": {
-        "zh-CN": {
-          "title": "特朗普总统释放美国经济：GDP飙升，投资创多年新高",
-          "summary": "2026 年第三季度，美国经济以 3.4% 的强劲年增长率增长，这是一年来最强劲的增速。唐纳德·J·特朗普总统的美国优先议程正在兑现承诺：更快的增长、历史性的投资水平以及继续跑赢所谓“专家”的经济。这就是您所需要的 [...] 特朗普总统释放美国经济：随着投资达到多年高点，国内生产总值激增，首先出现在白宫。"
-        },
-        "ja": {
-          "title": "トランプ大統領がアメリカ経済を活性化：投資が数年ぶりの高水準に達し、GDPが急増",
-          "summary": "米国経済は、2026 年第 3 四半期に年率 3.4% という高い成長率を記録しました。これは、1 年で最も強いペースでした。ドナルド・J・トランプ大統領のアメリカ第一の政策は、約束通り実現しつつある。すなわち、より速い成長、歴史的なレベルの投資、いわゆる「専門家」を上回り続ける経済である。必要なものは次のとおりです […] The post トランプ大統領がアメリカ経済を解き放つ: 投資が数年ぶりの高水準に達し、GDP が急増 最初にホワイトハウスに掲載されました。"
-        },
-        "ko": {
-          "title": "트럼프 대통령, 미국 경제 활성화: 투자가 수년 최고치에 도달하면서 GDP 급등",
-          "summary": "미국 경제는 2026년 3분기에 연간 3.4%의 강력한 성장률을 기록했는데, 이는 1년 만에 가장 강력한 속도였습니다. 도널드 J. 트럼프 대통령의 America First 어젠다는 약속대로 실행되고 있습니다. 즉, 더 빠른 성장, 역사적 수준의 투자, 소위 \"전문가\"를 계속해서 능가하는 경제입니다. 필요한 것은 다음과 같습니다. [...] 트럼프 대통령이 미국 경제를 활성화합니다: 투자가 수년 최고치를 기록하면서 GDP 급증이 백악관에 처음으로 등장했습니다."
-        },
-        "zh-TW": {
-          "title": "川普總統釋放美國經濟：GDP飆升，投資創多年新高",
-          "summary": "2026 年第三季度，美國經濟以 3.4% 的強勁年增長率成長，這是一年來最強勁的成長速度。唐納德·J·川普總統的美國優先議程正在兌現承諾：更快的成長、歷史性的投資水平以及繼續跑贏所謂「專家」的經濟。這就是您所需要的 [...] 川普總統釋放美國經濟：隨著投資達到多年高點，國內生產總值激增，首先出現在白宮。"
-        },
-        "de": {
-          "title": "Präsident Trump entfesselt die amerikanische Wirtschaft: Das BIP steigt, während die Investitionen ein Mehrjahreshoch erreichen",
-          "summary": "Die US-Wirtschaft wuchs im dritten Quartal 2026 mit einer starken jährlichen Rate von 3,4 % – dem stärksten Tempo seit einem Jahr. Die „America First“-Agenda von Präsident Donald J. Trump hält, was sie verspricht: schnelleres Wachstum, historische Investitionsniveaus und eine Wirtschaft, die weiterhin die sogenannten „Experten“ übertrifft. Hier ist, was Sie brauchen […] Der Beitrag „Präsident Trump entfesselt die amerikanische Wirtschaft: BIP steigt, da Investitionen ein Mehrjahreshoch erreichen“ erschien zuerst im Weißen Haus."
-        },
-        "fr": {
-          "title": "Le président Trump libère l’économie américaine : le PIB augmente alors que l’investissement atteint son plus haut niveau depuis plusieurs années",
-          "summary": "L’économie américaine a connu une forte croissance annuelle de 3,4 % au troisième trimestre 2026, soit le rythme le plus élevé depuis un an. Le programme America First du président Donald J. Trump tient ses promesses : une croissance plus rapide, des niveaux d’investissement historiques et une économie qui continue de surpasser les soi-disant « experts ». Voici ce dont vous avez besoin […] L’article Le président Trump libère l’économie américaine : le PIB augmente alors que l’investissement atteint son plus haut niveau depuis plusieurs années est apparu en premier sur La Maison Blanche."
-        }
-      }
-    },
-    {
       "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
       "link": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
       "summary": "",
@@ -499,7 +577,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 28 Oct 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -841,7 +919,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
       "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
       "published_at": "Tue, 13 Oct 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1365,44 +1443,6 @@
         "zh-TW": {
           "title": "傑佛遜，貼現窗口現代化與國債市場運作",
           "summary": "在2026年美國國債市場會議上的演講，紐約聯邦儲備銀行，紐約州，紐約"
-        }
-      }
-    },
-    {
-      "title": "Bowman, Initial Findings from Independent Review of Silicon Valley Bank",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260918b.htm",
-      "summary": "Speech At the Luncheon of the Lord Mayor City of London at Mansion House, London, United Kingdom",
-      "published_at": "Fri, 18 Sep 2026 13:30:00 GMT",
-      "source": "fed_remarks",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "14fa4748585cd9be9b32cb0135d16b48dd5db7cbeed4e3fe2d2ee2766ec9be77",
-      "translations": {
-        "ja": {
-          "title": "ボウマン、シリコンバレー銀行の独立したレビューからの最初の調査結果",
-          "summary": "英国ロンドンのマンションハウスでのロンドン市長の昼食会でのスピーチ"
-        },
-        "zh-CN": {
-          "title": "鲍曼，硅谷银行独立审查的初步调查结果",
-          "summary": "在英国伦敦 Mansion House 伦敦市市长午餐会上的讲话"
-        },
-        "zh-TW": {
-          "title": "鮑曼，矽谷銀行獨立審查的初步調查結果",
-          "summary": "在英國倫敦 Mansion House 倫敦市長午餐會上的講話"
-        },
-        "ko": {
-          "title": "Bowman, Silicon Valley Bank의 독립 검토에서 얻은 초기 조사 결과",
-          "summary": "영국 런던 맨션 하우스에서 열린 런던 시장 오찬 연설"
-        },
-        "de": {
-          "title": "Bowman, erste Ergebnisse einer unabhängigen Überprüfung der Silicon Valley Bank",
-          "summary": "Rede beim Mittagessen des Oberbürgermeisters der Stadt London im Mansion House, London, Vereinigtes Königreich"
-        },
-        "fr": {
-          "title": "Bowman, premières conclusions de l'examen indépendant de la Silicon Valley Bank",
-          "summary": "Discours lors du déjeuner du lord-maire de la ville de Londres à Mansion House, Londres, Royaume-Uni"
         }
       }
     },
@@ -2157,6 +2197,18 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "b6b48fb53a5a62da2133cb4e82ec3cb623a572b1b617a52fed45d717559fdd99"
+    },
+    {
+      "title": "October job openings unchanged; hires and total separations change little",
+      "link": "https://www.bls.gov/news.release/archives/jolts_12092025.htm",
+      "summary": "",
+      "published_at": "2025-12-09T10:00:00-05:00",
+      "source": "bls_jolts",
+      "category": "labor",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
     }
   ]
 }
