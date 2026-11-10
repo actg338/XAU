@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-11-10T11:51:01.058441+00:00",
-  "total": 119,
+  "fetched_at": "2026-11-10T19:03:56.908673+00:00",
+  "total": 120,
   "items": [
+    {
+      "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html",
+      "summary": "",
+      "published_at": "Tue, 10 Nov 2026 17:45:00 +0100",
+      "source": "ecb",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "8fa124ff65ebb010f0f87b518b092283adf71bc62745fe079354d33fb5f5b187"
+    },
     {
       "title": "Waller, The Economic Outlook and Some Thoughts on Labor Market Dynamism",
       "link": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
@@ -487,7 +499,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 28 Oct 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -829,7 +841,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
       "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
       "published_at": "Tue, 13 Oct 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -2145,18 +2157,6 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "b6b48fb53a5a62da2133cb4e82ec3cb623a572b1b617a52fed45d717559fdd99"
-    },
-    {
-      "title": "October job openings unchanged; hires and total separations change little",
-      "link": "https://www.bls.gov/news.release/archives/jolts_12092025.htm",
-      "summary": "",
-      "published_at": "2025-12-09T10:00:00-05:00",
-      "source": "bls_jolts",
-      "category": "labor",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
     }
   ]
 }
