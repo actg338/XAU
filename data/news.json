@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-11T05:57:16.822011+00:00",
+  "fetched_at": "2026-11-11T13:59:52.909571+00:00",
   "total": 119,
   "items": [
     {
@@ -12,7 +12,33 @@
       "impact": "medium",
       "gold_bias": "bullish",
       "why_key": "geopolitics_bullish",
-      "_translation_hash": "35180c61b7a7ad49796e65ad8b3247af1cbc56ab2e8fa97346c3d50a732935c0"
+      "_translation_hash": "35180c61b7a7ad49796e65ad8b3247af1cbc56ab2e8fa97346c3d50a732935c0",
+      "translations": {
+        "ja": {
+          "title": "全国アルツハイマー病啓発月間に関する大統領メッセージ",
+          "summary": "この全国アルツハイマー病啓発月間にあたり、私たちはこの残酷な病気とともに生きるすべてのアメリカ人、その困難な過程を愛する人のそばで歩んでいるすべての家族、並外れた忍耐と愛で日々他人のために献身的に尽力するすべての介護者を支持します。私たちはまた、何百万もの貴重な瞬間、大切な思い出を思い出すために立ち止まります。 […] 全国アルツハイマー病啓発月間に関する大統領のメッセージが最初にホワイトハウスに掲載されました。"
+        },
+        "zh-CN": {
+          "title": "总统关于全国阿尔茨海默病意识月的致辞",
+          "summary": "在这个全国阿尔茨海默病宣传月，我们与每一个患有这种残酷疾病的美国人、每一个与亲人并肩走过艰难历程的家庭、以及每一位日复一日以非凡的耐心和爱心为他人奉献的护理人员站在一起。我们还停下来回忆数以百万计的珍贵时刻、珍贵回忆，[……]国家阿尔茨海默病意识月的总统致辞首先出现在白宫。"
+        },
+        "ko": {
+          "title": "전국 알츠하이머병 인식의 달에 관한 대통령 메시지",
+          "summary": "전국 알츠하이머병 인식의 달인 이번 전국 알츠하이머병 인식의 달에 우리는 이 잔인한 질병을 앓고 있는 모든 미국인, 사랑하는 사람 옆에서 어려운 과정을 걷고 있는 모든 가족, 특별한 인내와 사랑으로 날마다 다른 사람을 위해 헌신하는 모든 간병인과 함께 섰습니다. 우리는 또한 수백만 개의 소중한 순간, 소중한 추억, […] 전국 알츠하이머병 인식의 달에 대한 대통령 메시지 게시물이 백악관에 처음 게재되었습니다."
+        },
+        "zh-TW": {
+          "title": "總統關於全國阿茲海默症意識月的致辭",
+          "summary": "在這個全國阿茲海默症宣傳月，我們與每一個患有這種殘酷疾病的美國人、每一個與親人並肩走過艱難歷程的家庭、以及每一位日復一日以非凡的耐心和愛心為他人奉獻的護理人員站在一起。我們也停下來回憶數以百萬計的珍貴時刻、珍貴回憶，[……]國家阿茲海默症意識月的總統致詞首先出現在白宮。"
+        },
+        "de": {
+          "title": "Botschaft des Präsidenten zum Nationalen Monat zur Aufklärung über die Alzheimer-Krankheit",
+          "summary": "In diesem Nationalen Monat zur Aufklärung über die Alzheimer-Krankheit stehen wir jedem Amerikaner zur Seite, der mit dieser grausamen Krankheit lebt, jeder Familie, die einen geliebten Menschen durch den schwierigen Verlauf begleitet, und jeder Pflegekraft, die sich Tag für Tag mit außergewöhnlicher Geduld und Liebe für andere einsetzt. Wir halten auch inne, um uns an die Millionen wertvoller Momente und geschätzter Erinnerungen zu erinnern. […] Die Botschaft des Präsidenten zum Nationalen Monat zur Aufklärung über die Alzheimer-Krankheit erschien zuerst im Weißen Haus."
+        },
+        "fr": {
+          "title": "Message présidentiel à l'occasion du Mois national de sensibilisation à la maladie d'Alzheimer",
+          "summary": "En ce Mois national de sensibilisation à la maladie d'Alzheimer, nous sommes aux côtés de tous les Américains vivant avec cette cruelle maladie, de chaque famille qui accompagne un être cher dans son parcours difficile et de chaque soignant qui se consacre aux autres jour après jour avec une patience et un amour extraordinaires. Nous nous arrêtons également pour nous souvenir des millions de moments précieux, de souvenirs précieux, […] Le message post-présidentiel sur le Mois national de sensibilisation à la maladie d'Alzheimer est apparu en premier à la Maison Blanche."
+        }
+      }
     },
     {
       "title": "Bowman, The U.S. Economy and Considerations for Monetary Policy",
@@ -551,7 +577,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 28 Oct 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -893,7 +919,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
       "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
       "published_at": "Tue, 13 Oct 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
