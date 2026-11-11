@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-11-11T13:59:52.909571+00:00",
+  "fetched_at": "2026-11-11T21:16:08.358974+00:00",
   "total": 119,
   "items": [
+    {
+      "title": "Presidential Message on Victory Day for World War I",
+      "link": "https://www.whitehouse.gov/briefings-statements/2026/11/presidential-message-on-victory-day-for-world-war-i-dd1e/",
+      "summary": "On November 11, 1918, after more than four grueling years, an armistice at last silenced the guns of the First World War. With enduring pride, we celebrate America’s pivotal role in winning this global conflict. The enemy was defeated with powerful weapons of land, sea, and sky and the unmatched valor of selfless heroes who […] The post Presidential Message on Victory Day for World War I appeared first on The White House .",
+      "published_at": "Wed, 11 Nov 2026 19:30:08 +0000",
+      "source": "white_house",
+      "category": "geopolitics",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "geopolitics_bullish",
+      "_translation_hash": "fab0e1551966b16ceca047c59aede61e03520c61ab9a6d91cbd875c7606ef016"
+    },
     {
       "title": "Presidential Message on National Alzheimer’s Disease Awareness Month",
       "link": "https://www.whitehouse.gov/briefings-statements/2026/11/presidential-message-on-national-alzheimers-disease-awareness-month-59dc/",
@@ -341,44 +353,6 @@
         "fr": {
           "title": "Commerce international des biens et services des États-Unis",
           "summary": "Le déficit du commerce international des biens et services du pays a diminué à 105,0 milliards de dollars en septembre contre 105,7 milliards de dollars en août (révisé), les exportations ayant augmenté plus que les importations. Septembre 2026 : -0,7° % Variation Août 2026 (r) : 13,9° % Variation"
-        }
-      }
-    },
-    {
-      "title": "ICYMI: Drug Prices Are Falling at the Fastest Rate in Over 60 Years Under President Trump",
-      "link": "https://www.whitehouse.gov/releases/2026/11/icymi-drug-prices-are-falling-at-the-fastest-rate-in-over-60-years-under-president-trump/",
-      "summary": "Prescription drug prices are plummeting for the first time in decades under the leadership of President Donald J. Trump — delivering real, measurable relief to millions of Americans. In City Journal, Dr. Joel Zinberg explains why this is a major accomplishment: “Yet few Americans realize that drug prices—a major complaint—are actually falling. The Consumer Price […] The post ICYMI: Drug Prices Are Falling at the Fastest Rate in Over 60 Years Under President Trump appeared first on The White Hous",
-      "published_at": "Tue, 03 Nov 2026 21:34:30 +0000",
-      "source": "white_house",
-      "category": "inflation",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "2fd8154674669b0ea8e652465ad8f6ced2845b582eba99b3ba4ba06c0d86aee4",
-      "translations": {
-        "zh-CN": {
-          "title": "ICYMI：药品价格正以特朗普总统领导下 60 多年来最快的速度下降",
-          "summary": "在唐纳德·J·特朗普总统的领导下，处方药价格几十年来首次暴跌，为数百万美国人带来了真正的、可衡量的缓解。 Joel Zinberg 博士在《城市杂志》中解释了为什么这是一项重大成就：“然而，很少有美国人意识到药品价格（一个主要抱怨）实际上正在下降。消费者价格 [...] 帖子《ICYMI：特朗普总统领导下的药品价格以 60 多年来最快的速度下降》首先出现在白宫"
-        },
-        "ko": {
-          "title": "ICYMI: 약값은 트럼프 대통령 집권 후 60년 만에 가장 빠른 속도로 하락하고 있습니다.",
-          "summary": "도널드 J. 트럼프(Donald J. Trump) 대통령의 리더십 하에 처방약 가격이 수십 년 만에 처음으로 급락하여 수백만 명의 미국인에게 실질적이고 측정 가능한 구제책을 제공하고 있습니다. City Journal에서 Joel Zinberg 박사는 이것이 주요 성과인 이유를 다음과 같이 설명합니다: \"아직도 주요 불만 사항인 약품 가격이 실제로 하락하고 있다는 사실을 깨닫는 미국인은 거의 없습니다. 소비자 가격 [...] ICYMI: 약품 가격은 Trump 대통령 집권 후 60년 만에 가장 빠른 속도로 하락하고 있습니다. The White Hous에 처음 게재되었습니다."
-        },
-        "zh-TW": {
-          "title": "ICYMI：藥品價格正以川普總統領導下 60 多年來最快的速度下降",
-          "summary": "在唐納德·J·川普總統的領導下，處方藥價格幾十年來首次暴跌，為數百萬美國人帶來了真正的、可衡量的緩解。 Joel Zinberg 博士在《城市雜誌》中解釋了為什麼這是一項重大成就：「然而，很少有美國人意識到藥品價格（一個主要抱怨）實際上正在下降。消費者價格 [...] 帖子《ICYMI：特朗普總統領導下的藥品價格以 60 多年來最快的速度下降》首先出現在白宮"
-        },
-        "ja": {
-          "title": "ICYMI：トランプ大統領の下、薬価は過去60年以上で最も速いペースで下落している",
-          "summary": "ドナルド・J・トランプ大統領のリーダーシップの下、処方薬の価格は数十年ぶりに急落しており、何百万ものアメリカ人に目に見える実質的な救済をもたらしている。シティ・ジャーナルで、ジョエル・ジンバーグ博士は、これが大きな成果である理由を次のように説明しています：「しかし、主要な不満である薬価が実際に下がっていることを認識しているアメリカ人はほとんどいません。消費者物価 […] ICYMI の投稿：トランプ大統領の下で 60 年以上で最も速い速度で薬価が下落しているのがホワイトハウスに最初に掲載されました」"
-        },
-        "de": {
-          "title": "ICYMI: Die Arzneimittelpreise fallen unter Präsident Trump so schnell wie seit über 60 Jahren nicht mehr",
-          "summary": "Unter der Führung von Präsident Donald J. Trump sinken die Preise für verschreibungspflichtige Medikamente zum ersten Mal seit Jahrzehnten – was Millionen Amerikanern echte, messbare Erleichterung verschafft. Im City Journal erklärt Dr. Joel Zinberg, warum dies eine große Errungenschaft ist: „Dennoch sind sich nur wenige Amerikaner darüber im Klaren, dass die Arzneimittelpreise – ein Hauptkritikpunkt – tatsächlich fallen"
-        },
-        "fr": {
-          "title": "ICYMI : Les prix des médicaments chutent au rythme le plus rapide depuis plus de 60 ans sous le président Trump",
-          "summary": "Les prix des médicaments sur ordonnance chutent pour la première fois depuis des décennies sous la direction du président Donald J. Trump, apportant un soulagement réel et mesurable à des millions d’Américains. Dans le City Journal, le Dr Joel Zinberg explique pourquoi il s'agit d'une réalisation majeure : \"Pourtant, peu d'Américains se rendent compte que les prix des médicaments - une plainte majeure - sont en réalité en baisse. Le prix à la consommation [...] L'article ICYMI : Les prix des médicaments chutent au rythme le plus rapide depuis plus de 60 ans sous le président Trump est apparu en premier sur The White Hous"
         }
       }
     },
