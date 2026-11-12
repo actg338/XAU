@@ -1,7 +1,121 @@
 {
-  "fetched_at": "2026-11-12T09:57:59.413646+00:00",
+  "fetched_at": "2026-11-12T18:07:40.087089+00:00",
   "total": 119,
   "items": [
+    {
+      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+      "summary": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+      "published_at": "Thu, 12 Nov 2026 17:45:00 GMT",
+      "source": "fed_policy",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "3398a0497ade20f79f7da01fffd36ac44e9eb81e3ee1f58df9b0f3032256628e",
+      "translations": {
+        "zh-CN": {
+          "title": "美联储宣布修订后的 2027 年联邦公开市场委员会会议暂定时间表",
+          "summary": "美联储宣布修订后的 2027 年联邦公开市场委员会会议暂定时间表"
+        },
+        "ja": {
+          "title": "FRB、2027年の連邦公開市場委員会会合の修正された暫定スケジュールを発表",
+          "summary": "FRB、2027年の連邦公開市場委員会会合の修正された暫定スケジュールを発表"
+        },
+        "ko": {
+          "title": "연준은 2027년 연방공개시장위원회 회의의 수정된 잠정 일정을 발표했습니다.",
+          "summary": "연준은 2027년 연방공개시장위원회 회의의 수정된 잠정 일정을 발표했습니다."
+        },
+        "zh-TW": {
+          "title": "聯準會宣布修訂後的 2027 年聯邦公開市場委員會會議暫定時間表",
+          "summary": "聯準會宣布修訂後的 2027 年聯邦公開市場委員會會議暫定時間表"
+        },
+        "de": {
+          "title": "Die Federal Reserve gibt den überarbeiteten vorläufigen Zeitplan für die Sitzungen des Offenmarktausschusses der Federal Reserve im Jahr 2027 bekannt",
+          "summary": "Die Federal Reserve gibt den überarbeiteten vorläufigen Zeitplan für die Sitzungen des Offenmarktausschusses der Federal Reserve im Jahr 2027 bekannt"
+        },
+        "fr": {
+          "title": "La Réserve fédérale annonce un calendrier provisoire révisé des réunions du Comité fédéral de l'open market en 2027",
+          "summary": "La Réserve fédérale annonce un calendrier provisoire révisé des réunions du Comité fédéral de l'open market en 2027"
+        }
+      }
+    },
+    {
+      "title": "Barr, American Inequality and the Future of AI",
+      "link": "https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm",
+      "summary": "Speech At Yale University, New Haven, Connecticut",
+      "published_at": "Thu, 12 Nov 2026 15:00:00 GMT",
+      "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "758121c86624648b0f2e8d74cd585ab356fd9f4e831a907b31ad5d60c54016e2",
+      "translations": {
+        "zh-CN": {
+          "title": "巴尔，美国的不平等和人工智能的未来",
+          "summary": "在康涅狄格州纽黑文市耶鲁大学的演讲"
+        },
+        "ja": {
+          "title": "バー氏、アメリカの不平等と AI の未来",
+          "summary": "コネチカット州ニューヘブンのイェール大学でのスピーチ"
+        },
+        "ko": {
+          "title": "Barr, 미국 불평등과 AI의 미래",
+          "summary": "코네티컷주 뉴헤이븐 예일대학교에서의 연설"
+        },
+        "zh-TW": {
+          "title": "巴爾，美國的不平等和人工智慧的未來",
+          "summary": "在康乃狄克州紐黑文市耶魯大學的演講"
+        },
+        "de": {
+          "title": "Barr, Amerikanische Ungleichheit und die Zukunft der KI",
+          "summary": "Rede an der Yale University, New Haven, Connecticut"
+        },
+        "fr": {
+          "title": "Barr, les inégalités américaines et l'avenir de l'IA",
+          "summary": "Discours à l'Université de Yale, New Haven, Connecticut"
+        }
+      }
+    },
+    {
+      "title": "Business Formation Statistics",
+      "link": "https://www.census.gov/econ/bfs/",
+      "summary": "Total U.S. Business Applications were 501,609 in October 2026, down 6.0% from September 2026. October 2026: -6.0° % Change September 2026 (r): +0.6° % Change",
+      "published_at": "Thu, 12 Nov 2026 10:00:00 -0500",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "3525a8bd8e3eaef1b1ad1a97261d4f08aa8e461bcabf607429eb54349f881eee",
+      "translations": {
+        "zh-CN": {
+          "title": "企业组建统计",
+          "summary": "2026 年 10 月美国商业申请总数为 501,609 份，比 2026 年 9 月下降 6.0%。 2026 年 10 月：-6.0° 变化百分比 2026 年 9 月 (r)：+0.6° 变化百分比"
+        },
+        "ja": {
+          "title": "企業形成統計",
+          "summary": "2026年10月の米国ビジネスアプリケーションの合計は501,609件で、2026年9月から6.0%減少しました。 2026年10月: -6.0° %変化 2026年9月(r): +0.6° %変化"
+        },
+        "ko": {
+          "title": "사업형성통계",
+          "summary": "2026년 10월 미국의 총 비즈니스 신청 건수는 501,609건으로 2026년 9월보다 6.0% 감소했습니다. 2026년 10월: -6.0° % 변화 2026년 9월(r): +0.6° % 변화"
+        },
+        "zh-TW": {
+          "title": "企業組成統計",
+          "summary": "2026 年 10 月美國商業申請總數為 501,609 份，較 2026 年 9 月下降 6.0%。 2026 年 10 月：-6.0° 變化百分比 2026 年 9 月 (r)：+0.6° 變化百分比"
+        },
+        "de": {
+          "title": "Statistik der Unternehmensgründung",
+          "summary": "Die Gesamtzahl der Geschäftsanträge in den USA betrug im Oktober 2026 501.609, ein Rückgang von 6,0 % gegenüber September 2026. Oktober 2026: -6,0° % Veränderung September 2026 (r): +0,6° % Veränderung"
+        },
+        "fr": {
+          "title": "Statistiques sur la création d'entreprises",
+          "summary": "Le nombre total d'applications commerciales aux États-Unis s'élevait à 501 609 en octobre 2026, en baisse de 6,0 % par rapport à septembre 2026. Octobre 2026 : -6,0° % de variation Septembre 2026 (d) : +0,6° % de variation"
+        }
+      }
+    },
     {
       "title": "Presidential Message on Victory Day for World War I",
       "link": "https://www.whitehouse.gov/briefings-statements/2026/11/presidential-message-on-victory-day-for-world-war-i-dd1e/",
@@ -577,7 +691,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 28 Oct 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -877,49 +991,11 @@
       }
     },
     {
-      "title": "Business Formation Statistics",
-      "link": "https://www.census.gov/econ/bfs/",
-      "summary": "Total U.S. Business Applications were 534,947 in September 2026, up 0.5% from August 2026. September 2026: +0.5° % Change August 2026 (r): -7.7° % Change",
-      "published_at": "Wed, 14 Oct 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "ce8b2fe47e2d02b0c2dd6439f5785a032f7edfbc1320a0bb84e5c616bebd9940",
-      "translations": {
-        "zh-CN": {
-          "title": "企业组建统计",
-          "summary": "2026 年 9 月美国商业申请总数为 534,947 份，较 2026 年 8 月增长 0.5%。 2026 年 9 月：+0.5° 变化百分比 2026 年 8 月 (r)：-7.7° 变化百分比"
-        },
-        "zh-TW": {
-          "title": "企業組成統計",
-          "summary": "2026 年 9 月美國商業申請總數為 534,947 份，較 2026 年 8 月成長 0.5%。 2026 年 9 月：+0.5° 變化百分比 2026 年 8 月 (r)：-7.7° 變化百分比"
-        },
-        "ja": {
-          "title": "企業形成統計",
-          "summary": "Total U.S. Business Applications were 534,947 in September 2026, up 0.5% from August 2026. September 2026: +0.5° % Change August 2026 (r): -7.7° % Change"
-        },
-        "ko": {
-          "title": "사업형성통계",
-          "summary": "2026년 9월 미국 비즈니스 신청 건수는 534,947건으로 2026년 8월보다 0.5% 증가했습니다. 2026년 9월: +0.5° % 변화 2026년 8월(r): -7.7° % 변화"
-        },
-        "de": {
-          "title": "Statistik der Unternehmensgründung",
-          "summary": "Die Gesamtzahl der Geschäftsanträge in den USA belief sich im September 2026 auf 534.947, ein Anstieg von 0,5 % gegenüber August 2026. September 2026: +0,5° % Veränderung. August 2026 (r): -7,7° % Veränderung"
-        },
-        "fr": {
-          "title": "Statistiques sur la création d'entreprises",
-          "summary": "Le nombre total d'applications commerciales aux États-Unis s'élevait à 534 947 en septembre 2026, en hausse de 0,5 % par rapport à août 2026. Septembre 2026 : +0,5° % de variation Août 2026 (r) : -7,7° % de variation"
-        }
-      }
-    },
-    {
       "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
       "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
       "published_at": "Tue, 13 Oct 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1409,44 +1485,6 @@
       }
     },
     {
-      "title": "Jefferson, Discount Window Modernization and Treasury Market Functioning",
-      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20260922a.htm",
-      "summary": "Speech At the 2026 U.S. Treasury Market Conference, Federal Reserve Bank of New York, New York, New York",
-      "published_at": "Tue, 22 Sep 2026 14:20:00 GMT",
-      "source": "fed_remarks",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "033507a2013c13d921cd7827a10035f4a6f17ab8e7f6b7ec7254beca6d40a5d0",
-      "translations": {
-        "zh-CN": {
-          "title": "杰斐逊，贴现窗口现代化和国债市场运作",
-          "summary": "在2026年美国国债市场会议上的演讲，纽约联邦储备银行，纽约州，纽约"
-        },
-        "ja": {
-          "title": "ジェファーソン氏、割引窓口の近代化と国債市場の機能",
-          "summary": "2026年米国債市場会議でのスピーチ、ニューヨーク連邦準備銀行、ニューヨーク州ニューヨーク"
-        },
-        "de": {
-          "title": "Jefferson, Modernisierung des Diskontfensters und Funktionsweise des Treasury-Marktes",
-          "summary": "Rede auf der U.S. Treasury Market Conference 2026, Federal Reserve Bank of New York, New York, New York"
-        },
-        "ko": {
-          "title": "Jefferson, 할인 창구 현대화 및 국채 시장 기능",
-          "summary": "2026년 미국 국채시장 컨퍼런스 연설, 뉴욕 연방준비은행, 뉴욕, 뉴욕"
-        },
-        "fr": {
-          "title": "Jefferson, Modernisation des guichets d’escompte et fonctionnement du marché du Trésor",
-          "summary": "Discours prononcé lors de la conférence 2026 sur le marché du Trésor américain, Banque de réserve fédérale de New York, New York, New York"
-        },
-        "zh-TW": {
-          "title": "傑佛遜，貼現窗口現代化與國債市場運作",
-          "summary": "在2026年美國國債市場會議上的演講，紐約聯邦儲備銀行，紐約州，紐約"
-        }
-      }
-    },
-    {
       "title": "Federal Reserve issues FOMC statement",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
@@ -1909,18 +1947,6 @@
       "gold_bias": "neutral",
       "why_key": "other_neutral",
       "_translation_hash": "953ce2f85e7e22e5145ee5f0a369f0a64e872032ed2097c7bb516b88df8bfea8"
-    },
-    {
-      "title": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm",
-      "summary": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
-      "published_at": "Wed, 20 May 2026 18:00:00 GMT",
-      "source": "fed_policy",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "ac291f216ef11ec1f9ecada800c0419de25074e2812ac17517e3fe4c2b7d40b3"
     },
     {
       "title": "PPI for final demand advances 1.4% in April; services rise 1.2%, goods increase 2.0%",
