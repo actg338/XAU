@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-11T21:16:08.358974+00:00",
+  "fetched_at": "2026-11-12T02:18:45.753744+00:00",
   "total": 119,
   "items": [
     {
@@ -12,7 +12,33 @@
       "impact": "medium",
       "gold_bias": "bullish",
       "why_key": "geopolitics_bullish",
-      "_translation_hash": "fab0e1551966b16ceca047c59aede61e03520c61ab9a6d91cbd875c7606ef016"
+      "_translation_hash": "fab0e1551966b16ceca047c59aede61e03520c61ab9a6d91cbd875c7606ef016",
+      "translations": {
+        "zh-CN": {
+          "title": "第一次世界大战胜利日总统致辞",
+          "summary": "1918 年 11 月 11 日，经过四年多的艰苦岁月，停战协定终于平息了第一次世界大战的枪声。我们怀着持久的自豪感，庆祝美国在赢得这场全球冲突中发挥的关键作用。敌人被强大的陆地、海洋和天空武器以及无私英雄无与伦比的勇气击败，他们[…]第一次世界大战胜利日总统致辞首先出现在白宫。"
+        },
+        "zh-TW": {
+          "title": "第一次世界大戰勝利日總統致辭",
+          "summary": "1918 年 11 月 11 日，經過四年多的艱苦歲月，停戰協定終於平息了第一次世界大戰的槍聲。我們懷著持久的自豪感，慶祝美國在贏得這場全球衝突中發揮的關鍵作用。敵人被強大的陸地、海洋和天空武器以及無私英雄無與倫比的勇氣擊敗，他們[…]第一次世界大戰勝利日總統致辭首先出現在白宮。"
+        },
+        "ja": {
+          "title": "第一次世界大戦戦勝記念日の大統領メッセージ",
+          "summary": "4 年以上の過酷な年月を経て、1918 年 11 月 11 日、ついに休戦協定が締結され、第一次世界大戦の銃声は鳴りを潜めました。私たちは、永遠の誇りを持って、この世界的な紛争の勝利におけるアメリカの極めて重要な役割を祝います。敵は、陸、海、空の強力な武器と、無私無欲の英雄たちの比類のない勇気によって打ち負かされました。 […] 第一次世界大戦の戦勝記念日の大統領メッセージが最初にホワイトハウスに掲載されました。"
+        },
+        "ko": {
+          "title": "제1차 세계대전 승전기념일 대통령 메시지",
+          "summary": "4년여의 힘든 세월이 지난 1918년 11월 11일, 마침내 휴전 협정으로 제1차 세계 대전의 총성이 잠잠해졌습니다. 지속적인 자부심을 가지고 우리는 이 글로벌 분쟁에서 승리하는 데 있어 미국의 중추적 역할을 축하합니다. 육지, 바다, 하늘의 강력한 무기와 사심 없는 영웅들의 비할 데 없는 용맹으로 적을 물리쳤습니다. […] 제1차 세계대전 승전기념일 대통령 메시지가 백악관에 처음 등장했습니다."
+        },
+        "de": {
+          "title": "Botschaft des Präsidenten zum Tag des Sieges im Ersten Weltkrieg",
+          "summary": "Am 11. November 1918, nach mehr als vier anstrengenden Jahren, brachte ein Waffenstillstand endlich die Waffen des Ersten Weltkriegs zum Schweigen. Mit anhaltendem Stolz feiern wir die entscheidende Rolle Amerikas beim Sieg in diesem globalen Konflikt. Der Feind wurde mit mächtigen Land-, See- und Luftwaffen und der unübertroffenen Tapferkeit selbstloser Helden besiegt, die […] Die Botschaft des Präsidenten zum Tag des Sieges im Ersten Weltkrieg erschien zuerst im Weißen Haus."
+        },
+        "fr": {
+          "title": "Message présidentiel à l'occasion du Jour de la Victoire de la Première Guerre mondiale",
+          "summary": "Le 11 novembre 1918, après plus de quatre années éprouvantes, un armistice fait enfin taire les canons de la Première Guerre mondiale. C’est avec une fierté durable que nous célébrons le rôle central joué par l’Amérique dans la victoire de ce conflit mondial. L'ennemi a été vaincu grâce à de puissantes armes terrestres, maritimes et aériennes et à la valeur inégalée de héros altruistes qui […] Le message post-présidentiel à l'occasion du Jour de la Victoire de la Première Guerre mondiale est apparu en premier à la Maison Blanche."
+        }
+      }
     },
     {
       "title": "Presidential Message on National Alzheimer’s Disease Awareness Month",
