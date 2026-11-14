@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-14T05:38:30.181359+00:00",
+  "fetched_at": "2026-11-14T12:30:22.466299+00:00",
   "total": 117,
   "items": [
     {
@@ -12,7 +12,33 @@
       "impact": "medium",
       "gold_bias": "neutral",
       "why_key": "growth_neutral",
-      "_translation_hash": "de16730a0d57c31cd7e24b31af729a764fb79afc49adb1d6f3d589a4a4b984c9"
+      "_translation_hash": "de16730a0d57c31cd7e24b31af729a764fb79afc49adb1d6f3d589a4a4b984c9",
+      "translations": {
+        "zh-CN": {
+          "title": "杰斐逊，新技术，老问题：生产力难题和宏观经济",
+          "summary": "在加州大学圣地亚哥分校经济圆桌会议上的演讲，加利福尼亚州圣地亚哥"
+        },
+        "ja": {
+          "title": "ジェファーソン、新しいテクノロジーと古い疑問: 生産性のパズルとマクロ経済",
+          "summary": "カリフォルニア州サンディエゴのカリフォルニア大学サンディエゴ校経済ラウンドテーブルでのスピーチ"
+        },
+        "ko": {
+          "title": "제퍼슨, 신기술, 오래된 질문: 생산성 퍼즐과 거시경제",
+          "summary": "캘리포니아 대학교 샌디에이고 경제 원탁회의(캘리포니아주 샌디에고)에서 연설"
+        },
+        "zh-TW": {
+          "title": "傑佛遜，新技術，老問題：生產力難題和宏觀經濟",
+          "summary": "在加州大學聖地牙哥分校經濟圓桌會議上的演講，加州聖地牙哥"
+        },
+        "de": {
+          "title": "Jefferson, Neue Technologie, alte Fragen: Produktivitätsrätsel und die Makroökonomie",
+          "summary": "Rede am Economic Roundtable der University of California, San Diego, San Diego, Kalifornien"
+        },
+        "fr": {
+          "title": "Jefferson, Nouvelle technologie, vieilles questions : les énigmes de la productivité et la macroéconomie",
+          "summary": "Discours à la table ronde économique de l'Université de Californie à San Diego, San Diego, Californie"
+        }
+      }
     },
     {
       "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
@@ -627,7 +653,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 28 Oct 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -931,7 +957,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
       "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
       "published_at": "Tue, 13 Oct 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
