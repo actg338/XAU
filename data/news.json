@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-11-13T18:42:37.157782+00:00",
+  "fetched_at": "2026-11-14T00:00:34.833858+00:00",
   "total": 117,
   "items": [
+    {
+      "title": "Jefferson, New Technology, Old Questions: Productivity Puzzles and the Macroeconomy",
+      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
+      "summary": "Speech At the University of California, San Diego Economic Roundtable, San Diego, California",
+      "published_at": "Sat, 14 Nov 2026 00:00:00 GMT",
+      "source": "fed_remarks",
+      "category": "growth",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "growth_neutral",
+      "_translation_hash": "de16730a0d57c31cd7e24b31af729a764fb79afc49adb1d6f3d589a4a4b984c9"
+    },
     {
       "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
@@ -615,7 +627,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 28 Oct 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -919,7 +931,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
       "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
       "published_at": "Tue, 13 Oct 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1367,44 +1379,6 @@
         "fr": {
           "title": "Cook, une mise à jour sur l'IA et l'économie",
           "summary": "Discours lors de la conférence d'ouverture de la Oakland Tech Week, co-organisée par le Kapor Center, Oakland, Californie"
-        }
-      }
-    },
-    {
-      "title": "Barr, A Long-Term View on the Costs of Shelter",
-      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260923a.htm",
-      "summary": "Speech At “Housing Affordability 2026: A Community Development Summit,” hosted by the Federal Reserve Bank of Chicago, Chicago, Illinois",
-      "published_at": "Wed, 23 Sep 2026 14:05:00 GMT",
-      "source": "fed_remarks",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "f6ef623dddbe65c385f582c881556c214315f2d6df203918ec271db1e86dffae",
-      "translations": {
-        "zh-CN": {
-          "title": "巴尔，对住房成本的长期看法",
-          "summary": "在芝加哥联邦储备银行主办的“2026 年住房负担能力：社区发展峰会”上的演讲，伊利诺伊州芝加哥"
-        },
-        "ja": {
-          "title": "バー氏、避難所のコストに関する長期的見解",
-          "summary": "イリノイ州シカゴ、シカゴ連邦準備銀行主催「住宅価格負担2026：地域開発サミット」での講演"
-        },
-        "zh-TW": {
-          "title": "巴爾，對住房成本的長期看法",
-          "summary": "在芝加哥聯邦儲備銀行主辦的「2026 年住房負擔能力：社區發展高峰會」上的演講，伊利諾伊州芝加哥"
-        },
-        "ko": {
-          "title": "Barr, 보호소 비용에 대한 장기적인 관점",
-          "summary": "일리노이주 시카고 연방준비은행이 주최한 \"2026년 주택 경제성: 지역사회 개발 서밋\"에서 연설"
-        },
-        "fr": {
-          "title": "Barr, Une vision à long terme des coûts du logement",
-          "summary": "Discours prononcé lors du « Housing Affordability 2026 : A Community Development Summit », organisé par la Federal Reserve Bank of Chicago, Chicago, Illinois"
-        },
-        "de": {
-          "title": "Barr, Eine langfristige Sicht auf die Kosten von Unterkünften",
-          "summary": "Rede beim „Housing Affordability 2026: A Community Development Summit“, veranstaltet von der Federal Reserve Bank of Chicago, Chicago, Illinois"
         }
       }
     },
@@ -2161,28 +2135,28 @@
       "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
     },
     {
-      "title": "U.S. International Trade in Goods and Services, September 2026",
-      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-september-2026",
-      "summary": "The U.S. goods and services trade deficit decreased in September 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit decreased from $105.7 billion in August (revised) to $105.0 billion in September, as exports increased more than imports. The goods deficit decreased $0.7 billion in September to $135.9 billion. The services surplus decreased less than $0.1 billion in September to $30.9 billion.",
-      "published_at": "Wed, 04 Nov 2026 08:30:00 EST",
-      "source": "bea",
-      "category": "trade",
+      "title": "PPI for final demand increases 0.3% in October; goods advance 0.5%, services rise 0.2%",
+      "link": "https://www.bls.gov/news.release/archives/ppi_11132026.htm",
+      "summary": "",
+      "published_at": "2026-11-13T07:50:34.956-05:00",
+      "source": "bls_ppi",
+      "category": "inflation",
       "impact": "medium",
       "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "f1ffc74a901cd3def86cfbbf49b7a228f06c39e402d9926a0551ff39dda23388"
+      "why_key": "inflation_neutral",
+      "_translation_hash": "c2f9364567be754d6c8a9eeeb80e6f915f5c9d51e44de0250276f9b726366d2b"
     },
     {
-      "title": "GDP (Advance Estimate), 3rd Quarter 2026",
-      "link": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
-      "summary": "Real gross domestic product (GDP) increased at an annual rate of 3.4 percent in the third quarter of 2026 (July, August, and September), according to the advance estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the second quarter, real GDP increased 2.2 percent. The contributors to the increase in real GDP in the third quarter were increases in investment, consumer spending, and government spending that were partly offset by a decrease in exports. Imports, which are a su",
-      "published_at": "Thu, 29 Oct 2026 08:30:00 EDT",
-      "source": "bea",
-      "category": "growth",
-      "impact": "high",
+      "title": "PPI for final demand increases 1.3% in September; goods advance 2.6%, services rise 0.8%",
+      "link": "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
+      "summary": "",
+      "published_at": "2026-10-15T07:50:51.146-04:00",
+      "source": "bls_ppi",
+      "category": "inflation",
+      "impact": "medium",
       "gold_bias": "neutral",
-      "why_key": "growth_neutral",
-      "_translation_hash": "e2638cc74b2f15a1990a1494f86c8163a09709c25b6af72f9d2aa05a03933373"
+      "why_key": "inflation_neutral",
+      "_translation_hash": "8664b1562ed6090060f871b5acf8ca52f23a18c0161d2cf3015acbb3d55c6dad"
     }
   ]
 }
