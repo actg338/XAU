@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-14T18:27:04.212552+00:00",
+  "fetched_at": "2026-11-14T22:41:29.004625+00:00",
   "total": 117,
   "items": [
     {
@@ -2161,28 +2161,28 @@
       "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
     },
     {
-      "title": "CPI for all items increases 0.4% in October; shelter rises",
-      "link": "https://www.bls.gov/news.release/archives/cpi_11102026.htm",
+      "title": "September job openings, hires, and total separations change little; quits increase",
+      "link": "https://www.bls.gov/news.release/archives/jolts_11032026.htm",
       "summary": "",
-      "published_at": "2026-11-10T07:55:47.272-05:00",
-      "source": "bls_cpi",
-      "category": "inflation",
-      "impact": "high",
+      "published_at": "2026-11-03T09:20:35.968-05:00",
+      "source": "bls_jolts",
+      "category": "labor",
+      "impact": "medium",
       "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "d4e1f4bd825e1b0ab0b3497f79b688eab249440fc5dec9e8a5eb0c7e6c81a3b9"
+      "why_key": "labor_neutral",
+      "_translation_hash": "aba05dda7c4881b1e6a1543222947192fb6495eea12f35d6128c0ee08213d6d3"
     },
     {
-      "title": "CPI for all items increases 0.6% in September; gasoline rises",
-      "link": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+      "title": "August job openings and hires change little; total separations unchanged",
+      "link": "https://www.bls.gov/news.release/archives/jolts_09292026.htm",
       "summary": "",
-      "published_at": "2026-10-14T07:50:31.2-04:00",
-      "source": "bls_cpi",
-      "category": "inflation",
-      "impact": "high",
+      "published_at": "2026-09-29T09:20:32.09-04:00",
+      "source": "bls_jolts",
+      "category": "labor",
+      "impact": "medium",
       "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "7fef741aac2905fa4409098c1ff216f28dca8a73df99fa4b092c6807717f5588"
+      "why_key": "labor_neutral",
+      "_translation_hash": "ae4643776403e9edf0d3aa5d8e13271c518393a47f56aa095daf1f73b02a8e61"
     }
   ]
 }
