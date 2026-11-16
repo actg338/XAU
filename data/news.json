@@ -1,7 +1,31 @@
 {
-  "fetched_at": "2026-11-16T07:56:12.716704+00:00",
-  "total": 118,
+  "fetched_at": "2026-11-16T18:12:11.378249+00:00",
+  "total": 116,
   "items": [
+    {
+      "title": "Warsh, Opening Remarks",
+      "link": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm",
+      "summary": "Speech At the Productivity and Jobs Task Force Conference, hosted by the Federal Reserve Board and the Federal Reserve Bank of San Francisco, San Francisco, California",
+      "published_at": "Mon, 16 Nov 2026 17:00:00 GMT",
+      "source": "fed_remarks",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "monetary_policy_bullish",
+      "_translation_hash": "a65c0749a62bd61514336e3a5044a291516ed19698cd4d515481169ada07abf1"
+    },
+    {
+      "title": "Barr, Some Potential Financial Stability Implications of Artificial Intelligence",
+      "link": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
+      "summary": "Speech At the Seventh Annual Association for Computing Machinery International Conference on Artificial Intelligence in Finance, Milan, Italy",
+      "published_at": "Mon, 16 Nov 2026 10:00:00 GMT",
+      "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "235433065c0e6a8d82bbbe84dae38f0eeceebb6936c89dc9f32408bba9052b58"
+    },
     {
       "title": "ICYMI: Secretary Duffy’s Full Sunday Circuit Outlines Ground Stop Response and the Path Forward",
       "link": "https://www.whitehouse.gov/releases/2026/11/icymi-secretary-duffys-full-sunday-circuit-outlines-ground-stop-response-and-the-path-forward/",
@@ -580,82 +604,6 @@
         },
         "fr": {
           "title": "Décisions prises par le Conseil des gouverneurs de la BCE (en plus des décisions fixant les taux d'intérêt)",
-          "summary": ""
-        }
-      }
-    },
-    {
-      "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
-      "link": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
-      "summary": "",
-      "published_at": "Thu, 29 Oct 2026 15:00:00 +0100",
-      "source": "ecb",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "f069dc1250bc05bc9b9015550638a08d93cef1efb3a0d3e8b2df31b2288f5a5f",
-      "translations": {
-        "zh-CN": {
-          "title": "克里斯蒂娜·拉加德 (Christine Lagarde)、鲍里斯·武伊契奇 (Boris Vujčić)：货币政策声明（含问答）",
-          "summary": ""
-        },
-        "ja": {
-          "title": "クリスティーヌ・ラガルド氏、ボリス・ヴァイチッチ氏：金融政策声明（質疑応答付き）",
-          "summary": ""
-        },
-        "ko": {
-          "title": "Christine Lagarde, Boris Vujčić: 통화 정책 성명(Q&A 포함)",
-          "summary": ""
-        },
-        "zh-TW": {
-          "title": "克里斯蒂娜‧拉加德 (Christine Lagarde)、鮑里斯‧武伊契奇 (Boris Vujčić)：貨幣政策聲明（含問答）",
-          "summary": ""
-        },
-        "de": {
-          "title": "Christine Lagarde, Boris Vujčić: Erklärung zur Geldpolitik (mit Fragen und Antworten)",
-          "summary": ""
-        },
-        "fr": {
-          "title": "Christine Lagarde, Boris Vujčić : Déclaration de politique monétaire (avec questions-réponses)",
-          "summary": ""
-        }
-      }
-    },
-    {
-      "title": "Monetary policy decisions",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
-      "summary": "",
-      "published_at": "Thu, 29 Oct 2026 14:15:00 +0100",
-      "source": "ecb",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "d6c8601c58efe148c5d3e41e8bf36e6b8e9e50bba576b3fdb43527c824f612d0",
-      "translations": {
-        "zh-CN": {
-          "title": "货币政策决策",
-          "summary": ""
-        },
-        "ko": {
-          "title": "통화 정책 결정",
-          "summary": ""
-        },
-        "zh-TW": {
-          "title": "貨幣政策決策",
-          "summary": ""
-        },
-        "ja": {
-          "title": "金融政策決定",
-          "summary": ""
-        },
-        "de": {
-          "title": "Geldpolitische Entscheidungen",
-          "summary": ""
-        },
-        "fr": {
-          "title": "Décisions de politique monétaire",
           "summary": ""
         }
       }
@@ -1341,82 +1289,6 @@
         "de": {
           "title": "Barr, Wirtschaftsbedingungen und Geldpolitik",
           "summary": "Rede im Detroit Economic Club, Detroit, Michigan"
-        }
-      }
-    },
-    {
-      "title": "Bowman, Opening Remarks",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20260929a.htm",
-      "summary": "Speech At the Community Bank Cyber Workshop, Denver, Colorado (via pre-recorded video)",
-      "published_at": "Tue, 29 Sep 2026 15:00:00 GMT",
-      "source": "fed_remarks",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "873d6983a147ccf7fd1c315cda5839f7624ed83125d04ff7c23a0aa7dc7025aa",
-      "translations": {
-        "zh-CN": {
-          "title": "鲍曼，开幕致辞",
-          "summary": "在科罗拉多州丹佛社区银行网络研讨会上的演讲（通过预先录制的视频）"
-        },
-        "ja": {
-          "title": "ボーマン氏、開会の挨拶",
-          "summary": "コロラド州デンバーのコミュニティバンクサイバーワークショップでのスピーチ（録画済みビデオによる）"
-        },
-        "zh-TW": {
-          "title": "鮑曼，開幕致辭",
-          "summary": "在科羅拉多州丹佛社區銀行網路研討會上的演講（透過預先錄製的影片）"
-        },
-        "ko": {
-          "title": "Bowman, 개회사",
-          "summary": "콜로라도주 덴버에서 열린 Community Bank Cyber Workshop에서의 연설(사전 녹화된 비디오를 통해)"
-        },
-        "de": {
-          "title": "Bowman, Eröffnungsrede",
-          "summary": "Rede beim Community Bank Cyber Workshop, Denver, Colorado (über aufgezeichnetes Video)"
-        },
-        "fr": {
-          "title": "Bowman, mot d’ouverture",
-          "summary": "Discours au Community Bank Cyber Workshop, Denver, Colorado (via vidéo préenregistrée)"
-        }
-      }
-    },
-    {
-      "title": "Cook, An Update on AI and the Economy",
-      "link": "https://www.federalreserve.gov/newsevents/speech/cook20260928a.htm",
-      "summary": "Speech At the Oakland Tech Week Opening Keynote, cohosted by the Kapor Center, Oakland, California",
-      "published_at": "Mon, 28 Sep 2026 17:25:00 GMT",
-      "source": "fed_remarks",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "ef46adc0aa628200ee6a06df9b7339b6007f34e180f62b48b07c17bc40271f39",
-      "translations": {
-        "zh-CN": {
-          "title": "库克，人工智能与经济的最新进展",
-          "summary": "在奥克兰科技周开幕主题演讲上的演讲，由加利福尼亚州奥克兰卡普尔中心联合主办"
-        },
-        "ja": {
-          "title": "クック氏、AI と経済に関する最新情報",
-          "summary": "カリフォルニア州オークランドの Kapor Center が共催した Oakland Tech Week オープニング基調講演でのスピーチ"
-        },
-        "ko": {
-          "title": "Cook, AI와 경제에 대한 업데이트",
-          "summary": "캘리포니아주 오클랜드 Kapor Center가 공동 주최한 Oakland Tech Week 개회식 기조연설"
-        },
-        "zh-TW": {
-          "title": "庫克，人工智慧與經濟的最新進展",
-          "summary": "在奧克蘭科技週開幕主題演講上的演講，由加州奧克蘭卡普爾中心共同主辦"
-        },
-        "de": {
-          "title": "Cook, Ein Update zu KI und Wirtschaft",
-          "summary": "Rede bei der Eröffnungsrede der Oakland Tech Week, gemeinsam moderiert vom Kapor Center, Oakland, Kalifornien"
-        },
-        "fr": {
-          "title": "Cook, une mise à jour sur l'IA et l'économie",
-          "summary": "Discours lors de la conférence d'ouverture de la Oakland Tech Week, co-organisée par le Kapor Center, Oakland, Californie"
         }
       }
     },
@@ -2173,16 +2045,40 @@
       "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
     },
     {
-      "title": "September job openings, hires, and total separations change little; quits increase",
-      "link": "https://www.bls.gov/news.release/archives/jolts_11032026.htm",
+      "title": "Payroll employment rises by 165,000 in October; unemployment rate changes little at 4.1%",
+      "link": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
       "summary": "",
-      "published_at": "2026-11-03T09:20:35.968-05:00",
-      "source": "bls_jolts",
+      "published_at": "2026-11-06T07:50:31.965-05:00",
+      "source": "bls_jobs",
       "category": "labor",
-      "impact": "medium",
+      "impact": "high",
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
-      "_translation_hash": "aba05dda7c4881b1e6a1543222947192fb6495eea12f35d6128c0ee08213d6d3"
+      "_translation_hash": "9722cb61a6a73107b6fd1b55cc7889fc86dc058c01b76886a580981bdfb03fb7"
+    },
+    {
+      "title": "Both payroll employment (+29,000) and unemployment rate (4.2%) change little in September",
+      "link": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
+      "summary": "",
+      "published_at": "2026-10-02T07:51:08.289-04:00",
+      "source": "bls_jobs",
+      "category": "labor",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "96841db93c0b04c1b65eabfa6b25531e2ea9b14f1619ecf8beef34b102ef9ef5"
+    },
+    {
+      "title": "Payroll employment increases by 162,000 in August; unemployment rate unchanged at 4.1%",
+      "link": "https://www.bls.gov/news.release/archives/empsit_09042026.htm",
+      "summary": "",
+      "published_at": "2026-09-04T07:51:08.695-04:00",
+      "source": "bls_jobs",
+      "category": "labor",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "49b1542c52b1f8034e8ab011771940c7a52f53795abb67536de62c040206f247"
     }
   ]
 }

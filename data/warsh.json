@@ -1,42 +1,41 @@
 {
-  "title": null,
-  "text": null,
-  "link": null,
-  "source": "unavailable",
-  "published_at": null,
+  "title": "Warsh, Opening Remarks",
+  "text": "November 16, 2026\nChairman Kevin Warsh\nAt the Productivity and Jobs Task Force Conference, hosted by the Federal Reserve Board and the Federal Reserve Bank of San Francisco, San Francisco, California\nMary, thank you, and welcome.\nI'm grateful to Mary and her colleagues for helping to arrange this gathering. This is my very first visit to a Reserve Bank as Chairman. I wouldn't call it a snap inspection, but I'm certainly impressed. Everything I see reflects high expectations and the inquiring, forward-looking spirit that we need in the Federal Reserve System.\nIt's good to have Fed colleagues with us from around the country. Central banking is a team sport, and I'm pleased you're here. This conference is an expression of the mission we all serve: One Fed. Fit for Purpose. Focused on the Future.\nI also want to thank Marc, Chad, and Asha for leading our Productivity and Jobs Task Force. You're giving the scarcest of resources—your time and your commitment. It's a service to the Fed and to our nation, and I'm grateful.\nThis task force is one of five I have convened as Chairman. These groups are a way of broadening our thinking . . . of inviting robust discussions that take us further and deeper than fleeting data points or daily market moves. Our task forces are an intellectual investment to better equip us for the next policy conjuncture and beyond.\nThe common attributes of Asha, Marc, and Chad, the reason I asked them to lead, is not just their exceptional insight and experience. It's their battlefield bravery in the world of ideas . . . their intellect and their willingness to think hard about what might happen next. They, in turn, asked me to open the task force discussion to a wide cross section of stakeholders—and that's the purpose of this conference.\nAs for me, I always feel energized to be in this part of California. I arrived here way back in 1988 as a Stanford undergrad. I remember sitting in Green Library over Thanksgiving break during my freshman year, reading and wrestling with great works from a canon that I had scarcely known existed, beginning my initiation into the world of ideas. It was a special time to be in the Bay Area—neither boom nor bust, a quieter period between tech surges. And, today, just as I was then, I'm keen to listen to and learn from the great people and first-rate minds around me.\nThe current era may be the most transformational period in my adult lifetime, marked by the arrival of the general-purpose technology called \"super intelligence.\" SI is an entirely new force in economic life and society. It demands our special attention.\nEven a few years ago, the idea that we could have, in our pockets, instant access to genius-level intelligence on almost any subject would have seemed far fetched. Today, with the advances of SI, it's happening. The marginal cost of satisfying limitless curiosity—on questions large and small—is falling fast, perhaps even trending toward zero.\nIn the tradition of endogenous growth theory in economics, ideas are the ultimate resource. If living standards are to advance, conditions must be favorable to the generation of new ideas. It should be no surprise, then, that the United States is leading. Societies that bring forth the best ideas tend to prosper most. The implications for economic policy can hardly be overstated.\nWhile an idea can be costly to discover, it's free to use. And because an idea is nonrival—that is, one person's use doesn't diminish anyone else's—its value grows with the number of people who use it. The Nobel laureate Paul Romer, among others, has shown that a doubling of ideas and other key inputs can more than double output, allowing increasing returns to scale.1\nEven so, in the U.S. over the past several decades, breakthrough ideas have been harder to find. By some estimates, research efforts have increased more than 20 times since the 1930s. Yet, as Nick Bloom, Chad Jones, and their coauthors have pointed out, \"Research productivity has fallen by an even larger amount.\"2 The result: Productivity growth has fluctuated, and in recent quarters, it's been reasonably strong. But it hasn't yet broken out definitively and structurally to the upside.\nLong-run growth, I should note, is also a function of the rate of increase in the number of people producing new ideas and setting them in motion. The conventional view holds that as population growth slows, there may be fewer new ideas to drive prosperity.3 The increasing challenge of generating breakthrough ideas, combined with slower population growth, helps explain why many in the economics profession, in the post-crisis environment, returned to the theme of secular stagnation.\nDoes super intelligence dramatically change this picture? Well, there are certainly some indications that it does.\nSI might be somewhat different from general-purpose technologies of the past, such as the internal combustion engine or electricity. Those inventions made for decades of follow-on innovation but did ",
+  "link": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm",
+  "source": "Federal Reserve",
+  "published_at": "Mon, 16 Nov 2026 17:00:00 GMT",
   "stance": {
-    "hawk": 0,
-    "dove": 0,
+    "hawk": 6,
+    "dove": 4,
     "label": "NEUTRAL",
-    "keywords": []
+    "keywords": [
+      {
+        "word": "strong",
+        "type": "hawk",
+        "count": 2
+      },
+      {
+        "word": "easing",
+        "type": "dove",
+        "count": 2
+      },
+      {
+        "word": "persistent",
+        "type": "hawk",
+        "count": 1
+      },
+      {
+        "word": "commitment",
+        "type": "hawk",
+        "count": 1
+      },
+      {
+        "word": "robust",
+        "type": "hawk",
+        "count": 1
+      }
+    ]
   },
-  "fetched_at": "2026-11-16T07:56:01.384033+00:00",
-  "note": "No Warsh speech found in latest Fed feeds",
-  "_translation_hash": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
-  "translations": {
-    "zh-CN": {
-      "excerpt": "",
-      "keywords": []
-    },
-    "zh-TW": {
-      "excerpt": "",
-      "keywords": []
-    },
-    "ja": {
-      "excerpt": "",
-      "keywords": []
-    },
-    "ko": {
-      "excerpt": "",
-      "keywords": []
-    },
-    "de": {
-      "excerpt": "",
-      "keywords": []
-    },
-    "fr": {
-      "excerpt": "",
-      "keywords": []
-    }
-  }
+  "fetched_at": "2026-11-16T18:11:58.974751+00:00",
+  "_translation_hash": "7558ea40e23d0b0c9d5423097f194c903414305f2ac01f176fcebbc05f8b6506"
 }
