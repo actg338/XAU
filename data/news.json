@@ -1,7 +1,19 @@
 {
-  "fetched_at": "2026-11-15T21:12:30.704422+00:00",
-  "total": 117,
+  "fetched_at": "2026-11-16T01:05:14.889515+00:00",
+  "total": 118,
   "items": [
+    {
+      "title": "ICYMI: Secretary Duffy’s Full Sunday Circuit Outlines Ground Stop Response and the Path Forward",
+      "link": "https://www.whitehouse.gov/releases/2026/11/icymi-secretary-duffys-full-sunday-circuit-outlines-ground-stop-response-and-the-path-forward/",
+      "summary": "This morning, Secretary of Transportation Sean Duffy appeared on all five Sunday shows to level with the American people about Friday’s nationwide ground stop. Secretary Duffy laid out the Trump Administration’s decisive actions to isolate the problem and restore the airspace and shared preliminary findings from the investigation. While Democrats shamefully lie and resist finishing […] The post ICYMI: Secretary Duffy’s Full Sunday Circuit Outlines Ground Stop Response and the Path Forward appear",
+      "published_at": "Sun, 15 Nov 2026 21:07:34 +0000",
+      "source": "white_house",
+      "category": "geopolitics",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "geopolitics_bullish",
+      "_translation_hash": "8d6ec8f3f13fc1d6f3272dd9c6308dd8e743a338e00c4b63e5e65c7b65879c7a"
+    },
     {
       "title": "Jefferson, New Technology, Old Questions: Productivity Puzzles and the Macroeconomy",
       "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
@@ -653,7 +665,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 28 Oct 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -957,7 +969,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
       "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
       "published_at": "Tue, 13 Oct 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -2161,28 +2173,16 @@
       "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
     },
     {
-      "title": "CPI for all items increases 0.4% in October; shelter rises",
-      "link": "https://www.bls.gov/news.release/archives/cpi_11102026.htm",
+      "title": "Payroll employment rises by 165,000 in October; unemployment rate changes little at 4.1%",
+      "link": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
       "summary": "",
-      "published_at": "2026-11-10T07:55:47.272-05:00",
-      "source": "bls_cpi",
-      "category": "inflation",
+      "published_at": "2026-11-06T07:50:31.965-05:00",
+      "source": "bls_jobs",
+      "category": "labor",
       "impact": "high",
       "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "d4e1f4bd825e1b0ab0b3497f79b688eab249440fc5dec9e8a5eb0c7e6c81a3b9"
-    },
-    {
-      "title": "CPI for all items increases 0.6% in September; gasoline rises",
-      "link": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
-      "summary": "",
-      "published_at": "2026-10-14T07:50:31.2-04:00",
-      "source": "bls_cpi",
-      "category": "inflation",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "7fef741aac2905fa4409098c1ff216f28dca8a73df99fa4b092c6807717f5588"
+      "why_key": "labor_neutral",
+      "_translation_hash": "9722cb61a6a73107b6fd1b55cc7889fc86dc058c01b76886a580981bdfb03fb7"
     }
   ]
 }
