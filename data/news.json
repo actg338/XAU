@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-16T18:12:11.378249+00:00",
+  "fetched_at": "2026-11-17T01:52:29.957474+00:00",
   "total": 116,
   "items": [
     {
@@ -12,7 +12,33 @@
       "impact": "medium",
       "gold_bias": "bullish",
       "why_key": "monetary_policy_bullish",
-      "_translation_hash": "a65c0749a62bd61514336e3a5044a291516ed19698cd4d515481169ada07abf1"
+      "_translation_hash": "a65c0749a62bd61514336e3a5044a291516ed19698cd4d515481169ada07abf1",
+      "translations": {
+        "zh-CN": {
+          "title": "沃什，开幕致辞",
+          "summary": "在美国联邦储备委员会和旧金山联邦储备银行主办的生产力和就业工作组会议上的讲话，加利福尼亚州旧金山"
+        },
+        "ja": {
+          "title": "ウォーシュ氏、開会の挨拶",
+          "summary": "カリフォルニア州サンフランシスコの連邦準備理事会とサンフランシスコ連邦準備銀行が主催する生産性・雇用タスクフォース会議での講演"
+        },
+        "ko": {
+          "title": "워시, 개회사",
+          "summary": "미국 캘리포니아주 샌프란시스코에서 연방준비제도이사회와 샌프란시스코 연방준비은행이 주최한 생산성 및 일자리 태스크포스 회의에서 연설"
+        },
+        "zh-TW": {
+          "title": "沃什，開幕致辭",
+          "summary": "在美國聯邦儲備委員會和舊金山聯邦儲備銀行主辦的生產力和就業工作小組會議上的講話，加州舊金山"
+        },
+        "de": {
+          "title": "Warsh, Eröffnungsrede",
+          "summary": "Rede auf der Konferenz der Productivity and Jobs Task Force, veranstaltet vom Federal Reserve Board und der Federal Reserve Bank of San Francisco, San Francisco, Kalifornien"
+        },
+        "fr": {
+          "title": "Warsh, discours d'ouverture",
+          "summary": "Discours prononcé lors de la conférence du groupe de travail sur la productivité et l'emploi, organisée par le Conseil de la Réserve fédérale et la Banque de réserve fédérale de San Francisco, San Francisco, Californie"
+        }
+      }
     },
     {
       "title": "Barr, Some Potential Financial Stability Implications of Artificial Intelligence",
@@ -24,7 +50,33 @@
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "235433065c0e6a8d82bbbe84dae38f0eeceebb6936c89dc9f32408bba9052b58"
+      "_translation_hash": "235433065c0e6a8d82bbbe84dae38f0eeceebb6936c89dc9f32408bba9052b58",
+      "translations": {
+        "zh-CN": {
+          "title": "巴尔，人工智能对金融稳定的一些潜在影响",
+          "summary": "在意大利米兰第七届计算机协会金融人工智能国际会议上的演讲"
+        },
+        "ja": {
+          "title": "バー氏、人工知能がもたらす潜在的な金融安定への影響",
+          "summary": "イタリア、ミラノの第 7 回コンピューティング機械協会年次金融における人工知能に関する国際会議でのスピーチ"
+        },
+        "ko": {
+          "title": "Barr, 인공 지능의 잠재적인 금융 안정성 영향",
+          "summary": "이탈리아 밀라노에서 열린 금융 인공 지능에 관한 제7차 컴퓨팅 기계 협회 국제 회의에서 연설"
+        },
+        "zh-TW": {
+          "title": "巴爾，人工智慧對金融穩定的一些潛在影響",
+          "summary": "在義大利米蘭第七屆電腦協會金融人工智慧國際會議上的演講"
+        },
+        "de": {
+          "title": "Barr, Einige mögliche Auswirkungen künstlicher Intelligenz auf die Finanzstabilität",
+          "summary": "Rede auf der siebten jährlichen internationalen Konferenz der Association for Computing Machinery über künstliche Intelligenz im Finanzwesen, Mailand, Italien"
+        },
+        "fr": {
+          "title": "Barr, Quelques implications potentielles de l’intelligence artificielle sur la stabilité financière",
+          "summary": "Discours prononcé lors de la septième conférence annuelle de l'Association for Computing Machinery International sur l'intelligence artificielle en finance, Milan, Italie"
+        }
+      }
     },
     {
       "title": "ICYMI: Secretary Duffy’s Full Sunday Circuit Outlines Ground Stop Response and the Path Forward",
@@ -36,7 +88,33 @@
       "impact": "medium",
       "gold_bias": "bullish",
       "why_key": "geopolitics_bullish",
-      "_translation_hash": "8d6ec8f3f13fc1d6f3272dd9c6308dd8e743a338e00c4b63e5e65c7b65879c7a"
+      "_translation_hash": "8d6ec8f3f13fc1d6f3272dd9c6308dd8e743a338e00c4b63e5e65c7b65879c7a",
+      "translations": {
+        "zh-CN": {
+          "title": "ICYMI：达菲部长的周日巡回赛概述了地面站响应和前进的道路",
+          "summary": "今天早上，交通部长肖恩·达菲出现在所有五场周日节目中，就周五的全国地面停车向美国人民坦白。达菲部长阐述了特朗普政府为隔离问题和恢复领空而采取的果断行动，并分享了调查的初步结果。虽然民主党人可耻地撒谎并拒绝完成[…]后ICYMI：部长达菲的完整周日电路概述了地面停止响应和前进的道路出现"
+        },
+        "ja": {
+          "title": "ICYMI: ダフィー長官の日曜サーキット全編が地上停止対応と今後の道筋を概説",
+          "summary": "今朝、ショーン・ダフィー運輸長官は、金曜日の全米一斉停止についてアメリカ国民と意見を一致させるため、日曜日の番組5本すべてに出演した。ダフィー長官は、問題を切り分けて空域を回復するためのトランプ政権の断固とした行動を説明し、調査の予備的結果を共有した。民主党が恥ずべき嘘をつき、終わらせることに抵抗している一方で、ICYMIの投稿：ダフィー長官の日曜巡回フルコースは、地上停止対応と前進への道筋を概説している"
+        },
+        "ko": {
+          "title": "ICYMI: Duffy 장관의 일요일 전체 서킷에서 지상 정지 대응 및 전진 경로 개요",
+          "summary": "오늘 아침 Sean Duffy 교통부 장관은 금요일의 전국적인 지상 정지에 대해 미국 국민에게 알리기 위해 5개의 일요일 쇼에 모두 출연했습니다. 더피 장관은 문제를 격리하고 영공을 복원하기 위한 트럼프 행정부의 결단력 있는 조치를 설명하고 조사에서 얻은 예비 결과를 공유했습니다. 민주당원들은 수치스럽게 거짓말을 하고 마무리를 거부하는 반면 [...] 포스트 ICYMI: 더피 장관의 전체 일요일 순회 개요 지상 정지 응답 및 전진 경로가 나타납니다."
+        },
+        "zh-TW": {
+          "title": "ICYMI：達菲部長的周日巡迴賽概述了地面站響應和前進的道路",
+          "summary": "今天早上，交通部長肖恩·達菲出現在所有五場週日節目中，就週五的全國地面停車向美國人民坦白。達菲部長闡述了川普政府為隔離問題和恢復領空而採取的果斷行動，並分享了調查的初步結果。雖然民主黨人可恥地撒謊並拒絕完成[…]後ICYMI：部長達菲的完整週日電路概述了地面停止響應和前進的道路出現"
+        },
+        "de": {
+          "title": "ICYMI: Der vollständige Sonntagsrundgang von Minister Duffy skizziert die Reaktion auf Bodenstopps und den Weg nach vorne",
+          "summary": "Heute Morgen trat Verkehrsminister Sean Duffy in allen fünf Sonntagsshows auf, um das amerikanische Volk über den landesweiten Bodenstopp am Freitag zu unterrichten. Minister Duffy erläuterte die entscheidenden Maßnahmen der Trump-Administration zur Eingrenzung des Problems und zur Wiederherstellung des Luftraums und teilte vorläufige Ergebnisse der Untersuchung mit. Während die Demokraten beschämend lügen und sich weigern, fertig zu werden, erscheint der Beitrag „ICYMI: Secretary Duffy’s Full Sunday Circuit Outlines Ground Stop Response and the Path Forward“."
+        },
+        "fr": {
+          "title": "ICYMI : Le circuit complet du dimanche du secrétaire Duffy décrit la réponse à l'arrêt au sol et la voie à suivre",
+          "summary": "Ce matin, le secrétaire aux Transports, Sean Duffy, est apparu dans les cinq émissions du dimanche pour mettre le peuple américain au niveau de l'arrêt au sol national de vendredi. Le secrétaire Duffy a exposé les actions décisives de l’administration Trump pour isoler le problème et restaurer l’espace aérien et a partagé les conclusions préliminaires de l’enquête. Tandis que les démocrates mentent honteusement et résistent à la fin […] L'article ICYMI : le circuit complet du dimanche du secrétaire Duffy décrit la réponse à l'arrêt au sol et la voie à suivre apparaissent"
+        }
+      }
     },
     {
       "title": "Jefferson, New Technology, Old Questions: Productivity Puzzles and the Macroeconomy",
@@ -613,7 +691,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 28 Oct 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -917,7 +995,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
       "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
       "published_at": "Tue, 13 Oct 2026 18:00:00 GMT",
-      "source": "fed_press",
+      "source": "fed_policy",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -2045,40 +2123,40 @@
       "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
     },
     {
-      "title": "Payroll employment rises by 165,000 in October; unemployment rate changes little at 4.1%",
-      "link": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
+      "title": "September job openings, hires, and total separations change little; quits increase",
+      "link": "https://www.bls.gov/news.release/archives/jolts_11032026.htm",
       "summary": "",
-      "published_at": "2026-11-06T07:50:31.965-05:00",
-      "source": "bls_jobs",
+      "published_at": "2026-11-03T09:20:35.968-05:00",
+      "source": "bls_jolts",
       "category": "labor",
-      "impact": "high",
+      "impact": "medium",
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
-      "_translation_hash": "9722cb61a6a73107b6fd1b55cc7889fc86dc058c01b76886a580981bdfb03fb7"
+      "_translation_hash": "aba05dda7c4881b1e6a1543222947192fb6495eea12f35d6128c0ee08213d6d3"
     },
     {
-      "title": "Both payroll employment (+29,000) and unemployment rate (4.2%) change little in September",
-      "link": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
+      "title": "August job openings and hires change little; total separations unchanged",
+      "link": "https://www.bls.gov/news.release/archives/jolts_09292026.htm",
       "summary": "",
-      "published_at": "2026-10-02T07:51:08.289-04:00",
-      "source": "bls_jobs",
+      "published_at": "2026-09-29T09:20:32.09-04:00",
+      "source": "bls_jolts",
       "category": "labor",
-      "impact": "high",
+      "impact": "medium",
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
-      "_translation_hash": "96841db93c0b04c1b65eabfa6b25531e2ea9b14f1619ecf8beef34b102ef9ef5"
+      "_translation_hash": "ae4643776403e9edf0d3aa5d8e13271c518393a47f56aa095daf1f73b02a8e61"
     },
     {
-      "title": "Payroll employment increases by 162,000 in August; unemployment rate unchanged at 4.1%",
-      "link": "https://www.bls.gov/news.release/archives/empsit_09042026.htm",
+      "title": "Job openings, hires, and total separations change little in July",
+      "link": "https://www.bls.gov/news.release/archives/jolts_09012026.htm",
       "summary": "",
-      "published_at": "2026-09-04T07:51:08.695-04:00",
-      "source": "bls_jobs",
+      "published_at": "2026-09-01T09:20:29.31-04:00",
+      "source": "bls_jolts",
       "category": "labor",
-      "impact": "high",
+      "impact": "medium",
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
-      "_translation_hash": "49b1542c52b1f8034e8ab011771940c7a52f53795abb67536de62c040206f247"
+      "_translation_hash": "500db7192b8fd428df83835fd500eb408147dab1fb52d83ef80ada6036db7c8d"
     }
   ]
 }
