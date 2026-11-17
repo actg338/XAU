@@ -1,7 +1,197 @@
 {
-  "fetched_at": "2026-11-17T10:02:21.498362+00:00",
-  "total": 116,
+  "fetched_at": "2026-11-17T19:07:46.834791+00:00",
+  "total": 118,
   "items": [
+    {
+      "title": "Philip R. Lane: The practice and science of monetary policy communication: the ECB experience",
+      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261117~7f5d3b1a0e.en.pdf",
+      "summary": "",
+      "published_at": "Tue, 17 Nov 2026 19:30:00 +0100",
+      "source": "ecb",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "00c9970fcc6d24e6f29128710adb116055184e484e4b63ac957efd0a2aad2f5d",
+      "translations": {
+        "zh-CN": {
+          "title": "Philip R. Lane：货币政策沟通的实践和科学：欧洲央行的经验",
+          "summary": ""
+        },
+        "ja": {
+          "title": "フィリップ・R・レーン: 金融政策コミュニケーションの実践と科学: ECB の経験",
+          "summary": ""
+        },
+        "zh-TW": {
+          "title": "Philip R. Lane：貨幣政策溝通的實踐與科學：歐洲央行的經驗",
+          "summary": ""
+        },
+        "ko": {
+          "title": "Philip R. Lane: 통화 정책 커뮤니케이션의 실천과 과학: ECB 경험",
+          "summary": ""
+        },
+        "de": {
+          "title": "Philip R. Lane: Die Praxis und Wissenschaft der geldpolitischen Kommunikation: die Erfahrung der EZB",
+          "summary": ""
+        },
+        "fr": {
+          "title": "Philip R. Lane : La pratique et la science de la communication sur la politique monétaire : l'expérience de la BCE",
+          "summary": ""
+        }
+      }
+    },
+    {
+      "title": "Manufacturing and Trade Inventories and Sales",
+      "link": "https://www.census.gov/mtis/index.html",
+      "summary": "U.S. total business end-of-month inventories for September 2026 were $2,873.4 billion, up 0.5 percent (+/- 0.1 percent) from last month. U.S. total business sales were $2,162.5 billion, up 1.8 percent (+/- 0.2 percent) from last month. September 2026: +0.5 % Change in Inventories August 2026 (r): +0.4 % Change in Inventories",
+      "published_at": "Tue, 17 Nov 2026 10:00:00 -0500",
+      "source": "census",
+      "category": "trade",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "trade_neutral",
+      "_translation_hash": "d72c77a3e2006075c399241685e2d32d05c74c33c80d8e95fbbdc405479ba4b2",
+      "translations": {
+        "zh-CN": {
+          "title": "制造和贸易库存和销售",
+          "summary": "2026 年 9 月美国企业月末库存总额为 28,734 亿美元，较上月增长 0.5%（+/- 0.1%）。美国企业总销售额为 21,625 亿美元，较上月增长 1.8%（+/- 0.2%）。 2026 年 9 月：库存变化 +0.5% 2026 年 8 月 (r)：库存变化 +0.4%"
+        },
+        "ja": {
+          "title": "製造および貿易の在庫および販売",
+          "summary": "2026年9月の米国企業の月末在庫総額は2兆8,734億ドルで、前月比0.5％（±0.1％）増加した。米国の総事業売上高は２兆１６２５億ドルで、前月比１．８％（±０．２％）増加した。 2026年9月: +0.5 % 在庫変動 2026年8月(r): +0.4 % 在庫変動"
+        },
+        "zh-TW": {
+          "title": "製造和貿易庫存和銷售",
+          "summary": "2026 年 9 月美國企業月末庫存總額為 28,734 億美元，較上月成長 0.5%（+/- 0.1%）。美國企業總銷售額為 21,625 億美元，較上月成長 1.8%（+/- 0.2%）。 2026 年 9 月：庫存變化 +0.5% 2026 年 8 月 (r)：庫存變化 +0.4%"
+        },
+        "ko": {
+          "title": "제조 및 무역 재고 및 판매",
+          "summary": "2026년 9월 미국의 총 기업 월말 재고는 2조 8,734억 달러로 지난달보다 0.5%(+/- 0.1%) 증가했습니다. 미국 전체 기업 매출은 2조1625억 달러로 전월보다 1.8%(+/-0.2%) 증가했다. 2026년 9월: 재고 변동 +0.5% 2026년 8월(r): 재고 변동 +0.4%"
+        },
+        "de": {
+          "title": "Produktions- und Handelsbestände und -verkäufe",
+          "summary": "Die Gesamtbestände der US-Unternehmen zum Monatsende beliefen sich im September 2026 auf 2.873,4 Milliarden US-Dollar, ein Anstieg von 0,5 Prozent (+/- 0,1 Prozent) gegenüber dem Vormonat. Der Gesamtumsatz der US-Unternehmen belief sich auf 2.162,5 Milliarden US-Dollar, ein Plus von 1,8 Prozent (+/- 0,2 Prozent) gegenüber dem Vormonat. September 2026: +0,5 % Bestandsveränderung August 2026 (r): +0,4 % Bestandsveränderung"
+        },
+        "fr": {
+          "title": "Stocks et ventes de fabrication et commerciaux",
+          "summary": "Les stocks totaux des entreprises américaines de fin de mois pour septembre 2026 s'élevaient à 2 873,4 milliards de dollars, en hausse de 0,5 % (+/- 0,1 %) par rapport au mois dernier. Le chiffre d'affaires total des entreprises aux États-Unis s'est élevé à 2 162,5 milliards de dollars, en hausse de 1,8 % (+/- 0,2 %) par rapport au mois dernier. Septembre 2026 : +0,5 % variation des stocks Août 2026 (r) : +0,4 % variation des stocks"
+        }
+      }
+    },
+    {
+      "title": "Waller, Considerations at the Intersection of Payments and Tokenized Markets",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm",
+      "summary": "Speech At “Navigating the Future of Banking and Payments,” The Clearing House Annual Conference 2026, New York, New York",
+      "published_at": "Tue, 17 Nov 2026 14:10:00 GMT",
+      "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "4d07f8401169e671937de07ffbd0778f0bc475354e49a5aedeffd21fc25a4cf9",
+      "translations": {
+        "zh-CN": {
+          "title": "Waller，支付和代币化市场交叉点的考虑",
+          "summary": "在纽约州纽约市清算所 2026 年年会上“导航银行和支付的未来”上的演讲"
+        },
+        "ja": {
+          "title": "ウォーラー氏、決済とトークン化市場の交差点における考慮事項",
+          "summary": "2026 年クリアリングハウス年次会議「銀行業務と決済の未来をナビゲートする」（ニューヨーク州ニューヨーク）での講演"
+        },
+        "zh-TW": {
+          "title": "Waller，支付和代幣化市場交叉點的考慮",
+          "summary": "在紐約州紐約市清算所 2026 年年會上「導航銀行和支付的未來」上的演講"
+        },
+        "ko": {
+          "title": "Waller, 결제와 토큰화된 시장 교차점에서의 고려사항",
+          "summary": "\"은행 및 지불의 미래 탐색\" 연설, 2026년 뉴욕 클리어링 하우스 연례 컨퍼런스, 뉴욕"
+        },
+        "de": {
+          "title": "Waller, Überlegungen an der Schnittstelle von Zahlungen und tokenisierten Märkten",
+          "summary": "Rede bei „Navigating the Future of Banking and Payments“, Jahreskonferenz des Clearing House 2026, New York, New York"
+        },
+        "fr": {
+          "title": "Waller, Considérations à l'intersection des paiements et des marchés tokenisés",
+          "summary": "Discours prononcé lors de la conférence annuelle 2026 de Clearing House, « Navigating the Future of Banking and Payments », New York, New York"
+        }
+      }
+    },
+    {
+      "title": "Advance Monthly Sales for Retail and Food Services",
+      "link": "https://www.census.gov/retail/index.html",
+      "summary": "U.S. retail and food services sales for October 2026 were $748.2 billion, up 0.2 percent (+/-0.4 percent)* from the previous month. October 2026: +0.2* % Change September 2026 (r): +0.8 % Change",
+      "published_at": "Tue, 17 Nov 2026 08:30:00 -0500",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "cf9b1bc17579e2687edf061ba3557cb32aa7a75cc97d22e12cfa90b2b4e4d617",
+      "translations": {
+        "zh-CN": {
+          "title": "零售和食品服务的月销售额预付款",
+          "summary": "2026 年 10 月美国零售和食品服务销售额为 7,482 亿美元，环比增长 0.2% (+/-0.4%)*。 2026 年 10 月：+0.2* % 变化 2026 年 9 月 (r)：+0.8% 变化"
+        },
+        "ja": {
+          "title": "小売および食品サービスの前月次売上高",
+          "summary": "2026 年 10 月の米国の小売および食品サービス売上高は 7,482 億ドルで、前月比 0.2% (+/-0.4%)* 増加しました。 2026 年 10 月: +0.2* % 変化 2026 年 9 月 (r): +0.8 % 変化"
+        },
+        "zh-TW": {
+          "title": "零售和食品服務的月銷售額預付款",
+          "summary": "2026 年 10 月美國零售及食品服務銷售額為 7,482 億美元，較上季成長 0.2% (+/-0.4%)*。 2026 年 10 月：+0.2* % 變化 2026 年 9 月 (r)：+0.8% 變化"
+        },
+        "ko": {
+          "title": "소매 및 식품 서비스에 대한 월별 사전 판매",
+          "summary": "2026년 10월 미국 소매 및 식품 서비스 매출은 7,482억 달러로 전월 대비 0.2%(+/-0.4%)* 증가했습니다. 2026년 10월: +0.2* % 변동 2026년 9월 (r): +0.8 % 변동"
+        },
+        "de": {
+          "title": "Monatliche Vorverkäufe für Einzelhandel und Lebensmitteldienstleistungen",
+          "summary": "Der Einzelhandels- und Lebensmitteldienstleistungsumsatz in den USA belief sich im Oktober 2026 auf 748,2 Milliarden US-Dollar, ein Plus von 0,2 Prozent (+/-0,4 Prozent)* gegenüber dem Vormonat. Oktober 2026: +0,2* % Veränderung September 2026 (r): +0,8 % Veränderung"
+        },
+        "fr": {
+          "title": "Avancer les ventes mensuelles pour le commerce de détail et les services alimentaires",
+          "summary": "Les ventes du commerce de détail et des services alimentaires aux États-Unis pour octobre 2026 se sont élevées à 748,2 milliards de dollars, en hausse de 0,2 % (+/-0,4 %)* par rapport au mois précédent. Octobre 2026 : +0,2* % Variation Septembre 2026 (r) : +0,8 % Variation"
+        }
+      }
+    },
+    {
+      "title": "Joint Statement on an Agreement Between the United States of America and the Kingdom of Thailand on Reciprocal Trade",
+      "link": "https://www.whitehouse.gov/briefings-statements/2026/11/joint-statement-on-an-agreement-between-the-united-states-of-america-and-the-kingdom-of-thailand-on-reciprocal-trade/",
+      "summary": "On November 17, 2026, in Manila, Philippines, President Donald J. Trump and Prime Minister Anutin Charnvirakul confirmed that the United States of America (“the United States”) and the Kingdom of Thailand (“Thailand”) have reached substantial conclusion in their negotiations for an Agreement Between the United States of America and the Kingdom of Thailand on Reciprocal […] The post Joint Statement on an Agreement Between the United States of America and the Kingdom of Thailand on Reciprocal Trad",
+      "published_at": "Tue, 17 Nov 2026 12:43:27 +0000",
+      "source": "white_house",
+      "category": "inflation",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "inflation_neutral",
+      "_translation_hash": "6df68055abfb881efc6f6840a2941eb134b4f08cbc297f592c5852e4ac30489f",
+      "translations": {
+        "zh-CN": {
+          "title": "关于美利坚合众国和泰王国互惠贸易协定的联合声明",
+          "summary": "2026 年 11 月 17 日，唐纳德·J·特朗普总统和泰国总理阿努廷·占维拉古 (Anutin Charnvirakul) 在菲律宾马尼拉确认，美利坚合众国（“美国”）和泰王国（“泰国”）已就《美利坚合众国与泰王国互惠贸易协定》谈判达成实质性结论 […] 《关于美利坚合众国与泰王国互惠贸易协定的联合声明》"
+        },
+        "ja": {
+          "title": "相互貿易に関するアメリカ合衆国とタイ王国間の協定に関する共同声明",
+          "summary": "2026年11月17日、フィリピンのマニラで、ドナルド・J・トランプ大統領とアヌティン・チャーンヴィラクル首相は、アメリカ合衆国（「アメリカ合衆国」）とタイ王国（「タイ」）がアメリカ合衆国とタイ王国の間の相互協定に向けた交渉で実質的な結論に達したことを確認した。 […]アメリカ合衆国とタイ王国の間の相互協定に関するポスト共同声明トラッド"
+        },
+        "zh-TW": {
+          "title": "關於美利堅合眾國和泰王國互惠貿易協定的聯合聲明",
+          "summary": "2026 年 11 月 17 日，唐納德·J·特朗普總統和泰國總理阿努廷·佔維拉古 (Anutin Charnvirakul) 在菲律賓馬尼拉確認，美利堅合眾國（“美國”）和泰王國（“泰國”）已就《美利堅合眾國與泰利王國互惠貿易協定》談判聲明《"
+        },
+        "ko": {
+          "title": "미국과 태국 사이의 상호 무역 협정에 관한 공동성명",
+          "summary": "2026년 11월 17일 필리핀 마닐라에서 도널드 J. 트럼프 대통령과 아누틴 찬비라쿨 총리는 미국(“미국”)과 태국 왕국(“태국”)이 미국과 태국 왕국 간의 상호 무역 협정에 관한 협상에서 실질적인 결론에 도달했음을 확인했습니다."
+        },
+        "de": {
+          "title": "Gemeinsame Erklärung zu einem Abkommen zwischen den Vereinigten Staaten von Amerika und dem Königreich Thailand über gegenseitigen Handel",
+          "summary": "Am 17. November 2026 bestätigten Präsident Donald J. Trump und Premierminister Anutin Charnvirakul in Manila, Philippinen, dass die Vereinigten Staaten von Amerika („die Vereinigten Staaten“) und das Königreich Thailand („Thailand“) in ihren Verhandlungen über ein Abkommen zwischen den Vereinigten Staaten von Amerika und dem Königreich Thailand über gegenseitigen Handel einen wesentlichen Abschluss erzielt haben"
+        },
+        "fr": {
+          "title": "Déclaration commune sur un accord commercial réciproque entre les États-Unis d'Amérique et le Royaume de Thaïlande",
+          "summary": "Le 17 novembre 2026, à Manille, aux Philippines, le président Donald J. Trump et le Premier ministre Anutin Charnvirakul ont confirmé que les États-Unis d'Amérique (« les États-Unis ») et le Royaume de Thaïlande (« Thaïlande ») étaient parvenus à des conclusions substantielles dans leurs négociations en vue d'un accord entre les États-Unis d'Amérique et le Royaume de Thaïlande sur la réciprocité […]."
+        }
+      }
+    },
     {
       "title": "Warsh, Opening Remarks",
       "link": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm",
@@ -691,7 +881,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 28 Oct 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -877,82 +1067,6 @@
       }
     },
     {
-      "title": "Manufacturing and Trade Inventories and Sales",
-      "link": "https://www.census.gov/mtis/index.html",
-      "summary": "U.S. total business end-of-month inventories for August 2026 were $2,818.8 billion, up 0.4 percent (+/- 0.1 percent) from last month. U.S. total business sales were $2,123.5 billion, up 1.1 percent (+/- 0.1 percent) from last month. August 2026: +0.4 % Change in Inventories July 2026 (r): +0.9 % Change in Inventories",
-      "published_at": "Thu, 15 Oct 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "trade",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "e1bff29a52c42d95ba5da606a85ba8d1ab5d4b761d54d2e4529aa93c7c6befed",
-      "translations": {
-        "zh-CN": {
-          "title": "制造和贸易库存和销售",
-          "summary": "2026 年 8 月美国企业月末库存总额为 28,188 亿美元，比上月增长 0.4%（+/- 0.1%）。美国企业总销售额为 21,235 亿美元，较上月增长 1.1%（+/- 0.1%）。 2026 年 8 月：库存变化 +0.4% 2026 年 7 月 (r)：库存变化 +0.9%"
-        },
-        "zh-TW": {
-          "title": "製造和貿易庫存和銷售",
-          "summary": "2026 年 8 月美國企業月末庫存總額為 28,188 億美元，較上月成長 0.4%（+/- 0.1%）。美國企業總銷售額為 21,235 億美元，較上月成長 1.1%（+/- 0.1%）。 2026 年 8 月：庫存變化 +0.4% 2026 年 7 月 (r)：庫存變化 +0.9%"
-        },
-        "ja": {
-          "title": "製造および貿易の在庫および販売",
-          "summary": "2026年8月の米国企業の月末在庫総額は2兆8,188億ドルで、前月比0.4パーセント（±0.1パーセント）増加しました。米国の総事業売上高は２兆１２３５億ドルで、前月比１．１％（±０．１％）増加した。 2026年8月: +0.4 % 在庫変動 2026年7月(r): +0.9 % 在庫変動"
-        },
-        "ko": {
-          "title": "제조 및 무역 재고 및 판매",
-          "summary": "2026년 8월 미국의 총 기업 월말 재고는 2조 8,188억 달러로 지난달보다 0.4%(+/- 0.1%) 증가했습니다. 미국 전체 기업 매출은 2조1235억 달러로 전월보다 1.1%(+/-0.1%) 증가했다. 2026년 8월: 재고 변동 +0.4% 2026년 7월(r): 재고 변동 +0.9%"
-        },
-        "de": {
-          "title": "Produktions- und Handelsbestände und -verkäufe",
-          "summary": "Die Gesamtbestände der US-Unternehmen zum Monatsende beliefen sich im August 2026 auf 2.818,8 Milliarden US-Dollar, ein Plus von 0,4 Prozent (+/- 0,1 Prozent) gegenüber dem Vormonat. Der Gesamtumsatz der US-Unternehmen belief sich auf 2.123,5 Milliarden US-Dollar, ein Plus von 1,1 Prozent (+/- 0,1 Prozent) gegenüber dem Vormonat. August 2026: +0,4 % Bestandsveränderung Juli 2026 (r): +0,9 % Bestandsveränderung"
-        },
-        "fr": {
-          "title": "Stocks et ventes de fabrication et commerciaux",
-          "summary": "Les stocks totaux des entreprises américaines de fin de mois pour août 2026 s'élevaient à 2 818,8 milliards de dollars, en hausse de 0,4 % (+/- 0,1 %) par rapport au mois dernier. Le chiffre d'affaires total des entreprises aux États-Unis s'est élevé à 2 123,5 milliards de dollars, en hausse de 1,1 % (+/- 0,1 %) par rapport au mois dernier. Août 2026 : +0,4 % variation des stocks Juillet 2026 (r) : +0,9 % variation des stocks"
-        }
-      }
-    },
-    {
-      "title": "Advance Monthly Sales for Retail and Food Services",
-      "link": "https://www.census.gov/retail/index.html",
-      "summary": "U.S. retail and food services sales for September 2026 were $745.0 billion, up 0.8 percent (+/-0.4 percent) from the previous month. September 2026: +0.8 % Change August 2026 (r): +1.3 % Change",
-      "published_at": "Thu, 15 Oct 2026 08:30:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "7ddbdaa2f044894620de79a6455edc4f80f7372e7d37bf7fa157de4d338e930a",
-      "translations": {
-        "zh-CN": {
-          "title": "零售和食品服务的月销售额预付款",
-          "summary": "2026 年 9 月美国零售和食品服务销售额为 7,450 亿美元，环比增长 0.8% (+/-0.4%)。 2026 年 9 月：+0.8% 变化 2026 年 8 月 (r)：+1.3% 变化"
-        },
-        "zh-TW": {
-          "title": "零售和食品服務的月銷售額預付款",
-          "summary": "2026 年 9 月美國零售和食品服務銷售額為 7,450 億美元，季增 0.8% (+/-0.4%)。 2026 年 9 月：+0.8% 變化 2026 年 8 月 (r)：+1.3% 變化"
-        },
-        "ja": {
-          "title": "小売および食品サービスの前月次売上高",
-          "summary": "2026年9月の米国の小売・食品サービス売上高は7,450億ドルで、前月比0.8％（±0.4％）増加した。 2026年9月: +0.8 %変化 2026年8月(r): +1.3 %変化"
-        },
-        "ko": {
-          "title": "소매 및 식품 서비스에 대한 월별 사전 판매",
-          "summary": "2026년 9월 미국 소매 및 식품 서비스 매출은 7,450억 달러로 전월보다 0.8%(+/-0.4%) 증가했습니다. 2026년 9월: +0.8% 변동 2026년 8월(r): +1.3% 변동"
-        },
-        "de": {
-          "title": "Monatliche Vorverkäufe für Einzelhandel und Lebensmitteldienstleistungen",
-          "summary": "Der US-Einzelhandels- und Lebensmitteldienstleistungsumsatz belief sich im September 2026 auf 745,0 Milliarden US-Dollar, ein Plus von 0,8 Prozent (+/-0,4 Prozent) gegenüber dem Vormonat. September 2026: +0,8 % Veränderung August 2026 (r): +1,3 % Veränderung"
-        },
-        "fr": {
-          "title": "Avancer les ventes mensuelles pour le commerce de détail et les services alimentaires",
-          "summary": "Les ventes du commerce de détail et des services alimentaires aux États-Unis pour septembre 2026 se sont élevées à 745,0 milliards de dollars, en hausse de 0,8 % (+/-0,4 %) par rapport au mois précédent. Septembre 2026 : +0,8 % Variation Août 2026 (r) : +1,3 % Variation"
-        }
-      }
-    },
-    {
       "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
       "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
       "summary": "Speech At the Bangkok Economic Festival, Reinventing Bretton Woods Committee, Bangkok, Thailand",
@@ -995,7 +1109,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
       "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
       "published_at": "Tue, 13 Oct 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1329,44 +1443,6 @@
         "fr": {
           "title": "Waller, Les paiements à l'ère des agents IA",
           "summary": "Discours au Sibos 2026, Miami, Floride"
-        }
-      }
-    },
-    {
-      "title": "Barr, Economic Conditions and Monetary Policy",
-      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260929a.htm",
-      "summary": "Speech At the Detroit Economic Club, Detroit, Michigan",
-      "published_at": "Tue, 29 Sep 2026 16:40:00 GMT",
-      "source": "fed_remarks",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "d676ef489a6b4d04189053fc11a41264556768f9dd0ae63d400f750c570b7c0a",
-      "translations": {
-        "ja": {
-          "title": "バール氏、経済情勢と金融政策",
-          "summary": "ミシガン州デトロイトのデトロイト・エコノミック・クラブでのスピーチ"
-        },
-        "zh-CN": {
-          "title": "巴尔，经济状况和货币政策",
-          "summary": "在密歇根州底特律底特律经济俱乐部的演讲"
-        },
-        "ko": {
-          "title": "Barr, 경제 상황 및 통화 정책",
-          "summary": "미시간 주 디트로이트 디트로이트 경제 클럽에서의 연설"
-        },
-        "fr": {
-          "title": "Barr, Conditions économiques et politique monétaire",
-          "summary": "Discours au Detroit Economic Club, Detroit, Michigan"
-        },
-        "zh-TW": {
-          "title": "巴爾，經濟狀況和貨幣政策",
-          "summary": "在密西根州底特律底特律經濟俱樂部的演講"
-        },
-        "de": {
-          "title": "Barr, Wirtschaftsbedingungen und Geldpolitik",
-          "summary": "Rede im Detroit Economic Club, Detroit, Michigan"
         }
       }
     },
@@ -2133,30 +2209,6 @@
       "gold_bias": "neutral",
       "why_key": "inflation_neutral",
       "_translation_hash": "c2f9364567be754d6c8a9eeeb80e6f915f5c9d51e44de0250276f9b726366d2b"
-    },
-    {
-      "title": "PPI for final demand increases 1.3% in September; goods advance 2.6%, services rise 0.8%",
-      "link": "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
-      "summary": "",
-      "published_at": "2026-10-15T07:50:51.146-04:00",
-      "source": "bls_ppi",
-      "category": "inflation",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "8664b1562ed6090060f871b5acf8ca52f23a18c0161d2cf3015acbb3d55c6dad"
-    },
-    {
-      "title": "PPI for final demand moves up 0.4% in August; goods advance 1.1%, services rise 0.1%",
-      "link": "https://www.bls.gov/news.release/archives/ppi_09102026.htm",
-      "summary": "",
-      "published_at": "2026-09-10T07:50:35.512-04:00",
-      "source": "bls_ppi",
-      "category": "inflation",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "6bc5d87af039c76681b4c1b8b1fe0aca39ecece9bec831c16c25e1b94ac302a2"
     }
   ]
 }
