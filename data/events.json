@@ -1,15 +1,7 @@
 {
-  "fetched_at": "2026-11-18T09:05:45.751297+00:00",
+  "fetched_at": "2026-11-18T17:59:48.258437+00:00",
   "timezone": "UTC",
   "events": [
-    {
-      "event_key": "bls_release",
-      "title": "Employer-Reported Workplace Injuries and Illnesses (Annual)",
-      "starts_at": "2026-11-18T15:00:00+00:00",
-      "impact": "medium",
-      "source": "BLS",
-      "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
-    },
     {
       "event_key": "bls_release",
       "title": "State Employment and Unemployment (Monthly)",

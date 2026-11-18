@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T09:05:45.853895+00:00",
+  "generated_at": "2026-11-18T17:59:48.560207+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
   "confidence": 92,
@@ -12,12 +12,6 @@
   "counter_risks": [],
   "top_news": [
     {
-      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
-      "link": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261030~e40f864093.en.html",
-      "category": "monetary_policy",
-      "bias": "neutral"
-    },
-    {
       "title": "Federal Reserve issues FOMC statement",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "category": "monetary_policy",
@@ -28,12 +22,18 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "category": "monetary_policy",
       "bias": "neutral"
+    },
+    {
+      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+      "category": "monetary_policy",
+      "bias": "neutral"
     }
   ],
   "next_event": {
     "event_key": "bls_release",
-    "title": "Employer-Reported Workplace Injuries and Illnesses (Annual)",
-    "starts_at": "2026-11-18T15:00:00+00:00",
+    "title": "State Employment and Unemployment (Monthly)",
+    "starts_at": "2026-11-20T15:00:00+00:00",
     "impact": "medium",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
