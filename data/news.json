@@ -1,7 +1,121 @@
 {
-  "fetched_at": "2026-11-19T07:37:48.599814+00:00",
-  "total": 117,
+  "fetched_at": "2026-11-19T16:47:38.744542+00:00",
+  "total": 118,
   "items": [
+    {
+      "title": "Quarterly Services Survey",
+      "link": "https://www.census.gov/services/index.html",
+      "summary": "Advance U.S. selected services total revenue for the third quarter of 2026, adjusted for seasonal variation but not for price changes, was $6,531.3 billion, an increase of 1.0 percent (+/- 0.4 percent) from the second quarter of 2026 and up 6.5 percent (+/- 0.6 percent) from the third quarter of 2025. 3rd Qtr 2026: +1.0 % Change 2nd Qtr 2026 (r): +3.0 % Change",
+      "published_at": "Thu, 19 Nov 2026 10:00:00 -0500",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "c701c03a62eefccfbc2d827750d45848e488c2cea39a302982c758d9416fdece",
+      "translations": {
+        "zh-CN": {
+          "title": "季度服务调查",
+          "summary": "美国高级精选服务 2026 年第三季度的总收入（根据季节性变化但未根据价格变化进行调整）为 65,313 亿美元，比 2026 年第二季度增长 1.0% (+/- 0.4%)，比 2025 年第三季度增长 6.5% (+/- 0.6%)。 2026 年第三季度：第二季度变化 +1.0% 2026 年 (r)：+3.0% 变化"
+        },
+        "zh-TW": {
+          "title": "季度服務調查",
+          "summary": "美國高級精選服務 2026 年第三季的總收入（根據季節性變化但未根據價格變化進行調整）為 65,313 億美元，比 2026 年第二季度增長 1.0% (+/- 0.4%)，比 2025 年第三季度增長 6.5% (+/- 0.6%)。 2026 年第三季：第二季變動 +1.0% 2026 年 (r)：+3.0% 變化"
+        },
+        "ja": {
+          "title": "四半期サービス調査",
+          "summary": "2026 年第 3 四半期の米国アドバンスト セレクト サービスの総収益は、季節変動を調整後、価格変動は考慮せず、6 兆 5,313 億ドルで、2026 年第 2 四半期から 1.0 パーセント (+/- 0.4 パーセント) 増加し、2025 年第 3 四半期から 6.5 パーセント (+/- 0.6 パーセント) 増加しました。 2026 年第 3 四半期: +1.0 % 変化2026 年第 2 四半期 (r): +3.0 % 変化"
+        },
+        "ko": {
+          "title": "분기별 서비스 설문조사",
+          "summary": "2026년 3분기 미국의 고급 서비스 총 수익은 계절적 변동을 조정했지만 가격 변동은 반영하지 않은 6조 5,313억 달러로 2026년 2분기보다 1.0%(+/- 0.4%) 증가했고 2025년 3분기보다 6.5%(+/- 0.6%) 증가했습니다. 2026년 3분기: +1.0% 변화 2차 2026년 Qtr(r): +3.0% 변화"
+        },
+        "fr": {
+          "title": "Enquête trimestrielle sur les services",
+          "summary": "Le chiffre d'affaires total des services sélectionnés aux États-Unis pour le troisième trimestre 2026, ajusté des variations saisonnières mais pas des variations de prix, s'est élevé à 6 531,3 milliards de dollars, soit une augmentation de 1,0 pour cent (+/- 0,4 pour cent) par rapport au deuxième trimestre 2026 et en hausse de 6,5 pour cent (+/- 0,6 pour cent) par rapport au troisième trimestre 2025. 3e trimestre 2026 : +1,0 % de variation au 2e trimestre 2026 (r) : +3,0 % Variation"
+        },
+        "de": {
+          "title": "Vierteljährliche Dienstleistungsumfrage",
+          "summary": "Der Gesamtumsatz von Advance US-Auswahldiensten belief sich im dritten Quartal 2026, bereinigt um saisonale Schwankungen, aber nicht um Preisänderungen, auf 6.531,3 Milliarden US-Dollar, ein Anstieg von 1,0 Prozent (+/- 0,4 Prozent) gegenüber dem zweiten Quartal 2026 und ein Plus von 6,5 Prozent (+/- 0,6 Prozent) gegenüber dem dritten Quartal 2025. 3. Quartal 2026: +1,0 % Veränderung 2. Quartal 2026 (r): +3,0 % Veränderung"
+        }
+      }
+    },
+    {
+      "title": "Jefferson, Monetary Policy amid Frequent and Complex Shocks",
+      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261119a.htm",
+      "summary": "Speech At the International Monetary Fund and Central Bank of Brazil Conference “A Quarter Century of Inflation Targeting in Latin America: Progress, Challenges, and the Road Ahead,” Brasília, Brazil",
+      "published_at": "Thu, 19 Nov 2026 14:25:00 GMT",
+      "source": "fed_remarks",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "a356fa53069f4711643b675e13fc1a62c7870c1956b31d3711c316bc36a68bb1",
+      "translations": {
+        "zh-CN": {
+          "title": "杰斐逊，频繁而复杂的冲击下的货币政策",
+          "summary": "在国际货币基金组织和巴西中央银行会议上的演讲“拉丁美洲四分之一世纪的通胀目标：进展、挑战和未来之路”，巴西巴西利亚"
+        },
+        "zh-TW": {
+          "title": "傑斐遜，頻繁而複雜的衝擊下的貨幣政策",
+          "summary": "在國際貨幣基金組織和巴西中央銀行會議上的演講“拉丁美洲四分之一世紀的通膨目標：進展、挑戰和未來之路”，巴西巴西利亞"
+        },
+        "ja": {
+          "title": "ジェファーソン、頻繁かつ複雑なショックの中での金融政策",
+          "summary": "国際通貨基金およびブラジル中央銀行会議でのスピーチ「ラテンアメリカにおけるインフレ目標の四半世紀：進歩、課題、そして今後の道のり」（ブラジル、ブラジリア）"
+        },
+        "ko": {
+          "title": "제퍼슨, 빈번하고 복잡한 충격 속의 통화정책",
+          "summary": "국제통화기금(IMF) 및 브라질 중앙은행 회의에서 연설한 \"라틴 아메리카의 25년 인플레이션 목표: 진전, 과제 및 앞으로의 길\", 브라질 브라질리아"
+        },
+        "fr": {
+          "title": "Jefferson, La politique monétaire au milieu de chocs fréquents et complexes",
+          "summary": "Discours prononcé lors de la conférence du Fonds monétaire international et de la Banque centrale du Brésil « Un quart de siècle de ciblage de l'inflation en Amérique latine : progrès, défis et chemin à parcourir », Brasilia, Brésil"
+        },
+        "de": {
+          "title": "Jefferson, Geldpolitik inmitten häufiger und komplexer Schocks",
+          "summary": "Rede auf der Konferenz des Internationalen Währungsfonds und der brasilianischen Zentralbank „Ein Vierteljahrhundert der Inflationsbekämpfung in Lateinamerika: Fortschritte, Herausforderungen und der Weg in die Zukunft“, Brasília, Brasilien"
+        }
+      }
+    },
+    {
+      "title": "U.S.-Russia-China Heads of State Declaration toward Peace",
+      "link": "https://www.whitehouse.gov/briefings-statements/2026/11/u-s-russia-china-heads-of-state-declaration-toward-peace/",
+      "summary": "Donald J. Trump, President of the United States of America, Vladimir Putin, President of the Russian Federation, and Xi Jinping, State Chairman of the People’s Republic of China, met in Shenzhen on November 19, 2026. The U.S. and Russian heads of state expressed appreciation to China for hosting this historic trilateral Summit. The three heads […] The post U.S.-Russia-China Heads of State Declaration toward Peace appeared first on The White House .",
+      "published_at": "Thu, 19 Nov 2026 13:53:04 +0000",
+      "source": "white_house",
+      "category": "geopolitics",
+      "impact": "medium",
+      "gold_bias": "bullish",
+      "why_key": "geopolitics_bullish",
+      "_translation_hash": "9944aa1bb1f6f6a99176ffdc6adbbddd52fa04134b50436c195f9b80a22c9457",
+      "translations": {
+        "zh-CN": {
+          "title": "美俄中三国元首和平宣言",
+          "summary": "2026年11月19日，美国总统唐纳德·特朗普、俄罗斯联邦总统弗拉基米尔·普京和中华人民共和国国家主席习近平在深圳会晤。美国和俄罗斯元首对中方主办这次历史性的三边峰会表示赞赏。三位元首[……]美、俄、中三国元首发表的和平宣言首先出现在白宫。"
+        },
+        "zh-TW": {
+          "title": "美俄中三國元首和平宣言",
+          "summary": "2026年11月19日，美國總統川普、俄羅斯聯邦總統普丁和中華人民共和國國家主席習近平在深圳會晤。美國和俄羅斯元首對中方主辦這次歷史性的三邊峰會表示讚賞。三位元首[……]美、俄、中三國元首所發表的和平宣言首先出現在白宮。"
+        },
+        "ja": {
+          "title": "米露中首脳による平和に向けた宣言",
+          "summary": "ドナルド・J・トランプアメリカ合衆国大統領、ウラジーミル・プーチンロシア連邦大統領、習近平中華人民共和国国家主席は、2026年11月19日に深センで会談した。米国とロシアの首脳は、この歴史的な三国首脳会談を主催した中国に感謝の意を表明した。 3 つの首脳 […] 平和に向けたポスト米露中国家元首宣言が最初にホワイトハウスに掲載された。"
+        },
+        "ko": {
+          "title": "미-러-중 정상의 평화를 위한 선언",
+          "summary": "도널드 J. 트럼프 미국 대통령, 블라디미르 푸틴 러시아 연방 대통령, 시진핑 중국 국가주석이 2026년 11월 19일 선전에서 회담했습니다. 미국과 러시아 정상은 이 역사적인 3국 정상회담을 주최한 중국에 사의를 표했습니다. 세 정상은 […] 미-러-중 평화를 위한 국가 정상 선언문이 백악관에 처음 등장했습니다."
+        },
+        "fr": {
+          "title": "Déclaration des chefs d'État des États-Unis, de la Russie et de la Chine en faveur de la paix",
+          "summary": "Donald J. Trump, président des États-Unis d'Amérique, Vladimir Poutine, président de la Fédération de Russie, et Xi Jinping, président de la République populaire de Chine, se sont rencontrés à Shenzhen le 19 novembre 2026. Les chefs d'État américain et russe ont exprimé leur gratitude à la Chine pour avoir accueilli ce sommet trilatéral historique. Les trois têtes […] L'article sur la Déclaration des chefs d'État des États-Unis, de la Russie et de la Chine en faveur de la paix est apparu en premier sur la Maison Blanche."
+        },
+        "de": {
+          "title": "Erklärung der Staatsoberhäupter der USA, Russlands und Chinas zum Frieden",
+          "summary": "Donald J. Trump, Präsident der Vereinigten Staaten von Amerika, Wladimir Putin, Präsident der Russischen Föderation, und Xi Jinping, Staatspräsident der Volksrepublik China, trafen sich am 19. November 2026 in Shenzhen. Die Staatsoberhäupter der USA und Russlands drückten China ihre Wertschätzung für die Ausrichtung dieses historischen trilateralen Gipfels aus. Die drei Köpfe […] Der Beitrag der Staatsoberhäupter der USA, Russlands und Chinas zum Frieden erschien zuerst im Weißen Haus."
+        }
+      }
+    },
     {
       "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
@@ -957,7 +1071,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 28 Oct 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -991,80 +1105,54 @@
       }
     },
     {
-      "title": "Housing Vacancies and Homeownership",
+      "title": "Rental Vacancy Rate",
       "link": "https://www.census.gov/housing/hvs/",
-      "summary": "The homeownership rate of 65.5 percent was not statistically different from the rate in the third quarter 2025. The homeownership rates in the Northeast, Midwest, South, and West were not statistically different from third quarter 2025 rates. 3rd Qtr 2026: +0.2* Percentage Points 3rd Qtr 2025: -0.3* Percentage Points",
+      "summary": "The rental vacancy rate of 7.6 percent was higher than the rate in the third quarter 2025. Compared to the third quarter 2025, the rental vacancy rates were higher in the Northeast and West, and they were not statistically different in the Midwest and South. 3rd Qtr 2026: +0.5 Percentage Points 3rd Qtr 2025: +0.2* Percentage Points",
       "published_at": "Wed, 28 Oct 2026 10:00:00 -0400",
       "source": "census",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "b06049b7e47f91f0113ff3fb0c8011f9db71d4ba98d395b099d7f1e2474d5a30",
+      "_translation_hash": "c843c1667244737b2b857388891edc2f4e1f7c4a215510d9c4637b6c267042f3",
       "translations": {
         "zh-CN": {
-          "title": "住房空置和住房拥有率",
-          "summary": "65.5% 的住房拥有率与 2025 年第三季度的住房拥有率没有统计差异。东北部、中西部、南部和西部的住房拥有率与 2025 年第三季度的住房拥有率没有统计差异。 2026 年第三季度：+0.2* 百分点 2025 年第三季度：-0.3* 百分点"
-        },
-        "ja": {
-          "title": "住宅の空室と住宅所有権",
-          "summary": "65.5% という住宅所有率は、2025 年第 3 四半期の住宅所有率と統計的に違いはありませんでした。北東部、中西部、南部、西部の住宅所有率は、2025 年第 3 四半期の住宅所有率と統計的に違いはありませんでした。 2026 年第 3 四半期: +0.2* パーセント ポイント 2025 年第 3 四半期: -0.3* パーセント ポイント"
+          "title": "出租空置率",
+          "summary": "租赁空置率为7.6%，高于2025年第三季度。与2025年第三季度相比，东北部和西部地区的租赁空置率较高，中西部和南部没有统计差异。 2026 年第三季度：+0.5 个百分点 2025 年第三季度：+0.2* 个百分点"
         },
         "zh-TW": {
-          "title": "住房空置和住房擁有率",
-          "summary": "65.5% 的住房擁有率與 2025 年第三季的住房擁有率沒有統計差異。東北部、中西部、南部和西部的住房擁有率與 2025 年第三季的住房擁有率沒有統計差異。 2026 年第三季：+0.2* 百分點 2025 年第三季：-0.3* 百分點"
+          "title": "出租空置率",
+          "summary": "租賃空置率為7.6%，高於2025年第三季。與2025年第三季相比，東北部和西部地區的租賃空置率較高，中西部和南部沒有統計差異。 2026 年第三季：+0.5 個百分點 2025 年第三季：+0.2* 個百分點"
         },
-        "de": {
-          "title": "Wohnungsleerstand und Wohneigentum",
-          "summary": "Die Wohneigentumsquote von 65,5 Prozent unterschied sich statistisch gesehen nicht von der Quote im dritten Quartal 2025. Die Wohneigentumsquote im Nordosten, Mittleren Westen, Süden und Westen unterschied sich statistisch gesehen nicht von der Quote im dritten Quartal 2025. 3. Quartal 2026: +0,2* Prozentpunkte 3. Quartal 2025: -0,3* Prozentpunkte"
+        "ja": {
+          "title": "賃貸空室率",
+          "summary": "賃貸空室率は 7.6% で、2025 年第 3 四半期の空室率よりも高かった。2025 年第 3 四半期と比較して、賃貸空室率は北東部と西部で高く、中西部と南部では統計的な差はありませんでした。 2026 年第 3 四半期: +0.5 パーセント ポイント 2025 年第 3 四半期: +0.2* パーセント ポイント"
         },
         "ko": {
-          "title": "주택 공실 및 주택 소유",
-          "summary": "65.5%의 주택 소유율은 2025년 3분기 주택 소유율과 통계적으로 다르지 않았습니다. 북동부, 중서부, 남부, 서부 지역의 주택 소유율은 2025년 3분기 주택 소유율과 통계적으로 다르지 않았습니다. 2026년 3분기: +0.2* 백분율 포인트 2025년 3분기: -0.3* 백분율 포인트"
+          "title": "임대 공실률",
+          "summary": "임대 공실률은 7.6%로 2025년 3분기보다 높았다. 2025년 3분기와 비교해 임대 공실률은 북동부와 서부에서 높았고, 중서부와 남부에서도 통계적으로 차이가 없었다. 2026년 3분기: +0.5 백분율 포인트 2025년 3분기: +0.2* 백분율 포인트"
         },
         "fr": {
-          "title": "Offres de logements vacants et accession à la propriété",
-          "summary": "Le taux d'accession à la propriété de 65,5 % n'était pas statistiquement différent du taux du troisième trimestre 2025. Les taux d'accession à la propriété dans le Nord-Est, le Midwest, le Sud et l'Ouest n'étaient pas statistiquement différents des taux du troisième trimestre 2025. 3e trimestre 2026 : +0,2* points de pourcentage 3e trimestre 2025 : -0,3* points de pourcentage"
+          "title": "Taux d'inoccupation des logements locatifs",
+          "summary": "Le taux d'inoccupation des logements locatifs de 7,6 pour cent était supérieur à celui du troisième trimestre 2025. Par rapport au troisième trimestre 2025, les taux d'inoccupation des logements locatifs étaient plus élevés dans le Nord-Est et l'Ouest, et ils n'étaient pas statistiquement différents dans le Midwest et le Sud. 3e trimestre 2026 : +0,5 points de pourcentage 3e trimestre 2025 : +0,2* points de pourcentage"
+        },
+        "de": {
+          "title": "Mietleerstandsquote",
+          "summary": "Die Mietleerstandsquote lag mit 7,6 Prozent über der Quote im dritten Quartal 2025. Im Vergleich zum dritten Quartal 2025 waren die Mietleerstandsquoten im Nordosten und Westen höher und im Mittleren Westen und Süden statistisch gesehen nicht unterschiedlich. 3. Quartal 2026: +0,5 Prozentpunkte. 3. Quartal 2025: +0,2* Prozentpunkte"
         }
       }
     },
     {
-      "title": "Advance U.S. International Trade in Goods",
+      "title": "Advance Wholesale Inventories",
       "link": "https://www.census.gov/econ/indicators/index.html",
-      "summary": "The advance international trade deficit in goods increased to $134.9 billion in September from $132.1 billion in August as imports increased more than exports. September 2026: 2.1° % Change August 2026: 11.1° % Change",
+      "summary": "September end-of-month inventories were $1,011.5 billion, up 0.6 percent (+/- 0.2 percent) from last month. September 2026: +0.6 % Change in Inventories August 2026 (r): +0.5 % Change in Inventories",
       "published_at": "Wed, 28 Oct 2026 08:30:00 -0400",
       "source": "census",
-      "category": "trade",
-      "impact": "medium",
+      "category": "other",
+      "impact": "low",
       "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "3d98f36b5ace20afe87bb47fe087fd19d217d19446f54616b26599f31c34c038",
-      "translations": {
-        "zh-CN": {
-          "title": "推进美国国际货物贸易",
-          "summary": "由于进口增幅大于出口增幅，9 月份预付国际货物贸易逆差从 8 月份的 1,321 亿美元增至 1,349 亿美元。 2026 年 9 月：2.1° % 变化 2026 年 8 月：11.1° % 变化"
-        },
-        "ja": {
-          "title": "米国の国際商品貿易を前進させる",
-          "summary": "輸入の増加が輸出を上回ったため、モノの事前国際貿易赤字は8月の1,321億ドルから9月の1,349億ドルに増加した。 2026年9月: 2.1° %変化 2026年8月: 11.1° %変化"
-        },
-        "zh-TW": {
-          "title": "推動美國國際貨物貿易",
-          "summary": "由於進口增幅大於出口增幅，9 月預付國際貨物貿易逆差從 8 月的 1,321 億美元增加到 1,349 億美元。 2026 年 9 月：2.1° % 變化 2026 年 8 月：11.1° % 變化"
-        },
-        "ko": {
-          "title": "미국의 국제 상품 무역 증진",
-          "summary": "수출보다 수입이 더 많이 증가하면서 상품 부문의 국제 무역 적자는 8월 1,321억 달러에서 9월 1,349억 달러로 증가했습니다. 2026년 9월: 2.1° % 변화 2026년 8월: 11.1° % 변화"
-        },
-        "fr": {
-          "title": "Faire progresser le commerce international des marchandises aux États-Unis",
-          "summary": "Le déficit du commerce international des biens a augmenté pour atteindre 134,9 milliards de dollars en septembre, contre 132,1 milliards de dollars en août, les importations ayant augmenté plus que les exportations. Septembre 2026 : 2,1° % d’évolution Août 2026 : 11,1° % d’évolution"
-        },
-        "de": {
-          "title": "Förderung des internationalen Warenhandels der USA",
-          "summary": "Das vorläufige Defizit im internationalen Warenhandel stieg von 132,1 Milliarden US-Dollar im August auf 134,9 Milliarden US-Dollar im September, da die Importe stärker zunahmen als die Exporte. September 2026: 2,1° % Veränderung August 2026: 11,1° % Veränderung"
-        }
-      }
+      "why_key": "other_neutral",
+      "_translation_hash": "b69bbd5bc31403f1a91fc76cd40382e4ff56dced7317b58855a269b95ab831e3"
     },
     {
       "title": "New Home Sales",
@@ -1147,7 +1235,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
       "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
       "published_at": "Tue, 13 Oct 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -1409,44 +1497,6 @@
       }
     },
     {
-      "title": "Cook, The Dual Mandate in Rural America",
-      "link": "https://www.federalreserve.gov/newsevents/speech/cook20260930a.htm",
-      "summary": "Speech At the 2026 Investing in Rural America Conference, Federal Reserve Bank of Richmond, Asheville, North Carolina",
-      "published_at": "Wed, 30 Sep 2026 19:25:00 GMT",
-      "source": "fed_remarks",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "d409832a789d60c5e77527604604a857baf60c46df4a6539809dc90c657d6170",
-      "translations": {
-        "zh-CN": {
-          "title": "库克，《美国农村的双重使命》",
-          "summary": "在北卡罗来纳州阿什维尔里士满联邦储备银行 2026 年美国农村投资会议上的演讲"
-        },
-        "ja": {
-          "title": "クック、アメリカの田舎における二重の使命",
-          "summary": "ノースカロライナ州アッシュビル、リッチモンド連邦準備銀行の2026年アメリカ農村地域投資カンファレンスでのスピーチ"
-        },
-        "ko": {
-          "title": "쿡, 미국 시골 지역의 이중 권한",
-          "summary": "노스캐롤라이나주 애슈빌 리치먼드 연방준비은행에서 열린 2026년 미국 농촌 투자 컨퍼런스에서 연설"
-        },
-        "zh-TW": {
-          "title": "庫克，《美國農村的雙重使命》",
-          "summary": "在北卡羅來納州阿什維爾里士滿聯邦儲備銀行 2026 年美國農村投資會議上的演講"
-        },
-        "de": {
-          "title": "Cook, Das Doppelmandat im ländlichen Amerika",
-          "summary": "Rede auf der Investing in Rural America Conference 2026, Federal Reserve Bank of Richmond, Asheville, North Carolina"
-        },
-        "fr": {
-          "title": "Cook, Le double mandat en Amérique rurale",
-          "summary": "Discours prononcé lors de la conférence Investing in Rural America 2026, Federal Reserve Bank of Richmond, Asheville, Caroline du Nord"
-        }
-      }
-    },
-    {
       "title": "Federal Reserve issues FOMC statement",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
@@ -1521,18 +1571,6 @@
           "summary": "Federal Reserve Board und Federal Open Market Committee veröffentlichen Wirtschaftsprognosen von der FOMC-Sitzung vom 15. bis 16. September"
         }
       }
-    },
-    {
-      "title": "Quarterly Services Survey",
-      "link": "https://www.census.gov/services/index.html",
-      "summary": "U.S. selected services total revenue for the second quarter of 2026, adjusted for seasonal variation but not for price changes, was $6,418.7 billion, an increase of 3.0 percent (+/- 0.4 percent) from the first quarter of 2026 and up 7.6 percent (+/- 0.6 percent) from the second quarter of 2025. The first quarter of 2026 to second quarter of 2026 percentage change was revised from the advance estimate of 3.1 percent (+/- 0.4 percent). 2nd Qtr 2026: +3.0 % Change 1st Qtr 2026 (r): +1.1 % Change",
-      "published_at": "Wed, 09 Sep 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "2b03f6c3c608d5da0a224e003b69d9387cafcb3e785a917071eb82bd21af6640"
     },
     {
       "title": "Quarterly Financial Report - Retail",
@@ -2197,18 +2235,6 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "9722cb61a6a73107b6fd1b55cc7889fc86dc058c01b76886a580981bdfb03fb7"
-    },
-    {
-      "title": "Both payroll employment (+29,000) and unemployment rate (4.2%) change little in September",
-      "link": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
-      "summary": "",
-      "published_at": "2026-10-02T07:51:08.289-04:00",
-      "source": "bls_jobs",
-      "category": "labor",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "96841db93c0b04c1b65eabfa6b25531e2ea9b14f1619ecf8beef34b102ef9ef5"
     }
   ]
 }
