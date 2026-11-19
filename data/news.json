@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-19T00:14:46.024437+00:00",
+  "fetched_at": "2026-11-19T07:37:48.599814+00:00",
   "total": 117,
   "items": [
     {
@@ -12,7 +12,33 @@
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "58e02a138be5d63b10af28baa6fd499c95598034a87806ea04d437204bbddc70"
+      "_translation_hash": "58e02a138be5d63b10af28baa6fd499c95598034a87806ea04d437204bbddc70",
+      "translations": {
+        "zh-CN": {
+          "title": "联邦公开市场委员会会议纪要，2026 年 10 月 27 日至 28 日",
+          "summary": "联邦公开市场委员会会议纪要，2026 年 10 月 27 日至 28 日"
+        },
+        "ja": {
+          "title": "連邦公開市場委員会の議事録、2026 年 10 月 27 ～ 28 日",
+          "summary": "連邦公開市場委員会の議事録、2026 年 10 月 27 ～ 28 日"
+        },
+        "ko": {
+          "title": "연방공개시장위원회 회의록, 2026년 10월 27~28일",
+          "summary": "연방공개시장위원회 회의록, 2026년 10월 27~28일"
+        },
+        "de": {
+          "title": "Protokoll des Federal Open Market Committee, 27.–28. Oktober 2026",
+          "summary": "Protokoll des Federal Open Market Committee, 27.–28. Oktober 2026"
+        },
+        "fr": {
+          "title": "Procès-verbal du Comité fédéral de l'open market, 27 et 28 octobre 2026",
+          "summary": "Procès-verbal du Comité fédéral de l'open market, 27 et 28 octobre 2026"
+        },
+        "zh-TW": {
+          "title": "聯邦公開市場委員會會議紀要，2026 年 10 月 27 日至 28 日",
+          "summary": "聯邦公開市場委員會會議紀要，2026 年 10 月 27 日至 28 日"
+        }
+      }
     },
     {
       "title": "Barr, Investing in America’s Underserved Communities",
@@ -24,7 +50,33 @@
       "impact": "medium",
       "gold_bias": "neutral",
       "why_key": "monetary_policy_neutral",
-      "_translation_hash": "de845e5b2eba519ef7c28a601d4c07e2b1a42cfbfbd4f16b19a41e518d4475da"
+      "_translation_hash": "de845e5b2eba519ef7c28a601d4c07e2b1a42cfbfbd4f16b19a41e518d4475da",
+      "translations": {
+        "zh-CN": {
+          "title": "巴尔，投资美国服务不足的社区",
+          "summary": "在“创造缺失的市场：催化资本和激发创新”上的演讲，纽约联邦储备银行，纽约州，纽约"
+        },
+        "ja": {
+          "title": "バー氏、アメリカの十分なサービスを受けられていないコミュニティへの投資",
+          "summary": "「欠落市場の創出: 資本の触媒とイノベーションの促進」でのスピーチ、ニューヨーク連邦準備銀行、ニューヨーク州ニューヨーク"
+        },
+        "ko": {
+          "title": "Barr, 미국의 소외된 지역 사회에 투자",
+          "summary": "누락된 시장 만들기에 대한 연설: 자본 촉진 및 혁신 점화, 뉴욕 연방준비은행, 뉴욕, 뉴욕"
+        },
+        "de": {
+          "title": "Barr, Investitionen in Amerikas unterversorgte Gemeinschaften",
+          "summary": "Rede bei „Making Missing Markets: Catalyzing Capital and Igniting Innovation“, Federal Reserve Bank of New York, New York, New York"
+        },
+        "fr": {
+          "title": "Barr, Investir dans les communautés américaines mal desservies",
+          "summary": "Discours lors de la conférence Making Missing Markets: Catalysing Capital and Igniting Innovation, Banque de réserve fédérale de New York, New York, New York"
+        },
+        "zh-TW": {
+          "title": "巴爾，投資美國服務不足的社區",
+          "summary": "在「創造缺失的市場：催化資本和激發創新」上的演講，紐約聯邦儲備銀行，紐約州，紐約"
+        }
+      }
     },
     {
       "title": "New Residential Construction",
@@ -36,7 +88,33 @@
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "7844acf9779f0f8369062f737fb9a64d98678c717235138ed8e83cc853ef6016"
+      "_translation_hash": "7844acf9779f0f8369062f737fb9a64d98678c717235138ed8e83cc853ef6016",
+      "translations": {
+        "zh-CN": {
+          "title": "New Residential Construction",
+          "summary": "2026 年 10 月私人住房开工量经季节性调整后的年增长率为 1,309,000 套。这比 2026 年 9 月修订后的估计数 1,191,000 人高出 9.9% (+/- 16.8%)*。 2026 年 10 月：+9.9* 变化百分比 2026 年 9 月 (r)：-7.0* 变化百分比"
+        },
+        "ja": {
+          "title": "新築住宅建設",
+          "summary": "2026年10月の民間住宅着工戸数（季節調整済み年率換算）は130万9000戸だった。これは、2026 年 9 月の改訂予測値 1,191,000 を 9.9 パーセント (+/- 16.8 %)* 上回っています。 2026 年 10 月: +9.9* % 変化 2026 年 9 月 (r): -7.0* % 変化"
+        },
+        "ko": {
+          "title": "새로운 주거 건설",
+          "summary": "2026년 10월 개인 소유 주택 착공은 계절 조정 연율 1,309,000건이었습니다. 이는 수정된 2026년 9월 추정치 1,191,000보다 9.9%(+/- 16.8%)* 높은 수치입니다. 2026년 10월: +9.9* % 변화 2026년 9월(r): -7.0* % 변화"
+        },
+        "de": {
+          "title": "Neubau von Wohngebäuden",
+          "summary": "Die Baubeginne im privaten Wohnungsbau lagen im Oktober 2026 bei einer saisonbereinigten Jahresrate von 1.309.000. Das sind 9,9 Prozent (+/- 16,8 %)* über der revidierten Schätzung vom September 2026 von 1.191.000. Oktober 2026: +9,9* % Veränderung September 2026 (r): -7,0* % Veränderung"
+        },
+        "fr": {
+          "title": "Nouvelle construction résidentielle",
+          "summary": "En octobre 2026, les mises en chantier de logements privés se sont établies à un taux annuel désaisonnalisé de 1 309 000. Cela représente 9,9 pour cent (+/- 16,8%)* au-dessus de l'estimation révisée de septembre 2026 de 1 191 000. Octobre 2026 : +9,9* % de variation Septembre 2026 (r) : -7,0* % de variation"
+        },
+        "zh-TW": {
+          "title": "New Residential Construction",
+          "summary": "2026 年 10 月私人住宅開工量經季節性調整後的年增率為 1,309,000 套。這比 2026 年 9 月修訂後的估計數 1,191,000 人高出 9.9% (+/- 16.8%)*。 2026 年 10 月：+9.9* 變化百分比 2026 年 9 月 (r)：-7.0* 變化百分比"
+        }
+      }
     },
     {
       "title": "Philip R. Lane: The practice and science of monetary policy communication: the ECB experience",
@@ -2109,28 +2187,28 @@
       "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
     },
     {
-      "title": "U.S. International Trade in Goods and Services, September 2026",
-      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-september-2026",
-      "summary": "The U.S. goods and services trade deficit decreased in September 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit decreased from $105.7 billion in August (revised) to $105.0 billion in September, as exports increased more than imports. The goods deficit decreased $0.7 billion in September to $135.9 billion. The services surplus decreased less than $0.1 billion in September to $30.9 billion.",
-      "published_at": "Wed, 04 Nov 2026 08:30:00 EST",
-      "source": "bea",
-      "category": "trade",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "trade_neutral",
-      "_translation_hash": "f1ffc74a901cd3def86cfbbf49b7a228f06c39e402d9926a0551ff39dda23388"
-    },
-    {
-      "title": "GDP (Advance Estimate), 3rd Quarter 2026",
-      "link": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
-      "summary": "Real gross domestic product (GDP) increased at an annual rate of 3.4 percent in the third quarter of 2026 (July, August, and September), according to the advance estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the second quarter, real GDP increased 2.2 percent. The contributors to the increase in real GDP in the third quarter were increases in investment, consumer spending, and government spending that were partly offset by a decrease in exports. Imports, which are a su",
-      "published_at": "Thu, 29 Oct 2026 08:30:00 EDT",
-      "source": "bea",
-      "category": "growth",
+      "title": "Payroll employment rises by 165,000 in October; unemployment rate changes little at 4.1%",
+      "link": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
+      "summary": "",
+      "published_at": "2026-11-06T07:50:31.965-05:00",
+      "source": "bls_jobs",
+      "category": "labor",
       "impact": "high",
       "gold_bias": "neutral",
-      "why_key": "growth_neutral",
-      "_translation_hash": "e2638cc74b2f15a1990a1494f86c8163a09709c25b6af72f9d2aa05a03933373"
+      "why_key": "labor_neutral",
+      "_translation_hash": "9722cb61a6a73107b6fd1b55cc7889fc86dc058c01b76886a580981bdfb03fb7"
+    },
+    {
+      "title": "Both payroll employment (+29,000) and unemployment rate (4.2%) change little in September",
+      "link": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
+      "summary": "",
+      "published_at": "2026-10-02T07:51:08.289-04:00",
+      "source": "bls_jobs",
+      "category": "labor",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "96841db93c0b04c1b65eabfa6b25531e2ea9b14f1619ecf8beef34b102ef9ef5"
     }
   ]
 }
