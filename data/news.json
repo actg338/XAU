@@ -1,7 +1,31 @@
 {
-  "fetched_at": "2026-11-20T12:46:59.268341+00:00",
+  "fetched_at": "2026-11-20T20:48:17.471615+00:00",
   "total": 119,
   "items": [
+    {
+      "title": "Cook, The U.S. Economy in Global Context",
+      "link": "https://www.federalreserve.gov/newsevents/speech/cook20261120a.htm",
+      "summary": "Speech At the XXIX Annual Conference of the Central Bank of Chile, Santiago, Chile",
+      "published_at": "Fri, 20 Nov 2026 17:15:00 GMT",
+      "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "d3f305735c5de942230c23a44bd1aaa5a313685a61a5b1b6ec3165b4b5b665b1"
+    },
+    {
+      "title": "Waller, Opening Remarks",
+      "link": "https://www.federalreserve.gov/newsevents/speech/waller20261120a.htm",
+      "summary": "Speech At the 2026 College Fed Challenge Finals, Board of Governors of the Federal Reserve System, Washington, D.C.",
+      "published_at": "Fri, 20 Nov 2026 13:25:00 GMT",
+      "source": "fed_remarks",
+      "category": "monetary_policy",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "22012539be1b4c7a6d8429e5e07f7efb1c70b67df9013e66b07d63d58b36de52"
+    },
     {
       "title": "ICYMI: President Trump Talks China, Iran, Super Intelligence, and the Path Ahead in Exclusive Interview from Shenzhen",
       "link": "https://www.whitehouse.gov/releases/2026/11/icymi-president-trump-talks-china-iran-super-intelligence-and-the-path-ahead-in-exclusive-interview-from-shenzhen/",
@@ -1455,82 +1479,6 @@
         "de": {
           "title": "Bowman, Modernisierung der Finanzregulierung: Erste Beobachtungen von eSLR",
           "summary": "Rede beim Atlantic Council 2026 CEO & Senior Management Summit, Washington, D.C."
-        }
-      }
-    },
-    {
-      "title": "Jefferson, The U.S. Economy and Monetary Policy",
-      "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
-      "summary": "Speech At the Darden School of Business, University of Virginia, Charlottesville, Virginia",
-      "published_at": "Thu, 1 Oct 2026 17:30:00 GMT",
-      "source": "fed_remarks",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "73bc7885f65b3f4b70c1b28ca8a926b2f4a711d920983b7e14bbe6523509f979",
-      "translations": {
-        "zh-CN": {
-          "title": "杰斐逊，《美国经济与货币政策》",
-          "summary": "在弗吉尼亚大学达顿商学院的演讲，弗吉尼亚州夏洛茨维尔"
-        },
-        "ja": {
-          "title": "ジェファーソン、米国経済と金融政策",
-          "summary": "バージニア州シャーロッツビルのバージニア大学ダーデン・スクール・オブ・ビジネスでのスピーチ"
-        },
-        "ko": {
-          "title": "제퍼슨, 미국 경제와 통화 정책",
-          "summary": "버지니아주 샬러츠빌에 위치한 버지니아대학교 다든 경영대학원에서의 연설"
-        },
-        "zh-TW": {
-          "title": "傑佛遜，《美國經濟與貨幣政策》",
-          "summary": "在維吉尼亞大學達頓商學院的演講，維吉尼亞州夏洛特斯維爾"
-        },
-        "de": {
-          "title": "Jefferson, Die US-Wirtschaft und Geldpolitik",
-          "summary": "Rede an der Darden School of Business, University of Virginia, Charlottesville, Virginia"
-        },
-        "fr": {
-          "title": "Jefferson, L'économie et la politique monétaire des États-Unis",
-          "summary": "Discours prononcé à la Darden School of Business, Université de Virginie, Charlottesville, Virginie"
-        }
-      }
-    },
-    {
-      "title": "Waller, The Data Version of Godzilla versus Kong: FRED Takes on AI",
-      "link": "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm",
-      "summary": "Speech At \"Navigating Trust, AI and Storytelling in a World of Data,\" FRED Con 2026, Federal Reserve Bank of St. Louis, St. Louis, Missouri",
-      "published_at": "Thu, 1 Oct 2026 14:00:00 GMT",
-      "source": "fed_remarks",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "f734465e20c124b0f24c24fe7c5025cc281343737fd45e87555243affd6cbff9",
-      "translations": {
-        "ja": {
-          "title": "ウォーラー『ゴジラ対コングのデータ版: フレッドが AI に挑む』",
-          "summary": "ミズーリ州セントルイス、セントルイス連邦準備銀行、FRED Con 2026「データの世界における信頼、AI、ストーリーテリングのナビゲート」でのスピーチ"
-        },
-        "zh-CN": {
-          "title": "Waller，《哥斯拉大战金刚》的数据版本：FRED 挑战人工智能",
-          "summary": "在“数据世界中导航信任、人工智能和讲故事”上的演讲，FRED Con 2026，圣路易斯联邦储备银行，密苏里州圣路易斯"
-        },
-        "ko": {
-          "title": "Waller, Godzilla 대 Kong의 데이터 버전: FRED가 AI에 도전하다",
-          "summary": "\"데이터 세계에서 신뢰, AI 및 스토리텔링 탐색\"에서 연설, FRED Con 2026, 미주리주 세인트루이스 연방준비은행 세인트루이스 연방준비은행"
-        },
-        "zh-TW": {
-          "title": "Waller，《哥吉拉大戰金剛》的數據版本：FRED 挑戰人工智慧",
-          "summary": "在「數據世界中導航信任、人工智慧和說故事」上的演講，FRED Con 2026，聖路易斯聯邦儲備銀行，密蘇裡州聖路易斯"
-        },
-        "de": {
-          "title": "Waller, Die Datenversion von Godzilla vs. Kong: FRED nimmt es mit KI auf",
-          "summary": "Rede bei „Navigating Trust, AI and Storytelling in a World of Data“, FRED Con 2026, Federal Reserve Bank of St. Louis, St. Louis, Missouri"
-        },
-        "fr": {
-          "title": "Waller, La version données de Godzilla contre Kong : FRED s'attaque à l'IA",
-          "summary": "Discours prononcé lors de l'événement « Navigating Trust, AI and Storytelling in a World of Data », FRED Con 2026, Federal Reserve Bank of St. Louis, St. Louis, Missouri"
         }
       }
     },

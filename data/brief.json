@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-20T12:47:02.419067+00:00",
+  "generated_at": "2026-11-20T20:48:26.872824+00:00",
   "direction": "bearish",
   "label_key": "strong_bearish",
-  "confidence": 83,
-  "score": -45,
+  "confidence": 84,
+  "score": -52,
   "drivers": [
     "fedwatch",
     "xau"
@@ -32,10 +32,10 @@
     }
   ],
   "next_event": {
-    "event_key": "bls_release",
-    "title": "State Employment and Unemployment (Monthly)",
-    "starts_at": "2026-11-20T15:00:00+00:00",
-    "impact": "medium",
+    "event_key": "jolts",
+    "title": "Job Openings and Labor Turnover Survey",
+    "starts_at": "2026-12-01T15:00:00+00:00",
+    "impact": "high",
     "source": "BLS",
     "source_url": "https://www.bls.gov/schedule/news_release/bls.ics"
   }
