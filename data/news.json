@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-20T04:03:31.993095+00:00",
+  "fetched_at": "2026-11-20T12:46:59.268341+00:00",
   "total": 119,
   "items": [
     {
@@ -12,7 +12,33 @@
       "impact": "medium",
       "gold_bias": "neutral",
       "why_key": "geopolitics_neutral",
-      "_translation_hash": "e0e241f814bf251d4aded999579e73d25344f3600ab699ac8f11e34294b6f3b0"
+      "_translation_hash": "e0e241f814bf251d4aded999579e73d25344f3600ab699ac8f11e34294b6f3b0",
+      "translations": {
+        "zh-CN": {
+          "title": "ICYMI：特朗普总统在深圳独家专访中谈中国、伊朗、超级情报和未来之路",
+          "summary": "昨晚，唐纳德·J·特朗普总统在中国深圳接受福克斯新闻独家现场采访时传达了美国复兴的信息——就在他与习近平主席和弗拉基米尔·普京总统进行历史性会晤前几个小时。他强调了美国在他的领导下现在赢得的尊重，以及他正在采取的决定性步骤……《ICYMI：特朗普总统在深圳的独家采访中谈论中国、伊朗、超级情报和未来之路》首先出现在《The ICYMI》上。"
+        },
+        "ja": {
+          "title": "ICYMI：トランプ大統領、深センからの独占インタビューで中国、イラン、超諜報機関、今後の道筋について語る",
+          "summary": "昨夜、ドナルド・J・トランプ大統領は、習近平国家主席およびウラジーミル・プーチン大統領との歴史的な会談の数時間前に、中国の深センからFOXニュースの独占生インタビューでアメリカの復活のメッセージを伝えた。同氏は、現在米国が自身のリーダーシップの下で敬意を払っていること、米国がそのために取っている決定的な措置を強調した […]ポストICYMI:トランプ大統領が深センからの独占インタビューで中国、イラン、超諜報機関、そして今後の道について語る The post appeared first on The"
+        },
+        "zh-TW": {
+          "title": "ICYMI：特朗普总统在深圳独家专访中谈中国、伊朗、超级情报和未来之路",
+          "summary": "昨晚，唐纳德·J·特朗普总统在中国深圳接受福克斯新闻独家现场采访时传达了美国复兴的信息——就在他与习近平主席和弗拉基米尔·普京总统进行历史性会晤前几个小时。他强调了美国在他的领导下现在赢得的尊重，以及他正在采取的决定性步骤……《ICYMI：特朗普总统在深圳的独家采访中谈论中国、伊朗、超级情报和未来之路》首先出现在《The ICYMI》上。"
+        },
+        "ko": {
+          "title": "ICYMI: 트럼프 대통령, 심천 독점 인터뷰에서 중국, 이란, 슈퍼 인텔리전스 및 앞으로 나아갈 길에 대해 이야기",
+          "summary": "어젯밤, 도널드 J. 트럼프 대통령은 시진핑 국가주석과 블라디미르 푸틴 대통령과의 역사적인 만남을 불과 몇 시간 앞두고 중국 선전에서 폭스뉴스 단독 라이브 인터뷰를 통해 미국의 부활 메시지를 전달했습니다. 그는 현재 자신의 지도력 하에 미국이 명령하는 존중과 그가 다음을 위해 취하고 있는 결정적인 조치를 강조했습니다."
+        },
+        "de": {
+          "title": "ICYMI: Präsident Trump spricht in einem exklusiven Interview aus Shenzhen über China, Iran, Super Intelligence und den weiteren Weg",
+          "summary": "Gestern Abend übermittelte Präsident Donald J. Trump in einem exklusiven Live-Interview auf Fox News aus Shenzhen, China, eine Botschaft des amerikanischen Wiederauflebens – nur wenige Stunden vor seinem historischen Treffen mit Präsident Xi Jinping und Präsident Wladimir Putin. Er betonte den Respekt, den Amerika jetzt unter seiner Führung genießt, und die entscheidenden Schritte, die er unternimmt, um […] Der Beitrag „ICYMI: Präsident Trump spricht in einem exklusiven Interview aus Shenzhen über China, Iran, Super Intelligence und den Weg in die Zukunft“ erschien zuerst auf The"
+        },
+        "fr": {
+          "title": "ICYMI : le président Trump parle de la Chine, de l'Iran, du super renseignement et de la voie à suivre dans une interview exclusive depuis Shenzhen",
+          "summary": "Hier soir, le président Donald J. Trump a délivré un message de résurgence américaine dans une interview exclusive en direct sur Fox News depuis Shenzhen, en Chine, quelques heures seulement avant sa rencontre historique avec le président Xi Jinping et le président Vladimir Poutine. Il a souligné le respect que l'Amérique inspire désormais sous sa direction, les mesures décisives qu'il prend pour […]"
+        }
+      }
     },
     {
       "title": "Quarterly Services Survey",
