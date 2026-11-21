@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-21T16:41:03.844257+00:00",
+  "fetched_at": "2026-11-21T21:54:22.634360+00:00",
   "total": 117,
   "items": [
     {
@@ -12,7 +12,33 @@
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "d3f305735c5de942230c23a44bd1aaa5a313685a61a5b1b6ec3165b4b5b665b1"
+      "_translation_hash": "d3f305735c5de942230c23a44bd1aaa5a313685a61a5b1b6ec3165b4b5b665b1",
+      "translations": {
+        "zh-CN": {
+          "title": "库克，《全球背景下的美国经济》",
+          "summary": "在智利中央银行第二十九届年会上的讲话，智利圣地亚哥"
+        },
+        "ko": {
+          "title": "쿡, 글로벌 맥락에서의 미국 경제",
+          "summary": "칠레 산티아고에서 열린 칠레 중앙은행 제29회 연례 회의에서 연설"
+        },
+        "ja": {
+          "title": "クック氏、世界情勢における米国経済",
+          "summary": "チリ、サンティアゴの第29回チリ中央銀行年次会議でのスピーチ"
+        },
+        "zh-TW": {
+          "title": "庫克，《全球背景下的美國經濟》",
+          "summary": "在智利中央銀行第二十九屆年會上的講話，智利聖地亞哥"
+        },
+        "de": {
+          "title": "Cook, Die US-Wirtschaft im globalen Kontext",
+          "summary": "Rede auf der XXIX. Jahreskonferenz der Zentralbank von Chile, Santiago, Chile"
+        },
+        "fr": {
+          "title": "Cook, L'économie américaine dans le contexte mondial",
+          "summary": "Discours à la XXIXe Conférence annuelle de la Banque centrale du Chili, Santiago, Chili"
+        }
+      }
     },
     {
       "title": "Waller, Opening Remarks",
@@ -24,7 +50,33 @@
       "impact": "medium",
       "gold_bias": "neutral",
       "why_key": "monetary_policy_neutral",
-      "_translation_hash": "22012539be1b4c7a6d8429e5e07f7efb1c70b67df9013e66b07d63d58b36de52"
+      "_translation_hash": "22012539be1b4c7a6d8429e5e07f7efb1c70b67df9013e66b07d63d58b36de52",
+      "translations": {
+        "zh-CN": {
+          "title": "沃勒，开幕致辞",
+          "summary": "在 2026 年大学美联储挑战赛决赛上的演讲，美联储理事会，华盛顿特区"
+        },
+        "ko": {
+          "title": "월러, 개회사",
+          "summary": "워싱턴 D.C.에서 열린 2026년 대학 연준 챌린지 결승전에서 연설"
+        },
+        "ja": {
+          "title": "ウォーラー氏、開会の挨拶",
+          "summary": "ワシントンD.C.の連邦準備制度理事会、2026年カレッジフェデラル・チャレンジ・ファイナルでのスピーチ"
+        },
+        "zh-TW": {
+          "title": "沃勒，開幕致辭",
+          "summary": "在 2026 年大學聯準會挑戰賽決賽上的演講，聯準會理事會，華盛頓特區"
+        },
+        "de": {
+          "title": "Waller, Eröffnungsrede",
+          "summary": "Rede beim Finale der College Fed Challenge 2026, Gouverneursrat des Federal Reserve System, Washington, D.C."
+        },
+        "fr": {
+          "title": "Waller, discours d'ouverture",
+          "summary": "Discours prononcé lors de la finale du College Fed Challenge 2026, Conseil des gouverneurs de la Réserve fédérale, Washington, D.C."
+        }
+      }
     },
     {
       "title": "ICYMI: President Trump Talks China, Iran, Super Intelligence, and the Path Ahead in Exclusive Interview from Shenzhen",
@@ -2135,28 +2187,28 @@
       "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
     },
     {
-      "title": "Payroll employment rises by 165,000 in October; unemployment rate changes little at 4.1%",
-      "link": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
+      "title": "September job openings, hires, and total separations change little; quits increase",
+      "link": "https://www.bls.gov/news.release/archives/jolts_11032026.htm",
       "summary": "",
-      "published_at": "2026-11-06T07:50:31.965-05:00",
-      "source": "bls_jobs",
+      "published_at": "2026-11-03T09:20:35.968-05:00",
+      "source": "bls_jolts",
       "category": "labor",
-      "impact": "high",
+      "impact": "medium",
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
-      "_translation_hash": "9722cb61a6a73107b6fd1b55cc7889fc86dc058c01b76886a580981bdfb03fb7"
+      "_translation_hash": "aba05dda7c4881b1e6a1543222947192fb6495eea12f35d6128c0ee08213d6d3"
     },
     {
-      "title": "Both payroll employment (+29,000) and unemployment rate (4.2%) change little in September",
-      "link": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
+      "title": "August job openings and hires change little; total separations unchanged",
+      "link": "https://www.bls.gov/news.release/archives/jolts_09292026.htm",
       "summary": "",
-      "published_at": "2026-10-02T07:51:08.289-04:00",
-      "source": "bls_jobs",
+      "published_at": "2026-09-29T09:20:32.09-04:00",
+      "source": "bls_jolts",
       "category": "labor",
-      "impact": "high",
+      "impact": "medium",
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
-      "_translation_hash": "96841db93c0b04c1b65eabfa6b25531e2ea9b14f1619ecf8beef34b102ef9ef5"
+      "_translation_hash": "ae4643776403e9edf0d3aa5d8e13271c518393a47f56aa095daf1f73b02a8e61"
     }
   ]
 }
