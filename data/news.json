@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-22T17:20:26.074564+00:00",
+  "fetched_at": "2026-11-22T22:37:51.220694+00:00",
   "total": 117,
   "items": [
     {
@@ -1109,7 +1109,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "summary": "Federal Reserve issues FOMC statement",
       "published_at": "Wed, 28 Oct 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "monetary_policy",
       "impact": "high",
       "gold_bias": "neutral",
@@ -1273,7 +1273,7 @@
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
       "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
       "published_at": "Tue, 13 Oct 2026 18:00:00 GMT",
-      "source": "fed_policy",
+      "source": "fed_press",
       "category": "other",
       "impact": "low",
       "gold_bias": "neutral",
@@ -2187,28 +2187,28 @@
       "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
     },
     {
-      "title": "September job openings, hires, and total separations change little; quits increase",
-      "link": "https://www.bls.gov/news.release/archives/jolts_11032026.htm",
+      "title": "Payroll employment rises by 165,000 in October; unemployment rate changes little at 4.1%",
+      "link": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
       "summary": "",
-      "published_at": "2026-11-03T09:20:35.968-05:00",
-      "source": "bls_jolts",
+      "published_at": "2026-11-06T07:50:31.965-05:00",
+      "source": "bls_jobs",
       "category": "labor",
-      "impact": "medium",
+      "impact": "high",
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
-      "_translation_hash": "aba05dda7c4881b1e6a1543222947192fb6495eea12f35d6128c0ee08213d6d3"
+      "_translation_hash": "9722cb61a6a73107b6fd1b55cc7889fc86dc058c01b76886a580981bdfb03fb7"
     },
     {
-      "title": "August job openings and hires change little; total separations unchanged",
-      "link": "https://www.bls.gov/news.release/archives/jolts_09292026.htm",
+      "title": "Both payroll employment (+29,000) and unemployment rate (4.2%) change little in September",
+      "link": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
       "summary": "",
-      "published_at": "2026-09-29T09:20:32.09-04:00",
-      "source": "bls_jolts",
+      "published_at": "2026-10-02T07:51:08.289-04:00",
+      "source": "bls_jobs",
       "category": "labor",
-      "impact": "medium",
+      "impact": "high",
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
-      "_translation_hash": "ae4643776403e9edf0d3aa5d8e13271c518393a47f56aa095daf1f73b02a8e61"
+      "_translation_hash": "96841db93c0b04c1b65eabfa6b25531e2ea9b14f1619ecf8beef34b102ef9ef5"
     }
   ]
 }
