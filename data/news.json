@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-22T22:37:51.220694+00:00",
+  "fetched_at": "2026-11-23T03:08:04.300587+00:00",
   "total": 117,
   "items": [
     {
@@ -2187,28 +2187,28 @@
       "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
     },
     {
-      "title": "Payroll employment rises by 165,000 in October; unemployment rate changes little at 4.1%",
-      "link": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
-      "summary": "",
-      "published_at": "2026-11-06T07:50:31.965-05:00",
-      "source": "bls_jobs",
-      "category": "labor",
-      "impact": "high",
+      "title": "U.S. International Trade in Goods and Services, September 2026",
+      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-september-2026",
+      "summary": "The U.S. goods and services trade deficit decreased in September 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit decreased from $105.7 billion in August (revised) to $105.0 billion in September, as exports increased more than imports. The goods deficit decreased $0.7 billion in September to $135.9 billion. The services surplus decreased less than $0.1 billion in September to $30.9 billion.",
+      "published_at": "Wed, 04 Nov 2026 08:30:00 EST",
+      "source": "bea",
+      "category": "trade",
+      "impact": "medium",
       "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "9722cb61a6a73107b6fd1b55cc7889fc86dc058c01b76886a580981bdfb03fb7"
+      "why_key": "trade_neutral",
+      "_translation_hash": "f1ffc74a901cd3def86cfbbf49b7a228f06c39e402d9926a0551ff39dda23388"
     },
     {
-      "title": "Both payroll employment (+29,000) and unemployment rate (4.2%) change little in September",
-      "link": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
-      "summary": "",
-      "published_at": "2026-10-02T07:51:08.289-04:00",
-      "source": "bls_jobs",
-      "category": "labor",
+      "title": "GDP (Advance Estimate), 3rd Quarter 2026",
+      "link": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+      "summary": "Real gross domestic product (GDP) increased at an annual rate of 3.4 percent in the third quarter of 2026 (July, August, and September), according to the advance estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the second quarter, real GDP increased 2.2 percent. The contributors to the increase in real GDP in the third quarter were increases in investment, consumer spending, and government spending that were partly offset by a decrease in exports. Imports, which are a su",
+      "published_at": "Thu, 29 Oct 2026 08:30:00 EDT",
+      "source": "bea",
+      "category": "growth",
       "impact": "high",
       "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "96841db93c0b04c1b65eabfa6b25531e2ea9b14f1619ecf8beef34b102ef9ef5"
+      "why_key": "growth_neutral",
+      "_translation_hash": "e2638cc74b2f15a1990a1494f86c8163a09709c25b6af72f9d2aa05a03933373"
     }
   ]
 }

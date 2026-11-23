@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "score": -52,
-  "direction": "bearish",
-  "label_key": "strong_bearish",
-  "signal": "strong_bearish",
+  "score": -8,
+  "direction": "neutral",
+  "label_key": "balanced",
+  "signal": "balanced",
   "action": "wait_for_confirmation",
-  "confidence": 88,
+  "confidence": 76,
   "components": [
     {
       "key": "warsh",
@@ -13,38 +13,41 @@
       "direction": "neutral",
       "value": "NEUTRAL",
       "reason_key": "warsh_neutral",
-      "updated_at": "2026-11-22T22:37:38.037288+00:00"
+      "updated_at": "2026-11-23T03:07:53.719168+00:00"
     },
     {
       "key": "fedwatch",
-      "score": -27,
+      "score": -28,
       "direction": "bearish",
-      "value": "cut 0.0% / hike 88.6%",
+      "value": "cut 0.0% / hike 93.5%",
       "reason_key": "fedwatch_path",
-      "updated_at": "2026-11-22T22:37:40.621630+00:00"
+      "updated_at": "2026-11-23T03:07:54.808242+00:00"
     },
     {
       "key": "xau",
-      "score": -25,
-      "direction": "bearish",
-      "value": "-2.38%",
+      "score": 19,
+      "direction": "bullish",
+      "value": "+1.56%",
       "reason_key": "xau_momentum",
-      "updated_at": "2026-11-22T22:37:36.077518+00:00"
+      "updated_at": "2026-11-23T03:07:52.221269+00:00"
     },
     {
       "key": "dxy",
-      "score": 0,
-      "direction": "neutral",
-      "value": "+0.00%",
+      "score": 1,
+      "direction": "bullish",
+      "value": "-0.07%",
       "reason_key": "dxy_momentum",
-      "updated_at": "2026-11-22T22:37:36.287544+00:00"
+      "updated_at": "2026-11-23T03:07:52.334362+00:00"
     }
   ],
   "supporting": [
-    "fedwatch",
-    "xau"
+    "warsh"
   ],
-  "opposing": [],
+  "opposing": [
+    "fedwatch",
+    "xau",
+    "dxy"
+  ],
   "reason": "warsh_neutral · fedwatch_path · xau_momentum · dxy_momentum",
   "reasons": [
     "warsh_neutral",
@@ -52,5 +55,5 @@
     "xau_momentum",
     "dxy_momentum"
   ],
-  "generated_at": "2026-11-22T22:37:51.364613+00:00"
+  "generated_at": "2026-11-23T03:08:04.463412+00:00"
 }
