@@ -1,7 +1,83 @@
 {
-  "fetched_at": "2026-11-24T10:08:32.598082+00:00",
-  "total": 118,
+  "fetched_at": "2026-11-24T20:39:11.414747+00:00",
+  "total": 119,
   "items": [
+    {
+      "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
+      "summary": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
+      "published_at": "Tue, 24 Nov 2026 19:00:00 GMT",
+      "source": "fed_policy",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "07ad5caa048bae5a0517fb9154a7bd8b74d80fcd437d2a97bb93bd9ef5409a6b",
+      "translations": {
+        "ja": {
+          "title": "2026 年 10 月 19 日および 10 月 28 日の取締役会の割引率会議の議事録",
+          "summary": "2026 年 10 月 19 日および 10 月 28 日の取締役会の割引率会議の議事録"
+        },
+        "zh-CN": {
+          "title": "2026年10月19日和10月28日董事会贴现率会议纪要",
+          "summary": "2026年10月19日和10月28日董事会贴现率会议纪要"
+        },
+        "ko": {
+          "title": "2026년 10월 19일 및 10월 28일 이사회 할인율 회의 회의록",
+          "summary": "2026년 10월 19일 및 10월 28일 이사회 할인율 회의 회의록"
+        },
+        "de": {
+          "title": "Protokolle der Diskontsatzsitzungen des Vorstands vom 19. und 28. Oktober 2026",
+          "summary": "Protokolle der Diskontsatzsitzungen des Vorstands vom 19. und 28. Oktober 2026"
+        },
+        "zh-TW": {
+          "title": "2026年10月19日及10月28日董事會貼現率會議紀錄",
+          "summary": "2026年10月19日及10月28日董事會貼現率會議紀錄"
+        },
+        "fr": {
+          "title": "Procès-verbaux des séances d'actualisation du Conseil des 19 et 28 octobre 2026",
+          "summary": "Procès-verbaux des séances d'actualisation du Conseil des 19 et 28 octobre 2026"
+        }
+      }
+    },
+    {
+      "title": "Gas Prices Plunge Ahead of Thanksgiving — Just as President Trump Predicted",
+      "link": "https://www.whitehouse.gov/releases/2026/11/gas-prices-plunge-ahead-of-thanksgiving-just-as-president-trump-predicted/",
+      "summary": "Just as President Donald J. Trump predicted, gas prices are tumbling down — and American families are feeling the relief just in time for Thanksgiving. From coast to coast, prices at the pump are falling fast, with the national average falling to its lowest price in eight months after the biggest three-week dive since 2008. […] The post Gas Prices Plunge Ahead of Thanksgiving — Just as President Trump Predicted appeared first on The White House .",
+      "published_at": "Tue, 24 Nov 2026 17:18:40 +0000",
+      "source": "white_house",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "efc447c58bf85ad19a91f3b40928cdf7812997efe21d6936d8ecd71ee7071ad9",
+      "translations": {
+        "ja": {
+          "title": "ガソリン価格は感謝祭を前に急落 – トランプ大統領の予測通り",
+          "summary": "ドナルド・J・トランプ大統領の予言通り、ガソリン価格は下落しており、米国の家族はちょうど感謝祭に間に合うように安堵感を感じている。海岸から海岸まで、ポンプ価格は急速に下落しており、全国平均は2008年以来3週間で最大の暴落の後、8カ月ぶりの最低価格まで下落している。"
+        },
+        "zh-CN": {
+          "title": "正如特朗普总统所预测的那样，感恩节前汽油价格暴跌",
+          "summary": "正如唐纳德·J·特朗普总统所预测的那样，汽油价格正在下跌，而美国家庭在感恩节前也感到松了口气。从一个海岸到另一个海岸，加油站的价格正在快速下跌，全国平均价格在经历了自 2008 年以来最大的三周跳水之后，跌至八个月来的最低水平。 […] 感恩节前汽油价格暴跌——正如特朗普总统预测的那样，首先出现在白宫。"
+        },
+        "ko": {
+          "title": "추수감사절을 앞두고 휘발유 가격이 급락 - 트럼프 대통령이 예측한 대로",
+          "summary": "도널드 J. 트럼프 대통령이 예측한 대로 휘발유 가격이 폭락하고 있으며 미국 가족들은 추수감사절에 맞춰 안도감을 느끼고 있습니다. 해안에서 해안까지, 주유기 가격은 빠르게 하락하고 있으며, 전국 평균은 2008년 이후 최대 3주간의 급락 이후 8개월 만에 최저 가격으로 떨어졌습니다. […] 추수감사절을 앞두고 휘발유 가격이 급락합니다. 트럼프 대통령이 예측한 것처럼 백악관에 처음 등장했습니다."
+        },
+        "de": {
+          "title": "Die Benzinpreise fallen vor Thanksgiving – genau wie Präsident Trump es vorhergesagt hat",
+          "summary": "Wie Präsident Donald J. Trump vorhergesagt hat, sinken die Benzinpreise – und amerikanische Familien spüren die Erleichterung pünktlich zum Erntedankfest. Von Küste zu Küste fallen die Preise an den Zapfsäulen schnell, wobei der nationale Durchschnitt nach dem größten dreiwöchigen Einbruch seit 2008 auf den niedrigsten Preis seit acht Monaten fiel. […] Der Beitrag „Gaspreise fallen vor Thanksgiving – genau wie Präsident Trump es vorhergesagt hat“ erschien erstmals im Weißen Haus."
+        },
+        "zh-TW": {
+          "title": "正如川普總統所預測的那樣，感恩節前汽油價格暴跌",
+          "summary": "正如唐納德·J·特朗普總統所預測的那樣，汽油價格正在下跌，而美國家庭在感恩節前也感到鬆了一口氣。從一個海岸到另一個海岸，加油站的價格正在快速下跌，全國平均價格在經歷了自 2008 年以來最大的三週跳水之後，跌至八個月來的最低水平。 […] 感恩節前汽油價格暴跌——正如川普總統預測的那樣，首先出現在白宮。"
+        },
+        "fr": {
+          "title": "Les prix du gaz chutent avant Thanksgiving – tout comme le président Trump l’avait prédit",
+          "summary": "Tout comme le président Donald J. Trump l’avait prédit, les prix de l’essence chutent – et les familles américaines ressentent un soulagement juste à temps pour Thanksgiving. D’un océan à l’autre, les prix à la pompe chutent rapidement, la moyenne nationale tombant à son prix le plus bas en huit mois après la plus forte chute de trois semaines depuis 2008. […] L’article Les prix de l’essence plongent avant Thanksgiving — exactement comme le président Trump l’avait prédit est apparu en premier sur la Maison Blanche."
+        }
+      }
+    },
     {
       "title": "Philip R. Lane: Climate change and monetary policy",
       "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf",
@@ -1851,44 +1927,6 @@
       }
     },
     {
-      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-      "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
-      "published_at": "Wed, 17 Jun 2026 18:00:00 GMT",
-      "source": "fed_policy",
-      "category": "monetary_policy",
-      "impact": "high",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "1a1af3cea5eec364078d94a6fb136d13d02892ad03abbb74de6098e21d26bb32",
-      "translations": {
-        "ja": {
-          "title": "米連邦準備制度理事会と連邦公開市場委員会が6月16～17日のFOMC会合の経済予測を発表",
-          "summary": "米連邦準備制度理事会と連邦公開市場委員会が6月16～17日のFOMC会合の経済予測を発表"
-        },
-        "zh-CN": {
-          "title": "美联储和联邦公开市场委员会发布 6 月 16 日至 17 日 FOMC 会议的经济预测",
-          "summary": "美联储和联邦公开市场委员会发布 6 月 16 日至 17 日 FOMC 会议的经济预测"
-        },
-        "ko": {
-          "title": "연방준비제도이사회(Federal Reserve Board)와 연방공개시장위원회(Federal Open Market Committee)는 6월 16~17일 FOMC 회의에서 경제 전망을 발표합니다.",
-          "summary": "연방준비제도이사회(Federal Reserve Board)와 연방공개시장위원회(Federal Open Market Committee)는 6월 16~17일 FOMC 회의에서 경제 전망을 발표합니다."
-        },
-        "de": {
-          "title": "Federal Reserve Board und Federal Open Market Committee veröffentlichen Wirtschaftsprognosen von der FOMC-Sitzung vom 16. bis 17. Juni",
-          "summary": "Federal Reserve Board und Federal Open Market Committee veröffentlichen Wirtschaftsprognosen von der FOMC-Sitzung vom 16. bis 17. Juni"
-        },
-        "zh-TW": {
-          "title": "聯準會和聯邦公開市場委員會發布 6 月 16 日至 17 日 FOMC 會議的經濟預測",
-          "summary": "聯準會和聯邦公開市場委員會發布 6 月 16 日至 17 日 FOMC 會議的經濟預測"
-        },
-        "fr": {
-          "title": "Le Conseil de la Réserve fédérale et le Comité fédéral de l'Open Market publient les projections économiques de la réunion du FOMC des 16 et 17 juin.",
-          "summary": "Le Conseil de la Réserve fédérale et le Comité fédéral de l'Open Market publient les projections économiques de la réunion du FOMC des 16 et 17 juin."
-        }
-      }
-    },
-    {
       "title": "PPI for final demand advances 1.1% in May; goods rise 2.8%, services increase 0.3%",
       "link": "https://www.bls.gov/news.release/archives/ppi_06112026.htm",
       "summary": "",
@@ -2223,18 +2261,6 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
-    },
-    {
-      "title": "September job openings, hires, and total separations change little; quits increase",
-      "link": "https://www.bls.gov/news.release/archives/jolts_11032026.htm",
-      "summary": "",
-      "published_at": "2026-11-03T09:20:35.968-05:00",
-      "source": "bls_jolts",
-      "category": "labor",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "labor_neutral",
-      "_translation_hash": "aba05dda7c4881b1e6a1543222947192fb6495eea12f35d6128c0ee08213d6d3"
     }
   ]
 }
