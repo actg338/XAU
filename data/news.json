@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-24T00:19:32.721818+00:00",
+  "fetched_at": "2026-11-24T10:08:32.598082+00:00",
   "total": 118,
   "items": [
     {
@@ -12,7 +12,33 @@
       "impact": "medium",
       "gold_bias": "neutral",
       "why_key": "monetary_policy_neutral",
-      "_translation_hash": "0b1db66dd733014cbe5517cd54a891750d68a2e1f85b10c6a1a42a03ed2660cb"
+      "_translation_hash": "0b1db66dd733014cbe5517cd54a891750d68a2e1f85b10c6a1a42a03ed2660cb",
+      "translations": {
+        "zh-CN": {
+          "title": "Philip R. Lane：气候变化与货币政策",
+          "summary": ""
+        },
+        "zh-TW": {
+          "title": "Philip R. Lane：氣候變遷與貨幣政策",
+          "summary": ""
+        },
+        "ja": {
+          "title": "フィリップ・R・レーン: 気候変動と金融政策",
+          "summary": ""
+        },
+        "ko": {
+          "title": "Philip R. Lane: 기후 변화와 통화 정책",
+          "summary": ""
+        },
+        "de": {
+          "title": "Philip R. Lane: Klimawandel und Geldpolitik",
+          "summary": ""
+        },
+        "fr": {
+          "title": "Philip R. Lane : Changement climatique et politique monétaire",
+          "summary": ""
+        }
+      }
     },
     {
       "title": "Cook, The U.S. Economy in Global Context",
@@ -2199,16 +2225,16 @@
       "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
     },
     {
-      "title": "CPI for all items increases 0.4% in October; shelter rises",
-      "link": "https://www.bls.gov/news.release/archives/cpi_11102026.htm",
+      "title": "September job openings, hires, and total separations change little; quits increase",
+      "link": "https://www.bls.gov/news.release/archives/jolts_11032026.htm",
       "summary": "",
-      "published_at": "2026-11-10T07:55:47.272-05:00",
-      "source": "bls_cpi",
-      "category": "inflation",
-      "impact": "high",
+      "published_at": "2026-11-03T09:20:35.968-05:00",
+      "source": "bls_jolts",
+      "category": "labor",
+      "impact": "medium",
       "gold_bias": "neutral",
-      "why_key": "inflation_neutral",
-      "_translation_hash": "d4e1f4bd825e1b0ab0b3497f79b688eab249440fc5dec9e8a5eb0c7e6c81a3b9"
+      "why_key": "labor_neutral",
+      "_translation_hash": "aba05dda7c4881b1e6a1543222947192fb6495eea12f35d6128c0ee08213d6d3"
     }
   ]
 }
