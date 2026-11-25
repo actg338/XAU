@@ -1,7 +1,45 @@
 {
-  "fetched_at": "2026-11-25T13:37:14.193273+00:00",
+  "fetched_at": "2026-11-25T22:45:48.382076+00:00",
   "total": 118,
   "items": [
+    {
+      "title": "New Home Sales",
+      "link": "https://www.census.gov/construction/nrs/",
+      "summary": "Sales of new single-family houses in October 2026 were at a seasonally adjusted annual rate of 701,000. This is 14.2 percent (+/- 22.6%)* above the revised September 2026 estimate of 614,000. October 2026: +14.2* % Change September 2026 (r): -9.7* % Change",
+      "published_at": "Wed, 25 Nov 2026 10:00:00 -0500",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "a77390887933b2dd5b840d320f71a943225104633d537cf92a56115cd500c757",
+      "translations": {
+        "zh-CN": {
+          "title": "新屋销售",
+          "summary": "2026 年 10 月新建单户住宅销量经季节性调整后的年增长率为 701,000 套。这比 2026 年 9 月修订后的估计数 614,000 人高出 14.2% (+/- 22.6%)*。 2026 年 10 月：+14.2* 变化百分比 2026 年 9 月 (r)：-9.7* 变化百分比"
+        },
+        "ja": {
+          "title": "新築住宅販売",
+          "summary": "2026年10月の新築一戸建て住宅販売戸数（季節調整後）は年率70万1,000戸。これは、2026 年 9 月の改訂予測値 614,000 を 14.2 パーセント (+/- 22.6 %)* 上回っています。 2026 年 10 月: +14.2* % 変化 2026 年 9 月 (r): -9.7* % 変化"
+        },
+        "zh-TW": {
+          "title": "新屋銷售",
+          "summary": "2026 年 10 月新建單戶住宅銷售經季節性調整後的年增率為 701,000 套。這比 2026 年 9 月修訂後的估計數 614,000 人高出 14.2% (+/- 22.6%)*。 2026 年 10 月：+14.2* 變化百分比 2026 年 9 月 (r)：-9.7* 變化百分比"
+        },
+        "fr": {
+          "title": "Ventes de maisons neuves",
+          "summary": "Les ventes de maisons unifamiliales neuves en octobre 2026 se sont établies à un rythme annuel désaisonnalisé de 701 000. Cela représente 14,2 pour cent (+/- 22,6%)* au-dessus de l'estimation révisée de septembre 2026 de 614 000. Octobre 2026 : +14,2* % de variation Septembre 2026 (r) : -9,7* % de variation"
+        },
+        "de": {
+          "title": "Verkauf neuer Häuser",
+          "summary": "Der Verkauf neuer Einfamilienhäuser lag im Oktober 2026 bei einer saisonbereinigten Jahresrate von 701.000. Das sind 14,2 Prozent (+/- 22,6 %)* über der revidierten Schätzung vom September 2026 von 614.000. Oktober 2026: +14,2* % Veränderung September 2026 (r): -9,7* % Veränderung"
+        },
+        "ko": {
+          "title": "신규 주택 판매",
+          "summary": "2026년 10월 신규 단독주택 매매는 계절조정 연율 701,000건이었습니다. 이는 2026년 9월 수정된 추정치인 614,000보다 14.2%(+/- 22.6%)* 높은 수치입니다. 2026년 10월: +14.2* % 변화 2026년 9월(r): -9.7* % 변화"
+        }
+      }
+    },
     {
       "title": "Advance Monthly Manufacturers' Shipments, Inventories, and Orders",
       "link": "https://www.census.gov/manufacturing/m3/",
@@ -12,7 +50,33 @@
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "f43703de4f5ca2599f36f197c2c87afbdbb678bdd2c2eaf5ae814373d7f7cdb2"
+      "_translation_hash": "f43703de4f5ca2599f36f197c2c87afbdbb678bdd2c2eaf5ae814373d7f7cdb2",
+      "translations": {
+        "zh-CN": {
+          "title": "预付每月制造商的发货量、库存和订单",
+          "summary": "10 月份耐用品制成品新订单增加 8 亿美元，即 0.2%，达到 3,467 亿美元，是过去 8 个月中的 7 个月有所增长。 2026 年 10 月：+0.2° % 变化 2026 年 9 月 (r)：+2.0° % 变化"
+        },
+        "ja": {
+          "title": "メーカーの毎月の出荷、在庫、注文を前倒しする",
+          "summary": "１０月の耐久財新規受注は８億ドル（０．２％）増の３４６７億ドルで、過去８カ月中７カ月増加した。 2026年10月: +0.2° %変化 2026年9月(r): +2.0° %変化"
+        },
+        "zh-TW": {
+          "title": "預付每月製造商的出貨量、庫存和訂單",
+          "summary": "10 月耐用品製成品新訂單增加 8 億美元，即 0.2%，達到 3,467 億美元，是過去 8 個月中的 7 個月有所增長。 2026 年 10 月：+0.2° % 變化 2026 年 9 月 (r)：+2.0° % 變化"
+        },
+        "fr": {
+          "title": "Avancer les expéditions, les stocks et les commandes mensuelles des fabricants",
+          "summary": "Les nouvelles commandes de biens manufacturés durables en octobre, en hausse sur sept des huit derniers mois, ont augmenté de 0,8 milliard de dollars, soit 0,2%, à 346,7 milliards de dollars. Octobre 2026 : +0,2° % Variation Septembre 2026 (r) : +2,0° % Variation"
+        },
+        "de": {
+          "title": "Vorausschauende monatliche Herstellerlieferungen, Lagerbestände und Bestellungen",
+          "summary": "Die Auftragseingänge für langlebige Industriegüter stiegen im Oktober um sieben der letzten acht Monate um 0,8 Milliarden US-Dollar oder 0,2 Prozent auf 346,7 Milliarden US-Dollar. Oktober 2026: +0,2° % Veränderung September 2026 (r): +2,0° % Veränderung"
+        },
+        "ko": {
+          "title": "월간 제조업체의 선적, 재고 및 주문을 사전에 처리합니다.",
+          "summary": "10월 내구재 제조 신규 주문은 지난 8개월 중 7개월 증가해 8억 달러(0.2%) 증가한 3,467억 달러를 기록했습니다. 2026년 10월: +0.2° % 변화 2026년 9월 (r): +2.0° % 변화"
+        }
+      }
     },
     {
       "title": "Bowman, Modernizing Banking Supervision: A Shared Agenda for the Americas",
@@ -24,7 +88,33 @@
       "impact": "low",
       "gold_bias": "neutral",
       "why_key": "other_neutral",
-      "_translation_hash": "eb85409b193d993f8d6509d9408c9368dc1a8e4d61f70be94923c7dc1f5d7a00"
+      "_translation_hash": "eb85409b193d993f8d6509d9408c9368dc1a8e4d61f70be94923c7dc1f5d7a00",
+      "translations": {
+        "zh-CN": {
+          "title": "鲍曼，银行监管现代化：美洲的共同议程",
+          "summary": "在巴西巴西利亚举行的 ASBA-BCBS-FSI 美洲银行监管高级别会议上的讲话（通过预先录制的视频）"
+        },
+        "ja": {
+          "title": "ボウマン氏、銀行監督の近代化: アメリカ大陸の共通の課題",
+          "summary": "ブラジル、ブラジリアで開催された銀行監督に関するASBA-BCBS-FSI米州ハイレベル会合でのスピーチ（事前録画ビデオによる）"
+        },
+        "zh-TW": {
+          "title": "鮑曼，銀行監理現代化：美洲的共同議程",
+          "summary": "在巴西巴西利亞舉行的 ASBA-BCBS-FSI 美洲銀行監管高級別會議上的演講（透過預先錄製的影片）"
+        },
+        "fr": {
+          "title": "Bowman, Moderniser le contrôle bancaire : un programme commun pour les Amériques",
+          "summary": "Discours prononcé lors de la réunion de haut niveau ASBA-BCBS-FSI pour les Amériques sur le contrôle bancaire, Brasília, Brésil (via vidéo préenregistrée)"
+        },
+        "de": {
+          "title": "Bowman, Modernisierung der Bankenaufsicht: Eine gemeinsame Agenda für Amerika",
+          "summary": "Rede beim hochrangigen ASBA-BCBS-FSI-Treffen für Amerika zur Bankenaufsicht in Brasília, Brasilien (über aufgezeichnetes Video)"
+        },
+        "ko": {
+          "title": "Bowman, 은행 감독 현대화: 미주 지역을 위한 공유 의제",
+          "summary": "브라질 브라질리아에서 열린 ASBA-BCBS-FSI 은행 감독에 관한 미주 고위급 회의에서 연설(사전 녹화된 비디오를 통해)"
+        }
+      }
     },
     {
       "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
@@ -1217,44 +1307,6 @@
       "_translation_hash": "b69bbd5bc31403f1a91fc76cd40382e4ff56dced7317b58855a269b95ab831e3"
     },
     {
-      "title": "New Home Sales",
-      "link": "https://www.census.gov/construction/nrs/",
-      "summary": "Sales of new single-family houses in September 2026 were at a seasonally adjusted annual rate of 676,000. This is 0.6 percent (+/- 13.8%)* below the revised August 2026 estimate of 680,000. September 2026: -0.6* % Change August 2026 (r): +5.1* % Change",
-      "published_at": "Tue, 27 Oct 2026 10:00:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "416d6695fdf13a4b7ecbaa701f3b8e502cf8b5333b87ea4390ba72698a5c24de",
-      "translations": {
-        "zh-CN": {
-          "title": "新屋销售",
-          "summary": "2026 年 9 月新建单户住宅销量经季节性调整后的年增长率为 676,000 套。这比修订后的 2026 年 8 月估计数 680,000 低 0.6% (+/- 13.8%)*。 2026 年 9 月：-0.6* 变化百分比 2026 年 8 月 (r)：+5.1* 变化百分比"
-        },
-        "ja": {
-          "title": "新築住宅販売",
-          "summary": "２０２６年９月の新築一戸建て住宅販売は季節調整済み年率６７万６０００戸となった。これは、2026 年 8 月の改訂予測値 680,000 を 0.6 パーセント (+/- 13.8 %)* 下回っています。 2026 年 9 月: -0.6* % 変化 2026 年 8 月 (r): +5.1* % 変化"
-        },
-        "ko": {
-          "title": "신규 주택 판매",
-          "summary": "2026년 9월 신규 단독주택 매매는 계절조정 연율 676,000건이었습니다. 이는 2026년 8월 수정된 추정치인 680,000보다 0.6%(+/- 13.8%)* 낮은 수치입니다. 2026년 9월: -0.6* % 변화 2026년 8월(r): +5.1* % 변화"
-        },
-        "zh-TW": {
-          "title": "新屋銷售",
-          "summary": "2026 年 9 月新建單戶住宅銷售經季節性調整後的年增率為 676,000 套。這比修訂後的 2026 年 8 月估計數 680,000 低 0.6% (+/- 13.8%)*。 2026 年 9 月：-0.6* 變化百分比 2026 年 8 月 (r)：+5.1* 變化百分比"
-        },
-        "de": {
-          "title": "Verkauf neuer Häuser",
-          "summary": "Der Verkauf neuer Einfamilienhäuser lag im September 2026 bei einer saisonbereinigten Jahresrate von 676.000. Das sind 0,6 Prozent (+/- 13,8 %)* weniger als die revidierte Schätzung vom August 2026 von 680.000. September 2026: -0,6* % Veränderung August 2026 (r): +5,1* % Veränderung"
-        },
-        "fr": {
-          "title": "Ventes de maisons neuves",
-          "summary": "Les ventes de maisons unifamiliales neuves en septembre 2026 se sont établies à un rythme annuel désaisonnalisé de 676 000. Cela représente 0,6 pour cent (+/- 13,8%)* en dessous de l'estimation révisée d'août 2026 de 680 000. Septembre 2026 : -0,6* % de variation Août 2026 (r) : +5,1* % de variation"
-        }
-      }
-    },
-    {
       "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
       "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
       "summary": "Speech At the Bangkok Economic Festival, Reinventing Bretton Woods Committee, Bangkok, Thailand",
@@ -2135,28 +2187,28 @@
       "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
     },
     {
-      "title": "September job openings, hires, and total separations change little; quits increase",
-      "link": "https://www.bls.gov/news.release/archives/jolts_11032026.htm",
+      "title": "Payroll employment rises by 165,000 in October; unemployment rate changes little at 4.1%",
+      "link": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
       "summary": "",
-      "published_at": "2026-11-03T09:20:35.968-05:00",
-      "source": "bls_jolts",
+      "published_at": "2026-11-06T07:50:31.965-05:00",
+      "source": "bls_jobs",
       "category": "labor",
-      "impact": "medium",
+      "impact": "high",
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
-      "_translation_hash": "aba05dda7c4881b1e6a1543222947192fb6495eea12f35d6128c0ee08213d6d3"
+      "_translation_hash": "9722cb61a6a73107b6fd1b55cc7889fc86dc058c01b76886a580981bdfb03fb7"
     },
     {
-      "title": "August job openings and hires change little; total separations unchanged",
-      "link": "https://www.bls.gov/news.release/archives/jolts_09292026.htm",
+      "title": "Both payroll employment (+29,000) and unemployment rate (4.2%) change little in September",
+      "link": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
       "summary": "",
-      "published_at": "2026-09-29T09:20:32.09-04:00",
-      "source": "bls_jolts",
+      "published_at": "2026-10-02T07:51:08.289-04:00",
+      "source": "bls_jobs",
       "category": "labor",
-      "impact": "medium",
+      "impact": "high",
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
-      "_translation_hash": "ae4643776403e9edf0d3aa5d8e13271c518393a47f56aa095daf1f73b02a8e61"
+      "_translation_hash": "96841db93c0b04c1b65eabfa6b25531e2ea9b14f1619ecf8beef34b102ef9ef5"
     }
   ]
 }
