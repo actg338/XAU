@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-25T03:45:37.062748+00:00",
+  "generated_at": "2026-11-25T13:37:23.177523+00:00",
   "direction": "bearish",
-  "label_key": "mild_bearish",
-  "confidence": 89,
-  "score": -34,
+  "label_key": "strong_bearish",
+  "confidence": 92,
+  "score": -54,
   "drivers": [
     "fedwatch",
     "xau",

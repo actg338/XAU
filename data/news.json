@@ -1,7 +1,31 @@
 {
-  "fetched_at": "2026-11-25T03:45:36.732182+00:00",
-  "total": 119,
+  "fetched_at": "2026-11-25T13:37:14.193273+00:00",
+  "total": 118,
   "items": [
+    {
+      "title": "Advance Monthly Manufacturers' Shipments, Inventories, and Orders",
+      "link": "https://www.census.gov/manufacturing/m3/",
+      "summary": "New orders for manufactured durable goods in October, up seven of the last eight months, increased $0.8 billion or 0.2 percent to $346.7 billion. October 2026: +0.2° % Change September 2026 (r): +2.0° % Change",
+      "published_at": "Wed, 25 Nov 2026 08:30:00 -0500",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "f43703de4f5ca2599f36f197c2c87afbdbb678bdd2c2eaf5ae814373d7f7cdb2"
+    },
+    {
+      "title": "Bowman, Modernizing Banking Supervision: A Shared Agenda for the Americas",
+      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261125a.htm",
+      "summary": "Speech At the ASBA–BCBS–FSI High-Level Meeting for the Americas on Banking Supervision, Brasília, Brazil (via pre-recorded video)",
+      "published_at": "Wed, 25 Nov 2026 12:25:00 GMT",
+      "source": "fed_remarks",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "eb85409b193d993f8d6509d9408c9368dc1a8e4d61f70be94923c7dc1f5d7a00"
+    },
     {
       "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
@@ -725,44 +749,6 @@
       }
     },
     {
-      "title": "ICYMI: Secretary Duffy’s Full Sunday Circuit Outlines Ground Stop Response and the Path Forward",
-      "link": "https://www.whitehouse.gov/releases/2026/11/icymi-secretary-duffys-full-sunday-circuit-outlines-ground-stop-response-and-the-path-forward/",
-      "summary": "This morning, Secretary of Transportation Sean Duffy appeared on all five Sunday shows to level with the American people about Friday’s nationwide ground stop. Secretary Duffy laid out the Trump Administration’s decisive actions to isolate the problem and restore the airspace and shared preliminary findings from the investigation. While Democrats shamefully lie and resist finishing […] The post ICYMI: Secretary Duffy’s Full Sunday Circuit Outlines Ground Stop Response and the Path Forward appear",
-      "published_at": "Sun, 15 Nov 2026 21:07:34 +0000",
-      "source": "white_house",
-      "category": "geopolitics",
-      "impact": "medium",
-      "gold_bias": "bullish",
-      "why_key": "geopolitics_bullish",
-      "_translation_hash": "8d6ec8f3f13fc1d6f3272dd9c6308dd8e743a338e00c4b63e5e65c7b65879c7a",
-      "translations": {
-        "zh-CN": {
-          "title": "ICYMI：达菲部长的周日巡回赛概述了地面站响应和前进的道路",
-          "summary": "今天早上，交通部长肖恩·达菲出现在所有五场周日节目中，就周五的全国地面停车向美国人民坦白。达菲部长阐述了特朗普政府为隔离问题和恢复领空而采取的果断行动，并分享了调查的初步结果。虽然民主党人可耻地撒谎并拒绝完成[…]后ICYMI：部长达菲的完整周日电路概述了地面停止响应和前进的道路出现"
-        },
-        "ja": {
-          "title": "ICYMI: ダフィー長官の日曜サーキット全編が地上停止対応と今後の道筋を概説",
-          "summary": "今朝、ショーン・ダフィー運輸長官は、金曜日の全米一斉停止についてアメリカ国民と意見を一致させるため、日曜日の番組5本すべてに出演した。ダフィー長官は、問題を切り分けて空域を回復するためのトランプ政権の断固とした行動を説明し、調査の予備的結果を共有した。民主党が恥ずべき嘘をつき、終わらせることに抵抗している一方で、ICYMIの投稿：ダフィー長官の日曜巡回フルコースは、地上停止対応と前進への道筋を概説している"
-        },
-        "ko": {
-          "title": "ICYMI: Duffy 장관의 일요일 전체 서킷에서 지상 정지 대응 및 전진 경로 개요",
-          "summary": "오늘 아침 Sean Duffy 교통부 장관은 금요일의 전국적인 지상 정지에 대해 미국 국민에게 알리기 위해 5개의 일요일 쇼에 모두 출연했습니다. 더피 장관은 문제를 격리하고 영공을 복원하기 위한 트럼프 행정부의 결단력 있는 조치를 설명하고 조사에서 얻은 예비 결과를 공유했습니다. 민주당원들은 수치스럽게 거짓말을 하고 마무리를 거부하는 반면 [...] 포스트 ICYMI: 더피 장관의 전체 일요일 순회 개요 지상 정지 응답 및 전진 경로가 나타납니다."
-        },
-        "zh-TW": {
-          "title": "ICYMI：達菲部長的周日巡迴賽概述了地面站響應和前進的道路",
-          "summary": "今天早上，交通部長肖恩·達菲出現在所有五場週日節目中，就週五的全國地面停車向美國人民坦白。達菲部長闡述了川普政府為隔離問題和恢復領空而採取的果斷行動，並分享了調查的初步結果。雖然民主黨人可恥地撒謊並拒絕完成[…]後ICYMI：部長達菲的完整週日電路概述了地面停止響應和前進的道路出現"
-        },
-        "de": {
-          "title": "ICYMI: Der vollständige Sonntagsrundgang von Minister Duffy skizziert die Reaktion auf Bodenstopps und den Weg nach vorne",
-          "summary": "Heute Morgen trat Verkehrsminister Sean Duffy in allen fünf Sonntagsshows auf, um das amerikanische Volk über den landesweiten Bodenstopp am Freitag zu unterrichten. Minister Duffy erläuterte die entscheidenden Maßnahmen der Trump-Administration zur Eingrenzung des Problems und zur Wiederherstellung des Luftraums und teilte vorläufige Ergebnisse der Untersuchung mit. Während die Demokraten beschämend lügen und sich weigern, fertig zu werden, erscheint der Beitrag „ICYMI: Secretary Duffy’s Full Sunday Circuit Outlines Ground Stop Response and the Path Forward“."
-        },
-        "fr": {
-          "title": "ICYMI : Le circuit complet du dimanche du secrétaire Duffy décrit la réponse à l'arrêt au sol et la voie à suivre",
-          "summary": "Ce matin, le secrétaire aux Transports, Sean Duffy, est apparu dans les cinq émissions du dimanche pour mettre le peuple américain au niveau de l'arrêt au sol national de vendredi. Le secrétaire Duffy a exposé les actions décisives de l’administration Trump pour isoler le problème et restaurer l’espace aérien et a partagé les conclusions préliminaires de l’enquête. Tandis que les démocrates mentent honteusement et résistent à la fin […] L'article ICYMI : le circuit complet du dimanche du secrétaire Duffy décrit la réponse à l'arrêt au sol et la voie à suivre apparaissent"
-        }
-      }
-    },
-    {
       "title": "Jefferson, New Technology, Old Questions: Productivity Puzzles and the Macroeconomy",
       "link": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
       "summary": "Speech At the University of California, San Diego Economic Roundtable, San Diego, California",
@@ -1067,44 +1053,6 @@
       }
     },
     {
-      "title": "Isabel Schnabel: Navigating stormy waters: reflections on monetary policy",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html",
-      "summary": "",
-      "published_at": "Thu, 05 Nov 2026 09:00:00 +0100",
-      "source": "ecb",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "63978c499a3e32a2ec076298a7d1c4cd256608f1d27079d21df044a62891fed6",
-      "translations": {
-        "ja": {
-          "title": "イザベル・シュナーベル: 荒波を乗り越える: 金融政策についての考察",
-          "summary": ""
-        },
-        "zh-CN": {
-          "title": "伊莎贝尔·施纳贝尔：渡过惊涛骇浪：对货币政策的反思",
-          "summary": ""
-        },
-        "ko": {
-          "title": "이사벨 슈나벨: 폭풍우를 헤쳐나가기: 통화 정책에 대한 성찰",
-          "summary": ""
-        },
-        "zh-TW": {
-          "title": "伊莎貝爾·施納貝爾：渡過驚濤駭浪：對貨幣政策的反思",
-          "summary": ""
-        },
-        "de": {
-          "title": "Isabel Schnabel: Durch stürmische Gewässer navigieren: Überlegungen zur Geldpolitik",
-          "summary": ""
-        },
-        "fr": {
-          "title": "Isabel Schnabel : Naviguer en eaux tumultueuses : réflexions sur la politique monétaire",
-          "summary": ""
-        }
-      }
-    },
-    {
       "title": "U.S. International Trade in Goods and Services",
       "link": "https://www.census.gov/foreign-trade/index.html",
       "summary": "The nation's international trade deficit in goods and services decreased to $105.0 billion in September from $105.7 billion in August (revised), as exports increased more than imports. September 2026: -0.7° % Change August 2026 (r): 13.9° % Change",
@@ -1139,44 +1087,6 @@
         "fr": {
           "title": "Commerce international des biens et services des États-Unis",
           "summary": "Le déficit du commerce international des biens et services du pays a diminué à 105,0 milliards de dollars en septembre contre 105,7 milliards de dollars en août (révisé), les exportations ayant augmenté plus que les importations. Septembre 2026 : -0,7° % Variation Août 2026 (r) : 13,9° % Variation"
-        }
-      }
-    },
-    {
-      "title": "Manufacturers' Shipments, Inventories, and Orders",
-      "link": "https://www.census.gov/manufacturing/m3/",
-      "summary": "New orders for manufactured goods in September, up three consecutive months, increased $12.2 billion or 1.8 percent to $677.2 billion. September 2026: +1.8° % Change August 2026 (r): +0.3° % Change",
-      "published_at": "Tue, 03 Nov 2026 10:00:00 -0500",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "1957e6d29967a74ab4486a17e4ddf06dba07dc44f2f3adc907415f4768d1b2fb",
-      "translations": {
-        "zh-CN": {
-          "title": "制造商的出货量、库存和订单",
-          "summary": "9月份制成品新订单连续三个月增长，增加122亿美元，达到6772亿美元，增幅1.8%。 2026 年 9 月：+1.8° % 变化 2026 年 8 月 (r)：+0.3° % 变化"
-        },
-        "ja": {
-          "title": "メーカー出荷・在庫・受注状況",
-          "summary": "９月の工業製品の新規受注は３カ月連続で増加し、１２２億ドル（１．８％）増の６７７２億ドルとなった。 2026年9月: +1.8° %変化 2026年8月(r): +0.3° %変化"
-        },
-        "ko": {
-          "title": "제조업체의 배송, 재고 및 주문",
-          "summary": "9월 공산품 신규 주문은 3개월 연속 증가해 122억 달러(1.8%) 증가한 6,772억 달러를 기록했습니다. 2026년 9월: +1.8° % 변화 2026년 8월(r): +0.3° % 변화"
-        },
-        "zh-TW": {
-          "title": "製造商的出貨量、庫存和訂單",
-          "summary": "9月製成品新訂單連續三個月成長，增加122億美元，達6772億美元，增幅1.8%。 2026 年 9 月：+1.8° % 變化 2026 年 8 月 (r)：+0.3° % 變化"
-        },
-        "fr": {
-          "title": "Expéditions, stocks et commandes des fabricants",
-          "summary": "Les nouvelles commandes de produits manufacturés en septembre, en hausse sur trois mois consécutifs, ont augmenté de 12,2 milliards de dollars ou 1,8 pour cent à 677,2 milliards de dollars. Septembre 2026 : +1,8° % Variation Août 2026 (r) : +0,3° % Variation"
-        },
-        "de": {
-          "title": "Lieferungen, Bestände und Bestellungen der Hersteller",
-          "summary": "Die Auftragseingänge für Industriegüter stiegen im September drei Monate in Folge um 12,2 Milliarden US-Dollar oder 1,8 Prozent auf 677,2 Milliarden US-Dollar. September 2026: +1,8° % Veränderung August 2026 (r): +0,3° % Veränderung"
         }
       }
     },
@@ -1531,44 +1441,6 @@
         "de": {
           "title": "Bowman, Modernisierung der Regulierungs- und Aufsichtslandschaft",
           "summary": "Rede auf der Community Banking Research Conference 2026, gesponsert vom Federal Reserve System, der Conference of State Bank Supervisors und der Federal Deposit Insurance Corporation, St. Louis, Missouri"
-        }
-      }
-    },
-    {
-      "title": "Bowman, Modernizing Financial Regulation: Initial Observations from eSLR",
-      "link": "https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm",
-      "summary": "Speech At the Atlantic Council 2026 CEO & Senior Management Summit, Washington, D.C.",
-      "published_at": "Thu, 1 Oct 2026 19:00:00 GMT",
-      "source": "fed_remarks",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "e2f864d14db9a07babdac48d1333009f84fba2f6544a2df690dd7eaa767fce11",
-      "translations": {
-        "zh-CN": {
-          "title": "Bowman，《金融监管现代化：eSLR 的初步观察》",
-          "summary": "在大西洋理事会 2026 年首席执行官和高级管理人员峰会上的演讲，华盛顿特区"
-        },
-        "zh-TW": {
-          "title": "Bowman，《金融監理現代化：eSLR 的初步觀察》",
-          "summary": "在大西洋理事會 2026 年首席執行官和高級管理人員峰會上的演講，華盛頓特區"
-        },
-        "ko": {
-          "title": "Bowman, 금융 규제 현대화: eSLR의 초기 관찰",
-          "summary": "워싱턴 D.C.에서 열린 Atlantic Council 2026 CEO 및 고위 경영진 서밋에서 연설"
-        },
-        "ja": {
-          "title": "Bowman 氏、金融規制の近代化: eSLR からの初期の見解",
-          "summary": "ワシントンD.C.で開催されたAtlantic Council 2026 CEO & Senior Management Summitでのスピーチ"
-        },
-        "fr": {
-          "title": "Bowman, Moderniser la réglementation financière : premières observations de l'eSLR",
-          "summary": "Discours prononcé lors du Sommet des PDG et des cadres supérieurs de l'Atlantic Council 2026, Washington, D.C."
-        },
-        "de": {
-          "title": "Bowman, Modernisierung der Finanzregulierung: Erste Beobachtungen von eSLR",
-          "summary": "Rede beim Atlantic Council 2026 CEO & Senior Management Summit, Washington, D.C."
         }
       }
     },
@@ -2261,6 +2133,30 @@
       "gold_bias": "neutral",
       "why_key": "labor_neutral",
       "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
+    },
+    {
+      "title": "September job openings, hires, and total separations change little; quits increase",
+      "link": "https://www.bls.gov/news.release/archives/jolts_11032026.htm",
+      "summary": "",
+      "published_at": "2026-11-03T09:20:35.968-05:00",
+      "source": "bls_jolts",
+      "category": "labor",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "aba05dda7c4881b1e6a1543222947192fb6495eea12f35d6128c0ee08213d6d3"
+    },
+    {
+      "title": "August job openings and hires change little; total separations unchanged",
+      "link": "https://www.bls.gov/news.release/archives/jolts_09292026.htm",
+      "summary": "",
+      "published_at": "2026-09-29T09:20:32.09-04:00",
+      "source": "bls_jolts",
+      "category": "labor",
+      "impact": "medium",
+      "gold_bias": "neutral",
+      "why_key": "labor_neutral",
+      "_translation_hash": "ae4643776403e9edf0d3aa5d8e13271c518393a47f56aa095daf1f73b02a8e61"
     }
   ]
 }
