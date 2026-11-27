@@ -1,7 +1,83 @@
 {
-  "fetched_at": "2026-11-27T05:01:17.677118+00:00",
+  "fetched_at": "2026-11-27T14:56:01.465321+00:00",
   "total": 118,
   "items": [
+    {
+      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+      "link": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261127~13ecadc0f2.en.html",
+      "summary": "",
+      "published_at": "Fri, 27 Nov 2026 15:00:00 +0100",
+      "source": "ecb",
+      "category": "monetary_policy",
+      "impact": "high",
+      "gold_bias": "neutral",
+      "why_key": "monetary_policy_neutral",
+      "_translation_hash": "74c37c553fb251a4c8ef04f315442854fbadcdcad82db485b52b5feb0085ea55",
+      "translations": {
+        "zh-CN": {
+          "title": "欧洲央行管理委员会做出的决定（除了设定利率的决定之外）",
+          "summary": ""
+        },
+        "ja": {
+          "title": "ECB理事会による決定（金利設定の決定に加えて）",
+          "summary": ""
+        },
+        "ko": {
+          "title": "ECB 이사회의 결정(이자율 설정 결정에 추가)",
+          "summary": ""
+        },
+        "zh-TW": {
+          "title": "歐洲央行管理委員會所做的決定（除了設定利率的決定之外）",
+          "summary": ""
+        },
+        "de": {
+          "title": "Entscheidungen des EZB-Rats (zusätzlich zu Entscheidungen zur Festlegung der Zinssätze)",
+          "summary": ""
+        },
+        "fr": {
+          "title": "Décisions prises par le Conseil des gouverneurs de la BCE (en plus des décisions fixant les taux d'intérêt)",
+          "summary": ""
+        }
+      }
+    },
+    {
+      "title": "Advance Retail Inventories",
+      "link": "https://www.census.gov/econ/indicators/index.html",
+      "summary": "October 2026 end-of-month inventories were $893.2 billion, up 0.8 percent (+/-0.2 percent) from last month. October 2026: +0.8 % Change in Inventories September 2026 (r): +0.7 % Change in Inventories",
+      "published_at": "Fri, 27 Nov 2026 08:30:00 -0500",
+      "source": "census",
+      "category": "other",
+      "impact": "low",
+      "gold_bias": "neutral",
+      "why_key": "other_neutral",
+      "_translation_hash": "542a3b514677076e00f95efbd0c25b1b89ae9d71480439c1498444fd436a582a",
+      "translations": {
+        "zh-CN": {
+          "title": "预付零售库存",
+          "summary": "2026 年 10 月月末库存为 8,932 亿美元，比上月增长 0.8% (+/-0.2%)。 2026 年 10 月：库存变化 +0.8% 2026 年 9 月 (r)：库存变化 +0.7%"
+        },
+        "ja": {
+          "title": "事前小売在庫",
+          "summary": "２０２６年１０月の月末在庫は８９３２億ドルで、前月比０．８％（±０．２％）増加した。 2026年10月: +0.8 % 在庫変動 2026年9月(r): +0.7 % 在庫変動"
+        },
+        "ko": {
+          "title": "사전 소매 재고",
+          "summary": "2026년 10월 월말 재고는 8,932억 달러로 전월 대비 0.8%(+/-0.2%) 증가했습니다. 2026년 10월: 재고 변동 +0.8% 2026년 9월(r): 재고 변동 +0.7%"
+        },
+        "zh-TW": {
+          "title": "預付零售庫存",
+          "summary": "2026 年 10 月月底庫存為 8,932 億美元，比上月增長 0.8% (+/-0.2%)。 2026 年 10 月：庫存變動 +0.8% 2026 年 9 月 (r)：庫存變動 +0.7%"
+        },
+        "de": {
+          "title": "Vorab Lagerbestände im Einzelhandel",
+          "summary": "Die Lagerbestände zum Monatsende im Oktober 2026 beliefen sich auf 893,2 Milliarden US-Dollar, ein Plus von 0,8 Prozent (+/-0,2 Prozent) gegenüber dem Vormonat. Oktober 2026: +0,8 % Bestandsveränderung September 2026 (r): +0,7 % Bestandsveränderung"
+        },
+        "fr": {
+          "title": "Avancer les stocks de détail",
+          "summary": "Les stocks de fin de mois d'octobre 2026 s'élevaient à 893,2 milliards de dollars, en hausse de 0,8 % (+/-0,2 %) par rapport au mois dernier. Octobre 2026 : +0,8 % Variation des Stocks Septembre 2026 (r) : +0,7 % Variation des Stocks"
+        }
+      }
+    },
     {
       "title": "New Home Sales",
       "link": "https://www.census.gov/construction/nrs/",
@@ -1029,44 +1105,6 @@
       }
     },
     {
-      "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
-      "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html",
-      "summary": "",
-      "published_at": "Tue, 10 Nov 2026 17:45:00 +0100",
-      "source": "ecb",
-      "category": "monetary_policy",
-      "impact": "medium",
-      "gold_bias": "neutral",
-      "why_key": "monetary_policy_neutral",
-      "_translation_hash": "8fa124ff65ebb010f0f87b518b092283adf71bc62745fe079354d33fb5f5b187",
-      "translations": {
-        "ja": {
-          "title": "フィリップ・R・レーン: 金融政策コミュニケーションの科学と実践: ECB の経験",
-          "summary": ""
-        },
-        "zh-CN": {
-          "title": "Philip R. Lane：货币政策沟通的科学与实践：欧洲央行的经验",
-          "summary": ""
-        },
-        "de": {
-          "title": "Philip R. Lane: Wissenschaft und Praxis der geldpolitischen Kommunikation: die Erfahrung der EZB",
-          "summary": ""
-        },
-        "zh-TW": {
-          "title": "Philip R. Lane：貨幣政策溝通的科學與實踐：歐洲央行的經驗",
-          "summary": ""
-        },
-        "ko": {
-          "title": "Philip R. Lane: 통화 정책 커뮤니케이션의 과학과 실제: ECB 경험",
-          "summary": ""
-        },
-        "fr": {
-          "title": "Philip R. Lane : La science et la pratique de la communication sur la politique monétaire : l'expérience de la BCE",
-          "summary": ""
-        }
-      }
-    },
-    {
       "title": "Waller, The Economic Outlook and Some Thoughts on Labor Market Dynamism",
       "link": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
       "summary": "Speech At the Bank of England Watchers Conference King’s Business School and Money, Macro and Finance Society, London, United Kingdom",
@@ -1293,18 +1331,6 @@
           "summary": "Die Mietleerstandsquote lag mit 7,6 Prozent über der Quote im dritten Quartal 2025. Im Vergleich zum dritten Quartal 2025 waren die Mietleerstandsquoten im Nordosten und Westen höher und im Mittleren Westen und Süden statistisch gesehen nicht unterschiedlich. 3. Quartal 2026: +0,5 Prozentpunkte. 3. Quartal 2025: +0,2* Prozentpunkte"
         }
       }
-    },
-    {
-      "title": "Advance Wholesale Inventories",
-      "link": "https://www.census.gov/econ/indicators/index.html",
-      "summary": "September end-of-month inventories were $1,011.5 billion, up 0.6 percent (+/- 0.2 percent) from last month. September 2026: +0.6 % Change in Inventories August 2026 (r): +0.5 % Change in Inventories",
-      "published_at": "Wed, 28 Oct 2026 08:30:00 -0400",
-      "source": "census",
-      "category": "other",
-      "impact": "low",
-      "gold_bias": "neutral",
-      "why_key": "other_neutral",
-      "_translation_hash": "b69bbd5bc31403f1a91fc76cd40382e4ff56dced7317b58855a269b95ab831e3"
     },
     {
       "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
@@ -2187,28 +2213,28 @@
       "_translation_hash": "e012fb3ab164d7c0753c4e0e70e6080b2108b8ee93b0f2b70990e6cecedfe1aa"
     },
     {
-      "title": "GDP, (Second Estimate) and Corporate Profits, 3rd Quarter 2026",
-      "link": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
-      "summary": "Real gross domestic product (GDP) increased at an annual rate of 4.3 percent in the third quarter of 2026 (July, August, and September), according to the second estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the second quarter, real GDP increased 2.2 percent. The contributors to the increase in real GDP in the third quarter were increases in investment, consumer spending, and government spending that were partly offset by a decrease in exports. Imports, which are a sub",
-      "published_at": "Wed, 25 Nov 2026 08:30:00 EST",
-      "source": "bea",
-      "category": "growth",
+      "title": "Payroll employment rises by 165,000 in October; unemployment rate changes little at 4.1%",
+      "link": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
+      "summary": "",
+      "published_at": "2026-11-06T07:50:31.965-05:00",
+      "source": "bls_jobs",
+      "category": "labor",
       "impact": "high",
       "gold_bias": "neutral",
-      "why_key": "growth_neutral",
-      "_translation_hash": "3bc6c6eae7a443818f72733f2a7fad3aef84737e5d421f8a7efd4705b459155e"
+      "why_key": "labor_neutral",
+      "_translation_hash": "9722cb61a6a73107b6fd1b55cc7889fc86dc058c01b76886a580981bdfb03fb7"
     },
     {
-      "title": "Personal Income and Outlays, October 2026",
-      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
-      "summary": "Personal income increased $201.8 billion (0.7 percent at a monthly rate) in October, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)–personal income less personal current taxes–increased $200.5 billion (0.8 percent), and personal consumption expenditures (PCE) increased $63.8 billion (0.3 percent). Personal outlays–the sum of PCE, personal interest payments, and personal current transfer payments–increased $69.3 billion in Oct",
-      "published_at": "Wed, 25 Nov 2026 08:30:00 EST",
-      "source": "bea",
-      "category": "growth",
+      "title": "Both payroll employment (+29,000) and unemployment rate (4.2%) change little in September",
+      "link": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
+      "summary": "",
+      "published_at": "2026-10-02T07:51:08.289-04:00",
+      "source": "bls_jobs",
+      "category": "labor",
       "impact": "high",
       "gold_bias": "neutral",
-      "why_key": "growth_neutral",
-      "_translation_hash": "273c815d2000a86d80dab91da4b702b546a64a199e1d862f65c2e00666fd60ca"
+      "why_key": "labor_neutral",
+      "_translation_hash": "96841db93c0b04c1b65eabfa6b25531e2ea9b14f1619ecf8beef34b102ef9ef5"
     }
   ]
 }

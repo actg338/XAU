@@ -1,18 +1,24 @@
 {
-  "generated_at": "2026-11-27T05:01:17.921706+00:00",
+  "generated_at": "2026-11-27T14:56:04.612177+00:00",
   "direction": "neutral",
   "label_key": "balanced",
-  "confidence": 71,
-  "score": -7,
+  "confidence": 75,
+  "score": -6,
   "drivers": [
-    "warsh",
-    "dxy"
+    "warsh"
   ],
   "counter_risks": [
     "fedwatch",
-    "xau"
+    "xau",
+    "dxy"
   ],
   "top_news": [
+    {
+      "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+      "link": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261127~13ecadc0f2.en.html",
+      "category": "monetary_policy",
+      "bias": "neutral"
+    },
     {
       "title": "Federal Reserve issues FOMC statement",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
@@ -22,12 +28,6 @@
     {
       "title": "Federal Reserve issues FOMC statement",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-      "category": "monetary_policy",
-      "bias": "neutral"
-    },
-    {
-      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "category": "monetary_policy",
       "bias": "neutral"
     }
